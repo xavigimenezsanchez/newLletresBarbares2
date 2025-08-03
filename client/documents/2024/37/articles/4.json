@@ -1,0 +1,32 @@
+{
+    "title" : "La veu escollida",
+    "url" : "la-veu-escollida",
+    "section" : "articles",
+    "issue" : 36,
+    "data" : "21/06/2024",
+    "imageCard" : "freijomil36-01",
+    "author" : "Sandra Freijomil",
+    "summary" : "",
+    "text" : [ 
+        {
+            "type" : "image",
+            "name": "freijomil36-01"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "De novel·les històriques n’hi ha una pila. Penso en un tipus concret de novel·la que narra fets històrics i no em refereixo a les que expliquen la vida d’algun personatge il·lustre sinó més aviat a les que escullen un tram de vida d’un personatge real i juguen a recrear-lo, fent ús de la documentació històrica però també de la ficció. Parlo de novel·les com <i>Eufòria</i> (E. Cullhed, Les Hores, 2022) o <i>La llibretera de París</i> (K. Maher, Navona, 2022)."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Ambdues novel·les tenen en comú el fet d’escollir un tram de la vida del personatge i ficcionar-lo perquè, de quina altra manera podríem escoltar les converses entre Sylvia Plath i Ted Hughes a la casa que van rehabilitar a Devon, on volien fer créixer els seus dos fills? Podem llegir les cartes i els diaris que escrivia la Sylvia. Podem recuperar els seus poemes i les obres de Hughes. Podem tractar de reconstruir el trencaclosques de tot allò que ens ha llegat la història. I, així i tot, mentirem. Com, per exemple, podria haver mentit la Sylvia escrivint les cartes a la mare, reproduint les discussions amb el Ted al seu diari, o com podem mentir qualsevol de nosaltres quan expliquem un fet passat, matisat pel nostre sedàs."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Ens acostarà més a la veritat el fet de fer servir el seu vocabulari? La seva manera de parlar? És una altra de les preguntes que em faig. Les dues novel·les que menciono estan escrites segons la parla actual. Tot i mantenir petites convencions, el registre és prou modern. Seria més creïble fer parlar Joyce com devia expressar-se de veritat? Ho podem saber? Fins on n’hem de ser fidels a aquesta possibilitat si la manera de fer-lo dir pot expulsar el lector del text? Una veu prou respectuosa per ser creïble i prou actual perquè la lectura es faci àgil i ens atrapi. I, buscant aquest equilibri, una veu que, inevitablement serà la de l’autor a través del narrador, però, que, de tan propera al personatge, l’acceptarem com a seva."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Quan llegeixo aquesta mena de novel·les n’hi ha que em convencen més que d’altres. Ho és  perquè la filigrana d’escollir la veu i fer-la creïble ha quallat? O potser el personatge no fa servir el vostè, com era habitual a l’època, i així tot em sembla més proper? És preferible recórrer a certs usos més actuals de determinades paraules per fer comprensible una trama o cal buscar el vocabulari específic i en desús en un diccionari? No sabria establir, així, a priori, quina de les escriptures em funciona millor, però hi ha alguna cosa que, en determinades obres em passa i en d’altres no, i és que encaixen. A <i>Eufòria</i> hi llegeixo Sylvia Plath, la Sylvia real o la que el meu imaginari ha construït i que s’adiu amb la d’Elin Cullhed. A <i>La llibretera de París</i> hi sento discutir i enamorar-se a Sylvia Beach i Adrienne Monier i tal vegada la seva intimitat dista lluny d’assemblar-s’hi. No sabria dir-ne els perquès, però sí afirmar que, quina cosa quan la veu escollida encaixa."
+        }
+    ]
+}

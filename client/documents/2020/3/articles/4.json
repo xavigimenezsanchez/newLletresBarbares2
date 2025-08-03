@@ -1,0 +1,73 @@
+{
+  "title": "Criticar un text",
+  "url": "criticar_un_text",
+  "section": "articles",
+  "issue": 2,
+  "data": "20/11/2020",
+  "imageCard": "Faetont",
+  "author": "Andreu Pérez-Mingorance",
+  "summary": "Vaig tenir una formació en crítica textual, una matèria que no té com a objectiu fer crítica de l’obra en el sentit que tothom pensa. Bàsicament, intenta restituir textos antics perquè el lector modern sigui capaç de llegir-los. Són edicions amb aparells crítics pesadíssims: només cal mirar les edicions d’obres medievals de la Barcino o les clàssiques de la Bernat Metge. Tot aquest aparell crític, però, és imprescindible per fer entendre el text.",
+  "text": [
+    {
+      "type": "image",
+      "name": "Faetont",
+      "content": "La Caiguda de Faetont, Eyck, Jan Carel Van"
+    },
+    {
+      "type": "paragraph",
+      "content": "Les Helíades, convertides en pollancres després de plànyer el seu germà Faetont, són una part intima del meu paisatge més immediat. L'Erídan, on va caure un Faetont incapaç de superar la seva por, és de ben segur el rierol que passa molt a prop de casa. En realitat potser es tracta d’un rec, però per què no l’Erídan?"
+    },
+    {
+      "type": "paragraph",
+      "content": "Vaig tenir una formació en crítica textual, una matèria que no té com a objectiu fer crítica de l’obra en el sentit que tothom pensa. Bàsicament, intenta restituir textos antics perquè el lector modern sigui capaç de llegir-los. Són edicions amb aparells crítics pesadíssims: només cal mirar les edicions d’obres medievals de la Barcino o les clàssiques de la Bernat Metge. Tot aquest aparell crític, però, és imprescindible per fer entendre el text."
+    },
+    {
+      "type": "paragraph",
+      "content": "Soc, com Faetont, incapaç de superar les meves indecisions que, segurament, són per a mi un armari de sentiments, de coses per crear i que el meu desori farà que acabin a l’Erídan, el rec del costat de casa. No em planyeran les Helíades. Els pollancres d’aquestes contrades sovint només tenen la funció de fer-ne caixes barates per empaquetar la fruita, generalment pomes."
+    },
+    {
+      "type": "paragraph",
+      "content": "No seran les meves idees perill de foc universal ni hi haurà déus irritats ni Helíades ploroses ni pollancres movent el seu fullam al vent, però tinc la necessitat d'expressar idees i sentiments. Malgrat tot, fa anys que em poso mil entrebancs i que no materialitzo els meus sentiments expressius. Jo voldria que la generositat creativa em prengués i fes que de cop comencés a crear, a regalar a una suposada audiència –crítica, evidentment-  allò capaç de produir."
+    },
+    {
+      "type": "paragraph",
+      "content": "No soc un Faetont perquè l’edat ja no m’ho permet, malgrat haver tingut carns joves i boniques. Comparteixo amb ell, però, la por de conduir el carro del Sol que, en definitiva, és el carro de la meva vida. Em sorprèn la força amb què surt aquesta necessitat creadora a la meva edat, però em llenço jo mateix a l'Erídan per fer el meu camí, no com un Faetont sinó com un vulgar cagat de por davant “La Crítica”, no la textual sinó la crítica de revista, de diari, de twitter i de no sé quantes xarxes més. La Crítica!"
+    },
+    {
+      "type": "paragraph",
+      "content": "¿La Crítica hauria de ser erudita i amb una formació acadèmica sòlida, un camí cultural sensible i educat que, per sort, ja no és privilegi només de les classes elevades? En una societat científica la cultura no és cap privilegi. Ben al contrari, és esforç i calvari formatiu. Si hom tria un camí relacionat amb les humanitats o les arts, ha d’assumir la precarietat i la dificultat de viure treballant per la cultura. Tan sols queda l’educació com a solució amb mínims de dignitat."
+    },
+    {
+      "type": "paragraph",
+      "content": "Potser és aquest cúmul de dificultats el que fa que avui dia es confonguin la Crítica i el Gust. Ben pocs dels que es diuen crítics expressen en les columnes especialitzades alguna cosa diferent al gust. A més, hi hem de sumar tots aquells que són companys de professió d’escriptors i artistes i que s’afegeixen a la tasca de crítics per la seva precarietat de feina. No vull dir amb això que un escriptor no pugui ser crític, i ara entraré en aquesta polèmica frase. "
+    },
+    {
+      "type": "paragraph",
+      "content": "Certament, podem manifestar el nostre gust per qualsevol expressió artística però no hem de creure que això ens dona la categoria de crítics. Ningú creu que quan dona un consell mèdic ho fa perquè és metge. "
+    },
+    {
+      "type": "paragraph",
+      "content": "Avui és molt difícil posar el talent en joc. La veritat és que l’escriptor, l’artista en general, té dret a fer com Faetont, arribar a dir-li a Hèlios “vull que em deixis el carro!”. Com Faetont, l’artista es pot allunyar massa del camí del Zodíac, i la crítica -per evitar un desastre major- el llença a l’Erídan. Però si la crítica vol ser justa, ha de tenir l’autoritat d’Hèlios, ha de ser un déu just que vol només evitar la gran conflagració universal. La confusió entre gust i crítica pot dur a una destrossa i, si hi ha una mica de sort, a què alguna Helíada et reculli i et plori com un pollancre al vent, tot esperant que el temps et rescati, això en el millor dels casos."
+    },
+    {
+      "type": "paragraph",
+      "content": "No hi ha un DNA de la creació fix i immutable. Llegia a Gemma Marfany fa poc i afirmava que el seixanta per cent del DNA són seqüències invasores. Si la nostra pretesa puresa genètica és només d’un dos per cent, suposo que la creadora deu ser un cosmos mòbil i amb multitud d’itineraris, i cal superar la por per trobar els camins, malgrat no sigui el que marca Hèlios. Potser si Faetont no s’hagués escagarrinat conduint el carro, hauria trobat una alternativa. La veritat és que al bell Faetont les arts plàstiques l’han deixat molt ben plantat, a sobre del nostres caps a molts de sostres. "
+    },
+    {
+      "type": "paragraph",
+      "content": "La Crítica pot  criticar una obra, i tant! Però ha de ser professional i no confondre les coses. Que al crític no li agradi un text no li dona l’autoritat d’enterrar-lo. Avui dia, la crítica a casa nostra es mou més pel gust i per la moda, per allò que s’ha de dir, allò correcte. El que és o no és correcte ho marquen editorials poderoses, grups d’autors que volen col·locar les seves obres i, alhora, fan de crítics dels altres, però no com a professionals --no hi tindria res a dir-- sinó com la competència. Un desastre."
+    },
+    {
+      "type": "paragraph",
+      "content": "La Crítica ha de ser crítica, evidentment, però ha de ser culta i erudita, de la mateixa manera que un analista en ciència és un erudit en el seu camp, perquè el que estem enviant a l’Erídan és de vegades un treball d’anys d’esforç, de superar la por continua que fa el petit bosc que és la nostra cultura."
+    },
+    {
+      "type": "paragraph",
+      "content": "Cal ser crític amb les capelles i les catedrals a Barcelona, però per fer-ho cal no ser escolanet a Montserrat. Cal criticar el repartiment de premis a la capital, però per fer-ho cal no ser el tap del cava a la província. Cal tenir una visió molt més àmplia que la de la comarca, però per dir-ho cal sortir alguna vegada del pati d’ateneu o d’universitat."
+    },
+    {
+      "type": "paragraph",
+      "content": "L’art i la creació són lliures i la crítica ho hauria de ser. Potser així es pot posar un preu digne a la feina i viure’n, perquè, quan t’has venut tant a l’editor de torn, al premi de can Fanga o de Can Pagès, és impossible ser crític, s’és partidista."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+    "title" : "Dos poemes traduïts de l'asturià al català per Jordi F. Fernández Figueras",
+    "url" : "dos-poemes-traduits-de-l-asturia-al-catala-per-jordi-f-fernandez-figueras",
+    "section" : "creacio",
+    "issue" : 24,
+    "data" : "29/04/2023",
+    "imageCard" : "xaimemartinez24-01",
+    "author" : "Xaime Martínez",
+    "summary" : "",
+    "text" : [ 
+        {
+            "type" : "image",
+            "name": "xaimemartinez24-01"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "SHAKESPEARE</br></br>Vendrá una vuelta más</br>el desagüe lentísimu del alba</br>y la tinta la nueche</br>dirá pa otros llugares muncho más</br>afayadizos pal tremor de les solombres.</br>Entamará la discusión de siempre</br>sobre’l cantar cabero de los páxaros.</br>Saldrán con ruidu prieto ruiseñores,</br>tiniebles y calandres</br>volando de les nueses</br>boques como un glayíu interminable</br>y el Sol quedrá traenos, como a besties,</br>la muerte y la quietú.</br>Mas yo entós sacaré la mio pistola,</br>que llevo cientos d’años preparando,</br>y apuntaré a esa ave ruin y estraña</br>que separta los díes de les nueches</br>y el sangre traerá un nuevu atapecer</br>y tornaremos, mudos, al amor</br>y sobre’l cuerpu entá</br>caliente de la llei</br>mataremos dos páxaros d’un tiru.</br>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "</br>SHAKESPEARE</br></br>Vindrà un cop més</br>el desguàs lentíssim de l’alba</br>i la tinta de la nit</br>anirà cap a altres llocs molt més</br>apropiats per a la tremolor de les ombres.</br>Organitzarà la discussió de sempre</br>sobre la cançó última dels ocells.</br>Sortiran amb soroll obscur rossinyols,</br>tenebres i calàndries</br>volant de les nostres</br>boques com un gemec interminable</br>i el Sol voldrà portar-nos, com a les bèsties,</br>la mort i la quietud.</br>Però jo llavors trauré la meva pistola,</br>que fa centenars d’anys que preparo,</br>i apuntaré a aquest au mesquina i estranya</br>que separa els dies de les nits</br>i la sang portarà un nou capvespre</br>i tornarem, muts, a l’amor</br>i sobre el cos encara</br>calent de la llei</br>matarem dos ocells d’un tret.</br>",
+            "styles": "{\"color\":\"red\"}"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "</br></br>**********************</br></br>",
+            "styles": "{\"textAlign\":\"center\"}"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "LA FLOR DE LA ZREZAL</br></br>La flor de la zrezal, que notru tiempu fora</br>anunciu del calor y de la lluz</br>—espoyetaben mudos los deseos—,</br>güei paezme más bien</br>el descuidu d’un dios</br>o peor, una broma.</br>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "</br>LA FLOR DEL CIRERER</br></br>La flor del cirerer, que en un altre temps va ser</br>anunci de la calor i de la llum</br>—florien muts els desitjos—,</br>avui em sembla més aviat</br>el desencert d’un déu</br>o pitjor encara, una broma.</br>",
+            "styles": "{\"color\":\"red\"}"
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "title" : "El joc de miralls de Josep Palàcios",
+    "url" : "el_joc_de_miralls_de_josep_palacios",
+    "section" : "llibres",
+    "issue" : 39,
+    "data" : "28/09/2024",
+    "imageCard": "angelcarbonell39-02-01",
+    "author" : "Àngel Carbonell",
+    "summary" : "",
+    "text" : [
+        {
+            "type" : "image",
+            "name": "angelcarbonell39-02-01",
+            "content":"Josep Palacios, fotografia de © Prats i Camps "
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<i>La imatge</i> de Josep Palàcios és una obra que es desmarca de les convencions literàries tradicionals i esdevé un exemple notable de literatura experimental en català. Publicada l’any 2013 per les Publicacions de la Universitat de València, recull bona part de l’obra d’aquest autor en dos volums de prop de 300 pàgines cadascun i constitueix una invitació a reflexionar sobre la naturalesa de la percepció i el paper de les imatges en la construcció de la realitat. Amb un estil poètic i sovint hermètic, Palàcios proposa una exploració de la memòria, la identitat i la subjectivitat, desafiant el lector a travessar una frontera difusa entre el món visual i la dimensió literària."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "L'estructura del llibre és fragmentada i evoca una seqüència de visions i pensaments. Això permet a l'autor endinsar-se en una mena de collage literari, on la imatge té un protagonisme essencial."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Un dels temes centrals del llibre és la idea que les imatges són més que simples representacions de la realitat; són una porta a una comprensió més profunda del món i de nosaltres mateixos. Palàcios suggereix que la realitat és, en gran mesura, una construcció visual i perceptiva, i que les imatges que consumim —ja siguin físiques o mentals— tenen un impacte directe en la nostra percepció del món. En una de les seves reflexions, escriu: “No és la imatge allò que veiem, sinó allò que es forma quan tanquem els ulls i la realitat es desplega dins nostre”. Aquesta cita resumeix l’essència del llibre: la importància de la percepció interior i subjectiva en contrast amb una realitat externa sovint desdibuixada."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Aquesta complexitat formal i conceptual pot ser un repte per als lectors. Tanmateix, per aquells que gaudeixen de l'exploració de la llengua i el pensament, <i>La imatge</i> ofereix una experiència rica i estimulant. Palàcios no té por d'abandonar la trama en favor d'una exploració introspectiva i filosòfica, i això converteix el llibre en una obra que cal llegir amb una mentalitat oberta, disposada a deixar-se portar per la fluïdesa de les paraules i les idees."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "A més, l’obra també es pot interpretar com una crítica a la societat contemporània, on les imatges, sovint manipulades, tenen un paper central en la formació de la consciència col·lectiva. La fragmentació del text pot ser vista com un reflex de la fragmentació de la pròpia experiència moderna, on la sobredosi d’imatges crea una sensació de desconcert i alienació. Palàcios sembla advertir-nos del poder de les imatges per definir i distorsionar la nostra realitat, i ho fa mitjançant un llenguatge que es descompon i recompon constantment, igual que les imatges que descriu."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<i>La imatge</i> esdevé, així, una experiència de lectura. El lector no només observa les paraules, sinó que és convidat a participar activament en la creació del significat. Aquesta característica fa de l’obra de Palàcios un text amb múltiples lectures possibles, on cada retorn al llibre pot oferir una perspectiva nova o una comprensió diferent."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "En definitiva, <i>La imatge</i> de Josep Palàcios és una obra que desafia i enriqueix el lector, convertint la lectura en una experiència activa de descobriment i reflexió. Tot i la seva complexitat i el seu estil no convencional, és un llibre que destaca per la seva capacitat de suggerir i evocar. Palàcios ens convida a mirar més enllà de les paraules, a endinsar-nos en l’univers de les imatges i a explorar la relació entre el que veiem i el que som. És una obra que, com la realitat mateixa, es desplega en capes i es revela poc a poc, deixant una empremta duradora en la ment del lector."
+        }
+    ]
+}

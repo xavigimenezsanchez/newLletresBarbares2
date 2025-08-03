@@ -1,0 +1,70 @@
+{
+    "title" : "La avenida Guerrero",
+    "url" : "la_avenida_guerrero",
+    "section" : "creacio",
+    "issue" : 46,
+    "data" : "24/04/2025",
+    "imageCard" : "puigdellivol46-01",
+    "author" : "Valentí Puigdellívol",
+    "summary" : "",
+    "text": [
+        {
+          "type": "paragraph",
+          "content" : "<div style=\"display: flex; justify-content: flex-end; text-align: end;\"></br><div><em>He vivido las aventuras de la poesía, que<br />siempre son aventuras a vida o muerte.</em> </br><em>Amuleto. </em>Roberto Bolaño</div></br></div>"
+    
+        },
+        {
+          "type" : "image",
+          "name": "puigdellivol46-01"
+      },
+      {
+        "type": "paragraph",
+        "content": "Des que es va publicar l’any 2004 l’obra pòstuma <em>2666</em> de Roberto Bolaño m’he preguntat el sentit d’aquest títol tan estrafolari. Un número o una data, una xifra que, al cap i a la fi, podia significar qualsevol cosa. Amb anterioritat, coneixíem l’obra de George Orwell, <em>1984</em>,<em> </em>en què el títol era una data futura. Anys després es publicarien altres obres amb títols enigmàtics, com <em>1Q84</em>,<em> </em>de Haruki Murakami, l’any 2009, o <em>4321</em>, de Paul Auster, l’any 2017. Inicialment, confesso que vaig pensar que simplement era una estratègia de màrqueting, que en veure aquest títol enigmàtic tothom intentaria saber de què tractava l’obra.  Res a la portada ni a la sinopsi indicava cap indici que donés una explicació. Recordo com a peu dret a la llibreria vaig començar a llegir la primera pàgina, sempre llegeixo les primeres pàgines, per tastar l’estil i ensumar el to, la veu en què l’obra es desenvolupa. Ja a la primera frase apareix un escriptor, un tal Benno von Archimboldi, un lloc, París, i una data, 1980. Molt influït per la seva obra anterior, <em>Los detectives salvajes, </em>recordo haver  sentenciat mentalment que Bolaño era Bolaño i que no tenia un precursor que no fos ell mateix i de seguit vaig comprendre que aquí també hauria de continuar amb la recerca de les petjades d’un escriptor i que, de segur, més o menys encoberts, apareixerien uns detectius disposats a resoldre el misteri. Setmanes després, un cop acabada la primera lectura, res aportava una mica de llum respecte del significat del títol. Tampoc les tenia totes amb mi, temia haver passat per alt algun paràgraf. Hi ha parts a l’obra que són força denses i en més d’una ocasió m’havia quedat adormit amb el llibre a les mans. En qualsevol cas, vaig acabar decidint que només es tractava d’un recurs editorial. Sent una obra pòstuma i inacabada era força plausible pensar en aquesta possibilitat. En aquell moment vaig exigir-me deixar de donar més voltes a un sense sentit. Però, anys després, comentant amb un amic la seva recent lectura de <em>Los detectives salvajes</em>,<em> </em>li vaig participar l’enigma que suposava per a mi el títol de <em>2666. </em> Llavors, ell, amb un somriure als llavis, em va assenyalar les pàgines a la tercera part de l’obra on es menciona, no aquesta data, però sí una d’aproximada. Paràgraf situat al dietari de Juan García Madero el 29 de gener de 1976."
+      },
+      {
+        "type": "paragraph",
+        "styles": "{\"fontSize\":\"0.875rem\",\"paddingLeft\":\"1rem\"}",
+        "content": "<em>«Y entonces la maestra […] tuvo la entereza de preguntarle por qué razón había dibujado el plano de la fábrica. Y Cesárea dijo algo sobre los tiempos que se avecinaban, aunque la maestra suponía que si Cesárea se había entretenido en la confección de aquel plano sin sentido no era por otra razón que por la soledad en la que vivía. Pero Cesárea habló de los tiempos que iban a venir y la maestra, por cambiar de tema, le preguntó qué tiempos eran aquéllos y cuándo. Y Cesárea apuntó una fecha: allá por el año 2600. Dos mil seiscientos y pico. Y luego, ante la risa que provocó en la maestra una fecha tan peregrina, risita sofocada que apenas se escuchaba, Cesárea volvió a reírse, aunque esta vez el estruendo de su risa se mantuvo en los límites de su propia habitación.»</em>"
+      },
+      {
+        "type": "paragraph",
+        "content": "Lluny de satisfer la meva curiositat, aquell detall, assenyalat pel meu amic de memòria prodigiosa, encara va incrementar més el meu interès pel tema. Bolaño, com la majoria d’escriptors, dona voltes a temes concrets. Hi ha obsessions i filies escripturals. En realitat tothom en té; hi ha premonicions, somnis, espais on arrecerar-nos i també llocs comuns als quals anem i tornem una vegada i una altra. Malgrat que Cesárea Tinajero no especifica si aquests temps venidors portaran fortuna o desgràcia —personalment aposto per la desgràcia, l’hecatombe, el caos, l’apocalipsi, l’Harmagedon; he perdut la fe en la humanitat—, sí que existeix una referència clara a aquesta data, malgrat que només sigui de manera aproximativa."
+      },
+      {
+        "type": "paragraph",
+        "content": "Aquest títol enigmàtic em va portar a especular sobre la noció del mal. Cal recordar que l’obra tracta els assassinats de dones a la ciutat fictícia de Santa Teresa, homònima de Ciudad Juárez a la realitat. Però allò que fos el 666 el número de la bèstia influiria de manera decisiva a què especulés sobre el concepte del mal. Tot amb tot, la citació emprada a l’inici de l’obra, un vers de <em>Les flors del mal</em> de Charles Baudelaire, acaba de confirmar aquesta hipòtesi de fer rellevant &lt;&lt;el mal&gt;&gt; com a tema a tractar."
+      },
+      {
+        "type": "paragraph",
+        "styles": "{\"fontSize\":\"0.875rem\",\"paddingLeft\":\"1rem\"}",
+        "content": "«<em> Une oasis d’horreur dans un désert d’ennui</em> !»"
+      },
+      {
+        "type": "paragraph",
+        "styles": "{\"fontSize\":\"0.875rem\",\"paddingLeft\":\"3rem\"}",
+        "content": "Charles Baudelaire, &lt;&lt;Le voyage&gt;&gt;, <em>Les Fleurs du Mal</em>"
+      },
+      {
+        "type": "paragraph",
+        "content": "Seria, més endavant, quan Ignacio Echevarría donaria el detall de la data concreta en una obra que apareix publicada amb el títol <em>Amuleto </em>l’any 1999."
+      },
+      {
+        "type": "paragraph",
+        "styles": "{\"fontSize\":\"0.875rem\",\"paddingLeft\":\"1rem\"}",
+        "content": "<em>“Y los seguí: los vi caminar a paso ligero por Bucareli hasta Reforma y luego los vi cruzar Reforma sin esperar la luz verde, ambos con el pelo largo y arremolinado porque a esa hora por Reforma corre el viento nocturno que le sobra a la noche, la avenida Reforma se transforma en un tubo transparente, en un pulmón de forma cuneiforme por donde pasan las exhalaciones imaginarias de la ciudad, y luego empezamos a caminar por la avenida Guerrero, ellos un poco más despacio que antes, yo un poco más deprimida que antes, la Guerrero, a esa hora, se parece sobre todas las cosas a un cementerio, pero no a un cementerio de 1974, ni a un cementerio de 1968, ni a un cementerio de 1975, sino a un cementerio de 2666, un cementerio olvidado debajo de un párpado muerto o nonato, las acuosidades desapasionadas de un ojo que por querer olvidar algo ha terminado por olvidarlo todo”. </em>"
+      },
+      {
+        "type": "paragraph",
+        "styles": "{\"textAlign\":\"right\",\"fontSize\":\"0.875rem\"}",
+        "content": "<em>Amuleto. </em>Roberto Bolaño<em> </em>"
+      },
+      {
+        "type": "paragraph",
+        "content": "En aquest paràgraf d’<em>Amuleto </em>apareix la xifra o data<em> </em>de <em>2666.</em> Echevarría diria que aquesta data només representava un punt de fuga, alguna fita llunyana sobre la qual anessin a parar totes les històries de Bolaño. Quedava clar amb aquestes declaracions que el crític no sabia un borrall sobre el significat precís d’aquesta data. No obstant això, el fet que apuntés aquest passatge meravellós de Bolaño ja justificava tota la recerca sobre aquesta xifra. I és una realitat que l’autor pot portar-te al tedi més absolut o a converses de barra de bar inacabables, però al mateix temps és capaç d’escriure passatges com aquest que he transcrit de l’obra <em>Amuleto </em>que quedaran per sempre més penjats de la literatura universal."
+      },
+      {
+        "type": "paragraph",
+        "content": "És meravellosa la confessió que fa la narradora, “<em>Y los segui:”, </em>i aquests dos punts assenyalen els passos fets i l’acció. Ens deixa amb ganes de saber el perquè. Tota història és un viatge i, a més, conté una veritat oculta que caldrà posar al descobert. No puc evitar imaginar les imatges d’aquells cabells llargs i escalats, dels pantalons de cintura baixa i acampanats, d’aquells jerseis curts que mostraven dues cares de tricot diferenciades, la de darrera llisa per regla general, en canvi, a la part davantera hi havia trenes de tricot o estampats geomètrics de tipus romboidals. Ben horrible tot plegat, una moda ara ja llunyana aquella dels anys setanta. No ho diu, però per aquella època tothom fumava. En caminar i amb el vent de cara no ho crec que ho fessin, però tothom fumava a qualsevol lloc i sense restriccions. Puc veure’ls nítidament a tots dos mirant cap a l’esquerra per creuar Reforma, comprovant no ser atropellats en fer cas omís al vermell del semàfor. Si ens fixem, la poesia es troba en el fet de no citar el “semàfor”; la narradora pensa que ja ho entenem. Per contra, explica “<em>arremolinado</em>”, es creu en el deure d’explicar aquest mot i ho fa: “<em>arremolinado porqué a esa hora por Reforma corre el viento nocturno que le sobra a la noche”. </em>La tercera riba del riu no és més que pensar que a la nit li sobra el vent. I no s’està de la redundància “<em>nocturno a la noche</em>” perquè ha de continuar explicant que la ciutat exhala, com que adormida, inhala i exhala. “<em>y luego empezamos a caminar</em>”. Fixeu-vos com passa a la primera persona del plural sense més ni més, rere una coma. Ara ja són tres els que caminen. El moviment, la sensació de moviment, de <em>cronos</em> i de continuïtat la dona el fet de caminar i el “<em>y luego</em>”. Ara que ja som tots sota una sola veu diu: “<em>ellos un poco más despacio que antes, yo un poco más deprimida que antes”. </em>Torna a separar les persones. En llegir, en aquest acte de continuïtat, el lector entén que ells minven la marxa i quan en aquest continuo llegim que ella “<em>yo un poco</em>” automàticament pensem en mil·lèsimes de segon que ella també alenteix o que els atrapa, però no. Resulta que no, resulta que ella, “<em>más deprimida</em>”, i ens treu d’una bufetada dels llocs comuns, aplica aquella resistència als llocs comuns que parlàvem tot tornant a la primera persona del singular. No continuo perquè el que segueix és ja poesia pura. Només que el valor literari no radica en el fet que el lector acabi d’entendre què és un cementiri sota una parpella morta o “<em>nonato</em>”, sinó en el fet d’imaginar mons. El veritable valor d’aquest text —i de la literatura en general— és transportar-nos  a mons imaginaris o impensables sense moure’ns del sofà. Quan diu: “<em>las acuosidades desapasionadas de un ojo que por querer olvidar algo ha terminado por olvidarlo todo”. </em>Imagino algú assegut en una cadira de rodes en una residència geriàtrica. Penso que li raja una llàgrima de l’ull, però no emotiva, sinó que desapassionada, que li cau perquè sí, perquè els ulls ja ploren sols. Puc veure el pijama mal cordat, les sabatilles a retaló, puc entendre la seva demència. I sé perfectament que vulgui oblidar alguna cosa, tots tenim pecats. I això, tot això, és el que sembla l’avinguda Guerrero de Mèxic D.F.; no per sobre de tot, sinó per sobre de totes les coses, que és diferent."
+      }
+    ]
+  }

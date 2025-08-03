@@ -1,0 +1,164 @@
+{
+  "title": "La Intuïgència",
+  "url": "la-intuigencia",
+  "section": "articles",
+  "issue": 1,
+  "data": "20/10/2020",
+  "imageCard": "Godel",
+  "author": "Pere Rovira",
+  "summary": "Cadascuna d’aquestes paraules té la seva importància. És important que a la teoria no hi hagi contradiccions internes: recordem la paradoxa de Bertrand Russell que invalidava tota la teoria de Frege sobre els números naturals (vegeu la Viquipèdia si no sabeu de què parlo). És important que sigui axiomatitzada: els continguts s’han de poder deduir d’un conjunt d’axiomes previs, assumits com a perfectament obvis i que per tant no cal demostrar. És important, també, que la teoria sigui prou potent: amb eines de treball, d’anàlisi i de càlcul prou variades per fer-ne un marc teòric útil. I malgrat tot, Gödel ens diu que sempre serà incompleta.",
+  "text": [
+    {
+      "type": "paragraph",
+      "content": "L’any 1931, Kurt Gödel publicava un article titulat ‘Sobre les proposicions formalment indecidibles dels Principia Mathematica i sistemes semblants’. Tot just un any després d’haver llegit la seva tesi doctoral, per cert. Gödel tenia uns 25 anys. Si algú volia un exemple d’aquest tema tan tòpic de la creativitat dels matemàtics, que és màxima quan són ben joves, aquí en té un."
+    },
+    {
+      "type": "image",
+      "name": "Godel"
+    },
+    {
+      "type": "title",
+      "content": "U. Una de Gödel"
+    },
+    {
+      "type": "paragraph",
+      "content": "Qui més qui menys ha sentit a parlar d’aquest treball de Gödel, més conegut com a <i>Teorema de la Incompletitud</i>. Com que aquesta secció no va de matemàtiques, en donarem una versió popular força acceptada, enunciada per Gianbruno Guerrerio:"
+    },
+    {
+      "type": "paragraph2",
+      "content": "Tota teoria matemàtica no contradictòria, axiomatitzada i prou potent, és incompleta."
+    },
+    {
+      "type": "paragraph",
+      "content": "Cadascuna d’aquestes paraules té la seva importància. És important que a la teoria no hi hagi contradiccions internes: recordem la paradoxa de Bertrand Russell que invalidava tota la teoria de Frege sobre els números naturals (vegeu la Viquipèdia si no sabeu de què parlo). És important que sigui axiomatitzada: els continguts s’han de poder deduir d’un conjunt d’axiomes previs, assumits com a perfectament obvis i que per tant no cal demostrar. És important, també, que la teoria sigui prou potent: amb eines de treball, d’anàlisi i de càlcul prou variades per fer-ne un marc teòric útil. I malgrat tot, Gödel ens diu que sempre serà incompleta."
+    },
+    {
+      "type": "paragraph",
+      "content": "Un estudiós de Gödel, Jaakko Hintikka, remarca quin és el significat profund del teorema:"
+    },
+    {
+      "type": "paragraph2",
+      "content": "‘El teorema de Gödel no demostra pas que en l’aritmètica (o en qualsevol altre sistema) hi ha proposicions veritables pero totalment indemostrables. Demostra, més aviat, que no hi pot haver un sistema formal ‘perfecte’ dins el qual totes les proposicions veritables de l’aritmètica puguin ser demostrades’."
+    },
+    {
+      "type": "paragraph",
+      "content": "Observem que, encara que parli d’aritmètica, en algun moment diu ‘o en qualsevol altre sistema’, detall que ens recorda que el teorema de Gödel és un resultat de la lògica, i la lògica sempre es vol aplicar a altres disciplines: l’ètica, la història, la política i tot l’etcètera que vulgueu. I el missatge és clar: ens podem moure dins un conjunt de postulats (axiomes), i podem treballar de manera rigorosa amb raonaments que si més no semblin perfectament acceptables per tothom. I, malgrat tot, sempre ens trobarem amb veritats – o amb afirmacions que semblin veritat – que <i>no tindrem manera de demostrar</i>. Això no vol dir que siguin falses. Poden ser veritat. Però no es poden deduir a partir dels nostres postulats (o en termes matemàtics, axiomes). Més important encara és el fet que com a mínim un dels axiomes no pot ser demostrat com a conseqüència dels altres. L’hem d’acceptar. Ens ho creiem, i prou."
+    },
+    {
+      "type": "paragraph",
+      "content": "Una conseqüència d’aquestes afirmacions és que una proposició matemàtica pot ser indemostrable en un cert sistema d’axiomes, però demostrable en un altre sistema. De sobte, la dita que ‘tot depèn de com es miri’ pren un significat precís. No hi haurà mai un sistema únic d’axiomes: tard o d’hora toparem amb una afirmació matemàtica certa però que no encaixi en aquest sistema axiomàtic. Que no sigui <i>demostrable</i>, en un mot. Caldrà passar aleshores a un nou sistema... dins el qual, tard o d’hora, toparem de nou amb el mateix problema. Per a la matemàtica, el teorema de Gödel tingué conseqüències devastadores: va destruir (per sempre?) l’objectiu d’arribar a un sistema perfecte, complet, rigorós, més enllà de dubtes i, en certa manera, més enllà de la simple existència humana; un llenguatge en el qual ens poguéssim entendre amb una cultura extraterrestre que – se suposa – si són llestos hauran arribat també a aquesta matemàtica. Qui hagi vist el magnífic film de Denis Villeneuve <i>The arrival</i> (en castellà: <i>La llegada</i>) sap de què parlo. Aquest sistema no existeix."
+    },
+    {
+      "type": "image",
+      "name": "arrival",
+      "content": "Un moment brillant del film <i>Arrival</i>, de Denis Villeneuve. Els extraterrestres tenen un llenguatge diferent, una intel·ligència diferent... una lògica diferent?"
+    },
+    {
+      "type": "paragraph",
+      "content": "No hi pot haver rigor absolut. Farem el que podrem. Si això passa amb la matemàtica, la branca del coneixement que més llueix el seu rigor, exactitud, precisió, reproductibilitat... no cal ni pensar què passarà amb altres disciplines menys exactes – la meva, sense anar més lluny: la biologia – i, no cal dir-ho, amb disciplines humanistiques com la història o la filosofia. Més enllà de l’aspecte estrictament matemàtic, Gödel va fer una contribució essencial, potser una de les contribucions intel·lectuals més importants de tot el segle vint: posar un topall a la racionalitat. Des d’ara, qui tingui la gosadia de dir <i>jo sóc totalment racional</i> – frase que he sentit a dir a algun innocent professor d’universitat –, no pot esperar que una audiència mínimament formada el prengui seriosament."
+    },
+    {
+      "type": "title",
+      "content": "DOS. Intuïcions"
+    },
+    {
+      "type": "paragraph",
+      "content": "Crec sincerament que la majoria de la població no es sentirà massa impressionada per aquesta afirmació, perquè – com deia al meu anterior article – la racionalitat només ocupa una part petita de la nostra activitat diària. Si malgrat tot <i>la nave va</i>, que diria Fellini, haurem de concloure que la impossibilitat de ser racional del tot no és cap tragèdia. Gödel apart, tots som conscients que cap de les decisions que prenem no és totalment racional: ho pot ser en part (i de vegades en gran part), però sempre hi haurà components no racionals en les nostres eleccions. El nostre cervell només dedica una petita part del temps diari a l’anàlisi racional dels fets. Els pensaments del tipus ‘sóc a X, en una disjuntiva Y1-Y2, i en base a Z trio Y1 i rebutjo Y2' són minoria. Al llarg del dia actuem per costum, seguint automatismes. I, sobretot, intuïm."
+    },
+    {
+      "type": "paragraph",
+      "content": "El pensament intuïtiu és una part essencial de l’activitat intel·lectual: sovint intuïm la resposta a una qüestió, i seguim endavant confiant en aquesta resposta intuïda, la racionalitat de la qual només es desenvolupada a posteriori. El marit arriba a casa i encara que no senti cap fressa intueix que la dona ja hi és: inspecciona el pis i aquesta intuïció és confirmada, o no. L’anàlisi racional del perquè ha tingut aquesta intuïció ve després, no pas abans: potser no ha trobat una cadira en la posició habitual, potser una cortina era només mig tancada, potser un llum que sempre es deixa encès perquè possibles lladres pensin que al pis hi ha algú era tancat, precisament. És un exemple quotidià, certament; però el pensament no racional, intuïtiu, de fet impregna tots els aspectes de la creació humana, inclosos els que són acceptats com a exemples de racionalitat extrema."
+    },
+    {
+      "type": "image",
+      "name": "Pierre_de_Fermat",
+      "content": "Pierre de Fermat, gran matemàtic del segle XVII, i enunciador d’un gran teorema, només intuït, que va esdevenir un dels grans reptes dels matemàtics posteriors."
+    },
+    {
+      "type": "paragraph",
+      "content": "La matemàtica és considerada el súmmum de la racionalitat; però de fet és sobretot intuïció. Les teories matemàtiques són, abans de tot, intuïdes. La demostració rigorosa ve després... i de fet de vegades no ve. El cas del teorema de Fermat és molt famós a nivell popular, però de fet no és excepcional: la matemàtica és farcida d’afirmacions proposades, que resulten ser empíricament certes però que esperen una demostració. La hipòtesi de Riemann – un dels grans reptes de la matemàtica actual: mireu la viquipèdia! ;-D – no ha estat demostrada, per exemple. Avui la informàtica dóna als matemàtics la possibilitat d’una drecera: comprovar que un teorema és correcte, abans i tot de demostrar-lo. Senzillament programant un ordinador perquè busqui un contra-exemple. De fet això ja es va aplicar a la resolució del teorema de Fermat. Durant els segles XVIII i XIX grans matemàtics com Euler o Kammerer van demostrar la seva validesa en alguns casos (per exemple, tots els enters menors de 100), però no s’aconseguia trobar cap demostració genèrica per tots els enters > 2, que era del què es tractava. Davant d’aquesta dificultat, es va plantejar la possibilitat que si no s’aconseguia demostrar-lo potser era precisament perquè <i>no era cert</i>. I es van programar ordinadors perquè busquessin un contra-exemple. No se’n va trobar mai cap. El 1978, en un moment d’esgotament, quan tots els esforços semblaven inútils, un article publicat a <i>Scientific American</i> plantejava precisament que potser no calia demostrar-lo: si no se n’havia trobat cap contra-exemple, això implicava que si era cert per alguns valors enters, seria per valors molt més grans dels que se solen utilitzar en els càlculs usuals! La intuïció de Fermat es confirmava com a vàlida: el seu teorema potser no havia estat demostrat rigorosament, però era cert <i>empíricament</i>. I de cara a utilitzar-lo a la vida quotidiana, es podia considerar com a fiable a efectes pràctics."
+    },
+    {
+      "type": "image",
+      "name": "AndrewWiles",
+      "content": "Andrew Wiles, gran matemàtic anglès, que va demostrar finalment el teorema de Fermat, l’any 1995."
+    },
+    {
+      "type": "paragraph",
+      "content": "L’important per a la nostra reflexió és que Fermat havia escrit que ‘tinc una demostració senzilla per a aquest teorema, que no puc escriure aquí per manca d’espai’. Cosa que convidava a pensar que, si tenia aquesta demostració, la devia haver posat en negre sobre blanc, en algun lloc. Un escrit que havia d’existir – per nassos! –, i que va dur de corcoll els matemàtics durant tot un segle. Un d’ells va arribar a l’extrem de fer escorcollar la casa de Fermat, després de mort, a fi de remenar cada pila de papers, cada llibre, cada racó de cadascuna de les cambres, a la recerca del maleït paper. Que no va aparèixer mai, com és ben sabut. Fa molt de temps que els matemàtics van arribar a la conclusió que, de fet, Fermat no tenia una demostració per al seu teorema. Si de cas, <i>intuïa</i> una demostració que, després, quan s’hi va posar, va resultar que no era tan senzilla i, sens dubte, no gens correcta."
+    },
+    {
+      "type": "paragraph",
+      "content": "Als matemàtics els desagrada la no-racionalitat de la intuïció. La matemàtica necessita la racionalitat de la fonamentació i la demostració, perquè no totes les intuïcions són encertades, eventualment. Per sort, Andrew Wiles els va resoldre el problema, publicant la seva demostració del teorema de Fermat l’any 1995. Al capdavall, Fermat havia tingut dues intuïcions: una de correcta – el teorema, demostrat finalment – i una d’equivocada – la seva demostració, mai no trobada. Més important que l’annècdota particular del teorema de Fermat és el fet que això es pot aplicar a bona part de la recerca en matemàtica. Els grans teoremes matemàtics són <i>intuïts</i>. Prenen forma en la ment dels grans matemàtics, que els formulen de manera exacta i precisa. Després, només després, són demostrats. No sempre és així, és clar: de vegades es pot arribar a un resultat per via deductiva, treballant fórmules i equacions. Però el gran nombre de teoremes i conjectures que esperen ser demostrats matemàticament – i que són certs en un sentit empíric, perquè aparentment es compleixen sempre – indica clarament que la intuïció ocupa una part important del cervell dels grans matemàtics. Un greu hàndicap pels que presumeixen de ser plenament racionals: la disciplina científica més racional de totes – i que llueix la seva racionalitat a tot arreu – es basa, en gran part, en la intuïció."
+    },
+    {
+      "type": "title",
+      "content": "TRES. La validesa de la no racionalitat"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tots els artistes han viscut moments en els quals per alguna raó desconeguda dotzenes d’idees els vénen al cap; i no pocs han mirat de provocar-los amb drogues. Però fins i tot dins el món de la creació artística cal algun criteri per validar les intuïcions tingudes. William James parla d’un home que passà per l’experiència del ‘gas del riure’. Sota l’efecte d’aquest gas, se sentia en possessió dels secrets de l’existència: entenia l’Univers, i en copsava els seus secrets. Però quan l’experiència amb el gas s’havia acabat, es trobava que havia oblidat tot allò que havia entès algunes hores abans. A la fi, va preparar una sessió amb gas del riure, però equipat amb paper i ploma per prendre nota de tot allò que sentia. Quan l’experiència es va acabar, es va abocar al paper on havia escrit els secrets apresos, i es va trobar que l’únic que havia escrit era ‘se sent una forta olor de petroli’."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bertrand Russell prenia aquest exemple com a paradigma de la necessitat de revisar, en estat de serenor, les suposades idees genials i/o revelacions tingudes en un estat d’exaltació. La meva impressió és que Russell (no és casual que fos una gran figura de la lògica matemàtica) es malfiava profundament dels estats d’exaltació, pel que fa a la creació humana. Davant d’aquesta posició, l’actitud dels antics perses és prou interessant. Mantenien més aviat que en actitud etílica els homes són a prop de la veritat: embriacs, els homes alliberen traumes, convencions socials i repressions, i es col·loquen en un estat mental que s’acosta molt a un estat d’il·luminació divina. Alhora, mantenien que la part de veritat a la qual s’accedeix en estat d’embriaguesa no és tota la veritat; és en estat de serenor on s’accedeix a l’altra part. En paraules d’Herodot, els perses entenien que qualsevol decisió presa en estat d’embriaguesa s’ha de revisar en estat de serenor; i qualsevol decisió presa en estat de serenor s’ha de revisar quan s’està en estat d’embriaguesa. Bé que això pot semblar un acudit, és interessant en el sentit que considera que l’estat mental que s’assoleix en estat d’embriaguesa no és necessàriament contrari a la raó, ans dóna una perspectiva complementària sobre la realitat. Un criteri sòlid sobre la correcció d’un argument, d’una raó o d’una decisió, és que aquesta correcció ha de ser visible per a la ment humana tant en estat de serenor com d’embriaguesa."
+    },
+    {
+      "type": "paragraph",
+      "content": "No és fàcil donar per bo al 100% aquest criteri, perquè en estat d‘intoxicació etílica es fan massa bestieses. Però potser no cal recórrer als estats d’intoxicació; podem parlar d’estats d’exaltació, estats de certa anormalitat, en els quals els homes no raonen ni reflexionen, sinó que es deixen anar, creen, canten, proposen. Escoltar <i>El Messies</i> de Haendel, compost en ben poc temps, i segons els seus contemporanis en un estat d’exaltació creativa gairebé histèrica, posa damunt la taula que la creació feta durant els estats d’exaltació és sovint tan vàlida o més que la feta en estats d’extrema racionalitat. I planteja la possibilitat que aquest principi es pugui aplicar no només a la creació artística: també a la creació científica i a decisions preses en moments crucials. Els historiadors especialitzats en l’antiga Roma fan tota mena d’anàlisis racionals sobre les grans decisions preses per Juli Cèsar al llarg de la seva biografia, quins factors el podien fer decidir a actuar d’una manera o d’una altra en funció de les pressions que rebia d’una banda o l’altra (Senat, exèrcit...); però no em puc estar de dubtar si tot això explica realment per què va prendre la decisió de passar el Rubicó. Potser ni ell mateix no ho hauria sabut raonar. Totes les explicacions que podem elucubrar són <i>a posteriori.</i>"
+    },
+    {
+      "type": "title",
+      "content": "QUATRE. Un exemple extrem"
+    },
+    {
+      "type": "paragraph",
+      "content": "La validesa del pensament no racional, intuïtiu, té exemples realment espectaculars. Una de les annècdotes més famoses del gran pilot argentí Fangio és que va estar a un pam de la mort al gran premi de Mónaco, l’any 1950. La tragèdia es va covar a la sortida d’una corba força pronunciada, situada molt a prop del mar; el circuit en aquell punt havia estat batut una estona abans per una gran onada, que va deixar un tapís d’aigua a la pista. Fangio corria davant, i va superar bé aquella zona. Els que corrien darrere seu, no. Un xoc en cadena va afectar els cotxes de Farina, Faggioli, Rol, i altres (nou en total), que van quedar disposats de manera que bloquejaven el circuit gairebé del tot. Cap mort, miraculosament. Però el 1950 la seguretat de la Fórmula 1 era a les beceroles, no hi havia cap cotxe de control, ni avisos per ràdio que hi havia hagut un accident, ni banderoles reglamentàries. I el més greu, l’accident havia tingut lloc en un punt del circuit que no era visible per als cotxes que s’acostaven. A la volta següent, Fangio s’acostava a 160 km per hora a la corba fatídica. No podia veure què havia passat. La tragèdia gairebé es respirava, anticipadament. I malgrat tot, uns cent metres abans Fangio començà a frenar fins al punt de reduir la velocitat de 160 a poc més de 30 km per hora, prou per trobar una via al mig dels nou cotxes, per on va poder passar a poc a poc. No cal dir que l’estupefacció de públic, comentaristes, periodistes i dels mateixos pilots fou absoluta. Per què havia reduït la velocitat? Dit d’una altra manera, com collons havia sabut que havia de frenar?"
+    },
+    {
+      "type": "paragraph",
+      "content": "A la roda de premsa posterior Fangio va confessar que no podia respondre aquesta pregunta. Al cap d’un temps, ell mateix va oferir una explicació. A la volta anterior a l’accident, quan s’acostava a la corba veia la massa amorfa del públic d’un color carnós relativament fosc; en canvi, quan poc després de l’accident es va tornar a acostar a la corba fatídica va veure aquesta massa carnosa d’un color molt més clar. Per quin motiu? En una volta normal els rostres del públic miraven a la dreta: es dirigien cap al cotxe que havia d’entrar a la corba, i els ulls, la boca, les barbes, enfosquien el mar de color rosat que ell podia veure des de la finestreta del seu bòlid. A la volta de després de l’accident, el mar de color rosat, molt més clar, li deia que la gent mirava a l’esquerra: no li ensenyaven ulls i boques sinó la galta, perquè no el miraven a ell sinó que miraven la pista. I va <i>saber</i> (?) que havia passat alguna cosa."
+    },
+    {
+      "type": "paragraph",
+      "content": "Impressionant com a anàlisi; però és una racionalització a posteriori. No podem saber si fou allò el que realment li va passar pel cap, ni que fos de manera semiinconscient, sobretot si recordem que la primera vegada que li van fer la pregunta Fangio no va saber què respondre. Podem estar segurs, només, que d’alguna manera ell va saber que havia de frenar. Pensament no-racional, intuïtiu, dut a l’extrem i validat pels fets."
+    },
+    {
+      "type": "image",
+      "name": "fangiomonaco",
+      "content": "La corba fatídica del circuit de Mónaco, on l’any 1950 hi va haver un accident múltiple que Fangio, en un exemple formidable d’intuïció, va saber evitar. A la imatge, precisament el moment que Fangio, a poc a poc, travessa tot l’amuntegament de cotxes aturats."
+    },
+    {
+      "type": "title",
+      "content": "CINC. Una necessitat evolutiva"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hi ha un fet essencial al voltant de la intuïció, de la qual se’n parla ben rarament: és una necessitat biològica. Existeix perquè és necessària. És, ben mirat, una de les característiques del nostre òrgan més preuat – el cervell – que la mare natura ha tingut la gentilesa de donar nos, mtijançant allò tan guai que anomenem evolució. A l’exemple anterior – Fangio – es pot intuir (i mai tan ben dit) el motiu. Fangio s’acostava al punt fatídic del circuit a una velocitat de vertigen. Fos el que fos allò que havia de passar, passaria al cap de pocs segons. No era possible una anàlisi racional dels fets. Perquè no hi havia temps, és clar, però també perquè Fangio només tenia al cap una part petita dels fets. No tenia ni idea de què havia passat – si és que alguna cosa havia passat – en una part del circuit que en aquell moment no podia veure."
+    },
+    {
+      "type": "paragraph",
+      "content": "Aquest darrer motiu és clau, perquè permet definir la intuïció com la capacitat de prendre decisions molt ràpides a partir d’una informació molt incompleta. Una capacitat que apareix al món animal a molts nivells. Konrad Lorenz, a la seva obra de 1973 <i>Die Rückseite des Spiegels</i> (L’altra banda del mirall), ens en dóna un bon exemple. Quan un mosquit pica al braç d’algú, té ben poca informació: es troba damunt d’una superficie que té el color correcte – barreja de rosa, taronja i bru – i la temperatura correcta – que li indica que és un organisme viu, amb sang, que al capdavall d’això es tracta. Pica, i s’ha acabat el bròquil. Hi ha, és clar, una certa probabilitat d’error, que es podria reduir afegint més informació, i processant-la. El problema és que això tindria un cost: com és ben sabut pels biòlegs, el teixit nerviós és molt especialitzat, exigent en termes energètics, i el seu manteniment s’endu una part important de l’adquisició energètica dels animals – l’aliment, ras i curt. El cervell humà, exemple extrem del desenvolupament del sistema nerviós, és un òrgan caríssim en termes energètics."
+    },
+    {
+      "type": "paragraph",
+      "content": "Per a qualsevol grup animal – un fílum, un ordre – evolucionar per la via d’augmentar la capacitat de procés i anàlisi d’informació, augmentar la capacitat cerebral en definitiva , és una via discutible i de resultat incert. No és gens obvi que l’aposta surti bé, de cara a garantir la supervivència de l’espècie. Evolucionar en el sentit de desenvolupar xarxes neuronals relativament simples però capaces de desencadenar respostes ràpides – fugir a tota pastilla, per exemple – a partir d’informació fragmentària i sovint parcialment errònia, sol ser una via molt menys arriscada. La immensa majoria de les espècies animals no són massa intel·ligents, i no és cap casualitat: En termes evolutius, desenvolupar la intuïció és un negoci molt més lucratiu que no pas desenvolupar la racionalitat, si més no tal com la coneixem. Per a les zebres, intuir si les lleones són a punt d’atacar és una qüestió de vida o mort – literalment."
+    },
+    {
+      "type": "title",
+      "content": "SIS. Intuïgència"
+    },
+    {
+      "type": "paragraph",
+      "content": "Intuïm, o tenim la capacitat de fer.ho, perquè evolutivament la intuïció ha estat una adquisició important. Un cop presa la consciència d’aquest detall, la conseqüència lògica és valorar aquesta capacitat. La nostra herència cultural – som <i>Occident</i>, en sentit ampli, i fills de la racionalitat de la Il·lustració – no hi ajuda gaire. Una manera de fer-.ho és acceptar la intuïció com un dels components de la intel·ligència, paraula de molta més envergadura i habitualment associada a quelcom de més valor."
+    },
+    {
+      "type": "paragraph",
+      "content": "No és cap secret què suposa per una persona ser qualificada de ‘persona intel·ligent’. Ser qualificada de ‘persona intuïtiva’, en canvi, no sona necessàriament a una lloança, vista l’abundància de professionals del món paranormal que miren de viure de la seva vidència. Però l’exemple de Fangio, i d’altres que trobaríem, podria ser un punt d’arrencada per analitzar una facultat humana que, ben gestionada, pot ser un ajut inestimable en algunes situacions. Qui sap si el primer pas podria ser posar-hi un nom amb un aire científic més contundent. ‘Intuïgència’, per exemple... (m’atreveixo a suggerir aquest terme). Sona a ‘intel·ligència’ però és diferent. De fet, en seria una part. Al costat de la facultat de reconèixer patrons temporals o espacials, resoldre trenca-closques, detectar errors, memoritzar seqüències de xifres (típics dels tests d’intel·ligència), caldria incloure-hi la facultat de prendre decisions encertades i, sobretot, ràpides, en base a informació fragmentària, incompleta i, de vegades, parcialment falsa. I valorar el grau d’intuïgència a partir de la proporció d’intuïcions encertades. Detall crucial, és que el subjecte ha de tenir alguna informació: no es tracta d’encertar una carta a l’atzar (or, bastos, espasa, copa), sinó de saber gestionar ràpidament una situació."
+    },
+    {
+      "type": "paragraph",
+      "content": "De fet, no invento res. Al film <i>Apollo XIII</i>, de Ron Howard, se’ns retrata l’entrenament dels cosmonautes, incloses les hores d’entrenament al simulador – sorprèn la visió dels antics simuladors, gestionats per tècnics i poc o gens controlats per ordinadors –. Inclosa la reacció dels cosmonautes quan els tècnics els donen informació falsa: un llum d’alarma equivocat, un fals indicador de fallada d’un motor. El cosmonauta ha de ser prou llest per saber que un motor pot fallar, però el llum indicador del motor també. I no fer cas de la informació que li donen els aparells, sinó seguir la seva intuïció. Cosa que va passar realment a l’Apol·lo XI. Una alarma que va sonar (alarma 1202), quan el mòdul pilotat per Neil Armstrong havia de baixar a la superfície lunar. Ni Neil Armstrong ni Buzz Aldrin tenien ni idea de què coi significava aquella alarma. Tant ells com Jim Krantz, el cap de control a Houston, van decidir ignorar-la i tirar endavant. Van intuir que no era rellevant. Encertadament."
+    }
+  ]
+}

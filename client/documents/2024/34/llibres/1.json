@@ -1,0 +1,29 @@
+{
+    "title" : "Un Pessoa fora de l'armari",
+    "url" : "un-pessoa-fora-de-l-armari",
+    "section" : "llibres",
+    "issue" : 33,
+    "data" : "29/03/2024",
+    "imageCard" : "angelcarbonell33-01",
+    "author" : "Àngel Carbonell",
+    "summary" : "",
+    "text" : [
+        {
+            "type" : "image",
+            "name" : "angelcarbonell33-01",
+            "content": "<i>Antínous</i>, de Robert Mapplethorpe, 1987"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Com explica el poeta i traductor Gabriel de la S.T. Sampol al seu pròleg d’<strong><i>Antínous i altres poemes en anglès</i></strong>, publicat enguany per l’editorial enSiola amb traducció del també poeta i traductor Miquel Àngel Llauger, entre 1896 i 1905, entre els vuit i els disset anys d'edat, Fernando Pessoa va viure a Durban, Sud-Àfrica, on el seu padrastre era el cònsol portuguès, i, per consegüent, hi va ser escolaritzat en llengua anglesa, la qual va arribar a dominar tant com el portuguès."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Una altra conseqüència d'aquests nou anys a Sud-Àfrica va ser que Pessoa va començar la seva carrera literària en anglès i, si no hagués tornat a Portugal, l’anglès, segurament, hauria estat la seva llengua literària definitiva. D’aquesta passatgera activitat literària en llengua anglesa en van sortir diversos reculls, en especial el llarg poema homoeròtic “Antínous”. Amb aquesta antologia dels poemes anglesos de Pessoa Llauger i enSiola ens ofereixen un vessant primerenc i fins i tot inesperat i valent d'aquest poeta que coneixem especialment perquè deslocalitza la seva veu poètica en una multitud d'heterònims. No és, per tant, sobrera en absolut una edició catalana dels poemes anglesos de Pessoa, ans al contrari, és una preciosa contribució que enriqueix i il·lumina la nostra lectura d’aquest gran poeta portuguès."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "D'altra banda, gràcies al seu “Antínous”, Pessoa també pot ser considerat un poeta homoeròtic. Seria molt agosarat per part meva dir que Pessoa era així o aixà, més tenint en compte que, en vida seva, aquells que divergien, ni que només fos una mica, de la norma social establerta en matèria de sexualitat, per evitar problemes, no solien manifestar-se explícitament. Ara, quan el poema més llarg i més important dels que has escrit en anglès es titula “Antínous” i és un llarg plany de l’emperador romà Adrià per la mort del noi que estima, és a dir, l’Antínous del títol del poema; si, de tots els temes amorosos de la història o la mitologia grega o romana que hauries pogut triar per a escriure un lament amorós, evitant de pas qualsevol sospita, tries precisament aquest, que justament forma part de la mitologia homosexual; i si, finalment, no t'estàs de mostrar Adrià encès de desig pel record de l’amat i de salpebrar el noi amb un bon pessic de sensualitat i lascívia; si amb tot això no n’hi ha prou perquè concebem un Pessoa fora de l’armari, en tot cas sí que ho sembla, i és perquè ell, tot i la seva personalitat més aviat discreta, ha gosat posar-se en evidència mitjançant aquest magnífic poema."
+        }
+    ]
+}

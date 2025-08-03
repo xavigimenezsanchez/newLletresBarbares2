@@ -1,0 +1,33 @@
+{
+    "title" : "Lacrimosa Windhoek 1995. Diari d’un nòmada sidós",
+    "url" : "lacrimosa-windhoek-1995-diari-d-un-nomada-sidos",
+    "section" : "creacio",
+    "issue" : 21,
+    "data" : "14/01/2023",
+    "imageCard" : "andreu21-01",
+    "author" : "Andreu Pérez-Mingorance",
+    "summary" : "",
+    "text" : [ 
+        {
+            "type" : "image",
+            "name": "andreu21-01",
+            "content" : ""
+        },
+        {
+            "type":"paragraph",
+            "content": "Sense novetat i atonyinat pel petit diable que rosega, a poc a poquet, el meu cervell sospitós de luxúria, gola i mentida, apadrino la meva diversitat insostenible, la tolerància difícil de tolerar i miro amb un agre esguard la meva suposada dignitat. Li he cuinat, amb èxit suposat, unes glòries de gall d’indi per a enamorats pansits."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "En una cassoleta he posat la ceba, petita, amb el suc d’una llimona. Mentre ho preparo les llàgrimes regalimen, la ceba té gràcia per deixar-te anar un riu de llàgrimes infinites que mai has de justificar, la llimona ajuda a que siguin un xic més agres, més dures amb tu mateix i les teves misèries, la ceba <i>Lacrimosa dies illa</i>."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Després, l’extensa sabana africana, nova per a mi, m’ha consolat, he deixat tantes llàgrimes que la llacuna d’Etosha s’ha fet salada, bicarbonat càlcic en mig d’una garriga africana. Els arbres verds com arreu, però no com els que jo conec, que soc ignorant, crec, com europeu blanc i depressiu, que a tot arreu els arbres són verds i que a totes les ciutats i a tots el mons que hi ha la gent és igual que allí d’on vinc jo."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Penso que Windhoek és una Califòrnia africana, qualsevol ciutat de Califòrnia, és tan moderna la ciutat que fuig de l'apartheid i jo m’allibero del meu pes d’europeu sidós carregat de medicaments, però fujo de la ciutat que m’enganya, una  ciutat amb una lògia maçònica i una ambaixada espanyola davant per davant."
+        }
+    ]
+}

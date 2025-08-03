@@ -1,0 +1,44 @@
+{
+    "title" : "Antologia poètica de Josepmiquel Servià",
+    "url" : "antologia-poetica-de-josepmiquel-Servia",
+    "section" : "llibres",
+    "issue" : 25,
+    "imageCard" : "angel25-01",
+    "data" : "28/05/2023",
+    "author" : "Àngel Carbonell",
+    "summary" : "",
+    "text" : [ 
+        {
+            "type" : "image",
+            "name" : "angel25-01"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<strong>Títol: <i>Antologia Poètica</i></br>Autor: Josepmiquel Servià.</br>I.S.B.N.: 978-84-17258-82-5</br>Ediciones Carena.</br>Barcelona, 2019.</br></strong>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Qualsevol lector que no conegui Josepmiquel Servià i que obri la seva <i>Antologia Poètica</i> se sentirà impressionat abans fins i tot de llegir el primer poema. I ho dic perquè només veient les lloances de la contraportada escrita per Pere Gimferrer, la reproducció de la carta encomiàstica que li adreça Blai Bonet, la felicitació de Salvador Espriu, la companyonia amb Joan Brossa o el dibuix que li dedica Rafael Alberti, es dedueix sense cap mena de dubte que Servià no només ha tractat i tracta amb poetes del més alt nivell sinó que, a més, és respectat i apreciat per ells."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Els qui, a més, tenim la sort de tenir-hi tracte i d’haver-lo llegit, sabem bé que aquestes lloances no són ni exagerades ni fruit del compromís. Servià seria una mena d’home del Renaixement: savi i vital, multidisciplinar, que tan aviat trobem fent poesia com prosa, publicant articles o col·laborant als mitjans de comunicació. Però, sobretot, Servià sorprèn per la seva gran cultura: ho sap tot, ho coneix tot, ho ha llegit tot i ha conegut tothom. Tal com ell mateix reconeix en un dels seus poemes, “si veieu que mai em moro,/ no em planyeu: hauré viscut!”. I a molts mortals ens caldrien unes quantes vides per viure la meitat del que ha viscut l’autor."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Aquesta <i>Antologia Poètica</i> ens permet, però, confirmar que les lloances no han estat exagerades i que Josepmiquel Servià és un poeta amb majúscules, que sap equilibrar, en la dosi justa, una enorme quantitat de veus. La que consideraria més destacable és la seva veu d’eco clàssic, que recorda sovint Sagarra i altres poetes coetanis. El seu ús d’estrofes i de mètriques clàssiques, la facilitat per aconseguir el ritme del vers, el domini de la forma, dels recursos, la facilitat per arrodonir un poema, tot això ens parla d’algú amb molta tècnica i amb molt de coneixement de la nostra literatura. Però, a més, quan ens endinsem en la seva poesia hi brolla una sensibilitat extrema i una profunditat notable, i això no és una conseqüència de la tècnica, sinó del geni, del poeta de raça."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "L’altra veu tampoc no deixa de ser clàssica però el lliga més amb Brossa i d’altres autors. Ben mirat, Servià és un empordanès modèlic, sorrut i enginyós, esventat i irònic, i per això també l’hem de vincular a un estil de poesia popular, aparentment senzilla però sempre intensa i provocativa."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "La gràcia i la utilitat de l’<i>Antologia</i> rau en fer-nos possible constatar aquest caràcter polièdric de l’autor sense haver d’anar buscant els seus llibres, sovint esgotats. En aquesta antologia hi trobem allò que Pere Gimferrer ja ens anuncia en la contraportada: algú que ha begut de les fonts de la nostra literatura més alta, de Verdaguer, de Carner, de Foix, de Brossa i de tants altres. I hi trobem també el poeta divertit i l’home culte, una barreja que el fa un humanista avant la lettre, que és capaç de vincular cada poema amb una ària d’òpera italiana que hi encaixa com un guant i que es converteix en part del mateix poema."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "I posats a trobar totes les excel·lències a aquesta antologia, cal destacar també el seu caràcter de versió bilingüe, en què els poemes han estat traduïts del català al castellà pel mateix autor. Podríem parlar-ne molt de les característiques d’aquesta traducció, però el mateix autor la qualifica de “molt més lliure que literal”, perquè “és preferible fer arribar els sentiments, les emocions i el missatge d’un poema, usant, si cal, girs lèxics o conceptuals distints dels del text original, que no pas fent una transposició exacta, freda, rígida i literal dels mots que el constitueixen”. A la vista dels resultats, no podem parlar ben bé d’un original català i una traducció al castellà, sinó que ens trobem amb dos poemes del tot iguals en el fons i prou diferents en la forma perquè així cadascun contingui el geni de la llengua en què s’expressa."
+        }
+    ]
+}

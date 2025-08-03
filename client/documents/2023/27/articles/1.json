@@ -1,0 +1,184 @@
+{
+    "title" : "Charles Dekeukeleire o el meu llit és el meu plató",
+    "url" : "charles-dekeukeleire-o-el-meu-llit-es-el-meu-plato",
+    "section" : "articles",
+    "issue" : 26,
+    "data" : "30/06/2023",
+    "imageCard": "salesas26-01",
+    "author" : "Florenci Salesas",
+    "summary" : "",
+    "text" : [
+        {
+            "type" : "image",
+            "name": "salesas26-01",
+            "content" : "Charles Dekeukeleire (1905-1971) i un segell belga commemoratiu en el seu honor."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<i>“M’entristeix la pobresa interior del cinema actual. Cal intentar un esforç purament poètic de construcció interior tant per sortir d'aquesta pobresa com per a la nostra pròpia satisfacció d'artistes. Vull abraçar el cinema amb un esperit absolutament verge.”</i>"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"right\"}",
+            "content" : "Charles Dekeukeleire"
+        },
+        {
+            "type" : "title",
+            "content" : "“Cinema experimental”, una etiqueta complexa"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "La poesia forma part de l’ADN del cinema mut ja des dels seus inicis, obligat per la seva pròpia natura a deixar molt d’espai a la imaginació de l’espectador. Certes transicions temporals, emocions i pensaments interns dels personatges o sons produïts en off són mostrats o suggerits poèticament, amb unes metàfores visuals que s’anaven renovant a mesura que esdevenien clixés i que s’abandonarien amb l’arribada dels talkies: davant una simple frase de diàleg esdevindrien redundants. Així, trobem la paradoxa que molts productes comercials silents —amb un mínim de valors estètics, és clar— avui ens resulten estimulants per la seva puresa artística, ja que competeixen en “poesia” amb títols sonors d’autor volgudament poètics. Aleshores no hauria de sorprendre que el cinema mut experimental autoconscient, vinculat a les avantguardes de l’inici del segle XX, meravellin l’espectador inquiet d’avui, que hi reconeix recursos reutilitzats pel videoart, la publicitat o els videoclips, d’invenció sovint atribuïda a noves onades dels anys 60."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Per tot això crec que no hi ha cap altra etapa de la història del cinema on la línia divisòria entre l’entreteniment i l’experimentació purs es dilueixi tant. Per una banda, els avantguardistes del nostre segle matarien per les metàfores de Clarence Brown, exemple de director professional —refinadíssim artista, però— creades al servei d’estrelles de la MGM, com Greta Garbo i John Gilbert, a <i>The Flesh and the Devil</i> (1926) i, per una altra, els comediants d’ara es vendrien l’ànima per les idees i els gags hilarants d’<i>Entr’acte</i> (1924), radical assaig dadaista de René Clair. Cal dir que el cinema d'avantguarda no se solía exhibir a les sales comercials, de bracet dels <i>blockbuster</i> del moment. Cadascú tenia el seu lloc, amb recíproques malfiances, però també, per sort, hi havia prou vasos comunicants com perquè la separació no fos tan fàcil de definir."
+        },
+        {
+            "type" : "image",
+            "name": "salesas26-02",
+            "content" : "Fotogrames de <i>Combat de boxe</i> (1927)"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "L’avantguarda oficial tenia també el seu catàleg d’estrelles, que treballaven sobretot a França, sens dubte el Hollywood de l’experimentació —meca de l’esnobisme, segons el sector crític—, Alemanya i, una mica menys, els Estats Units: Man Ray, Marcel Duchamp, Germaine Dulac, Luis Buñuel, Hans Richter, Walter Ruttmann…, adscrits i recolzats/expulsats pels seus moviments respectius. Figures com Joris Ivens, Kenneth Macpherson o Mário Peixoto, entre d’altres, també han transcendit, malgrat treballar en països de poca tradició avantguardista. Tots ells, però, o bé eren artistes reputats en altres àmbits o es movien sota l’empara de moviments d’agitació artística i/o política. Charles Dekeukeleire, l’heroi d’avui, no va gaudir en el seu dia del ressò de cap dels noms esmentats. Fins a l’entusiasta reivindicació recent tenia una presència zero als llibres d’història, malgrat complir amb tots els requisits: una ferma base cultural, domini del mitjà, imaginació, risc, teories pròpies, un idealisme d’esquerres insubornable i estar com un llum de ganxo. Què va sortir malament, doncs?"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "D’entrada, era belga. Després, els seus postulats i obra no encaixaven en cap dels corrents del seu moment i això el feia difícil de vendre —perquè sí, estimat lector, la puresa de l’avantguarda té la seva cara ferotgement comercial— i els pocs crítics que accedien als seus films no sabien què fer-ne. Llevat de l’atenció de quatre escriptors patris marginals, entestats a valorar-ne unes qualitats que la seva obra no posseïa ni cercava —estimaven l’home, però no l’entenien— no hi va haver prou resposta per assegurar-li un mínim de posteritat i, després dels seus tres intents muts —demano disculpes per no incloure <i>Witte Vlam</i> (1930), obra interessantíssima, de transició entre l’etapa que aquí ens interessa i l’altra— es va passar als documentals fins el final dels seus dies, amb un cert èxit."
+        },
+        {
+            "type" : "image",
+            "name": "salesas26-03",
+            "content" : "<i>Impatience<i> (1928): Fotogrames de la dona vestida"
+        },
+        {
+            "type" : "title",
+            "content" : "Un combat de boxa al dormitori personal"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Fins gairebé els anys 30, més enllà d’algunes aventures puntuals, Bèlgica era un país sense indústria cinematogràfica. El 1920, els títols francesos, alemanys i —sobretot— dels USA dominaven les sales del país, com a la resta d’Europa. A partir de 1921, a França, es produiria l’aparició dels primers cine-clubs, al marge dels circuits de distribució habituals. L’invent s’acabaria escampant per la majoria de països, tant productors com no, del continent. Aquesta manifestació cultural, emmirallada en les iniciatives del teòric i cineasta francès Louis Delluc, també promovia la publicació de revistes especialitzades i la producció de films amateurs. El jove Henri Storck, promotor del cine-club d’Ostende, va ser el cineasta belga més reputat de tots els que van arribar a l’experimentació a partir de l’amateurisme. El seu <i>Images d’Ostende</i> (1929) li va aplanar l'admissió al selecte club d’experimentadors admirats pels cel·luloideferits de França. Dekeukeleire, que el 1929 ja ho havia dit tot, d’aquest club no n’obtindria ni el pin."
+        },
+        {
+            "type" : "image",
+            "name": "salesas26-04",
+            "content" : "<i>Impatience<i> (1928): Fotogrames de la dona despullada"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Charles Dekeukeleire (1905-1971) era un erudit i intel·lectual precoç. Els seus pares li van donar una ferma educació de base —dominava el grec clàssic i el llatí com el francès o el neerlandès materns— i es va graduar en clàssiques amb 18 anys. El títol va coincidir amb l’epifania provocada per la visió de <i>La roue</i> (1923) d’Abel Gance. Amb aquella revelació va descobrir les possibilitats expressives del cinema, més enllà de la mera diversió que els pobres d’esperit n’esperen. Llegir Delluc el va acabar de convèncer de la seva vocació. Encara menor d’edat es va estrenar com a crític amb una rigorosa ressenya de <i>La Belle Nivernaise</i> (1924), de Jean Epstein, a la revista francesa <i>Cinéa</i>, que va cridar l’atenció de diverses publicacions belgues d’art per fitxar-lo com a especialista del tema. El següent pas seria dirigir i produir films independents de debò, al marge del món i sense cap mena de subvenció. Llavors funcionaven així aquestes coses."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Com aquell qui res, amb 22 anys es fon els estalvis per comprar una càmera de 35 mm, una bobina de pel·lícula i un precari però enginyós equip d’il·luminació. El seu dormitori, situat a la segona planta de casa els pares, serà el plató. Un llençol blanc penjat a la paret amb xinxetes l’únic escenari de fons. Sense més material i amb l’actitud d’un punk de barriada, obre foc esmenant-li la plana al mateix Eisenstein en el territori del muntatge amb el contundent curt <i>Combat de boxe</i> (1927), de vuit minuts."
+        },
+        {
+            "type" : "image",
+            "name": "salesas26-05",
+            "content" : "<i>Impatience<i> (1928): Fotogrames dels blocs"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "A partir d’aquí, en tres anys d'intens individualisme, completa el seu corpus experimental complet, format per l’esmentat curt, <i>Impatience</i> (1928) i <i>Histoire de détective</i> (1929). El 1930 s’afarta de parlar amb la paret i fa un gir de 180º cap al documental. Aquests tres films es realitzarien seguint l’auto-imposat sistema de producció, extremament espartà, ja esmentat —llençol de fons blanc per als interiors, filmar a mesura que pot adquirir pel·lícula, “el meu dormitori és el meu plató”...—, sense cap suport de mecenes ni associacions, llevat dels soferts amics —que s’anaven succeint, a mida que es cremaven—, que ajudaven en la logística o com a actors. Els pares, mentrestant, es mantenien en estat de desconhort,esbullant-se els cabells i preguntant a Déu què havien fet perquè els castigués amb un fill cineasta experimental."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "A <i>Combat de boxe</i>, Dekeukeleire mostra el que diu el títol, d’una manera tan immersiva i elèctrica que fa que els altrament brutals combats de <i>Raging Bull</i> (1980), de Martin Scorsese, semblin filmats i muntats per un koala narcolèptic. Per aconseguir realisme va contractar dos boxejadors professionals als que va convidar a fer veure que combatien davant el llençol de la paret, un gran full de paper blanc estès al terra i unes cordes laterals, suspeses, per suggerir l’efecte d’un quadrilàter que sura en el no res. En lloc, però, de procedir a simular un combat sencer i seleccionar després els moments més interessants, ja des del rodatge Dekeukeleire va esmicolar l’acció en nombrosos plans de conjunt o individuals, generals, mitjos, primers plans i plans de detall dels cossos dels contrincants: peus, braços i, sobretot, un puny aferrat que colpeja directament a càmera."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Tot aquest material apareix fragmentat i diluït amb l'ús de trucs fotogràfics i de muntatge, com imatges en negatiu, superposicions, salts abruptes i talls rítmics extremadament ràpids i la inserció de plans generals d'una massa humana —filmada a l’exterior, en un esdeveniment públic multitudinari que no tenia res a veure amb la boxa— que aparentment segueix el combat. Les preses del públic són en negatiu i les accions dels boxejadors en positiu, unes vegades per tall, d’altres per sobreimpressió. Tot el curt es compon de sèries rítmiques de plans breus, que van de vuit a un sol fotograma cadascun, amb alternances de plans més llargs, amb durades múltiples de vuit fotogrames."
+        },
+        {
+            "type" : "image",
+            "name": "salesas26-06",
+            "content" : "<i>Impatience<i> (1928): Fotogrames de la moto"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Es diu que <i>Combat de boxe</i> és el film experimental menys distintiu del seu autor, amb més antecedents. A mi no m’ho sembla pas del tot. El resultat final continua fascinant i, en això tothom hi està d’acord, per durada i adrenalina és potser el seu títol més accessible. No sabem com s’ho va fer, però Dekeukeleire va aconseguir que el Coliseum de Brussel·les contractés el curt com a filmet previ de <i>Chang</i> (1927), de Merian C. Cooper i Ernest B. Schoedsack, l’eixerit duo de creadors de <i>King Kong</i> (1933)."
+        },
+        {
+            "type" : "title",
+            "content" : "<i>Impatience</i> o com acabar amb la paciència del públic"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "La segona obra del belga, <i>Impatience</i> (1928), representa un gran pas endavant, sobretot per la seva durada de més de mitja hora, insòlita i arriscada en una obra experimental. En aquest migmetratge Dekeukeleire planifica una repetició implacable d'un petit nombre d'elements, amb variacions limitades, amb la voluntat d’alienar el públic. Els crèdits ens presenten els “Quatre personatges: La Muntanya, La motocicleta, La dona, Blocs abstractes” i afegeix, “El personatge humà és interpretat per Yonnie Selma.”"
+        },
+        {
+            "type" : "image",
+            "name": "salesas26-07",
+            "content" : "Un moment d'<i>Histoire de détective</i> (1929)"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<i>Impatience</i> reprèn el concepte estètic i rítmic de <i>Combat de boxe</i>, però el refina i du fins a les últimes conseqüències. El cineasta empra una successió de plans fortament ritmats de paisatges, petits detalls de la moto, figures abstractes i d'imatges del cos nu de la dona pilot, filmats molt de prop i mostrats a una mida considerable, en un joc cronometrat al mil·límetre, per despullar les imatges d’un sentit únic. El cineasta volia que l'espectador es deixés endur al llarg del film, sentir-se immers en els objectes i les seves convulsions al llarg dels diversos plans que varien entre un i 600 fotogrames."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Amb l’ajuda d’un amic fotògraf, Dekeukeleire instal·la un laboratori al celler de la casa familiar i desenvolupa un sistema únic de revelat de negatius. Al dormitori filma parts de la moto, parts del cos de la dona i els blocs abstractes, sobre el fons blanc de sempre —hissar la moto al segon pis devia ser tot un poema, poc apreciat pels seus pares—, però la muntanya hi surt en bruscs plans de càmera en mà, rodats a l’exterior: Dekeukeleire no pot fer el que fa Mahoma. Les imatges es van repetint en unes rimes formades pel nombre de fotogrames preestablerts. Hi ha moments que sembla intuir-se una possible trama —una dona travessa les muntanyes amb una moto— per després destruir tota pista narrativa i tornar a la fragmentació desconcertant: parts de la màquina, la cara i el cos de la dona, de vegades vestida, de vegades nua... Hi ha moments que s’hi respira un punt d’erotisme, però el que preval és la hipnosi absoluta."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Se sap que en aquest punt de la seva carrera Dekeukeleire havia vist els títols soviètics que començaven a entrar a Europa i, malgrat les referències d’alguns crítics a Kuleschov o Vertov —per força s’havia de sentir interpel·lat per alguns dels seus experiments—, és evident que ell va a la seva. No cal dir que la distribució del migmetratge va ser un desastre. Es va estrenar com a complement de programa al costat d’un curt de Felix the Cat. Costa imaginar pitjor context per preparar l’espectador. El seu amic Maurice Caste els mirava d’amorosir el cop amb una presentació en la que parlava de l’excel·lent abstracció —Dekeukeleire detestava ser tingut per abstracte, però qualsevol esmena una paraula amable, per poca diana que faci— i comparava el film a una sonata o un poema simfònic. Henri Storck va fer una ressenya entusiasta en un diari local que no va tenir cap ressò. Va arribar a presentar-se en un programa doble amb <i>Combat de boxe</i> a uns quants cine-clubs francesos, però ningú se’ls va prendre seriosament. El seu era un avantguardisme que seria entès els anys 60, però no llavors. Impatience anava en contra de tots els corrents del moment."
+        },
+        {
+            "type" : "image",
+            "name": "salesas26-08",
+            "content" : "Fotogrames de <i>Terre Brûlées</i> (1932). A l’article no parlem de l’obra documental de Charles Dekeukeleire, però també val la pena de visitar. Aquesta és una de les seves joies."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Seguint la sàvia premissa de “si hem de morir fem-la ben grossa”, <i>Histoire de détective</i> (1929), el següent fracàs, seria un llargmetratge. Malgrat la seva durada i importància, només en farem un apunt breu. No pas perquè jo no el valori —tot i que per mi la seva gran obra mestra és <i>Impatience</i>— sinó per una qüestió d’espai. Només direm que amb aquest film el seu autor feia un primer intent d’aplicar les seves estratègies per narrar una historia de veritat, amb la inclusió, per primer cop, de text escrit i el joc del cinema dins el cinema. En el fons tot té l’aire d’una gran broma. Una broma, però, tan fascinant com sempre, plena d’angulacions insòlites i troballes on Dekeukeleire s’allibera d’algunes cotilles dels dos anteriors films, alhora que se n’imposa de noves."
+        },
+        {
+            "type" : "title",
+            "content" : "Un minimalista sense etiqueta"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Ja des de <i>Combat de boxe</i> queda clar que a Dekeukeleire no l’interessa el cinema ni com a mitjà per narrar històries ni com a mitjà d’arribar a l'abstracció de <i>Cinéma pur</i><sup>1</sup> amb dissonàncies visuals, plaents o incòmodes. El cineasta no cerca l’impacte puntual, la sorpresa espectacular, l’escàndol. Tampoc vol provocar ni programar unes emocions concretes. Sí que n’hi hagi —sense emoció, per què l’art?—, però que arribin des de la inconsciència ambigua, a cada espectador la seva, a través de la hipnosi i l’alienació. Malgrat la seva ideologia —que mostrará a l’etapa documental—, mai no pretén imposar una política, però tampoc lloar el nihilisme. Sense catequesi ni blasfèmies. Per damunt de tot l’atrau explorar les possibilitats mesmèriques de la repetició d’estructures, combinant el fotograma únic, els plans, les agrupacions de plans —en el seu cas més que seqüències potser n’hauríem de dir associacions de segments de plans— i la pel·lícula com un tot, en una rima intricada com la resolució d’un cub de rubik dodecaedre."
+        },
+        {
+            "type" : "image",
+            "name": "salesas26-09",
+            "content" : "Eloqüent fotograma de <i>Het Kwade Oog</i> (1937)"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "En realitat ens trobem davant un intent de genuí cinema minimalista, sense precedents, que pretén cercar amb les imatges una juxtaposició d’elements aïllats que l’acosta molt més al que compositors americans repetitius dels anys 60, com Terry Riley o Steve Reich, cercaven en la música, i l’allunyava de l’avantguarda del cinema del seu moment, amb uns interessos oposats. Cal recordar que pioners com Edwin S. Porter ja havien experimentat amb la reducció progressiva de fotogrames per pla per generar suspens; Griffith i Gance, amb <i>Intolerance</i> (1916) i La Roue (1923), respectivament, assolirien el virtuosisme i al final d’<i>Entr’acte</i>, Clair anuncia les estratègies del belga. Tots aquells, però, juguen de ple amb l’emotivitat: humor, drama... Empren el ritme, però també una melodia potent que prioritza l’emoció, encara que en el cas de Clair s’abraci l’absurd. Dekeukeleire, per contra, fa com els músics esmentats, posa el focus en el ritme, però evita una melodia principal —si de cas loops melòdics que es repeteixen i se superposen constantment, tal com es fa al techno minimal— i les emocions que puguin emanar del càlcul estructural del conjunt no es preveuen sinó que es deixen en mans dels capricis de l’atzar."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Alguns dels seus coetanis jugaven a l’<i>antistablishment</i>, des de la poltrona que el propi establishment els oferia. Dekeukeleire no seguia aquest joc. Ell era l’<i>antistablishment</i> pur. Malgrat rebre ofertes mai no va voler realitzar llargs comercials a canvi de comissions, com feien alguns experimentadors alemanys. Els mateixos Richter i Fischinger podien fer els seus curts o escenes d’animació de grans produccions de la UFA. A França, els cineastes d’avantguarda dominaven una part de la indústria, alternant títols més populars amb el seu treball més experimental, o es feien dependents dels encàrrecs del potent sistema de cine-clubs i les seves modes —“ens aniria bé un curt amb moltes espirals i llumenetes, que faci flipar tant com l’últim Opus de Richter, que ara es porta molt...”. Els films experimentals de Dekeukeleire no van sortir dels circuits locals i van patir alguna mofa a França. A nivell europeu, <i>Impatience</i> es va projectar a l'exposició Film und Foto de 1929, a Stuttgart, provocant la indiferència habitual. Avui la cosa ha canviat del tot."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Avui Dekeukeleire forma part de la flor i nata de l’avantguarda muda. Els seus films es reposen constantment i molts músics experimentals frisen per musicar-los en directe, tot i que, òbviament, com més severa i repetitiva sigui la banda sonora, millor —ja sabem que poc amic de l’abstracció era el teòric del “maquinisme” i la “tecnografia”<sup>2</sup>. Per al <i>soundtrack</i> del muntatge que acompanya l’article no he recorregut a un minimalista, però tampoc a un d’abstracte, sinó a fragments d’<i>Un discreto vigor</i> (2022), de Juan Crek i Andrés Noarde, mites vivents de l’experimentació barcelonina, prou obsessiva com per satisfer a Dekeukeleire, encara que també inclou molts altres components emocionals. Ho sento, Charles. Com a penitència ja et pujarem una moto al teu dormitori de l’Olimp dels experimentadors quan vulguis fer el remake d’<i>Impatience</i>."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<iframe width='100%' height='400' src='https://youtube.com/embed/0tPLkjyrnk4'></iframe>"
+        },
+        {
+            "type" : "paragraph",
+            "className" : "image-foot",
+            "content" : "Muntatge de fragments de 1- <i>Combat de boxe</i> (1927), 2- <i>Impatience</i> (1928), 3- <i>Histoire de détective</i> (1929) i <i>Bonus Track</i> documental amb moments de 4- <i>Terre Brulées</i> (1932), amb, com a banda sonora, els temes <i>Un discreto vigor</i>, <i>Nuvolat</i>, <i>Norte revisitado</i> i <i>Mantis marina</i>, del disc <i>Un discreto vigor</i> (2022), de Juan Crek i Andrés Noarde."
+        },
+        {
+            "type": "footnotes",
+            "notes": [
+              {
+                "number": 1,
+                "content": "El Cinéma Pur va ser un moviment avantguardista francès dels anys 20. El terme fou creat per Henri Chomette. Es pretenia realitzar un cinema que es centrés en els elements purs de l'art cinematogràfic, com ara el moviment, la forma, la composició visual i el ritme."
+              },
+              {
+                "number": 2,
+                "content": "Termes creats per Charles Dekeukeleire, emprats i analitzats massivament als seus textos teòrics."
+              }
+            ]
+          }
+    ]
+}

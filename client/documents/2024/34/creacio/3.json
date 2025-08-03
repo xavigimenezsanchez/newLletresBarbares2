@@ -1,0 +1,36 @@
+{
+    "title" : "Engrunes de sal",
+    "url" : "engrunes-de-sal",
+    "section" : "creacio",
+    "issue" : 33,
+    "data" : "29/03/2024",
+    "imageCard" : "freijomil33-01",
+    "author" : "Sandra Freijomil",
+    "summary" : "",
+    "text" : [ 
+        {
+            "type" : "image",
+            "name": "freijomil33-01"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<div style=\"display: flex; justify-content: flex-end\"><div style=\"text-align: right;\">“Plores? Estimat!</br>El meu tot: perdó!</br>Engrunes de sal</br>Al palmell més dolç”</br>Tsvetàieva, M. <i>Poema de la fi</i> (fragment)</div></br></br></div>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "De tant en tant, i més aviat de tant en molt, perquè són aquells instants que no es donen sovint, però que voldries que es produïssin amb certa freqüència, tot i que, en cas de ser així, es perdria la màgia i l’excepcionalitat que suposa el fet que es donin, com puntades atzaroses de pinzell."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Tot d’una llegeixes una frase, un poema, un breu, un què. Alguna cosa feta de paraules, les que fem servir cada dia, des que ens llevem fins que ens n’anem al llit, paraules i enllaços de paraules, frases, paràgrafs, discursos, diàlegs, qualsevol cosa amb una mica de sentit. I et fascina."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "L’experiència estètica que molts han provat inútilment d’explicar. Que si la cosa és bella o, com afirmava Plató, participa de la idea de bellesa de la qual en compartim un tros, com qui mossega una poma i de la queixalada en fa virtut. O ens trobem davant una experiència totalment subjectiva, segons l’aposta kantiana, que fa que només tu sentis aquest pessic al budell i et sacsegi. Els llocs, com les paraules, poden no ser comuns, però tenen alguna cosa de compartida en la seva experiència. No ens arribaran les mateixes paraules, però compartirem la sensació que provoquen quan ens arriben. En les paraules i en l’art en general. I passa que llegeixes, una vegada i una altra, engrunes de sal, i et meravelles. T’enlluernes mentre rumies que no pot ser, que tu no series capaç d’escriure tres paraules com aquestes, en aquest ordre i amb aquest mateix sentit, per descriure una llàgrima seca que vessa a la pell, abandonada."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Engrunes de sal et persegueix i se’t fica endins. Te la graves a foc, a foc, com vivia la poeta Marina Tsvetàieva. Saps que no l’oblidaràs. No recordaràs el poema sencer, ni tan sols quin era el seu missatge més enllà del comiat d’un amor clos, però saps que sempre més t’acompanyaran aquestes engrunes de sal. I tal vegada és cosa bona aquesta màgia esporàdica de frases perfectes perquè, si es donessin sovint, perdries la perspectiva, la mirada, i el calaix estaria tan ple que per força la seva dimensió t’abocaria a oblidar."
+        }
+    ]
+}

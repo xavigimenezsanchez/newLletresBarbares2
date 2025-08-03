@@ -1,0 +1,53 @@
+{
+    "title" : "Passejant amb Virginia Woolf",
+    "url" : "passejant_amb_virginia_woolf",
+    "section" : "articles",
+    "issue" : 44,
+    "data" : "22/02/2025",
+    "imageCard" : "freijomil44-01",
+    "author" : "Sandra Freijomil",
+    "summary" : "",
+    "text" : [
+        {
+            "type" : "image",
+            "name" : "freijomil44-01"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<i>«Quina mena de diari m'agradaria que fos? Un text deslligat, però no descuidat, tan elàstic que pugui encabir qualsevol cosa solemne, lleugera o bonica que em vingui al cap.»</i>"   
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"end\"}",
+            "content" : "<i>Diari d’una escriptora</i>"   
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Hi va haver uns anys de primeres vegades que ja no tornaran. Descobrir de què anava això que en diem vida, no només des de l’experiència personal, que vora els vint encara té camp per recórrer, sinó també a través dels ulls dels altres. Vides i veus per llegir-les i mirar-les."   
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Vaig arribar a Virgínia Woolf a través d’<i>Una cambra pròpia</i>, perquè a l’adolescència gaudir d’una habitació per a tu sola on ningú no fiqui el nas és un dels desitjos més anhelats. No recordo què en vaig entendre, però em devia sacsejar prou per conservar el llibre a la prestatgeria dels preferits i provar de llegir-ne una novel·la. Aleshores vaig cometre l’error de voler endinsar-me a <i>Les ones</i>. La dificultat de la lectura em va fer fora i el vaig abandonar i col·locar, fent trampes, a la mateixa prestatgeria al costat de la cambra. Com si l’hagués llegit i m’hagués entusiasmat. No hi vaig tornar."   
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Més de vint anys després l’onada de traduccions és imparable. L’alliberament dels drets de l’autora ha animat moltes editorials a recuperar-la i, amb elles, també jo hi he tornat. La vaig reprendre des dels dietaris. Estava convençuda que aquella prova seria totalment assumible perquè sempre m’han agradat els diaris i les biografies. <i>Diari d’una escriptora</i> (Viena edicions), meravellosament traduït per Dolors Udina, és una selecció acurada i estudiada que Leonard Woolf va publicar uns anys després de la mort de Virginia. En aquests Diaris es mostra la Virginia escriptora, les seves pors i certeses, la voluntat literària i el camí recorregut. Aquí, però, no es recullen les crítiques i les ironies que l’autora, de llengua esmolada, no es contenia de transcriure com sí que trobem a l’edició completa."   
+        },
+        {
+            "type" : "paragraph",
+            "content" : "El primer que em va sorprendre va ser la humanitat i la sinceritat de la persona, perquè ja no es tractava d’un personatge que l’imaginari col·lectiu havia construït d’una determinada manera, sinó d’algú de carn i ossos que sentia. Descobrir-li les febleses, com patia amb cada llibre que publicava, com esperava ansiosa les opinions dels amics i de la crítica o com comptava les lliures per poder fer un bany a Monk’s House. Com es preocupava de la seva malaptesa a l’hora de vestir, però, sobretot, com n’era, d’activa."   
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Virginia Woolf era extraordinàriament activa. Llegia moltíssim. Escrivia novel·les i assajos, crítica literària al <i>Times Literary Supplement</i>, els diaris havent dinat, per descansar, deia ella, biografies d’amics i cartes a tort i a dret. També assistia a reunions, sopars, trobades, vetllades, concerts, discutia amb els inseparables del grup de Bloomsbury, visitava sovint la Vanessa i els nebots, col·laborava amb Leonard en les publicacions de l'Hogarth Press, caminava molt, rumiava i sí, també patia crisis de tant en tant, fruit del que avui s’ha considerat que era un trastorn bipolar."   
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Llegir-la als diaris em va fer humanitzar-la i allunyar-me de la imatge que sovint es mostra d’ella i que així va reflectir Nicole Kidman, una dona boja, de pensament tèrbol i mirada sospesa i suïcida. Després d’aquell primer bocí de diaris ja no m’he pogut aturar. He llegit els diaris gairebé complets, <i>Orlando</i>, <i>Flush</i>, <i>La senyora Dalloway</i>, <i>Cap al far</i>, <i>Un esbós del passat</i>, <i>Tres guinees</i>, alguns contes i assajos i finalment he pogut endinsar-me en <i>Les ones</i>. A hores d’ara, si n’hagués de triar una, aquesta seria sense dubte <i>Cap al far</i>. Em sembla una meravella, sublim, de la qual estic convençuda que m’he perdut coses i a la que tard o d’hora hi tornaré. Encara em queda camí per recórrer i saber-ho em fa molt feliç."   
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Fa uns dies em preguntaven per on començar a llegir-la si no se l’ha llegida mai. Podria recomanar el meu camí perquè a mi m’ha anat bé, però estic segura que n’hi ha d’altres. La veritat és que no és una autora fàcil. Acostumats com estem que tot passi de pressa i a un ritme trepidant, Woolf escriu pausat, detallista, introduint el flux de consciència que caracteritza la seva aportació a la narrativa moderna. El pensament dels personatges s’enllaça amb la veu del narrador, en una relació interconnectada que d’entrada fa difícil de distingir l’heura de la bardissa. Cal donar-li temps i espai, dues coses que en el món actual són pràcticament inexistents. Si ho fas, si tens paciència i hi poses tots els sentits, quan t’hi submergeixes, la recompensa és immensa."   
+        }
+    ]
+}

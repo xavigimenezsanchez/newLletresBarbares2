@@ -1,0 +1,64 @@
+{
+    "title" : "Un grapat de peces mestres de Maupassant en llengua catalana",
+    "url" : "un-grapat-de-peces-mestres-de-maupassant-en-llengua-catalana",
+    "section" : "llibres",
+    "issue" : 21,
+    "imageCard" : "torra21-01",
+    "data" : "14/01/2023",
+    "author" : "Pere Torra",
+    "summary" : "",
+    "text" : [ 
+        {
+            "type" : "image",
+            "name" : "torra21-01"
+        }, 
+        {
+            "type" : "paragraph",
+            "content" : "Guy de Maupassant. <i>Contes de la becada</i>. Traducció de Marta Marfany. Barcelona, edicions del cràter 2021."
+        }, 
+        {
+            "type" : "paragraph",
+            "content" : "Una revista jove com <i>Lletres bàrbares</i> té el deure de saludar i celebrar projectes editorials també joves, com ara Edicions del Cràter, i més encara quan el propòsit d'aquesta nova editorial és publicar llibres capaços d’esberlar les concepcions del lector i deixar empremta a la seva ànima, com passa amb el cràter que les erupcions deixen sobre el terra. Anem amb cert retard a l’hora de comentar <i>Contes de la becada</i> (llibre publicat a finals del 2021), però això no és res al costat de l’endarreriment de la nostra cultura –per les raons massa sovint injustes que tots sabem– perquè sembla mentida que aquest llibre no hagués estat mai editat en la nostra llengua. Es tracta d’un recull de contes que aplega una sèrie de petites joies de la narració curta, que ens transporta sobretot a la Normandia d’origen de Maupassant, i ens fa conèixer històries de caçadors, pescadors, gent del camp i també vides marcades per la guerra de torn, en aquest cas la guerra francoprussiana del 1870. També n’hi ha alguna d’ambientada a París, però les millors són les d’allà on l’escriptor va néixer."
+        }, 
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content" : "El millor del recull són les històries de caçadors i de la pagesia normanda: divertides, senzilles i excessives"
+        },
+        {
+            "type": "paragraph",
+            "content": "Després del conte introductori («La becada»), la primera narració, «El porc d'en Morin», és un autèntic prodigi en l’ús de la ironia, entesa com el mecanisme de transmetre moltes coses sense dir-les, fins al punt que la manera com s’enuncien fa entendre el contrari del que expressa el text literalment. Al final del conte, el lector s’adona perfectament qui és el porc de debò."
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content" : "La traducció de Marta Marfany és impecable i es correspon amb la llengua clara i natural de Maupassant"
+        }, 
+        {
+            "type" : "paragraph",
+            "content" : "Potser els contes més característics del recull –i també els millors– són les històries de caçadors i de la pagesia normanda: divertides, senzilles i excessives. «Va cantar un gall» és un relat hilarant, amb una història circular, que conté frases per treure’s el barret, com aquesta per descriure la tardor: «Per l’aire s’hi arrossegaven olors de terra humida, de terra desvestida, com l’olor de carn nua que se sent quan cau, després d’un ball, el vestit d’una dona» (138). Això sí que és saber escriure! A «Un normand», que fa un retrat implacable de l'addicció a l’alcohol i satiritza la devoció religiosa, trobem una altra descripció deliciosa també sobre aquesta mateixa estació: «La tardor, la tardor meravellosa, barrejava l’or i la porpra amb les últimes verdors que quedaven vives, com si unes gotes de sol s’haguessin fos regalimant del cel en l’espessor dels boscos» (110). «Broma normanda» és un conte que respon bé al seu títol, però, al nostre gust, potser resulta massa anecdòtic i directe. «La cadiraire» relata la història d’una desgraciada, un tipus de personatges marginats que rendeixen molt bé literàriament, i ens ha fet pensar en l’Esperanceta Trinquis espriuana. També amb una ambientació rural, encara que sense caçadors, trobem «Al camp», «Pierrot» i «Els esclops». El primer explica una història que té un cert aire d’anti-paràbola, és a dir, els valors morals que el lector espera veure encimbellats són ensorrats en el desenllaç. El segon, per la seva banda, ridiculitza l’extrema gasiveria de forma hiperbòlica i el tercer, mostra el cas d’una noia tan curta de gambals que gairebé resulta inversemblant. «El testament», a diferència del ja esmentat «Al camp», és un relat que mostra que la justícia també triomfa de forma esclatant després de la mort, i «Un fill» blasma amb duresa la inconsciència dels homes de bona posició, que no pensen en les conseqüències de mantenir relacions sexuals amb dones i van deixant fills escampats pel món."
+        }, 
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content" : "El tractament de la guerra francoprussiana prefigura les obres de la literatura antibel·licista del segle XX (Hašek, Remarque o Céline)"
+        }, 
+        {
+            "type" : "paragraph",
+            "content" : "La traducció, a càrrec de Marta Marfany, és impecable i recorre a una llengua moderna i eficaç, que es correspon amb la llengua clara i natural de Maupassant. La versió catalana obté, a més, una molt bona adequació del lèxic al registre col·loquial sobretot en els diàlegs. Per exemple, «–Company, començaves a fotre’m nerviós»; «–Està solucionat, malparit, però no hi tornis»; «–Això és el testament d’una sonada!». També està ben resolta (potser amb més timidesa que l’original francès) la manera d’estrafer l’accent alemany a la nostra llengua: «–No tolerraré cap insolència. Si no s’aixeca de bona foluntat, trobarré la manerra de fer-la caminar tota sola»."
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content" : "Celebrem l’inici de l’aventura d’Edicions del Cràter i esperem gaudir de les seves propostes"
+        },          
+        {
+            "type" : "paragraph",
+            "content" : "La guerra treu el cap a «La boja», que destaca per la seva cruesa, i també amb «Sant Antoni» i «L’aventura de Walter Schnaffs», que posen èmfasi en el caràcter absurd de qualsevol guerra. El tractament del motiu prefigura les obres de la literatura antibel·licista del segle XX (Hašek, Remarque o Céline), generades per la brutal carnisseria que va suposar la primera guerra mundial. Els contes de gent de mar també troben el seu lloc, com és el cas de «La por» i «A la mar», el darrer dels quals relata un penós accident viscut dalt d’una embarcació, que assenyala com algú pot arribar a ser miserable, fins i tot entre germans."
+        }, 
+        {
+            "type" : "paragraph",
+            "content" : "En síntesi, llegiu aquest llibre i acompanyeu l’inici de l’aventura d’Edicions del Cràter, que  ha anunciat que planteja «publicar autors que han deixat marca, que han trasbalsat l’opinió pública, que han imprès el seu nom per sempre a la història de la literatura. Autors amb una gran força interior, amb capacitat de canviar la nostra visió del món». A més de passar una magnífica estona de lectura, promoureu que puguem gaudir de més llibres bons d’escriptors nostres i de fora encara no traduïts en la nostra llengua. Ho esperem!"
+        }       
+    ]
+}

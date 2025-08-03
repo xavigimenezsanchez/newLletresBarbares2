@@ -1,0 +1,44 @@
+{
+    "title" : "Tríptic del silenci, entrevista a Brigitte Vasallo",
+    "url" : "triptic-del-silenci-entrevista-a-brigitte-vasallo",
+    "section" : "entrevistes",
+    "issue" : 33,
+    "data" : "29/03/2024",
+    "imageCard" : "andreu33-02-01",
+    "author" : "Andreu Pérez-Mingorance",
+    "summary" : "",
+    "text" : [ 
+        {
+            "type" : "image",
+            "name": "andreu33-02-02"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "El 5 de març em vaig dirigir cap a la Reial Acadèmia d'Espanya a Roma, una prestigiosa institució situada a la Piazza di San Pietro in Montorio número 3, al Gianicolo."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "La Reial Acadèmia d'Espanya compta amb una resident molt interessant treballant en un projecte anomenat <i>Improvvisso il mille novecento cinquanta tre passa sulla Spagna</i>, una investigació que es materialitza en el text literari <strong><i>Trilogia de Naxos</i></strong>, que aborda la condició txarnega i la desaparició de les ontologies camperoles preindustrials de la memòria col·lectiva a l'estat espanyol a partir del denominat “miracle econòmic” durant la dècada de 1950, el discurs celebratori del capitalisme liberal i el silenci forçat del franquisme."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "El que ha escrit fins ara ha quedat plasmat a <strong><i>Tríptic del Silenci</i></strong>, resultat d’una part d’aquest treball, que m’ha impressionat i que m’ha portat a voler entrevistar Brigitte Vasallo per a “Lletres Bàrbares”. Ja al número anterior vaig escriure una ressenya d’aquest llibre, on manifesto la meva admiració pel treball de Brigitte, que dóna veu a les diàspores oblidades, a la part humana que molts de nosaltres hem hagut de deixar enrere en el camí de la mal anomenada integració cultural i que hauria estat millor si hagués estat una participació cultural. Si en la lectura de <strong><i>Tríptic del Silenci</i></strong> em vaig emocionar, he de dir que durant l’entrevista vaig descobrir una dona de gran humanitat, fàcil comunicació, respectuosa, amb una intel·ligència clara i amb un projecte realment admirable."
+        },
+        {
+            "type" : "image",
+            "name": "andreu33-02-01"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Aquí teniu una entrevista que considero un document interessant per a la cultura diversa i en renovació que se'ns presenta en aquest moment, amb opinions clares sobre el que està passant i com ho vivim en el nostre entorn immediat, i amb una idea que va madurant amb intel·ligència per a donar respostes en un temps tan confús i poc disposat a escoltar. Crec que escoltar Brigitte Vasallo en aquest moment és necessari i un acte d'intel·ligència."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Agraeixo a la <strong>Reial Acadèmia d'Espanya</strong> per facilitar-me l'entrada i per permetre'm disposar del meravellós entorn que és la Sala de Retrats per poder realitzar aquesta entrevista."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<iframe width='100%' height='400' src='https://youtube.com/embed/BHhel6i0DNE'></iframe>"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "title" : "Era difícil la prova e afanyosa la conjectura de la veritat. Diari d’un nòmada sidós (13) Granada",
+    "url" : "diari-d-un-nomada-sidos-13",
+    "section" : "creacio",
+    "issue" : 33,
+    "data" : "29/03/2024",
+    "imageCard" : "andreu33-01",
+    "author" : "Andreu Pérez-Mingorance",
+    "summary" : "",
+    "text" : [ 
+        {
+            "type" : "image",
+            "name": "andreu33-01"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Per les meves venes liliàcies s'esquitxen nimfes fervents, han trepitjat la tartera dels meus palets interns i han evocat de la meva llengua la paraula “basta”, prou de vida que clama fugir d'un quarto fosc. Imploro un ressò, una fugida exhortant pel marge banyat pel sol de primavera, per la riba àrida i càlida de l'estiu, on cap peu trepitjarà la meva carn delicada arrencada del bressol que, com tots els éssers, he tingut."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Granada progenitora, on l'aigua no estalvia el bany de l'horta, embriagada de campanars per tal que ningú ofegui l'ànima en el somni que difumina l'albada. Canta'm a l'orella amb una alegre fanfara d'àngels, per tal que recordi la dolçor de l'aigua fresca que fluïa al peu del bancal, per tal que recordi la nimfa que dansava a la vora de la sèquia clara, record dels meus núvols del passat, que ara invoco per llepar la dolça llengua de la meva entranya."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<div style=\"display: flex; justify-content: flex-end\"></br><div style=\"text-align: right;\"><i>“¡Ven! -le dijeron todos-; ven a ocupar tu asiento,</br>ven a expandir tu espíritu detrás del firmamento.”</br>Víctor Hugo y la tumba,</i> Rubén Darío, 42</div></br></div>"
+        }
+    ]
+}

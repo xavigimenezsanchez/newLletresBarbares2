@@ -1,0 +1,44 @@
+{
+    "title" : "L'edat de la paròdia",
+    "url" : "l_edat_de_la_parodia",
+    "section" : "llibres",
+    "issue" : 43,
+    "data" : "25/01/2025",
+    "imageCard" : "angelcarbonell43-03-01",
+    "author" : "Àngel Carbonell",
+    "summary" : "",
+    "text" : [ 
+        {
+            "type" : "image",
+            "name": "angelcarbonell43-03-01"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<i>La fi del progressisme il·lustrat. El debat natura/artifici en la política</i>, de Ferran Sáez Mateu, publicat per Pòrtic Edicions,  és un assaig que parteix de la tensió que caracteritza la nostra època: la lluita entre igualtat i diferència, entre tradició i ruptura, entre realitat i discurs. Aquestes oposicions fonamentals, tan arrelades en la història cultural d’Occident, han entrat en un territori on les antigues certeses esdevenen formes paròdiques o esperpèntiques d’elles mateixes. Ferran Sáez, amb la lucidesa que el caracteritza, diagnostica les tensions insuportables que han acabat convertint l’anomenada postmodernitat en una caricatura dels ideals que pretenia superar."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "En aquest llibre, l’autor posa un accent especial en el conflicte entre natura i artifici. La seva mirada és càustica i reveladora: en un context en què les pulsions cap a la simplicitat de la natura conviuen amb una invasiva complexitat tecnològica, la societat es troba sotmesa a una paradoxa impossible d’assumir. L’exemple més il·lustratiu és, segons Sáez, el fet de contemplar una pluja d’estels a través d’una aplicació del telèfon mòbil. La promesa de recuperar la natura es veu immediatament torpedinada per la mateixa tecnologia concebuda per accedir al fet natural. L’experiència immediata desapareix, l’autenticitat queda anul·lada per la interferència del dispositiu. La natura no és viscuda com una realitat directa sinó com una pantalla, una versió processada i mediada pel filtre tecnològic."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Sáez denuncia com la postmodernitat tardana, ironitzant sobre tota manifestació de la realitat, que converteix, amb el seu relativisme radical, en un artifici, acaba convertint-ho tot en una paròdia. Allò que comença amb pensadors com Lyotard o Foucault posant en qüestió els grans relats de la modernitat acaba reduït a pensament feble que no ofereix cap relat alternatiu ni ho pretén. Ferran Sáez recorda una conversa reveladora amb el filòsof italià Gianni Vattimo el 2007: la insatisfacció davant d’aquell pensament feble, que no ofereix cap alternativa als relats desbancats de la modernitat il·lustrada, obligava Vattimo a consumir “dosis homeopàtiques de marxisme”. En aquesta frase irònica s’intueix la contradicció insostenible d’una cultura que ha trencat tots els vincles amb la tradició, tot adoptant una postura antirealista, però que a la vegada és incapaç d’oferir una alternativa coherent."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "A partir d’aquí, Ferran Sáez analitza la deriva més perniciosa del pensament postmodern: la convicció que el llenguatge, per si sol, crea la realitat. Segons aquesta visió, qualsevol paraula és performativa, és a dir, té la capacitat de generar una realitat concreta sense necessitat de confrontar-se amb cap criteri extern. Això condueix inevitablement a un cercle viciós: com podem desmentir aquesta suposada performativitat del llenguatge si l’únic instrument del qual disposem per fer-ho és el llenguatge mateix? La discussió queda anul·lada, atrapada en una tautologia sense sortida. L’únic resultat possible d’aquesta deriva és la paròdia."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Sáez no oblida una altra de les reaccions comunes davant el col·lapse de la modernitat: la nostàlgia. El replegament cap al passat, cap a formes premodernes de societat, fins i tot, és tan artificiós com la modernitat i la postmodernitat que pretén rebutjar. La nostàlgia d’avui té el mateix caràcter d’artifici: famílies tradicionals reconstruïdes de manera idealitzada o discursos conservadors que apel·len a una tradició que, en realitat, és inventada. Aquesta reivindicació d’un passat fictici és particularment rellevant a Europa, on certs discursos conservadors han adoptat formes purament simbòliques, desvinculades de les necessitats reals de la societat contemporània. Però Sáez adverteix que aquesta mena de nostàlgia no és un fenomen universal: allò que a Occident sembla obsolet encara ocupa un lloc central en societats tan diferents com les de la Xina, el món àrab, la Rússia contemporània o l’Àfrica negra."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "L’assaig també dedica un capítol fonamental a la cultura de l’escàndol. Segons Sáez, l’escàndol ha substituït la polèmica com a forma principal de debat en l’espai públic. Mentre que la polèmica exigeix temps, argumentació i diàleg, l’escàndol es defineix per la seva immediatesa, soroll, sensacionalisme i tacticisme. L’escàndol no necessita d’arguments ni de fonaments: s’autolegitima a través del seu impacte directe i emocional. En un context dominat per les xarxes socials i la immediatesa informativa, l’escàndol es converteix en un recurs per adquirir identitat i imposar un relat interessat. Ferran Sáez ho expressa de forma rotunda: en un àmbit marcat per l’efímer, l’escàndol proporciona una identitat perenne que transcendeix el moment inicial. Però aquesta identitat és una farsa, un artifici."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Finalment, el gran valor de <i>La fi del progressisme il·lustrat</i> rau en la seva voluntat de transcendir el diagnòstic i assenyalar cap a una solució. Sáez no rebutja el pensament postmodern totalment, sinó que critica les derives i les maneres que l’han degradat. La seva reflexió apunta a una recuperació de la realitat, més enllà de les paròdies i dels jocs lingüístics sense substància. El conflicte entre natura i artifici, igualtat i diferència, discurs i realitat no té solucions simplistes, però això no significa que sigui irresoluble. El que Sáez demana és una tornada a la lucidesa, al debat serè i profund, que abandoni la pulsació cap a l’esperpent i admeti tant la natura com la cultura."
+        }
+    ]
+}

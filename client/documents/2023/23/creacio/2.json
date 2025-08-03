@@ -1,0 +1,183 @@
+{
+    "title" : "Aquella nit a Venècia…",
+    "url" : "aquella-nit-a-venecia",
+    "section" : "creacio",
+    "issue" : 22,
+    "data" : "25/02/2023",
+    "imageCard" : "josepmiquelservia-01",
+    "author" : "Josepmiquel Servià",
+    "summary" : "",
+    "text" : [ 
+        {
+            "type": "paragraph",
+            "content": "<i>Darrera lletra a l'amic Johnny D. Spence, tot  desitjant que l'única arma que arribin a empunyar  els nostres ﬁlls sigui la nostra guitarra.</i>"
+        },
+        {
+            "type" : "image",
+            "name": "josepmiquelservia-01"
+        },
+        {
+            "type":"paragraph",
+            "styles": "{\"textAlign\":\"center\"}",
+            "content": "</br>I"
+        },
+        {
+            "type":"paragraph",
+            "content": "M'ho ha dit aquest matí Katty, tot abaixant les parpelles i prement els seus llavis, privats ara del teu bes. L'he trobada dins el claustre de la vella Facultat de Lletres. Ha vingut a fer el curset d'estiu per a estrangers, de què vàreu parlar-me aquella nit a Venècia."
+        },
+        {
+            "type":"paragraph",
+            "content": "Li he preguntat per tu, i he quedat corgelat davant la seva resposta. Un sentiment profund de ràbia i d'impotència se m'ha acumulat als ulls."
+        },
+        {
+            "type":"paragraph",
+            "content": "Katty ha respirat a fons, clavant la seva bonica mirada sobre el mosaic del sotaclaustre. I ha contingut, amb prou feines, el plor."
+        },
+        {
+            "type":"paragraph",
+            "content": "M'he adonat aleshores de com podia fer-la sofrir, del què la meva presència podia recordar-li. I he decidit anar-me'n."
+        },
+        {
+            "type":"paragraph",
+            "styles": "{\"textAlign\":\"center\"}",
+            "content": "</br>II"
+        },
+        {
+            "type":"paragraph",
+            "content": "Venècia. Piazza San Marco, les nou del vespre... Te'n recordes?"
+        },
+        {
+            "type":"paragraph",
+            "content": "La saragata enganxosa i sedant de les vermelles orquestrines ha emmudit ja, ﬁns demà, el seu rosari de melodies."
+        },
+        {
+            "type":"paragraph",
+            "content": "Els turistes del dòlar ja no tenen més rodets per a la màquina, i es retiren a l'hotel darrera el guia, rendits a causa de l'aproﬁtada jornada que han viscut plegats. Avui era el seu darrer dia d'estada a Venècia."
+        },
+        {
+            "type":"paragraph",
+            "content": "Pels carrers de la ciutat només queden ara joves rodamóns. Un pomell d'estudiants vinguts d'arreu, cansats també de tombar carrers i places, travessar canals i rodar per palaus i per esglésies a la recerca de tota petjada de l'esperit de l'home sobre el temps."
+        },
+        {
+            "type" : "image",
+            "name": "josepmiquelservia-02"
+        },
+        {
+            "type":"paragraph",
+            "content": "Els rodamóns porten llarg el cabell i enlairat l'esperit. Mig vestits, mig despullats, la poca roba que duen és senzilla i peculiar. Les mans enfundades dintre uns vells pantalons texans o de vellut, s'arrosseguen descalços i contents, taral·lejant conegudes cançons de protesta."
+        },
+        {
+            "type":"paragraph",
+            "content": "Tu i jo, Johnny, també som «rodamóns»."
+        },
+        {
+            "type":"paragraph",
+            "content": "Jo, arrastellat sota el pal central de la plaça, de cara a la bellesa de San Marco, contemplo els mosaics de la façana. La plaça ha encès, ufanosa, tots els seus llums. Unes mil bombetes encerclen i acompanyen les nostres respectives solituds. És l'hora de pensar en Déu?"
+        },
+        {
+            "type":"paragraph",
+            "content": "Potser sí: de preguntar-nos com deu ser i si viu més enllà dels estels que guspiregen. O si és falòrnia i ens han enganyat com a babaus."
+        },
+        {
+            "type":"paragraph",
+            "content": "Els musculosos atletes de bronze de “l'orologgio” fan incidir llurs martells sobre la gran campana, i tot l'aire de la ciutat s'impregna de les greus cadències."
+        },
+        {
+            "type":"paragraph",
+            "content": "Aviat, però, tornarà el silenci, l'impressionant silenci de Venècia, pertorbat només pel suau trangoleig d'unes góndoles properes."
+        },
+        {
+            "type":"paragraph",
+            "content": "De cop s'alça a l’ambient el so d’una veu i una guitarra —teves— i tots els nois i noies que, vinguts d'arreu del món, hem desembocat al centre de la plaça, ens anem contagiant dels teus crits de pau, de rebel·lia, i ens posem animadament a cantar amb tu."
+        },
+        {
+            "type":"paragraph",
+            "content": "No a la guerra! No a l'opressió! No a l'imperialisme!."
+        },
+        {
+            "type":"paragraph",
+            "content": "<i>...Pertot arreu us vaig cridant, </br>però ningú no em pot sentir, </br>i quan us parlo no em veieu </br>perquè sóc mort... </br>Tenia set anys quan vaig morir </br>a Hiroshima, fa molt temps. </br>Encara tinc aquells set anys. </br>Quan els nens moren no creixen més... *</i>"
+        },
+        {
+            "type":"paragraph",
+            "content": "Milions d'estrelles birbillegen al cel. No més Hiroshimes! No més Cambodges! No més Vietnams!"
+        },
+        {
+            "type":"paragraph",
+            "content": "A poc a poc ens anem coneixent mútuament. Jean-Louis és periodista. Fred, estudiant de religions en una Universitat dels Estats Units. Aldo és infermer i ha estat a Biafra. Silvana, la noia rossa, estudia arameu i canta, de vegades en una “boîte”. Betti, la del meu costat, és gogo-girl, però no li agrada. El xicot negre diu que és advocat, al Camerun. L'Ignasi, company meu d'expedició, estudiant de Medicina a Catalunya. Tu, Johnny, ja gairebé sociòleg. I tots... paciﬁstes."
+        },
+        {
+            "type":"paragraph",
+            "content": "Et contemplo ajagut sota els estels, a la llum de la plaça de San Marco. Els dits se t’acoblen meravellosament entre les cordes de la guitarra. Katty, la teva bonica companya, a qui tant i tant estimes —segons em confessaràs demà davant Palazzo Camerlengi en uns moments de conﬁança que sempre t'agrairé— t'amanyaga el genoll, i, mirant-te amb complaença, canta amb tu."
+        },
+        {
+            "type":"paragraph",
+            "content": "<i>El que us demano és que lluiteu, </br>però per ta pau, però per la pau, </br>per tal que els nens de tot el món </br>puguin créixer, riure i jugar...»</i></br>"
+        },
+        {
+            "type" : "image",
+            "name": "josepmiquelservia-03"
+        },
+        {
+            "type":"paragraph",
+            "content": "Els teus ulls i el teu ros manyoc, caigut sobre les celles—tu també fas cara de nen— ens parlen de l'enorme font d'humanitat que hi ha dintre teu."
+        },
+        {
+            "type":"paragraph",
+            "content": "Avançada ja la nit, després de cantar i beure —te'n recordes?—agafem el “vaporetto” i ens traslladem a l'”Ostello dei Giovanni”. La meva llitera i la teva estan de costat. Això ens permet portar a terme una conversa amena, profunda i agradable, i parlem com si ens haguéssim conegut de petits, com si jo hagués estat el company dels teus jocs d'infantesa, o tu el meu bon amic de cada matinada empordanesa. I parlem de Déu, i de l'amor, del poc o del molt sentit que té la vida, de l'opressió de les grans economies sobre la gent humil."
+        },
+        {
+            "type":"paragraph",
+            "content": "La conversa dura llarga estona, àdhuc després que els llums són apagats, ﬁns que el vigilant de “l’Ostello” ha de venir a demanar-nos que callem."
+        },
+        {
+            "type":"paragraph",
+            "content": "Deuen ser les sis de la matinada quan un raig de sol em desperta. Tu dorms plàcidament. Tot mirant-te recordo els diferents capítols de la nostra xerrada d'ahir vespre. Tot mirant-te, penso que he trobat un possible bon amic."
+        },
+        {
+            "type":"paragraph",
+            "content": "Quan sortim de “l'Ostello”, al matí, disposats a retre la darrera visita a “la ciutat que s'enfonsa”, recollim Katty. Que n'és de bonica Katty, aquest matí! Amb el seu nasset lleugerament llantiós, els seus ulls verdíssims i aquella brusa amb caputxeta que li cau, cenyida, sota els llargs cabells lassos."
+        },
+        {
+            "type":"paragraph",
+            "content": "I tu quina expressió no fas néixer a la mirada quan la veus que s'atansa al vaporetto. La beses. Ella em saluda. I somriu amb aquell somrís que només ella sap dur als llavis. Katty, la teva Katty, ja és al teu costat. Em dius que no sabries prescindir-ne. I jo et somric també, alhora que amago l'enveja que per uns moments sento de tu."
+        },
+        {
+            "type":"paragraph",
+            "content": "A les set de la tarda decidim acomiadar-nos. Les aigües de Venècia comencen a recollir l'or del crepuscle. Hem parlat durant hores i hores dels temes més diversos. L'amistat nascuda ahir al vespre, sota el pal central de Piazza San Marco, s'ha anat perﬁlant i engrandint tot al llarg d'aquesta jornada intensa que hem viscut plegats."
+        },
+        {
+            "type":"paragraph",
+            "content": "Ens intercanviem adreces, i no ens diem adéu perquè sabem que tornarem a veure'ns, a l'estiu, durant el curset per a estrangers a Barcelona."
+        },
+        {
+            "type":"paragraph",
+            "content": "Arriba el “vaporetto” . Us hi embarqueu. Se'n va. De lluny, de la miranda del port estant, contemplo els vostres braços, que s'agiten en senyal de comiat."
+        },
+        {
+            "type":"paragraph",
+            "content": "– A reveure, bonica Katty! Fins aviat, simpàtic Johnny!"
+        },
+        {
+            "type":"paragraph",
+            "content": "El sol que daura Venècia, engolit per les aigües de l'Adriàtic, desapareix amb vosaltres. Llavors és quan la ciutat més bonica del món encén amb generositat tots els seus llums."
+        },
+        {
+            "type" : "image",
+            "name": "josepmiquelservia-04"
+        },
+        {
+            "type":"paragraph",
+            "styles": "{\"textAlign\":\"center\"}",
+            "content": "</br>III"
+        },
+        {
+            "type":"paragraph",
+            "content": "Aquest matí, quan he trobat Katty dins el claustre de la vella Facultat de Lletres, ella, plorosa, s’ha limitat a dir-me:"
+        },
+        {
+            "type":"paragraph",
+            "content": "—Johnny no vindrà pas al curset. Ara farà cinc mesos que el van matar al Vietnam."
+        }
+    ]
+}

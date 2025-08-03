@@ -1,0 +1,37 @@
+{
+    "title" : "El Perdut plora dolor entre lloses. Diari d’un nòmada sidós (21) Exilis",
+    "url" : "diari-d-un-nomada-sidos-21",
+    "section" : "creacio",
+    "issue" : 41,
+    "data" : "29/11/2024",
+    "imageCard" : "andreu41-03-01",
+    "author" : "Andreu Pérez-Mingorance",
+    "summary" : "",
+    "text" : [ 
+        {
+            "type" : "image",
+            "name": "andreu41-03-01",
+            "content": "<i>Bodleian Library. University of Oxford. Ms. Ashmole 1511, fo.14v</i>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Cansat com un unicorn, com un crit, en la força de la terra, amb ombres negres de cavalls trepitjant-me el front... algú ha vist les meves entranyes?"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Porto un clavell arrelat a una pena que no pertany a ningú; és només meva, la meva pena. Ni sort ni queixa, un clavell en terra buida, dins l’entranya!"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Alforja sense càrrega, perquè he perdut la sort. Un corb negre segueix els meus passos, però no em queixo, ni sento pena."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Cavalls negres com la meva ombra, però ginesta i clavell en l’entranya viva.</br>Ningú robarà les entranyes del meu camí, exili, rumb, pedra i barranc."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<div style=\"display: flex; justify-content: flex-end\"></br><div></br><i>/.../</br>Ya no me encontraron.</br>¿No me encontraron?</br>No. No me encontraron.</br>Pero se supo que la sexta luna huyó torrente arriba,</br>y que el mar recordó ¡de pronto!</br>los nombres de todos sus ahogados.</i></br>(Federico García Lorca, Fábula y rueda de los tres </br>amigos, Poeta en Nueva York)</br></div></br></div>"
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "title" : "Ni sol, ni de dol",
+    "url" : "ni-sol-ni-de-dol",
+    "section" : "creacio",
+    "issue" : 21,
+    "imageCard" : "puigdellivol21-01",
+    "data" : "14/01/2023",
+    "author" : "Valentí Puigdellívol",
+    "summary" : "",
+    "text" : [ 
+        {
+            "type" : "image",
+            "name" : "puigdellivol21-01"
+        }, 
+        {
+            "type" : "paragraph",
+            "content" : "</br></br></br></br>M’exalta el nou i m’enamora el vell</br></br>J.V.Foix",
+            "styles": "{\"textAlign\":\"right\"}"
+        }, 
+        {
+            "type" : "paragraph",
+            "content" : "Ha caigut la nit com es desprèn una poma de l’arbre, de  sobte. Vestida s’ha endinsat dins el llit."
+        }, 
+        {
+            "type" : "paragraph",
+            "content" : "De  costat, en  una mena de  posició fetal ha  acabat per  agafar amb les mans els llençols i ha tancat els punys prement fort sota la barbeta. Els manyocs que ha fet se’ls ha endinsat a la boca. Creu, desesperadament, que paga la pena no deixar anar la roba de llit, que  res  no  s’allunyarà  si  és  prou  capaç  de prémer ben fort. Els dits li fan  mal, però el  forat que percep és  massa fosc i  massa fons per deixar-se anar."
+        }, 
+        {
+            "type" : "paragraph",
+            "content" : "Deixa, involuntària, rebregats els llençols perquè una punxada al baix ventre fa que es porti la mà sota la panxa arrodonida. Per si de cas, a mig camí de l’esperança i la incredulitat mossega fort amb les dents. Queda  aferrada;  també  amb  els queixals que serra més fort si li arriben basques. No  vol  que  aquest  buit  se l’emporti, ni  a  ella, ni  a  ella, a  cap  de  les  dues. El  llençol de  baix envermelleix. Cau la nit de l’arbre penjada."
+        }, 
+        {
+            "type" : "paragraph",
+            "content" : "I també ha caigut el dia, com es desprèn la neu, cara avall, d’imprevist, en allau. Ella ha quedat soterrada. Arribada de la maternitat amb la camisa de dormir sota l’abric i les espardenyes a retaló no s’atreveix a  travessar el  llindar de  la  porta. També du  al  damunt un  paracetamol d’un gram, com  si  servís de  res. En  entrar al saló la llum de la balconada l’encega, massa claror, massa dolor. Una altra frontera més difícil de creuar serà la d’un món inservible.  Un  lloc  on  tot  el  nou  és  vell. Ruïnes arqueològiques per estrenar. Un sonall, un bressol, unes peces de batista doblegades dins un calaix lacat de blanc."
+        }
+    ]
+}

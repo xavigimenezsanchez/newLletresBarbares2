@@ -1,0 +1,129 @@
+{
+    "title" : "Sed democratia est",
+    "url" : "sed_democratia_est",
+    "section" : "articles",
+    "issue" : 44,
+    "data" : "22/02/2025",
+    "imageCard" : "carbonell44-01",
+    "author" : "Àngel Carbonell",
+    "summary" : "",
+    "text" : [
+        {
+            "type" : "image",
+            "name" : "carbonell44-01"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontSize\":\"24px\", \"fontWeight\":\"bold\"}",
+            "content" : "Democràcia: La pitjor forma de govern (excepte totes les altres, perquè som així d'espavilats)"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Ah, la democràcia. Quin invent més genial! Un sistema que promet igualtat, llibertat i participació, però que sovint acaba semblant més un programa de telerealitat de baix pressupost que una forma de govern seriosa. És el millor que tenim, diuen els experts, però és clar, això no vol dir que funcioni gaire bé. Potser és el millor sistema només perquè els altres són encara pitjors, com intentar escollir entre una truita cremada i una pizza crua."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Però no ens avancem. Abans de decidir si hem de llençar la democràcia per la finestra, donem un cop d’ull a les alternatives meravelloses que ens ofereix el mercat polític. No fos cas que ens estiguéssim perdent una ganga."
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontSize\":\"24px\", \"fontWeight\":\"bold\"}",
+            "content" : "Alternatives a la democràcia: il·lusions per a ments creatives"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontSize\":\"20px\", \"fontWeight\":\"bold\"}",
+            "content" : "L’autoritarisme: el paradís de l’ordre i el silenci"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "L’autoritarisme té un cert atractiu, oi? Un líder fort, decidit, que prengui decisions ràpides sense perdre temps en discussions inútils o escoltar el poble. Al cap i a la fi, qui té temps per això? Però anem al gra: quan concentres tot el poder en una sola persona o en un petit grup, el resultat és màgic. En lloc de preocupar-te per votar o discutir, només t’has de preocupar per obeir. És relaxant, gairebé terapèutic."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "I, per descomptat, si el líder resulta no ser tan benèvol com prometia (cosa que mai no passa, clar), sempre tindràs l’oportunitat de lamentar-ho... en silenci, perquè dissentir acostuma a tenir conseqüències una mica incòmodes, com perdre la feina, la llibertat o, en casos extrems, el cap. Però no passa res: l’ordre està garantit!"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontSize\":\"20px\", \"fontWeight\":\"bold\"}",
+            "content" : "El tecnocratisme: l’imperi dels cervells brillants"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Deixar la política en mans d’experts sona molt sofisticat. Científics, economistes, enginyers... gent seriosa que sap què fa, oi? No com nosaltres, pobres ignorants que només ens preocupem per coses banals com pagar el lloguer o menjar tres cops al dia. Ells, amb les seves dades, ens salvaran de nosaltres mateixos."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "És clar, el petit problema és que aquests experts també tenen interessos, ideologies i amics poderosos que, casualment, sempre surten beneficiats de les seves decisions. Però això és un detall menor. Total, ¿qui necessita democràcia quan tens un Excel amb gràfics de colors? I si alguna cosa no t’agrada, no pateixis: pots enviar un correu electrònic al departament de reclamacions. Algú et contestarà... potser."
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontSize\":\"20px\", \"fontWeight\":\"bold\"}",
+            "content" : "L’anarquia: llibertat total, caos garantit"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Si estàs cansat de governs incompetents, l’anarquia podria ser la teva solució. Sense polítics, sense institucions, sense normes. Només tu, la teva llibertat absoluta i la llei del més fort. Sembla el somni de qualsevol llibertari, fins que t’adones que el buit de poder l’ompliran, inevitablement, persones amb més múscul, més armes o més diners."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "És a dir, passaràs d’un govern democràtic ineficaç a un govern mafiós... però, eh, almenys serà un govern autènticament “desregulat”. I si les coses es posen lletges, sempre pots confiar que els teus veïns, amb la seva bondat natural, compartiran els seus recursos i et protegiran dels oportunistes. Segur que sí."
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontSize\":\"20px\", \"fontWeight\":\"bold\"}",
+            "content" : "Els règims híbrids: el pitjor dels dos mons"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Alguns proposen barrejar democràcia amb autoritarisme, tecnocràcia o altres formes de govern, com si això fos una recepta de cuina. Una mica de llibertat aquí, una mica de mà dura allà, i voilà! Un règim perfecte."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "A la pràctica, això sol traduir-se en democràcies vigilades, on els teus drets estan “sota supervisió” per la teva pròpia seguretat. Perquè, ja se sap, la llibertat és important, però no tant com garantir que ningú s’equivoqui en les seves decisions. O pitjor encara, tecnocràcies disfressades de democràcia on les decisions importants ja estan preses abans que puguis dir “urnes”."
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontSize\":\"24px\", \"fontWeight\":\"bold\"}",
+            "content" : "El problema no és el sistema, sinó nosaltres: un factor humà impecable"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "El gran problema de qualsevol sistema polític és, òbviament, el factor humà. Sí, nosaltres, amb les nostres petites obsessions: el poder, els diners, les venjances personals i la mandra infinita. La democràcia té molts defectes, però cap sistema pot protegir-se de l’essència humana. Perquè, al final, som nosaltres els que construïm institucions i elegim representants polítics. I si les coses van malament, sempre podem fer el que millor sabem fer: culpar els altres."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Però no ens avancem. La democràcia té un petit avantatge sobre les altres opcions: almenys ens dona eines per corregir errors. Sí, és lent, frustrant i ple d’ineficiències, però també és flexible. Si una cosa va malament, teòricament podem canviar-la. Sempre que, és clar, tinguem ganes d’arremangar-nos, cosa que, com sabem, és molt demanar."
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontSize\":\"24px\", \"fontWeight\":\"bold\"}",
+            "content" : "I si el problema fos com la gestionem, i no el sistema?"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Aquí rau el gran misteri. La democràcia no està condemnada pel sistema en si, sinó per la nostra tendència a fer el mínim esforç. Votem cada quatre anys, deixem que els polítics facin el que vulguin i després ens queixem quan les coses no funcionen. Quina sorpresa!"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Si volem que la democràcia funcioni, potser hauríem de provar algunes idees radicals:"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<ol><li><strong>Educar-nos:</strong> Una ciutadania informada? Quina bogeria! Potser si sabéssim alguna cosa més que el nom del nostre candidat, les eleccions tindrien més sentit.</li><li><strong>Participar-hi de veritat:</strong> Però participar implica temps, esforç i, horror, prendre decisions. Millor deixar-ho per als altres, oi?</li><li><strong>Reduir les desigualtats:</strong> Però això seria complicat. I els que tenen poder potser haurien de renunciar a alguna cosa, i això... bé, no passarà.</li><li><strong>Exigir responsabilitats:</strong> També és esgotador. És més fàcil mirar Netflix i queixar-se al bar.</li></ol>"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontSize\":\"24px\", \"fontWeight\":\"bold\"}",
+            "content" : "Conclusió: una democràcia imperfecta per a una humanitat imperfecta"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "La democràcia és un desastre, però és el millor desastre que tenim. Sí, és lenta, frustrant i plena de defectes, però és l’únic sistema que ens dona la possibilitat, encara que remota, de millorar-lo. Però això requereix esforç, i aquí està el problema: som una espècie més inclinada a buscar excuses que solucions."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Així que, abans de llençar la democràcia a l’aigüera i somiar amb un líder fort, un govern d’experts o un món sense normes, potser hauríem de preguntar-nos si estem disposats a fer alguna cosa per arreglar el que ja tenim. Però, sincerament, ¿qui té temps per a això?"
+        }
+    ]
+}

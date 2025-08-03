@@ -1,0 +1,235 @@
+{
+  "title" : "Traduccions de poetes catalans (3)",
+  "url" : "traduccions-de-poetes-catalans-3",
+  "section" : "creacio",
+  "issue" : 17,
+  "data" : "24/06/2022",
+  "imageCard" : "barcelo17-01",
+  "author" : "Joan Josep Barceló",
+  "summary" : "",
+  "text" : [ 
+      {
+          "type": "title",
+          "content": "Hilari de Cara"
+      },
+      {
+          "type" : "image",
+          "name" : "barcelo17-02"
+      }, 
+      {
+          "type" : "paragraph",
+          "styles": "{\"color\":\"red\"}",
+          "content" : "<i>Estima tant, tants de diumenges,<br/>tants de papallones negres<br/>tants de nords, tants de volcans,<br/>tant de níquel, de ferro fos,<br/>que els mapes s’acanen,<br/>que les brúixoles dels besos<br/>dansen, canten, exulten, titànics.<br/></i>"
+      },
+      {
+        "type": "paragraph",
+        "content": "Ama così tanto, tante domeniche,<br/>tante farfalle nere<br/>così tanti nord, tanti vulcani,<br/>tanto nichel, di ferro fuso,<br/>che le mappe si canneggiano,<br/>che le bussole dei baci<br/>ballano, cantano, esultano, titaniche.<br/>"
+      },
+      {
+        "type": "paragraph",
+        "styles": "{\"textAlign\":\"center\"}",
+        "content": "****************"
+      },
+      {
+          "type":"paragraph",
+          "styles": "{\"color\":\"red\"}",
+          "content": "<i>Ai, vena foradada de mort,<br/>la sang t’hi corre com una serp:<br/>qualque dia t’embossaràs vell cor meu<br/>sense que me’n temi.<br/></i>"
+      },
+      {
+        "type": "paragraph",
+        "content": "Ai, vena traforata di morte,<br/>il sangue ti scorre come un serpente:<br/>un giorno t’ingorgherai mio vecchio cuore<br/>senza accorgermi.<br/>"
+      },
+      {
+        "type": "paragraph",
+        "styles": "{\"textAlign\":\"center\"}",
+        "content": "****************"
+      },
+      {
+        "type" : "paragraph",
+        "styles": "{\"color\":\"red\"}",
+        "content" : "<i>No t’esmicolis mai, balast,<br/>no et vull d’arena<br/>sota el ferro ferm dels rails.<br/>Malgrat tot, vull arribar a l’estació amb tu.<br/>Claror.<br/></i>"
+    },
+    {
+      "type":"paragraph",
+      "content":"Non sbriciolarti mai, ballast,<br/>non ti voglio sabbia<br/>sotto il ferro fermo delle rotaie.<br/>Tuttavia, voglio raggiungere la stazione con te.<br/>Luce.<br/>"
+    },
+    {
+      "type": "paragraph",
+      "styles": "{\"textAlign\":\"center\"}",
+      "content": "****************"
+    },
+    {
+      "type":"paragraph",
+      "styles": "{\"color\":\"red\"}",
+      "content": "<i>M’escriu la nit amb paraula frugal, <br/>lluu l’escuma que dibuixa enrere <br/>el vaixell, dansen l’aigua i s’esfuma<br/>la traça joganera dels dofins. <br/>Fluorescent com el pes lleuger del temps.<br/></i>"
+  },
+  {
+    "type":"paragraph",
+    "content": "Mi scrive la notte con parola frugale,<br/>risplende la schiuma che disegna indietro<br/>il vascello, ballano l'acqua e svanisce<br/>la traccia giocherellone dei delfini.<br/>Fluorescente come il peso leggero del tempo.<br/>"
+},
+
+      {
+        "type": "title",
+        "content": "Jaume C. Pons Alorda"
+    },
+    {
+        "type" : "image",
+        "name" : "barcelo17-03"
+    }, 
+    {
+      "type" : "paragraph",
+      "styles": "{\"color\":\"red\"}",
+      "content" : "<i>EL PALAU DELS SUBTERRANIS<br/>A Àngel Terron<br/> <br/>Ets un jardiner alquímic,<br/>nostàlgic i visceral,<br/>assassí de la lletjor:<br/>sembres martells<br/>per recollir destrals<br/>en el gran combat<br/>contra l'ortiga.<br/></i>"
+  },
+  {
+    "type" : "paragraph",
+    "content" : "IL PALAZZO DEI SOTTERRANEI<br/>Ad Àngel Terron<br/> <br/>Sei un giardiniere alchemico,<br/>nostalgico e viscerale,<br/>assassino della bruttezza:<br/>semini martelli <br/>per raccogliere asce<br/>nella grande battaglia<br/>contro l'ortica.<br/>"
+},
+{
+      "type": "paragraph",
+      "styles": "{\"textAlign\":\"center\"}",
+      "content": "****************"
+    },
+    {
+      "type" : "paragraph",
+      "styles": "{\"color\":\"red\"}",
+      "content" : "<i>FUNDACIÓ DEL COMTAT DE LA RESPLENDOR<br/><br/>La fosca és la festa de la llum<br/>i el color és l’infinit fet matèria,<br/>l’humor sempre acaba en venjança<br/>i tots voldríem ser fills<br/>d’una mare verge.<br/></i>"
+  },
+  {
+    "type" : "paragraph",
+    "content" : "FONDAZIONE DELLA CONTEA DELLO SPLENDORE<br/><br/>Il buio è la festa della luce<br/>e il colore è infinito fatto materia,<br/>l'umore finisce sempre come vendetta<br/>e tutti vorremmo essere figli<br/>di una madre vergine.<br/>"
+},
+{
+      "type": "paragraph",
+      "styles": "{\"textAlign\":\"center\"}",
+      "content": "****************"
+    },
+    {
+      "type" : "paragraph",
+      "styles": "{\"color\":\"red\"}",
+      "content" : "<i>37-3 MIMESIS PATÈTICA<br/> <br/>Del sapiens,<br/>tot ha après que per a sobreviure<br/>cal enganyar.<br/>Ara el sol sap enfosquir-se.<br/>La sorra també té el color d’un cadàver.<br/></i>"
+  },
+  {
+    "type" : "paragraph",
+    "content" : "37-3 MIMESI PATETICA<br/> <br/>Del sapiens,<br/>tutto ha imparato che per sopravvivere<br/>bisogna ingannare.<br/>Adesso il sole sa scurirsi.<br/>La sabbia ha anche il colore di un cadavere.<br/>"
+},
+{
+      "type": "paragraph",
+      "styles": "{\"textAlign\":\"center\"}",
+      "content": "****************"
+    },
+    {
+      "type" : "paragraph",
+      "styles": "{\"color\":\"red\"}",
+      "content" : "<i>INVOCAR<br/> <br/>La vida ho dominarà tot.<br/> <br/>Litúrgia a la muntanya<br/>de plàncton tratornat.<br/> <br/>A partir d’ara<br/>junts serem l’estiu perpetu<br/> <br/>i aprendrem<br/>a multiplicar<br/> <br/>l’infinit per l’infinit.<br/></i>"
+  },
+  {
+    "type" : "paragraph",
+    "content" : "INVOCARE<br/> <br/>La vita dominerà tutto.<br/> <br/>Liturgia in montagna<br/>di plancton sconvolto.<br/> <br/>Da ora in poi<br/>insieme saremo l'estate perpetua<br/> <br/>e impareremo<br/>a moltiplicare<br/> <br/>l’infinito per l’infinito.<br/>"
+},
+{
+      "type": "paragraph",
+      "styles": "{\"textAlign\":\"center\"}",
+      "content": "****************"
+    },
+    {
+      "type" : "paragraph",
+      "styles": "{\"color\":\"red\"}",
+      "content" : "<i>LES ARTÈRIES GALÀCTIQUES<br/> <br/>bressol esclau<br/>d’un desig<br/>on exaltar-se<br/>(carnadura d’anhel)<br/> <br/>la llum és l’entranya de l’univers<br/></i>"
+  },
+  {
+    "type" : "paragraph",
+    "content" : "LE ARTERIE GALATTICHE<br/> <br/>culla schiava<br/>di un desiderio<br/>dove esaltarsi<br/>(carnaio di brama)<br/> <br/>la luce è il grembo dell'universo<br/>"
+},
+    {
+        "type": "title",
+        "content": "Joan Duran"
+    },
+    {
+        "type" : "image",
+        "name" : "barcelo17-04"
+    }, 
+    {
+      "type" : "paragraph",
+      "styles": "{\"color\":\"red\"}",
+      "content" : "<i>CRETA, I<br/> <br/>Quantes vegades haurem de tornar,<br/>entre els silencis que separen les paraules,<br/>a l’escullera de Creta. Perquè tem l’oblit,<br/>la sal també s’arrapa a les bocanes del sexe<br/>i la vella olor del mar, del cabell, ens penetra,<br/>des de l’altre costat del temps, fins a la saba<br/>i la sang, l’alga i el nèctar. Aliens a la llum,<br/>despleguem de nou, i ara, l’illa en els mapes,<br/>entre punt i principi, i en la latència del fil<br/>que espera una mà al caire del laberint.<br/></i><br>"
+  },
+  {
+    "type" : "paragraph",
+    "content" : "CRETA, I<br/> <br/>Quante volte dovremo tornare indietro,<br/>tra i silenzi che separano le parole,<br/>sul frangiflutti di Creta. Perché temo l'oblio,<br/>il sale si aggrappa anche alle imboccature del sesso<br/>e l'antico odore del mare, dei capelli, ci penetra,<br/>dall'altra parte del tempo, fino alla linfa<br/>e il sangue, le alghe e il nettare. Alieni nella luce,<br/>spiegammo di nuovo, e ora, l'isola sulle mappe,<br/>tra punto e l'inizio, e nella latenza del filo<br/>che aspetta una mano sullo spigolo del labirinto.<br/>"
+  },
+  {
+    "type": "title",
+    "content": "Laia Llobera"
+},
+{
+    "type" : "image",
+    "name" : "barcelo17-05"
+}, 
+{
+  "type":"paragraph",
+  "styles": "{\"color\":\"red\"}",
+  "content": "<i>per això ara ets llavor<br/>fecund estel que brilla<br/>dispers entre els bancals<br/>t’has fet fruit de tardor<br/><br/>l’arena t’enruna<br/>i et creix la singladura<br/>i el rou et madura<br/>damunt del teu solc<br/></i></br>"
+},
+{
+  "type":"paragraph",
+  "content": "ecco perché ora sei il seme<br/>stella fertile che brilla<br/>sparsa tra le terrazze<br/>ti sei reso frutto d’autunno<br/><br/>la sabbia ti abbatte<br/>e ti cresce la rotta<br/>e la rugiada ti matura<br/>sopra il tuo solco<br/>"
+},
+{
+      "type": "paragraph",
+      "styles": "{\"textAlign\":\"center\"}",
+      "content": "****************"
+  },
+  {
+    "type":"paragraph",
+    "styles": "{\"color\":\"red\"}",
+    "content": "<i>boscana<br/>la llum que s’arrela a la terra<br/>s’infiltra a la roca i s’encén<br/><br/>s’envesca en els camins<br/>després de transgredir<br/>després de fer-se anhel<br/></i></br>"
+  },
+  {
+    "type":"paragraph",
+    "content": "Boscaiola<br/>la luce che si radica sulla terra<br/>si infiltra nella roccia e si accende<br/><br/>si invischia sui sentieri<br/>dopo trasgredire<br/>dopo farsi desiderio<br/>"
+  },
+  {
+        "type": "paragraph",
+        "styles": "{\"textAlign\":\"center\"}",
+        "content": "****************"
+    },
+    {
+      "type":"paragraph",
+      "styles": "{\"color\":\"red\"}",
+      "content": "<i>la paraula és un boscatge<br/>ple d’àpexs<br/>de foc<br/><br/>tot crema<br/>i s’enlaira<br/>i retorna<br/>al subsòl<br/></i></br>"
+    },
+    {
+      "type":"paragraph",
+      "content": "la parola è una boscaglia<br/>piena di apici<br/>di fuoco<br/><br/>tutta brucia<br/>e si solleva<br/>e ritorna<br/>nel sottosuolo<br/>"
+    },
+    {
+          "type": "paragraph",
+          "styles": "{\"textAlign\":\"center\"}",
+          "content": "****************"
+      },
+      {
+        "type":"paragraph",
+        "styles": "{\"color\":\"red\"}",
+        "content": "<i>I tot el que pugui anunciar<br/>claredat.<br/>Ceibes, crepuscles, cavalls<br/>alats, ciutats, solsticis, serrals.<br/></i></br>"
+      },
+      {
+        "type":"paragraph",
+        "content": "E tutto ciò che possa annunciare<br/>chiarezza.<br/>Ceibe, crepuscoli, cavalli<br/>alati, città, solstizi, colline.<br/>"
+      },
+      {
+            "type": "paragraph",
+            "styles": "{\"textAlign\":\"center\"}",
+            "content": "****************"
+        },
+        {
+          "type":"paragraph",
+          "styles": "{\"color\":\"red\"}",
+          "content": "<i>buscaves la llavor de les essències:<br/>algun record veraç<br/>l'epicentre de les ones<br/>o el cor desclòs del cossos<br/>allunyat de les tendències<br/></i></br>"
+        },
+        {
+          "type":"paragraph",
+          "content": "hai cercato il seme delle essenze:<br/>qualche ricordo verace<br/>l'epicentro delle onde<br/>o il cuore dischiuso dei corpi<br/>allontanato dalle tendenze<br/>"
+        }
+  ]
+}

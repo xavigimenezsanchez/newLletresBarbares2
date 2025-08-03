@@ -1,0 +1,36 @@
+{
+    "title" : "Futur anterior",
+    "url" : "futur-anterior",
+    "section" : "creacio",
+    "issue" : 25,
+    "data" : "28/05/2023",
+    "imageCard" : "puigdellivol25-01",
+    "author" : "Valentí Puigdellívol",
+    "summary" : "",
+    "text" : [ 
+        {
+            "type" : "image",
+            "name": "puigdellivol25-01"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "</br></br><div style=\"display: flex; justify-content: flex-end\"><div><i>“El passat mai canvia de lloc”&nbsp;&nbsp;&nbsp;&nbsp;</br><span style=\"display: inline-block; text-align: right; width: 100%\">Marguerite Duras</span></div></div>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "La Maria és ella, la veïna, o la llunyana. Ella ets tu o jo mateixa o qualsevol altra. Ella està a punt d’acabar els estudis. Li manca poc o em manca poc. Un parell d’assignatures i defensar la tesina. Té il·lusions o les tens. Vol marxar fora, a l’estranger. Vols provar sort. Intentarà obrir-se pas. Cercarà un lloc petit, per a ella. Un cau on romandre, on se senti aixoplugada. Cercaràs feina. Tant és al principi. Sentirà nostàlgia i por. Et trobaré a faltar. No hi seré. Mastegarà l’absència. Ella o tu o qualsevol altra."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Fa dies que s’ho nota. Aixeca el braç enlaire. El palmell darrere el clatell. Amb l’altra mà, busca. Els dits junts pressionen el pit. Moviments circulars, suaus, a poc a poc, sota l’aixella. Com t’han dit un munt de vegades. Com ho he vist a la mare. Com ella sap fer. Un cigró, no, més petit, serà més petit de mig."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "I per què a mi? Ella es preguntarà què ha fet malament. No ho entens. Ajaguda immòbil al TAC s’esmicola el futur. Les raons queden xopes. Vomitarà, les paraules també. Sortiran líquides barrejades amb la culpa d’un atzar que és de qualsevol o de ningú. Lluitarà contra la casuística del si. Si hagués fet bondat, si hagués menjat verd, si hagués fet esport, si merda."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Perceps olor d’humanitat i falsa asèpsia, tot barrejat. Es fondran el gris anterior i el blau tardà damunt un verd quiròfan.  Ella trenarà les mirades, la dels altres damunt seu. Sentirà repetitiu un <i>pip-pip</i> discontinu fins que no sabrà que no sent. Tampoc no sabrà que mai estarà en un pis petit, ni aquí, ni allà. No sabrà que no hi és, ningú li dirà."
+        }
+    ]
+}

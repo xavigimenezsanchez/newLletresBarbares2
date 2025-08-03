@@ -1,0 +1,182 @@
+{
+  "title" : "Traduccions de poetes catalans (4)",
+  "url" : "traduccions-de-poetes-catalans-4",
+  "section" : "creacio",
+  "issue" : 18,
+  "data" : "06/08/2022",
+  "imageCard" : "barcelo18-01",
+  "author" : "Joan Josep Barceló",
+  "summary" : "",
+  "text" : [ 
+      {
+          "type": "title",
+          "content": "Llúcia Palliser"
+      },
+      {
+          "type" : "image",
+          "name" : "barcelo18-02"
+      }, 
+      {
+          "type" : "paragraph",
+          "styles": "{\"color\":\"red\"}",
+          "content" : "<i>première quartier<br><br>s’endevina una clariana.<br>s’obre pas entre els trencs sibil·lins una diadema ígnia.<br>frec a frec, som pells que es desconeixen,<br>som tot de carícies orades al tacte granític de l’alba.<br></i>"
+      },
+      {
+        "type": "paragraph",
+        "content": "première quartier<br><br>s’indovina uno squarcio.<br>si fa strada tra le fenditure sibilline un diadema igneo.<br>sfregandoci, siamo pelli sconosciute,<br>siamo tutto di pazze carezze al tatto granitico dell'alba.<br>"
+      },
+      {
+        "type": "paragraph",
+        "styles": "{\"textAlign\":\"center\"}",
+        "content": "****************"
+      },
+      {
+          "type":"paragraph",
+          "styles": "{\"color\":\"red\"}",
+          "content": "<i>Punt d’acabança<br>que bifurca esburbada<br>l’indòmit dubte.<br></i>"
+      },
+      {
+        "type": "paragraph",
+        "content": "Punto finale<br>che biforca goffa<br>l’indomito dubbio.<br>"
+      },
+      {
+        "type": "title",
+        "content": "Margarita Ballester"
+    },
+    {
+        "type" : "image",
+        "name" : "barcelo18-03"
+    }, 
+    {
+      "type" : "paragraph",
+      "styles": "{\"color\":\"red\"}",
+      "content" : "<i>LA DIMENSIO VEGETAL DEL TEMPS <br> <br>La mort s'atura sobre meu; <br>no m'esparvera, cau més aviat <br>dins l'àmbit de la nosa.<br>I s'escola la vida sobrant<br>de moltes hores, marge avall, <br>i creix la mort als arbres <br>que sobreviuen a casa pròpia. <br>Ressona, en el meu cap, la dimensió <br>vegetal del temps que no viuré <br>ni escriuran per nosaltres: <br>el temps de les tortugues <br>i els bibliòfils.<br></i>"
+  },
+  {
+    "type" : "paragraph",
+    "content" : "LA DIMENSIONE VEGETALE DEL TEMPO<br> <br>La morte si ferma su di me;<br>non mi spaventa, piuttosto cade<br>nell'ambito dell’inciampo.<br>E scorre la vita rimasta <br>da molte ore, in discesa,<br>e la morte cresce sugli alberi<br>che sopravvivono a casa propria.<br>Risuona, nella mia testa, la dimensione <br>vegetale del tempo che non vivrò<br>né scriveranno per noi:<br>il tempo delle tartarughe<br>e i bibliofili.<br>"
+},
+{
+      "type": "paragraph",
+      "styles": "{\"textAlign\":\"center\"}",
+      "content": "****************"
+    },
+    {
+      "type" : "paragraph",
+      "styles": "{\"color\":\"red\"}",
+      "content" : "<i>ORACIÓ D'UN AGNÒSTIC<br><br>Llepa'm com una flama<br>sobre el foc viu de tants amors<br>no retrobats en Tu sinó en ferides.<br>Deixa que parli el cor.<br>Fes-me silenci.<br></i>"
+  },
+  {
+    "type" : "paragraph",
+    "content" : "PREGHIERA DI UN AGNOSTICO<br><br>Leccami come una fiamma<br>sul fuoco vivo di tanti amori<br>non ritrovati in Te ma nelle ferite.<br>Lascia parlare il cuore.<br>Fammi silenzio.<br>"
+},
+{
+      "type": "paragraph",
+      "styles": "{\"textAlign\":\"center\"}",
+      "content": "****************"
+    },
+    {
+      "type" : "paragraph",
+      "styles": "{\"color\":\"red\"}",
+      "content" : "<i>Les paraules saben més<br>del que sé<br>per mi mateixa sense dir,<br>venen de lluny i tenen la memòria impresa.<br>Extrem domini de l'instant:<br>és un pastor que mata el pare gegantí,<br>vibra la fona <br>i amida la distància on cauran.<br></i>"
+  },
+  {
+    "type" : "paragraph",
+    "content" : "Le parole ne sanno di più<br>di quello che so<br>per me stessa senza dire,<br>vengono da lontano e hanno la memoria stampata.<br>Estremo dominio dell’istante:<br>è un pastore che uccide il padre gigantesco,<br>vibra la fionda<br>e misura la distanza in cui cadranno.<br>"
+},
+    {
+        "type": "title",
+        "content": "Miquel Àngel Mas Mas"
+    },
+    {
+        "type" : "image",
+        "name" : "barcelo18-04"
+    }, 
+    {
+      "type" : "paragraph",
+      "styles": "{\"color\":\"red\"}",
+      "content" : "<i>Li venen a la ment imatges d'esbarts amples i feixucs d'estornells, d'esparregueres desfermades, de magraners, tot el seu esplet, mirada fonda i carn calenta; acluca els ulls, aixeca la barbeta, mou penosament, amunt, un braç amorf, el lament ja mineral, encara furibund, maleït, d'un puny atàxic.</i><br>"
+  },
+  {
+    "type" : "paragraph",
+    "content" : "Gli vengono in mente immagini di grandi e pesanti greggi di storni, di asparagi slegati, di melograni, tutto il loro splendore, sguardo profondo e carne calda; chiude gli occhi, solleva il mento, muove penosamente, verso l'alto, un braccio amorfo, il lamento già minerale, ancora furioso, maledetto, di un pugno atassico."
+  },
+  {
+    "type": "paragraph",
+    "styles": "{\"textAlign\":\"center\"}",
+    "content": "****************"
+  },
+
+
+  {
+    "type" : "paragraph",
+    "styles": "{\"color\":\"red\"}",
+    "content" : "<i>GENER. Sec en un bar de dies reiteratius amb vidrieres abocades a un mar que ara sembla gèlid. Llegeixo Antoni Vidal vora d’alguns que beuen cafè de camí a qualque lloc i d’altres que conversen sota els quadres de llum de les finestres. Albiro la mar, que entona —sempre ho he pensat així— no sé què d’abisme en retrocés, de dolça llangor. De sempre aquestes vidrieres, aquesta mar, i m’encaparro fortament en un dia de festa a l’hora dels focs artificials, que exploten grassos a sobre de les molsudes tenasses; i la gent expectant, a la platja, amb escreix, exhala un silenciós alenar.</i><br>"
+},
+{
+  "type" : "paragraph",
+  "content" : "GENNAIO. Sono seduto in un bar di giorni reiterativi con vetrate che si affacciano su un mare che ora sembra gelido. Leggo Antoni Vidal accanto di alcuni che bevono caffè verso qualcun posto e altri che parlano sotto i quadri di luce delle finestre. Immagino il mare, che intona – l’ho sempre pensato così - non so che d’abisso retrocesso, di dolce languore. Da sempre queste vetrate, questo mare, e mi infastidisco fortemente in un giorno di festa al tempo dei fuochi d'artificio, che esplodono grassi sul polposo terreno sassoso; e la gente in attesa, sulla spiaggia, a malapena, espira un silenzioso respiro."
+},
+{
+  "type": "paragraph",
+  "styles": "{\"textAlign\":\"center\"}",
+  "content": "****************"
+},
+
+
+{
+  "type" : "paragraph",
+  "styles": "{\"color\":\"red\"}",
+  "content" : "<i>Les ones perpetuen el zenit del <br>lloc. Rere la finestra, el cafè<br>ens abranda la conversa, les<br>mirades. Jo dic “no tinc por”. El <br>cambrer ens regala grells de<br>taronja; pensem passerells,<br>xiuxiuegem poètica, íntima<br>música de Sixto Rodríguez,<br>Just a song we shared... Més<br>enllà, les rèpliques no sentiu el<br>vent escumejar a les cicatrius<br>dels vells fanals de l’escullera?<br></i><br>"
+},
+{
+"type" : "paragraph",
+"content" : "Le onde perpetuano l'apice del<br>luogo. Dietro la finestra, il caffè<br>infiamma la conversazione, gli<br>sguardi. Io dico \"non ho paura\". Il<br>cameriere ci regala spicchi<br>d’arancia; pensiamo fanelli,<br>bisbigliamo poetica, intima<br>musica di Sixto Rodríguez,<br><i>Just a song we shared</i>... Oltre, <br>le repliche non sentite il<br>vento schiumare alle cicatrici<br>delle vecchie lanterne della diga?<br>"
+},
+  {
+    "type": "title",
+    "content": "Odile Arqué"
+},
+{
+    "type" : "image",
+    "name" : "barcelo18-05"
+}, 
+{
+  "type":"paragraph",
+  "styles": "{\"color\":\"red\"}",
+  "content": "<i>M'hauran amortallat<br>amb paper de diari.<br>Espera't i no truquis.<br><br>Si vigiles la vetlla<br>jo percudiré sola<br>l'enclusa i el taüt.<br><br>Em plau aquesta tàvega,<br>Tu vigila la vetlla. <br>Espera't i no truquis.<br></i></br>"
+},
+{
+  "type":"paragraph",
+  "content": "Mi avranno avvolto<br>con carta di giornale.<br>Aspetta e non chiamare.<br><br>Se vigili la veglia<br>io percuoterò da sola<br>l'incudine e la bara.<br><br>Mi piace questa prigione,<br>Tu vigila la veglia.<br>Aspetta e non chiamare.<br>"
+},
+{
+      "type": "paragraph",
+      "styles": "{\"textAlign\":\"center\"}",
+      "content": "****************"
+  }, 
+  {
+    "type":"paragraph",
+    "styles": "{\"color\":\"red\"}",
+    "content": "<i>No et vaig voler veure.<br> <br>Era el triomf del no fer<br>per no obrir<br>ni mostrar<br>Triomfava el vestit<br>sense pell ni venes<br>de la casa mare<br> <br>el triomf<br>la quietud<br>no remenem les coses<br>paraules pa de cada dia<br> <br>gotes<br> <br>i el pit<br>que se m’omplia<br>de peixos morts<br></i></br>"
+  },
+  {
+    "type":"paragraph",
+    "content": "Non ho voluto vederti.<br> <br>Era il trionfo del non fare<br>per non aprire<br>né mostrare<br>Trionfava il vestito<br>senza pelle né vene<br>della casa madre<br> <br>il trionfo<br>la quiete<br>non mescoliamo le cose<br>parole pane quotidiano<br> <br>gocce<br> <br>e il petto<br>che si mi riempiva<br>di pesci morti<br>"
+  },
+  {
+        "type": "paragraph",
+        "styles": "{\"textAlign\":\"center\"}",
+        "content": "****************"
+    }, 
+    {
+      "type":"paragraph",
+      "styles": "{\"color\":\"red\"}",
+      "content": "<i>prosa familiar<br>reconstruccions petites<br>el xampany obre la porta de l’eloqüència<br>gestos<br>el llenguatge als ulls<br>el llum frontal de mà en mà<br>la sortida de la caverna<br></i></br>"
+    },
+    {
+      "type":"paragraph",
+      "content": "prosa famigliare<br>piccole ricostruzioni<br>lo champagne apre la porta dell'eloquenza<br>gesti<br>il linguaggio negli occhi<br>la luce frontale di mano in mano<br>l'uscita dalla caverna<br>"
+    }
+  ]
+}

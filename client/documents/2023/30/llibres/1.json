@@ -1,0 +1,40 @@
+{
+    "title" : "Un arbre més alt que d'altres",
+    "url" : "un-arbre-mes-alt-que-d-altres",
+    "section" : "llibres",
+    "issue" : 29,
+    "data" : "28/10/2023",
+    "imageCard" : "angelcarbonell29-02-01",
+    "author" : "Àngel Carbonell",
+    "summary" : "",
+    "text" : [ 
+        {
+            "type" : "image",
+            "name": "angelcarbonell29-02-01"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Vet aquí quelcom semblant a una novel·la destinada, al meu parer, a esdevenir un clàssic de la literatura catalana –si és que no ho és ja– sempre i quan el mandarinat que decideix aquesta mena de coses hi vegi clar o que sàpiga veure els arbres dins del bosc."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "En efecte, un d'aquells clàssics que d'aquí a cinc-cents anys algù decidirà traduir a un català desangelat perquè uns malaurats lectors, als quals no se'ls atorgarà l'opció de triar, puguin llegir un clàssic al qual se li haurà llevat l'àngel."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Aquesta novel·la forma una mena de tàndem amb una altra novel·la d'en Bonet, <i>Míster Evasió</i>. En totes dues Bonet ens retrata la Barcelona dels seixanta i principis dels setanta des de diferents angles de visió. A <i>Míster Evasió</i> hi veiem la Barcelona desheretada i el Somorrostro, a <i>Si jo fos</i> –a partir d’ara en donaré el títol abreujat d’aquesta manera– hi veiem la Barcelona acomodada de damunt de la Diagonal –suposo que no us fa res que es noti que no vull fer servir l'expressió feta \"Upper Diagonal\", oi?. Si els uns són desgraciats sobretot en l'aspecte material, els altres ho són o poden ser-ho sobretot en l'aspecte moral. Quan dic que poden ser-ho és perquè el corrent de les aparences, les convencions i la moralina burgesa podria arrossegar-los a tots, però se'n salven alguns dels joves que Bonet ens presenta en aquesta obra coral, decidits a ser ells mateixos, de manera honesta, senzilla i natural, defugint l’esgarriament dels pares o dels seus consemblants. Així ens enamorem d’aquests joves, adolescents, que volen celebrar la seva vida, la seva fe, el seu amor o la seva sexualitat com un regal, que rebutgen com greus pecats allò que els ho impedeixi, com l'Ovidi, el Julià, el Joan…, sigui quin sigui el preu que hagin de pagar, l'alegria o el dolor que els suposi."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "La novel·la és un seguit d'escenes en què l'autor ens presenta, ara els uns ara els altres, els diversos personatges, amb poca relació entre ells, com un retaule amb històries diferents a cada taula, i l'acció, o millor dit, les situacions que viuen, són sobretot presentades mitjançant els diàlegs, que formalment són els grans protagonistes de la novel·la i que anuncien els esplèndids diàlegs que Bonet ens ofereix als seus imprescindibles dietaris. Justament per això Lucia Pietrelli, Pau Vadell i Jaume C. Pons Alorda, a l'epíleg del llibre, ens presenten el llibre com una obra de transició entre la narrativa i els dietaris de l’autor. Sembla que Bonet, amb aquesta novel·la, dona per superat o esgotat per a ell el gènere narratiu, ja que aquesta serà l'última que escriurà abans de dedicar-se als diaris."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Acabant, us animo a llegir aquest llibre i qualsevol altre dels seus perquè, entre les virtuts ja esmentades, no és la menor d'elles la festa del llenguatge, adesiara col·loquial, popular, mallorquí, filosòfic o teològic, en tot cas sempre sucós i sonor, en què la vida es mastega, \"vitenc\", que diria l'autor. I no oblideu que és justament el sabor del llenguatge el que sortiria perdent en les traduccions desangelades de què he parlat més amunt."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "No vull deixar, encara, de felicitar adia per convidar-nos-hi de bell nou amb aquesta edició."
+        }
+    ]
+}

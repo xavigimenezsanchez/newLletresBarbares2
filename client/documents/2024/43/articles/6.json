@@ -1,0 +1,44 @@
+{
+    "title" : "Xoc de naturaleses (amb la DANA encara al pit)",
+    "url" : "xoc_de_naturaleses",
+    "section" : "articles",
+    "issue" : 42,
+    "data" : "26/12/2024",
+    "imageCard" : "kirchner42_01",
+    "author" : "Josep-Oriol Vaca i Kirchner",
+    "summary" : "",
+    "text" : [ 
+        {
+            "type" : "image",
+            "name": "kirchner42_01"
+        },
+        {
+            "type" : "paragraph",
+            "content" : " La frustració més gran, crec jo, del nostre gènere no és el que no pot entendre, sinó el que segurament entén, però no pot controlar. La ignorància no té més inquietud que trobar una resposta autocomplaent, encara que sigui intransferible. En canvi, allò que escapa a qualsevol disposició més que a la comprensió ens situa en una incomoditat quasi flagel·lant. I quan un rep, es torna una mica com el seu fuet mateix. No n’esperis absurditats; més aviat espera’n paper de vidre."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Som una gent, els humans, que sembla que en alguns llimbs se’ns introduís la conquesta, i no la superació. La submissió dels elements ―fins i tot d’altres vivents―, en comptes d’una qualitat d’associació capaç de discutir-li l’hegemonia a mars i cels. Com ha dit la filòsofa Victòria Camps, per alguna raó ens hem sentit posats al món, i no part d’ell. I això ―dic jo― ens ha acabat rebel·lant contra les mateixes nocions d’una entitat suprema que ensems amb el full de ruta ens hauria d’haver donat l’hàbitat condicionat. Vaja, com qualsevol bon zoòleg ho farà amb el terràrium o l’aquari."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "És el que va acabar amb els saures; però nosaltres deixarem alguna cosa més que ossos. Un hipotètic descobridor de la nostra hecatombe trobarà restes de biblioteques, hospitals, hemicicles, obres d’art i enginyeria... i el més indesxifrable, temples. Arquitectures, dins i fora les ciutats, insistents en la força visual i la verticalitat, com assenyalant unes altures d’on ben segur vingué tot el contrari a l’invocat: volies colonització sense reserves (mai millor dit) i heus ací la fogonada que ho enrotllà tot com un pergamí. El de la nostra atzarosa història."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Però part de què, aleshores? Les diferents disciplines ―per més il·luminadores o complexes―  solen desvetllar abans la classificació que no pas la investigació. I sí que el <i>qui ha dit què</i> és important, però potser la qüestió del xoc de naturaleses no resti anivellada per un camí intel·lectual ni místic. Potser fins i tot sigui més senzill. Quan ets part d’alguna cosa, professar el dogma o l’apostasia no passa de detall anecdòtic. Tant se val que la gran majoria de les pedres de l’aqüeducte digui: “Això de l’aigua és una cantarella.”, perquè l’important no és que la vegin o la sentin, l’aigua. L’important és que “vegin” el seu lloc a l’obra, que vol dir: “Si jo plego l’estructura patirà… però els que tinc al costat ja pateixen només de pensar-hi”."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Per tant, consciència. La consciència no és una qüestió prosaica; és una neurotransmissió que no hem sabut anomenar d’una altra manera, i per la qual hom pot exercir de vampir que clava l’ullal a l’establiment desvalgut, o bé de <i>germà</i> amb la palangana de rentar els peus, pel camí de l’espant. I vet ací. Tens un lloc, i aquest lloc no el prefigura una convicció, sinó una connexió. Quan veus imatges d’una albada a la Patagònia no t’admires per un sentit de la bellesa ―que correspongui a una exhibició de quelcom o algú...―. Si et puja una cosa que normalment no et puja és perquè tu i aquell paratge esteu vinculats. Com si una memòria submergida brogís per a dir: “Simi no mata simi”… I si mata, ésser o paisatge, és que ha matat primer la consciència."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "El fenomen natural de destrucció és perquè hi havia construcció, en casos, mal planificada. Sempre ha existit, però en temps reculats potser s’emportava un parell de pobres camperols, i ara es pot emportar mitja vila. No ens podem girar contra els elements ni contra un “regidor” seu, atès que aquests mateixos elements s’han comportat de luxe, a la llarga, perquè hi siguem tots els que hi som. Cert que no han tingut consciència, però tampoc se’ls pot negar una intencionalitat. Els únics que tenim consciència som vós i jo, i per això en comptes de perdre el temps barallant <i>justícies</i> ens arremanguem, per si potser hi podem fer res. El futur es diu associacionisme, dignitat política, església de base, targetes de “Cuida’m”, investigació/innovació… En una paraula, aqüeducte."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "I aquest hipotètic descobridor d’hecatombes haurà de demanar entrada, com feien els trens abans de l’era digital."
+        }
+    ]
+}

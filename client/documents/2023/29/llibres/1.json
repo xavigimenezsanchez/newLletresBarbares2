@@ -1,0 +1,91 @@
+{
+    "title" : "Llegir Kundera avui",
+    "url" : "llegir-kundera-avui",
+    "section" : "llibres",
+    "issue" : 28,
+    "data" : "17/09/2023",
+    "imageCard": "torra28-01",
+    "author" : "Pere Torra",
+    "summary" : "",
+    "text" : [
+        {
+            "type" : "image",
+            "name": "torra28-01"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Títol: <i>La insostenible lleugeresa del ser</i></br>Autor: Milan Kundera</br>Traducció: Monika Zgustová</br>Edicions Destino, 1986</br>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Finalment, Milan Kundera ha mort sense que la inefable acadèmia sueca hagi fet cap cas a una obra literària brillant i amb valors immarcescibles, tot i que el txec havia estat un ferm candidat al premi Nobel des de feia anys. S’afegeix al nostre Àngel Guimerà, també candidat al mateix guardó, que, a començament del segle passat, fou blocat pels autocràtics poders espanyols del moment, com ha estat documentat. Ara bé, ni la mort ni la manca de reconeixement formal no impedeixen que, d’ambdós grans escriptors, en representem les obres dramàtiques o en llegim els llibres amb fruïció avui. A més, tampoc no ens hem de prendre gaire seriosament el guardó que confereixen una colla de suecs, ja que massa sovint han demostrat ser molt fal·libles i, a sobre, darrerament, han esdevingut força antipàtics amb la nostra cultura."
+        }, 
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content" : "Com ocorre amb els grans clàssics, Kundera parla de coses</br>que ens passen avui a nosaltres"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Per tot plegat, avui vull reivindicar la lectura dels llibres de Kundera, començant per la seva novel·la més cèlebre, <i>La insostenible lleugeresa del ser</i>, que ofereix un gran plaer lector que el 2023 es regenera i s’omple de nous significats derivats de l’evolució de la nostra època. Això es produeix encara més en llocs amb feble tradició democràtica, com ara el regne d’Espanya, que avui –força avançat el segle XXI– presenta notables similituds amb els països sotmesos al jou soviètic durant la segona meitat del segle XX. Contràriament al que algú podria pensar, la novel·la –publicada el 1984– no ha passat gens de moda ni esdevé un text amb mers valors històrics. Com ocorre amb els bons textos clàssics, parla de coses que aquests dies ens passen a nosaltres."
+        }, 
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content" : "«L’home no pot saber mai què és el que ha de voler perquè no</br>té més que una vida i no la pot ni comparar amb les seves</br>vides anteriors ni corregir-la en les posteriors»"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "El relat narra la relació amorosa entre Tomáš i Tereza, i també entre Sabina –al seu torn també amant de Tomáš– i Franz. En bona part, la història s’ambienta a Praga en el moment que els tancs soviètics esclafaren les ànsies de llibertat i democràcia de la primavera del 1968. Ara bé, les vicissituds de les relacions sentimentals i sexuals entre els personatges, encara que molt abundants, no són el més rellevant de la novel·la, sinó la seva concepció sobre la condició humana, l’hàbil incursió en temes filosòfics, l’originalitat del tractament de les idees, el recurs a l’assaig ben dosificat… Només cal tenir present que, ja a la primera frase del llibre, comença esmentant Nietzsche i la noció de l’etern retorn, la qual Kundera impugna amb enginy; al capdavall, «l’home no pot saber mai què és el que ha de voler perquè no té més que una vida i no la pot ni comparar amb les seves vides anteriors ni corregir-la en les posteriors»."
+        }, 
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content" : "El cinema és molt eficaç a l’hora de narrar històries, però poc</br>dúctil per representar continguts més o menys abstractes"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Com és sabut, Kundera va rebutjar la pel·lícula filmada a partir de la seva novel·la, tot i ser una producció prou correcta. A més, va prohibir de manera explícita la possible adaptació al cinema de qualsevol altra obra seva en el futur. L’escriptor txec devia constatar que el llenguatge cinematogràfic és molt eficaç a l’hora de narrar històries, però poc dúctil per representar continguts més o menys abstractes. Els films que versionen textos literaris no en poden oferir un tractament prou profund. Sovint es limiten a capturar la trama argumental, que, de vegades, conté els aspectes més anecdòtics o, fins i tot, banals d’una obra. En el cas de la novel·la que comentem, atesa la seva abundància d’idees, la pèrdua del contingut és molt evident i es comprèn l’actitud de l’escriptor."
+        }, 
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content" : "El mateix que passava a les dictadures de l’Europa de l’Est fa</br> mig segle ho estem vivim avui a Catalunya"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Mirem, doncs, alguns aspectes materials de la novel·la de Kundera que ens són més propers, com ara els comentaris sobre l’organització de l’espionatge de l’estat contra determinats col·lectius o individus d’una societat. Un dels personatges explica a Tereza les diverses funcions dels espies: «La primera és la clàssica. Escolten el que diu la gent i n’informen els seus superiors. La segona funció és intimidar. Ens demostren que ens tenen a la seva mercè i volen que tinguem por. La tercera funció consisteix a provocar situacions que ens comprometin». Precisament, Tereza és objecte d’espionatge per part del règim comunista txec per mitjà d’un personatge –ocult rera la identitat d’un enginyer– que arriba a fer l’amor amb ella. Aquesta intromissió de l’estat en la intimitat individual, referida a una de les dictadures de l’Europa de l’Est fa mig segle, l’hem viscuda avui a Catalunya amb els partidaris de la independència del país."
+        }, 
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content" : "La visió del kitsch de Kundera i la negació absoluta de la merda"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Un altre dels elements rellevants i singulars de la novel·la és la peculiar noció metafisica del kitsch, que s’hi exposa en una interessant digressió que s’estén en uns quants capítols de la sisena part, titulada «La gran marxa». Kundera concep el kitsch com un ideal estètic en què es produeix un acord categòric amb el ser, cosa que determina la negació absoluta de la merda perquè «el kitsch exclou del seu camp de visió tot allò que en l’existència humana és essencialment inacceptable». El personatge de Sabina es revolta contra el comunisme per raons estètiques, en primer lloc. S’oposa al kitsch comunista per «la màscara de bellesa que es posava», cosa que exemplificava amb la festa del primer de maig. Precisament, la traductora de la novel·la, Monika Zgustová, comença la biografia sobre un altre gran escriptor txec una mica més gran que Kundera, Bohumil Hrabal, descrivint el ritual que aquest darrer acostumava a fer reiteradament el primer de maig. Hrabal buidava la seva fossa sèptica i eixia al carrer amb un carro ple de merda precisament mentre hi havia les desfilades i celebracions de la diada."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Tornant a Kundera, és molt significativa la concepció del que ell anomena el «kitsch totalitari»: «En una societat en la qual coexisteixen diverses tendències polítiques i la seva influència s’anul·la o s’elimina mútuament, podem escapar més o menys de la inquisició del kitsch, l'individu pot conservar la seva originalitat i l’artista crear obres inesperades. Però allà on un sol partit polític té tot el poder ens trobem de cop i volta en l’imperi del kitsch totalitari». Per això, nosaltres, els catalans, avui –sobretot després del primer d’octubre del 2017– posem de manifest la configuració kitsch del regne d’Espanya. La idea d’una «transició modèlica», que ha portat un estat de les autonomies amb unes «regions» que contribueixen harmònicament a un «projecte nacional comú» amb una sola llengua, és el gran kitsch espanyol (ni tan sols espanyolista). No cal dir que el kitsch espanyol és tan incompatible amb les nocions elementals de democràcia i drets humans com ho era el kitsch comunista respecte l’obertura democràtica de la primavera de Praga, finalment esclafada pels tancs soviètics."
+        }, 
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content" : "L’obra és molt rica en frases lapidàries, enginyoses i</br> contundents"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Així mateix, com els grans autors, des de Shakespeare, Kundera té una gran capacitat per sintetitzar el pensament en frases molt senzilles, lapidàries, gairebé aforismes. La novel·la conté moltes sentències d’aquest estil. Enumerem-ne ara només unes quantes a tall d’exemple: «L’amor pot néixer d’una sola metàfora»; «Que una conversa privada davant un got de vi s’emeti públicament per ràdio, això només pot significar una cosa: que el món s’ha convertit en un camp de concentració»; «La coqueteria és una promesa de coit sense garantia»; «Quan algú tria, per exemple, una carrera política, opta lliurement per fer del públic el seu jutge»; «Que indefens és l’home davant els elogis!»; «Una novel·la no és la confessió del seu autor, sinó una exploració del que és la vida humana dins de la trampa en la qual s’ha convertit el món»; «Hi ha situacions en les quals l’home està <i>condemnat</i> a fer teatre»; etc."
+        }, 
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content" : "Per Kundera, Flaubert és un pensador més important que no</br> pas Marx o Freud"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Al capdavall, en el seu llibre d’assaigs <i>L’art de la novel·la</i>, Kundera defensava la novel·la com a artefacte intel·lectual de primer ordre, perquè «no és possible doncs jutjar l’esperit d’un segle exclusivament segons les seves idees, els seus conceptes teòrics, sense prendre en consideració l’art i, particularment, la novel·la». Per això també ell considerava Flaubert un pensador més important i valuós que no pas Marx o Freud. Deixant de banda les possibles ganes de provocar l’auditori on l’escriptor txec va pronunciar la conferència, no hi ha dubte que llegir <i>La insostenible lleugeresa del ser</i> resulta una experiència molt enriquidora. En aquesta novel·la Kundera no només és capaç de captar l’esperit del món contemporani (segona meitat del segle XX i primer quart del segle XXI), sinó també de presentar-nos una reflexió profunda sobre l'existència mateixa dels éssers humans i, encara, fer-ho tot amb una gran amenitat."
+        }
+    ]
+}

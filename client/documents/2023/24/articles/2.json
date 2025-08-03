@@ -1,0 +1,40 @@
+{
+    "title" : "Sobre Nox, d'Anne Carson",
+    "url" : "sobre-nox-d-anne-carson",
+    "section" : "articles",
+    "issue" : 23,
+    "data" : "25/03/2023",
+    "imageCard" : "angelcarbonell23-01",
+    "author" : "Àngel Carbonell",
+    "summary" : "",
+    "text" : [ 
+        {
+            "type" : "image",
+            "name": "angelcarbonell23-01"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "De com un llibre tan estrany, tan poc llibre, com <i>Nox</i> (New Directions, 2009), de la poeta canadenca Anne Carson, pot constituir alhora un exemple excepcional del <i>modus operandi</i> d’aquesta autora."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<i>Nox</i> neix com un epitafi en forma de quadern de notes que la poeta dedica al seu germà gran, acabat de morir. En la seva edició comercial es converteix en un facsímil d’un quadern japonès que es desplega en forma d’acordió i que ens arriba dins d’una voluminosa capsa en forma de llibre que també pot semblar l’urna de les cendres d’un lletraferit. El quadern està trufat de fotos, escrits a mà, dibuixos, pintures, collages, segells, retalls de sobres i cartes, entrades d’un diccionari de llatí, citacions d’altres llibres, breus poemes, records, reflexions i assajos fragmentaris i de límits imprecisos."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "El record del germà, com el llibre, també és imprecís i fragmentari, perquè feia un quart de segle com a mínim que havia deixat el Canadà i havia acabat instal·lant-se a Dinamarca i casant-se allà. En tot aquest temps s’havia distanciat molt de la poeta i de la resta de la seva família. El seu silenci el converteix en un misteri. Sembla, doncs, que el quadern concebut per la Carson s’adiu molt bé amb l’estranya no-relació que mantenen."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "El llibre és ple de referències de les cultures grega i llatina – no oblidem que l’autora és filòloga clàssica – i va encapçalat amb una elegia original composta en llatí sobre el model del poema 101 de Catul, l’elegia que el poeta va dedicar a la memòria del seu germà mort lluny de casa, a Tràcia. Precisament, les entrades del diccionari llatí són les corresponents a les paraules emprades en el poema, no hi ha pas una traducció, només el poema en llatí, i qui el vulgui entendre l’haurà de desxifrar mitjançant el diccionari, que per això hi és."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Com en d’altres llibres seus, el desdibuixament formal del quadern i el seu caràcter fragmentari remeten, d’una banda, a la passió de la poeta per les restes fragmentàries de la poesia grega arcaica. D’altra banda, també ens remeten al seu afany per saltar-se les fronteres entre els gèneres literaris, en un moviment expansiu de la poesia que, també inspirat, torno a dir-ho, per la poesia grega arcaica, no renuncia a deixar d’expressar res. Tampoc no renuncia a expressar l’enigma a través del no-res o dels buits o silencis propis dels textos fragmentaris, ni a fer-ho per qualsevol mitjà formal o informal al seu abast."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Ara mateix, de l’Anne Carson, en català, només hi ha un fragment del seu llibre <i>Decreation</i>, recollit a l’antologia de dones poetes occidentals del segle XX <i>Eren elles</i> (Lleonard Muntaner, 2017), compilada per la poeta Mireia Vidal-Conte. El balanç és evidentment insatisfactori, cal posar-hi remei perquè en la seva obra hi ha molt per descobrir, per sorprendre’s, per meravellar-se i per a posar-se al dia."
+        }
+    ]
+}

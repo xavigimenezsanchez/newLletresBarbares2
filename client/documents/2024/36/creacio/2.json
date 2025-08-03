@@ -1,0 +1,42 @@
+{
+    "title" : "Beatriz, querida",
+    "url" : "beatriz-querida",
+    "section" : "creacio",
+    "issue" : 35,
+    "data" : "31/05/2024",
+    "imageCard" : "puigdellivol35-01",
+    "author" : "Valentí Puigdellívol",
+    "summary" : "",
+    "text" : [
+        {
+            "type" : "image",
+            "name" : "puigdellivol35-01"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<div style=\"display: flex; justify-content: flex-end\"><div style=\"text-align: end\"><i>Existe azulado; no existe azulino ni azuloso. De adjetivos hablo.</i></br>Jorge Luis Borges</div></br></br></div>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "L’escriptura de Borges no té discussió. No podem dir, m’agrada Borges. Seria com dir que ens agrada respirar. Seria una obvietat. Hi ha un conte que s’hauria de llegir per sobre de qualsevol altre que hagi escrit el mestre. Es tracta de <i>“L’Àleph”</i> o si es vol, de <i>“El Aleph”</i> per ser rigorosos amb els noms propis. Borges va ser un escriptor que mai no va escriure una novel·la, però ens va deixar un llegat amb el qual la resta de mortals podem escriure ficció. Sense desvelar massa res, us diré que el protagonista està enamorat de la cosina de Carlos Argentino Daneri, Beatriu. Ella morirà i el protagonista enamorat visita cada any la casa de Carlos per presentar el condol i la memòria deguda a la família. Un any entra i el fan esperar en una mena de rebedor. Allà se sap sol i veu un retrat emmarcat de Beatriu al qual li adreça unes paraules. "
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"paddingLeft\":\"1rem\",\"fontSize\":\"14px\"}",
+            "content" : "<i> “Junto al jarrón sin una flor, en el piano inútil, sonreía (más intemporal que anacrónico) el gran retrato de Beatriz, en torpes colores. No podía vernos nadie; en una desesperación de ternura me aproximé al retrato y le dije:</br>-Beatriz, Beatriz Elena, Beatriz Elena Viterbo, Beatriz querida, Beatriz perdida para siempre, soy yo, soy Borges”. </i>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Cal fixar-se com Borges fa entrar la realitat a la ficció. Borges entra a l’interior del conte amb aquest: <i>“soy yo, soy Borges”</i>. Parla amb Beatriu. La mateixa Beatriu que acompanya a Dante pel Paradís. També Borges està perdudament enamorat. Mireu com descriu a Beatriu:"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"paddingLeft\":\"1rem\",\"fontSize\":\"14px\"}",
+            "content" : "<i>“Todos esos Viterbos, por lo demás… Beatriz (yo mismo suelo repetirlo) era una mujer, una niña de una clarividencia casi implacable, pero había en ella negligencias, distracciones, desdenes, verdaderas crueldades, que tal vez reclamaban una explicación patológica. La locura de Carlos Argentino me colmó de maligna felicidad; íntimamente, siempre nos habíamos detestado”.</i>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Tenim necessitat de Borges."
+        }
+    ]
+}

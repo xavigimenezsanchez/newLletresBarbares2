@@ -1,0 +1,55 @@
+{
+    "title" : "El palau del vent",
+    "url" : "el-palau-del-vent",
+    "section" : "creacio",
+    "issue" : 18,
+    "data" : "06/08/2022",
+    "imageCard" : "angelcarbonell18-01",
+    "author" : "Àngel Carbonell",
+    "summary" : "",
+    "text" : [ 
+        {
+            "type" : "image",
+            "name" : "angelcarbonell18-01",
+            "content": "<i>Èol</i>, 1602, seguidor de Peter Paul Rubens, Museu del Prado, Madrid"
+        }, 
+        {
+            "type" : "paragraph",
+            "content" : "Sense l'aire que ens permet respirar i viure no podríem sentir les ones sonores que transporten la música i la poesia. Hom pot viure, si pot, cosa que dubto, només de satisfer les seves necessitats bàsiques o biològiques, vivint per sota de les seves possibilitats, o pot ser conscient de la bellesa del món i de la vida, recrear-la o intentar recrear-la mitjançant l'art, gaudir-ne sol o en companyia, per a mirar d'explicar-se a ell mateix, per a mirar de desvelar els misteris més pregons, i llavors sí, llavors viure de veritat en aquest palau de la vida que permet l'aire (encara que no sigui l'únic element necessari), aquest palau en què, com diu el poema “El palau del vent”, de Josep Carner, tot són finestres, finestres obertes, és clar."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Cal recordar, d'altra banda, que la poesia va néixer oral i per a ser cantada, ja fos per a veu solista o per a cor, amb acompanyament d'un o més instruments o sense, és a dir, com música que utilitza la paraula com un altre instrument. Els primers poetes eren també músics i els seus poemes o lletres eren part intrínseca d'una composició musical que preveia el nombre i el tipus de veus o instruments que es farien servir en la seva interpretació."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "És per això que adquireix encara més sentit aquest agermanament entre poesia i música que proposa aquest article, per a què puguem apreciar la música en la poesia, la poesia en la música."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<br><br><br>EL PALAU DEL VENT"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"right\"}",
+            "content" : "<i>A Joaquim Ruyra</i>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<br><br>El Vent, el Vent, ha bastit un palau<br>sense fogar, sense llit, ni seient.<br>És un palau tot ratllat de cel blau:<br>tot són finestres, a casa del Vent.<br>Ell té per alimàries, amb brins de sol lluent,<br>les pluges, les estrelles, més que no pas en sap,<br>i groga llum de calamarsa sempre a punt,<br>per música, xiulades caragolant-se amunt;<br>per draperies, núvols penjant, barrip-barrap.<br><br>El palau que ha aixecat el Vent no té pas fi.<br>No hi viuria pas, ell, sinó fent-hi camí.<br>A estrebades, incert, matusser, nu, lleial,<br>profetitzant piadós al cimal,<br>tot udolaire darrera un destorb,<br>per son palau va el Vent adelerat:<br>així aniria, enmig del món avalotat,<br>Nostre Senyor si esdevenia orb.<br><br>El Vent, el Vent, ha bastit un palau:<br>veure i fer via per dins, com li plau!<br>Ell, en el mur mai finit, mai esquiu,<br>compta goteres i esquerdes, i riu.<br>Ell, vivint en un lloc sense sostre ni banc,<br>tresca per tot, que de noses és franc,<br>caixes i armaris no té en son tinell:<br>tot son tresor el duu amb ell,<br>i se li escapa pels traus del mantell.<br>Calla, cantussa, atabala, segons son delit,<br>sense aclucar les parpelles en tota una nit;<br>fa la cantúria que amoixa les flors en el branc,<br>i el so estrident, el que glaça la saba i la sang.<br><br>I no sols el tresor se'n du<br>(polseguera que entela i que llu)<br>caminant pel cel blau;<br>que també se'n du son palau.<br>El captaire fet rei, per damunt tota gent,<br>va amb la casa damunt l'espatlla, atarantat:<br>casa invisible, casa vibrant, tota forat.<br>Però s'esblaima el dia amb les frisors darreres.<br>El Vent corre brunzent,<br>bufant sota sa casa calius de sol ponent:<br>amb tots els seus parracs que semblaven banderes,<br>quan ve la posta, crema son foll palau el Vent.<br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "JOSEP CARNER, <strong><i>L’oreig entre les canyes</i></strong><br><br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<iframe width='100%' height='400' src='https://youtube.com/embed/VgugVlm2IPQ'></iframe>"
+          },
+          {
+            "type" : "paragraph",
+            "className" : "image-foot",
+            "content" : "Antonio Vivaldi - Concert Op. 10 num 1 en Fa major RV 433 <i>La tempesta di Mare</i> per flauta i orquestra<br><i>Il Giardino Armonico</i><br>Giovanni Antonini - Flauta i direcció"
+        }
+    ]
+}

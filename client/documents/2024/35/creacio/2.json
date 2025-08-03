@@ -1,0 +1,40 @@
+{
+    "title" : "Dos poemes de Petrarca",
+    "url" : "dos-poemes-de-petrarca",
+    "section" : "creacio",
+    "issue" : 34,
+    "data" : "20/04/2024",
+    "imageCard" : "angelcarbonell34-02-01",
+    "author" : "Àngel Carbonell",
+    "summary" : "",
+    "text" : [ 
+        {
+            "type" : "image",
+            "name": "angelcarbonell34-02-01",
+            "content": "<strong><i>Retrat de Francesco Petrarca</i></strong>, Francesco Bonsignori"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<div style=\"display: flex; justify-content: center\"></br></br><div>Era il giorno ch'al sol si scoloraro</br>per la pietà del suo Fattore i rai,</br>quando i' fui preso, e non me ne guardai,</br>chè i be' vostri occhi, donna, mi legaro.</br></br></br>Tempo no mi parea da far riparo</br>contra colpi d'Amor: però m'andai</br>secur, senza sospetto; onde i miei guai</br>nel commune dolor s'incominciaro.</br></br></br>Trovommi Amor del tutto disarmato</br>ed aperta la via per gli occhi al core,</br>che di lagrime son fatti uscio e varco.</br></br></br>Però, al mio parer non li fu onore</br>ferir me di saetta in quello stato,</br>e a voi armata non mostrar pur l'arco.</div></br></br></div>",
+            "styles": "{\"color\":\"green\"}"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<div style=\"display: flex; justify-content: center\"></br><div>Era el dia que al sol li empal·lidiren,</br>de pietat pel seu Creador, els raigs,</br>quan vaig ser pres, sense esperar-m'ho pas,</br>pels vostres ulls, senyora, que em lligaren.</br></br></br>No em semblava que fos temps de guardar-me</br>contra els embats d'Amor, però feia via</br>fresc, sense recel; per això els meus mals</br>s'encetaren en el comú dolor.</br></br></br>Amor em trobà del tot desarmat</br>i oberta la via dels ulls al cor,</br>que de llàgrimes són bretxa i eixida.</br></br></br>A parer meu, però, no li fou honrós</br>ferir-me de fletxa en semblant estat,</br>i a vós, armada, no mostrar ni l'arc.</div></br></div>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "</br></br>**********************</br></br>",
+            "styles": "{\"textAlign\":\"center\"}"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<div style=\"display: flex; justify-content: center\"></br></br><div>Per ch'al viso d'Amor portava insegna,</br>mosse una pellegrina il mio cor vano;</br>c'ogni altra mi parea d'onor men degna.</br></br></br>E lei seguendo su per l'erbe verdi,</br>udì' dir alta voce di lontano:</br>Ahi quanti passi per la selva perdi!</br></br></br>Allor mi strinsi a l'ombra d'un bel faggio,</br>tutto pensoso; e rimirando intorno,</br>vidi assai periglioso il mio viaggio;</br>e tornai 'n dietro quasi a mezzo il giorno.</div></br></br></div>",
+            "styles": "{\"color\":\"green\"}"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<div style=\"display: flex; justify-content: center\"></br><div>Perquè al rostre d'Amor duia l'ensenya</br>prengué una pelegrina el meu cor va,</br>qualsevol altra n'hauria estat menys digna.</br></br></br>I, seguint-la sobre els prats verds,</br>vaig sentir una forta veu de lluny:</br>Ai, quantes passes per la selva perds!</br></br></br>Llavors vaig seure a l'ombra d'un bell faig,</br>per pensar, i mirant al meu voltant,</br>vaig veure força perillós el viatge,</br>fent-me enrere quan era a mig camí.</div></br></div>"
+        }
+    ]
+}

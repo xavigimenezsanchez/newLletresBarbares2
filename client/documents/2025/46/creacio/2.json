@@ -1,0 +1,28 @@
+{
+    "title" : "La selva",
+    "url" : "la_selva",
+    "section" : "creacio",
+    "issue" : 45,
+    "data" : "29/03/2025",
+    "imageCard" : "freijomil45-01",
+    "author" : "Sandra Freijomil",
+    "summary" : "",
+    "text" : [
+        {
+            "type" : "image",
+            "name" : "freijomil45-01"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "T’has de promocionar, et diuen. I tu, que t’agrada escriure i encara més llegir, dues activitats que fas tota sola i en silenci, no saps com posar-t’hi. T’has de vendre. Un gest que implica parlar de tu, de com ets i de què fas, de posar-te etiquetes que ni tu mateixa t’has arribat a creure mai. Sempre tries tot allò que fa de mal encasellar. Qui estudia arquitectura és arquitecte i metge qui es forma en medicina, però, els de filosofia som filòsofs? Quin riure. Tampoc et fas dir escriptora per haver publicat llibres."   
+        },
+        {
+            "type" : "paragraph",
+            "content" : "El cas és que has de sortir a fora i ser capaç de dir que ho fas bé, fins i tot molt bé, que això teu val la pena, que no se’n penediran. Gestos que quan els reconeixes en els altres et semblen buits d’humilitat i inflats d’egolatria. Tu no en saps de vendre si no és que no són coses teves. Les galetes de l’amiga que són molt bones i compreu-les, la paraula de l’escriptora que més admires, la pel·lícula d’aquella actriu o aquella crema que hidrata de meravella. Ai, però, com canvia si el producte ets tu o l’has fet tu."   
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Tu que ets de mena introvertida, que et recarregues en solitari, navegant per mons de fantasia, has d’actuar com la més extravertida de totes. Relaciona’t, somriu (això rai que no et costa), fes contactes (aquí grinyoles), parla de tu sense que es noti que parles de tu, però amb prou gràcia perquè no t’oblidin (aquí ja vas perduda del tot) i exposa’t (ara sí que ets morta). Creu en tu, confia, mou-te, ven-te, parla, mostrat, agrada, atrau, proposa i escriu bé, cada dia millor. Trepitja fort i surt a batallar en aquesta selva."   
+        }
+    ]
+}

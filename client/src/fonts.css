@@ -1,0 +1,21 @@
+/* TNYAdobeCaslonPro Font Face */
+@font-face {
+  font-family: 'TNYAdobeCaslonPro';
+  src: url('/fonts/TNYAdobeCaslonPro-Regular/web/font/TNYAdobeCaslonPro-Regular.woff2') format('woff2'),
+       url('/fonts/TNYAdobeCaslonPro-Regular/web/font/TNYAdobeCaslonPro-Regular.woff') format('woff'),
+       url('/fonts/TNYAdobeCaslonPro-Regular/web/font/TNYAdobeCaslonPro-Regular.ttf') format('truetype'),
+       url('/fonts/TNYAdobeCaslonPro-Regular/web/font/TNYAdobeCaslonPro-Regular.svg') format('svg'),
+       url('/fonts/TNYAdobeCaslonPro-Regular/web/font/TNYAdobeCaslonPro-Regular.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Fallback fonts for better performance */
+@font-face {
+  font-family: 'TNYAdobeCaslonPro';
+  src: local('Times New Roman'), local('Times'), local('serif');
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+} 

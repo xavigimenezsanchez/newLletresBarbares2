@@ -1,0 +1,56 @@
+{
+    "title" : "Lámparas estudiosas",
+    "url" : "lamparas-estudiosas",
+    "section" : "creacio",
+    "issue" : 36,
+    "data" : "21/06/2024",
+    "imageCard" : "puigdellivol36-01",
+    "author" : "Valentí Puigdellívol",
+    "summary" : "",
+    "text" : [
+        {
+            "type" : "image",
+            "name" : "puigdellivol36-01"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Com per casualitat, sense buscar, però, tanmateix, sense deixar de buscar, he ensopegat amb aquelles làmpades estudioses que si bé sabia de la seva existència, les feia perdudes, ocultes, enterrades sota la història literària. I malgrat que el senyor Google sembla saber-ho tot, a aquest intrèpid arqueòleg polsós li fa molta il·lusió cada troballa atzarosa com aquesta."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Existeix un pròleg dins <i>El hacedor</i>, 1960, que porta per títol <i>“A Leopoldo Lugones”</i>. És una minúscula narració i desconec el motiu pel qual l’autor va decidir fer d’aquest breu, un pròleg. (Jo) feia anys que tenia notícia d’aquestes estudioses làmpades i avui, en una publicació d’abril de 1982, de Bruguera Edicions, que antologa diversos escrits, he trobat l’epítet en aquest pròleg. En aquesta obra de Bruguera he descobert que <i>“A Leopoldo Lugones”</i> restaven ocultes les làmpades estudioses de la Biblioteca Miguel Cané, on Jorge Luis Borges treballava, o també fora possible que fos a la Biblioteca Nacional, al primer pis, on es troba la seu, al barri de San Telmo (Calle de México, 564, C.P. 1097. Ciudad Autónoma de Buenos Aires)."
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"paddingLeft\":\"1rem\",\"fontSize\":\"14px\"}",
+            "content" : "<i>“Los rumores de la plaza quedan atrás y entro en la Biblioteca. De una manera casi física siento la gravitación de los libros, el ámbito sereno de un orden, el tiempo disecado y conservado mágicamente. A izquierda y a derecha, absortos en su lúcido sueño, se perfilan los rostros momentáneos de los lectores, a la luz de las lámparas estudiosas, como en la hipálage de Milton. Recuerdo haber recordado ya esa figura, en este lugar, y después aquel otro epíteto que también define por el contorno, el árido camello del Lunario, y después aquel hexámetro de la Eneida, que maneja y supera el mismo artificio:</i>"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"center\"}",
+            "content" : "</br><i>Ibant obscuri sola sub nocte per umbram</i></br>"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"paddingLeft\":\"1rem\",\"fontSize\":\"14px\"}",
+            "content" : "<i>Estas reflexiones me dejan en la puerta de su despacho. Entro; cambiamos unas cuantas convencionales y cordiales palabras y le doy este libro. Si no me engaño, usted no me malquería, Lugones, y le hubiera gustado que le gustara algún trabajo mío. Ello no ocurrió nunca, pero esta vez usted vuelve las páginas y lee con aprobación algún verso, acaso porque en él ha reconocido su propia voz, acaso porque la práctica deficiente le importa menos que la sana teoría.</i>"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"paddingLeft\":\"1rem\",\"fontSize\":\"14px\"}",
+            "content" : "<i>En este punto se deshace mi sueño, como el agua en el agua. La vasta biblioteca que me rodea está en la calle México, no en la calle Rodríguez Peña, y usted, Lugones, se mató a principios del treinta y ocho. Mi vanidad y mi nostalgia han armado una escena imposible. Así será (me digo) pero mañana yo también habré muerto y se confundirán nuestros tiempos y la cronología se perderá en un orbe de símbolos y de algún modo será justo afirmar que yo le he traído este libro y que usted lo ha aceptado”.</i>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<div style=\"display: flex; justify-content: flex-end\"><div style=\"text-align: end\">“A Leopoldo Lugones”. <i>El Hacedor</i>. Jorge Luis Borges.</br>El pròleg data del 9 d’agost de 1960.</br>Emecé Editores. Buenos Aires</div></br></br></div>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : " Aquestes hipàl·lages borgianes, que constitueixen trops morfosintàctics propis d’un lector de Virgili, són notòriament conegudes, però una cosa és saber que existeixen i una altra de diferent trobar-les a la pàgina seixanta-nou d’una antologia presa a l’atzar en una llibreria de vell. Si la memòria no em falla, crec que va ser en una lectura de Ricardo Piglia que esmentava les <i>“lámparas estudiosas”</i> i una altra, encara per treure a la llum, que deia: <i>“fumava cigarros pacientes”</i>. Continuarem sense buscar, però esperant la troballa. Serendipitat."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Tenim necessitat de Borges."
+        }
+    ]
+}

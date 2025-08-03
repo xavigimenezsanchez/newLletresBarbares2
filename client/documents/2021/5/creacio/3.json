@@ -1,0 +1,52 @@
+{
+  "title": "Tria de poemes",
+  "url": "tria_de_poemes_paniello",
+  "section": "creacio",
+  "issue": 4,
+  "data": "20/2/2021",
+  "imageCard": "Edvard_Munch_-_Melancholy_(1894)",
+  "author": "Carlos Paniello",
+  "summary": "",
+  "text": [
+    {
+      "type": "image",
+      "name": "Edvard_Munch_-_Melancholy_(1894)",
+      "content": "Malenconia, d’Edvard Munch"
+    },
+    { "type": "title", "content": "LAMENTO" },
+    {
+      "type": "paragraph",
+      "content": "Lamento que te vayas, claro.  </br>Pero más lamento el por qué te has ido.  </br>Lamento que fuera por nada,  </br>y que de nada hiciéramos tanto.  </br> </br>Lamento no haberte escuchado  </br>cuando, aunque estabas,  </br>yo ya sabía que te habías marchado.  </br> </br>Lamento haberte hecho daño,  </br>cuando el daño aún no estaba hecho.  </br>Fue el simple hecho de no hacer nada  </br>el que hizo que te fuera perdiendo.  </br> </br>Lamento no despertarme a tu lado,  </br>lamento no poder oler tu cuello, </br>lamento no ver tu cara por la mañana </br>y no poder refugiarme por la noche en tus senos, </br>lamento no poder beber de las fuentes de tu vello.  </br> </br>Pero lo que más lamento es que ya no me acompañas. </br>Y lamento mi lamento. Y te lamento, Amanda."
+    },
+    { "type": "title", "content": "BARRO" },
+    {
+      "type": "paragraph",
+      "content": "Nos imagino de plastilina,  </br>Te imagino de otro color, osados </br>nos vamos mezclando </br>como en un juego infantil, </br>La primera vez. </br> </br>De dos colores, hacemos uno </br>flamante y sorpresivo, </br>imposible ya de separar. </br> </br>Me imagino barro, </br>maleable en tus manos, </br>húmedo en tus huecos, </br>seco en tu olvido, </br>agrietado en tu distancia, </br>roto si me dejas caer. </br> </br>Carne. </br>Piel. </br>Frío si no las cubres. </br> </br>Frágil, no soy más, </br>Fuerte, no soy menos, </br>momentos..."
+    },
+    { "type": "title", "content": "CALLEM CALLAM" },
+    {
+      "type": "paragraph",
+      "content": "No callem per poder callar, </br>tot el que no hem dit, </br>veritats que s’arrosseguen. </br>Finem els llavis per escapar, </br>tot el que mai hem fet, </br>mans que s'arrepleguen. </br>Acluquem els ulls per volar, </br>llocs que no hem anat, </br>cossos que consonen. </br>No respirem per respirar, </br>no ens hem alliberat, </br>desitjos que s'amunteguen. </br>L'amor que es fa i es desfà, </br>promeses mil cops mai dites, </br>dits que t'anomenen. </br>Callem per poder parlar, </br>paraules que no han brollat, </br>alens que es perden."
+    },
+    { "type": "title", "content": "MUTS" },
+    {
+      "type": "paragraph",
+      "content": "Muda la flama gèlida del fogar, </br>l'ona erma que mai arriba, </br>la guerra perduda que clama altres batalles,  </br>mut el somriure prohibit que els seus llavis amaguen. </br> </br>Mut el vent distant que furta els somnis, </br>el riu sotmès que es desfà a cada moment, </br>el plor covard que ho rovella tot, </br>el petó orfe que no és dat.  </br> </br> Mut el silenci que crida el seu nom, nus."
+    },
+    { "type": "title", "content": "GEL" },
+    {
+      "type": "paragraph",
+      "content": "davallada </br>escuma d’onada que esdevé calç </br>boira que gosa amortir el sol </br>ulls clucs </br>sol que fumeja el vapor d’una bogeria </br>la teva absència </br> </br>el què, el qui, el com, el cuc  </br>que neix de la carn podrida  </br>que tot arreplega </br> </br>només ossos, només restaran els ossos,  </br>de la calç, de les onades, que arriben sense aigua a la platja,  </br>eixutes, no vull les meves llàgrimes </br> </br>s’han acabat les mancances"
+    },
+    { "type": "title", "content": "BONICA BOTÀNICA" },
+    {
+      "type": "paragraph",
+      "content": "T’arranjaré amb les més bèsties de les tendreses, </br>poliré la tija fins treure’t tota la sàlvia i totes les espines, </br>cuidaré de les teves poncelles per que no s’aflongin, </br>lleparé els teus pètals perquè no marceixin, </br>et plantaré amb l’amor amb el que jo només sé plantar,  </br>perquè t’estimo, perquè et cuido, perquè et respecto, </br> </br>després ja només caldrà regar-te."
+    },
+    { "type": "title", "content": "SOMNIS" },
+    {
+      "type": "paragraph",
+      "content": "Somio sovint que estic a punt de fer un llarg viatge,  </br>l'andana d'una estació, sense tren encara,  </br>un vaixell de vela, sense vent,  </br>un autocar, encara sense gent. </br> </br>Somio sovint que m'acompanyen fantasmes que vaig estimar, sense vida.  </br>Els ploro en somnis tot el que no he sapigut plorar desvetllat, sense llàgrimes.  </br>Somio sovint que he de fugir del que defujo, estar per estar, sense l'esma. </br> </br>Visc dels somnis que neixen i moren cada nit,  </br>esperant trobar un dia sota el coixí </br>dos bitllets només d'anada, sense destí."
+    }
+  ]
+}

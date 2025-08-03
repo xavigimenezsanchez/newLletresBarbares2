@@ -1,0 +1,132 @@
+{
+    "title" : "Vida d'un home (1). Traduccions de Giuseppe Ungaretti",
+    "url" : "vida-d-un-home-1-traduccions-de-giuseppe-ungaretti",
+    "section" : "creacio",
+    "issue" : 26,
+    "data" : "30/06/2023",
+    "imageCard" : "angelcarbonell26-01",
+    "author" : "Àngel Carbonell",
+    "summary" : "",
+    "text" : [ 
+        {
+            "type" : "image",
+            "name": "angelcarbonell26-01",
+            "content": "<i>Retrat de Giuseppe Ungaretti</i>, per Gino Bonichi"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "</br></br>ETERNO</br> </br>Tra un fiore colto e l'altro donato</br>l'inesprimibile nulla</br></br>",
+            "styles": "{\"color\":\"green\"}"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "</br>ETERN</br> </br>Entre la flor collida i la donada</br>l'inexpressable no-res</br>"
+
+        },
+        {
+            "type" : "paragraph",
+            "content" : "</br></br>**********************</br></br>",
+            "styles": "{\"textAlign\":\"center\"}"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "</br></br>NOIA</br> </br>Anche questa notte passerà</br> </br>Questa solitudine in giro</br>titubante ombra dei fili tranviari</br>sull'umido asfalto</br> </br>Guardo le teste dei brumisti</br>nel mezzo sonno</br>tentennare</br></br>",
+            "styles": "{\"color\":\"green\"}"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "</br>TEDI</br> </br>També aquesta nit passarà</br> </br>Aquesta solitud que circula</br>vacil·lant ombra dels fils del tramvia</br>sobre l'asfalt humit</br> </br>Em miro els caps dels tartaners</br>mig adormits</br>capcinejant.</br>"
+
+        },
+        {
+            "type" : "paragraph",
+            "content" : "</br></br>**********************</br></br>",
+            "styles": "{\"textAlign\":\"center\"}"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "</br></br>LEVANTE</br> </br>La linea</br>vaporosa muore</br>al lontano cerchio del cielo</br> </br>Picchi di tacchi picchi di mani</br>e il clarino ghirigori striduli</br>e il mare è cenerino</br>trema dolce inquieto</br>come un piccione</br> </br>A poppa emigranti soriani ballano</br> </br>A prua un giovane è solo</br> </br>Di sabato sera a quest'ora</br>Ebrei</br>laggiù</br>portano via</br>i loro morti</br>nell'imbuto di chiocciola</br>tentennamenti</br>di vicoli</br>di lumi</br> </br>Confusa acqua</br>come il chiasso di poppa che odo</br>dentro l'ombra</br>del sonno</br></br>",
+            "styles": "{\"color\":\"green\"}"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "</br>LLEVANT</br> </br>La línia</br>vaporosa mor</br>a la llunyana volta del cel</br> </br>Piquen de peus piquen de mans</br>i el clarí arabescs estridents</br>i el mar és cendrós</br>tremola plàcid inquiet</br>com un colom</br> </br>A popa ballen uns emigrants sirians</br> </br>A proa un jove s'està sol</br> </br>Del dissabte al vespre fins ara</br>uns jueus</br>se'n duen</br>allà</br>els seus morts</br>a l'embut de caragol</br>balandreig</br>de carrerons</br>de llums</br> </br>Confusa aigua</br>com la gresca que sento a popa</br>a l'ombra</br>del son</br>"
+
+        },
+        {
+            "type" : "paragraph",
+            "content" : "</br></br>**********************</br></br>",
+            "styles": "{\"textAlign\":\"center\"}"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "</br></br>TAPPETO</br> </br>Ogni colore si espande e si adagia</br>negli altri colori</br> </br>Per essere più solo se lo guardi</br></br>",
+            "styles": "{\"color\":\"green\"}"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "</br>CATIFA</br> </br>Cada color s'estén i s’ajeu</br>pels altres colors</br> </br>Per quedar-se més sol si te’l mires</br>"
+
+        },
+        {
+            "type" : "paragraph",
+            "content" : "</br></br>**********************</br></br>",
+            "styles": "{\"textAlign\":\"center\"}"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "</br></br>NASCE FORSE</br> </br>C'è la nebbia che ci cancella</br> </br>Nasce forse un fiume quassù</br> </br>Ascolto il canto delle sirene</br>del lago dov'era la città</br></br>",
+            "styles": "{\"color\":\"green\"}"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "</br>POTSER NEIX</br> </br>Hi ha la boira que ens esborra</br> </br>Potser neix un riu aquí dalt</br> </br>Escolto el cant de les sirenes</br>del llac on era la ciutat</br>"
+
+        },
+        {
+            "type" : "paragraph",
+            "content" : "</br></br>**********************</br></br>",
+            "styles": "{\"textAlign\":\"center\"}"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "</br></br>AGONIA</br> </br>Morire come le allodole assetate</br>sul miraggio</br> </br>O come la quaglia</br>passato il mare</br>nei primi cespugli</br>perché di volare</br>non ha più voglia</br> </br>Ma non vivere di lamento</br>come un cardellino accecato</br></br>",
+            "styles": "{\"color\":\"green\"}"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "</br>AGONIA</br> </br>Morir com les aloses assedegades</br>al miratge</br> </br>O com la guatlla</br>ja passat el mar</br>als primers matolls</br>perquè de volar</br>ja no en té ganes</br> </br>Però no viure de la queixa</br>com una cadernera encegada</br>"
+
+        },
+        {
+            "type" : "paragraph",
+            "content" : "</br></br>**********************</br></br>",
+            "styles": "{\"textAlign\":\"center\"}"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "</br></br>RICORDO D'AFFRICA</br> </br>Il sole rapisce la città</br> </br>Non si vede più</br> </br>Neanche le tombe resistono molto</br></br>",
+            "styles": "{\"color\":\"green\"}"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "</br>RECORD D'ÀFRICA</br> </br>El sol s'endú la ciutat</br> </br>Ja no es pot veure</br> </br>Ni tan sols les tombes resisteixen gaire</br>"
+
+        },
+        {
+            "type" : "paragraph",
+            "content" : "</br></br>**********************</br></br>",
+            "styles": "{\"textAlign\":\"center\"}"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "</br></br>CASA MIA</br> </br>Sorpresa</br>dopo tanto</br>d'un amore</br> </br>Credevo di averlo sparpagliato</br>per il mondo</br></br>",
+            "styles": "{\"color\":\"green\"}"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "</br>CASA MEVA</br> </br>Sorpresa</br>després de tant</br>d'un amor</br> </br>Creia que l'havia escampat</br>pel món</br>"
+
+        }
+    ]
+}

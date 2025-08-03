@@ -1,0 +1,67 @@
+{
+    "title" : "Vida d'un home (6). Traduccions de Giuseppe Ungaretti",
+    "url" : "vida-d-un-home-traduccions-de-giuseppe-ungaretti-6",
+    "section" : "creacio",
+    "issue" : 31,
+    "data" : "27/01/2024",
+    "imageCard" : "angelcarbonell31-01",
+    "author" : "Àngel Carbonell",
+    "summary" : "",
+    "text" : [ 
+        {
+            "type" : "image",
+            "name": "angelcarbonell31-01"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<div style=\"display: flex; justify-content: center\"></br></br><div><strong>COMMIATO</strong></br>Locvizza il 2 ottobre 1916</br> </br>Gentile</br>Ettore Serra</br>poesia</br>è il mondo l'umanità</br>la propria vita</br>fioriti dalla parola</br>la limpida meraviglia</br>di un delirante fermento</br> </br>Quando trovo</br>in questo mio silenzio</br>una parola</br>scavata è nella mia vita</br>come un abisso</div></br></br></div>",
+            "styles": "{\"color\":\"green\"}"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<div style=\"display: flex; justify-content: center\"></br><div><strong>COMIAT</strong></br>Locvizza 2 d'octubre de 1916</br> </br>Amable</br>Ettore Serra</br>poesia</br>és el món la humanitat</br>la pròpia vida</br>florits per la paraula</br>la límpida meravella</br>d'un delirant ferment</br> </br>Quan trobo</br>en aquest meu silenci</br>una paraula</br>excavada està en la meva vida</br>com un abís</div></br></div>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "</br></br>**********************</br></br>",
+            "styles": "{\"textAlign\":\"center\"}"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<div style=\"display: flex; justify-content: center\"></br></br><div><strong>ALLEGRIA DI NAUFRAGI</strong></br>Versa il 14 febbraio 1917</br> </br>E subito riprende</br>il viaggio</br>come</br>dopo il naufragio</br>un superstite</br>lupo di mare</div></br></br></div>",
+            "styles": "{\"color\":\"green\"}"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<div style=\"display: flex; justify-content: center\"></br><div><strong>ALEGRIA DE NAUFRAGIS</strong></br>Versa 14 de febrer de 1917</br> </br>I tot seguit reprèn</br>el viatge</br>com</br>després del naufragi</br>un supervivent</br>llop de mar</div></br></div>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "</br></br>**********************</br></br>",
+            "styles": "{\"textAlign\":\"center\"}"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<div style=\"display: flex; justify-content: center\"></br></br><div><strong>DORMIRE</strong></br>Santa Maria La Longa il 26 gennaio 1917</br> </br>Vorrei imitare</br>questo paese</br>adagiato</br>nel suo camice</br>di neve</div></br></br></div>",
+            "styles": "{\"color\":\"green\"}"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<div style=\"display: flex; justify-content: center\"></br><div><strong>DORMIR</strong></br>Santa Maria La Longa 26 de gener de 1917</br> </br>Voldria imitar</br>aquesta terra</br>ajaguda</br>en la seva alba</br>de neu</div></br></div>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "</br></br>**********************</br></br>",
+            "styles": "{\"textAlign\":\"center\"}"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<div style=\"display: flex; justify-content: center\"></br></br><div><strong>INIZIO DI SERA</strong></br>Versa il 15 febbraio 1917</br> </br>La vita si vuota</br>in diafana ascesa</br>di nuvole colme</br>trapunte di sole</div></br></br></div>",
+            "styles": "{\"color\":\"green\"}"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<div style=\"display: flex; justify-content: center\"></br><div><strong>COMENÇAMENT DE LA NIT</strong></br>Versa 15 de febrer de 1917</br> </br>La vida s'escola</br>en diàfana ascensió</br>de núvols plens</br>brodats de sol</div></br></div>"
+        }
+    ]
+}

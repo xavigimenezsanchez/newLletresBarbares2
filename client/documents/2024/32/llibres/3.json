@@ -1,0 +1,20 @@
+{
+    "title" : "Fulls apàtrides",
+    "url" : "fulls-apatrides",
+    "section" : "llibres",
+    "issue" : 31,
+    "data" : "27/01/2023",
+    "imageCard": "puigdellivol31-01",
+    "author" : "Valentí Puigdellívol",
+    "summary" : "",
+    "text" : [
+        {
+            "type" : "image",
+            "name": "puigdellivol31-01"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Alguns d’aquests fulls han volgut escapar a l’obra de Piglia, deslligar-se. Potser s’han volgut amotinar contra la cronologia d’aquest diari. És probable que les paraules pròfugues, ara ja exiliades d’aquesta narrativa es poguessin sentir perdudes, apàtrides, diria (jo). I tal vegada experimentessin alhora aquell sentiment nostàlgic que en llengua francesa s’anomena <i>dépaysement</i>, una mena d’enyor per ser lluny de màtria. Contradictòriament, és possible també que aquestes pàgines errants es manifestessin com si fossin Odisseu, com si sabessin <i>secreta</i>(ment) i íntima que no volen tornar a Ítaca. Podria dir-se d’elles que rectifiquen la vida viscuda en aquesta fugida, que se senten capaces de canviar el destí, la història mateixa. En realitat, qui sap què?"
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "title" : "Geografia i història de Joan de Serrallonga",
+    "url" : "geografia_i_historia_de_joan_de_serrallonga",
+    "section" : "llibres",
+    "issue" : 41,
+    "data" : "29/11/2024",
+    "imageCard" : "torra41-01",
+    "author" : "Pere Torra",
+    "summary" : "",
+    "text" : [
+        {
+            "type" : "image",
+            "name": "torra41-01"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Deia <strong>Joan Fuster</strong> tot esmentant <strong>Pierre Vilar</strong> que la «dissidència social» a l’època del Barroc, a Castella «ve representada pel captaire i pel <i>pícaro</i>, no pas pel bandoler, que sembla una ‘creació’ més específicament catalana». En tot cas, Fuster centra el seu estudi en el mite literari de Serrallonga, que, al costat de la concepció del bandolerisme català, fou originat per la literatura del segle d’or castellà, incloses plomes tan il·lustres com <strong>Lope de Vega</strong>, <strong>Cervantes</strong> i <strong>Tirso de Molina</strong>. Des de Castella, la mirada cap a Catalunya ha estat força esbiaixada, a causa de la diferència que sempre acaba emergint entre ambdues nacions, les seves gents, cultures i llengües."
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content" : "El gran encert del llibre és la seva estructuració segons els indrets que va recórrer el bandoler"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "A principi d’any Farell editors ha publicat <i>Serrallonga: Biografia inèdita</i>, de <strong>Ricard Dilmé</strong>, un llibre que té una orientació ben diferent de l’assaig del de Sueca. El text té la virtut d’aplegar, de forma sintètica, amena i divulgativa, gairebé tota la informació sobre el llegendari bandoler català. A part de la riquesa de contingut, un dels encerts és l’estructuració mateixa del llibre, què es basa en l’exhaustiu i acurat recorregut pels diversos indrets on Serrallonga actuava, robava o obtenia refugi, situats en un mapa utilíssim. Aquesta precisa topografia es combina amb una línia cronològica que va avançant progressivament en els principals fets de la vida del malfactor. Cada capítol compta amb una bella fotografia que mostra l’estat actual dels masos, camins, boscos, balmes, muntanyes… per on va córrer el de Viladrau, que Dilmé ha trepitjat i fotografiat ell mateix minuciosament i apassionada. També hi ha algunes il·lustracions del polivalent autor. A més, hi ha apartats esparsos que toquen breument aspectes monogràfics del bandolerisme: els vestits, les armes, els barbers que ho guarien tot, els menjars, la religiositat, etc."
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content" : "La complicitat dels fautors fou el factor clau per a la supervivència dels bandolers"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "L'autor dedica molta atenció al funcionament de la xarxa de suport dels bandolers, sobretot els anomenats fautors, que, de vegades, eren agents dobles i formaven part també del sometent. Dilmé, que fa una explicació detallada i versemblant del fenomen, considera que la complicitat dels fautors fou vital per a la supervivència dels bandolers. Precisament, la decadència i la fi del bandolerisme va arribar quan el poder reial va poder neutralitzar l’operativitat dels fautors."
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content" : "Al llibre desfilen personatges històrics com Perot Rocaguinarda, l’odiat agutzil Montrodon, Sant Vicent Ferrer o Antoni Serrallonga"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Així mateix, en nombroses pàgines veiem desfilar personatges històrics ben coneguts. Cal destacar <strong>Perot Rocaguinarda</strong>, famós bandoler que apareix al <i>Quixot</i>, però que no fou tan popular com Serrallonga, probablement —apunta Dilmé— perquè no tingué una mort tan terrible, ja que el 1611 es va acollir a una amnistia reial que li va permetre exercir com a militar als terços castellans. Un altre personatge molt ben conegut —i odiat— a Santa Coloma de Farners és <strong>Miquel Joan de Montrodon i Tristany</strong>, de Tona, que fou gran perseguidor de bandolers. L'any 1640 Montrodon era a Santa Coloma com a agutzil i va emparar els abusos de les tropes dels terços castellans que la gent tenia l’obligació d’allotjar. La seva conducta va generar tanta indignació que la gent del poble el va perseguir fins a calar foc a l’hostal on s’allotjava. Com a resposta els militars ocupants arrasaren la ciutat sencera, cosa que esdevingué l’espurna de la revolta que va portar la Guerra dels Segadors. I encara que superi l’abast cronològic de la vida d’en Serrallonga, és interessant la referència a <strong>Sant Vicent Ferrer</strong>. A principis del segle XV, davant la violència extrema que hi havia a Catalunya, el sant fou cridat perquè ajudés a la pacificació del país. El valencià va fer una de les seves cèlebres prèdiques davant d’unes deu mil persones, que sembla que van fer cert efecte. Un altre personatge menys conegut és mossèn <strong>Antoni Serrallonga</strong>, fill del bandoler i rector de Querós, Dilmé ens informa d’un fet molt trist i lamentable per al nostre patrimoni històric: la pèrdua del <i>Llibre de notes</i> del sacerdot, que fou cremat durant la guerra del 1936-39. Quins preciosos secrets i històries ens podria contar no només sobre el seu pare, sinó també sobre l’època que va viure i tantes altres coses…"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content" : "La voluntat de precisió històrica i geogràfica no ha d’arraconar la rica dimensió llegendària"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Per diversos motius, sorprèn que la part dedicada al mite i la llegenda de Serrallonga es limiti a un sol capítol de menys de sis pàgines, amb caràcter d’epíleg. Certament, el volum es titula “biografia inèdita” i el text ho compleix. Ara bé, la coberta del llibre inclou una bella imatge que mostra un possible bandoler, armat del seu pedrenyal, amb la silueta retallada a contrallum vers un horitzó de muntanyes en el moment de la posta de sol. Aquesta imatge evoca una figura de to ben romàntic en la línia del “bon bandoler” (el llibre esmenta <strong>Guillem Tell</strong>, <strong>Robin Hood</strong>, <strong>Dick Turpin</strong> o <strong>d’Artagnan</strong>). Es crea l'expectativa en el lector que l’obra desenvolupi tot això. Així mateix, fa pocs mesos, el mateix Dilmé va comissariar una exposició dedicada a Serrallonga, amb un volum molt apreciable de llibres, còmics, pòsters, cartells, partitures de cançons, jocs, armes, roba, objectes diversos, material audiovisual… que dona per a molt més. Finalment, l’autor mateix afirma que cal acceptar alhora la dimensió històrica i la llegendària del personatge. D’acord! Llavors convindria fer emergir tota la rica informació relativa a la llegenda i les seves derivacions; totes les capes que la tradició popular ha anat afegint a la figura del viladrauenc. Dilmé és el millor especialista per a dur-ho a terme, fent-ho amb orientació diferent de la de Fuster, que esmentàvem al començament. Esperem una nova edició més completa o, fins i tot, un nou llibre sobre aquesta dimensió del bandoler, que també compta amb molts continguts inèdits. Al capdavall, tal com també assegura l’autor, tot plegat fa que Serrallonga esdevingui etern."
+        }
+    ]
+}

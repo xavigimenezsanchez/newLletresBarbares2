@@ -1,0 +1,45 @@
+{
+    "title" : "El món de Combray. El nostre món. I Marcel Proust. Sempre.",
+    "url" : "el_mon_de_combray_el_nostre_mon_i_marcel_proust_sempre",
+    "section" : "llibres",
+    "issue" : 30,
+    "data" : "30/11/2023",
+    "imageCard": "andreu30-02-01",
+    "author" : "Andreu Pérez-Mingorance",
+    "summary" : "",
+    "text" : [
+        {
+            "type" : "image",
+            "name": "andreu30-02-01",
+            "content": "Il·lustració de Lluis Marsans sobre la Recherche."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "El passat 14 de novembre vaig pensar en les postes de sol de Combray, de Marcel Proust, al primer llibre de la sèrie <i>A la recerca del temp perdut, Pel cantó de Swann</i>. El 14 de novembre feia 110 anys, més d'un segle, que s'havia editat aquest meravellós llibre, l'any 1913. Proust volia fer un monument a un món que moria, i no sé si ningú li donaria gaire sentit avui dia, ni si realment era important la seva supervivència, segurament no. El món de Swann, dels Guermantes, de Combray, i del París de Proust és un món exclusiu i elitista, vist amb els ulls actuals, i dubto que la rància noblesa de les revistes del cor s'hi assembli vagament. Mai no han donat, almenys al nostre país, un aspecte cultural gaire elevat."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Què vull dir amb això? Doncs que el món de Proust va desaparèixer i avui dia la bellesa de llocs com Combray o, aquí, Pals, Agramunt o Solsona, amb els seus carrers medievals, també desapareix perquè tot canvia amb el pas del temps, i prou. Però el que ens deixa Proust a la seva recerca és potser una de les mostres més elevades de la literatura universal, una excursió a l'interior de l'ànima humana, tan profunda i genial que poc puc parlar-ne sense fer malbé tota aquesta grandesa literària."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Illiers-Combray és com Pals, Solsona o Agramunt, un lloc al mapa. Proust va usar la localitat d'Illiers, a la regió central de França, al departament d'Eure-et-Loire, per a recrear el seu Combray, i l'any 1971, el 8 d'abril, centenari del naixement de Proust, la van rebatejar amb el nom d'Illiers-Combray. Nosaltres som massa conservadors i massa santers per canviar el nom d'un poble en honor d’una obra literària, i és clar que el Comarquinal de <i>Laura a la ciutat dels Sants</i> no és gaire generós amb Vic, però “Binissalem-Bearn” seria bellíssim."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Illiers-Combray, el poble, és tan lluny de París com ho estan Solsona, Agramunt o Pals de Barcelona, a cent trenta quilòmetres."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Amb aquesta coincidència en la bellesa de l'espai us convido a llegir l'obra de Proust. En català està molt ben traduïda i en més d'una versió. Que ningú no pensi que els traductors han perdut el cap amb el vocabulari culte i florit, i que ningú no pensi que no es pot entendre. Era tan gran la intenció de Proust de transmetre bellesa que segurament el llenguatge s'engrandia tot sol."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Us animo a llegir el llibre i a comentar-lo amb la gent, i, quan tingueu dificultats amb el llenguatge, penseu que encara, com Proust, tenim la sort d'estar prop de mons particulars. No sabem si també vivim en un temps perdut, però us convido a retrobar-lo."
+        },
+        {
+            "type" : "image",
+            "name": "andreu30-02-02"
+        }
+    ]
+}

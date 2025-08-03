@@ -1,0 +1,44 @@
+{
+    "title" : "A l'entorn de Barthes i <i>La mort de l'autor</i>",
+    "url" : "a_l_entorn_de_barthes_i_La_mort_de_l_autor",
+    "section" : "articles",
+    "issue" : 32,
+    "data" : "24/02/2024",
+    "imageCard" : "alcaraz32-01",
+    "author" : "Francesc Alcaraz",
+    "summary" : "",
+    "text" : [
+        {
+            "type" : "image",
+            "name" : "alcaraz32-01"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "L’obra de Barthes proposa l’allunyament entre l’autor i la seva obra. De fet, podríem dir que relata, explícitament, la mort de l’autor tradicional que, alhora, deixa pas a un nou model d’autor. El naixement d’aquest autor “modern” comporta la necessitat d’un nou model de lectura, d’un nou model de crítica literària."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Fins llavors, els autors han estat vistos com els pares de les seves obres. L’autor és un concepte previ a l’obra i necessitem conèixer-lo profundament per a poder interpretar un text seu: «el autor es el que nutre al libro, o sea, que existe antes que él, que piensa, sufre y vive para él». Barthes considera que hi ha d’haver un element superador perquè, en el fons, els autors també són productes de la seva societat i, per tant, cal tractar l’obra i l’autor com una unitat. Obra i autor són una mateixa línia perquè «el autor moderno nace a la vez que su texto». És interessant, també, remarcar la dimensió que Barthes dona a la literatura quan diu que «todo texto está escrito aquí y ahora». Interessa, sobretot, perquè evidencia el seu caràcter transcendental; la literatura es fa ara però és vàlida per sempre. Per exemple, que aparegui un telèfon mòbil a una novel·la no la fa moderna; el que la fa moderna és que aquest telèfon mòbil (ja sigui a través de trucades, WhatsApps, vídeos a les xarxes socials…) condicioni les accions dels personatges."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "En aquest context, tornar a situar l’autor per sobre de l’obra voldria dir limitar-la i, per tant, imposar unes lectures. Més ben dit: perdem la possibilitat d’interpretar el text de determinades maneres. Malgrat tot, sembla que avui dia tinguem la necessitat de conèixer els autors a la perfecció perquè, en certa manera, som incapaços d’analitzar l’obra sense un context previ. Sembla que el terme “anònim” ens faci por: encara avui publiquem estudis, per exemple, sobre els possibles autors del <i>Curial e Güelfa</i> i les respectives trajectòries vitals (cortesanes, econòmiques, amoroses…). Que potser el text no és autònom? No podem valorar si és una bona obra o no, només amb el text? Barthes apunta que aquest tipus de solucions són molt aprofitades pels crítics, que pretenen «dedicarse a la importante tarea de descubrir al autor [...] una vez hallado el autor, el texto se explica». Segurament és per aquest motiu que, de les dues grans novel·les de cavalleries catalanes del segle XV, als instituts només treballin en profunditat <i>Tirant lo Blanc</i>."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Mantenir una òptica desfavorable al text implicarà el continuisme dels narradors burgesos, dels narradors acomodats en una escriptura clàssica que perpetua el realisme i el romanticisme, estils encarcarats que impedeixen que la literatura, així com la societat i l’art en general, evolucionin. Agafant la contra, com més violent (entenent violent per trencador) trobem un text, més fàcil serà que ens impressioni: Barthes és partidari de fer caure tot allò que no li serveix per tal d’acabar-nos llegant una obra on l’important sigui el text i que no quedi eclipsat per l’estil o per la pròpia figura de l’autor. L’autor no és important per sí sol, ho és en el conjunt de l’obra però, això sí, no queda aïllat de la seva obra; la pot controlar, per exemple, a través d’un narrador implícit."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "L’autor haurà d’emplenar els buits que ha deixat l’enderrocament del text. Per tant, l’obra resultant podrà desfilar-se per veure’n l’entrellat, però Barthes ens alerta aquí de la pèrdua del vincle entre realitat i literatura: «la escritura instaura sentido sin cesar, pero siempre acaba por evaporarlo: precede a una exención sistemática del sentido». I és que, a la pràctica, el vincle entre realitat i literatura (o escriptura, tal com prefereix Barthes) ja està superat. El lector modern no necessita una realitat real (valgui la redundància!), sinó que necessita una realitat literària. Només podem justificar la literatura amb la pròpia literatura i no pas amb res extern. Si jutgem la literatura amb criteris externs caurem en les fal·làcies que ens limitaran la interpretació del text. Quan hem parlat de literatura, evidentment, podíem fer-ho extensiu a qualsevol manifestació artística."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "El lector haurà de jugar un paper important en aquesta xarxa d’enderrocaments i reconstruccions. Si només podem justificar la literatura amb literatura i, per tant, l’únic que ens interessa és tenir una realitat literària, el lector ha d’estar disposat a deixar-se enganyar. El lector ja sap que no llegirà una realitat real, en molts casos ni tan sols serà versemblant però tindrà present que és literatura i que, per tant, no té perquè respondre a criteris de versemblança més enllà dels que es puguin justificar amb la pròpia obra, dels que funcionin en la història que se’ns presenta. Sense ser-ne conscient, el lector ha fet un pacte amb el text abans de començar a llegir-lo."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Havent fet aquest pacte, és el lector qui haurà d’entendre el text i d’identificar les referències intertextuals. Alerta: aquesta era la feina dels autors antics! La desaparició de l’antic model d’autor ha generat, inevitablement, la figura del lector modern com a element substitutori. En certa manera, això farà que els textos es produeixin pensant en el lector però també hem de tenir present que la càrrega de feina que això suposa implica que, aquest, «ya no puede seguir siendo personal». El lector perd la subjectivitat en favor del conjunt de «huellas que constituyen el escrito»."
+        }
+    ]
+}

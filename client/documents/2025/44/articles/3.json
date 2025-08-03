@@ -1,0 +1,45 @@
+{
+    "title" : "De les descripcions a les novel·les",
+    "url" : "de_les_descripcions_a_les_novel_les",
+    "section" : "articles",
+    "issue" : 43,
+    "data" : "25/01/2025",
+    "imageCard" : "alcaraz43-01",
+    "author" : "Francesc Alcaraz",
+    "summary" : "",
+    "text" : [
+        {
+            "type" : "image",
+            "name" : "alcaraz43-01"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontSize\":\"12px\"}",
+            "content" : "A partir de “Per què a les novel·les ja no hi ha descripcions?”, de Jordi Llovet</br><a href='https://llegim.ara.cat/opinio/que-novelles-ja-no-descripcions_0_2583941716.html' target='_blank'>https://llegim.ara.cat/opinio/que-novelles-ja-no-descripcions_0_2583941716.html</a>"   
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Una pràctica que, de tant en tant, configura el meu entreteniment és remenar per pàgines web i anar saltant d’enllaç en enllaç segons m’interessi el tema. Ho faig, sovint, amb la Viquipèdia i amb alguns diaris: en el primer cas, per llegir curiositats i, en el segon... també, fet i fet. Cerco que em descriguin àmpliament els temes que són del meu interès amb una simple pretensió d’entreteniment, de gaudi i d’enriquiment personal. És clar que no és una pràctica difícil: només cal que ens estirem al llit amb el nostre telèfon i esperar que Internet ens faciliti la resta. El 18 de desembre de 2020, Jordi Llovet publicava un breu article al diari Ara en què es qüestionava la desaparició de les descripcions a les novel·les actuals. Llovet marca un recorregut que va de Henry James a Mercè Rodoreda passant per Marcel Proust i, en acabat, assenyala Irene Solà com l’hereva d’aquests models. "
+        },
+        {
+            "type" : "paragraph",
+            "content" : "L’article, malgrat la brevetat, afegeix exemples de descripcions d’alguns dels autors que esmenta, però no hi ha pas res que ens ajudi a resoldre la pregunta que ens planteja al títol: Per què a les novel·les ja no hi ha descripcions? Llovet ens ha assenyalat passatges concrets, descripcions que demostren que, anys enrere —i podem anar ben enrere, no és cosa de modes momentànies—, hi havia descripcions. Trobo a faltar, doncs, exemples —o explicacions, com a mínim— d’obres i autors actuals que, suposadament, ja no fan servir la descripció. Ell ha anomenat “problema” a aquesta manca de descripcions i potser caldria fer-lo evident, visible, si vol remarcar cap diferència estilística."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Potser soc jo, que soc involuntàriament selectiu, però darrerament he tingut a les mans diverses obres que aposten fermament per la descripció. Encara no he llegit la Irene Solà —potser ja va sent hora...—, però he fet un tastet d’en Mark-Uwe Kling, un altre d’en Mircea Cărtărescu... i, si ens quedem en l’àmbit català, ja fa uns anys que m’apassiona na Susanna Rafart: la seva admiració per l’entorn i pel paisatge l’obliguen, en certa manera, a fer-lo protagonista dels seus relats. I, amb ella, encara aniré un poc més enllà: té un recull de poemes anomenat <i>Olis sobre paper</i> (Edicions Tres i Quatre, 1998). Les peces que hi ha no són més que això: pintures, quadres. Alguns autors, doncs, se les empesquen per a continuar elaborant obres amb descripcions potents però també perquè aquestes tinguin un paper destacat, gairebé principal. Esmento <i>Olis sobre paper</i> perquè és un recull de poemes en què hi ha una plasticitat evident. Sembla, a primer cop d’ull, que un poema no hauria de ser el format òptim per a generar-nos imatges completes i, sobretot, concretes, no?"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Això sí, tal com insinua Llovet, els temps han canviat. Però qui sap si no etzibem tantes descripcions perquè els gustos i les modes són diferents i no pas per «l’enorme difusió d’imatges» de la que parla Llovet? No crec que en Quim Monzó necessiti explicar «com són unes copes de cristall, els plats de bona ceràmica o la coberteria» perquè, senzillament, no ens interessa: pararem més atenció en un protagonista que, segurament, no és a casa seva, s’ha enfundat les sabatilles d’anar per casa que ha trobat en arribar de la feina, s’ha entaulat i espera que li serveixin el plat a taula com si fos a cals pares el dia de Nadal. Ostres... i amb quina clau deu haver entrat, si no és a casa seva?"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Les descripcions que, anys enrere, eren una necessitat han quedat, avui, en una marca: una manera de posar un ritme plaent a la lectura. La raó és que és plaent anar construint lentament cada escena! Llovet afirma amb criteri que el bombardeig d’imatges que rebem constantment ens ha ajudat a tenir una fotografia mental de tot, malgrat que no se’ns descrigui amb exhaustivitat. Em passa pel cap un exemple ben senzill: tothom sap com és un elefant, però quants de nosaltres n’hem vist un en persona? Una descripció de com és l’animal, si no és imprescindible per a l’argument (té un ullal trencat, la trompa queixalada...), no ens interessa per a res, perquè estarà repetint la imatge que ens ha vingut al cap quan ens han dit “elefant”."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "La societat a l’edat mitjana era profundament oral i la literatura conté un gran nombre de descripcions i, fins i tot, d’enumeracions. Se’ns descriuen els terrenys, les armadures, els brodats de les robes... Fins i tot, determinats aspectes tenen simbologies concretes i el més petit detall pot fer variar la reacció d’un personatge. Parlo, també, d’enumeracions, perquè això sí que és difícil de trobar, avui dia. Penseu en les extenses llistes de cavallers que trobem a la matèria artúrica. Des d’un punt de vista actual, que se’ns enumeri un munt de cavallers que no formaran part de la trama principal i que, simplement, són allà, ens resulta feixuc i, fins i tot, avorrit. Ara bé, hem de tenir present que les aventures de cada cavaller són conegudes per tothom i que aquesta enumeració és un dels passatges que evoca més èpica al conjunt de l’obra. Ei, i no ens hauria de semblar tan estrany! Què fem, actualment, quan hi ha un partit de futbol i surten els jugadors al camp mentre diuen el seu nom per megafonia? Aplaudim i cridem! Quan sentim el nom d’un jugador ens ve al cap la seva història: aquell gol que donà la victòria a l’equip, la lesió en una semifinal... El comportament dels seguidors no ha canviat tant, no? Si bé és cert, les fites èpiques dels futbolistes no les recordem perquè hi ha algú que les canti rimades a la plaça cada dia de mercat, sinó perquè les tenim a les retines. Així doncs, no em queda més remei que donar la raó a en Jordi Llovet: vivim en la societat de la imatge i això repercuteix directament la literatura. Però potser sí que podríem dir que en Messi és el Perceval del futbol (mai a l’inrevés!), no?"
+        }
+    ]
+}

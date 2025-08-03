@@ -1,0 +1,33 @@
+{
+    "title" : "Malendreç",
+    "url" : "malendrec",
+    "section" : "creacio",
+    "issue" : 23,
+    "data" : "25/03/2023",
+    "imageCard" : "puigdellivol23-01",
+    "author" : "Valentí Puigdellívol",
+    "summary" : "",
+    "text" : [ 
+        {
+            "type" : "image",
+            "name": "puigdellivol23-01"
+        },
+        {
+            "type":"paragraph",
+            "styles": "{\"textAlign\":\"right\"}",
+            "content": "De vegades som pretèrit"
+        },
+        {
+            "type":"paragraph",
+            "content": "El dia s’intueix per les escletxes dels porticons de la finestra i ell continua assegut. Mal corda una bata de franela que un dia, ara ja oblidat, va lligar-se al cos. La cambra és plena de llibres a terra apilats i polsosos, arraconats a banda i banda d’un petit passadís per on arrossega els peus. De vegades recorda encendre el foc per escalfar la sopa de ceba i de vegades recorda tancar la clau del gas. No sempre hi pensa, només de tant en tant."
+        },
+        {
+            "type":"paragraph",
+            "content": "Té els cabells blancs, la cara solcada i la pell tacada amb què en altre temps foren pigues amables. El  poeta encara versa i recita en veu alta Verdaguer i Salvà Ripoll. És tota la nit assegut a taula fent gargots damunt un full, com qui camina sense rumb amb l’esperança de trobar-se. Cerca la tònica, però ensopega amb l’àtona. Sempre és igual, res no canvia. Tot i ser ben a prop del marge no hi toca de peus. S’enfonsa, s’ofega, no hi arriba."
+        },
+        {
+            "type":"paragraph",
+            "content": "Les estovalles brutes i mil cops tacades són plenes de molles. Algun cop les mou amb el dit o fa per espolsar-les sense encert. Erra i no li sap greu. Els ocells vindran convidats a dinar, malgrat que ignora que les finestres són tancades. Al cel no hi ha ningú i l’estrofa és closa. S’aixeca feixuc i de les mans li cau el mot maldestre esberlant el cristall d’una poesia. A terra la paraula esmicolada s’escampa i ell, inert, ja no veu que arreu és ple de bocins sil·làbics."
+        }
+    ]
+}

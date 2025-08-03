@@ -1,0 +1,36 @@
+{
+    "title" : "La cendra d’occident",
+    "url" : "la_cendra_d_occident",
+    "section" : "articles",
+    "issue" : 40,
+    "data" : "20/10/2024",
+    "imageCard" : "puigdellivol40-01",
+    "author" : "Valentí Puigdellívol",
+    "summary" : "",
+    "text" : [ 
+        {
+            "type" : "image",
+            "name": "puigdellivol40-01"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<div style=\"display: flex; justify-content: flex-end;\"><div><div><i>Damunt un cel apedaçat</br>desfem l’amor a l’hora bruna:</br>al capçal del llit ens reflecteix la runa.</i></div><div style=\"text-align:right\">Maria-Mercè Marçal</div></div></div>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "S’acosta la cigarreta als llavis i l’encén. Es deixa caure damunt del llit. Té l’habilitat de sostenir la cendra vertical sense que es desplomi. Impedeix l’hecatombe. Sempre l’ha neguitejat el desordre, el caos i la tendència de tot plegat a degenerar. L’entristeix la imatge d’un jardí o un pati ple de tardor. Les fulles escampades arreu, la casa tancada de temps ençà, les males herbes que broten quan ningú les mira, desendreçades, un gronxador insegur i atrotinat que només balanceja el vent i un porticó despenjat de la finestra de dalt són el present anàrquic d’un passat ple vida. Allà hi havia hagut rialles i xiscles juganers. Pensa en la pedra sobre pedra dels murs de Jericó i en el cul de la seva dona. Es movia rítmic i trèmol damunt d’algú. Això no ho va poder evitar llavors, com tampoc ha pogut evitar la imatge, just ara, que jeu sustentant sobre el pit la seva ruïna."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Sap que no serà aquest el vici que el mati. Ja està prou mort. No s’hi està gaire bé entre runes i cadàvers. Un dia no va poder suportar més la mirada dels perdedors, dels desposseïts i s’anorreà l’ànima ell mateix. És una víctima més. Un ull i un dit que dispara la càmera. Fotografia i filma la fi del món i només una part molt petita i filtrada donarà comptes a l’hora de sopar. Sap, també, que occident escura el plat de sopa davant la pantalla tot esperant els esports. Sovint s’ha trobat pensant com enviar una imatge de la pudor dels cadàvers. Això encara el fa enrere, no s’hi acostuma. La sentor de mort, diu a qui li demana pel pitjor de la seva feina."
+        },
+        {
+            "type" : "paragraph",
+            "content" : " Fa anys que pensa a vendre la casa, però no pot desfer-se’n. Quan està lluny, en algun conflicte armat, pensa a tornar aquí, al lloc on un dia va ser feliç. És l’única raó, es diu.  Creu que si no té història on aferrar-se, no tornarà. Té por. Té por de viure la felicitat i trobar-la allitada al costat d’algú altre. Té por de l’esdevenir, por de renéixer. Hi ha futur, però no és per a ell ni per a les víctimes que ensopega pel camí. Mira els ulls esbatanats dels indefensos. Capta la resignació de qui sap que si no és avui, serà demà."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "La cendra ha pres una corba perillosa. Desplaça la mà que sosté la cigarreta amb compte de no precipitar-la i, quan troba el cendrer, la deixa anar."
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "title" : "Quadern de les cigales (4). Els pusil·lànimes divaguen.",
+    "url" : "quadern-de-les-cigales-4",
+    "section" : "creacio",
+    "issue" : 47,
+    "data" : "24/05/2025",
+    "imageCard" : "andreu47-01",
+    "author" : "Andreu Pérez-Mingorance",
+    "summary" : "",
+    "text" : [ 
+      {
+        "type": "image",
+        "name": "andreu47-01",
+        "content": "<em>Hèrcules i Afrodita dansant</em>, Museus Vaticans."
+      },
+      {
+        "type": "paragraph",
+        "content": "He vist al llarg de tota la meva vida que mai he estat d’influència ni pel parentesc ni per la posició social, que fins i tot les persones que diuen ser les més cultes, les més celebrades al pedestal polític, religiós, cultural i literari de la nostra societat, no saben en realitat gran cosa —de vegades penso que no saben res. Però jo començo i acabo en mi mateix, entre altres coses perquè mai, com a fill de les classes subalternes, no he cregut ni en l’estrella ni en res que s’hi assembli. M’he mogut buscant un lloc, no entre els immortals del pedestal, els de la fragància d’aigua de rosa, ja he tingut prou feina a ser només jo el meu únic semblant."
+      },
+      {
+        "type": "paragraph",
+        "content": "Però ara vull cridar com l’escòria subterrània, ombra i pols de tots el que sense saber res ocupen sempre les tertúlies, les programacions, les opinions, aquells que creuen flotar per sobre d’ells mateixos. Quan floten ocupant tot l’espai, com un peix globus, i fan que les veus de la resta siguin un lleu retorn barbotejant que gairebé no es pot sentir."
+      },
+      {
+        "type": "paragraph",
+        "content": "Els culs febrils s’alcen perennement, eternament, com si fossin remuntats contínuament per una sínia que els estalvia l’esforç. Veus tedioses, que embafen com pomes ensucrades de fira. Sempre amb el cul al millor seient, sempre amb el dit a l’enciclopèdia i a la mà com una última edició del seu saber d’intel·ligència artificial."
+      },
+      {
+        "type": "paragraph",
+        "content": "No vull aixecar una murada entre els homenatges, els centenaris i les revistes de misèria oficial, a les taules rodones sempre s’asseuen els mateixos, però seria inútil. Oh!, si en aquesta bombolla de lletraferits, quasi erudits llatins de segles passats, deixessin alçar una mica el braç marginal, treure el cap de la inquietud dels marges. No es pot contractar els bàrbars en temps de penúries i després aixecar-los un teló metàl·lic quan arribes a les sublims glòries de les poltrones tancades a l’escalfor calenta de la mamella infinita dels poderosos caducs. És la nostra una embarcació petita que si no cerca la pluralitat que creua el peix i l’estrella s’ensorrarà com ocell impossible a l’Hades."
+      },
+      {
+        "type": "paragraph",
+        "content": "A la meva inseguretat, la de tots els que no tenim casa de referència, continuaré a la franja de la ignomínia, on és difícil ser la veu mai escoltada, però una veu que sap que no sap més que els altres, mai no hem tingut una englantina de plata en jocs del maig reverdit, però sabem de la nostra presència de nens envellits en l’espera. Les veus que sempre han dit saber-ho tot no saben gran cosa."
+      },
+      {
+        "type": "paragraph",
+        "styles": "{\"fontSize\":\"0.875rem\"}",
+        "content" : "<div style=\"display: flex; justify-content: flex-end; \"><div><em> Aquest camí tan fi, tan fi,</br>¿qui sap on mena?</br>¿És a la vila o és al pi</br>de la carena?</br>Un lliri blau, color de cel,</br>diu: —Vine, vine—.</br>Però: —No passis! —diu un vel</br>de teranyina.</em></br></br>Cançoneta incerta, El cor quiet (1925),</br>Josep Carner </div></br></div>"
+      }
+    ]
+  }

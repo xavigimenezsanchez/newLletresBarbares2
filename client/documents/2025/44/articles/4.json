@@ -1,0 +1,66 @@
+{
+    "title" : "Distreta",
+    "url" : "distreta",
+    "section" : "articles",
+    "issue" : 43,
+    "data" : "25/01/2025",
+    "imageCard" : "freijomil43-01",
+    "author" : "Sandra Freijomil",
+    "summary" : "",
+    "text" : [
+        {
+            "type" : "image",
+            "name" : "freijomil43-01"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<i>“Había la levísima embriaguez de andar juntos, esa alegría, como cuando se siente la garganta un poco seca y se ve que por admiración se estaba con la boca abierta. Respiraban de antemano el aire que estaba delante y tener esa sed era su propia agua. Andaban por calles y calles hablando y riendo, hablaban y reían para dar materia y peso a la levísima embriaguez que era la alegría de su sed. A causa de los coches y de la gente, a veces se tocaban, y a ese contacto -la sed es la gracia, pero las aguas son de una belleza oscura-, y a ese contacto brillaba el brillo de su agua, la boca un poco más seca de admiración. ¡Cómo admiraban estar juntos!</i>"   
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<i>Hasta que todo se transformó en no. Todo se transformó en no cuando ellos quisieron esa misma alegría suya. Entonces la gran danza de los errores. El ceremonial de las palabras poco acertadas. Él buscaba y no veía, ella no veía que él no había visto, ella que estaba allí, sin embargo. Sin embargo, él, que estaba allí. Todo fue un error, y había la gran polvareda de las calles, y cuanto más se equivocaban, más querían con aspereza, sin una sonrisa. Todo sólo porque habían prestado atención, sólo porque no estaban lo bastante distraídos. Sólo porque, de repente, exigentes y duros, quisieron tener lo que ya tenían. Todo porque habían querido darle un nombre; porque quisieron ser, ellos que eran. Aprendieron entonces que, si no se está distraído, el teléfono no suena, y que es necesario salir de casa para que la carta llegue, y que cuando el teléfono finalmente suena, el desierto de la espera ya ha cortado los hilos. Todo, todo por no estar distraídos.”</i>"   
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"end\"}",
+            "content" : "<strong><i>Por no estar distraídos</i> de Clarice Lispector</strong>"   
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Estimat escriptor,"   
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Em preguntaves ja fa molt de temps què m’havia atrapat d’aquest text. Aleshores no et vaig respondre. Avui, que hi retorno com qui recula camí recollint les molles de pa que ha anat deixant caure mentre caminava, et dic, perquè ho té tot."   
+        },
+        {
+            "type" : "paragraph",
+            "content" : "D’entrada Lispector m’agafa de la mà i em passeja pels llocs comuns fins a dir-me, veus això que has pensat tantes vegades i que menyspreaves perquè ho atribuïes a una mera superstició? Escrit en lletra d’impremta i per una ploma d’alta volada, esdevé cert. Distreure’s. Era això. "   
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Com explico jo, maldestre, el que ella ha sabut transmetre amb tanta precisió. Evoco aquella relació que comença i que no és res, perquè ni tan sols és relació, sinó alguna cosa que papalloneja al ventre. Un tel que emboira la mirada i fa surar la petjada, com si no hi fos tota. Aquell riure inevitable i inesborrable de babaus. La descoberta que neix i creix. L’instant previ abans de definir i anomenar les coses, fins que ens aturem a mirar. I escrutem, analitzem, busquem paraules per definir allò que abans no tenia nom, ni motlle, ni encaix. S’escapa. Capficats com estem a donar forma i paraula, buscant la manera de crear el que ja existia. Haver deixat de distreure’s."   
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Quantes vegades he obert el llibre perquè el temps s’esmunyi i passi el que espero que passi i que no passarà perquè estic massa atenta i pendent que passi. Distreure’s. I ho diu Lispector amb aquesta senzillesa i sense embuts. M’admira això."   
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Em demanaràs, esplaia’t més, com ho diu, què ho fa gros. I no et sabré respondre. Només sé dir-te que hi ha vegades, poques, en què llegeixes una frase, un text, un paràgraf si hi ha sort i ho saps; saps que allò té alguna cosa de perfecta. Abans de voler definir, entendre i explicar el perquè, m’estimo més continuar distreta."   
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"center\"}",
+            "content" : "********************************************"   
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<i>Aquesta carta respon a una carta d’en <strong>Valentí Puigdellívol</strong>, també publicada a “Lletres Bàrbares”, que podeu llegir al següent enllaç:</i>"   
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<a href='https://www.lletresbarbares.cat/creacio/carta-a-una-escriptora' target='_blank'>Carta a una escriptora</a>"   
+        }
+    ]
+}

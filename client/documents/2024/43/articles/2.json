@@ -1,0 +1,36 @@
+{
+    "title" : "A la recerca d'un nom",
+    "url" : "a_la_recerca_d_un_nom",
+    "section" : "articles",
+    "issue" : 42,
+    "data" : "26/12/2024",
+    "imageCard" : "freijomil42-01",
+    "author" : "Sandra Freijomil",
+    "summary" : "",
+    "text" : [ 
+        {
+            "type" : "image",
+            "name": "freijomil42-01"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Clarice Lispector va néixer a Txetxelnik, Ucraïna, l’any 1920. Li van posar el nom de Chaya. Amb poc més d’un any, la Chaya arribava, juntament amb la seva família, al Brasil, fugint dels pogroms que assotaven l’est d’Europa. En desembarcar a Maceió, la família es va canviar els noms per uns de similars que sonessin més brasilers, de manera que la Chaya va esdevenir la Clarice."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Ella sempre deia que era brasilera. De fet, s’havia criat al Brasil, hi havia crescut, era la seva terra d’acollida i l’única de la qual en tenia records. Mentre que els pares i les germanes sí que recordaven el drama viscut a Ucraïna, la Clarice no. No podia recordar res perquè era un nadó quan en va marxar. Sense records no hi ha origen?"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "D’alguna manera l’escriptora es va passar la vida buscant qui era. Qui era aquella Chaya que tot d’una va esdevenir la Clarice i va esborrar la precedent. Desconec si la família en parlava o no, del que havien viscut a Ucraïna, perquè de vegades l’única manera de foragitar el dolor és no mencionant-lo. El mateix va passar aquí amb la Guerra Civil, que la por i el silenci van tintar la vivència d’una boira espessa que encara avui de vegades costa d’esvair. Sembla que les coses no dites no existeixen. I, tanmateix, per a la Clarice, sí que existien."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Ella no parlava gaire dels orígens, de la mort de la mare o de les circumstàncies que l’havien fet néixer i, tot i no esplaiar-s’hi, no aconseguia esborrar, oblidar. A la mare de la Clarice la van violar els soldats a Ucraïna, quan assolaven les regions on hi havia més jueus. Per culpa de la violació va contraure la sífilis. Hi havia aleshores la creença que el naixement d’una criatura podia guarir la malaltia i, per això, els pares van engendrar la Clarice, aliens als riscos que suposava aquell embaràs per la mare i per la nena. El cas és que va néixer la Chaya, sana i forta, però la mare no es va curar mai. Va patir les crisis i la decadència fins que va morir, deu anys més tard, al Brasil, després de suportar els estralls de la llarga malaltia. Aquest fet va sembrar la culpa en la Clarice, perquè ella havia nascut amb una única missió, curar la mare, i no ho havia aconseguit."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Clarice Lispector volia esborrar els seus orígens, canviar-los. En una ocasió va dir: “l’ideal seria tornar al petit poble de Rússia i néixer en unes altres circumstàncies”. Ella hauria volgut ser del tot brasilera, però la delatava l’accent, amb una erra afrancesada i el ceceo que la caracteritzava, i una història familiar que no podia fer desaparèixer. Els pares havien volgut esborrar la Chaya en arribar al Brasil, perquè tots hem volgut alguna vegada fer un punt i a part i eliminar el passat d’una tacada. Però la Chaya va perseguir sempre la Clarice. No podem esborrar els orígens."
+        }
+    ]
+}

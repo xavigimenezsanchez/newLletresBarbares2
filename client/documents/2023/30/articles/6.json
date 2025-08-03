@@ -1,0 +1,81 @@
+{
+    "title" : "Les ciutats invivibles d’Italo Calvino",
+    "url" : "les-ciutats-invivibles-d-italo-calvino",
+    "section" : "articles",
+    "issue" : 29,
+    "data" : "27/10/2023",
+    "imageCard": "torra29-01",
+    "author" : "Pere Torra",
+    "summary" : "",
+    "special": {
+        "name":"Especial Italo Calvino"
+      },
+    "text" : [
+        {
+            "type" : "image",
+            "name": "torra29-01"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Enguany que es commemora el centenari del seu naixement, cal retrobar l’obra reeixida, influent i de remarcable popularitat d’Italo Calvino. Entre nosaltres, tot i que encara hi ha moltes llacunes, cal celebrar que recentment l’omnipresent editorial Comanegra n’ha coberta una amb l’edició de <i>L’últim és el corb</i>. Aquest volum, fins ara inèdit en la nostra llengua, compta amb una traducció de Pau Vidal i s’inscriu en una col·lecció literària de grans autors moderns (Calders, Kafka, Perucho, Poe, Tolstoi, Melville…), amb llibres triats que defugen deliberadament llurs textos més cèlebres. Anem a poc a poc ja que tampoc no s’ha traduït encara al català el recull de rondalles populars que l’escriptor italià va aplegar i adaptar a partir de les diverses varietats lingüístiques originals. Aprofitant el centenari o més endavant, posats a desitjar, ens agradaria que en la nostra cultura hi pogués haver una «Biblioteca Calvino» traduïda al català, com sí que té alguna llengua veïna. També caldria que la gent llegís més Calvino o, simplement, llegís més."
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content" : "Marcovaldo és un antiheroi que aspira a una vida millor només perquè és diferent"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Un dels llibres d’Italo Calvino que es fan estimar d’una manera especial és <i>Marcovaldo ovvero Le stagioni in città (Marcovaldo o les estacions a la ciutat)</i>. Es tracta d’una obra aparentment senzilla, que transmet el seu contingut per mitjà de la ironia i l’humor amb una mirada plena de tendresa. Inclou una vintena de narracions breus protagonitzades sempre per Marcovaldo, un obrer molt pobre que viu a la ciutat –no importa quina– amb la seva dona i mitja dotzena de fills, i treballa en una fàbrica on duu a terme una feina mal retribuïda, repetitiva, alienant. Cada narració correspon a una estació successiva, però encara que el pas del temps canvia periòdicament alguns aspectes del medi urbà, no en millora la vida dels que hi habiten. Aclaparat pels deutes, la grisor de la ciutat, la família abundosa, la misèria implacable…, Marcovaldo és un antiheroi que, amb el seu optimisme insistent i la seva radical manca de malícia, esdevé simpàtic, malgrat els seus fracassos (o potser més aviat, gràcies al seus fracassos, sovint còmics i a vegades també grotescos). Ell aspira a una vida millor i diferent, és a dir, millor només perquè és diferent –com li passa amb l’intercanvi de la seva avorrida salsitxa per un cervellet arrebossat que veu menjar a un infant."
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content" : "Pin, Marcovaldo o els protagonistes d’<i>Els nostres avantpassats</i> no encaixen en la societat del seu temps"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "En definitiva, Marcovaldo és un inadaptat, algú que no s’ajusta al món on li ha tocat viure i que lluita com pot per transformar-lo –però no se’n surt gaire. De fet, aquest tipus de personatges són molt habituals en les obres de Calvino, siguin o no adscrites a la narrativa fantàstica que caracteritza diversos llibres de l’escriptor. Justament, Pin, el protagonista de la seva primera novel·la, <i>Il sentiero dei nidi di ragno</i> –no traduïda tampoc a la nostra llengua–, és un infant que, trobant-se lluny dels de la seva edat, intenta ser acceptat en el difícil món dels adults en l’època de l’ocupació alemanya i el final de la guerra. En el personatge de Marcovaldo hi ha certa part de la ingenuïtat infantívola de Pin. Tampoc cap dels protagonistes de la magnífica trilogia, <i>Els nostres avantpassats (I nostri antenati)</i>, no encaixa en la societat del seu temps. Les accions que emprenen i les experiències que viuen resulten extraordinàries i inversemblants en tant que manifesten i porten al límit la seva especificitat, la seva diferència, ja sigui amb una mena d’identitat bipolar extrema (<i>El vescomte migpartit</i>), o enfilant-se i vivint dalt dels arbres (<i>El baró rampant</i>) o bé, fins i tot, sense comptar amb una existència real (<i>El cavaller inexistent</i>). Referint-se a Cosimo Piovasco, el baró rampant, Cesare Cases va manllevar a Nietzsche el terme de “<i>pathos della distanza</i>”, i constatava, en l’obra de Calvino, una “tensione tra le solitudine nella distanza e la comunità necessaria, ma disgustosamente vicina e infida”. Ara bé, el concepte només es pot prendre –i així ho fa Cases– en el sentit del distanciament i la inadaptació dels personatges, que no pas de cap superioritat nietzscheana, cosa que no podríem predicar del pobre Pin ni de Marcovaldo ni de molts d’altres."
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content" : "Ardolino proposa una aproximació als textos calvinians que en potenciï una lectura íntegra i coherent"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "La recent publicació del recull esmentat, <i>L’últim és el corb</i>, inclou un epíleg molt revelador, a càrrec de Francesco Ardolino, titulat significativament “Desig d’unitat”. El crític desestima la classificació tradicional amb la qual s’acostuma a encasellar les obres de Calvino en etapes successives, més o menys estanques: neorealisme; fabulació o narrativa fantàstica; experimentació (<i>ars combinatoria</i>, en diu Ardolino); i postmodernisme. Per això, proposa una altra aproximació al conjunt dels textos calvinians, que en potenciï una lectura més íntegra i coherent. Les relacions entre els diversos llibres de l’autor italià que hem anat exposant aquí també abonen el rebuig a una rígida categorització, que el crític esmentat troba “un camí interpretatiu feixuc” propi de manual escolar. Al capdavall, a les <i>Lliçons americanes</i>, Calvino mateix ja ens advertia que «en tot cas, les “realitats” i les “fantasies” només poden prendre forma a través de l’escriptura, en la qual exterioritat i interioritat, món i jo, experiència i fantasia apareixen compostes de la mateixa matèria verbal»."
+        },
+        {
+            "type" : "image",
+            "name": "torra29-02"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content" : "Marcovaldo no és ni Càndid ni un reformador social, però la seva voluntat de canvi ens interpel·la"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Tornant a <i>Marcovaldo</i>, per millorar la seva situació, les iniciatives que es proposa el protagonista li surten gairebé sempre malament: els bolets urbans que troba resulten tòxics; el banc per dormir plàcidament sota els estels està voltat d'inconvenients; l’intent de capturar saborosos ocells només atrapa i envesca sobretot la roba dels veïns; un esternut gegantí genera un corrent d’aire que esbandeix l’idíl·lic paisatge nevat; la cura de les vespes porta tothom a l’hospital; el bany de sorra terapèutic esdevé un naufragi estrepitós… No calen més exemples perquè, a més, això desvela massa els finals de cada història. També hi ha alguna excepció, en clau d’humor, com ara el cas dels cartells publicitaris que els fills del protagonista confonen amb arbres però que cremen molt bé i allunyen una mica el fred de l’hivern, o el vigilant nocturn que també confon el personatge amb part de l’anunci, de manera que aquest es lliura de retret. De seguida, per la seva ingenuïtat, Marcovaldo ha estat comparat amb Càndid, però no és ben bé això. El personatge de Voltaire viatja pel món amb la convicció que els humans ens trobem en el millor dels mons possibles, encara que la realitat li ho desmenteixi tossudament. Marcovaldo, en canvi, fa un recorregut invers: constata que la seva situació no és la ideal i aspira a millorar-la. A la pràctica, però, tots dos acaben confluint, ja que Marcovaldo no aconsegueix canviar gaire res –més aviat al contrari– i Càndid topa amb la duresa i imperfecció del nostre món. Tots dos ens empenyen a una visió crítica de la societat i de la manera com la construeixen els humans. Al capdavall, la candidesa de Marcovaldo no és tal; ben al contrari, és una reivindicació de les coses naturals i senzilles enfront de la grisor, la mediocritat i la deshumanització de la vida urbana. Per això la trobada casual d’uns bolets en un parterre de la ciutat és descrita hiperbòlicament: «A Marcovaldo li va semblar com si el món gris i miserable que l’envoltava esdevingués de sobte generós de riqueses amagades i que, de la vida, encara se’n podia esperar alguna cosa». Marcovaldo no és, doncs, ni Càndid ni un reformador social, però la seva voluntat de canvi, per ingènua o poca-solta que pugui semblar, ens interpel·la."
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content" : "Les ciutats invisibles que descriu Calvino no són pas tan fantasioses i inversemblants, respecte a les existents o visibles"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "De fet, també cal connectar aquest llibre amb Les ciutats invisibles, una obra aparentment molt diferent, però que, en tot cas, posa de manifest la reflexió sobre aquesta dèria dels humans de viure en concentracions urbanes. Les ciutats invisibles que descriu Calvino poden semblar fantasioses i inversemblants, però, si les comparem amb les existents o visibles, no ho són pas tant. En tot cas, si hi pensem bé, no ho són pas més. La gràcia de <i>Marcovaldo i les estacions a la ciutat</i> és que ens en fa adonar. Per exemple, fa conscient el protagonista que no té cap sentit viure en un lloc on la seva família es pela de fred, mentre que en el llibre de contes de fades que llegeix el petit Michelino, es parla d’un nen, fill del llenyataire, que va al bosc amb una destraleta a fer llenya. L’autosuficiència del petit bosquerol contrasta amb la vida miserable dels habitants de la ciutat, sotmesos a una rígida dependència externa."
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content" : "Calvino inverteix radicalment els valors usuals"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "En l’obra de Calvino el gust per la paradoxa fa que arribi un punt que la negació o la invisibilitat esdevingui una virtut. Per això s’afirma que Marcovaldo és feliç quan, en sortir un dia del cinema, «la boira, tot esborrant el món del seu voltant, li permetia de conservar en els seus ulls les visions de la pantalla panoràmica». La millor ciutat és la que no existeix o, si més no, no s’arriba a percebre. També Agilulfo, protagonista d’<i>El cavaller inexistent</i>, és un perfecte cavaller, un guerrer de gran noblesa i voluntat, el més impecable de l’exèrcit de Carlemany. I, literàriament, és potser el millor dels tres protagonistes de la trilogia esmentada, malgrat la seva inexistència. Calvino inverteix radicalment els valors usuals. Per això, els anhels de Marcovaldo només troben satisfacció per mitjà del somni i, a casa seva, per exemple, cadascú somnia segons la seva conveniència: «Aquella nit Marcovaldo va somiar el terrat escampat de becadells envescats, tot sobresaltats. La seva dona Domitilla, més voraç i cançonera, va somiar ànecs ja rostits i posats sobre la cornisa. La filla Isolina, romàntica, somiava colibrís per adornar-se el barret. Michelino va somiar que trobava una cigonya». Que difícil que és viure a la ciutat! O el que és el mateix: que difícil és viure! Per desgràcia, al segle XXI no estem gaire millor que a mitjans del XX i avui una ciutat com Barcelona n’és un exemple ben clar. La cosa és pitjor del que suposava Calvino perquè hem passat de les ciutats invisibles a les ciutats invivibles. I ja se sap que qui diu ciutat vol dir el món sencer."
+        }
+    ]
+}

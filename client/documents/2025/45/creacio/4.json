@@ -1,0 +1,48 @@
+{
+    "title" : "Naufragi",
+    "url" : "naufragi",
+    "section" : "creacio",
+    "issue" : 44,
+    "data" : "22/02/2025",
+    "imageCard" : "puigdellivol44-01",
+    "author" : "Valentí Puigdellívol",
+    "summary" : "",
+    "text" : [ 
+        {
+            "type" : "image",
+            "name": "puigdellivol44-01"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<div style=\"display: flex; justify-content: flex-end; text-align: end;\"></br><div></br><i>Soc una esgarrinxada</br>al genoll de la infància.</br>Es curarà aviat.</i></br>Vera Pàvlova</div></br></div>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Tot en ella va ser naufragi. Va ser enfonsament. Primer no, primer, torta infància; però, a mesura que passaven els dies, els anys, va anar escorant fins que un dia arribà previsible el sotsobre. Ella i tot en ella va ser naufragi. Així que ara, engolida pels dies, perquè la vida només són els dies, no puc més que recordar-la, malgrat que pensar-la fa mal. Els records no són gratuïts; mai ho són."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Ara plou i la pluja fa inevitable el viatge. Em faig amb un bitllet que no desitjo i em preparo a prendre el tren de la memòria. Viatjo enrere. Vaig encara més lluny. Vaig a un món contat pels testimonis que el van viure. Com jo, que vaig viure-ho, però que amb anterioritat no recordo més que allò que em van contar. No soc altra cosa que les orelles d’algunes versions orals, escoltador de joglars i de contistes. Tot en ella va ser naufragi, canta el poeta amb desesper. Canta <i>una cançó desesperada</i>."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Ell naufragà abans. Va ofegar els seus somnis. Totes les esperances que havia dipositat en si mateix van quedar a la deriva, errants, perdudes; van quedar extraviades. Molt bé hauria pogut parafrasejar a Pessoa. Hauria pogut dir que va assistir, desconegut, al defalliment gradual de la seva vida, al sotsobrar lent de tot allò que havia volgut ser. Podia haver-ho dit, en realitat, podia haver-se queixat, perquè així va ser; però mai s’ho va sentir dir de la seva boca. En canvi, no calien càbales, se li endevinava, se li veia amb extrema facilitat. I va arribar un moment en què ell, en saber-se extraviat i del tot perdut, va deixar de vogar. Llavors aquell dia, previsible, també naufragà."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Ella i ell, els dos, van deixar de surar a destemps. Primer l’un i després l’altre. Tampoc ho van fer a les mateixes aigües. Potser l’imaginari d’algú va construir aquesta falsa idea d’unió, però només és un miratge i falta a la veritat. No va ser així. Va haver-hi un temps que van navegar abarloats, en conserva, com si ambdós fossin part d’un mateix comboi, però la crua realitat només fa esment del desamor i de la incompatibilitat. La veritat, aquesta veritat grega que estic disposat a explicar dicta el desentès, la trifurca quotidiana, la irracionalitat. Com si, en aquesta contínua il·lògica, la mateixa incongruència, portés a creure que el joc absurd de viure provoqués el naufragi de l’un primer i de l’altre després. Així ho crec, així ho he viscut per boca d’altres i per a condemna meva."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "No estic segur d’anomenar egoisme al motiu pel qual es pren allò que es vol sense pensar en les conseqüències pels altres. Pensar en un mateix i només en un mateix. Estic convençut que existeix un desviament primer, una acció primària conduïda únicament per l’egoisme que com una bola de neu engrandirà els esdeveniments futurs, rodarà imparable fora de control. És com si aquest acte primigeni obligués a prendre camins desviats i que després, les rodes quedessin enfonsades en mig del fang. Enclavament, descontrol o enfonsament, tant és la metàfora. La qüestió és la impossibilitat de continuar amb els propòsits vitals, amb la vida mateixa."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "De tant en tant algú, no importa qui, m’ha volgut convèncer de què tot ha estat fruit de la ignorància, de la manca de sentit crític, d’un excés de prejudicis, de la pèrdua de l’experiència. Aquest intent ha resultat infructuós, perquè si bé és cert que qui no sap obra cegament, no és menys veritat que hi ha gent que ha sabut construir un món no autodestructiu o bé ha sabut esquivar el fangar, la bola de neu o el mateix naufragi. El mal existeix d’igual manera i moltes vegades és exercit per la mateixa idiotesa, sense consciència precisa del fet. És la banalitat de Hannah Arendt. Tot té un origen i un motiu de ser. Els van negar el festeig i un dia d’amagat van fugir. Tota l’escena ens remet a Shakespeare. I..., van marxar d’amagat un parell de dies i just en tornar i a punta de canó van haver de passar per la vicaria."
+        },
+        {
+            "type" : "paragraph",
+            "content" : " I és aquí, just en aquest moment, quan tot pren un camí equivocat. D’alguna manera els fets són forçats i en aquest sentit es podria pensar en contraris o contrariats. No sé si els esposats tenen tota la culpa, si els seus predecessors, si la societat, tota, també forma part de les circumstàncies que donen peu a la immobilització al fangar, a la bola de neu o al naufragi. Així que si de segur la culpa no és ben bé seva exclusivament, sí que acaparen la major part i per aquest motiu dono com a punt de partida d’aquesta història aquest moment just. La utilització de la força o l’engany predetermina sempre l’instant inicial, el començament maldestre. És la gènesi d’aquesta història extraviada, d’aquest naufragi que ara vull explicar."
+        }
+    ]
+}

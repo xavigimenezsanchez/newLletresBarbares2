@@ -1,0 +1,45 @@
+{
+    "title" : "Autenticitat i frau: un traç entre línies",
+    "url" : "autenticitat-i-frau-un-trac-entre-linies",
+    "section" : "articles",
+    "issue" : 30,
+    "data" : "30/11/2023",
+    "imageCard": "andreu30-01-01",
+    "author" : "Andreu Pérez-Mingorance",
+    "summary" : "",
+    "text" : [
+        {
+            "type" : "image",
+            "name": "andreu30-01-01",
+            "content": "Bruce Weber. L’home com a objecte de consum"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "En el seu diàleg <i>La República</i> Plató va traçar els fonaments d'una societat ideal i va excloure els poetes i els autors de teatre per considerar-los perillosos per als ciutadans. Va justificar la seva decisió basant-se en la seva excessiva independència, la seva capacitat per manipular imatges, la seva crítica irresponsable i la seva tendència a la corrupció. Aquesta censura extrema podria aplicar-se a tots els escriptors, la literatura en general i a tots els <i>artistes</i> que creen realitats il·lusòries i manipulen imatges per interposar les seves <i>creacions</i> entre el real i la societat."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "No obstant això, Plató més endavant va esmenar la seva postura i va admetre que, tot i que la majoria dels artistes desvien la societat de la idea del bé, alguns estan inspirats per una “divina bogeria” i generen un art acceptable. Aquesta distinció entre un art autèntic i un que no ho és ha perdurat al llarg dels segles i continua sent rellevant a la cultura contemporània."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Avui en dia, el debat sobre l'autenticitat a la cultura catalana cobra rellevància en un context on la recerca del lucre i la producció literària han començat a eclipsar la qualitat literària i artística. S'ha produït un creixement exponencial en la producció d'obres literàries i artístiques, però aquesta proliferació no necessàriament es tradueix en una millora de la qualitat. En canvi, s'ha tornat comuna l'explotació de la creativitat i la cultura amb la finalitat de generar guanys."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Un exemple concret d'aquest problema es va donar a Espanya fa alguns anys, quan una presentadora de televisió, periodista, va signar un llibre amb una editorial espanyola que reparteix premis milionaris i llança best-sellers. No obstant això, es va descobrir que el llibre contenia paràgrafs sencers plagiats d'una altra autora estrangera de best-sellers i que <i>l'autora</i> ni tan sols havia escrit el llibre, ja que comptava amb un <i>negre</i> literari. Tot i aquest escàndol, els mitjans de comunicació van iniciar una campanya de restauració de la imatge de <i>l'autora</i>, minimitzant la gravetat del frau i suggerint que es tractava d'un error de l'escriptor fantasma."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Aquest cas il·lustra la manca d'integritat en la indústria cultural, on la recerca de la fama i els guanys sovint supera la recerca de l'autenticitat i la qualitat literària. La cultura catalana, igual que altres cultures, es troba atrapada en una dinàmica en què la producció massiva d'obres es valora més que la seva autenticitat i qualitat. Els escriptors i artistes es veuen pressionats per produir contingut a gran velocitat, sovint a costa de l'originalitat i la profunditat."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "El problema no es limita a la producció literària, sinó que també afecta altres camps culturals, com la música, el cinema i les arts visuals. Els mitjans de comunicació, els artistes i els polítics sovint tenen la tendència de deformar o falsejar dades, suplantar qualitats i actituds per presentar-los com a <i>autèntics</i>, amb la finalitat d'explotar el sentit manipulat de la vida humana. La cultura es converteix en un producte enllaunat que reclama carn fresca, i l'autenticitat es converteix en una víctima col·lateral en el procés."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "En conclusió, la cultura catalana, igual que moltes altres cultures, s'enfronta al repte de mantenir l'autenticitat i la qualitat literària i artística en un entorn impulsat per la recerca del lucre i la producció massiva de contingut. És essencial que els escriptors, els artistes i la societat en el seu conjunt reflexionin sobre la importància de preservar la integritat cultural i no cedir davant la temptació del frau i la falsedat. L'autenticitat és un valor que ha de ser defensat en la cultura, perquè no es converteixi en una víctima de la recerca desmesurada de guanys i la manipulació mediàtica."
+        }
+    ]
+}

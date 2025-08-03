@@ -1,0 +1,36 @@
+{
+    "title" : "Entre la glòria i l’infern",
+    "url" : "entre-la-gloria-i-l-infern",
+    "section" : "llibres",
+    "issue" : 26,
+    "imageCard" : "salom26-02",
+    "data" : "30/06/2023",
+    "author" : "Jeroni Salom",
+    "summary" : "",
+    "text" : [ 
+        {
+            "type" : "image",
+            "name" : "salom26-02"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Pere Joan Martorell. <i>L’art o la vida.</i> Lleonard Muntaner Editor (Aliorna, 61). Palma, 2022.</br></br>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Si es té una mica d’interès per aquests afers, sense descartar algunes dosis de morbositat i xafarderia, es pot constatar que rere els grans noms de les històries de les arts, siguin les que siguin, al costat del triomf, de la fama, dels aplaudiments, dels diners, hi ha una altra cara, més obscura i perversa, de derrotes, misèries, truculències, abjeccions. Fent-ne una encertada síntesi, amb exemples concrets i de renom, Pere Joan Martorell, encastant-los en forma de narracions, onze, n’ha destriat la sortida moral més, en principi, previsible: l’art o la vida."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "No s’explicitaran aquí els noms dels onze artistes protagonistes de les narracions, rumiam que mantenir el secret pot ésser un bon esquer per al possible lector. Lector que, ingenu com un servidor, els primer que es pot demanar és si, atès que es tracta de persones reals, tot allò que se’ns refereix a les narracions són fets, situacions, vivències certes, reals, o bé si Pere Joan Martorell les barreja amb d’altres de ficció. El mateix lector ingenu, com no podia ser altrament, es planteja alhora si és legítim «alterar» dades, accions, que es poden certificar com a verídiques amb d’altres que no ho són. En tot cas, el dilema, d’entrada, es pot resoldre sense gaires dubtes: tractant-se de literatura hem d’optar per llegir <i>L’art o la vida</i> com una obra de ficció. Fins i tot es diria que, marginant tot allò que pugui ser considerat verídic, es pot gaudir més encara de l’odissea d’unes vides àuries per fora, però tanmateix corcades per les desgràcies i impostures perquè pot entropessar qualsevol fill de veí, el qual no serà objecte d’estudi ni de veneració ni de les acadèmies ni del públic en general."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "En una de les narracions el protagonista escriptor exposa una mena de poètica sobre la seva manera d’enfocar la seva narrativa; observa que «em preocupa més, a l’hora d’escriure, l’atmosfera i la intensitat que no pas la relació dels esdeveniments o l’amenitat de les anècdotes.» Aquestes paraules ens esbossen ni més ni pus que la fórmula narrativa mateixa de Pere Joan Martorell. De cada protagonista, material del tot necessari per retratar-lo, se’ns ofereixen retalls biogràfics, de diversa vàlua o interès per al desenllaç final de la història, molts dels quals freguen, diguem-ho així, la normalitat, en el sentit que poden atribuir-se ben bé a gent que es dedica a altres oficis o professions. El punt de divergència és justament aquest, el càstig, la maledicció, l’angoixa d’haver-se dedicat a l’art. Per a això, han renegat de la vida, han fet patir gent propera i estimada, han profanat les regles bàsiques del decòrum social i ho han apostat tot, la salut, l’estabilitat psíquica, la sociabilitat, per la dèria endimoniada de manejar les paraules o els pinzells."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "És raonable dilucidar si, després de llegir <i>L’art o la vida</i>, per ser artista s’ha de ser una persona anòmala, diferent, de la resta d’habitants de la tribu."
+        }
+    ]
+}

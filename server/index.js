@@ -1,0 +1,93 @@
+const express = require('express');
+const mongoose = require('mongoose');
+const cors = require('cors');
+const helmet = require('helmet');
+const compression = require('compression');
+const rateLimit = require('express-rate-limit');
+const path = require('path');
+require('dotenv').config();
+
+const app = express();
+const PORT = process.env.PORT || 5000;
+
+// Middleware de seguridad y optimización
+app.use(helmet());
+app.use(compression());
+app.use(cors({
+  origin: process.env.NODE_ENV === 'production' 
+    ? ['https://your-app-name.herokuapp.com'] 
+    : ['http://localhost:3000', 'http://localhost:5173']
+}));
+
+// Rate limiting
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutos
+  max: 100 // máximo 100 requests por ventana
+});
+app.use('/api/', limiter);
+
+// Parse JSON bodies
+app.use(express.json({ limit: '10mb' }));
+app.use(express.urlencoded({ extended: true }));
+
+// Conectar a MongoDB Atlas
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/lletres-barbares', {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+})
+.then(() => console.log('✅ Conectado a MongoDB Atlas'))
+.catch(err => console.error('❌ Error conectando a MongoDB:', err));
+
+// Importar rutas de la API
+const articlesRoutes = require('./routes/articles');
+const issuesRoutes = require('./routes/issues');
+const searchRoutes = require('./routes/search');
+const debugRoutes = require('./routes/debug');
+
+// Rutas de la API
+app.use('/api/articles', articlesRoutes);
+app.use('/api/issues', issuesRoutes);
+app.use('/api/search', searchRoutes);
+app.use('/api/debug', debugRoutes);
+
+// Health check endpoint
+app.get('/api/health', (req, res) => {
+  res.json({ 
+    status: 'OK', 
+    timestamp: new Date().toISOString(),
+    environment: process.env.NODE_ENV || 'development'
+  });
+});
+
+// En producción, servir archivos estáticos del frontend
+if (process.env.NODE_ENV === 'production') {
+  // Servir archivos estáticos del build de React
+  app.use(express.static(path.join(__dirname, '../client/dist')));
+  
+  // Para cualquier ruta que no sea /api, servir el index.html de React
+  app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '../client/dist/index.html'));
+  });
+}
+
+// Middleware de manejo de errores
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).json({ 
+    error: 'Algo salió mal!',
+    message: process.env.NODE_ENV === 'development' ? err.message : 'Error interno del servidor'
+  });
+});
+
+// Middleware para rutas no encontradas
+app.use('*', (req, res) => {
+  res.status(404).json({ error: 'Ruta no encontrada' });
+});
+
+app.listen(PORT, () => {
+  console.log(`🚀 Servidor ejecutándose en puerto ${PORT}`);
+  console.log(`📚 API disponible en http://localhost:${PORT}/api`);
+  if (process.env.NODE_ENV === 'production') {
+    console.log(`🌐 Frontend servido desde /client/dist`);
+  }
+}); 

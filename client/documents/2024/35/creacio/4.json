@@ -1,0 +1,24 @@
+{
+    "title" : "Herbes no es fan males en mon ribatge.  Diari d’un nòmada sidós (14) Granada",
+    "url" : "diari-d-un-nomada-sidos-14",
+    "section" : "creacio",
+    "issue" : 34,
+    "data" : "20/04/2024",
+    "imageCard" : "andreu34-01",
+    "author" : "Andreu Pérez-Mingorance",
+    "summary" : "",
+    "text" : [ 
+        {
+            "type" : "image",
+            "name": "andreu34-01"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Pedra llepada per l'eternitat. Tossal de quietud, on l'herba i les ortigues s'estimen al clam dels aduladors de la vida, mentida d'esclaus que regira la boca amb un munt de paraules brutes. No he fet cap pregària, perdut en les súpliques de cada hora, teixint coixins amb fil de les aranyes, m'he perdut a les fronteres i a les muralles. Ara Caeli sota la capa de la blanca magnòlia perfumada. Mai no he anat a <i>San José</i>, mai no he deambulat pels Jardins de <i>Los Alixares</i>, mai no he vist la bassa d'aigua cristal·lina on reposa l'ànima de Granada, oferint-se a les cendres que han deixat les margarides contra la teva sepultura eterna."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<div style=\"display: flex; justify-content: flex-end\"></br><div style=\"text-align: right;\">“Plou el pes de l’arítmia en un punt i seguit que no pot fer res més que continuar.”</br> Òrbita,<i>Tractatus de la mort de la poesia catalana</i>, Jordi Valls</div></br></div>"
+        }
+    ]
+}

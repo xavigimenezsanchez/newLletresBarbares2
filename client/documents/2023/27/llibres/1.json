@@ -1,0 +1,40 @@
+{
+    "title" : "Déu entre lletres",
+    "url" : "deu-entre-lletres",
+    "section" : "llibres",
+    "issue" : 26,
+    "imageCard" : "salom26-01",
+    "data" : "30/06/2023",
+    "author" : "Jeroni Salom",
+    "summary" : "",
+    "text" : [ 
+        {
+            "type" : "image",
+            "name" : "salom26-01"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Sampol, Gabriel de la S. T. <i>Literatura i Cristianisme.</i> Palma: Lleonard Muntaner Editor (TornaVeu, 5), 2023.</br></br>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Les concepcions més rigoroses i ascètiques de la literatura ens ensenyen que aquesta és, abans que res, un exercici formal (potser més exemplificat acadèmicament en la poesia), despullat de qualsevol altre afegit secundari  (valors morals, ideològics, religiosos...). Tanmateix, els lectors, ingenus i passionals, solem tendir a perdre’ns dins els boscos atapeïts i recòndits de les formalitzacions i ens deixem endur pel sentit literal de les lletres, pel missatge, pel fons, pels continguts, que, de manera presumpta, desxifram en les obres literàries.  No devem anar gaire errats si un lector i autor tan rigorós i tan savi de les formes com Gabriel Ferrater va dir que les qüestions de forma només interessen les senyoretes desocupades."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Ens atreviríem a suggerir que Gabriel de la S. T. Sampol a <i>Literatura i Cristianisme</i> encara un encomiable exercici de desformalització, si en podem dir així, tot i que, com no podia ser d’altra manera, insereix adesiara perspicaces acotacions d’anàlisi formal que revelen l’experimentat lector que és, i ens guia per una molt detallada, atesa la brevetat del conjunt, il·lustre travessia literària en què el cristianisme, un dels fonaments de la cultura occidental, per bé que la maror secularitzadora contemporània ho vulgui ignorar i, a voltes, fins i tot, menysprear, discorre paral·lel a la seva materialització literària. A part del que, de forma explícita, s’hi diu, per a lectors més curiosos, el llibre de Gabriel de la S. T. Sampol incita a plantejar-se interrogants propers, com pot ser ara la relació que hi pugui haver, en general, entre literatura i religiositat; el filòsof hispanobritànic George Santayana veia en la poesia i la religió dues germanes inseparables; o que en l’obra d’un descregut com André Gide el cristianisme en sigui un component essencial.  I aquí ho deixam."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Gabriel de la S. T. Sampol enfoca l’atenció en cinc grans, i, sobretot, en els tres gèneres literaris diguem-ne canònics, eixos temàtics: la recerca de Déu, la Bíblia (tota una literatura per ella mateixa, per paga) la figura de Crist, la figura de Maria i dels sants i els Novíssims, concepte aquest estrany als llecs en la matèria, com un servidor, i que fa referència als estats finals dels humans en acabar la vida: la Mort, el Judici Final, l’Infern i la Glòria. Hi tenen  cabuda  les diferents tradicions literàries europees, amb atenció preferent a la literatura catalana, amb aturades clarividents en la variant mallorquina, castellana i portuguesa. Són esmentades unes 250 obres que han estat llegides, i sense cap dubte, rellegides per l’autor; quan és necessari, a més, no defuig l’exposició dels gustos personals; es lamenta, posem per cas, que el Paradís o el Purgatori de la <i>Comèdia</i> de Dante Alighieri no tenguin la mateixa valoració que l’Infern."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Entre d’altres, una de les virtuts del llibre és que s’allunya de l’especialització i l’academicisme primfilat, tot i que ensopegam postil·les de fina erudició teològica; així és quan matisa que els Llimbs no han estat dogma de fe o que el <i>Via Crucis</i> de Llorenç Moyà no acaba amb l’enterrament de Crist, sinó amb dos sonets que n’exalten la Glòria."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "De ser Déu, un estaria d’allò més content i agraït de tenir un profeta a la terra tan assenyat com Gabriel de la S. T. Sampol per desentranyar-ne la presència esplendorosa en les lletres occidentals."
+        }
+    ]
+}

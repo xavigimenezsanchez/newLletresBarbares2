@@ -1,0 +1,115 @@
+{
+  "title" : "Traduccions de poetes catalans (1)",
+  "url" : "traduccions-de-poetes-catalans-1",
+  "section" : "creacio",
+  "issue" : 15,
+  "data" : "24/04/2022",
+  "imageCard" : "barcelo15-01",
+  "author" : "Joan Josep Barceló",
+  "summary" : "",
+  "text" : [ 
+      {
+          "type": "title",
+          "content": "Andreu Vidal"
+      },
+      {
+          "type" : "image",
+          "name" : "barcelo15-02"
+      }, 
+      {
+          "type" : "paragraph",
+          "content" : "<i>ILLES INGRÀVIDES<br><br>La nit és plena d’ulls,<br>de nervis gèlids.<br><br>Ulls incandescents, de crepusculars inhòspits dies.<br>Oratges mil·limetrats d’espurnes, mortes, blaves.<br><br>Ara, dins la llum tènue, llargues agulles finíssimes<br>em travessen el crani.<br><br>I mor, entre les músties flors fumoses<br>de qualsevol estiu, <br>                             qualsevol.<br></i>"
+      },
+      {
+          "type":"paragraph",
+          "content": "ISOLE SENZA PESO<br><br>La notte è piena di occhi,<br>di nervi ghiacciati.<br><br>Occhi incandescenti, di crepuscolari giorni scontrosi.<br>Brezze millimetrate di scintille, morte, blu.<br><br>Ora, nella penombra, aghi lunghi e finissimi<br>mi attraversano il cranio.<br><br>E muore, tra i ammuffiti fiori fumosi<br>di qualsiasi estate<br>                              qualsiasi.<br>"
+      },
+      {
+        "type": "title",
+        "content": "Àngel Carbonell"
+    },
+    {
+        "type" : "image",
+        "name" : "barcelo15-03"
+    }, 
+    {
+        "type" : "paragraph",
+        "content" : "<i>ENTRE CEL I TERRA<br> <br>Entre cel i terra, als arbres,<br>tan animals com els altres,<br>vivíem a casa nostra.<br> <br>Perduda, l’hem canviada,<br>prô n’hem exclòs tots els altres<br>per poder-ne viure en pau,<br>sense pau i molt més pobres,<br>hi veiem clar o no, més sols.<br> <br>Extraviats i espantats,<br>la selva clara temem<br>més que el nostre laberint.<br> <br>Empaitem la llum, oh sí,<br>i vivim enlluernats<br>pel miralleig en la fosca.<br> <br>No veiem que hem de tornar<br>a casa, entre cel i terra.</i><br>"
+    },
+    {
+        "type":"paragraph",
+        "content": "TRA CIELO E TERRA<br> <br>Tra cielo e terra, gli alberi,<br>così animali come gli altri,<br>vivevamo a casa nostra.<br> <br>Persa, l'abbiamo cambiata,<br>ma abbiamo escluso tutti gli altri<br>per poter vivere in pace,<br>senza pace e molto più poveri,<br>lo vediamo chiaramente o no, più soli.<br> <br>Persi e spaventati,<br>la giungla chiara temiamo<br>più del nostro labirinto.<br> <br>Accendiamo la luce, oh si,<br>e viviamo abbagliati<br>attrarverso lo specchio nel buio.<br> <br>Non vediamo che dobbiamo ritornare <br>a casa, tra cielo e terra.<br>"
+    },
+    {
+        "type": "paragraph",
+        "styles": "{\"textAlign\":\"center\"}",
+        "content": "****************"
+      },
+      {
+        "type" : "paragraph",
+        "content" : "<i>Sóc la llimona verda que els corcs han malmenat,<br>jo mateix m’he lliurat als cucs i a les formigues,<br>com a mènada en èxtasi em devoren el seny<br>i el fàstic d’una vida m’ha devorat la rauxa,<br>sóc principi i final d’un petit univers,<br>sóc com un forat negre consumit pel seu món.<br>Potser hauria estat bé no ser ni concebut,<br>dissolt ja en el no res, ben a gust de no ser<br>com un déu inmortal de vida passatgera.<br></i>"
+    },
+    {
+        "type":"paragraph",
+        "content": "Sono il limone verde che i tarli hanno danneggiato,<br>io stesso mi sono dato ai vermi e alle formiche,<br>come menade nell'estasi mi divorano il senno<br>e lo schifo di una vita mi ha divorato lo scatto,<br>sono l'inizio e la fine di un piccolo universo,<br>sono come un buco nero consumato dal suo mondo.<br>Forse sarebbe stato meglio non essere né concepito,<br>dissolto già nel nulla, sentendomi bene per non essere<br>come un dio immortale di vita transitoria.<br>"
+    },
+    {
+        "type": "paragraph",
+        "styles": "{\"textAlign\":\"center\"}",
+        "content": "****************"
+    },
+    {
+        "type": "paragraph",
+        "content": "<i>II<br> <br>el vent fa caure<br>la flor de la mimosa<br>el fang l’enterra<br> <br>XVI<br> <br>un camp d’estrelles<br>el gessamí a l’horta<br>aquest capvespre<br> <br>XLIII<br> <br>blau de Venècia<br>retalla la ginesta<br>tot fent sendera<br></i>"
+    },
+    {
+        "type":"paragraph",
+        "content": "II<br><br>il vento fa cadere<br>il fiore della mimosa<br>il fango lo seppellisce<br><br>XVI<br><br>un campo di stelle<br>il gelsomino nel frutteto<br>questa sera<br><br>XLIII<br><br>blu di Venezia<br>ritaglia la ginestra<br>mentre si fa sentiero<br>"
+    },
+    {
+        "type": "paragraph",
+        "styles": "{\"textAlign\":\"center\"}",
+        "content": "****************"
+    },
+    {
+        "type":"paragraph",
+        "content": "<i>EL JOVE, COM L’ESCUMA<br><br>l’onada mor<br>a la platja l’escuma<br>sembra l’arena<br><br>no cau dels núvols<br>més que plom implacable<br>despulla els arbres<br><br>déus tot n’és ple!<br>com una torbonada<br>de volves de neu<br><br>cauen com fulles<br>centellegen encara<br>poltres tot nervi<br><br>un cop caigudes<br>les colga fang i merda<br>terra ensagnada<br><br>tantes llàgrimes<br>tanta sang fan la terra<br>més agredolça<br><br>terra adobada<br>per la saba dels joves<br>que vol ser lliure</i><br>"
+    },
+    {
+        "type":"paragraph",
+        "content":"IL GIOVANE, COME LA SCHIUMA<br><br>l'onda muore<br>sulla spiaggia la schiuma <br>sembra la sabbia<br><br>non cade dalle nuvole<br>più che piombo implacabile<br>spoglia gli alberi<br><br>dei, tutto ne è pieno!<br>come un turbine<br>di fiocchi di neve<br><br>cadono come foglie<br>brillano ancora<br>puledri tutto nervo<br><br>una volta cadute<br>fango e merda li appendono<br>terra insanguinata<br><br>così tante lacrime<br>tanto sangue fanno la terra<br>più agrodolce<br><br>terra fertilizzata<br>dalla linfa dei giovani<br>chi vuole essere libera<br>"
+    },
+    {
+        "type": "title",
+        "content": "Antonina Canyelles"
+    },
+    {
+        "type" : "image",
+        "name" : "barcelo15-04"
+    }, 
+    {
+        "type" : "paragraph",
+        "content" : "<i>Això era una poeta<br>que tenia un sol pèl<br>a la llengua, romanalla<br>d’una rància educació,<br>grollera, irònica, no canònica.<br>que fumava els seus poemes<br>i n’escampava impúdicament<br>les cendres i les llosques</i><br>"
+    },
+    {
+        "type":"paragraph",
+        "content": "Questa era una poetessa<br>che aveva un solo pelo<br>sulla lingua, resto<br>di un'educazione guasta,<br>rozza, ironica, non canonica.<br>che fumava le sue poesie<br>e diffondeva spudoratamente<br>le ceneri e i mozziconi<br>"
+    },
+    {
+        "type": "title",
+        "content": "Biel Mesquida"
+    },
+    {
+        "type" : "image",
+        "name" : "barcelo15-05"
+    }, 
+    {
+        "type" : "paragraph",
+        "content" : "<i>ASSASSINAR COM SI BESASSIS<br><br>Descongelar el foc de la paraula<br>en la cosa és un exercici vocal.<br>Descongelar el joc de la cosa<br>en la paraula pot ser mortal.<br>El cos ja és cosa<br>per llenguatge reial.</i><br>"
+    },
+    {
+        "type":"paragraph",
+        "content": "ASSASSINARE COME SE BACIASSI <br><br>Scongelare il fuoco della parola<br>nella cosa è un esercizio vocale.<br>Scongelare il gioco della cosa<br>nella parola può essere mortale.<br>Il corpo è già una cosa<br>dal linguaggio reale.<br>"
+    }
+  ]
+}

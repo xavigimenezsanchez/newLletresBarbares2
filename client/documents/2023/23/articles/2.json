@@ -1,0 +1,57 @@
+{
+    "title" : "Sobre l'alegria de Giuseppe Ungaretti",
+    "url" : "sobre-l-alegria-de-giuseppe-ungaretti",
+    "section" : "articles",
+    "issue" : 22,
+    "data" : "25/02/2023",
+    "imageCard" : "angelcarbonell22-01",
+    "author" : "Àngel Carbonell",
+    "summary" : "",
+    "text" : [ 
+        {
+            "type" : "image",
+            "name": "angelcarbonell22-01"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Ungaretti era fill d’italians emigrats a Alexandria d’Egipte, els seus pares li van transmetre l’amor per Itàlia i ell, indefectiblement, va ser italià. En l’Alexandria cosmopolita del protectorat britànic, era inevitable que Ungaretti se sentís italià perquè no existia una identitat egípcia prou forta que pogués oferir-se com una alternativa a la mare pàtria originària dels immigrats. Fins la revolució nacionalista àrab de Nàsser, el 1952, bona part dels alexandrins eren alexandrins que no se sentien ni egipcis ni àrabs, sinó que, per exemple, se sentien grecs d’Alexandria, com Kavafis, o italians d’Alexandria, com Ungaretti. Podien estimar Alexandria i viure-hi, però sempre en tant que grecs o italians o el que fossin d’origen. Per a tots ells, Egipte començava més enllà de la seva ciutat i era un país exòtic i desconegut, fins i tot ignorat."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "El poeta, però, no va voler ser un italià d’Alexandria. En va marxar per anar a estudiar a París i ja no hi va tornar: se la va mirar per últim cop des de la popa del vaixell que se l’enduia, mentre la ciutat se li esvaïa en la calitja, perdurant al cor el cant de les cigales, com diu en aquests versos del seu poema ‘Silenci’, de L’alegria."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "[....]</br>Me'n vaig anar un vespre</br> </br>Al cor perdurava el cant</br>de les cigales</br> </br>Des del vaixell</br>envernissat de blanc</br>he vist</br>desaparèixer la meva ciutat</br>[....]</br>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "I com que Alexandria era la seva ciutat, el patriota italià que va ser Ungaretti, el poeta que mai no va voler ser apàtrida, que necessitava desesperadament pertànyer a Itàlia i sentir-s’hi a casa, arreu on va viure es va sentir exiliat."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Per a Ungaretti era fonamental tenir una pàtria a la qual pertànyer. Això ho podem constatar prou bé en el seu poema En memòria, també de L’alegria, on parla del suïcidi i enterrament a París del seu amic àrab, egipci i afrancesat, Mohammed Xeab, que havia deixat enrere el món al qual pertanyia, la seva pàtria veritable, perquè estimava França. Com diu el poema, aquest amor no el va convertir en francès, sinó en un desarrelat i això el va matar. És evident que Ungaretti veu en l’amic un reflex negatiu d’ell mateix, gairebé com un boc expiatori gràcies al qual el poeta aconsegueix conjurar la mateixa sort, tot i que mai no n’està del tot segur."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "[...]</br>Descendent</br>d'emirs de nòmades</br>suïcida</br>perquè ja no tenia</br>Pàtria</br> </br>Estimà França</br>i es canvià el nom</br> </br>Fou Marcel</br>però no era Francès</br>i ja no sabia</br>viure</br>a la tenda dels seus</br>on se sent la cantarella</br>de l'Alcorà</br>assaborint un cafè</br> </br>I no sabia</br>desfer</br>el cant</br>del seu abandó</br>[....]</br>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Ungaretti, en els seus poemes de L’Alegria, no utilitza senyals de puntuació i només posa inicials majúscules en començar estrofes i noms propis, i en algunes paraules claus, com, per exemple, en l’últim fragment que n’hem vist, les paraules «Pàtria» i «Francès»."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Des d’un punt de vista formal sempre m’ha interessat de manera especial la seva epigramàtica, de versos trencats, tan concisa i alhora tan intensa i expressiva, gairebé un paral·lel de l’haiku japonès per la seva capacitat d’expressar més amb menys, que esdevé un autèntic model per a la poesia occidental. Precisament, la majoria de les meves versions són d’aquests poemes curts, inclosos els fragments publicats en aquest article."
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"center\"}",
+            "content" : "****************************************************"
+        },        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"center\"}",
+            "content" : "<i>Les traduccions catalanes dels poemes d’Ungaretti pertanyen també a l’autor de l’article.</i>"
+        }
+    ]
+}

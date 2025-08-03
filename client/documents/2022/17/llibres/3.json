@@ -1,0 +1,92 @@
+{
+    "title" : "Una societat amb la merda fins al coll",
+    "url" : "una-societat-amb-la-merda-fins-al-coll",
+    "section" : "llibres",
+    "issue" : 16,
+    "imageCard" : "torra16-01",
+    "data" : "24/05/2022",
+    "author" : "Pere Torra",
+    "summary" : "",
+    "text" : [ 
+        {
+            "type" : "image",
+            "name" : "torra16-01"
+        }, 
+        {
+            "type" : "paragraph",
+            "content" : "Títol: <i>Mort accidental d’un anarquista</i></br>Autor: Dario Fo</br>Edicions de la ela geminada</br>Barcelona, 2022</br>"
+        }, 
+        {
+            "type" : "paragraph",
+            "content" : "No s’han de començar els llibres pel final, però això sí que es pot fer en les ressenyes. <i>Mort accidental d’un anarquista</i>, bellament editat per Edicions de la ela geminada, permet concloure al lector o a l’espectador que les vanitoses “democràcies occidentals” estan gairebé colgades per la merda. Els estats fan anar el poder sense un veritable control democràtic, sense transparència ni assumpció de responsabilitats. La raó d'estat predomina per sobre de qualsevol altra consideració, encara que això comporti esclafar drets fonamentals dels individus –fins i tot, la vida– i de les minories, o liquidar les febles garanties democràtiques."
+        }, 
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content" : "Pinelli ha estat considerat per alguns la divuitena víctima mortal de l’atemptat de Piazza Fontana"
+        },
+        {
+            "type": "paragraph",
+            "content": "<i>Mort accidental d’un anarquista</i> és un clàssic i, com a tal, resulta un text ben vigent. Els fets reals en què s’inspira l’obra corresponen a l’atemptat a la Piazza Fontana de Milà, on una bomba sense cap avís va matar disset persones. Pocs dies després Giuseppe Pinelli, un ferroviari de tendència anarquista, fou detingut i va morir en “caure” des d’un quart pis de la comissaria mentre era interrogat per la policia. La bomba mortífera s’ha atribuït a un grup de neofexistes, però els responsables no han estat identificats mai, com tampoc no s'ha aclarit mai què va passar amb Pinelli, considerat per alguns la divuitena víctima mortal de l’atemptat."
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content" : "Salellas vincula el contingut del text de Fo amb les detencions i tortures a independentistes catalans per part de la policia (operació Garzón de 1992)"
+        }, 
+        {
+            "type" : "paragraph",
+            "content" : "Tot i que l’obra fou escrita en el context dels “anys de plom” i de l’anomenada “estratègia de la tensió” que va viure Itàlia als anys setanta, el seu caràcter universal permet identificar casos semblants en molts altres països: al Regne Unit, fa recordar el dels Quatre de Guildford o els Sis de Birmingham, a Austràlia el de la bomba a l’Hotel Hilton de Sidney. Entre nosaltres, al pròleg del llibre, l’advocat Benet Salellas vincula el contingut del text dramàtic amb les detencions i tortures a independentistes catalans per part de la policia (operació Garzón de 1992), que van quedar impunes per la complicitat dels jutges, que no van ordenar ni tan sols investigar-ne les denúncies. Finalment, el Tribunal d’Estrasburg va condemnar el regne d’Espanya, però això no va evitar que, més recentment, els detinguts l’octubre del 2019, en les protestes per la sentència del Procés, tornessin a patir greus maltractaments, sobretot a la sinistra comissaria de policia de la Via Laietana, el mateix espai de repressió emprat durant la dictadura franquista. Per això Salellas afirma que es consolida “una mena de topografia permanent de la tortura a la ciutat de Barcelona.” Tots aquests exemples posen de manifest la complicitat entre policia i judicatura en països suposadament democràtics. Com diu, ben satisfet, el personatge del comissari: “Estic commogut… És bonic comprovar que la magistratura és encara la millor amiga de la policia.”"
+        }, 
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content" : "El Boig desemmascara i ridiculitza les arbitràries i matusseres versions oficials dels fets fabricades per la policia"
+        }, 
+        {
+            "type" : "paragraph",
+            "content" : "Pel que fa al text, amb molt pocs personatges, Fo basteix una peça dramàtica de gran potència sarcàstica. En destaca el Boig, autèntic motor de tota l’obra; un regal per a qualsevol actor de comèdia, que, a més, adopta diverses disfresses, algunes de les quals molt aparatoses, com ara quan es posa una mà postissa, una cama de fusta i un pegat que li tapa l’ull durant una part de l’acció, cosa que donarà lloc a situacions hilarants. El Boig desemmascara i ridiculitza les arbitràries i matusseres versions oficials dels fets fabricades per la policia i encara n’afegeix d’altres, algunes de les quals ben estrafolàries. Des del primer moment s’identifica a si mateix com a boig, “boig certificat”, que té “el hobby de representar papers, sempre diferents. Però jo estic a favor del teatre-veritat i necessito que la meva companyia de còmics sigui de veritat, que no sàpiga que està actuant.” De fet, l’obra és aquesta representació organitzada per aquest personatge capaç de convèncer els policies que un inexistent article 122 bis del Codi penal italià el fa intocable i d’arrossegar-los a cantar dins de la comissaria <i>Stornelli d'esilio</i>, una cançó anarquista de Pietro Gori amb els cèlebres versos “Nostra patria è il mondo intero e nostra legge è la libertà”. Així doncs, som en mans d’un boig, però ell és més lúcid que els teòricament assenyats. Les seves rèpliques, enginyoses i de lògica aclaparadora, resulten divertidíssimes i són un dels encerts de l’obra:"
+        }, 
+        {
+            "type" : "paragraph2",
+            "content" : "BOIG És clar! Evident. Segons això, si és indubtable que les bombes a l’estació les va posar un ferroviari, en conseqüència podem afirmar que les del Palau de Justícia de Roma les va posar un jutge; les del monument al soldat desconegut, el capità de la guàrdia, i les del Banc de l’Agricultura de Roma, un banquer o un pagès, a triar."
+        }, 
+        {
+            "type" : "paragraph",
+            "content" : "Entre els policies, l’inspector Bertozzo dona molt joc, ja que coneix la identitat real del Boig i queda descol·locat còmicament quan aquest es fa passar per jutge i els altres policies impedeixen, de manera grotesca, que digui la veritat, ja que tots estan amagant una altra de les identitats amb què el Boig es disfressa. També cal assenyalar el personatge de Feletti, la periodista que coneix les irregularitats policials i que, en certa mesura, s’identifica amb el lector o espectador. Ella sap molt bé què va passar i en què consistia l'estratègia de la tensió:"
+        }, 
+        {
+            "type":"paragraph2",
+            "content":"FELETTI ¿Així que no en té cap notícia? ¿I té notícia que, de cent setanta-tres atemptats amb explosius produïts els darrers dotze mesos, ben bé cent dos s’ha descobert que havien estat organitzats per feixistes i que més de la meitat dels setanta-un restants hi ha seriosos indicis que també poden ser atribuïts a neofeixistes o a grups paramilitars d’extrema dreta?"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content" : "La portada, gràficament, rebla el clau d’uns tràgics fets no aclarits, però ben coneguts"
+        }, 
+        {
+            "type" : "paragraph",
+            "content" : "Pel que fa a l’edició, la portada compta amb una eloqüent il·lustració d’un cert to expressionista, a càrrec d’Ariadna Rodríguez Miró, autora també d’altres il·lustracions per a la mateixa casa editorial, com ara la de l’entranyable Bartleby. La imatge –amb uns adequats tons de blanc, gris i negre– recorda alguns antics cartells anarquistes de denúncia dels fets: unes mans enormes que donen una empenta, una finestra amb vidres trencats i un home que cau al buit. Gràficament, rebla el clau d’uns tràgics fets no aclarits, però ben coneguts a Europa i al món sencer. Per la seva banda, Guillem-Jordi Graells, escriptor dramàtic experimentat, signa una versió impecable en la qual opta per una llengua natural i posada al dia. Després de llegir el text, tenim unes ganes boges que es torni a representar perquè, essent un text dramàtic, la llengua catalana ha de dringar a l’escenari."
+        }, 
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content" : "El nucli de l’obra és la denúncia que l'escàndol funcioni “com a catarsi alliberadora del sistema”"
+        }, 
+        {
+            "type" : "paragraph",
+            "content" : "A les primeres edicions del text, Dario Fo mateix es demanava per què havia tingut tan èxit aquest espectacle. Concloïa que no era pas per les riallades provocades per l’exhibició de la la hipocresia i les mentides barroeres orquestrades per les autoritats, sinó sobretot pel “discurs sobre la socialdemocràcia i les seves llàgrimes de cocodril, pel fet de veure com la indignació s'apaga amb l'eructe de l'escàndol, l'escàndol com a catarsi alliberadora del sistema.” No hem d’oblidar que aquest text té una forta càrrega política en un sentit força brechtià i l’autor vol sacsejar l’audiència. Per això cap al final de l’obra, el Boig expressa amb claredat la mateixa idea de l’autor: “La gent s’indigna, s’indigna i blup! El rotet alliberador. Mirin-s’ho bé: aquest sistema l’accepten no només els explotadors, sinó també els explotats”."
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content" : "L’anarquisme del detingut genera la seva detenció, com passa amb la ideologia dels independentistes víctimes de l’escàndol del Catalangate"
+        }, 
+        {
+            "type" : "paragraph",
+            "content" : "Aquesta nova edició de l'obra més emblemàtica i representada de l’autor italià fou publicada abans que esclatés el greu escàndol de guerra bruta i espionatge del <i>Catalangate</i>, sobre el qual les responsabilitats del Govern espanyol són evidents. El president del Govern espanyol i la ministra de Defensa han arribat a justificar que es trepitgin drets fonamentals, fins a considerar-ho una acció legítima, atesa la ideologia dels espiats. A l’obra també la ideologia de l’anarquista detingut genera la seva detenció i “l’accident” que posa fi a la seva vida. L’escàndol del Catalangate ha tornat a posar de manifest, doncs, que la merda desborda un estat membre de la Unió Europea que s’autoproclama “democràcia plena”, cada dia amb menys versemblança. En canvi, molta gent, fins i tot a Catalunya, minimitza l’abast de la corrupció de l’estat i es limita a considerar que és sols cosa d’una part de l’estat, que hi ha un nucli dolent i li’n diuen <i>deep state</i> o, com a molt, petit reducte franquista. Potser, al final, ens acabarem adonant que Fo fa explícita la idea que, senzillament, la saba que alimenta estats com l’espanyol és la merda."
+        }
+
+        
+    ]
+}

@@ -1,0 +1,264 @@
+{
+    "title" : "Aikio, Inger-Mari. El sol en llepa la crema. Traducció catalana de Lluís Felip",
+    "url" : "aikio-inger-mari-el-sol-en-llepa-la-crema",
+    "section" : "creacio",
+    "issue" : 18,
+    "data" : "06/08/2022",
+    "imageCard" : "lluisfelip18-01",
+    "author" : "Lluis Felip",
+    "summary" : "",
+    "text" : [ 
+        {
+            "type" : "image",
+            "name" : "lluisfelip18-01",
+            "content": ""
+        }, 
+        {
+            "type" : "paragraph",
+            "content" : "<i>Inger Mari Aikio Arinaick (IMA)</i> neix el 14 de gener de 1961 al municipi (Buolmatjávri), d’Ohcejohka, una extensa i escassament poblada àrea de tundra i llacs a l’extrem nord de Finlàndia. Com molts altres infants de la seva generació va ser duta a un internat lluny del dia a dia de la vida sami, però no va arribar mai a perdre els vincles amb la seva llengua i tradició."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Inger Mari Aikio és hereva d’una generació d’escriptors samis que comencen a publicar la seva obra a la dècada dels 70 i que representen una mena de renaixença o més aviat un <i>rexurdimento</i> de les arts i la cultura samis, entesos com a producte d’un poble indígena. D’entre aquests molt especialment Valkeapää (1943-2001), que fou el creador d’una llengua literària sami i, sobretot, va saber bastir una interpretació del món des de la perspectiva indigenista i va treballar en estreta col·laboració amb d’altres pobles indígenes d’arreu del planeta."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Aikio, recollint l’impuls de la generació que la va precedir, és avui una de les autores samis amb més projecció internacional: ha participat en nombrosos certàmens poètics, especialment a centre i sud Amèrica i s’ha relacionat amb moviments de revitalització cultural dels pobles indígenes d’aquell continent."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<i>El sol en llepa la crema (Beaivvas cuohka gaba)</i>, editat per DAT el 2014, és un poemari bilingüe sami-finès confegit amb la col·laboració del músic finès Miro Mantere. L’obra, en format i mida d’una caixa de CD, inclou un llibret amb els textos dels poemes en totes dues llengües i un CD amb l’enregistrament dels poemes i música."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "El llibre -el poemari, estrictament parlant- està dividit en vuit parts que es corresponen amb les vuit estacions en què els samis dividien tradicionalment l’any: gidda, giđđageassi, geassi, čakčageassi, čakča, čakčadálvi, dálvi, giđđadálvi. Els noms, com es pot veure son combinacions de les paraules samis per a referir-se a les nostres pròpies estacions de l’any: giđđa (primavera), geassi (estiu), čakča (tardor), dálvi (hivern).  Encapçala cada secció un fotografia representativa feta per la pròpia autora, que experimenta en aquest llibre amb les estrofes ja tradicionals de la tanka i l’haiku que, de fet, s’adeqüen particularment bé en una cultura on la natura determina decisivament el ritme de la vida en tots els seus àmbits."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "És la primera vegada que es tradueix la seva obra directament del sami a una llengua no escandinava. Us presentem aquí un recull de 14 poemes dels 20 que formen la primera part del llibre,  l’estiu. Esperem poder oferir-vos aviat d’altres parts del llibre, si els déus i el lleure ens ho permeten."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "Incloem dos vídeos amb una breu presentació d’en Lluís Felip i amb la poeta recitant alguns dels seus poemes en el curs d’un acte al Parc de Vallparadís de Terrassa. Gravació a càrrec del Grup de Literatura dels Amics de les Arts i Joventuts Musicals de Terrassa."
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<iframe width='100%' height='400' src='https://youtube.com/embed/8ndg3jVQb0k'></iframe>"
+          },
+          {
+            "type" : "paragraph",
+            "content" : "<iframe width='100%' height='400' src='https://youtube.com/embed/uAm4OtJI5mM'></iframe>"
+          },
+        {
+            "type" : "paragraph",
+            "content" : "<br><br><br>"
+        },
+        {
+            "type": "paragraph",
+            "styles": "{\"textAlign\":\"center\",\"fontWeight\":\"bold\",\"fontSize\":\"2rem\"}",
+            "content" : "EL SOL EN LLEPA LA CREMA"
+        },
+        {
+            "type": "paragraph",
+            "styles": "{\"textAlign\":\"center\",\"fontWeight\":\"bold\",\"fontSize\":\"2rem\"}",
+            "content": "ESTIU"
+          },
+    
+        {
+            "type" : "paragraph",
+            "content" : "<br><br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"center\",\"fontWeight\":\"bold\"}",
+            "content" : "čuovga čuovgga al’<br>siste ja badjálagaid<br>eaige nahkarat rohtte<br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"center\"}",
+            "content" : "llum sobre llum<br>dins, amuntegant-se <br>el son no t’agafa<br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<br><br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"center\",\"fontWeight\":\"bold\"}",
+            "content" : "ráhkesvuohta<br>suhká áirrohis báskka<br>gearahat duoldá soktan<br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"center\"}",
+            "content" : "l’amor mena<br>un bot sense rems <br>bullen ones escumejants<br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<br><br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"center\",\"fontWeight\":\"bold\"}",
+            "content" : "arvá ja báitá<br>seahkalagaid ja oktan<br>gatnešat heajastallet<br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"center\"}",
+            "content" : "plou i fa sol<br>celebren les noces <br>els follets<br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<br><br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"center\",\"fontWeight\":\"bold\"}",
+            "content" : "álddagas časká<br>loahppatávtta duoddarii<br>njálla báhtara bidjui<br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"center\"}",
+            "content" : "el llamp marca<br>el darrer batec de la tundra<br>la guineu fuig al cau<br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<br><br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"center\",\"fontWeight\":\"bold\"}",
+            "content" : "ijahis idja<br>čahppes balva stuŋgeha<br>njunnái, njálbmái, beljiide<br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"center\"}",
+            "content" : "nit sense nit<br>un núvol negre irromp<br>al nas,  boca i  orelles<br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<br><br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"center\",\"fontWeight\":\"bold\"}",
+            "content" : "soahkelastta al<br>oppa geassi fállun ja<br>málejuvvon mierkkáiguin<br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"center\"}",
+            "content" : "a la fulla de bedoll<br>l’ofrena de tot l’estiu<br>tenyida de boira<br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<br><br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"center\",\"fontWeight\":\"bold\"}",
+            "content" : "dovtta buokčala<br>iđista guolli njunis<br>mihcamáridja gohcá<br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"center\"}",
+            "content" : "l’au es capbussa <br>surt amb un peix al bec<br>desvetllada nit de Sant Joan<br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<br><br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"center\",\"fontWeight\":\"bold\"}",
+            "content" : "soavvilat ráiget<br>čázeoaivvi speadjala<br>logit čalmmit viidánit<br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"center\"}",
+            "content" : "els peixos foraden<br>el mirall de l’aigua<br>desenes d’ulls s’escampen<br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<br><br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"center\",\"fontWeight\":\"bold\"}",
+            "content" : "eallima čoavdda<br>goaivu ádjagis čázi<br>gáddeviroš basada<br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"center\"}",
+            "content" : "la clau de la vida<br>poua a la font<br>es renta el moixó<br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<br><br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"center\",\"fontWeight\":\"bold\"}",
+            "content" : "biegga dánssoda<br>jorada áimmu háldi<br>jorribiegga borjjasta<br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"center\"}",
+            "content" : "el vent dansa<br>l’esperit remou l’aire<br>revola el torniol<br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<br><br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"center\",\"fontWeight\":\"bold\"}",
+            "content" : "gahcepaš bassá<br>nisttiidis vodjarásis<br>firoda beaivvášguvssiin<br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"center\"}",
+            "content" : "la mallerenga  neteja<br>la becada al lletsó<br>remena amb la cullera  del sol<br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<br><br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"center\",\"fontWeight\":\"bold\"}",
+            "content" : "duháhat čuoikkat<br>dain dal biegga firoda<br>suhkkes soadjasuohkada<br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"center\"}",
+            "content" : "giravolten al vent<br>milers de mosquits<br>mànega densa de farro<br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<br><br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"center\",\"fontWeight\":\"bold\"}",
+            "content" : "gáranas čohkka<br>Stohki bajumus oavssis<br>Oktonas geasseidji<br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"center\"}",
+            "content" : "un corb al bramcam podrit<br>dalt de l’arbre mort<br>a la nit sola d’estiu<br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "content" : "<br><br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"center\",\"fontWeight\":\"bold\"}",
+            "content" : "láddan goaikkanas<br>gahččá náhpis eatnamii<br>go beaivváš čuohká gaba<br><br>"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"textAlign\":\"center\"}",
+            "content" : "la gota perfeta<br>cau del beçull a terra<br>quan el sol en llepa la crema<br><br>"
+        }
+    ]
+}

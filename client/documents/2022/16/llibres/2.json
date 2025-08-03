@@ -1,0 +1,79 @@
+{
+    "title" : "Junil o la recerca de la llibertat",
+    "url" : "junil-o-la-recerca-de-la-llibertat",
+    "section" : "llibres",
+    "issue" : 15,
+    "imageCard" : "torra15-02-01",
+    "data" : "24/04/2022",
+    "author" : "Pere Torra",
+    "summary" : "",
+    "text" : [ 
+        {
+            "type" : "image",
+            "name" : "torra15-02-01"
+        }, 
+        {
+            "type" : "paragraph",
+            "content" : "Títol: <i>Junil a les terres dels bàrbars.</i></br>Autor: Joan-Lluís Lluís</br>Club editor</br>2021</br>"
+        }, 
+        {
+            "type" : "paragraph",
+            "content" : "Per a una publicació que es diu <i>Lletres bàrbares</i> és gairebé ineludible saludar i ressenyar <i>Junil a les terres dels bàrbars</i>, la darrera novel·la de Joan-Lluís Lluís, que, a banda d’aquesta curiosa coincidència nominal, presenta molts punts d’interès, el més vistós dels quals és haver estat designada la millor de l’any 2021 per un jurat especialitzat. És el més vistós, però no pas el més rellevant; al nostre parer, més enllà de les classificacions crítiques, l’obra presenta diversos aspectes que mereixen ser destacats i ens fan aconsellar-ne la lectura."
+        }, 
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content" : "Tot i comptar amb un teló de fons històric, és sobretot una novel·la d’aventures"
+        },
+        {
+            "type": "paragraph",
+            "content": "En plena època de l’antiga Roma, la jove protagonista, Junil, i uns companys esclaus emprenen un viatge, una fugida: ella escapa d’uns perseguidors i també s’adreça a la recerca del seu admirat poeta Ovidi, desterrat en un dels confins de l'imperi; els esclaus, per la seva banda, intenten aconseguir una vida millor, cosa que passa pel seu alliberament. La novel·la s’estructura en tres parts, que tenen el viatge com a eix central. La primera part, «La província de l’estany», segueix la vida força trista de Junil amb el seu odiós pare, abans de partir; la segona part, «Els camins», conté el desplaçament, és a dir, les trobades i topades que va tenint la colla de Junil durant el seu itinerari; la tercera part, «La vora del món», narra les vicissituds del grup quan arriben a Tomis, lloc on viu exiliat Ovidi. Tot i comptar amb un teló de fons històric, més que una novel·la històrica és sobretot d’aventures, amb un cert to de faula i plena autoconsciència de l'artifici narratiu, de vegades posat al descobert per l’autor. De fet, d’història, de fets històrics, n’hi ha ben pocs en aquesta novel·la. El tractament de la història és ben diferent de <i>Jo soc aquell que va matar Franco</i> –obra guanyadora del Premi Sant Jordi 2017–, on Lluís sí que hi explora a fons la història del país, encara que en capgiri els esdeveniments i hi afegeixi la necessària barreja de fets ficticis"
+        },
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content" : "Ben mirat, el món antic tampoc no queda tan lluny del del segle XXI"
+        }, 
+        {
+            "type" : "paragraph",
+            "content" : "Els fets de l’obra no passen de manera màgica i sense fonamentació narrativa, sinó gradualment, enmig del món violent, difícil i agressiu de l’antiguitat, un escenari presentat amb versemblança i sense concessions edulcorades. Compta amb dos grans grups: els privilegiats, que usen i abusen dels seus privilegis; els altres, que pateixen les humiliacions, fan tota la feina i miren de sobreviure com poden. Entre aquests últims n’hi ha de miserables, com el pare de Junil o també el Vell, el qual, a canvi de petits beneficis personals, facilita la submissió per part dels amos. Ben mirat, el món antic tampoc no queda tan lluny del del segle XXI. Durant el trajecte, als quatre fugitius que l’inicien, se’ls aniran afegint altres individus i grups, atrets per les possibilitats de llibertat que hi intueixen, conscients que caminar pot ser difícil, però la immobilitat és estèril. Un punt també atractiu del viatge que descriu l’obra és el fet que es produeix en forma de relleus successius. Hi ha algun moment que fins i tot sembla que la protagonista gairebé no hi sigui. Però això no és cap oblit de l’autor, sinó un factor estimulant perquè el caràcter coral dels personatges  enriqueix el relat."
+        }, 
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content" : "L'obra conté diverses reflexions sobre la literatura i el fet de narrar històries"
+        }, 
+        {
+            "type" : "paragraph",
+            "content" : "Com que Junil, durant la primera part, esdevé copista de llibres, l'obra conté diverses reflexions sobre la literatura i el fet de narrar històries. En alguns casos –tenint en compte l’època– la narració hi al·ludeix de forma irònica: «ser escriptor és la cosa més fàcil del món, quan només cal manar a l’esclau copista que canviï el nom al primer full d'un llibre escrit per un altre.» En altres ocasions, en el diàleg amb el Vell, el contador de contes, s’incideix sobre la divergència entre oralitat i escriptura: «un parlador no inventa, barreja les paraules que té dintre seu i les parla, cada vegada en un ordre diferent… I és aquest ordre que fa un conte nou, però les paraules són les mateixes…»"
+        }, 
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content" : "Els personatges construeixen una llengua única apedaçada “per l’afany d'entendre's”"
+        }, 
+        {
+            "type" : "paragraph",
+            "content" : "Igualment, a causa de la diversitat de llengües dels membres del grup de caminants, la traducció i la comprensió interlingüística ocupen un espai molt rellevant. Hi ha una preciosa referència, que no podem reproduir sencera, sobre una anomenada «llengua bocins» o «llengua trossos», una mena de <i>pidgin</i> que construeixen els mateixos parlants, a partir de les llengües pròpies: «Tots parlen la llengua de tots, i això vol dir que han anat confegint una parla única apedaçada, que els serveix quan parlen tots, o quan parlen als que no parlen la mateixa llengua. És una mescla en què cap d’ells no pensa com en una llengua sencera, i potser per això no li donen nom […]. S’entenen per l’afany d’entendre’s.»"
+        }, 
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content" : "«Al món, ara, la gent normal és la que camina cada dia»"
+        }, 
+        {
+            "type" : "paragraph",
+            "content" : "El llibre planteja una analogia absoluta entre vida, aventura i llibertat, de forma directa i desacomplexada. Gairebé no és ni una metàfora ja que sense viatge, sense aventura, sense llibertat, no es concep com es pot viure. Cap al final de la segona part, hi ha un moment que els principals protagonistes, amb gran lucidesa, s'adonen de «la certesa que el viatge no s’aturarà mai, que al món, ara, la gent normal és la que camina cada dia i la gent estranya i inquietant, però sobretot fora de l’ordre ordinari volgut pels déus, és la gent que no camina.» Els personatges experimenten, doncs, un procés de creixement i aprenentatge semblant al de les novel·les d’iniciació. Al final del llibre –que, òbviament, no revelarem aquí–, els protagonistes ja es troben en molt millor disposició per a decidir què fer amb la seva vida."
+        }, 
+        {
+            "type" : "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content" : "Tant aquesta novel·la com <i>Jo soc aquell que va matar Franco</i> literaturitzen la recerca de la llibertat"
+        }, 
+        {
+            "type" : "paragraph",
+            "content" : "D’alguna manera, tant aquesta novel·la com també l’anterior, <i>Jo soc aquell que va matar Franco</i>, literaturitzen la recerca de la llibertat, una recerca que comporta sacrificis i dificultats, d’entre les quals n’hi ha de lligades a la pròpia condició física: l’Agustí Vilamat, protagonista de l’anterior, és borni i indecís; Junil és una noieta més aviat feble i al personatge d’Arbre, que s’uneix al grup de Junil, li manca un braç. Els protagonistes d’ambdues novel·les són, doncs, antiherois, més que no pas superherois. Tots dos comparteixen l’afició llibresca: Junil, que aprèn a llegir, s’enamora dels versos d’Ovidi; Agustí és devot de les paraules que recull i endreça el diccionari de Pompeu Fabra. En tot cas, per a avançar en el camí de la llibertat, sempre els cal fer un gran esforç: en el cas de Junil, emprendre un llarg viatge de recorregut incert; en el cas d'Agustí, disparar contra Franco. En tots dos casos, cal sempre el coratge d’enfrontar-se al poder dominant a cada moment, sigui l’imperi que Hitler pretenia construir amb l’ajut de Franco, sigui el vell imperi romà. Al capdavall, <i>Junil a les terres bàrbares</i> esdevé un bellíssim cant a la llibertat."
+        }
+        
+    ]
+}

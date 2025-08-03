@@ -1,0 +1,205 @@
+{
+  "title" : "Traduccions de poetes catalans (2)",
+  "url" : "traduccions-de-poetes-catalans-2",
+  "section" : "creacio",
+  "issue" : 16,
+  "data" : "24/05/2022",
+  "imageCard" : "barcelo16-01",
+  "author" : "Joan Josep Barceló",
+  "summary" : "",
+  "text" : [ 
+      {
+          "type": "title",
+          "content": "Emili Sánchez-Rubio"
+      },
+      {
+          "type" : "image",
+          "name" : "barcelo16-02"
+      }, 
+      {
+          "type" : "paragraph",
+          "content" : "<i>Ara,<br/>que habit el temps<br/>com l’ull que mira dins una campana,<br/>no hi ha veritats ni rectificacions.<br/>Una soledat feta de silencis<br/>ha estat la que ha permès<br/>que jo senti allò que l’home i la natura<br/>calla.<br/>Ha estat la revolució:<br/>el canvi silenciat.<br/>He mort,<br/>però m’he salvat.<br/></i>"
+      },
+      {
+        "type": "paragraph",
+        "styles": "{\"textAlign\":\"center\"}",
+        "content": "*"
+      },
+      {
+          "type":"paragraph",
+          "content": "Ora,<br/>che abito il tempo<br/>come l'occhio che guarda dentro una campana,<br/>non ci sono verità né rettifiche.<br/>Una solitudine fatta di silenzi<br/>è stata colei che ha permesso<br/>che io senta cosa l'uomo e la natura<br/>tace.<br/>È stata la rivoluzione:<br/>il cambiamento silenziato.<br/>Sono morto,<br/>ma mi sono salvato.<br/>"
+      },
+      {
+        "type": "paragraph",
+        "styles": "{\"textAlign\":\"center\"}",
+        "content": "****************"
+      },
+      {
+        "type" : "paragraph",
+        "content" : "<i>I a mesura que es fan llargues les nits d’hivern<br/>vaig canviant espiritualitat per preguntes en la blancor.<br/>Esclaten bofegues a la calç viva del pensar<br/>i encara no se sap si la capacitat de solitud mata o porta la<br/>indestructibilitat.<br/></i>"
+    },
+    {
+      "type": "paragraph",
+      "styles": "{\"textAlign\":\"center\"}",
+      "content": "*"
+    },
+    {
+        "type":"paragraph",
+        "content": "E mentre le notti invernali si allungano<br/>sto cambiando spiritualità per domande nel candore.<br/>Scoppiano bollicine nella calce viva del pensiero<br/>e ancora non si sa se la capacità di solitudine uccida o porta <br/>l’indistruttibilità.<br/>"
+    },
+
+      {
+        "type": "title",
+        "content": "Empar Sáez"
+    },
+    {
+        "type" : "image",
+        "name" : "barcelo16-03"
+    }, 
+    {
+        "type" : "paragraph",
+        "content" : "<i>Els dits espellen capes<br/>d’obscur<br/>i arriben al llim compacte<br/>de la nit.<br/> <br/>Una taca negra s’expandeix; el fang nocturn, movedís,<br/>atrapa i degluteix paisatges.<br/> <br/>Així es perpetua el cos desmesurat<br/>de la nit:<br/> <br/>s’embolcalla en la seva fondària, escampa obscures<br/>llavors <br/>que una llum callada,<br/> <br/>roenta de temps, fecundarà.</i><br>"
+    },
+    {
+      "type": "paragraph",
+      "styles": "{\"textAlign\":\"center\"}",
+      "content": "*"
+    },
+    {
+        "type":"paragraph",
+        "content": "Le dita spellano cappe<br/>di oscurità<br/>e raggiungono il limo compatto<br/>della notte.<br/> <br/>Una macchia nera si espande; il fango notturno, movibile,<br/>cattura e inghiotte paesaggi.<br/> <br/>Così si perpetua il corpo smisurato<br/>della notte:<br/> <br/>si avvolge nella sua profondità, disperde scuri<br/>semi<br/>che una luce silenziosa,<br/> <br/>rovente di tempo, feconderà."
+    },
+    {
+        "type": "paragraph",
+        "styles": "{\"textAlign\":\"center\"}",
+        "content": "****************"
+      },
+      {
+        "type" : "paragraph",
+        "content" : "<i>No et despertis enmig del somni<br/>quan escrius.<br/>Així seràs llançada infinitament<br/>més lluny de la realitat,<br/>de la consciencia<br/>i del mateix somni que escrius.<br/> <br/>Així hauràs plenament<br/>la mà que ordeix i perfà els somnis.<br></i>"
+    },
+    {
+      "type": "paragraph",
+      "styles": "{\"textAlign\":\"center\"}",
+      "content": "*"
+    },
+    {
+        "type":"paragraph",
+        "content": "Non svegliarti nel mezzo del sogno<br/>quando scrivi.<br/>Così sarai rilasciata infinitamente<br/>più lontano dalla realtà,<br/>della coscienza<br/>e dello stesso sogno che scrivi.<br/> <br/>Così avrai pienamente<br/>la mano che ordina e perfeziona i sogni."
+    },
+    {
+        "type": "paragraph",
+        "styles": "{\"textAlign\":\"center\"}",
+        "content": "****************"
+    },
+    {
+        "type": "paragraph",
+        "content": "<i>Hauria de recordar qui sóc<br/>per escriure’m.<br/> <br/>Hauria de descolgar<br/>entre les rels i la terra<br/>la paraula germina,<br/>trèmulament invisible.<br/> <br/>Tornar a la innocència<br/>que habita el món dels dorments.<br/> <br/>Tornar a ser allò que era<br/>abans de néixer.<br/> <br/>Tornar,<br/>donar fe del meu despertar.<br></i>"
+    },
+    {
+      "type": "paragraph",
+      "styles": "{\"textAlign\":\"center\"}",
+      "content": "*"
+    },
+    {
+        "type":"paragraph",
+        "content": "Dovrei ricordare chi sono<br/>per scrivermi.<br/> <br/>Dovrei staccare<br/>tra le radici e la terra<br/>la parola germina,<br/>tremulamente invisibile.<br/> <br/>Ritornare all'innocenza<br/>che abita il mondo dei dormienti.<br/> <br/>Ritornare a essere quello che era<br/>prima di nascere.<br/> <br/>Ritornare,<br/>testimoniare il mio risveglio.<br>"
+    },
+    {
+        "type": "title",
+        "content": "Ester Andorrà"
+    },
+    {
+        "type" : "image",
+        "name" : "barcelo16-04"
+    }, 
+    {
+        "type" : "paragraph",
+        "content" : "<i>PARPELLA<br/> <br/>la doble parpella transparent<br/>et mira les faccions si no hi ets.<br/>l’escorça gruixuda que encercla<br/>el clatell s’esbadella si no la sents.<br/>resina a les palpentes, cop de cap,<br/>delicat abisme<br/>ara que ja no ho fem.</i><br>"
+    },
+    {
+      "type": "paragraph",
+      "styles": "{\"textAlign\":\"center\"}",
+      "content": "*"
+    },
+    {
+        "type":"paragraph",
+        "content": "PALPEBRA<br/> <br/>la doppia palpebra trasparente<br/>ti guarda le fazioni se non ci sei.<br/>la corteccia grossa che circonda<br/>la collottola sboccia se non la senti.<br/>resina a tentoni, colpo di testa,<br/>delicato abisso <br/>ora che non lo facciamo più.</br>"
+    },
+    {
+      "type": "paragraph",
+      "styles": "{\"textAlign\":\"center\"}",
+      "content": "****************"
+  },
+  {
+    "type" : "paragraph",
+    "content" : "<i>HEMATOMA<br/><br/>cop de puny a la paret<br/>i mirada perduda,<br/>d’això va la història.<br/>de vidriera quan s’esberla,<br/>d’escletxa obrint-se<br/>d’hematoma de l’oblit,<br/>del panadís de flonges hores.<br/>i de l’emulsor que s’amotina.</i><br>"
+},
+{
+  "type": "paragraph",
+  "styles": "{\"textAlign\":\"center\"}",
+  "content": "*"
+},
+{
+    "type":"paragraph",
+    "content": "EMATOMA<br/><br/>pugno sul muro<br/>e sguardo perso,<br/>questa è la storia.<br/>di vetrata quando si spacca,<br/>di crepa che si apre<br/>di ematoma dell'oblio,<br/>del patereccio di morbidi ore.<br/>e dell'emulsionante che si ammutina.</br>"
+},
+    {
+        "type": "title",
+        "content": "Guillem Benejam"
+    },
+    {
+        "type" : "image",
+        "name" : "barcelo16-05"
+    }, 
+    {
+        "type" : "paragraph",
+        "content" : "<i>LLAURAR<br/> <br/>Fa dies que he perdut les meves fulles<br/>i cerc ara les forces<br/>que el càvec del llaurat m’ha ofert l’hivern.<br/>Pens en com avançar aquests sarments<br/>que tinc al tronc fixats.</i><br>"
+    },
+    {
+      "type": "paragraph",
+      "styles": "{\"textAlign\":\"center\"}",
+      "content": "*"
+    },
+    {
+        "type":"paragraph",
+        "content": "ARARE<br/> <br/>Giorni fa che ho perso le mie foglie <br/>e ora cerco le forze<br/>che il zappone dell’arato mi ha offerto all’inverno.<br/>Penso a come avanzare questi sarmenti<br/>che ho fissati al tronco.<br/>"
+    },
+    {
+      "type": "paragraph",
+      "styles": "{\"textAlign\":\"center\"}",
+      "content": "****************"
+  },
+  {
+    "type" : "paragraph",
+    "content" : "<i>TENIR POR<br/>que t’envaeixin<br/>el cos d’espècies.<br/><br/>Haver-te de considerar<br/>endèmic per sobreviure.<br/><br/>Sentir-te estranger a<br/>casa teva, emigrar<br/>les vísceres, omplir-te<br/>de substrat natural.<br/><br/>Bategar com un peix<br/>dins una barca.</i><br>"
+},
+{
+  "type": "paragraph",
+  "styles": "{\"textAlign\":\"center\"}",
+  "content": "*"
+},
+{
+    "type":"paragraph",
+    "content": "AVERE PAURA<br/>che ti invadono<br/>il corpo di spezie.<br/><br/>Dover di considerti<br/>endemico per sopravvivere.<br/><br/>Sentirti straniero a<br/>casa tua, emigrare<br/>le viscere, riempirti<br/>di substrato naturale.<br/><br/>Battere come un pesce<br/>in una barca.<br/>"
+},
+{
+  "type": "paragraph",
+  "styles": "{\"textAlign\":\"center\"}",
+  "content": "****************"
+},
+{
+"type" : "paragraph",
+"content" : "<i>Camín per vies<br/>dins el meu cos<br/>cap a la vinya.<br/>La terra s’obre a<br/>l’esguard  del meu<br/>aprenentatge.<br/>Retorn inacabable<br/>al ventre de la mare,<br/>a l’embrió que em marca<br/>el silenci dels dies.</i><br>"
+},
+{
+  "type": "paragraph",
+  "styles": "{\"textAlign\":\"center\"}",
+  "content": "*"
+},
+{
+"type":"paragraph",
+"content": "Cammino per percorsi<br/>dentro il mio corpo<br/>verso il vigneto.<br/>La terra si apre allo <br/>sguardo del mio <br/>apprendimento.<br/>Ritorno senza fine<br/>nel grembo materno,<br/>all'embrione che mi segna<br/>il silenzio dei giorni.<br/>"
+}
+  ]
+}
