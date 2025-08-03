@@ -1,0 +1,160 @@
+import { useState, useEffect } from 'react'
+import { useParams, Link } from 'react-router-dom'
+import { apiService } from '../services/api'
+import type { Article } from '../types'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
+import ArticleText from '../components/ArticleText'
+
+const ArticlePage = () => {
+  const { section, url } = useParams<{ section: string; url: string }>()
+  const [article, setArticle] = useState<Article | null>(null)
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState<string | null>(null)
+
+  useEffect(() => {
+    const fetchArticle = async () => {
+      try {
+        setLoading(true)
+        setError(null)
+        
+        if (!section || !url) {
+          throw new Error('Secció i URL són requerides')
+        }
+
+        const articleData = await apiService.getArticleBySectionAndUrl(section, url)
+        setArticle(articleData as Article)
+      } catch (err) {
+        console.error('Error carregant l\'article:', err)
+        setError('Error carregant l\'article. Si us plau, torna-ho a provar.')
+      } finally {
+        setLoading(false)
+      }
+    }
+
+    if (section && url) {
+      fetchArticle()
+    }
+  }, [section, url])
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-white">
+        <Header />
+        <div className="max-w-4xl mx-auto px-6 py-16">
+          <div className="text-center">
+            <div className="text-xl font-newyorker">Carregant article...</div>
+          </div>
+        </div>
+        <Footer />
+      </div>
+    )
+  }
+
+  if (error || !article) {
+    return (
+      <div className="min-h-screen bg-white">
+        <Header />
+        <div className="max-w-4xl mx-auto px-6 py-16">
+          <div className="text-center">
+            <h1 className="text-2xl font-newyorker mb-4">Article no trobat</h1>
+            <p className="text-gray-600 mb-8">L'article que busques no existeix o ha estat mogut.</p>
+            <Link to="/" className="newyorker-button">
+              Tornar a l'inici
+            </Link>
+          </div>
+        </div>
+        <Footer />
+      </div>
+    )
+  }
+
+  return (
+    <div className="min-h-screen bg-white">
+      <Header />
+      
+      <main className="max-w-4xl mx-auto px-6 py-12">
+        {/* Breadcrumb */}
+        <nav className="mb-8">
+          <ol className="flex items-center space-x-2 text-sm text-gray-500">
+            <li><Link to="/" className="hover:text-black">Inici</Link></li>
+            <li>/</li>
+            <li><Link to={`/${article.section}`} className="hover:text-black capitalize">{article.section}</Link></li>
+            <li>/</li>
+            <li className="text-black" >{article.title}</li>
+          </ol>
+        </nav>
+
+        {/* Article Header */}
+        <header className="mb-12">
+          <div className="mb-4">
+            <span className="text-sm text-gray-500 uppercase tracking-wider">
+              {article.section}
+            </span>
+          </div>
+          
+          <h1 className="text-4xl font-newyorker mb-6 leading-tight">
+            {article.title}
+          </h1>
+          
+          <div className="flex items-center justify-between text-sm text-gray-600 mb-8">
+            <div>
+              <span>Per </span>
+              <span className="font-medium">{article.author}</span>
+            </div>
+            <div>
+              <time dateTime={article.data}>
+                {new Date(article.data).toLocaleDateString('ca-ES', {
+                  year: 'numeric',
+                  month: 'long',
+                  day: 'numeric'
+                })}
+              </time>
+            </div>
+          </div>
+
+          {article.summary && (
+            <div className="text-xl text-gray-700 leading-relaxed mb-8 font-newyorker">
+              {article.summary}
+            </div>
+          )}
+        </header>
+
+        {/* Article Image */}
+        {article.imageCard && (
+          <figure className="mb-12">
+            <div className="aspect-[16/9] bg-gray-200 rounded-lg overflow-hidden">
+              <div className="w-full h-full flex items-center justify-center text-gray-500">
+                <span>Imatge: {article.imageCard}</span>
+              </div>
+            </div>
+            <figcaption className="text-sm text-gray-500 mt-2 text-center">
+              Imatge de l'article
+            </figcaption>
+          </figure>
+        )}
+
+        {/* Article Content */}
+        <article className="prose prose-lg max-w-none">
+          <ArticleText elements={article.text} />
+        </article>
+
+        {/* Article Footer */}
+        <footer className="mt-16 pt-8 border-t border-gray-200">
+          <div className="flex items-center justify-between">
+            <div className="text-sm text-gray-500">
+              Article publicat al número {article.issue}
+            </div>
+            <Link to="/" className="newyorker-button-outline">
+              Tornar a l'inici
+            </Link>
+          </div>
+        </footer>
+      </main>
+      
+      <Footer />
+    </div>
+  )
+}
+
+export default ArticlePage 

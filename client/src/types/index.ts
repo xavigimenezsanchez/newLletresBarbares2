@@ -1,7 +1,15 @@
 export interface ArticleTextElement {
-  type: 'paragraph' | 'title' | 'image' | 'footnotes';
+  type: 'paragraph' | 'paragraph2' | 'title' | 'title2' | 'question' | 'image' | 'video' | 'youtube' | 'biography' | 'footnotes';
   content: string;
   name?: string;
+  className?: string;
+  reference?: string;
+  styles?: string;
+  image?: {
+    name: string;
+  };
+  foot?: string;
+  biography?: string[];
   notes?: Footnote[];
 }
 

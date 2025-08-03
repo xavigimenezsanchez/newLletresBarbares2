@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import type { Article } from '../types'
 
 interface HeroProps {
@@ -31,12 +32,12 @@ const Hero = ({ title, subtitle, featuredArticle }: HeroProps) => {
                     <div className="text-sm text-gray-600">
                       Per {featuredArticle.author}
                     </div>
-                    <a
-                      href={`/article/${featuredArticle.url}`}
+                    <Link
+                      to={`/${featuredArticle.section}/${featuredArticle.url}`}
                       className="newyorker-button"
                     >
                       Llegir més
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="relative">

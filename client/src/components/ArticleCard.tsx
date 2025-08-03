@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import type { Article } from '../types'
 
 interface ArticleCardProps {
@@ -47,9 +48,9 @@ const ArticleCard = ({ article }: ArticleCardProps) => {
         </div>
         
         <h3 className="newyorker-article-title">
-          <a href={`/article/${article.url}`}>
+          <Link to={`/${article.section}/${article.url}`}>
             {article.title}
-          </a>
+          </Link>
         </h3>
         
         <p className="newyorker-article-summary">

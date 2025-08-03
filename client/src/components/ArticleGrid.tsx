@@ -37,13 +37,6 @@ const ArticleGrid = ({ title, articles, issueNumber, year }: ArticleGridProps) =
         ))}
       </div>
 
-      {articles.length > 6 && (
-        <div className="text-center mt-12">
-          <a href="/arxiu" className="newyorker-button-outline">
-            Veure tots els articles
-          </a>
-        </div>
-      )}
     </section>
   )
 }

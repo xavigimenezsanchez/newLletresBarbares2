@@ -58,6 +58,10 @@ class ApiService {
     return this.request(`/articles/${slug}`);
   }
 
+  async getArticleBySectionAndUrl(section: string, url: string) {
+    return this.request(`/articles/${section}/${url}`);
+  }
+
   async getArticlesBySection(section: string, limit: number = 10) {
     return this.request(`/articles/section/${section}?limit=${limit}`);
   }

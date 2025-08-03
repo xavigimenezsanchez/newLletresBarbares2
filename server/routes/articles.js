@@ -104,7 +104,29 @@ router.get('/author/:author', async (req, res) => {
   }
 });
 
-// GET /api/articles/:url - Obtener artículo por URL
+// GET /api/articles/:section/:url - Obtener artículo por sección y URL
+router.get('/:section/:url', async (req, res) => {
+  try {
+    const { section, url } = req.params;
+    
+    const article = await Article.findOne({ 
+      section: section,
+      url: url, 
+      isPublished: true 
+    }).populate('issueId', 'year number title');
+
+    if (!article) {
+      return res.status(404).json({ error: 'Artículo no encontrado' });
+    }
+
+    res.json(article);
+  } catch (error) {
+    console.error('Error obteniendo artículo:', error);
+    res.status(500).json({ error: 'Error interno del servidor' });
+  }
+});
+
+// GET /api/articles/:url - Obtener artículo por URL (fallback)
 router.get('/:url', async (req, res) => {
   try {
     const { url } = req.params;

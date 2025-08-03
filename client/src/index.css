@@ -98,7 +98,8 @@
   
   /* Hero section like The New Yorker */
   .newyorker-hero {
-    @apply bg-white py-16 px-6;
+    @apply py-16 px-6;
+    background-color: #f6f4ef;
     border-bottom: 1px solid #e5e5e5;
   }
   
@@ -213,5 +214,57 @@
   .text-newyorker {
     font-family: 'TNYAdobeCaslonPro', 'Times New Roman', Times, serif;
     line-height: 1.6;
+  }
+  
+  /* Article Text Styles */
+  .article-text {
+    font-family: 'TNYAdobeCaslonPro', 'Times New Roman', Times, serif;
+    line-height: 1.6;
+  }
+  
+  .article-text blockquote {
+    font-style: italic;
+    border-left: 4px solid #e5e5e5;
+    padding-left: 1.5rem;
+    margin: 2rem 0;
+  }
+  
+  .article-text figure {
+    margin: 2rem 0;
+  }
+  
+  .article-text figcaption {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-top: 0.5rem;
+  }
+  
+  .article-text img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+  
+  .article-text video {
+    max-width: 100%;
+    border-radius: 0.5rem;
+  }
+  
+  .article-text iframe {
+    border-radius: 0.5rem;
+  }
+  
+  .article-text ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+  }
+  
+  .article-text ol {
+    list-style-type: decimal;
+    padding-left: 1.5rem;
+  }
+  
+  .article-text li {
+    margin-bottom: 0.5rem;
   }
 }
