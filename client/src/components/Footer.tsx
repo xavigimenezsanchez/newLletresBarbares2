@@ -14,25 +14,25 @@ const Footer = () => {
           </div>
           
           <div>
-            <h4 className="font-sans font-medium mb-4">Seccions</h4>
-            <ul className="space-y-2 text-gray-300">
-              <li><a href="/articles" className="hover:text-white transition-colors">Articles</a></li>
-              <li><a href="/creacio" className="hover:text-white transition-colors">Creació</a></li>
-              <li><a href="/entrevistes" className="hover:text-white transition-colors">Entrevistes</a></li>
-              <li><a href="/llibres" className="hover:text-white transition-colors">Llibres</a></li>
-              <li><a href="/llocs" className="hover:text-white transition-colors">Llocs</a></li>
-              <li><a href="/recomanacions" className="hover:text-white transition-colors">Recomanacions</a></li>
+            <h4 className="font-sans font-medium mb-4 text-white">Seccions</h4>
+            <ul className="space-y-2">
+              <li><a href="/articles" className="text-gray-300 hover:text-white transition-colors">Articles</a></li>
+              <li><a href="/creacio" className="text-gray-300 hover:text-white transition-colors">Creació</a></li>
+              <li><a href="/entrevistes" className="text-gray-300 hover:text-white transition-colors">Entrevistes</a></li>
+              <li><a href="/llibres" className="text-gray-300 hover:text-white transition-colors">Llibres</a></li>
+              <li><a href="/llocs" className="text-gray-300 hover:text-white transition-colors">Llocs</a></li>
+              <li><a href="/recomanacions" className="text-gray-300 hover:text-white transition-colors">Recomanacions</a></li>
             </ul>
           </div>
           
           <div>
-            <h4 className="font-sans font-medium mb-4">Arxiu</h4>
-            <ul className="space-y-2 text-gray-300">
-              <li><a href="/arxiu/2024" className="hover:text-white transition-colors">2024</a></li>
-              <li><a href="/arxiu/2023" className="hover:text-white transition-colors">2023</a></li>
-              <li><a href="/arxiu/2022" className="hover:text-white transition-colors">2022</a></li>
-              <li><a href="/arxiu/2021" className="hover:text-white transition-colors">2021</a></li>
-              <li><a href="/arxiu/2020" className="hover:text-white transition-colors">2020</a></li>
+            <h4 className="font-sans font-medium mb-4 text-white">Arxiu</h4>
+            <ul className="space-y-2">
+              <li><a href="/arxiu/2024" className="text-gray-300 hover:text-white transition-colors">2024</a></li>
+              <li><a href="/arxiu/2023" className="text-gray-300 hover:text-white transition-colors">2023</a></li>
+              <li><a href="/arxiu/2022" className="text-gray-300 hover:text-white transition-colors">2022</a></li>
+              <li><a href="/arxiu/2021" className="text-gray-300 hover:text-white transition-colors">2021</a></li>
+              <li><a href="/arxiu/2020" className="text-gray-300 hover:text-white transition-colors">2020</a></li>
             </ul>
           </div>
           
