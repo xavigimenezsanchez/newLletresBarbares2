@@ -51,8 +51,9 @@ router.get('/', async (req, res) => {
 // GET /api/articles/recent - Obtener artículos recientes
 router.get('/recent', async (req, res) => {
   try {
-    const { limit = 6 } = req.query;
-    const articles = await Article.getRecent(parseInt(limit));
+    // const { limit = 6 } = req.query;
+    const articles = await Article.getRecent();
+    // const articles = await Article.getRecent(parseInt(limit));
     res.json(articles);
   } catch (error) {
     console.error('Error obteniendo artículos recientes:', error);

@@ -42,8 +42,12 @@ class ApiService {
     return this.request(`/articles?${searchParams.toString()}`);
   }
 
-  async getRecentArticles(limit: number = 6) {
-    return this.request(`/articles/recent?limit=${limit}`);
+  // async getRecentArticles(limit: number = 6) {
+  //   return this.request(`/articles/recent?limit=${limit}`);
+  // }  
+  
+  async getRecentArticles() {
+    return this.request(`/articles/recent`);
   }
 
   async getFeaturedArticle() {

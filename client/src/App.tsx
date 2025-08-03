@@ -22,7 +22,7 @@ function App() {
         // Cargar datos en paralelo
         const [latestIssueData, recentArticlesData, featuredArticleData] = await Promise.all([
           apiService.getLatestIssue(),
-          apiService.getRecentArticles(6),
+          apiService.getRecentArticles(),
           apiService.getFeaturedArticle()
         ])
 
