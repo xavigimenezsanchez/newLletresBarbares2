@@ -20,12 +20,14 @@ const ArticleText = ({ elements }: ArticleTextProps) => {
                 className={element.className}
                 dangerouslySetInnerHTML={{ __html: element.content }}
               />
-              <div>
-                <img
-                  src={`/api/v1/image/${element.image.name}`}
-                  alt=""
-                  className="w-full h-auto rounded-lg"
-                />
+              <div className="flex justify-center">
+                <div className="max-w-[600px] w-full">
+                  <img
+                    src={`/api/images/${element.image.name}`}
+                    alt=""
+                    className="w-full h-auto rounded-lg"
+                  />
+                </div>
               </div>
             </div>
           )
@@ -94,17 +96,19 @@ const ArticleText = ({ elements }: ArticleTextProps) => {
 
       case 'image':
         return (
-          <div key={elementKey} className="my-8">
-            <img
-              className={`w-full h-auto rounded-lg ${element.className || ''}`}
-              src={`/api/v1/image/${element.name}`}
-              alt=""
-            />
-            {element.content && (
-              <p className="text-sm text-gray-600 mt-2 text-center">
-                <span dangerouslySetInnerHTML={{ __html: element.content }} />
-              </p>
-            )}
+          <div key={elementKey} className="my-8 flex justify-center">
+            <div className="max-w-[600px] w-full">
+              <img
+                className={`w-full h-auto rounded-lg ${element.className || ''}`}
+                src={`/api/images/${element.name}`}
+                alt=""
+              />
+              {element.content && (
+                <p className="text-sm text-gray-600 mt-2 text-center">
+                  <span dangerouslySetInnerHTML={{ __html: element.content }} />
+                </p>
+              )}
+            </div>
           </div>
         )
 
@@ -112,7 +116,7 @@ const ArticleText = ({ elements }: ArticleTextProps) => {
         return (
           <div key={elementKey} className="my-8">
             <video controls width="100%" className="rounded-lg">
-              <source src={`/api/v1/video/${element.name}`} />
+              <source src={`/api/videos/${element.name}`} />
               El teu navegador no suporta el format de vídeo.
             </video>
             {element.content && (

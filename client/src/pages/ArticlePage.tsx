@@ -120,19 +120,7 @@ const ArticlePage = () => {
           )}
         </header>
 
-        {/* Article Image */}
-        {article.imageCard && (
-          <figure className="mb-12">
-            <div className="aspect-[16/9] bg-gray-200 rounded-lg overflow-hidden">
-              <div className="w-full h-full flex items-center justify-center text-gray-500">
-                <span>Imatge: {article.imageCard}</span>
-              </div>
-            </div>
-            <figcaption className="text-sm text-gray-500 mt-2 text-center">
-              Imatge de l'article
-            </figcaption>
-          </figure>
-        )}
+
 
         {/* Article Content */}
         <article className="prose prose-lg max-w-none">

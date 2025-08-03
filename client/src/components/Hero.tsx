@@ -41,10 +41,21 @@ const Hero = ({ title, subtitle, featuredArticle }: HeroProps) => {
                   </div>
                 </div>
                 <div className="relative">
-                  <div className="aspect-[4/3] bg-newyorker-light-gray rounded-lg overflow-hidden">
-                    <div className="w-full h-full flex items-center justify-center text-newyorker-text">
-                      <span className="text-sm">Imatge: {featuredArticle.imageCard}</span>
-                    </div>
+                  <div className="aspect-[4/3] bg-gray-200 rounded-lg overflow-hidden">
+                    <img
+                      src={`/api/images/${featuredArticle.imageCard}`}
+                      alt={featuredArticle.title}
+                      className="w-full h-full object-cover"
+                      onError={(e) => {
+                        const target = e.currentTarget;
+                        const fallback = target.nextElementSibling as HTMLElement;
+                        if (target && fallback) {
+                          target.style.display = 'none';
+                          fallback.style.display = 'flex';
+                        }
+                      }}
+                    />
+
                   </div>
                 </div>
               </div>

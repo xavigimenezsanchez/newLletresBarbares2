@@ -43,12 +43,14 @@ const articlesRoutes = require('./routes/articles');
 const issuesRoutes = require('./routes/issues');
 const searchRoutes = require('./routes/search');
 const debugRoutes = require('./routes/debug');
+const mediaRoutes = require('./routes/media');
 
 // Rutas de la API
 app.use('/api/articles', articlesRoutes);
 app.use('/api/issues', issuesRoutes);
 app.use('/api/search', searchRoutes);
 app.use('/api/debug', debugRoutes);
+app.use('/api', mediaRoutes);
 
 // Health check endpoint
 app.get('/api/health', (req, res) => {

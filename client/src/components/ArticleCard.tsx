@@ -31,8 +31,21 @@ const ArticleCard = ({ article }: ArticleCardProps) => {
   return (
     <article className="newyorker-article-card">
       <div className="newyorker-article-image">
-        <div className="w-full h-full bg-newyorker-light-gray flex items-center justify-center">
-          <span className="text-sm text-newyorker-text">
+        <img
+          src={`/api/images/${article.imageCard}`}
+          alt={article.title}
+          className="w-full h-full object-cover"
+          onError={(e) => {
+            const target = e.currentTarget;
+            const fallback = target.nextElementSibling as HTMLElement;
+            if (target && fallback) {
+              target.style.display = 'none';
+              fallback.style.display = 'flex';
+            }
+          }}
+        />
+        <div className="w-full h-full bg-gray-200 flex items-center justify-center absolute inset-0 hidden">
+          <span className="text-sm text-gray-500">
             {article.imageCard}
           </span>
         </div>
