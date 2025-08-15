@@ -33,7 +33,8 @@ app.use(helmet({
       scriptSrc: ["'self'"],
       connectSrc: [
         "'self'",
-        ...(process.env.NODE_ENV === 'development' ? ["http://localhost:5000", "http://localhost:5173"] : [])
+        ...(process.env.NODE_ENV === 'development' ? ["http://localhost:5000", "http://localhost:5173"] : []),
+        ...(process.env.NODE_ENV === 'production' && process.env.FRONTEND_URL ? [process.env.FRONTEND_URL] : [])
       ]
     },
   },
