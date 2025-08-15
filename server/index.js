@@ -20,11 +20,23 @@ app.use(cors({
 }));
 
 // Rate limiting
-const limiter = rateLimit({
+const generalLimiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutos
-  max: 100 // máximo 100 requests por ventana
+  max: 500, // máximo 500 requests por ventana (aumentado para infinite scroll)
+  message: 'Demasiadas peticiones desde esta IP, prova més tard.'
 });
-app.use('/api/', limiter);
+
+// Rate limiting más permisivo para imágenes y media
+const mediaLimiter = rateLimit({
+  windowMs: 1 * 60 * 1000, // 1 minuto
+  max: 200, // máximo 200 peticiones de media por minuto
+  message: 'Demasiadas peticiones de media, prova més tard.'
+});
+
+// Aplicar limiters
+app.use('/api/images/', mediaLimiter);
+app.use('/api/videos/', mediaLimiter);
+app.use('/api/', generalLimiter);
 
 // Parse JSON bodies
 app.use(express.json({ limit: '10mb' }));

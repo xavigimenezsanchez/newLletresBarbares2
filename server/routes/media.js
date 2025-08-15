@@ -24,7 +24,9 @@ router.get('/images/:name', async (req, res) => {
     res.set({
       'Content-Type': 'image/jpeg',
       'Content-Length': data.ContentLength,
-      'Cache-Control': 'public, max-age=31536000', // Cache por 1 año
+      'Cache-Control': 'public, max-age=86400, immutable', // Cache por 1 día, immutable
+      'ETag': data.ETag,
+      'Last-Modified': data.LastModified,
       'Access-Control-Allow-Origin': '*'
     });
     
@@ -69,7 +71,9 @@ router.get('/videos/:name', async (req, res) => {
     res.set({
       'Content-Type': 'video/mp4',
       'Content-Length': data.ContentLength,
-      'Cache-Control': 'public, max-age=31536000', // Cache por 1 año
+      'Cache-Control': 'public, max-age=86400, immutable', // Cache por 1 día, immutable
+      'ETag': data.ETag,
+      'Last-Modified': data.LastModified,
       'Access-Control-Allow-Origin': '*'
     });
     
