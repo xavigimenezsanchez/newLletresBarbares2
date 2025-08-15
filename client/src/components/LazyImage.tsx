@@ -6,6 +6,7 @@ interface LazyImageProps {
   className?: string
   fallbackText?: string
   onError?: () => void
+  usePlaceholder?: boolean
 }
 
 const LazyImage: React.FC<LazyImageProps> = ({
@@ -13,18 +14,24 @@ const LazyImage: React.FC<LazyImageProps> = ({
   alt,
   className = '',
   fallbackText,
-  onError
+  onError,
+  usePlaceholder = false
 }) => {
   const [isLoaded, setIsLoaded] = useState(false)
   const [isInView, setIsInView] = useState(false)
   const [hasError, setHasError] = useState(false)
   const imgRef = useRef<HTMLImageElement>(null)
   const [loadAttempts, setLoadAttempts] = useState(0)
-
   // Intersection Observer para lazy loading
   useEffect(() => {
     const img = imgRef.current
     if (!img) return
+
+    // Si usamos placeholder, cargar inmediatamente
+    if (usePlaceholder) {
+      setIsInView(true)
+      return
+    }
 
     const observer = new IntersectionObserver(
       (entries) => {
@@ -45,7 +52,7 @@ const LazyImage: React.FC<LazyImageProps> = ({
     return () => {
       observer.unobserve(img)
     }
-  }, [])
+  }, [usePlaceholder])
 
   const handleLoad = () => {
     setIsLoaded(true)
@@ -53,8 +60,8 @@ const LazyImage: React.FC<LazyImageProps> = ({
   }
 
   const handleError = () => {
-    if (loadAttempts < 1) {
-      // Solo 1 retry para evitar loops infinitos en modo mock
+    if (loadAttempts < 1 && !usePlaceholder) {
+      // Solo 1 retry para imágenes reales
       setLoadAttempts(prev => prev + 1)
       setTimeout(() => {
         const img = imgRef.current
@@ -69,6 +76,23 @@ const LazyImage: React.FC<LazyImageProps> = ({
     }
   }
 
+  // Función para obtener la imagen src correcta
+  const getImageSrc = () => {
+    if (usePlaceholder) {
+      return '/placeholder-image.svg'
+    }
+    return src
+  }
+
+  // En modo placeholder, configurar como cargado inmediatamente
+  useEffect(() => {
+    if (usePlaceholder) {
+      setIsLoaded(true)
+      setHasError(false)
+      setIsInView(true)
+    }
+  }, [usePlaceholder, src])
+
   return (
     <div className={`relative overflow-hidden ${className}`}>
       {/* Placeholder mientras carga */}
@@ -82,7 +106,7 @@ const LazyImage: React.FC<LazyImageProps> = ({
       {isInView && (
         <img
           ref={imgRef}
-          src={src}
+          src={getImageSrc()}
           alt={alt}
           className={`w-full h-full object-cover transition-opacity duration-300 ${
             isLoaded ? 'opacity-100' : 'opacity-0'

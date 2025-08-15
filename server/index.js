@@ -11,7 +11,36 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware de seguridad y optimización
-app.use(helmet());
+app.use(helmet({
+  contentSecurityPolicy: {
+    directives: {
+      defaultSrc: ["'self'"],
+      imgSrc: [
+        "'self'",
+        "data:",
+        "http://localhost:5000",
+        "http://localhost:5173",
+        "https://lletresbarbares.s3.amazonaws.com",
+        "https://lletresbarbares.s3.*.amazonaws.com"
+      ],
+      mediaSrc: [
+        "'self'",
+        "http://localhost:5000",
+        "http://localhost:5173",
+        "https://lletresbarbares.s3.amazonaws.com",
+        "https://lletresbarbares.s3.*.amazonaws.com"
+      ],
+      styleSrc: ["'self'", "'unsafe-inline'", "https:"],
+      fontSrc: ["'self'", "https:", "data:"],
+      scriptSrc: ["'self'"],
+      connectSrc: [
+        "'self'",
+        "http://localhost:5000",
+        "http://localhost:5173"
+      ]
+    },
+  },
+}));
 app.use(compression());
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 

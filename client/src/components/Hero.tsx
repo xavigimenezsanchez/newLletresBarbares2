@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import LazyImage from './LazyImage'
 import type { Article } from '../types'
 
 interface HeroProps {
@@ -43,11 +42,18 @@ const Hero = ({ title, subtitle, featuredArticle }: HeroProps) => {
                 </div>
                 <div className="relative">
                   <div className="aspect-[4/3] bg-gray-200 rounded-lg overflow-hidden">
-                    <LazyImage
+                    <img
                       src={`/api/images/${featuredArticle.imageCard}`}
                       alt={featuredArticle.title}
-                      className="w-full h-full rounded-lg"
-                      fallbackText={featuredArticle.imageCard}
+                      className="w-full h-full object-cover rounded-lg"
+                      onError={(e) => {
+                        console.log('Error loading hero image:', `/api/images/${featuredArticle.imageCard}`)
+                        const target = e.currentTarget;
+                        target.src = '/placeholder-image.svg';
+                      }}
+                      onLoad={() => {
+                        console.log('Hero image loaded successfully:', `/api/images/${featuredArticle.imageCard}`)
+                      }}
                     />
                   </div>
                 </div>

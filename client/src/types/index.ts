@@ -19,6 +19,7 @@ export interface Footnote {
 }
 
 export interface Article {
+  _id?: string;
   issue: number;
   data: string; // fecha en formato DD/MM/YYYY
   imageCard: string;
@@ -28,6 +29,14 @@ export interface Article {
   author: string;
   summary: string;
   text: ArticleTextElement[];
+  // Campos adicionales para compatibilidad con API
+  issueId?: string;
+  year?: number;
+  issueNumber?: number;
+  isPublished?: boolean;
+  publicationDate?: Date;
+  tags?: string[];
+  readTime?: number;
 }
 
 export interface Issue {

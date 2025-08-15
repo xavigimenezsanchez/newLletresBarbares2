@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import LazyImage from './LazyImage'
 import type { Article } from '../types'
 
 interface ArticleCardProps {
@@ -32,11 +31,18 @@ const ArticleCard = ({ article }: ArticleCardProps) => {
   return (
     <article className="newyorker-article-card">
       <div className="newyorker-article-image">
-        <LazyImage
+        <img
           src={`/api/images/${article.imageCard}`}
           alt={article.title}
-          className="w-full h-full"
-          fallbackText={article.imageCard}
+          className="w-full h-full object-cover"
+          onError={(e) => {
+            console.log('Error loading image:', `/api/images/${article.imageCard}`)
+            const target = e.currentTarget;
+            target.src = '/placeholder-image.svg';
+          }}
+          onLoad={() => {
+            console.log('Image loaded successfully:', `/api/images/${article.imageCard}`)
+          }}
         />
       </div>
       

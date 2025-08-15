@@ -103,6 +103,7 @@ const SectionPage: React.FC<SectionPageProps> = ({
                     alt={article.title}
                     className="w-full h-full"
                     fallbackText={article.imageCard}
+                    usePlaceholder={false}
                   />
                 </div>
                 
