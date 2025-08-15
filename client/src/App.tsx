@@ -7,6 +7,7 @@ import EntrevistesPage from './pages/EntrevistesPage'
 import LlibresPage from './pages/LlibresPage'
 import LlocsPage from './pages/LlocsPage'
 import RecomanacionsPage from './pages/RecomanacionsPage'
+import ArxiuPage from './pages/ArxiuPage'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/llibres" element={<LlibresPage />} />
         <Route path="/llocs" element={<LlocsPage />} />
         <Route path="/recomanacions" element={<RecomanacionsPage />} />
+        <Route path="/arxiu" element={<ArxiuPage />} />
         <Route path="/:section/:url" element={<ArticlePage />} />
       </Routes>
     </Router>
