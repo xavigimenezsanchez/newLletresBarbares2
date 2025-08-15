@@ -31,7 +31,9 @@ const SectionPage: React.FC<SectionPageProps> = ({
 }) => {
   const fetchArticles = useCallback(async (page: number) => {
     const limit = page === 1 ? 15 : 12 // Primera carga: 15, resto: 12
+    console.log(`[${section}] Fetching page ${page} with limit ${limit}`)
     const response = await apiService.getArticlesBySectionPaginated(section, page, limit) as ApiResponse
+    console.log(`[${section}] Received ${response.articles.length} articles for page ${page}`)
     
     return {
       items: response.articles,
@@ -95,7 +97,7 @@ const SectionPage: React.FC<SectionPageProps> = ({
           {/* Grid de artículos */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
             {articles.map((article, index) => (
-              <article key={`${article._id}-${index}`} className="newyorker-article-card">
+              <article key={article._id || `article-${index}`} className="newyorker-article-card">
                 <div className="newyorker-article-image">
                   <img
                     src={`/api/images/${article.imageCard}`}

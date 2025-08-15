@@ -1,5 +1,3 @@
-import { allMockArticles, mockArticles, mockIssue } from '../data/mockData'
-
 const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
 
 class ApiService {
@@ -22,27 +20,12 @@ class ApiService {
 
       return await response.json();
     } catch (error) {
-      console.error('API request failed, falling back to mock data:', error);
+      console.error('API request failed:', error);
       throw error;
     }
   }
 
-  private getMockArticlesBySection(section: string, page: number = 1, limit: number = 15) {
-    const sectionArticles = allMockArticles.filter(article => article.section === section)
-    const startIndex = (page - 1) * limit
-    const endIndex = startIndex + limit
-    const articles = sectionArticles.slice(startIndex, endIndex)
-    
-    return {
-      articles,
-      pagination: {
-        page,
-        limit,
-        total: sectionArticles.length,
-        pages: Math.ceil(sectionArticles.length / limit)
-      }
-    }
-  }
+
 
   // Artículos
   async getArticles(params?: {
@@ -67,21 +50,11 @@ class ApiService {
   // }  
   
   async getRecentArticles() {
-    try {
-      return await this.request(`/articles/recent`);
-    } catch (error) {
-      console.warn('Using mock data for recent articles');
-      return mockArticles.slice(0, 6);
-    }
+    return await this.request(`/articles/recent`);
   }
 
   async getFeaturedArticle() {
-    try {
-      return await this.request('/articles/featured');
-    } catch (error) {
-      console.warn('Using mock data for featured article');
-      return mockArticles[0];
-    }
+    return await this.request('/articles/featured');
   }
 
   async getArticleBySlug(slug: string) {
@@ -89,16 +62,7 @@ class ApiService {
   }
 
   async getArticleBySectionAndUrl(section: string, url: string) {
-    try {
-      return await this.request(`/articles/${section}/${url}`);
-    } catch (error) {
-      console.warn('Using mock data for article:', section, url);
-      const article = allMockArticles.find(a => a.section === section && a.url === url);
-      if (article) {
-        return article;
-      }
-      throw new Error('Article not found');
-    }
+    return await this.request(`/articles/${section}/${url}`);
   }
 
   async getArticlesBySection(section: string, limit: number = 10) {
@@ -106,12 +70,7 @@ class ApiService {
   }
 
   async getArticlesBySectionPaginated(section: string, page: number = 1, limit: number = 15) {
-    try {
-      return await this.request(`/articles?section=${section}&page=${page}&limit=${limit}`);
-    } catch (error) {
-      console.warn('Using mock data for section:', section);
-      return this.getMockArticlesBySection(section, page, limit);
-    }
+    return await this.request(`/articles?section=${section}&page=${page}&limit=${limit}`);
   }
 
   async getArticlesByAuthor(author: string, limit: number = 10) {
@@ -133,12 +92,7 @@ class ApiService {
   }
 
   async getLatestIssue() {
-    try {
-      return await this.request('/issues/latest');
-    } catch (error) {
-      console.warn('Using mock data for latest issue');
-      return mockIssue;
-    }
+    return await this.request('/issues/latest');
   }
 
   async getIssueByYearAndNumber(year: number, number: number) {
