@@ -48,9 +48,6 @@ const Footer = () => {
         
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300">
           <p>&copy; {currentYear} Lletres Barbares. Tots els drets reservats.</p>
-          <p className="mt-2 text-sm">
-            Dissenyat amb inspiració en The New Yorker
-          </p>
         </div>
       </div>
     </footer>
