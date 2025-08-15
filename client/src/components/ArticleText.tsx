@@ -1,4 +1,3 @@
-import LazyImage from './LazyImage'
 import type { ArticleTextElement } from '../types'
 
 interface ArticleTextProps {
@@ -23,11 +22,18 @@ const ArticleText = ({ elements }: ArticleTextProps) => {
               />
               <div className="flex justify-center">
                 <div className="max-w-[600px] w-full">
-                  <LazyImage
+                  <img
                     src={`/api/images/${element.image.name}`}
                     alt=""
                     className="w-full h-auto rounded-lg"
-                    usePlaceholder={true}
+                    onError={(e) => {
+                      console.log('Error loading embedded image:', `/api/images/${element.image?.name}`)
+                      const target = e.currentTarget;
+                      target.src = '/placeholder-image.svg';
+                    }}
+                    onLoad={() => {
+                      console.log('Embedded image loaded successfully:', `/api/images/${element.image?.name}`)
+                    }}
                   />
                 </div>
               </div>
@@ -100,11 +106,18 @@ const ArticleText = ({ elements }: ArticleTextProps) => {
         return (
           <div key={elementKey} className="my-8 flex justify-center">
             <div className="max-w-[600px] w-full">
-              <LazyImage
+              <img
                 src={`/api/images/${element.name}`}
                 alt=""
                 className={`w-full h-auto rounded-lg ${element.className || ''}`}
-                usePlaceholder={true}
+                onError={(e) => {
+                  console.log('Error loading article image:', `/api/images/${element.name}`)
+                  const target = e.currentTarget;
+                  target.src = '/placeholder-image.svg';
+                }}
+                onLoad={() => {
+                  console.log('Article image loaded successfully:', `/api/images/${element.name}`)
+                }}
               />
               {element.content && (
                 <p className="text-sm text-gray-600 mt-2 text-center">

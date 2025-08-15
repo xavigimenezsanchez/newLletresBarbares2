@@ -2,7 +2,6 @@ import React, { useCallback } from 'react'
 import { Link } from 'react-router-dom'
 import Header from './Header'
 import Footer from './Footer'
-import LazyImage from './LazyImage'
 import { apiService } from '../services/api'
 import { useInfiniteScroll } from '../hooks/useInfiniteScroll'
 import type { Article } from '../types'
@@ -98,12 +97,18 @@ const SectionPage: React.FC<SectionPageProps> = ({
             {articles.map((article, index) => (
               <article key={`${article._id}-${index}`} className="newyorker-article-card">
                 <div className="newyorker-article-image">
-                  <LazyImage
+                  <img
                     src={`/api/images/${article.imageCard}`}
                     alt={article.title}
-                    className="w-full h-full"
-                    fallbackText={article.imageCard}
-                    usePlaceholder={false}
+                    className="w-full h-full object-cover"
+                    onError={(e) => {
+                      console.log('Error loading section image:', `/api/images/${article.imageCard}`)
+                      const target = e.currentTarget;
+                      target.src = '/placeholder-image.svg';
+                    }}
+                    onLoad={() => {
+                      console.log('Section image loaded successfully:', `/api/images/${article.imageCard}`)
+                    }}
                   />
                 </div>
                 
