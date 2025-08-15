@@ -18,15 +18,13 @@ app.use(helmet({
       imgSrc: [
         "'self'",
         "data:",
-        "http://localhost:5000",
-        "http://localhost:5173",
+        ...(process.env.NODE_ENV === 'development' ? ["http://localhost:5000", "http://localhost:5173"] : []),
         "https://lletresbarbares.s3.amazonaws.com",
         "https://lletresbarbares.s3.*.amazonaws.com"
       ],
       mediaSrc: [
         "'self'",
-        "http://localhost:5000",
-        "http://localhost:5173",
+        ...(process.env.NODE_ENV === 'development' ? ["http://localhost:5000", "http://localhost:5173"] : []),
         "https://lletresbarbares.s3.amazonaws.com",
         "https://lletresbarbares.s3.*.amazonaws.com"
       ],
@@ -35,8 +33,7 @@ app.use(helmet({
       scriptSrc: ["'self'"],
       connectSrc: [
         "'self'",
-        "http://localhost:5000",
-        "http://localhost:5173"
+        ...(process.env.NODE_ENV === 'development' ? ["http://localhost:5000", "http://localhost:5173"] : [])
       ]
     },
   },
@@ -44,7 +41,7 @@ app.use(helmet({
 app.use(compression());
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? ['https://your-app-name.herokuapp.com'] 
+    ? (process.env.FRONTEND_URL ? [process.env.FRONTEND_URL] : false) 
     : ['http://localhost:3000', 'http://localhost:5173']
 }));
 
@@ -122,10 +119,12 @@ app.use((err, req, res, next) => {
   });
 });
 
-// Middleware para rutas no encontradas
-app.use('*', (req, res) => {
-  res.status(404).json({ error: 'Ruta no encontrada' });
-});
+// Middleware para rutas no encontradas (solo en desarrollo)
+if (process.env.NODE_ENV !== 'production') {
+  app.use('*', (req, res) => {
+    res.status(404).json({ error: 'Ruta no encontrada' });
+  });
+}
 
 app.listen(PORT, () => {
   console.log(`🚀 Servidor ejecutándose en puerto ${PORT}`);
