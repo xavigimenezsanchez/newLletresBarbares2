@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 
 interface InfiniteScrollOptions {
   threshold?: number
@@ -54,6 +54,7 @@ export function useInfiniteScroll<T>(
   }, [fetchFunction, state.loading, state.hasMore, state.page])
 
   const reset = useCallback(() => {
+    initialLoadRef.current = false
     setState({
       items: [],
       loading: false,
@@ -87,12 +88,15 @@ export function useInfiniteScroll<T>(
     }
   }, [targetElement, loadMore, state.hasMore, state.loading, threshold, rootMargin])
 
-  // Cargar datos iniciales
+  // Cargar datos iniciales - usar ref para evitar loops
+  const initialLoadRef = useRef(false)
+  
   useEffect(() => {
-    if (state.items.length === 0 && !state.loading && state.hasMore) {
+    if (!initialLoadRef.current && state.items.length === 0 && !state.loading && state.hasMore) {
+      initialLoadRef.current = true
       loadMore()
     }
-  }, []) // Solo ejecutar una vez al montar
+  }, [state.items.length, state.loading, state.hasMore, loadMore])
 
   return {
     ...state,

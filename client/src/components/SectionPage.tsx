@@ -31,9 +31,7 @@ const SectionPage: React.FC<SectionPageProps> = ({
 }) => {
   const fetchArticles = useCallback(async (page: number) => {
     const limit = page === 1 ? 15 : 12 // Primera carga: 15, resto: 12
-    console.log(`[${section}] Fetching page ${page} with limit ${limit}`)
     const response = await apiService.getArticlesBySectionPaginated(section, page, limit) as ApiResponse
-    console.log(`[${section}] Received ${response.articles.length} articles for page ${page}`)
     
     return {
       items: response.articles,
