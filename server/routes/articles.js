@@ -12,6 +12,7 @@ router.get('/', async (req, res) => {
       section, 
       author, 
       year,
+      issue,
       sort = 'publicationDate',
       order = 'desc'
     } = req.query;
@@ -21,6 +22,7 @@ router.get('/', async (req, res) => {
     if (section) query.section = section;
     if (author) query.author = { $regex: author, $options: 'i' };
     if (year) query.year = parseInt(year);
+    if (issue) query.issueNumber = parseInt(issue);
 
     const sortObj = {};
     sortObj[sort] = order === 'desc' ? -1 : 1;

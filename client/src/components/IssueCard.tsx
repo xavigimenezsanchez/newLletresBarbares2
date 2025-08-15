@@ -27,7 +27,10 @@ const IssueCard: React.FC<IssueCardProps> = ({ issue, viewMode }) => {
 
   if (viewMode === 'grid') {
     return (
-      <div className="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow duration-200">
+      <Link 
+        to={`/edicio/${issue.number}`}
+        className="block bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow duration-200"
+      >
         {/* Portada placeholder - TODO: cuando tengamos coverImage */}
         <div className="aspect-[3/4] bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
           <div className="text-center p-4">
@@ -60,7 +63,7 @@ const IssueCard: React.FC<IssueCardProps> = ({ issue, viewMode }) => {
             </p>
           )}
         </div>
-      </div>
+      </Link>
     )
   }
 
@@ -128,7 +131,7 @@ const IssueCard: React.FC<IssueCardProps> = ({ issue, viewMode }) => {
         {/* Actions */}
         <div className="flex items-center gap-3">
           <Link
-            to={`/`} // TODO: crear página para ver issue completo
+            to={`/edicio/${issue.number}`}
             className="inline-flex items-center px-4 py-2 bg-black text-white text-sm rounded hover:bg-gray-800 transition-colors duration-200"
           >
             Veure edició

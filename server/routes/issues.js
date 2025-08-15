@@ -79,6 +79,32 @@ router.get('/years', async (req, res) => {
   }
 });
 
+// GET /api/issues/number/:number - Obtener número específico por número
+router.get('/number/:number', async (req, res) => {
+  try {
+    const { number } = req.params;
+    console.log('Buscando número:', number, 'tipo:', typeof number);
+    
+    const parsedNumber = parseInt(number);
+    console.log('Número parseado:', parsedNumber);
+    
+    const issue = await Issue.findOne({ 
+      number: parsedNumber
+    });
+
+    console.log('Issue encontrado:', issue ? 'sí' : 'no');
+
+    if (!issue) {
+      return res.status(404).json({ error: 'Número no encontrado' });
+    }
+
+    res.json(issue);
+  } catch (error) {
+    console.error('Error obteniendo número por número:', error);
+    res.status(500).json({ error: 'Error interno del servidor' });
+  }
+});
+
 // GET /api/issues/year/:year - Obtener números por año
 router.get('/year/:year', async (req, res) => {
   try {

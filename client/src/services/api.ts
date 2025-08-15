@@ -107,6 +107,14 @@ class ApiService {
     return this.request(`/issues/year/${year}`);
   }
 
+  async getIssueByNumber(number: number) {
+    return this.request(`/issues/number/${number}`);
+  }
+
+  async getArticlesByIssueNumber(number: number) {
+    return this.request(`/articles?issue=${number}`);
+  }
+
   // Búsqueda
   async searchArticles(params: {
     q?: string;
