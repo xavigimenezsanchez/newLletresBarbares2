@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import SearchInput from './SearchInput'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -36,12 +37,20 @@ const Header = () => {
           ))}
         </div>
 
-        {/* Mobile Menu Button */}
-        <button
-          className="md:hidden p-2"
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-          aria-label="Toggle menu"
-        >
+        {/* Desktop Search */}
+        <div className="hidden md:block">
+          <SearchInput />
+        </div>
+
+        {/* Mobile Search & Menu */}
+        <div className="md:hidden flex items-center space-x-2">
+          <SearchInput isMobile={true} />
+          
+            <button
+            className="p-2"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            aria-label="Toggle menu"
+          >
           <svg
             className="w-6 h-6"
             fill="none"
@@ -64,7 +73,8 @@ const Header = () => {
               />
             )}
           </svg>
-        </button>
+          </button>
+        </div>
       </nav>
 
       {/* Mobile Navigation */}

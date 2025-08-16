@@ -9,6 +9,7 @@ import LlocsPage from './pages/LlocsPage'
 import RecomanacionsPage from './pages/RecomanacionsPage'
 import ArxiuPage from './pages/ArxiuPage'
 import EdicioPage from './pages/EdicioPage'
+import SearchPage from './pages/SearchPage'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/llocs" element={<LlocsPage />} />
         <Route path="/recomanacions" element={<RecomanacionsPage />} />
         <Route path="/arxiu" element={<ArxiuPage />} />
+        <Route path="/cerca" element={<SearchPage />} />
         <Route path="/edicio/:number" element={<EdicioPage />} />
         <Route path="/:section/:url" element={<ArticlePage />} />
       </Routes>

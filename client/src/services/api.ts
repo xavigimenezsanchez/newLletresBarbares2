@@ -148,6 +148,37 @@ class ApiService {
     return this.request('/search/stats');
   }
 
+  // Search methods
+  async search(params: {
+    q?: string;
+    section?: string;
+    author?: string;
+    year?: number;
+    page?: number;
+    limit?: number;
+  }) {
+    const searchParams = new URLSearchParams();
+    
+    if (params.q) searchParams.append('q', params.q);
+    if (params.section) searchParams.append('section', params.section);
+    if (params.author) searchParams.append('author', params.author);
+    if (params.year) searchParams.append('year', params.year.toString());
+    if (params.page) searchParams.append('page', params.page.toString());
+    if (params.limit) searchParams.append('limit', params.limit.toString());
+
+    return this.request(`/search?${searchParams.toString()}`);
+  }
+
+  async searchText(query: string, page: number = 1, limit: number = 10) {
+    const params = new URLSearchParams({
+      q: query,
+      page: page.toString(),
+      limit: limit.toString()
+    });
+    
+    return this.request(`/search/text?${params.toString()}`);
+  }
+
   // Health check
   async healthCheck() {
     return this.request('/health');
