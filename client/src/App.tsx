@@ -10,6 +10,7 @@ import RecomanacionsPage from './pages/RecomanacionsPage'
 import ArxiuPage from './pages/ArxiuPage'
 import EdicioPage from './pages/EdicioPage'
 import SearchPage from './pages/SearchPage'
+import AnalyticsPage from './pages/AnalyticsPage'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/recomanacions" element={<RecomanacionsPage />} />
         <Route path="/arxiu" element={<ArxiuPage />} />
         <Route path="/cerca" element={<SearchPage />} />
+        <Route path="/analytics" element={<AnalyticsPage />} />
         <Route path="/edicio/:number" element={<EdicioPage />} />
         <Route path="/:section/:url" element={<ArticlePage />} />
       </Routes>

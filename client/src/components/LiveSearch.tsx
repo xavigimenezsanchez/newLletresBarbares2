@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef, useCallback } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { apiService } from '../services/api'
 import { useSearchHistory } from '../hooks/useSearchHistory'
+import { analyticsService } from '../services/analytics'
 import SearchHistory from './SearchHistory'
 import type { Article } from '../types'
 
@@ -35,6 +36,7 @@ const LiveSearch: React.FC<LiveSearchProps> = ({ isOpen, onClose }) => {
   const inputRef = useRef<HTMLInputElement>(null)
   const navigate = useNavigate()
   const { addToHistory } = useSearchHistory()
+  const [currentAnalyticsId, setCurrentAnalyticsId] = useState<string>('')
 
   // Debounce para evitar demasiadas llamadas a la API
   const debouncedSearch = useCallback(
@@ -60,6 +62,22 @@ const LiveSearch: React.FC<LiveSearchProps> = ({ isOpen, onClose }) => {
         // Guardar en historial
         if (searchData && (searchData as SearchResult).pagination) {
           addToHistory(searchQuery, (searchData as SearchResult).pagination.total)
+        }
+
+        // Track analytics
+        const analyticsData = analyticsService.createSearchData(
+          searchQuery,
+          'live_search',
+          undefined,
+          {
+            total: (searchData as SearchResult).pagination.total,
+            returned: (searchData as SearchResult).articles.length
+          }
+        )
+        
+        const analyticsResult = await analyticsService.trackSearch(analyticsData)
+        if (analyticsResult.success) {
+          setCurrentAnalyticsId(analyticsResult.analyticsId)
         }
       } catch (err) {
         console.error('Error en live search:', err)
@@ -96,7 +114,17 @@ const LiveSearch: React.FC<LiveSearchProps> = ({ isOpen, onClose }) => {
     }
   }
 
-  const handleResultClick = (article: Article) => {
+  const handleResultClick = async (article: Article, index: number) => {
+    // Track click analytics
+    if (currentAnalyticsId) {
+      const timeToClick = Date.now() - (Date.now() - 1000) // Aproximado
+      await analyticsService.trackClick(currentAnalyticsId, {
+        clickedResultIndex: index,
+        timeToClick,
+        scrolledResults: false // Podríamos implementar detección de scroll
+      })
+    }
+
     navigate(`/${article.section}/${article.url}`)
     onClose()
     setQuery('')
@@ -250,11 +278,11 @@ const LiveSearch: React.FC<LiveSearchProps> = ({ isOpen, onClose }) => {
                     {!loading && results && results.articles.length > 0 && (
                       <div className="space-y-3">
                         {results.articles.map((article) => (
-                          <button
-                            key={`${article.section}-${article.url}`}
-                            onClick={() => handleResultClick(article)}
-                            className="w-full text-left p-3 rounded-lg hover:bg-gray-50 transition-colors group"
-                          >
+                                                          <button
+                                  key={`${article.section}-${article.url}`}
+                                  onClick={() => handleResultClick(article, index)}
+                                  className="w-full text-left p-3 rounded-lg hover:bg-gray-50 transition-colors group"
+                                >
                             <div className="flex items-start space-x-3">
                               <div className="flex-shrink-0 w-16 h-12 bg-gray-200 rounded overflow-hidden">
                                 {article.imageCard && (
