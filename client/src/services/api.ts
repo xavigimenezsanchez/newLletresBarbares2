@@ -132,10 +132,6 @@ class ApiService {
     return this.request(`/search?${searchParams.toString()}`);
   }
 
-  async searchText(query: string, page: number = 1, limit: number = 10) {
-    return this.request(`/search/text?q=${encodeURIComponent(query)}&page=${page}&limit=${limit}`);
-  }
-
   async getAuthors() {
     return this.request('/search/authors');
   }

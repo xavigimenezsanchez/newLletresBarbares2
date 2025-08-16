@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import SearchInput from './SearchInput'
+import ElegantSearch from './ElegantSearch'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -37,16 +37,12 @@ const Header = () => {
           ))}
         </div>
 
-        {/* Desktop Search */}
-        <div className="hidden md:block">
-          <SearchInput />
-        </div>
+                {/* Elegant Search (responsive) */}
+        <ElegantSearch />
 
-        {/* Mobile Search & Menu */}
-        <div className="md:hidden flex items-center space-x-2">
-          <SearchInput isMobile={true} />
-          
-            <button
+        {/* Mobile Menu Button */}
+        <div className="md:hidden">
+          <button
             className="p-2"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
