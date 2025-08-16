@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { apiService } from '../services/api'
+import { useSearchHistory } from '../hooks/useSearchHistory'
+import SearchHistory from './SearchHistory'
 import type { Article } from '../types'
 
 interface LiveSearchProps {
@@ -32,6 +34,7 @@ const LiveSearch: React.FC<LiveSearchProps> = ({ isOpen, onClose }) => {
   const [showResults, setShowResults] = useState(false)
   const inputRef = useRef<HTMLInputElement>(null)
   const navigate = useNavigate()
+  const { addToHistory } = useSearchHistory()
 
   // Debounce para evitar demasiadas llamadas a la API
   const debouncedSearch = useCallback(
@@ -53,6 +56,11 @@ const LiveSearch: React.FC<LiveSearchProps> = ({ isOpen, onClose }) => {
 
         setResults(searchData as SearchResult)
         setShowResults(true)
+        
+        // Guardar en historial
+        if (searchData && (searchData as SearchResult).pagination) {
+          addToHistory(searchQuery, (searchData as SearchResult).pagination.total)
+        }
       } catch (err) {
         console.error('Error en live search:', err)
         setError('Error en la cerca')
@@ -93,6 +101,11 @@ const LiveSearch: React.FC<LiveSearchProps> = ({ isOpen, onClose }) => {
     onClose()
     setQuery('')
     setShowResults(false)
+  }
+
+  const handleHistorySelect = (query: string) => {
+    setQuery(query)
+    // La búsqueda se activará automáticamente por el useEffect
   }
 
   const handleBackdropClick = (e: React.MouseEvent) => {
@@ -194,82 +207,99 @@ const LiveSearch: React.FC<LiveSearchProps> = ({ isOpen, onClose }) => {
               </div>
             </form>
 
-            {/* Live Results */}
-            {showResults && (
+            {/* Live Results or History */}
+            {(showResults || !query.trim()) && (
               <div className="border-t border-gray-100">
-                <div className="p-4">
-                  <div className="flex items-center justify-between mb-3">
+                {showResults ? (
+                  // Mostrar resultados de búsqueda
+                  <div className="p-4">
+                                      <div className="flex items-center justify-between mb-3">
                     <h3 className="font-medium text-gray-700">
                       {loading ? 'Cercant...' : `${results?.pagination.total || 0} resultats`}
                     </h3>
-                    {results && results.pagination.total > 8 && (
+                    <div className="flex items-center space-x-3">
                       <button
-                        onClick={handleSubmit}
-                        className="text-sm text-newyorker-red hover:text-newyorker-dark transition-colors"
+                        onClick={() => setShowResults(false)}
+                        className="text-sm text-gray-500 hover:text-newyorker-dark transition-colors"
                       >
-                        Veure tots els resultats →
+                        Historial
                       </button>
-                    )}
+                      {results && results.pagination.total > 8 && (
+                        <button
+                          onClick={handleSubmit}
+                          className="text-sm text-newyorker-red hover:text-newyorker-dark transition-colors"
+                        >
+                          Veure tots els resultats →
+                        </button>
+                      )}
+                    </div>
                   </div>
 
-                  {loading && (
-                    <div className="flex justify-center py-4">
-                      <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-newyorker-dark"></div>
-                    </div>
-                  )}
+                    {loading && (
+                      <div className="flex justify-center py-4">
+                        <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-newyorker-dark"></div>
+                      </div>
+                    )}
 
-                  {error && (
-                    <div className="text-red-600 text-sm py-2">
-                      {error}
-                    </div>
-                  )}
+                    {error && (
+                      <div className="text-red-600 text-sm py-2">
+                        {error}
+                      </div>
+                    )}
 
-                  {!loading && results && results.articles.length > 0 && (
-                    <div className="space-y-3">
-                      {results.articles.map((article) => (
-                        <button
-                          key={`${article.section}-${article.url}`}
-                          onClick={() => handleResultClick(article)}
-                          className="w-full text-left p-3 rounded-lg hover:bg-gray-50 transition-colors group"
-                        >
-                          <div className="flex items-start space-x-3">
-                            <div className="flex-shrink-0 w-16 h-12 bg-gray-200 rounded overflow-hidden">
-                              {article.imageCard && (
-                                <img
-                                  src={`/api/images/${article.imageCard}`}
-                                  alt={article.title}
-                                  className="w-full h-full object-cover"
-                                  onError={(e) => {
-                                    const target = e.currentTarget as HTMLImageElement;
-                                    target.src = '/placeholder-image.svg';
-                                  }}
-                                />
-                              )}
+                    {!loading && results && results.articles.length > 0 && (
+                      <div className="space-y-3">
+                        {results.articles.map((article) => (
+                          <button
+                            key={`${article.section}-${article.url}`}
+                            onClick={() => handleResultClick(article)}
+                            className="w-full text-left p-3 rounded-lg hover:bg-gray-50 transition-colors group"
+                          >
+                            <div className="flex items-start space-x-3">
+                              <div className="flex-shrink-0 w-16 h-12 bg-gray-200 rounded overflow-hidden">
+                                {article.imageCard && (
+                                  <img
+                                    src={`/api/images/${article.imageCard}`}
+                                    alt={article.title}
+                                    className="w-full h-full object-cover"
+                                    onError={(e) => {
+                                      const target = e.currentTarget as HTMLImageElement;
+                                      target.src = '/placeholder-image.svg';
+                                    }}
+                                  />
+                                )}
+                              </div>
+                              <div className="flex-1 min-w-0">
+                                <h4 className="font-medium text-newyorker-dark group-hover:text-newyorker-red transition-colors truncate">
+                                  {article.title}
+                                </h4>
+                                <p className="text-sm text-gray-600 mt-1">
+                                  Per {article.author}
+                                </p>
+                                <p className="text-sm text-gray-500 mt-1">
+                                  {article.section} • {article.data}
+                                </p>
+                              </div>
                             </div>
-                            <div className="flex-1 min-w-0">
-                              <h4 className="font-medium text-newyorker-dark group-hover:text-newyorker-red transition-colors truncate">
-                                {article.title}
-                              </h4>
-                              <p className="text-sm text-gray-600 mt-1">
-                                Per {article.author}
-                              </p>
-                              <p className="text-sm text-gray-500 mt-1">
-                                {article.section} • {article.data}
-                              </p>
-                            </div>
-                          </div>
-                        </button>
-                      ))}
-                    </div>
-                  )}
+                          </button>
+                        ))}
+                      </div>
+                    )}
 
-                  {!loading && results && results.articles.length === 0 && query.trim().length >= 2 && (
-                    <div className="text-center py-6 text-gray-500">
-                      <p>Cap resultat trobat per "{query}"</p>
-                      <p className="text-sm mt-1">Prova amb altres termes</p>
-                    </div>
-                  )}
-                </div>
+                    {!loading && results && results.articles.length === 0 && query.trim().length >= 2 && (
+                      <div className="text-center py-6 text-gray-500">
+                        <p>Cap resultat trobat per "{query}"</p>
+                        <p className="text-sm mt-1">Prova amb altres termes</p>
+                      </div>
+                    )}
+                  </div>
+                ) : (
+                  // Mostrar historial cuando no hay query
+                  <SearchHistory
+                    onSearchSelect={handleHistorySelect}
+                    onClose={onClose}
+                  />
+                )}
               </div>
             )}
           </div>
