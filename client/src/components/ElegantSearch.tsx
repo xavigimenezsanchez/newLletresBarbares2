@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
-import SearchOverlay from './SearchOverlay'
+import LiveSearch from './LiveSearch'
 
 interface ElegantSearchProps {
   className?: string
@@ -61,8 +60,8 @@ const ElegantSearch: React.FC<ElegantSearchProps> = ({ className = '' }) => {
         </button>
       </div>
 
-      {/* Overlay para ambos (desktop y mobile) */}
-      <SearchOverlay
+      {/* Live Search para ambos (desktop y mobile) */}
+      <LiveSearch
         isOpen={isOverlayOpen}
         onClose={() => setIsOverlayOpen(false)}
       />
