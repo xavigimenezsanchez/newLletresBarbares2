@@ -21,12 +21,13 @@ router.get('/', async (req, res) => {
 
     const query = { isPublished: true };
     
-    // Búsqueda de texto
+    // Búsqueda de texto (incluye contenido de artículos)
     if (q) {
       query.$or = [
         { title: { $regex: q, $options: 'i' } },
         { summary: { $regex: q, $options: 'i' } },
-        { author: { $regex: q, $options: 'i' } }
+        { author: { $regex: q, $options: 'i' } },
+        { 'text.content': { $regex: q, $options: 'i' } }
       ];
     }
 

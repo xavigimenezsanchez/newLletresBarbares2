@@ -84,10 +84,12 @@ const articleSchema = new mongoose.Schema({
 });
 
 // Índices para búsquedas eficientes
-articleSchema.index({ title: 'text', summary: 'text', author: 'text' });
+articleSchema.index({ title: 'text', summary: 'text', author: 'text', 'text.content': 'text' });
 articleSchema.index({ section: 1, publicationDate: -1 });
 articleSchema.index({ author: 1, publicationDate: -1 });
 articleSchema.index({ year: 1, issueNumber: 1 });
+// Índice adicional para búsqueda en contenido de texto
+articleSchema.index({ 'text.content': 1 });
 
 // Middleware para calcular campos automáticamente
 articleSchema.pre('save', function(next) {
@@ -105,6 +107,65 @@ articleSchema.pre('save', function(next) {
   
   next();
 });
+
+// Método para extraer texto plano del campo text
+articleSchema.methods.getPlainText = function() {
+  if (!this.text || !Array.isArray(this.text)) {
+    return '';
+  }
+  
+  return this.text
+    .filter(item => item.type === 'paragraph' || item.type === 'title')
+    .map(item => {
+      if (!item.content) return '';
+      // Eliminar HTML tags básicos
+      return item.content
+        .replace(/<[^>]*>/g, '') // Remover tags HTML
+        .replace(/&nbsp;/g, ' ') // Reemplazar &nbsp; por espacios
+        .replace(/&amp;/g, '&') // Reemplazar &amp; por &
+        .replace(/&lt;/g, '<') // Reemplazar &lt; por <
+        .replace(/&gt;/g, '>') // Reemplazar &gt; por >
+        .replace(/&quot;/g, '"') // Reemplazar &quot; por "
+        .trim();
+    })
+    .filter(text => text.length > 0)
+    .join(' ');
+};
+
+// Método estático para búsqueda en contenido
+articleSchema.statics.searchInContent = function(query, options = {}) {
+  const {
+    section,
+    author,
+    year,
+    page = 1,
+    limit = 10
+  } = options;
+
+  const searchQuery = { isPublished: true };
+  
+  // Búsqueda en múltiples campos
+  if (query) {
+    searchQuery.$or = [
+      { title: { $regex: query, $options: 'i' } },
+      { summary: { $regex: query, $options: 'i' } },
+      { author: { $regex: query, $options: 'i' } },
+      // Búsqueda en el contenido del texto
+      { 'text.content': { $regex: query, $options: 'i' } }
+    ];
+  }
+
+  // Filtros adicionales
+  if (section) searchQuery.section = section;
+  if (author) searchQuery.author = { $regex: author, $options: 'i' };
+  if (year) searchQuery.year = parseInt(year);
+
+  return this.find(searchQuery)
+    .populate('issueId', 'year number')
+    .sort({ publicationDate: -1 })
+    .limit(parseInt(limit))
+    .skip((parseInt(page) - 1) * parseInt(limit));
+};
 
 // Método para obtener el issue relacionado
 articleSchema.methods.getIssue = function() {
