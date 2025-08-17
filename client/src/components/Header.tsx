@@ -7,6 +7,7 @@ const Header = () => {
   const navigationItems = [
     { label: 'Última edició', href: '/' },
     { label: 'Arxiu', href: '/arxiu' },
+    { label: 'Autors', href: '/autors' },
     { label: 'Articles', href: '/articles' },
     { label: 'Creació', href: '/creacio' },
     { label: 'Entrevistes', href: '/entrevistes' },

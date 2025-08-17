@@ -82,6 +82,7 @@ const articlesRoutes = require('./routes/articles');
 const issuesRoutes = require('./routes/issues');
 const searchRoutes = require('./routes/search');
 const analyticsRoutes = require('./routes/analytics');
+const authorsRoutes = require('./routes/authors');
 const debugRoutes = require('./routes/debug');
 const mediaRoutes = require('./routes/media');
 
@@ -90,6 +91,7 @@ app.use('/api/articles', articlesRoutes);
 app.use('/api/issues', issuesRoutes);
 app.use('/api/search', searchRoutes);
 app.use('/api/analytics', analyticsRoutes);
+app.use('/api/authors', authorsRoutes);
 app.use('/api/debug', debugRoutes);
 app.use('/api', mediaRoutes);
 

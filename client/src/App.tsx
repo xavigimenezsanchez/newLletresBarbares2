@@ -11,6 +11,8 @@ import ArxiuPage from './pages/ArxiuPage'
 import EdicioPage from './pages/EdicioPage'
 import SearchPage from './pages/SearchPage'
 import AnalyticsPage from './pages/AnalyticsPage'
+import AuthorsPage from './pages/AuthorsPage'
+import AuthorPage from './pages/AuthorPage'
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
         <Route path="/cerca" element={<SearchPage />} />
         <Route path="/analytics" element={<AnalyticsPage />} />
         <Route path="/edicio/:number" element={<EdicioPage />} />
+        <Route path="/autors" element={<AuthorsPage />} />
+        <Route path="/autor/:slug" element={<AuthorPage />} />
         <Route path="/:section/:url" element={<ArticlePage />} />
       </Routes>
     </Router>
