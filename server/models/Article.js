@@ -38,9 +38,16 @@ const articleSchema = new mongoose.Schema({
     enum: ['articles', 'creacio', 'entrevistes', 'llibres', 'llocs', 'recomanacions'],
     index: true
   },
-  author: {
+  // CAMBIO: author → authors (array de strings)
+  authors: [{
     type: String,
     required: true,
+    index: true
+  }],
+  // Mantener author por compatibilidad durante la migración
+  author: {
+    type: String,
+    required: false, // Ya no es requerido
     index: true
   },
   summary: {
@@ -84,9 +91,9 @@ const articleSchema = new mongoose.Schema({
 });
 
 // Índices para búsquedas eficientes
-articleSchema.index({ title: 'text', summary: 'text', author: 'text', 'text.content': 'text' });
+articleSchema.index({ title: 'text', summary: 'text', 'authors': 'text', 'text.content': 'text' });
 articleSchema.index({ section: 1, publicationDate: -1 });
-articleSchema.index({ author: 1, publicationDate: -1 });
+articleSchema.index({ authors: 1, publicationDate: -1 }); // Cambiado de author a authors
 articleSchema.index({ year: 1, issueNumber: 1 });
 // Índice adicional para búsqueda en contenido de texto
 articleSchema.index({ 'text.content': 1 });
@@ -99,117 +106,185 @@ articleSchema.pre('save', function(next) {
     this.publicationDate = new Date(parseInt(year), parseInt(month) - 1, parseInt(day));
   }
   
-  // Calcular year y issueNumber desde el campo issue
-  if (this.issue && !this.year) {
-    // Asumiendo que el campo issue contiene el año
-    this.year = this.issue;
+  // Calcular year desde publicationDate
+  if (this.publicationDate && !this.year) {
+    this.year = this.publicationDate.getFullYear();
+  }
+  
+  // Calcular issueNumber desde issue
+  if (this.issue && !this.issueNumber) {
+    this.issueNumber = this.issue;
   }
   
   next();
 });
 
-// Método para extraer texto plano del campo text
-articleSchema.methods.getPlainText = function() {
-  if (!this.text || !Array.isArray(this.text)) {
-    return '';
-  }
-  
-  return this.text
-    .filter(item => item.type === 'paragraph' || item.type === 'title')
-    .map(item => {
-      if (!item.content) return '';
-      // Eliminar HTML tags básicos
-      return item.content
-        .replace(/<[^>]*>/g, '') // Remover tags HTML
-        .replace(/&nbsp;/g, ' ') // Reemplazar &nbsp; por espacios
-        .replace(/&amp;/g, '&') // Reemplazar &amp; por &
-        .replace(/&lt;/g, '<') // Reemplazar &lt; por <
-        .replace(/&gt;/g, '>') // Reemplazar &gt; por >
-        .replace(/&quot;/g, '"') // Reemplazar &quot; por "
-        .trim();
-    })
-    .filter(text => text.length > 0)
-    .join(' ');
-};
+// MÉTODOS ESTÁTICOS RESTAURADOS PARA COMPATIBILIDAD
 
-// Método estático para búsqueda en contenido
-articleSchema.statics.searchInContent = function(query, options = {}) {
-  const {
-    section,
-    author,
-    year,
-    page = 1,
-    limit = 10
-  } = options;
-
-  const searchQuery = { isPublished: true };
-  
-  // Búsqueda en múltiples campos
-  if (query) {
-    searchQuery.$or = [
-      { title: { $regex: query, $options: 'i' } },
-      { summary: { $regex: query, $options: 'i' } },
-      { author: { $regex: query, $options: 'i' } },
-      // Búsqueda en el contenido del texto
-      { 'text.content': { $regex: query, $options: 'i' } }
-    ];
-  }
-
-  // Filtros adicionales
-  if (section) searchQuery.section = section;
-  if (author) searchQuery.author = { $regex: author, $options: 'i' };
-  if (year) searchQuery.year = parseInt(year);
-
-  return this.find(searchQuery)
+// Método estático para obtener artículos recientes
+articleSchema.statics.getRecent = function(limit = 10) {
+  return this.find({ isPublished: true })
     .populate('issueId', 'year number')
     .sort({ publicationDate: -1 })
-    .limit(parseInt(limit))
-    .skip((parseInt(page) - 1) * parseInt(limit));
+    .limit(limit);
 };
+
+// Método estático para obtener artículos por sección
+articleSchema.statics.getBySection = function(section, limit = 10) {
+  return this.find({ section, isPublished: true })
+    .populate('issueId', 'year number')
+    .sort({ publicationDate: -1 })
+    .limit(limit);
+};
+
+// Método estático para obtener artículos por autor
+articleSchema.statics.getByAuthor = function(author, limit = 10) {
+  return this.find({
+    $or: [
+      { authors: { $in: [author] } },
+      { author: author } // Compatibilidad con datos antiguos
+    ],
+    isPublished: true
+  })
+    .populate('issueId', 'year number')
+    .sort({ publicationDate: -1 })
+    .limit(limit);
+};
+
+// Método estático para obtener artículos por año y número
+articleSchema.statics.getByYearAndIssue = function(year, issueNumber, limit = 10) {
+  return this.find({ year, issueNumber, isPublished: true })
+    .populate('issueId', 'year number')
+    .sort({ publicationDate: -1 })
+    .limit(limit);
+};
+
+// Método estático para buscar por autor
+articleSchema.statics.findByAuthor = function(authorName) {
+  return this.find({
+    $or: [
+      { authors: { $in: [authorName] } },
+      { author: authorName } // Compatibilidad con datos antiguos
+    ]
+  });
+};
+
+// Método estático para buscar por múltiples autores
+articleSchema.statics.findByAuthors = function(authorNames) {
+  return this.find({
+    $or: [
+      { authors: { $in: authorNames } },
+      { author: { $in: authorNames } } // Compatibilidad con datos antiguos
+    ]
+  });
+};
+
+// Método para obtener todos los autores únicos
+articleSchema.statics.getUniqueAuthors = function() {
+  return this.aggregate([
+    {
+      $project: {
+        allAuthors: {
+          $setUnion: [
+            { $ifNull: ['$authors', []] },
+            { $ifNull: [{ $cond: [{ $ne: ['$author', null] }, ['$author'], []] }, []] }
+          ]
+        }
+      }
+    },
+    { $unwind: '$allAuthors' },
+    { $group: { _id: '$allAuthors' } },
+    { $sort: { _id: 1 } }
+  ]);
+};
+
+// Método para buscar artículos con texto completo
+articleSchema.statics.fullTextSearch = function(query, options = {}) {
+  const searchQuery = {
+    $or: [
+      { title: { $regex: query, $options: 'i' } },
+      { summary: { $regex: query, $options: 'i' } },
+      { authors: { $in: [new RegExp(query, 'i')] } },
+      { author: { $regex: query, $options: 'i' } }, // Compatibilidad
+      { 'text.content': { $regex: query, $options: 'i' } }
+    ]
+  };
+
+  // Aplicar filtros adicionales
+  if (options.section) {
+    searchQuery.section = options.section;
+  }
+  
+  if (options.year) {
+    searchQuery.year = options.year;
+  }
+
+  return this.find(searchQuery)
+    .sort(options.sort || { publicationDate: -1 })
+    .limit(options.limit || 50)
+    .skip(options.skip || 0);
+};
+
+// Método para obtener estadísticas por autor
+articleSchema.statics.getAuthorStats = function() {
+  return this.aggregate([
+    {
+      $project: {
+        allAuthors: {
+          $setUnion: [
+            { $ifNull: ['$authors', []] },
+            { $ifNull: [{ $cond: [{ $ne: ['$author', null] }, ['$author'], []] }, []] }
+          ]
+        },
+        section: 1,
+        year: 1,
+        publicationDate: 1
+      }
+    },
+    { $unwind: '$allAuthors' },
+    {
+      $group: {
+        _id: '$allAuthors',
+        totalArticles: { $sum: 1 },
+        sections: { $addToSet: '$section' },
+        years: { $addToSet: '$year' },
+        firstPublication: { $min: '$publicationDate' },
+        lastPublication: { $max: '$publicationDate' }
+      }
+    },
+    {
+      $project: {
+        author: '$_id',
+        totalArticles: 1,
+        sections: 1,
+        years: 1,
+        firstPublication: 1,
+        lastPublication: 1,
+        _id: 0
+      }
+    },
+    { $sort: { totalArticles: -1, author: 1 } }
+  ]);
+};
+
+// MÉTODOS DE INSTANCIA
 
 // Método para obtener el issue relacionado
 articleSchema.methods.getIssue = function() {
   return mongoose.model('Issue').findById(this.issueId);
 };
 
-// Método estático para búsqueda de texto completo
-articleSchema.statics.searchText = function(query) {
-  return this.find(
-    { $text: { $search: query } },
-    { score: { $meta: "textScore" } }
-  ).sort({ score: { $meta: "textScore" } });
+// Método para obtener autores formateados
+articleSchema.methods.getFormattedAuthors = function() {
+  if (this.authors && this.authors.length > 0) {
+    return this.authors;
+  }
+  if (this.author) {
+    return [this.author];
+  }
+  return [];
 };
 
-// Método estático para obtener artículos por sección
-articleSchema.statics.getBySection = function(section, limit = 10) {
-  return this.find({ section, isPublished: true })
-    .sort({ publicationDate: -1 })
-    .limit(limit)
-    .populate('issueId', 'year number');
-};
+const Article = mongoose.model('Article', articleSchema);
 
-// Método estático para obtener artículos por autor
-articleSchema.statics.getByAuthor = function(author, limit = 10) {
-  return this.find({ author, isPublished: true })
-    .sort({ publicationDate: -1 })
-    .limit(limit)
-    .populate('issueId', 'year number');
-};
-
-// Método estático para obtener artículos recientes
-articleSchema.statics.getRecent = function(limit = 10) {
-  return this.find({ isPublished: true })
-    .sort({ publicationDate: -1 })
-    .limit(limit)
-    .populate('issueId', 'year number');
-};
-
-// Método estático para obtener artículos por año y número
-articleSchema.statics.getByYearAndIssue = function(year, issueNumber, limit = 10) {
-  return this.find({ year, issueNumber, isPublished: true })
-    .sort({ publicationDate: -1 })
-    .limit(limit)
-    .populate('issueId', 'year number');
-};
-
-module.exports = mongoose.model('Article', articleSchema); 
+module.exports = Article; 

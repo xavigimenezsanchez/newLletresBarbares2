@@ -5,6 +5,7 @@ import type { Article } from '../types'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import ArticleText from '../components/ArticleText'
+import AuthorDisplay from '../components/AuthorDisplay'
 
 const ArticlePage = () => {
   const { section, url } = useParams<{ section: string; url: string }>()
@@ -99,8 +100,7 @@ const ArticlePage = () => {
           
           <div className="flex items-center justify-between text-sm text-gray-600 mb-8">
             <div>
-              <span>Per </span>
-              <span className="font-medium">{article.author}</span>
+              <AuthorDisplay article={article} showPrefix={false} className="font-medium" />
             </div>
             <div>
               <time dateTime={article.data}>
@@ -119,8 +119,6 @@ const ArticlePage = () => {
             </div>
           )}
         </header>
-
-
 
         {/* Article Content */}
         <article className="prose prose-lg max-w-none">

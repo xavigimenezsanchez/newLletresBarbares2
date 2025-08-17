@@ -20,34 +20,45 @@ export interface Footnote {
 
 export interface Article {
   _id?: string;
+  issueId?: string;
   issue: number;
-  data: string; // fecha en formato DD/MM/YYYY
-  imageCard: string;
+  data: string;
+  imageCard?: string;
   title: string;
   url: string;
   section: 'articles' | 'creacio' | 'entrevistes' | 'llibres' | 'llocs' | 'recomanacions';
-  author: string;
+  // CAMBIO: author → authors (array de strings)
+  authors: string[];
+  // Mantener author por compatibilidad durante la migración
+  author?: string;
   summary: string;
-  text: ArticleTextElement[];
-  // Campos adicionales para compatibilidad con API
-  issueId?: string;
-  year?: number;
-  issueNumber?: number;
+  text: Array<{
+    type: 'paragraph' | 'title' | 'image' | 'video' | 'youtube' | 'biography' | 'footnotes';
+    content: string;
+    name?: string;
+  }>;
+  publicationDate?: string;
   isPublished?: boolean;
-  publicationDate?: Date;
   tags?: string[];
   readTime?: number;
+  year?: number;
+  issueNumber?: number;
+  createdAt?: string;
+  updatedAt?: string;
 }
 
 export interface Issue {
-  year: number;
+  _id?: string;
   number: number;
-  articles: Article[];
-  creacio: Article[];
-  entrevistes: Article[];
-  llibres: Article[];
-  llocs: Article[];
-  recomanacions: Article[];
+  year: number;
+  title: string;
+  description?: string;
+  coverImage?: string;
+  publicationDate: string;
+  isPublished: boolean;
+  articles?: Article[];
+  createdAt?: string;
+  updatedAt?: string;
 }
 
 export interface MagazineData {
@@ -126,4 +137,39 @@ export interface AuthorStats {
   totalArticles: number;
   firstPublication?: string;
   lastPublication?: string;
+}
+
+export interface SearchResult {
+  articles: Article[];
+  total: number;
+  page: number;
+  pages: number;
+  query?: string;
+}
+
+export interface SearchAnalytics {
+  _id?: string;
+  query: string;
+  results: number;
+  timestamp: Date;
+  userAgent?: string;
+  ip?: string;
+  sessionId?: string;
+}
+
+export interface PaginationInfo {
+  page: number;
+  limit: number;
+  total: number;
+  pages: number;
+  hasNext: boolean;
+  hasPrev: boolean;
+}
+
+export interface ApiResponse<T> {
+  success: boolean;
+  data?: T;
+  message?: string;
+  error?: string;
+  pagination?: PaginationInfo;
 } 

@@ -25,14 +25,13 @@ class ApiService {
     }
   }
 
-
-
   // Artículos
   async getArticles(params?: {
     page?: number;
     limit?: number;
     section?: string;
-    author?: string;
+    author?: string; // Mantener por compatibilidad
+    authors?: string[]; // Nuevo parámetro para múltiples autores
     year?: number;
   }) {
     const searchParams = new URLSearchParams();
@@ -40,15 +39,14 @@ class ApiService {
     if (params?.limit) searchParams.append('limit', params.limit.toString());
     if (params?.section) searchParams.append('section', params.section);
     if (params?.author) searchParams.append('author', params.author);
+    if (params?.authors && params.authors.length > 0) {
+      params.authors.forEach(author => searchParams.append('authors', author));
+    }
     if (params?.year) searchParams.append('year', params.year.toString());
 
     return this.request(`/articles?${searchParams.toString()}`);
   }
 
-  // async getRecentArticles(limit: number = 6) {
-  //   return this.request(`/articles/recent?limit=${limit}`);
-  // }  
-  
   async getRecentArticles() {
     return await this.request(`/articles/recent`);
   }
@@ -73,8 +71,18 @@ class ApiService {
     return await this.request(`/articles?section=${section}&page=${page}&limit=${limit}`);
   }
 
+  // Actualizado para manejar múltiples autores
   async getArticlesByAuthor(author: string, limit: number = 10) {
     return this.request(`/articles/author/${encodeURIComponent(author)}?limit=${limit}`);
+  }
+
+  // Nuevo método para buscar por múltiples autores
+  async getArticlesByAuthors(authors: string[], limit: number = 10) {
+    const searchParams = new URLSearchParams();
+    authors.forEach(author => searchParams.append('authors', author));
+    if (limit) searchParams.append('limit', limit.toString());
+    
+    return this.request(`/articles/authors?${searchParams.toString()}`);
   }
 
   // Números de revista
@@ -115,18 +123,25 @@ class ApiService {
     return this.request(`/articles?issue=${number}`);
   }
 
-  // Búsqueda
+  // Búsqueda - Actualizado para múltiples autores
   async searchArticles(params: {
     q?: string;
     section?: string;
-    author?: string;
+    author?: string; // Mantener por compatibilidad
+    authors?: string[]; // Nuevo parámetro
     year?: number;
     page?: number;
     limit?: number;
   }) {
     const searchParams = new URLSearchParams();
     Object.entries(params).forEach(([key, value]) => {
-      if (value !== undefined) searchParams.append(key, value.toString());
+      if (value !== undefined) {
+        if (key === 'authors' && Array.isArray(value)) {
+          value.forEach(author => searchParams.append('authors', author));
+        } else {
+          searchParams.append(key, value.toString());
+        }
+      }
     });
 
     return this.request(`/search?${searchParams.toString()}`);
@@ -144,11 +159,12 @@ class ApiService {
     return this.request('/search/stats');
   }
 
-  // Search methods
+  // Search methods - Actualizado para múltiples autores
   async search(params: {
     q?: string;
     section?: string;
-    author?: string;
+    author?: string; // Mantener por compatibilidad
+    authors?: string[]; // Nuevo parámetro
     year?: number;
     page?: number;
     limit?: number;
@@ -158,6 +174,9 @@ class ApiService {
     if (params.q) searchParams.append('q', params.q);
     if (params.section) searchParams.append('section', params.section);
     if (params.author) searchParams.append('author', params.author);
+    if (params.authors && params.authors.length > 0) {
+      params.authors.forEach(author => searchParams.append('authors', author));
+    }
     if (params.year) searchParams.append('year', params.year.toString());
     if (params.page) searchParams.append('page', params.page.toString());
     if (params.limit) searchParams.append('limit', params.limit.toString());

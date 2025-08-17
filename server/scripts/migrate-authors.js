@@ -29,55 +29,101 @@ async function migrateAuthors() {
   console.log('Iniciando migración de autores...');
   
   try {
-    // Obtener todos los artículos únicos por autor
-    const articles = await Article.find({}).select('author section year issueNumber publicationDate');
+    // Obtener todos los artículos con el campo authors (nuevo) y author (compatibilidad)
+    const articles = await Article.find({}).select('authors author section year issueNumber publicationDate');
+    
+    console.log(`Total de artículos encontrados: ${articles.length}`);
     
     // Agrupar por autor
     const authorsMap = new Map();
     
     articles.forEach(article => {
-      if (!article.author) return;
+      // Obtener todos los autores del artículo
+      let articleAuthors = [];
       
-      if (!authorsMap.has(article.author)) {
-        authorsMap.set(article.author, {
-          name: article.author,
-          articles: [],
-          sections: new Set(),
-          years: new Set(),
-          firstPublication: null,
-          lastPublication: null
-        });
+      // Priorizar el nuevo campo authors, pero mantener compatibilidad con author
+      if (article.authors && article.authors.length > 0) {
+        articleAuthors = article.authors;
+      } else if (article.author) {
+        // Fallback al campo author si authors no existe
+        articleAuthors = [article.author];
       }
       
-      const authorData = authorsMap.get(article.author);
-      authorData.articles.push(article);
-      authorData.sections.add(article.section);
-      
-      if (article.year) {
-        authorData.years.add(article.year);
+      // Si no hay autores, saltar este artículo
+      if (articleAuthors.length === 0) {
+        console.log(`⚠️  Artículo sin autores: "${article.title}"`);
+        return;
       }
       
-      if (article.publicationDate) {
-        const pubDate = new Date(article.publicationDate);
-        if (!authorData.firstPublication || pubDate < authorData.firstPublication) {
-          authorData.firstPublication = pubDate;
+      // Procesar cada autor del artículo
+      articleAuthors.forEach(authorName => {
+        if (!authorName || typeof authorName !== 'string') return;
+        
+        const cleanAuthorName = authorName.trim();
+        if (cleanAuthorName === '') return;
+        
+        if (!authorsMap.has(cleanAuthorName)) {
+          authorsMap.set(cleanAuthorName, {
+            name: cleanAuthorName,
+            articles: [],
+            sections: new Set(),
+            years: new Set(),
+            firstPublication: null,
+            lastPublication: null
+          });
         }
-        if (!authorData.lastPublication || pubDate > authorData.lastPublication) {
-          authorData.lastPublication = pubDate;
+        
+        const authorData = authorsMap.get(cleanAuthorName);
+        authorData.articles.push(article);
+        authorData.sections.add(article.section);
+        
+        if (article.year) {
+          authorData.years.add(article.year);
         }
-      }
+        
+        if (article.publicationDate) {
+          const pubDate = new Date(article.publicationDate);
+          if (!authorData.firstPublication || pubDate < authorData.firstPublication) {
+            authorData.firstPublication = pubDate;
+          }
+          if (!authorData.lastPublication || pubDate > authorData.lastPublication) {
+            authorData.lastPublication = pubDate;
+          }
+        }
+      });
     });
     
     console.log(`Encontrados ${authorsMap.size} autores únicos`);
     
+    // Mostrar algunos ejemplos de autores encontrados
+    console.log('\n📋 Ejemplos de autores encontrados:');
+    let count = 0;
+    for (const [authorName, authorData] of authorsMap) {
+      if (count < 10) {
+        console.log(`   - ${authorName}: ${authorData.articles.length} artículos`);
+        count++;
+      } else {
+        console.log(`   ... y ${authorsMap.size - 10} más`);
+        break;
+      }
+    }
+    console.log('');
+    
     // Crear o actualizar autores
+    let successCount = 0;
+    let errorCount = 0;
+    
     for (const [authorName, authorData] of authorsMap) {
       try {
+        console.log(`📝 Procesando autor: ${authorName}`);
+        console.log(`   📊 Artículos: ${authorData.articles.length}`);
+        console.log(`   🏷️  Secciones: ${Array.from(authorData.sections).join(', ')}`);
+        
         // Verificar si el autor ya existe
         let author = await Author.findOne({ name: authorName });
         
         if (author) {
-          console.log(`Actualizando autor existente: ${authorName}`);
+          console.log(`   🔄 Actualizando autor existente`);
           
           // Actualizar estadísticas
           author.stats.totalArticles = authorData.articles.length;
@@ -90,15 +136,16 @@ async function migrateAuthors() {
           }
           
           await author.save();
+          console.log(`   ✅ Autor actualizado exitosamente`);
         } else {
-          console.log(`Creando nuevo autor: ${authorName}`);
+          console.log(`   ➕ Creando nuevo autor`);
           
           // Crear nuevo autor
           const newAuthor = new Author({
             name: authorName,
             bio: {
               short: `${authorName} ha contribuït amb ${authorData.articles.length} articles a Lletres Bàrbares.`,
-              full: `${authorName} és un autor que ha contribuït amb ${authorData.articles.length} articles a Lletres Bàrbares, publicant en les seccions: ${Array.from(authorData.sections).join(', ')}.`
+              full: `${authorName} és un autor que ha contribuït amb ${authorData.articles.length} articles a Lletres Bàrbares, publicant en les seccions: ${Array.from(authorData.sections).join(', ')}. La seva primera publicació va ser l'any ${authorData.firstPublication ? authorData.firstPublication.getFullYear() : 'N/A'} i l'última l'any ${authorData.lastPublication ? authorData.lastPublication.getFullYear() : 'N/A'}.`
             },
             specialties: Array.from(authorData.sections),
             stats: {
@@ -113,14 +160,41 @@ async function migrateAuthors() {
           });
           
           await newAuthor.save();
+          console.log(`   ✅ Autor creado exitosamente`);
         }
         
+        successCount++;
+        console.log('');
+        
       } catch (error) {
-        console.error(`Error procesando autor ${authorName}:`, error);
+        console.error(`   ❌ Error procesando autor ${authorName}:`, error.message);
+        errorCount++;
+        console.log('');
       }
     }
     
-    console.log('Migración de autores completada');
+    // Resumen final
+    console.log('🎉 Migración de autores completada');
+    console.log(`📊 Resumen:`);
+    console.log(`   ✅ Autores procesados exitosamente: ${successCount}`);
+    console.log(`   ❌ Errores durante la migración: ${errorCount}`);
+    console.log(`   📈 Total de autores únicos: ${authorsMap.size}`);
+    
+    // Verificar resultados
+    console.log('\n🔍 Verificando resultados...');
+    const totalAuthorsInDB = await Author.countDocuments();
+    console.log(`📚 Total de autores en la base de datos: ${totalAuthorsInDB}`);
+    
+    // Mostrar algunos ejemplos de autores creados
+    const sampleAuthors = await Author.find().limit(5).select('name slug stats.totalArticles specialties');
+    console.log('\n📋 Ejemplos de autores creados:');
+    sampleAuthors.forEach(author => {
+      console.log(`   - ${author.name}`);
+      console.log(`     Slug: ${author.slug}`);
+      console.log(`     Artículos: ${author.stats.totalArticles}`);
+      console.log(`     Especialidades: ${author.specialties?.join(', ') || 'N/A'}`);
+      console.log('');
+    });
     
   } catch (error) {
     console.error('Error durante la migración:', error);

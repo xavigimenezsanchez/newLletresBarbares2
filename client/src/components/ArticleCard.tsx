@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import AuthorDisplay from './AuthorDisplay'
 import type { Article } from '../types'
 
 interface ArticleCardProps {
@@ -66,9 +67,7 @@ const ArticleCard = ({ article }: ArticleCardProps) => {
         </p>
         
         <div className="mt-4 pt-4 border-t border-newyorker-light-gray">
-          <div className="text-sm text-gray-600">
-            Per {article.author}
-          </div>
+          <AuthorDisplay article={article} />
         </div>
       </div>
     </article>

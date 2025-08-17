@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import AuthorDisplay from './AuthorDisplay'
 import type { Article } from '../types'
 
 interface HeroProps {
@@ -29,9 +30,7 @@ const Hero = ({ title, subtitle, featuredArticle }: HeroProps) => {
                     {featuredArticle.summary}
                   </p>
                   <div className="flex items-center justify-between">
-                    <div className="text-sm text-gray-600">
-                      Per {featuredArticle.author}
-                    </div>
+                    <AuthorDisplay article={featuredArticle} />
                     <Link
                       to={`/${featuredArticle.section}/${featuredArticle.url}`}
                       className="newyorker-button"
