@@ -1,4 +1,5 @@
 import type { Author, AuthorStats } from '../types';
+import { sortAuthorsByMultipleCriteria } from '../utils/sorting';
 
 class AuthorsService {
   private baseUrl = '/api/authors';
@@ -23,7 +24,14 @@ class AuthorsService {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
 
-      return await response.json();
+      const data = await response.json();
+      
+      // Si el ordenamiento es por nombre, aplicar ordenamiento alfabético correcto
+      if (params.sort === 'name' && data.authors) {
+        data.authors = sortAuthorsByMultipleCriteria(data.authors, 'name');
+      }
+
+      return data;
     } catch (error) {
       console.error('Error getting authors:', error);
       throw error;
@@ -98,8 +106,7 @@ class AuthorsService {
   async getAuthorArticles(slug: string, params: {
     page?: number;
     limit?: number;
-    section?: string;
-    year?: number;
+    sort?: 'date' | 'title' | 'section';
   } = {}) {
     try {
       const searchParams = new URLSearchParams();
@@ -136,7 +143,7 @@ class AuthorsService {
     }
   }
 
-  // Crear nuevo autor (solo admin)
+  // Crear autor (solo admin)
   async createAuthor(authorData: Partial<Author>) {
     try {
       const response = await fetch(this.baseUrl, {
@@ -209,7 +216,7 @@ class AuthorsService {
       .replace(/[^a-z0-9\s]/g, '')
       .replace(/\s+/g, '-')
       .replace(/-+/g, '-')
-      .trim('-');
+      .replace(/^-+|-+$/g, ''); // Eliminar guiones del inicio y final
   }
 
   getAuthorInitials(name: string): string {

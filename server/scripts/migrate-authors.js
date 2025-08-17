@@ -117,6 +117,7 @@ async function migrateAuthors() {
       try {
         console.log(`📝 Procesando autor: ${authorName}`);
         console.log(`   📊 Artículos: ${authorData.articles.length}`);
+        console.log(`   🏷️ Articulos  : ${Array.from(authorData.years).join(', ')}`);
         console.log(`   🏷️  Secciones: ${Array.from(authorData.sections).join(', ')}`);
         
         // Verificar si el autor ya existe
