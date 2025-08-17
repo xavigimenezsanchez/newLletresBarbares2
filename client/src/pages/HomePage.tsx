@@ -44,7 +44,8 @@ const HomePage = () => {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
-          <div className="text-2xl font-newyorker mb-4">Lletres Barbares</div>
+          <div className="text-2xl font-newyorker mb-4">            <img src="/logo3.svg" alt="Lletres Bàrbares" className="h-10 w-auto" />
+          </div>
           <div className="text-gray-600">Carregant...</div>
         </div>
       </div>

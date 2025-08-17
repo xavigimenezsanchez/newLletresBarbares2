@@ -12,7 +12,7 @@ const Hero = ({ title, subtitle, featuredArticle }: HeroProps) => {
   return (
     <section className="newyorker-hero">
       <div className="newyorker-hero-content">
-        <h1 className="newyorker-hero-title">{title}</h1>
+        <img src="/logo.svg" alt="Lletres Bàrbares" className="mx-auto h-20 w-auto mb-4" />
         <p className="newyorker-hero-subtitle">{subtitle}</p>
         
         {featuredArticle && (

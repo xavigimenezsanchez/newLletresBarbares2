@@ -75,7 +75,7 @@ const AuthorsPage: React.FC = () => {
       
       const params: any = {
         page: currentPage,
-        limit: 20,
+        limit: 18,
         sort: sortBy
       }
       
@@ -102,7 +102,7 @@ const AuthorsPage: React.FC = () => {
       
       const params: any = {
         page: 1, // Reset a página 1 en búsquedas
-        limit: 20,
+        limit: 18,
         sort: sortBy,
         search: searchQuery.trim()
       }

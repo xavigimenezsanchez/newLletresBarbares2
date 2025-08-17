@@ -20,9 +20,7 @@ const Header = () => {
     <header className="newyorker-header sticky top-0 z-50">
       <nav className="newyorker-nav">
         <div className="flex items-center">
-          <a href="/" className="newyorker-logo">
-            Lletres Barbares
-          </a>
+            <img src="/logo4.svg" alt="Lletres Bàrbares" className="h-10 w-auto" />
         </div>
 
         {/* Desktop Navigation */}

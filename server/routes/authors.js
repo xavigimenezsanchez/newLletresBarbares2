@@ -8,7 +8,7 @@ router.get('/', async (req, res) => {
   try {
     const { 
       page = 1, 
-      limit = 20, 
+      limit = 18, 
       specialty, 
       search,
       sort = 'name' 
@@ -46,6 +46,7 @@ router.get('/', async (req, res) => {
     
     const authors = await Author.find(query)
       .sort(sortOptions)
+      .collation({ locale: "ca" })
       .skip(skip)
       .limit(parseInt(limit))
       .select('name slug bio.short photo profession location stats.totalArticles stats.lastPublication');
