@@ -4,16 +4,26 @@ import ElegantSearch from './ElegantSearch'
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
+  const [isCompressed, setIsCompressed] = useState(false)
 
   useEffect(() => {
+    let ticking = false
     const handleScroll = () => {
-      const scrollTop = window.scrollY
-      setIsScrolled(scrollTop > 50)
+      const y = window.scrollY || window.pageYOffset || 0
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          if (y > 120 && !isCompressed) setIsCompressed(true)
+          else if (y < 40 && isCompressed) setIsCompressed(false)
+          setIsScrolled(y > 50)
+          ticking = false
+        })
+        ticking = true
+      }
     }
 
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
+  }, [isCompressed])
 
   const navigationItems = [
     { label: 'Última edició', href: '/' },
@@ -27,11 +37,13 @@ const Header = () => {
     { label: 'Recomanacions', href: '/recomanacions' },
   ]
 
+  const TOP_HEIGHT = 112
+
   return (
-    <header className="newyorker-header sticky top-0 z-50">
-            {/* Logo y texto superior - siempre presente, solo cambia opacidad */}
-      <div className={`header-top-section transition-opacity duration-700 ease-out ${
-        isScrolled ? 'opacity-0' : 'opacity-100'
+    <header className="newyorker-header sticky top-0 z-50 relative">
+      {/* Logo y texto superior superpuesto, solo opacidad; no afecta layout */}
+      <div className={`header-top-section absolute inset-x-0 top-0 transition-opacity duration-500 ease-out ${
+        isCompressed ? 'opacity-0' : 'opacity-100'
       }`}>
         <div className="max-w-6xl mx-auto px-6 text-center">
           <div className="flex flex-col items-center space-y-1">
@@ -47,13 +59,13 @@ const Header = () => {
         </div>
       </div>
 
-      <nav className="newyorker-nav">
+      <nav className="newyorker-nav" style={{ marginTop: isCompressed ? 0 : 0, transition: 'margin-top 400ms ease' }}>
         <div className="flex items-center">
               <img 
                 src="/Jara logo petit.svg" 
                 alt="Lletres Bàrbares" 
-                className={`h-10 w-auto transition-all duration-700 ease-out transform ${
-                  isScrolled ? 'opacity-100 scale-100 translate-y-0' : 'opacity-0 scale-95 -translate-y-2'
+                className={`h-10 w-auto transition-all duration-300 ease-out transform ${
+                  isCompressed ? 'opacity-100 scale-100 translate-y-0' : 'opacity-0 scale-95 -translate-y-1'
                 }`}
               />
           </div>
