@@ -6,7 +6,13 @@ const Footer = () => {
       <div className="newyorker-footer-content">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-display mb-4">Lletres Barbares</h3>
+            <div className="mb-4">
+              <img 
+                src="/Jara logo footer.svg" 
+                alt="Lletres Bàrbares" 
+                className="h-20 w-auto"
+              />
+            </div>
             <p className="text-gray-300 leading-relaxed">
               Revista mensual de cultura, literatura i pensament. 
               Un espai per a la reflexió i el debat intel·lectual.

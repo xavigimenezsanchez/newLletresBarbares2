@@ -29,9 +29,9 @@ const Header = () => {
 
   return (
     <header className="newyorker-header sticky top-0 z-50">
-      {/* Logo y texto superior */}
-      <div className={`header-top-section transition-all duration-700 ease-out ${
-        isScrolled ? 'opacity-0 max-h-0 py-0 overflow-hidden' : 'opacity-100 max-h-32 py-4'
+            {/* Logo y texto superior - siempre presente, solo cambia opacidad */}
+      <div className={`header-top-section transition-opacity duration-700 ease-out ${
+        isScrolled ? 'opacity-0' : 'opacity-100'
       }`}>
         <div className="max-w-6xl mx-auto px-6 text-center">
           <div className="flex flex-col items-center space-y-1">
@@ -47,8 +47,8 @@ const Header = () => {
         </div>
       </div>
 
-              <nav className="newyorker-nav">
-          <div className="flex items-center">
+      <nav className="newyorker-nav">
+        <div className="flex items-center">
               <img 
                 src="/Jara logo petit.svg" 
                 alt="Lletres Bàrbares" 

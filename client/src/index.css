@@ -76,6 +76,11 @@
     background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
     border-bottom: 1px solid #e9ecef;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    height: 112px;
+    padding: 1rem 0;
+    will-change: opacity;
+    backface-visibility: hidden;
+    overflow: hidden;
   }
   
   .header-top-section img {
@@ -108,11 +113,14 @@
   .newyorker-nav img {
     filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.1));
     transition: all 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+    will-change: transform, opacity;
+    backface-visibility: hidden;
+    transform: translateZ(0);
   }
   
   .newyorker-nav img:hover {
     filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.15));
-    transform: scale(1.05);
+    transform: scale(1.05) translateZ(0);
   }
   
   .newyorker-logo {
@@ -272,6 +280,7 @@
     @apply bg-black text-white py-12 px-6;
   }
   
+
   .newyorker-footer-content {
     @apply max-w-6xl mx-auto;
     font-family: 'TNYAdobeCaslonPro', 'Times New Roman', Times, serif;
