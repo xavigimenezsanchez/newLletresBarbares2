@@ -37,29 +37,27 @@ const Header = () => {
     { label: 'Recomanacions', href: '/recomanacions' },
   ]
 
-  const TOP_HEIGHT = 112
-
   return (
-    <header className="newyorker-header sticky top-0 z-50 relative">
-      {/* Logo y texto superior superpuesto, solo opacidad; no afecta layout */}
-      <div className={`header-top-section absolute inset-x-0 top-0 transition-opacity duration-500 ease-out ${
-        isCompressed ? 'opacity-0' : 'opacity-100'
-      }`}>
-        <div className="max-w-6xl mx-auto px-6 text-center">
-          <div className="flex flex-col items-center space-y-1">
-            <img 
-              src="/Jara logo.svg" 
-              alt="Lletres Bàrbares" 
-              className="h-20 w-auto"
-            />
-            <p className="text-lg font-medium">
-              Una revista de cultura, literatura i pensament en català
-            </p>
+    <header className="newyorker-header sticky top-0 z-50">
+      {/* Logo y texto superior - visible cuando no está comprimido */}
+      {!isCompressed && (
+        <div className="header-top-section transition-opacity duration-500 ease-out">
+          <div className="max-w-6xl mx-auto px-6 text-center">
+            <div className="flex flex-col items-center space-y-1">
+              <img 
+                src="/Jara logo.svg" 
+                alt="Lletres Bàrbares" 
+                className="h-20 w-auto"
+              />
+              <p className="text-sm md:text-lg text-black-700 font-medium">
+                Una revista de cultura, literatura i pensament en català
+              </p>
+            </div>
           </div>
         </div>
-      </div>
+      )}
 
-      <nav className="newyorker-nav" style={{ marginTop: isCompressed ? 0 : 0, transition: 'margin-top 400ms ease' }}>
+      <nav className="newyorker-nav">
         <div className="flex items-center">
               <img 
                 src="/Jara logo petit.svg" 
