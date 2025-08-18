@@ -133,7 +133,73 @@
   }
   
   .newyorker-article-image {
-    @apply w-full h-48 object-cover;
+    @apply w-full relative overflow-hidden;
+    height: 12rem;
+  }
+  
+  .newyorker-article-image img {
+    @apply absolute inset-0 mx-auto;
+    height: 100%;
+    width: auto;
+    max-width: none;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .newyorker-article-image .blur-left,
+  .newyorker-article-image .blur-right {
+    @apply absolute top-0 bottom-0 w-20;
+    z-index: 1;
+    pointer-events: none;
+    overflow: hidden;
+  }
+  
+  .newyorker-article-image .blur-left {
+    left: 0;
+  }
+  
+  .newyorker-article-image .blur-right {
+    right: 0;
+  }
+  
+  .newyorker-article-image .blur-image {
+    @apply absolute inset-0;
+    width: 150%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+    opacity: 0.7;
+  }
+  
+  .newyorker-article-image .blur-left .blur-image {
+    left: -25%;
+    object-position: left center;
+  }
+  
+  .newyorker-article-image .blur-right .blur-image {
+    right: -25%;
+    object-position: right center;
+  }
+  
+  /* Overlay blanco para suavizar el efecto */
+  .newyorker-article-image .blur-left::after,
+  .newyorker-article-image .blur-right::after {
+    content: '';
+    @apply absolute inset-0;
+    background: linear-gradient(to right, 
+      rgba(255, 255, 255, 0.95) 0%, 
+      rgba(255, 255, 255, 0.8) 30%, 
+      rgba(255, 255, 255, 0.5) 60%, 
+      transparent 100%);
+  }
+  
+  .newyorker-article-image .blur-right::after {
+    background: linear-gradient(to left, 
+      rgba(255, 255, 255, 0.95) 0%, 
+      rgba(255, 255, 255, 0.8) 30%, 
+      rgba(255, 255, 255, 0.5) 60%, 
+      transparent 100%);
   }
   
   .newyorker-article-content {

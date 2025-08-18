@@ -32,10 +32,23 @@ const ArticleCard = ({ article }: ArticleCardProps) => {
   return (
     <article className="newyorker-article-card">
       <div className="newyorker-article-image">
+        <div className="blur-left">
+          <img
+            src={`/api/images/${article.imageCard}`}
+            alt=""
+            className="blur-image"
+          />
+        </div>
+        <div className="blur-right">
+          <img
+            src={`/api/images/${article.imageCard}`}
+            alt=""
+            className="blur-image"
+          />
+        </div>
         <img
           src={`/api/images/${article.imageCard}`}
           alt={article.title}
-          className="w-full h-full object-cover"
           onError={(e) => {
             console.log('Error loading image:', `/api/images/${article.imageCard}`)
             const target = e.currentTarget;
