@@ -5,6 +5,7 @@ import Footer from './Footer'
 import { apiService } from '../services/api'
 import { useInfiniteScroll } from '../hooks/useInfiniteScroll'
 import type { Article } from '../types'
+import { formatDateToCatalan } from '../utils/dateUtils'
 
 interface ApiResponse {
   articles: Article[]
@@ -48,15 +49,7 @@ const SectionPage: React.FC<SectionPageProps> = ({
     setTargetElement
   } = useInfiniteScroll<Article>(fetchArticles)
 
-  const formatDate = (dateString: string) => {
-    const [day, month, year] = dateString.split('/')
-    const date = new Date(parseInt(year), parseInt(month) - 1, parseInt(day))
-    return date.toLocaleDateString('ca-ES', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric'
-    })
-  }
+
 
   if (error) {
     return (
@@ -116,7 +109,7 @@ const SectionPage: React.FC<SectionPageProps> = ({
                   <div className="newyorker-article-meta">
                     <span className="text-newyorker-red font-medium">{sectionDisplayName}</span>
                     <span className="mx-2">•</span>
-                    <span>{formatDate(article.data)}</span>
+                    <span>{formatDateToCatalan(article.data)}</span>
                   </div>
                   
                   <h3 className="newyorker-article-title">

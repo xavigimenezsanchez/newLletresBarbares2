@@ -6,6 +6,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import ArticleText from '../components/ArticleText'
 import AuthorDisplay from '../components/AuthorDisplay'
+import { formatDateToCatalan } from '../utils/dateUtils'
 
 const ArticlePage = () => {
   const { section, url } = useParams<{ section: string; url: string }>()
@@ -104,11 +105,7 @@ const ArticlePage = () => {
             </div>
             <div>
               <time dateTime={article.data}>
-                {new Date(article.data).toLocaleDateString('ca-ES', {
-                  year: 'numeric',
-                  month: 'long',
-                  day: 'numeric'
-                })}
+                {formatDateToCatalan(article.data)}
               </time>
             </div>
           </div>

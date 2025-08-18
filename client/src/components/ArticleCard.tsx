@@ -1,21 +1,13 @@
 import { Link } from 'react-router-dom'
 import AuthorDisplay from './AuthorDisplay'
 import type { Article } from '../types'
+import { formatDateToCatalan } from '../utils/dateUtils'
 
 interface ArticleCardProps {
   article: Article
 }
 
 const ArticleCard = ({ article }: ArticleCardProps) => {
-  const formatDate = (dateString: string) => {
-    const [day, month, year] = dateString.split('/')
-    const date = new Date(parseInt(year), parseInt(month) - 1, parseInt(day))
-    return date.toLocaleDateString('ca-ES', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric'
-    })
-  }
 
   const getSectionLabel = (section: string) => {
     const sectionLabels: Record<string, string> = {
@@ -66,7 +58,7 @@ const ArticleCard = ({ article }: ArticleCardProps) => {
             {getSectionLabel(article.section)}
           </span>
           <span className="mx-2">•</span>
-          <span>{formatDate(article.data)}</span>
+          <span>{formatDateToCatalan(article.data)}</span>
         </div>
         
         <h3 className="newyorker-article-title">
