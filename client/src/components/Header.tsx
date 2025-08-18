@@ -1,8 +1,19 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import ElegantSearch from './ElegantSearch'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isScrolled, setIsScrolled] = useState(false)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY
+      setIsScrolled(scrollTop > 50)
+    }
+
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
 
   const navigationItems = [
     { label: 'Última edició', href: '/' },
@@ -18,10 +29,34 @@ const Header = () => {
 
   return (
     <header className="newyorker-header sticky top-0 z-50">
-      <nav className="newyorker-nav">
-        <div className="flex items-center">
-            <img src="/logo4.svg" alt="Lletres Bàrbares" className="h-10 w-auto" />
+      {/* Logo y texto superior */}
+      <div className={`header-top-section transition-all duration-700 ease-out ${
+        isScrolled ? 'opacity-0 max-h-0 py-0 overflow-hidden' : 'opacity-100 max-h-32 py-4'
+      }`}>
+        <div className="max-w-6xl mx-auto px-6 text-center">
+          <div className="flex flex-col items-center space-y-1">
+            <img 
+              src="/Jara logo.svg" 
+              alt="Lletres Bàrbares" 
+              className="h-20 w-auto"
+            />
+            <p className="text-lg font-medium">
+              Una revista de cultura, literatura i pensament en català
+            </p>
+          </div>
         </div>
+      </div>
+
+              <nav className="newyorker-nav">
+          <div className="flex items-center">
+              <img 
+                src="/Jara logo petit.svg" 
+                alt="Lletres Bàrbares" 
+                className={`h-10 w-auto transition-all duration-700 ease-out transform ${
+                  isScrolled ? 'opacity-100 scale-100 translate-y-0' : 'opacity-0 scale-95 -translate-y-2'
+                }`}
+              />
+          </div>
 
         {/* Desktop Navigation */}
         <div className="newyorker-nav-links">
