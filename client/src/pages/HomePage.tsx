@@ -69,7 +69,7 @@ const HomePage = () => {
   return (
     <div className="min-h-screen bg-white">
       <Header />
-      <main>
+      <main className="home-background">
         <MagazineLayout 
           articles={recentArticles}
           issueNumber={currentIssue?.number}

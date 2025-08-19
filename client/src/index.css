@@ -179,20 +179,26 @@
     @apply max-w-7xl mx-auto px-6 py-12;
   }
 
+  .home-background {
+    background-color: #fafaf7;
+  }
+
   .edition-header {
     @apply text-center mb-16;
   }
 
   .edition-title {
     @apply text-5xl md:text-6xl font-light mb-4;
-    font-family: 'TNYAdobeCaslonPro', 'Times New Roman', Times, serif;
-    color: #1a1a1a;
+    font-family: "Irvin-Heading";
+    color: rgb(220 38 38 / var(--tw-text-opacity, 1));
     letter-spacing: -0.02em;
   }
 
   .edition-meta {
     @apply flex items-center justify-center space-x-4 text-sm text-gray-500 mb-6;
-    font-family: 'TNYAdobeCaslonPro', 'Times New Roman', Times, serif;
+    /* font-family: 'TNYAdobeCaslonPro', 'Times New Roman', Times, serif; */
+    font-family: "Irvin-Heading";
+
     text-transform: uppercase;
     letter-spacing: 0.1em;
   }
@@ -213,17 +219,19 @@
 
   /* Magazine Cards - diferentes tamaños */
   .magazine-card {
-    @apply bg-white border border-gray-200 overflow-hidden transition-all duration-300;
+    /* @apply bg-white border border-gray-200 overflow-hidden transition-all duration-300;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06); */
     display: flex;
     flex-direction: column;
+    border: 1px solid #e5e5e5;
+    
   }
 
-  .magazine-card:hover {
+  /* .magazine-card:hover {
     transform: translateY(-4px);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
-  }
+  } */
 
   /* Tamaños diferentes para crear dinamismo */
 
@@ -232,7 +240,7 @@
     /* grid-template-columns: repeat(12, 1fr);
     gap: 2rem; */
     grid-template-columns: 1fr;
-    gap: 1.5rem;
+    /* gap: 1.5rem; */
     grid-auto-rows: minmax(300px, auto);
     grid-auto-flow: row dense;
   }
@@ -274,24 +282,24 @@
   @media (min-width: 1200px) {
     .magazine-grid {
       grid-template-columns: repeat(12, 1fr);
-      gap: 2rem;
+      /* gap: 2rem; */
     }
     .magazine-card--large {
       grid-column: span 8;
       grid-row: span 2;
-      background: rgba(255, 0, 0, 0.1); /* Debug: rojo para large */
+      /*background: rgba(255, 0, 0, 0.1);  Debug: rojo para large */
     }
   
     .magazine-card--medium {
       grid-column: span 4;
       grid-row: span 1;
-      background: rgba(0, 255, 0, 0.1); /* Debug: verde para medium */
+      /*background: rgba(0, 255, 0, 0.1);  Debug: verde para medium */
     }
   
     .magazine-card--small {
       grid-column: span 4;
       grid-row: span 1;
-        background: rgba(0, 0, 255, 0.1); /* Debug: azul para small */
+        /*background: rgba(0, 0, 255, 0.1);  Debug: azul para small */
       }
   }
 
@@ -300,69 +308,11 @@
 
 
 
-
-  /* @media (max-width: 1200px) {
-    .magazine-grid {
-      grid-template-columns: repeat(8, 1fr);
-    }
-    
-    .magazine-card--large {
-      grid-column: span 5;
-    }
-    .magazine-card--medium {
-      grid-column: span 3;
-    }
-    .magazine-card--small {
-      grid-column: span 3;
-    }
-  }
-
-  @media (max-width: 1024px) {
-    .magazine-grid {
-      grid-template-columns: repeat(6, 1fr);
-    }
-    
-    .magazine-card--large {
-      grid-column: span 6;
-    }
-    .magazine-card--medium {
-      grid-column: span 3;
-    }
-    .magazine-card--small {
-      grid-column: span 3;
-    }
-  }
-
-  @media (max-width: 768px) {
-    .magazine-grid {
-      grid-template-columns: 1fr;
-      gap: 1.5rem;
-    }
-    
-    .magazine-card--large,
-    .magazine-card--medium,
-    .magazine-card--small {
-      grid-column: span 1;
-      grid-row: span 1;
-    }
-  } */
-
-    /* Desktop (>1200px) - Base styles */
-  /* 
-    El problema puede ser que los estilos para .magazine-card--large están siendo sobreescritos por los media queries de abajo.
-    Cuando el width es mayor de 1200px, los media queries NO se aplican, así que estos estilos sí deberían aplicarse.
-    Sin embargo, si hay otro CSS que sobreescribe grid-column o grid-row, o si el !important no es suficiente, puede que no se apliquen.
-    También asegúrate de que el contenedor .magazine-grid tenga grid-template-columns: repeat(12, 1fr); fuera de los media queries.
-    Si usas Tailwind, revisa que no haya clases conflictivas en el JSX.
-    Aquí el CSS base para >1200px:
-  */
-
-
-
-
   .magazine-card__image {
     position: relative;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
   }
 
   .magazine-card--large .magazine-card__image {
@@ -378,10 +328,11 @@
   }
 
   .magazine-card__image img {
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
-    object-fit: cover;
-    transition: transform 0.3s ease;
+    /* object-fit: cover; */
+    object-fit: contain;
+    /* transition: transform 0.3s ease; */
   }
 
   .magazine-card:hover .magazine-card__image img {
@@ -398,7 +349,7 @@
 
   .magazine-card__section {
     @apply text-xs font-medium text-red-600 mb-2;
-    font-family: 'TNYAdobeCaslonPro', 'Times New Roman', Times, serif;
+    font-family: 'Irvin-Heading';
     text-transform: uppercase;
     letter-spacing: 0.1em;
   }
@@ -421,8 +372,16 @@
   }
 
   .magazine-card__title a {
-    @apply text-black hover:text-gray-700 transition-colors duration-200;
+    @apply text-black transition-colors duration-200;
     text-decoration: none;
+  }
+
+  .magazine-card__title a:hover {
+    text-decoration: none;
+    border-bottom-color: #17639f;
+    --tw-text-opacity: 1;
+    color: #17639f;
+
   }
 
   .magazine-card__summary {

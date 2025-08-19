@@ -19,3 +19,13 @@
   font-style: normal;
   font-display: fallback;
 } 
+
+@font-face {
+  font-family: "Irvin-Heading";
+  src: url("/fonts/Irvin-Heading/Irvin-Heading.eot");
+  src: url("/fonts/Irvin-Heading/Irvin-Heading.eot?#iefix")format("embedded-opentype"),
+  url("/fonts/Irvin-Heading/Irvin-Heading.woff2")format("woff2"),
+  url("/fonts/Irvin-Heading/Irvin-Heading.woff")format("woff"),
+  url("/fonts/Irvin-Heading/Irvin-Heading.ttf")format("truetype"),
+  url("/fonts/Irvin-Heading/Irvin-Heading.svg#Irvin-Heading")format("svg");
+}
