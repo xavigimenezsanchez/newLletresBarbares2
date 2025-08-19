@@ -8,6 +8,7 @@
  * @returns Fecha formateada en catalán
  */
 export function formatDateToCatalan(dateString: string): string {
+  debugger;
   try {
     const [day, month, year] = dateString.split('/')
     

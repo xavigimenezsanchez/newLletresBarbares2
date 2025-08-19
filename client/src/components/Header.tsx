@@ -26,7 +26,7 @@ const Header = () => {
   }, [isCompressed])
 
   const navigationItems = [
-    { label: 'Última edició', href: '/' },
+    { label: 'La Revista', href: '/' },
     { label: 'Arxiu', href: '/arxiu' },
     { label: 'Autors', href: '/autors' },
     { label: 'Articles', href: '/articles' },
