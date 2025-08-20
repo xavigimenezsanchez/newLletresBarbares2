@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import ElegantSearch from './ElegantSearch'
+import JaraLogo from '../assets/Jara logo.svg'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -27,7 +28,7 @@ const Header = () => {
 
   const navigationItems = [
     { label: 'La Revista', href: '/' },
-    { label: 'Arxiu', href: '/arxiu' },
+    // { label: 'Arxiu', href: '/arxiu' },
     { label: 'Autors', href: '/autors' },
     { label: 'Articles', href: '/articles' },
     { label: 'Creació', href: '/creacio' },
@@ -38,103 +39,57 @@ const Header = () => {
   ]
 
   return (
-    <header className="newyorker-header sticky top-0 z-50">
-      {/* Logo y texto superior - visible cuando no está comprimido */}
-      {!isCompressed && (
-        <div className="header-top-section transition-opacity duration-500 ease-out">
-          <div className="max-w-6xl mx-auto px-6 text-center">
-            <div className="flex flex-col items-center space-y-1">
-              <img 
-                src="/Jara logo.svg" 
-                alt="Lletres Bàrbares" 
-                className="h-20 w-auto"
-              />
+    <div className="newyorker-header-container fixed top-0 left-0 right-0 z-50 transition-transform duration-300 ease">
+    <header className="newyorker-header">
+      <div className="scroll-block" aria-hidden="true"></div>
+      <div className="max-w-6xl mx-auto px-6">
+        <div className="header-contents">
+          <div className="main-navigation-holder">
+            <div className="main-navigation">
+              <span className="burgerstack-search">
+                <ul>
+                  <li className="burgerstack">
+                    <svg version="1.1" baseProfile="tiny" className="burgerstackIcon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 16" xml:space="preserve"><polygon className="top" fill-rule="evenodd" fill="#313130" points="0,0 20,0 20,2 0,2"></polygon><polygon className="middle" fill-rule="evenodd" fill="#313130" points="0,7 20,7 20,9 0,9"></polygon><polygon className="bottom" fill-rule="evenodd" fill="#313130" points="0,14 20,14 20,16 0,16"></polygon></svg>
+                  </li>
+                  <li className="search">
+                      <ElegantSearch />
+                  </li>
+                </ul>
+              </span>
+              <div className="newyorker-nav-links">
+                {navigationItems.map((item) => (
+                  <a
+                    key={item.href}
+                    href={item.href}
+                    className="newyorker-nav-link"
+                  >
+                    {item.label}
+                  </a>
+                ))}
+              </div>
+            </div>
+            <div className="logo-row">
+              <div className="logo">
+                
+                 <img src={JaraLogo} alt="Lletres Bàrbares" className="h-20 w-auto" /> 
+                
+              </div>
               <p className="text-sm md:text-lg text-black-700 font-medium">
                 Una revista de cultura, literatura i pensament en català
               </p>
             </div>
           </div>
+        <div className="header-button-editions">
+          <a href="/arxiu" className="header-button-edition">
+            Ediciones Anteriores
+          </a>
         </div>
-      )}
-
-      <nav className="newyorker-nav">
-        <div className="flex items-center">
-              <img 
-                src="/Jara logo petit.svg" 
-                alt="Lletres Bàrbares" 
-                className={`h-10 w-auto transition-all duration-300 ease-out transform ${
-                  isCompressed ? 'opacity-100 scale-100 translate-y-0' : 'opacity-0 scale-95 -translate-y-1'
-                }`}
-              />
-          </div>
-
-        {/* Desktop Navigation */}
-        <div className="newyorker-nav-links">
-          {navigationItems.map((item) => (
-            <a
-              key={item.href}
-              href={item.href}
-              className="newyorker-nav-link"
-            >
-              {item.label}
-            </a>
-          ))}
         </div>
+      </div>      {/* Logo y texto superior - visible cuando no está comprimido */}
 
-                {/* Elegant Search (responsive) */}
-        <ElegantSearch />
-
-        {/* Mobile Menu Button */}
-        <div className="md:hidden">
-          <button
-            className="p-2"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            aria-label="Toggle menu"
-          >
-          <svg
-            className="w-6 h-6"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            {isMenuOpen ? (
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M6 18L18 6M6 6l12 12"
-              />
-            ) : (
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M4 6h16M4 12h16M4 18h16"
-              />
-            )}
-          </svg>
-          </button>
-        </div>
-      </nav>
-
-      {/* Mobile Navigation */}
-      {isMenuOpen && (
-        <div className="md:hidden bg-white border-t border-newyorker-light-gray">
-          <div className="px-6 py-4 space-y-4">
-            {navigationItems.map((item) => (
-              <a
-                key={item.href}
-                href={item.href}
-                className="block newyorker-nav-link py-2"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                {item.label}
-              </a>
-            ))}
-          </div>
-        </div>
-      )}
     </header>
+    </div>
+
   )
 }
 

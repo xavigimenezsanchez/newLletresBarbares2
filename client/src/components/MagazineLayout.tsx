@@ -84,7 +84,6 @@ const MagazineLayout = ({ articles, issueNumber, year, publicationDate }: Magazi
       {/* Grid dinámico de artículos */}
       <div className="magazine-grid">
         {articles.map((article, index) => {
-          debugger;
           const size = getArticleSize(index, articles.length)
           // const summaryText = article.summary || getLoremIpsum(
           //   size === 'large' ? 'long' : size === 'medium' ? 'medium' : 'short'

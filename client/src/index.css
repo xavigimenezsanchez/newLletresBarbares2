@@ -66,11 +66,125 @@
 
 @layer components {
   /* Header like The New Yorker */
+  .newyorker-header-container {
+    @apply bg-white border-b border-gray-200;
+    will-change: transform;
+    height: 180px;
+  }
   .newyorker-header {
     @apply bg-white border-b border-gray-200;
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e0e0e0;
+    height: 180px;
+  }
+
+  .scroll-block {
+    @apply bg-white absolute;
+    height: 112px;
+    width: 100%;
+    top: -112px;
+    display: none;
+    
+  }
+
+  .header-contents {
+     @apply relative z-10  w-full; /* overflow-hidden */
   }
   
+  .header-button-editions {
+    
+    position: absolute;
+    top: 32px;
+    right: 0;
+
+  }
+
+
+ 
+  .header-button-edition {
+    @apply inline-flex items-center px-4 py-2  text-white text-sm rounded  transition-colors duration-200;
+    font-family: "Irvin-Heading";
+    font-size: 0.7rem;
+    font-weight: 900;
+    background-color: #dc2626;
+    border-bottom: none;
+
+  }
+
+  .header-button-edition:hover {
+    border-bottom: none;
+    background-color: #da3a3a;
+  }
+
+  .main-navigation-holder {
+
+  }
+
+.main-navigation {
+  /* pointer-events: none; */
+  position: absolute;
+  top:30px  ;
+  left: 0;
+  width: 100%;;
+}
+
+.burgerstack-search {
+  line-height: 48px;
+  position: relative;
+  left: -44px;
+  transition: left .65s ease;
+}
+
+.scroll-down .burgerstack-search {
+  left: 0;
+}
+
+.burgerstack-search ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.burgerstack  {
+  padding-right: 0.5rem;
+  width: 36px;
+  /* height: 29px; */
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  border-right: solid 1px #9b9b9b;
+  opacity: 0;
+  display: inline-block;
+  transition: opacity 0.3s ease;
+}
+
+.scroll-down .burgerstack {
+  opacity: 1;
+}
+
+.burgerstackIcon {
+  width: 22px;
+  height: 22px;
+
+}
+
+.search {
+  display: inline-block;
+}
+
+.logo-row {
+  text-align: right;
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 184px;
+  height: 80px;
+  margin-top: 17px;
+}
+
   /* Header top section with logo and text */
   .header-top-section {
     background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
@@ -132,15 +246,25 @@
   
   .newyorker-nav-links {
     @apply hidden md:flex space-x-8 text-sm;
-    font-family: 'TNYAdobeCaslonPro', 'Times New Roman', Times, serif;
+    justify-content: center;
+    position: relative;
+    top: 60px;
+    opacity: 1;
+    transition: opacity 0.3s, top 0.3s;
   }
   
+  .scroll-down .newyorker-nav-links{
+    top: 0;
+    opacity: 0;
+  }
+
   .newyorker-nav-link {
     @apply text-black hover:text-gray-600 transition-colors duration-200;
-    font-family: 'TNYAdobeCaslonPro', 'Times New Roman', Times, serif;
+    font-family: 'Irvin-Heading';
     text-transform: uppercase;
-    letter-spacing: 0.05em;
-    font-size: 0.75rem;
+    letter-spacing: 0.09rem;
+    font-size: 0.8rem;
+    font-weight: 500;
   }
   
   /* Hero section like The New Yorker */
