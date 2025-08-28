@@ -13,8 +13,12 @@ import SearchPage from './pages/SearchPage'
 import AnalyticsPage from './pages/AnalyticsPage'
 import AuthorsPage from './pages/AuthorsPage'
 import AuthorPage from './pages/AuthorPage'
+import { useScrollDirection } from './hooks/useScrollDirection'
 
 function App() {
+  // Inicializar el hook para detectar la dirección del scroll
+  useScrollDirection()
+
   return (
     <Router>
       <Routes>
