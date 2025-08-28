@@ -67,16 +67,33 @@
 @layer components {
   /* Header like The New Yorker */
   .newyorker-header-container {
-    @apply bg-white border-b border-gray-200;
+    @apply bg-white border-b border-gray-200 fixed top-0 left-0 right-0 z-50 h-24 md:h-48 transition-transform duration-300;
     will-change: transform;
-    height: 180px;
   }
   .newyorker-header {
-    @apply bg-white border-b border-gray-200;
+    @apply bg-white border-b border-gray-200 h-24 md:h-48 transition-all duration-300;
     border-bottom: 1px solid #e0e0e0;
-    height: 180px;
+  }
+  
+  .scroll-down .newyorker-header {
+    @apply h-16;
   }
 
+  .scroll-down .newyorker-header-container {
+    @apply h-16;
+  }
+
+  .scroll-down .logo-row {
+    @apply flex items-end h-20;
+  }
+
+  .scroll-down .logo {
+    @apply top-0 mt-0;
+  }
+
+  .scroll-down .newyorker-nav-links {
+    @apply top-0;
+  }
   .scroll-block {
     @apply bg-white absolute;
     height: 112px;
@@ -91,10 +108,7 @@
   }
   
   .header-button-editions {
-    
-    position: absolute;
-    top: 32px;
-    right: 0;
+    @apply absolute top-8 right-0  hidden md:block hover:bg-red-500
 
   }
 
@@ -120,18 +134,17 @@
   }
 
 .main-navigation {
-  /* pointer-events: none; */
-  position: absolute;
-  top:30px  ;
-  left: 0;
-  width: 100%;;
+  @apply absolute top-8 left-1 w-full transition-all duration-300;
+}
+
+.scroll-down .main-navigation {
+  @apply top-4 transition-all duration-300;
 }
 
 .burgerstack-search {
-  line-height: 48px;
-  position: relative;
-  left: -44px;
-  transition: left .65s ease;
+  @apply relative leading-[48px] md:left-[-44px] pr-10 transition-all duration-300;
+ 
+  /* left: -44px; */
 }
 
 .scroll-down .burgerstack-search {
@@ -145,25 +158,20 @@
 }
 
 .burgerstack  {
-  padding-right: 0.5rem;
-  width: 36px;
-  /* height: 29px; */
-  padding-top: 0.3rem;
-  padding-bottom: 0.3rem;
+  @apply opacity-100 h-6 md:opacity-0 inline-block transition-all duration-300;
+   padding-right: 0.5rem;
   border-right: solid 1px #9b9b9b;
-  opacity: 0;
+  
   display: inline-block;
   transition: opacity 0.3s ease;
 }
 
 .scroll-down .burgerstack {
-  opacity: 1;
+  @apply opacity-100 md:opacity-0 inline-block transition-all duration-300;
 }
 
 .burgerstackIcon {
-  width: 22px;
-  height: 22px;
-
+  @apply w-4 h-4 mt-1 transition-all duration-300 ;
 }
 
 .search {
@@ -171,6 +179,7 @@
 }
 
 .logo-row {
+  @apply h-24 md:h-48 transition-all duration-300;
   text-align: right;
   pointer-events: none;
   display: flex;
@@ -180,9 +189,8 @@
 }
 
 .logo {
-  width: 184px;
-  height: 80px;
-  margin-top: 17px;
+  @apply w-24 mt-2 md:w-40 md:mt-4  transition-all duration-300;
+
 }
 
   /* Header top section with logo and text */
@@ -245,7 +253,7 @@
   }
   
   .newyorker-nav-links {
-    @apply hidden md:flex space-x-8 text-sm;
+    @apply hidden md:flex  space-x-8 text-sm transition-all duration-300;
     justify-content: center;
     position: relative;
     top: 60px;
@@ -300,7 +308,7 @@
 
   /* Magazine Layout */
   .magazine-layout {
-    @apply max-w-7xl mx-auto px-6 py-12;
+    @apply max-w-7xl mx-auto px-6 pb-12 pt-28 md:pt-64 transition-all duration-300;
   }
 
   .home-background {
