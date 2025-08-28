@@ -18,7 +18,7 @@ const ElegantSearch: React.FC<ElegantSearchProps> = ({ className = '' }) => {
       <div className={`hidden md:block ${className}`}>
         <button
           onClick={handleClick}
-          className="p-2 text-newyorker-dark hover:text-newyorker-red transition-colors duration-200"
+          className="flex items-center gap-2 p-2 text-newyorker-dark hover:text-newyorker-red transition-colors duration-200"
           aria-label="Obrir cerca"
         >
           <svg
@@ -34,6 +34,7 @@ const ElegantSearch: React.FC<ElegantSearchProps> = ({ className = '' }) => {
               d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
             />
           </svg>
+          <div className="text-md">Cercar</div>
         </button>
       </div>
 

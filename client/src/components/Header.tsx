@@ -75,7 +75,7 @@ const Header = () => {
                  <img src={JaraLogo} alt="Lletres Bàrbares" className="h-20 w-auto" /> 
                 
               </div>
-              <p className=" overflow-hidden h-0 md:h-10 md:block text-sm md:text-lg text-black-700 font-medium transition-all duration-300">
+              <p className=" overflow-hidden h-10 md:block text-sm md:text-lg text-black-700 font-medium transition-all duration-300">
                 Una revista de cultura, literatura i pensament en català
               </p>
             </div>

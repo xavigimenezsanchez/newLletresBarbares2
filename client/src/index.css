@@ -75,20 +75,35 @@
     border-bottom: 1px solid #e0e0e0;
   }
   
+  .logo-row {
+    @apply h-24 md:h-32 transition-all duration-300;
+    text-align: right;
+    pointer-events: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo {
+    @apply w-24 mt-2 md:w-40   transition-all duration-300;
+  
+  }
+
   .scroll-down .newyorker-header {
-    @apply h-16;
+    @apply h-16 md:h-24;
   }
 
   .scroll-down .newyorker-header-container {
-    @apply h-16;
+    @apply h-16 md:h-24;
   }
 
   .scroll-down .logo-row {
-    @apply flex items-end h-20;
+    @apply flex items-end md:items-center h-20 md:h-24;
   }
 
   .scroll-down .logo {
-    @apply top-0 mt-0;
+    @apply top-0 mt-0 md:mt-4 md:w-32;
   }
 
   .scroll-down .newyorker-nav-links {
@@ -138,7 +153,7 @@
 }
 
 .scroll-down .main-navigation {
-  @apply top-4 transition-all duration-300;
+  @apply top-4 md:top-8 transition-all duration-300;
 }
 
 .burgerstack-search {
@@ -167,7 +182,7 @@
 }
 
 .scroll-down .burgerstack {
-  @apply opacity-100 md:opacity-0 inline-block transition-all duration-300;
+  @apply opacity-100  inline-block transition-all duration-300;
 }
 
 .burgerstackIcon {
@@ -178,20 +193,7 @@
   display: inline-block;
 }
 
-.logo-row {
-  @apply h-24 md:h-48 transition-all duration-300;
-  text-align: right;
-  pointer-events: none;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
 
-.logo {
-  @apply w-24 mt-2 md:w-40 md:mt-4  transition-all duration-300;
-
-}
 
   /* Header top section with logo and text */
   .header-top-section {
@@ -253,10 +255,10 @@
   }
   
   .newyorker-nav-links {
-    @apply hidden md:flex  space-x-8 text-sm transition-all duration-300;
+    @apply hidden md:flex  top-[12px] space-x-8 text-sm transition-all duration-300;
     justify-content: center;
     position: relative;
-    top: 60px;
+    /* top: 60px; */
     opacity: 1;
     transition: opacity 0.3s, top 0.3s;
   }
