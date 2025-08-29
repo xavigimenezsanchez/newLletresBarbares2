@@ -174,7 +174,7 @@
 }
 
 /* Modo oscuro (opcional) */
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   .sidenav {
     background-color: #1f2937;
     border-right: 1px solid #374151;
