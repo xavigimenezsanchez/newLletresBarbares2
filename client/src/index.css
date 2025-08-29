@@ -812,6 +812,79 @@
       text-shadow: 0 0 10px currentColor;
     }
 
+    /* Animaciones staggered para el grid */
+    @keyframes slideInUp {
+      from {
+        transform: translateY(30px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    @keyframes scaleInBounce {
+      0% {
+        transform: scale(0.8);
+        opacity: 0;
+      }
+      50% {
+        transform: scale(1.05);
+        opacity: 0.8;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    /* Grid masonry-like effect */
+    .arxiu-grid {
+      grid-template-rows: masonry;
+    }
+
+    /* Animación de entrada para las cards */
+    .issue-card-enter {
+      animation: slideInUp 0.6s ease-out forwards;
+      animation-fill-mode: both;
+    }
+
+    /* Cards especiales con animación diferente */
+    .issue-card-large {
+      animation: scaleInBounce 0.8s ease-out forwards;
+      animation-fill-mode: both;
+    }
+
+    /* Hover effects avanzados */
+    .issue-card-advanced-hover {
+      transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .issue-card-advanced-hover:hover {
+      transform: translateY(-8px) scale(1.02);
+      box-shadow: 
+        0 20px 40px -12px rgba(0, 0, 0, 0.15),
+        0 0 0 1px rgba(255, 255, 255, 0.1);
+    }
+
+    /* Parallax effect para patrones */
+    .issue-pattern-parallax {
+      transform: translateZ(0);
+      backface-visibility: hidden;
+    }
+
+    .issue-pattern-parallax:hover {
+      animation: floatPattern 3s ease-in-out infinite;
+    }
+
+    @keyframes floatPattern {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      25% { transform: translateY(-2px) rotate(1deg); }
+      50% { transform: translateY(-4px) rotate(0deg); }
+      75% { transform: translateY(-2px) rotate(-1deg); }
+    }
+
 }
 
 @layer utilities {
@@ -879,5 +952,10 @@
   
   .article-text li {
     margin-bottom: 0.5rem;
+  }
+
+  .issue-edition-button {
+    @apply inline-flex items-center px-4 py-2 bg-[#dc2626] text-white text-[0.625rem] font-black rounded hover:bg-red-800 transition-colors duration-200;
+    font-family: "Irvin-Heading";
   }
 }

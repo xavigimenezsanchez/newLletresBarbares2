@@ -57,6 +57,8 @@ export interface Issue {
   publicationDate: string;
   isPublished: boolean;
   articles?: Article[];
+  totalArticles?: number;
+  sections?: string[];
   createdAt?: string;
   updatedAt?: string;
 }

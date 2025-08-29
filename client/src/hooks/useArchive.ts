@@ -30,6 +30,21 @@ export function useArchive() {
     viewMode: 'timeline'
   })
 
+  // Función para ordenar issues por número de edición
+  const sortIssues = useCallback((issues: Issue[]) => {
+    return [...issues].sort((a, b) => {
+      // Primer criterio: número de edición (descendente)
+      if (a.number !== b.number) {
+        return b.number - a.number
+      }
+      
+      // Segundo criterio: fecha de publicación (más reciente primero)
+      const dateA = new Date(a.publicationDate).getTime()
+      const dateB = new Date(b.publicationDate).getTime()
+      return dateB - dateA
+    })
+  }, [])
+
   // Cargar todos los issues y años disponibles
   const loadArchiveData = useCallback(async () => {
     setState(prev => ({ ...prev, loading: true, error: null }))
@@ -41,11 +56,12 @@ export function useArchive() {
       ])
 
       const issues = (issuesResponse as any).issues || []
+      const sortedIssues = sortIssues(issues)
       
       setState(prev => ({
         ...prev,
-        issues,
-        filteredIssues: issues,
+        issues: sortedIssues,
+        filteredIssues: sortedIssues,
         availableYears: yearsResponse as number[],
         loading: false
       }))
@@ -56,7 +72,7 @@ export function useArchive() {
         error: error instanceof Error ? error.message : 'Error carregant l\'arxiu'
       }))
     }
-  }, [])
+  }, [sortIssues])
 
   // Aplicar filtros
   const applyFilters = useCallback(() => {
@@ -78,15 +94,11 @@ export function useArchive() {
       )
     }
 
-    // Ordenar por fecha de publicación (más reciente primero)
-    filtered.sort((a, b) => {
-      const dateA = new Date(a.publicationDate).getTime()
-      const dateB = new Date(b.publicationDate).getTime()
-      return dateB - dateA
-    })
+    // Ordenar por número de edición (más alto primero, luego por fecha como criterio secundario)
+    const sortedFiltered = sortIssues(filtered)
 
-    setState(prev => ({ ...prev, filteredIssues: filtered }))
-  }, [state.issues, state.filters])
+    setState(prev => ({ ...prev, filteredIssues: sortedFiltered }))
+  }, [state.issues, state.filters, sortIssues])
 
   // Actualizar filtros
   const setFilters = useCallback((newFilters: Partial<ArchiveFilters>) => {

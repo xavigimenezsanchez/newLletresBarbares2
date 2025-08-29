@@ -76,7 +76,7 @@ const ArxiuPage: React.FC = () => {
     <div className="min-h-screen flex flex-col bg-gray-50">
       <Header />
       
-      <main className="flex-grow flex justify-around bg-[#f4e8e84f] pr-4 pl-4 md:pr-0 md:pl-0">
+      <main className="flex-grow flex justify-around bg-[#f4e8e84f] pb-16 pr-4 pl-4 md:pr-0 md:pl-0">
         <div className="arxiu-container">
           {/* Breadcrumb */}
           <nav className="text-sm text-gray-600 mb-6 pt-32 md:pt-60">
@@ -132,7 +132,7 @@ const ArxiuPage: React.FC = () => {
               {issues.length > 0 ? (
                 <div className={
                   viewMode === 'grid' 
-                    ? 'arxiu-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6'
+                    ? 'arxiu-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6 auto-rows-max'
                     : 'space-y-6'
                 }>
                   {issues.map((issue) => (
