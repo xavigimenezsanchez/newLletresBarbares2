@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react'
 import ElegantSearch from './ElegantSearch'
 import JaraLogo from '../assets/Jara logo.svg'
-import  JaraLogoPetit from '../assets/Jara logo petit.svg'
+import Burguer from '../assets/burguer.svg'
+import SideNav from './SideNav'
 
 const Header = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const [isScrolled, setIsScrolled] = useState(false)
   const [isCompressed, setIsCompressed] = useState(false)
+  const [isSideNavOpen, setIsSideNavOpen] = useState(false)
 
   useEffect(() => {
     let ticking = false
@@ -16,7 +16,6 @@ const Header = () => {
         window.requestAnimationFrame(() => {
           if (y > 120 && !isCompressed) setIsCompressed(true)
           else if (y < 40 && isCompressed) setIsCompressed(false)
-          setIsScrolled(y > 50)
           ticking = false
         })
         ticking = true
@@ -40,9 +39,13 @@ const Header = () => {
   ]
 
   return (
-    <div className="newyorker-header-container">
-    <header className="newyorker-header">
-      <div className="scroll-block" aria-hidden="true"></div>
+    <>
+      {/* SideNav Component */}
+      <SideNav isOpen={isSideNavOpen} onClose={() => setIsSideNavOpen(false)} />
+      
+      <div className="newyorker-header-container">
+      <header className="newyorker-header">
+        <div className="scroll-block" aria-hidden="true"></div>
       <div className="max-w-6xl mx-auto px-6">
         <div className="header-contents">
           <div className="main-navigation-holder">
@@ -50,7 +53,13 @@ const Header = () => {
               <span className="burgerstack-search">
                 <ul>
                   <li className="burgerstack">
-                    <svg version="1.1" baseProfile="tiny" className="burgerstackIcon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 16" xml:space="preserve"><polygon className="top" fill-rule="evenodd" fill="#313130" points="0,0 20,0 20,2 0,2"></polygon><polygon className="middle" fill-rule="evenodd" fill="#313130" points="0,7 20,7 20,9 0,9"></polygon><polygon className="bottom" fill-rule="evenodd" fill="#313130" points="0,14 20,14 20,16 0,16"></polygon></svg>
+                    <button 
+                      onClick={() => setIsSideNavOpen(true)}
+                      className="burgerstack-btn"
+                      aria-label="Abrir menú"
+                    >
+                      <img src={Burguer} alt="Burger" className="h-6 w-6 p-1" />
+                    </button>
                   </li>
                   <li className="search">
                       <ElegantSearch />
@@ -82,7 +91,7 @@ const Header = () => {
           </div>
         <div className="header-button-editions">
           <a href="/arxiu" className="header-button-edition">
-            Ediciones Anteriores
+            Edicions anteriors
           </a>
         </div>
         </div>
@@ -90,7 +99,7 @@ const Header = () => {
 
     </header>
     </div>
-
+    </>
   )
 }
 

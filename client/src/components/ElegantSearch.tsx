@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import LiveSearch from './LiveSearch'
+import Search from '../assets/search.svg'
 
 interface ElegantSearchProps {
   className?: string
@@ -18,23 +19,11 @@ const ElegantSearch: React.FC<ElegantSearchProps> = ({ className = '' }) => {
       <div className={`hidden md:block ${className}`}>
         <button
           onClick={handleClick}
-          className="flex items-center gap-2 p-2 text-newyorker-dark hover:text-newyorker-red transition-colors duration-200"
+          className="flex items-center gap-2 pl-2 text-newyorker-dark hover:text-newyorker-red transition-colors duration-200"
           aria-label="Obrir cerca"
         >
-          <svg
-            className="w-6 h-6"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-            />
-          </svg>
-          <div className="text-md">Cercar</div>
+            <img src={Search} alt="Search" className="h-6 w-6 p-1" />
+          <div className="text-md pt-[2px]">Cercar</div>
         </button>
       </div>
 
@@ -42,22 +31,10 @@ const ElegantSearch: React.FC<ElegantSearchProps> = ({ className = '' }) => {
       <div className={`md:hidden ${className}`}>
         <button
           onClick={handleClick}
-          className="p-2 text-newyorker-dark hover:text-newyorker-red transition-colors duration-200"
+          className="pl-2 text-newyorker-dark hover:text-newyorker-red transition-colors duration-200"
           aria-label="Obrir cerca"
         >
-          <svg
-            className="w-5 h-5"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 2 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-            />
-          </svg>
+          <img src={Search} alt="Search" className="h-6 w-6 p-1" />
         </button>
       </div>
 

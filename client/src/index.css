@@ -118,6 +118,14 @@
     
   }
 
+  .search-button-desktop {
+    @apply hidden md:block;
+  }
+
+  .search-button-mobile {
+    @apply block md:hidden;
+  }
+
   .header-contents {
      @apply relative z-10  w-full; /* overflow-hidden */
   }
@@ -173,7 +181,7 @@
 }
 
 .burgerstack  {
-  @apply opacity-100 h-6 md:opacity-0 inline-block transition-all duration-300;
+  @apply opacity-100 h-full md:opacity-0 inline-block transition-all duration-300;
    padding-right: 0.5rem;
   border-right: solid 1px #9b9b9b;
   
@@ -183,6 +191,21 @@
 
 .scroll-down .burgerstack {
   @apply opacity-100  inline-block transition-all duration-300;
+}
+
+.burgerstack-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.burgerstack-btn:hover {
+  transform: rotate(90deg);
 }
 
 .burgerstackIcon {
