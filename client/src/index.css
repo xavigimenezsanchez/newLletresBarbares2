@@ -470,7 +470,8 @@
       }
       
       .arxiu-container {
-        @apply mx-auto pr-4 pl-4 pb-8 pt-60  md:w-full md:pt-60;
+        @apply  container;
+        /*mx-auto pr-4 pl-4 pb-8 pt-60  md:w-full md:pt-60 */;
       }
       
       .arxiu-title {
@@ -763,6 +764,11 @@
     letter-spacing: 0.05em;
     font-size: 0.75rem;
   }
+  .see-edition-button {
+    @apply inline-flex items-center px-4 py-2 bg-[#dc2626] text-white text-sm rounded hover:bg-gray-800 transition-colors duration-200;
+    font-family: "Irvin-Heading";
+   }
+
 }
 
 @layer utilities {

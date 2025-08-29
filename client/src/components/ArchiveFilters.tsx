@@ -112,7 +112,7 @@ const ArchiveFilters: React.FC<ArchiveFiltersProps> = ({
             <a
               key={section.key}
               href={`/${section.key}`}
-              className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md transition-colors duration-200"
+              className="block border-none px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md transition-colors duration-200"
             >
               {section.label}
             </a>

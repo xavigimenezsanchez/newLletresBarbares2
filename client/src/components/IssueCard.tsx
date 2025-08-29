@@ -129,17 +129,17 @@ const IssueCard: React.FC<IssueCardProps> = ({ issue, viewMode }) => {
         )}
 
         {/* Actions */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center justify-center">
           <Link
             to={`/edicio/${issue.number}`}
-            className="inline-flex items-center px-4 py-2 bg-black text-white text-sm rounded hover:bg-gray-800 transition-colors duration-200"
+            className="see-edition-button"
           >
             Veure edició
           </Link>
           
-          <button className="inline-flex items-center px-4 py-2 border border-gray-300 text-gray-700 text-sm rounded hover:bg-gray-50 transition-colors duration-200">
+          {/* <button className="inline-flex items-center px-4 py-2 border border-gray-300 text-gray-700 text-sm rounded hover:bg-gray-50 transition-colors duration-200">
             Descarregar PDF
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

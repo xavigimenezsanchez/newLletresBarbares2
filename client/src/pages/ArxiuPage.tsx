@@ -76,10 +76,10 @@ const ArxiuPage: React.FC = () => {
     <div className="min-h-screen flex flex-col bg-gray-50">
       <Header />
       
-      <main className="flex-grow flex justify-around pr-4 pl-4 pt-32 md:pt-60">
+      <main className="flex-grow flex justify-around bg-[#f4e8e84f] pr-4 pl-4 md:pr-0 md:pl-0">
         <div className="arxiu-container">
           {/* Breadcrumb */}
-          <nav className="text-sm text-gray-600 mb-6">
+          <nav className="text-sm text-gray-600 mb-6 pt-32 md:pt-60">
             <Link to="/" className="hover:text-black">Inici</Link>
             <span className="mx-2">›</span>
             <span>Arxiu</span>
