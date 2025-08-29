@@ -458,6 +458,63 @@
       grid-row: span 1;
         /*background: rgba(0, 0, 255, 0.1);  Debug: azul para small */
       }
+
+    .magazine-card--small {
+      grid-column: span 4;
+      grid-row: span 1;
+        /*background: rgba(0, 0, 255, 0.1);  Debug: azul para small */
+      }
+
+      arxiu-grid {
+        @apply grid-cols-1 sm:grid-cols-2;
+      }
+      
+      .arxiu-container {
+        @apply mx-auto pr-4 pl-4 pb-8 pt-60  md:w-full md:pt-60;
+      }
+      
+      .arxiu-title {
+        @apply text-3xl;
+      }
+
+  /* Mobile filter modal animations - fullscreen */
+  .mobile-filter-modal-enter {
+    transform: translateY(100%);
+  }
+  
+  .mobile-filter-modal-enter-active {
+    transform: translateY(0);
+    transition: transform 300ms ease-out;
+  }
+  
+  .mobile-filter-modal-exit {
+    transform: translateY(0);
+  }
+  
+  .mobile-filter-modal-exit-active {
+    transform: translateY(100%);
+    transition: transform 250ms ease-in;
+  }
+
+  /* Smooth scroll para el modal */
+  .mobile-filter-modal-content {
+    scroll-behavior: smooth;
+  }
+
+  /* Mejoras responsivas para la página de archivo */
+  /* @media (min-width: 1023px) {
+    .arxiu-grid {
+      @apply grid-cols-1 sm:grid-cols-2;
+    }
+    
+    .arxiu-container {
+      @apply mx-auto pr-4 pl-4 pb-8 pt-60  md:w-full md:pt-60;
+    }
+    
+    .arxiu-title {
+      @apply text-3xl;
+    }
+  } */
   }
 
 

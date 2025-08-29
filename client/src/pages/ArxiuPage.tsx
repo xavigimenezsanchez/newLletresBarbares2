@@ -5,7 +5,10 @@ import Footer from '../components/Footer'
 import IssueCard from '../components/IssueCard'
 import ArchiveFilters from '../components/ArchiveFilters'
 import ViewToggle from '../components/ViewToggle'
+import MobileFilterDrawer from '../components/MobileFilterDrawer'
+import FilterButton from '../components/FilterButton'
 import { useArchive } from '../hooks/useArchive'
+import { useFilterDrawer } from '../hooks/useFilterDrawer'
 
 const ArxiuPage: React.FC = () => {
   const {
@@ -19,6 +22,11 @@ const ArxiuPage: React.FC = () => {
     clearFilters,
     setViewMode
   } = useArchive()
+
+  const { isOpen, openDrawer, closeDrawer } = useFilterDrawer()
+
+  // Verificar si hay filtros activos
+  const hasActiveFilters = filters.year || (filters.searchQuery && filters.searchQuery.trim())
 
   if (loading) {
     return (
@@ -68,8 +76,8 @@ const ArxiuPage: React.FC = () => {
     <div className="min-h-screen flex flex-col bg-gray-50">
       <Header />
       
-      <main className="flex-grow">
-        <div className="container mx-auto px-4 py-8">
+      <main className="flex-grow flex justify-around pr-4 pl-4 pt-32 md:pt-60">
+        <div className="arxiu-container">
           {/* Breadcrumb */}
           <nav className="text-sm text-gray-600 mb-6">
             <Link to="/" className="hover:text-black">Inici</Link>
@@ -79,18 +87,27 @@ const ArxiuPage: React.FC = () => {
           
           {/* Header */}
           <div className="mb-8">
-            <h1 className="text-4xl md:text-5xl font-light text-gray-900 mb-4" style={{ fontFamily: 'TNYAdobeCaslonPro, "Times New Roman", Times, serif' }}>
+            <h1 className="arxiu-title text-4xl md:text-5xl font-light text-gray-900 mb-4" style={{ fontFamily: 'TNYAdobeCaslonPro, "Times New Roman", Times, serif' }}>
               Arxiu
             </h1>
-            <p className="text-xl text-gray-600 max-w-3xl">
-              Descobreix tots els números de Lletres Barbares. Des del 2020, hem publicat {availableYears.length} anys de cultura, literatura i pensament.
+            <p className="text-lg md:text-xl text-gray-600 max-w-3xl">
+              Descobreix tots els números de Lletres Barbares publicats des del 2020.
             </p>
           </div>
 
+          {/* Botón de filtros móvil */}
+          <div className="lg:hidden mb-6 flex content-start justify-around w-full">
+            <FilterButton
+              onClick={openDrawer}
+              hasActiveFilters={!!hasActiveFilters}
+              resultsCount={issues.length}
+            />
+          </div>
+
           {/* Layout principal */}
-          <div className="flex gap-8">
-            {/* Sidebar con filtros */}
-            <div className="w-80 flex-shrink-0">
+          <div className="lg:flex lg:gap-8">
+            {/* Sidebar con filtros - solo desktop */}
+            <div className="hidden lg:block w-80 flex-shrink-0">
               <ArchiveFilters
                 availableYears={availableYears}
                 selectedYear={filters.year}
@@ -115,7 +132,7 @@ const ArxiuPage: React.FC = () => {
               {issues.length > 0 ? (
                 <div className={
                   viewMode === 'grid' 
-                    ? 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6'
+                    ? 'arxiu-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6'
                     : 'space-y-6'
                 }>
                   {issues.map((issue) => (
@@ -149,6 +166,20 @@ const ArxiuPage: React.FC = () => {
       </main>
       
       <Footer />
+
+      {/* Drawer móvil para filtros */}
+      <MobileFilterDrawer
+        isOpen={isOpen}
+        onClose={closeDrawer}
+        availableYears={availableYears}
+        selectedYear={filters.year}
+        searchQuery={filters.searchQuery}
+        onYearChange={(year) => setFilters({ year })}
+        onSearchChange={(searchQuery) => setFilters({ searchQuery })}
+        onClearFilters={clearFilters}
+        resultsCount={issues.length}
+        totalCount={49} // TODO: obtener del API
+      />
     </div>
   )
 }
