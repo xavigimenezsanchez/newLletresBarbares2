@@ -159,13 +159,13 @@ const AuthorsPage: React.FC = () => {
     return (
       <div className="min-h-screen bg-gray-50">
         <Header />
-        <div className="py-8">
+        <main className="pt-32 md:pt-64 pb-8">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-center items-center h-64">
               <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-newyorker-dark"></div>
             </div>
           </div>
-        </div>
+        </main>
         <Footer />
       </div>
     )
@@ -175,7 +175,7 @@ const AuthorsPage: React.FC = () => {
     return (
       <div className="min-h-screen bg-gray-50">
         <Header />
-        <div className="py-8">
+        <main className="pt-32 md:pt-64 pb-8">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="bg-red-50 border border-red-200 rounded-lg p-6 text-center">
               <p className="text-red-800">{error}</p>
@@ -187,7 +187,7 @@ const AuthorsPage: React.FC = () => {
               </button>
             </div>
           </div>
-        </div>
+        </main>
         <Footer />
       </div>
     )
@@ -196,7 +196,7 @@ const AuthorsPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
-      <div className="py-8">
+      <main className="pt-32 md:pt-64 pb-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Header */}
           <div className="mb-8">
@@ -382,7 +382,7 @@ const AuthorsPage: React.FC = () => {
             </div>
           )}
         </div>
-      </div>
+      </main>
       <Footer />
     </div>
   )
