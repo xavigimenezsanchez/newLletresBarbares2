@@ -2,8 +2,6 @@ import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { apiService } from '../services/api'
 import type { Article } from '../types'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
 import ArticleText from '../components/ArticleText'
 import AuthorDisplay from '../components/AuthorDisplay'
 import { formatDateToCatalan } from '../utils/dateUtils'
@@ -42,13 +40,11 @@ const ArticlePage = () => {
   if (loading) {
     return (
       <div className="min-h-screen bg-white">
-        <Header />
         <div className="max-w-4xl mx-auto px-6 py-16">
           <div className="text-center">
             <div className="text-xl font-newyorker">Carregant article...</div>
           </div>
         </div>
-        <Footer />
       </div>
     )
   }
@@ -56,7 +52,6 @@ const ArticlePage = () => {
   if (error || !article) {
     return (
       <div className="min-h-screen bg-white">
-        <Header />
         <div className="max-w-4xl mx-auto px-6 py-16">
           <div className="text-center">
             <h1 className="text-2xl font-newyorker mb-4">Article no trobat</h1>
@@ -66,26 +61,15 @@ const ArticlePage = () => {
             </Link>
           </div>
         </div>
-        <Footer />
       </div>
     )
   }
 
   return (
     <div className="min-h-screen bg-white">
-      <Header />
       
       <main className="max-w-4xl mx-auto pt-28 md:pt-60 pb-6 pl-6 pr-6"> 
-        {/* Breadcrumb */}
-        <nav className="mb-8">
-          <ol className="flex items-center space-x-2 text-sm text-gray-500">
-            <li><Link to="/" className="hover:text-black">Inici</Link></li>
-            <li>/</li>
-            <li><Link to={`/${article.section}`} className="hover:text-black capitalize">{article.section}</Link></li>
-            <li>/</li>
-            <li className="text-black" >{article.title}</li>
-          </ol>
-        </nav>
+
 
         {/* Article Header */}
         <header className="mb-12">
@@ -135,7 +119,6 @@ const ArticlePage = () => {
         </footer>
       </main>
       
-      <Footer />
     </div>
   )
 }

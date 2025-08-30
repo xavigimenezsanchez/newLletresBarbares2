@@ -1,7 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react'
 import { useSearchParams, Link } from 'react-router-dom'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
 import ArticleCard from '../components/ArticleCard'
 import { apiService } from '../services/api'
 import type { Article } from '../types'
@@ -207,18 +205,10 @@ const SearchPage: React.FC = () => {
   }
 
   return (
-    <div className="min-h-screen bg-newyorker-gray">
-      <Header />
+    <div className="min-h-screen bg-newyorker-gray pt-28 md:pt-60">
       
       <main className="max-w-7xl mx-auto px-4 py-8">
-        {/* Breadcrumb */}
-        <nav className="mb-6">
-          <ol className="flex space-x-2 text-sm text-gray-600">
-            <li><Link to="/" className="hover:text-black">Inici</Link></li>
-            <li className="before:content-['>'] before:mx-2">Cerca</li>
-            {query && <li className="before:content-['>'] before:mx-2 font-medium">"{query}"</li>}
-          </ol>
-        </nav>
+
 
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Filters Sidebar */}
@@ -385,7 +375,6 @@ const SearchPage: React.FC = () => {
         </div>
       </main>
 
-      <Footer />
     </div>
   )
 }

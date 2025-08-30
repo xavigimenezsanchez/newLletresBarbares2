@@ -14,30 +14,38 @@ import AnalyticsPage from './pages/AnalyticsPage'
 import AuthorsPage from './pages/AuthorsPage'
 import AuthorPage from './pages/AuthorPage'
 import { useScrollDirection } from './hooks/useScrollDirection'
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 function App() {
   // Inicializar el hook para detectar la dirección del scroll
   useScrollDirection()
 
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/articles" element={<ArticlesPage />} />
-        <Route path="/creacio" element={<CreacioPage />} />
-        <Route path="/entrevistes" element={<EntrevistesPage />} />
-        <Route path="/llibres" element={<LlibresPage />} />
-        <Route path="/llocs" element={<LlocsPage />} />
-        <Route path="/recomanacions" element={<RecomanacionsPage />} />
-        <Route path="/arxiu" element={<ArxiuPage />} />
-        <Route path="/cerca" element={<SearchPage />} />
-        <Route path="/analytics" element={<AnalyticsPage />} />
-        <Route path="/edicio/:number" element={<EdicioPage />} />
-        <Route path="/autors" element={<AuthorsPage />} />
-        <Route path="/autor/:slug" element={<AuthorPage />} />
-        <Route path="/:section/:url" element={<ArticlePage />} />
-      </Routes>
-    </Router>
+    <div className="min-h-screen bg-white">
+      <Router>
+          <Header />
+          <main className="home-background">
+            <Routes>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/articles" element={<ArticlesPage />} />
+              <Route path="/creacio" element={<CreacioPage />} />
+              <Route path="/entrevistes" element={<EntrevistesPage />} />
+              <Route path="/llibres" element={<LlibresPage />} />
+              <Route path="/llocs" element={<LlocsPage />} />
+              <Route path="/recomanacions" element={<RecomanacionsPage />} />
+              <Route path="/arxiu" element={<ArxiuPage />} />
+              <Route path="/cerca" element={<SearchPage />} />
+              <Route path="/analytics" element={<AnalyticsPage />} />
+              <Route path="/edicio/:number" element={<EdicioPage />} />
+              <Route path="/autors" element={<AuthorsPage />} />
+              <Route path="/autor/:slug" element={<AuthorPage />} />
+              <Route path="/:section/:url" element={<ArticlePage />} />
+            </Routes>
+          </main>
+      </Router>
+      <Footer />
+    </div>
   )
 }
 

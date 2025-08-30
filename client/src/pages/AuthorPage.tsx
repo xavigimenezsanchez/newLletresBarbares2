@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
 import { authorsService } from '../services/authors'
 import type { Author, AuthorStats, Article } from '../types'
 
@@ -95,7 +93,6 @@ const AuthorPage: React.FC = () => {
   if (loading) {
     return (
       <div className="min-h-screen bg-gray-50">
-        <Header />
         <main className="pt-32 md:pt-64 pb-8">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-center items-center h-64">
@@ -103,7 +100,6 @@ const AuthorPage: React.FC = () => {
             </div>
           </div>
         </main>
-        <Footer />
       </div>
     )
   }
@@ -111,7 +107,6 @@ const AuthorPage: React.FC = () => {
   if (error || !author) {
     return (
       <div className="min-h-screen bg-gray-50">
-        <Header />
         <main className="pt-32 md:pt-64 pb-8">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="bg-red-50 border border-red-200 rounded-lg p-6 text-center">
@@ -125,14 +120,12 @@ const AuthorPage: React.FC = () => {
             </div>
           </div>
         </main>
-        <Footer />
       </div>
     )
   }
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <Header />
       <main className=" pt-32 md:pt-64 pb-8">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Breadcrumbs */}
@@ -511,7 +504,6 @@ const AuthorPage: React.FC = () => {
           </div>
         </div>
       </main>
-      <Footer />
     </div>
   )
 }

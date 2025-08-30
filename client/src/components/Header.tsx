@@ -3,6 +3,7 @@ import ElegantSearch from './ElegantSearch'
 import JaraLogo from '../assets/Jara logo.svg'
 import Burguer from '../assets/burguer.svg'
 import SideNav from './SideNav'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   const [isCompressed, setIsCompressed] = useState(false)
@@ -68,13 +69,13 @@ const Header = () => {
               </span>
               <div className="newyorker-nav-links">
                 {navigationItems.map((item) => (
-                  <a
+                  <Link 
                     key={item.href}
-                    href={item.href}
+                    to={item.href}
                     className="newyorker-nav-link"
                   >
                     {item.label}
-                  </a>
+                  </Link>
                 ))}
               </div>
             </div>

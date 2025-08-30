@@ -1,7 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
 import IssueCard from '../components/IssueCard'
 import ArchiveFilters from '../components/ArchiveFilters'
 import ViewToggle from '../components/ViewToggle'
@@ -31,7 +28,6 @@ const ArxiuPage: React.FC = () => {
   if (loading) {
     return (
       <div className="min-h-screen flex flex-col">
-        <Header />
         <main className="flex-grow">
           <div className="container mx-auto px-4 py-8">
             <div className="flex items-center justify-center py-16">
@@ -44,7 +40,6 @@ const ArxiuPage: React.FC = () => {
             </div>
           </div>
         </main>
-        <Footer />
       </div>
     )
   }
@@ -52,7 +47,6 @@ const ArxiuPage: React.FC = () => {
   if (error) {
     return (
       <div className="min-h-screen flex flex-col">
-        <Header />
         <main className="flex-grow">
           <div className="container mx-auto px-4 py-8">
             <div className="text-center py-16">
@@ -67,14 +61,12 @@ const ArxiuPage: React.FC = () => {
             </div>
           </div>
         </main>
-        <Footer />
       </div>
     )
   }
 
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
-      <Header />
       <main className="flex-grow flex justify-around bg-[#f4e8e84f] pb-16 pr-4 pl-4 md:pr-0 md:pl-0">
         <div className="arxiu-container">
           {/* Breadcrumb */}
@@ -165,7 +157,6 @@ const ArxiuPage: React.FC = () => {
         </div>
       </main>
       
-      <Footer />
 
       {/* Drawer móvil para filtros */}
       <MobileFilterDrawer

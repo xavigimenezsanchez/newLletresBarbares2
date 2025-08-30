@@ -1,7 +1,5 @@
 import { useState, useEffect } from 'react'
-import Header from '../components/Header'
 import MagazineLayout from '../components/MagazineLayout'
-import Footer from '../components/Footer'
 import { apiService } from '../services/api'
 import type { Issue, Article } from '../types'
 
@@ -67,18 +65,12 @@ const HomePage = () => {
   }
 
   return (
-    <div className="min-h-screen bg-white">
-      <Header />
-      <main className="home-background">
         <MagazineLayout 
           articles={recentArticles}
           issueNumber={currentIssue?.number}
           year={currentIssue?.year}
           publicationDate={currentIssue?.publicationDate}
         />
-      </main>
-      <Footer />
-    </div>
   )
 }
 

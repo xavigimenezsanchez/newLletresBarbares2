@@ -1,7 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { useParams, Link, useNavigate } from 'react-router-dom'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
 import { apiService } from '../services/api'
 import type { Issue, Article } from '../types'
 import MagazineLayout from '../components/MagazineLayout'
@@ -145,7 +143,6 @@ const EdicioPage: React.FC = () => {
   if (error) {
     return (
       <div className="min-h-screen flex flex-col">
-        <Header />
         <main className="flex-grow flex items-center justify-center">
           <div className="text-center">
             <div className="text-6xl mb-6">📚</div>
@@ -171,7 +168,6 @@ const EdicioPage: React.FC = () => {
             </div>
           </div>
         </main>
-        <Footer />
       </div>
     )
   }
@@ -182,7 +178,6 @@ const EdicioPage: React.FC = () => {
 
   return (
     <div ref={pageRef} className="min-h-screen bg-white relative">
-      <Header />
       
       {/* Indicador visual de swipe */}
       <SwipeIndicator
@@ -313,7 +308,6 @@ const EdicioPage: React.FC = () => {
         />
       </main>
        */}
-      <Footer />
     </div>
   )
 }
