@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback, useRef } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
@@ -304,7 +304,7 @@ const AuthorsPage: React.FC = () => {
                 <Link
                   key={author._id}
                   to={`/autor/${author.slug}`}
-                  className="bg-white rounded-lg shadow-sm border border-gray-200 p-6 hover:shadow-md transition-shadow group"
+                  className="bg-white rounded-lg shadow-sm border border-gray-200 p-6 hover:shadow-md transition-shadow group hover:border-b-[0px]"
                 >
                   <div className="flex items-start space-x-4">
                     {/* Foto del autor */}
@@ -320,9 +320,20 @@ const AuthorsPage: React.FC = () => {
                           }}
                         />
                       ) : (
-                        <div className="w-16 h-16 rounded-full bg-newyorker-dark text-white flex items-center justify-center text-xl font-semibold">
-                          {authorsService.getAuthorInitials(author.name)}
-                        </div>
+                        (() => {
+                          const colors = authorsService.getAuthorColors(author.name);
+                          return (
+                            <div 
+                              className="w-16 h-16 rounded-full flex items-center justify-center text-xl font-semibold"
+                              style={{
+                                backgroundColor: colors.backgroundColor,
+                                color: colors.textColor
+                              }}
+                            >
+                              {authorsService.getAuthorInitials(author.name)}
+                            </div>
+                          );
+                        })()
                       )}
                     </div>
 

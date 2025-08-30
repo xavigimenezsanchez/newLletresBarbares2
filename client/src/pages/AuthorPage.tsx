@@ -87,15 +87,6 @@ const AuthorPage: React.FC = () => {
     }
   }
 
-  const formatDate = (dateString?: string) => {
-    if (!dateString) return 'N/A'
-    return new Date(dateString).toLocaleDateString('ca-ES', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric'
-    })
-  }
-
   const formatYear = (dateString?: string) => {
     if (!dateString) return new Date().getFullYear().toString()
     return new Date(dateString).getFullYear().toString()
@@ -185,9 +176,20 @@ const AuthorPage: React.FC = () => {
                     }}
                   />
                 ) : (
-                  <div className="w-32 h-32 rounded-full bg-newyorker-dark text-white flex items-center justify-center text-4xl font-semibold border-4 border-gray-100">
-                    {authorsService.getAuthorInitials(author.name)}
-                  </div>
+                  (() => {
+                    const colors = authorsService.getAuthorColors(author.name);
+                    return (
+                      <div 
+                        className="w-32 h-32 rounded-full flex items-center justify-center text-4xl font-semibold border-4 border-gray-100"
+                        style={{
+                          backgroundColor: colors.backgroundColor,
+                          color: colors.textColor
+                        }}
+                      >
+                        {authorsService.getAuthorInitials(author.name)}
+                      </div>
+                    );
+                  })()
                 )}
               </div>
 

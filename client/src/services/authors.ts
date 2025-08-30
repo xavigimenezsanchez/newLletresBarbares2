@@ -1,4 +1,4 @@
-import type { Author, AuthorStats } from '../types';
+import type { Author } from '../types';
 import { sortAuthorsByMultipleCriteria } from '../utils/sorting';
 
 class AuthorsService {
@@ -226,6 +226,41 @@ class AuthorsService {
       .join('')
       .toUpperCase()
       .slice(0, 2);
+  }
+
+  // Generar colores pasteles consistentes basados en el nombre del autor
+  getAuthorColors(name: string): { backgroundColor: string, textColor: string } {
+    // Paleta de colores pasteles
+    const pastelColors = [
+      { bg: 'rgb(254, 202, 202)', text: 'rgb(185, 28, 28)' },   // Rosa pastel / Rojo fuerte
+      { bg: 'rgb(191, 219, 254)', text: 'rgb(29, 78, 216)' },   // Azul pastel / Azul fuerte
+      { bg: 'rgb(196, 181, 253)', text: 'rgb(109, 40, 217)' },  // Violeta pastel / Violeta fuerte
+      { bg: 'rgb(167, 243, 208)', text: 'rgb(5, 150, 105)' },   // Verde pastel / Verde fuerte
+      { bg: 'rgb(253, 230, 138)', text: 'rgb(180, 83, 9)' },    // Amarillo pastel / Naranja fuerte
+      { bg: 'rgb(252, 231, 243)', text: 'rgb(190, 24, 93)' },   // Rosa claro / Rosa fuerte
+      { bg: 'rgb(219, 234, 254)', text: 'rgb(37, 99, 235)' },   // Azul claro / Azul fuerte
+      { bg: 'rgb(220, 252, 231)', text: 'rgb(16, 185, 129)' },  // Verde claro / Verde fuerte
+      { bg: 'rgb(254, 215, 170)', text: 'rgb(194, 65, 12)' },   // Naranja pastel / Naranja fuerte
+      { bg: 'rgb(233, 213, 255)', text: 'rgb(126, 34, 206)' },  // Lila pastel / Púrpura fuerte
+      { bg: 'rgb(165, 243, 252)', text: 'rgb(8, 145, 178)' },   // Cian pastel / Cian fuerte
+      { bg: 'rgb(254, 240, 138)', text: 'rgb(161, 98, 7)' }     // Amarillo claro / Amarillo fuerte
+    ];
+
+    // Generar hash simple del nombre para consistencia
+    let hash = 0;
+    for (let i = 0; i < name.length; i++) {
+      const char = name.charCodeAt(i);
+      hash = ((hash << 5) - hash) + char;
+      hash = hash & hash; // Convertir a entero de 32 bits
+    }
+
+    // Usar valor absoluto y obtener índice dentro del rango de colores
+    const colorIndex = Math.abs(hash) % pastelColors.length;
+    
+    return {
+      backgroundColor: pastelColors[colorIndex].bg,
+      textColor: pastelColors[colorIndex].text
+    };
   }
 
   formatDate(dateString: string): string {
