@@ -16,6 +16,7 @@ import AuthorPage from './pages/AuthorPage'
 import { useScrollDirection } from './hooks/useScrollDirection'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import ScrollToTop from './hooks/useScrollToTop'
 
 function App() {
   // Inicializar el hook para detectar la dirección del scroll
@@ -25,6 +26,7 @@ function App() {
     <div className="min-h-screen bg-white">
       <Router>
           <Header />
+          <ScrollToTop />
           <main className="home-background">
             <Routes>
               <Route path="/" element={<HomePage />} />
