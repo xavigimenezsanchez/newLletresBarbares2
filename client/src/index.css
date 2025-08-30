@@ -292,11 +292,10 @@
   }
 
   .newyorker-nav-link {
-    @apply text-black hover:text-gray-600 transition-colors duration-200;
+    @apply text-black hover:text-gray-600 transition-colors duration-200 text-[0.7rem] lg:text-[0.8rem];
     font-family: 'Irvin-Heading';
     text-transform: uppercase;
     letter-spacing: 0.09rem;
-    font-size: 0.8rem;
     font-weight: 500;
   }
   

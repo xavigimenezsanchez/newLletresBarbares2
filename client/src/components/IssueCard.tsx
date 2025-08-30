@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Article from '../assets/article.svg'
+import Sections from '../assets/sections.svg'
 import type { Issue } from '../types'
 
 interface IssueCardProps {
@@ -232,11 +234,11 @@ const IssueCard: React.FC<IssueCardProps> = ({ issue, viewMode }) => {
               <div className="mt-4 space-y-2 opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
                 <div className="flex justify-center gap-4 text-xs text-gray-600">
                   <span className="flex items-center gap-1">
-                    <span>📄</span>
+                    <span><img src={Article} alt="Articles" className="h-[18px]  w-[18px]" /></span>
                     <span>{totalArticles}</span>
                   </span>
                   <span className="flex items-center gap-1">
-                    <span>🏷️</span>
+                    <span><img src={Sections} alt="Sections" className="h-[18px]  w-[18px]" /></span>
                     <span>{sections.length}</span>
                   </span>
                 </div>
@@ -299,12 +301,12 @@ const IssueCard: React.FC<IssueCardProps> = ({ issue, viewMode }) => {
           <div className="flex items-center justify-between text-sm text-gray-500 mb-2">
             <div className="flex items-center gap-3">
               <span className="flex items-center gap-1">
-                <span className="text-base">📄</span>
+                <span className="text-base"><img src={Article} alt="Articles" className="h-[18px]  w-[18px]" /></span>
                 <span className="font-medium">{totalArticles}</span>
               </span>
               {sections.length > 0 && (
                 <span className="flex items-center gap-1">
-                  <span className="text-base">🏷️</span>
+                  <span className="text-base"><img src={Sections} alt="Sections" className="h-[18px]  w-[18px]" /></span>
                   <span className="font-medium">{sections.length}</span>
                 </span>
               )}
@@ -324,7 +326,14 @@ const IssueCard: React.FC<IssueCardProps> = ({ issue, viewMode }) => {
 
   // Vista Timeline
   return (
-    <div className={`flex gap-6 bg-white rounded-lg shadow-sm border ${colorScheme.border} overflow-hidden hover:shadow-lg transition-all duration-300 p-6 group relative`}>
+    <Link 
+    to={`/edicio/${issue.number}`}
+    className={`flex gap-6 bg-white rounded-lg shadow-sm border ${colorScheme.border} overflow-hidden border-none hover:border-none hover:shadow-lg transition-all duration-300 p-6 group relative`}
+    style={{
+      animationDelay: `${Math.random() * 200}ms`
+    }}
+  >
+    {/* <div className={`flex gap-6 bg-white rounded-lg shadow-sm border ${colorScheme.border} overflow-hidden hover:shadow-lg transition-all duration-300 p-6 group relative`}> */}
       {/* Portada mini con colores dinámicos */}
       <div className="flex-shrink-0">
         <div className={`w-24 h-32 bg-gradient-to-br ${colorScheme.gradient} ${colorScheme.hover} rounded flex items-center justify-center transition-all duration-300 relative overflow-hidden group-hover:scale-105`}>
@@ -346,16 +355,16 @@ const IssueCard: React.FC<IssueCardProps> = ({ issue, viewMode }) => {
       </div>
 
       {/* Contenido enriquecido */}
-      <div className="flex-grow">
+      <div className="flex-grow flex flex-col justify-between">
         <div className="flex items-start justify-between mb-3">
           <div className="flex-grow">
-            <div className="flex items-center gap-3 mb-2">
+            <div className="flex items-center gap-3 mb-2 justify-between">
               <h3 className="text-xl font-light text-gray-900 group-hover:text-gray-700 transition-colors duration-200" style={{ fontFamily: 'TNYAdobeCaslonPro, "Times New Roman", Times, serif' }}>
                 {issue.title}
               </h3>
               {/* Indicador visual del año */}
               <span className={`inline-flex items-center px-2 py-1 rounded-full text-xs font-bold ${colorScheme.accent} bg-opacity-10 ${colorScheme.accent.replace('text-', 'bg-')}`}>
-                {new Date(issue.publicationDate).getFullYear()}
+                {  formatMonth(issue.publicationDate) }
               </span>
             </div>
             
@@ -365,12 +374,14 @@ const IssueCard: React.FC<IssueCardProps> = ({ issue, viewMode }) => {
                 <span className="font-medium">{formatDate(issue.publicationDate)}</span>
               </span> */}
               <span className="flex items-center gap-1">
-                <span className="text-base">📄</span>
+                <span className="text-base"><img src={Article} alt="Articles" className="h-[18px]  w-[18px]" /></span>
                 <span className="font-medium">{totalArticles} articles</span>
               </span>
               {sections.length > 0 && (
                 <span className="flex items-center gap-1">
-                  <span className="text-base">🏷️</span>
+                  <span className="text-base">
+                  <img src={Sections} alt="Sections" className="h-[18px]  w-[18px]" />
+                  </span>
                   <span className="font-medium">{sections.length} seccions</span>
                 </span>
               )}
@@ -392,7 +403,7 @@ const IssueCard: React.FC<IssueCardProps> = ({ issue, viewMode }) => {
 
         {/* Secciones mejoradas con colores pasteles */}
         {sections.length > 0 && (
-          <div className="flex flex-wrap gap-2 mb-4">
+          <div className="flex flex-wrap gap-2">
             {sections.map((section) => {
               const sectionColors = getSectionColors(section)
               return (
@@ -414,23 +425,9 @@ const IssueCard: React.FC<IssueCardProps> = ({ issue, viewMode }) => {
           </div>
         )}
 
-        {/* Actions mejoradas */}
-        <div className="flex items-center justify-between">
-          <Link
-            to={`/edicio/${issue.number}`}
-            className="issue-edition-button"
-          >
-            Veure edició
-          </Link>
-          
-          {/* Información adicional */}
-          <div className="text-xs text-gray-400 text-right">
-            <div>Publicat el</div>
-            <div className="font-medium">{formatMonth(issue.publicationDate)}</div>
-          </div>
-        </div>
+
       </div>
-    </div>
+    </Link>
   )
 }
 

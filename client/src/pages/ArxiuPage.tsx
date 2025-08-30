@@ -75,18 +75,17 @@ const ArxiuPage: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
       <Header />
-      
       <main className="flex-grow flex justify-around bg-[#f4e8e84f] pb-16 pr-4 pl-4 md:pr-0 md:pl-0">
         <div className="arxiu-container">
           {/* Breadcrumb */}
-          <nav className="text-sm text-gray-600 mb-6 pt-32 md:pt-60">
+          {/* <nav className="text-sm text-gray-600 mb-6 pt-32 md:pt-60">
             <Link to="/" className="hover:text-black">Inici</Link>
             <span className="mx-2">›</span>
             <span>Arxiu</span>
-          </nav>
+          </nav> */}
           
           {/* Header */}
-          <div className="mb-8">
+          <div className="mb-8 pt-32 md:pt-60">
             <h1 className="arxiu-title text-4xl md:text-5xl font-light text-gray-900 mb-4" style={{ fontFamily: 'TNYAdobeCaslonPro, "Times New Roman", Times, serif' }}>
               Arxiu
             </h1>
@@ -107,7 +106,7 @@ const ArxiuPage: React.FC = () => {
           {/* Layout principal */}
           <div className="lg:flex lg:gap-8">
             {/* Sidebar con filtros - solo desktop */}
-            <div className="hidden lg:block w-80 flex-shrink-0">
+            <div className="hidden lg:block  w-80 flex-shrink-0">
               <ArchiveFilters
                 availableYears={availableYears}
                 selectedYear={filters.year}
@@ -121,7 +120,7 @@ const ArxiuPage: React.FC = () => {
             </div>
 
             {/* Contenido principal */}
-            <div className="flex-grow">
+            <div className="flex-grow ">
               <ViewToggle
                 viewMode={viewMode}
                 onViewModeChange={setViewMode}
@@ -162,6 +161,7 @@ const ArxiuPage: React.FC = () => {
               )}
             </div>
           </div>
+
         </div>
       </main>
       

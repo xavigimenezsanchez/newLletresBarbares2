@@ -136,7 +136,7 @@ const AuthorPage: React.FC = () => {
       <main className=" pt-32 md:pt-64 pb-8">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Breadcrumbs */}
-          <nav className="mb-6">
+          {/* <nav className="mb-6">
             <ol className="flex items-center space-x-2 text-sm text-gray-500">
               <li>
                 <Link to="/" className="hover:text-newyorker-dark transition-colors">
@@ -158,7 +158,7 @@ const AuthorPage: React.FC = () => {
                 {author.name}
               </li>
             </ol>
-          </nav>
+          </nav> */}
 
           {/* Hero Section */}
           <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-8 mb-8">
