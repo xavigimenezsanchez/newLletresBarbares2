@@ -115,9 +115,7 @@ const MagazineLayout = ({ articles, issueNumber, year, publicationDate }: Magazi
                 </div>
                 
                 <h3 className="magazine-card__title">
-                  <Link to={`/${article.section}/${article.url}`}>
-                    {article.title}
-                  </Link>
+                  <Link to={`/${article.section}/${article.url}`} dangerouslySetInnerHTML={{ __html: article.title }} />
                 </h3>
                 
                 <p className="magazine-card__summary" dangerouslySetInnerHTML={{ __html: summaryText }} />

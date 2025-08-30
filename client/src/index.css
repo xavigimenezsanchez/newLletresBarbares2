@@ -958,4 +958,20 @@
     @apply inline-flex items-center px-4 py-2 bg-[#dc2626] text-white text-[0.625rem] font-black rounded hover:bg-red-800 transition-colors duration-200;
     font-family: "Irvin-Heading";
   }
+
+  /* Animaciones para navegación por swipe */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-out;
+  }
 }
