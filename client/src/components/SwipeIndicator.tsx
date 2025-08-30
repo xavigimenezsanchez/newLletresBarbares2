@@ -35,7 +35,7 @@ const SwipeIndicator: React.FC<SwipeIndicatorProps> = ({
           className="absolute left-0 top-0 h-full flex items-center justify-center transition-all duration-100"
           style={{ 
             width: `${Math.min(progress * 200, 100)}px`,
-            background: 'linear-gradient(to right, rgba(34, 197, 94, 0.8), transparent)'
+            background: 'linear-gradient(to right, rgba(220, 38, 38, 0.8), transparent)'
           }}
         >
           <div 
@@ -69,7 +69,7 @@ const SwipeIndicator: React.FC<SwipeIndicatorProps> = ({
           className="absolute right-0 top-0 h-full flex items-center justify-center transition-all duration-100"
           style={{ 
             width: `${Math.min(progress * 200, 100)}px`,
-            background: 'linear-gradient(to left, rgba(34, 197, 94, 0.8), transparent)'
+            background: 'linear-gradient(to left, rgba(220, 38, 38, 0.8), transparent)'
           }}
         >
           <div 
