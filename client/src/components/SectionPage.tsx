@@ -1,7 +1,5 @@
 import React, { useCallback } from 'react'
 import { Link } from 'react-router-dom'
-import Header from './Header'
-import Footer from './Footer'
 import { apiService } from '../services/api'
 import { useInfiniteScroll } from '../hooks/useInfiniteScroll'
 import type { Article } from '../types'
@@ -54,7 +52,6 @@ const SectionPage: React.FC<SectionPageProps> = ({
   if (error) {
     return (
       <div className="min-h-screen flex flex-col">
-        <Header />
         <main className="flex-grow">
           <div className="container mx-auto px-4 py-8">
             <div className="text-center py-16">
@@ -63,14 +60,12 @@ const SectionPage: React.FC<SectionPageProps> = ({
             </div>
           </div>
         </main>
-        <Footer />
       </div>
     )
   }
 
   return (
     <div className="min-h-screen flex flex-col">
-      <Header />
       
       <main className="flex-grow">
         <div className="container mx-auto pt-28 md:pt-60 pb-4 pl-8 pr-8">
@@ -161,7 +156,6 @@ const SectionPage: React.FC<SectionPageProps> = ({
         </div>
       </main>
       
-      <Footer />
     </div>
   )
 }
