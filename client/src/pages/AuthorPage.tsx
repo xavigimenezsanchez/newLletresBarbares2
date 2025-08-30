@@ -391,7 +391,7 @@ const AuthorPage: React.FC = () => {
                         <Link
                           key={article._id}
                           to={`/${article.section}/${article.url}`}
-                          className="block bg-gray-50 rounded-lg p-4 hover:bg-gray-100 transition-colors group"
+                          className="block bg-gray-50 rounded-lg p-4 border-none hover:border-none hover:bg-gray-100 transition-colors group"
                         >
                           <div className="flex items-start space-x-4">
                             {article.imageCard && (

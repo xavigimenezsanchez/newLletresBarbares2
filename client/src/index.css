@@ -727,7 +727,7 @@
   
   /* Footer like The New Yorker */
   .newyorker-footer {
-    @apply bg-black text-white py-12 px-6;
+    @apply bg-black text-white py-8 px-6;
   }
   
 
