@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import { useParams, Link, useNavigate } from 'react-router-dom'
 import Header from '../components/Header'
-import Hero from '../components/Hero'
-import ArticleGrid from '../components/ArticleGrid'
 import Footer from '../components/Footer'
 import { apiService } from '../services/api'
 import type { Issue, Article } from '../types'
+import MagazineLayout from '../components/MagazineLayout'
 
 const EdicioPage: React.FC = () => {
   const { number } = useParams<{ number: string }>()
@@ -149,7 +148,7 @@ const EdicioPage: React.FC = () => {
       <Header />
       
       {/* Breadcrumb */}
-      <nav className="bg-gray-50 py-4">
+      {/* <nav className="bg-gray-50 py-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <ol className="flex items-center space-x-2 text-sm text-gray-500">
             <li>
@@ -165,59 +164,96 @@ const EdicioPage: React.FC = () => {
             </li>
           </ol>
         </div>
-      </nav>
+      </nav> */}
 
       {/* Hero Section */}
-      <Hero 
+      {/* <Hero 
         title={currentIssue.title || `Lletres Bàrbares - Número ${currentIssue.number}`}
         subtitle={`Publicat el ${formatDate(currentIssue.publicationDate)} • ${articles.length} articles`}
         featuredArticle={featuredArticle || undefined}
-      />
+      /> */}
 
       {/* Navigation between issues */}
-      <div className="bg-gray-50 border-t border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <div className="flex items-center justify-between">
-            <div>
+       
+            <div className="fixed left-0 top-1/2 z-10">
               {currentIssue.number > 0 && (
                 <Link
                   to={`/edicio/${currentIssue.number - 1}`}
-                  className="inline-flex items-center px-4 py-2 border border-gray-300 text-gray-700 bg-white rounded-md hover:bg-gray-50 transition-colors duration-200"
+                  className="inline-flex items-center px-4 py-2 border-none hover:border-none hover:transfo"
                 >
-                  <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7" />
+                  <svg enable-background="new 0 0 512 512" className="h-8 w-8 md:h-20 md:w-20 hover:scale-110 transition-transform duration-300"  height="100%" viewBox="0 0 512 512" width="100%" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs">
+                      <g width="100%" height="100%" transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,512.0005416870117,511.9991149902344)">
+                          <g id="_x31_1_Right_Arrow">
+                              <g>
+                                  <path d="m271.231 451.133-17.902-17.908c-11.854-11.858-11.851-31.081.007-42.935l134.325-134.285-134.327-134.287c-11.858-11.855-11.861-31.078-.006-42.936l17.905-17.91c11.855-11.858 31.077-11.86 42.935-.006l173.718 173.667c11.861 11.857 11.86 31.085 0 42.942l-173.719 173.665c-11.859 11.854-31.082 11.851-42.936-.007z" fill="#dc2626" fill-opacity="1" data-original-color="#fdce06ff" stroke="none" stroke-opacity="1"/>
+                                  <path className='hidden md:block' d="m42.018 451.133-17.902-17.908c-11.854-11.858-11.851-31.081.007-42.935l134.325-134.285-134.327-134.287c-11.858-11.855-11.861-31.078-.006-42.936l17.905-17.91c11.855-11.858 31.077-11.86 42.935-.006l173.718 173.667c11.861 11.857 11.86 31.085 0 42.942l-173.72 173.665c-11.858 11.854-31.081 11.851-42.935-.007z" fill="#ffffff" fill-opacity="0" data-original-color="#ffffffff" stroke="none" stroke-opacity="1"/>
+                                  <g fill="#3e3e3e">
+                                      <path d="m319.661 55.376c-14.895-14.895-39.018-14.904-53.918.004l-17.908 17.912c-14.863 14.867-14.859 39.055.008 53.918l128.831 128.793-128.832 128.793c-14.867 14.867-14.87 39.055-.004 53.918l17.901 17.908c14.88 14.887 39.014 14.911 53.918.008l173.719-173.662c7.206-7.202 11.173-16.778 11.173-26.965s-3.967-19.763-11.173-26.961zm162.732 216.609-173.719 173.662c-9.061 9.061-23.324 8.62-31.952-.008l-17.901-17.908c-8.806-8.81-8.806-23.142.004-31.952l134.326-134.285c1.456-1.456 2.276-3.432 2.276-5.492s-.819-4.035-2.276-5.492l-134.325-134.283c-8.81-8.81-8.814-23.142-.008-31.952l17.908-17.912c8.533-8.533 23.419-8.537 31.952-.004l173.715 173.67c4.27 4.267 6.622 9.94 6.622 15.974 0 6.038-2.351 11.711-6.622 15.982z" fill="#3e3e3e" fill-opacity="1" data-original-color="#3e3e3eff" stroke="none" stroke-opacity="1"/>
+                                      <path className='hidden md:block' d="m275.334 256.003c0-10.187-3.967-19.763-11.169-26.961l-173.719-173.666c-14.866-14.855-39.051-14.859-53.918.004l-17.904 17.912c-14.867 14.863-14.863 39.051.004 53.918l128.831 128.793-128.827 128.793c-14.901 14.893-14.911 39.014-.008 53.918l17.901 17.908c14.879 14.887 39.018 14.911 53.922.008l173.719-173.662c7.201-7.202 11.168-16.778 11.168-26.965zm-22.152 15.982-173.719 173.662c-8.799 8.799-23.101 8.847-31.956-.008l-17.901-17.908c-8.807-8.807-8.847-23.097.008-31.952l134.323-134.285c1.456-1.456 2.275-3.432 2.275-5.492s-.819-4.035-2.275-5.492l-134.326-134.283c-8.81-8.81-8.81-23.142-.004-31.952l17.904-17.912c8.814-8.799 23.146-8.81 31.952-.004l173.719 173.666c4.267 4.267 6.618 9.944 6.618 15.978 0 6.038-2.351 11.711-6.618 15.982z" fill="#3e3e3e" fill-opacity="1" data-original-color="#3e3e3eff" stroke="none" stroke-opacity="1"/>
+                                  </g>
+                              </g>
+                          </g>
+                      </g>
                   </svg>
-                  Edició anterior
                 </Link>
               )}
             </div>
             
-            <div className="text-center">
-              <div className="text-lg font-medium text-gray-900">
-                Edició {currentIssue.number}
-              </div>
-              <div className="text-sm text-gray-500">
-                {formatDate(currentIssue.publicationDate)}
-              </div>
-            </div>
 
-            <div>
+            <div className="fixed right-0 top-1/2">
               <Link
                 to={`/edicio/${currentIssue.number + 1}`}
-                className="inline-flex items-center px-4 py-2 border border-gray-300 text-gray-700 bg-white rounded-md hover:bg-gray-50 transition-colors duration-200"
+                className="inline-flex items-center px-4 py-2 border-none hover:border-none"
               >
-                Edició següent
-                <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
-                </svg>
+                <svg enable-background="new 0 0 512 512" className="h-8 w-8 md:h-20 md:w-20 hover:scale-110 transition-transform duration-300"  height="100%" width="100%" viewBox="0 0 512 512"  xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs"><g width="100%" height="100%" transform="matrix(1,0,0,1,0,0)"><g id="_x31_1_Right_Arrow"><g><path  d="m271.231 451.133-17.902-17.908c-11.854-11.858-11.851-31.081.007-42.935l134.325-134.285-134.327-134.287c-11.858-11.855-11.861-31.078-.006-42.936l17.905-17.91c11.855-11.858 31.077-11.86 42.935-.006l173.718 173.667c11.861 11.857 11.86 31.085 0 42.942l-173.719 173.665c-11.859 11.854-31.082 11.851-42.936-.007z" fill="#dc2626" fill-opacity="1" data-original-color="#fdce06ff" stroke="none" stroke-opacity="1"/><path className='hidden md:block' d="m42.018 451.133-17.902-17.908c-11.854-11.858-11.851-31.081.007-42.935l134.325-134.285-134.327-134.287c-11.858-11.855-11.861-31.078-.006-42.936l17.905-17.91c11.855-11.858 31.077-11.86 42.935-.006l173.718 173.667c11.861 11.857 11.86 31.085 0 42.942l-173.72 173.665c-11.858 11.854-31.081 11.851-42.935-.007z" fill="#ffffff" fill-opacity="0" data-original-color="#ffffffff" stroke="none" stroke-opacity="1"/><g fill="#3e3e3e"><path d="m319.661 55.376c-14.895-14.895-39.018-14.904-53.918.004l-17.908 17.912c-14.863 14.867-14.859 39.055.008 53.918l128.831 128.793-128.832 128.793c-14.867 14.867-14.87 39.055-.004 53.918l17.901 17.908c14.88 14.887 39.014 14.911 53.918.008l173.719-173.662c7.206-7.202 11.173-16.778 11.173-26.965s-3.967-19.763-11.173-26.961zm162.732 216.609-173.719 173.662c-9.061 9.061-23.324 8.62-31.952-.008l-17.901-17.908c-8.806-8.81-8.806-23.142.004-31.952l134.326-134.285c1.456-1.456 2.276-3.432 2.276-5.492s-.819-4.035-2.276-5.492l-134.325-134.283c-8.81-8.81-8.814-23.142-.008-31.952l17.908-17.912c8.533-8.533 23.419-8.537 31.952-.004l173.715 173.67c4.27 4.267 6.622 9.94 6.622 15.974 0 6.038-2.351 11.711-6.622 15.982z" fill="#3e3e3e" fill-opacity="1" data-original-color="#3e3e3eff" stroke="none" stroke-opacity="1"/><path d="m275.334 256.003c0-10.187-3.967-19.763-11.169-26.961l-173.719-173.666c-14.866-14.855-39.051-14.859-53.918.004l-17.904 17.912c-14.867 14.863-14.863 39.051.004 53.918l128.831 128.793-128.827 128.793c-14.901 14.893-14.911 39.014-.008 53.918l17.901 17.908c14.879 14.887 39.018 14.911 53.922.008l173.719-173.662c7.201-7.202 11.168-16.778 11.168-26.965zm-22.152 15.982-173.719 173.662c-8.799 8.799-23.101 8.847-31.956-.008l-17.901-17.908c-8.807-8.807-8.847-23.097.008-31.952l134.323-134.285c1.456-1.456 2.275-3.432 2.275-5.492s-.819-4.035-2.275-5.492l-134.326-134.283c-8.81-8.81-8.81-23.142-.004-31.952l17.904-17.912c8.814-8.799 23.146-8.81 31.952-.004l173.719 173.666c4.267 4.267 6.618 9.944 6.618 15.978 0 6.038-2.351 11.711-6.618 15.982z" className='hidden md:block' fill="#3e3e3e" fill-opacity="1" data-original-color="#3e3e3eff" stroke="none" stroke-opacity="1"/></g></g></g></g></svg>
               </Link>
             </div>
-          </div>
+
+
+      <main className="home-background">
+              
+      {/* Breadcrumb */}
+      {/* <nav className="bg-gray-50 py-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <ol className="flex items-center space-x-2 text-sm text-gray-500">
+            <li>
+              <Link to="/" className="hover:text-gray-700">Inici</Link>
+            </li>
+            <li>/</li>
+            <li>
+              <Link to="/arxiu" className="hover:text-gray-700">Arxiu</Link>
+            </li>
+            <li>/</li>
+            <li className="text-gray-900 font-medium">
+              Edició {currentIssue.number}
+            </li>
+          </ol>
         </div>
-      </div>
+      </nav> */}
+
+
+        <MagazineLayout 
+          articles={articles}
+          issueNumber={currentIssue?.number}
+          year={currentIssue?.year}
+          publicationDate={currentIssue?.publicationDate}
+        />
+      </main>
+
+
+
+
+
+
+
+
+
+
+
+
 
       {/* Articles */}
-      <main>
+      {/* <main>
         <ArticleGrid 
           title={`Contingut de l'edició ${currentIssue.number}`}
           articles={articles}
@@ -225,7 +261,7 @@ const EdicioPage: React.FC = () => {
           year={currentIssue.year}
         />
       </main>
-      
+       */}
       <Footer />
     </div>
   )
