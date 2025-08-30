@@ -73,7 +73,7 @@ const SectionPage: React.FC<SectionPageProps> = ({
       <Header />
       
       <main className="flex-grow">
-        <div className="container mx-auto px-4 py-8">
+        <div className="container mx-auto pt-28 md:pt-60 pb-4 pl-8 pr-8">
           <nav className="text-sm text-gray-600 mb-6">
             <Link to="/" className="hover:text-newyorker-red">Inici</Link>
             <span className="mx-2">›</span>
