@@ -268,9 +268,7 @@ const AuthorPage: React.FC = () => {
                       Biografia
                     </h3>
                     <div className="prose prose-gray max-w-none">
-                      <p className="text-gray-700 leading-relaxed whitespace-pre-line">
-                        {author.bio.full}
-                      </p>
+                      <p className="text-gray-700 leading-relaxed whitespace-pre-line" dangerouslySetInnerHTML={{ __html: author.bio.full }} />
                     </div>
                   </div>
 

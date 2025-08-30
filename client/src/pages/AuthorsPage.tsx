@@ -338,9 +338,7 @@ const AuthorsPage: React.FC = () => {
                         </p>
                       )}
                       
-                      <p className="text-sm text-gray-700 mb-3 line-clamp-2">
-                        {author.bio.short}
-                      </p>
+                      <p className="text-sm text-gray-700 mb-3 line-clamp-2" dangerouslySetInnerHTML={{ __html: author.bio.short }} />
                       
                       <div className="flex items-center justify-between text-xs text-gray-500">
                         <span>{author.stats.totalArticles} articles</span>

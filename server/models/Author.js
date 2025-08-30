@@ -101,59 +101,59 @@ authorSchema.index({ isActive: 1 });
 
 // Middleware para generar slug automáticamente - MÚLTIPLES ENFOQUES
 // 1. Pre-validate (se ejecuta antes de la validación)
-authorSchema.pre('validate', function(next) {
-  console.log('🔄 Pre-validate middleware ejecutándose para:', this.name);
+// authorSchema.pre('validate', function(next) {
+//   console.log('🔄 Pre-validate middleware ejecutándose para:', this.name);
   
-  if (!this.slug || this.slug === '') {
-    this.slug = this.name
-      .toLowerCase()
-      .replace(/[^a-z0-9\s]/g, '')
-      .replace(/\s+/g, '-')
-      .replace(/-+/g, '-')
-      .replace(/^-+|-+$/g, '');
+//   if (!this.slug || this.slug === '') {
+//     this.slug = this.name
+//       .toLowerCase()
+//       .replace(/[^a-z0-9\s]/g, '')
+//       .replace(/\s+/g, '-')
+//       .replace(/-+/g, '-')
+//       .replace(/^-+|-+$/g, '');
     
-    console.log('✅ Slug generado en pre-validate:', this.slug);
-  }
+//     console.log('✅ Slug generado en pre-validate:', this.slug);
+//   }
   
-  next();
-});
+//   next();
+// });
 
 // 2. Pre-save (se ejecuta antes de guardar)
-authorSchema.pre('save', function(next) {
-  console.log('💾 Pre-save middleware ejecutándose para:', this.name);
-  console.log('📝 Slug antes de pre-save:', this.slug);
+// authorSchema.pre('save', function(next) {
+//   console.log('💾 Pre-save middleware ejecutándose para:', this.name);
+//   console.log('📝 Slug antes de pre-save:', this.slug);
   
-  // Siempre regenerar el slug para asegurar consistencia
-  this.slug = this.name
-    .toLowerCase()
-    .replace(/[^a-z0-9\s]/g, '')
-    .replace(/\s+/g, '-')
-    .replace(/-+/g, '-')
-    .replace(/^-+|-+$/g, '');
+//   // Siempre regenerar el slug para asegurar consistencia
+//   this.slug = this.name
+//     .toLowerCase()
+//     .replace(/[^a-z0-9\s]/g, '')
+//     .replace(/\s+/g, '-')
+//     .replace(/-+/g, '-')
+//     .replace(/^-+|-+$/g, '');
   
-  console.log('✅ Slug final generado en pre-save:', this.slug);
-  next();
-});
+//   console.log('✅ Slug final generado en pre-save:', this.slug);
+//   next();
+// });
 
 // 3. Pre-insertMany (para operaciones bulk)
-authorSchema.pre('insertMany', function(next, docs) {
-  console.log('📦 Pre-insertMany middleware ejecutándose');
+// authorSchema.pre('insertMany', function(next, docs) {
+//   console.log('📦 Pre-insertMany middleware ejecutándose');
   
-  if (Array.isArray(docs)) {
-    docs.forEach(doc => {
-      if (doc.name && (!doc.slug || doc.slug === '')) {
-        doc.slug = doc.name
-          .toLowerCase()
-          .replace(/[^a-z0-9\s]/g, '')
-          .replace(/\s+/g, '-')
-          .replace(/-+/g, '-')
-          .replace(/^-+|-+$/g, '');
-      }
-    });
-  }
+//   if (Array.isArray(docs)) {
+//     docs.forEach(doc => {
+//       if (doc.name && (!doc.slug || doc.slug === '')) {
+//         doc.slug = doc.name
+//           .toLowerCase()
+//           .replace(/[^a-z0-9\s]/g, '')
+//           .replace(/\s+/g, '-')
+//           .replace(/-+/g, '-')
+//           .replace(/^-+|-+$/g, '');
+//       }
+//     });
+//   }
   
-  next();
-});
+//   next();
+// });
 
 // Método para obtener autores activos
 authorSchema.statics.getActiveAuthors = function() {
