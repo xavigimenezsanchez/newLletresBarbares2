@@ -113,14 +113,10 @@ const SectionPage: React.FC<SectionPageProps> = ({
                   </div>
                   
                   <h3 className="newyorker-article-title">
-                    <Link to={`/${section}/${article.url}`}>
-                      {article.title}
-                    </Link>
+                    <Link to={`/${section}/${article.url}`} dangerouslySetInnerHTML={{ __html: article.title }}   />
                   </h3>
                   
-                  <p className="newyorker-article-summary">
-                    {article.summary}
-                  </p>
+                  <p className="newyorker-article-summary" dangerouslySetInnerHTML={{ __html: article.summary }} />
                   
                   <div className="mt-4 pt-4 border-t border-newyorker-light-gray">
                     <div className="text-sm text-gray-600">

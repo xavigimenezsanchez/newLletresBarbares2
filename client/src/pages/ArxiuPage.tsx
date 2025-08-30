@@ -91,7 +91,7 @@ const ArxiuPage: React.FC = () => {
               Arxiu
             </h1>
             <p className="text-lg md:text-xl text-gray-600 max-w-3xl">
-              Descobreix tots els números de Lletres Barbares publicats des del 2020.
+              Descobreix tots els números de Lletres Bàrbares publicats des del 2020.
             </p>
           </div>
 

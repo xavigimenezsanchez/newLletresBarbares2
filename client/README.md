@@ -1,6 +1,6 @@
-# Lletres Barbares - Web App
+# Lletres Bàrbares - Web App
 
-Una web app moderna per a la revista mensual "Lletres Barbares", dissenyada amb inspiració en The New Yorker.
+Una web app moderna per a la revista mensual "Lletres Bàrbares", dissenyada amb inspiració en The New Yorker.
 
 ## 🎨 Característiques del Disseny
 
@@ -158,4 +158,4 @@ Per a preguntes o suport:
 
 ---
 
-**Lletres Barbares** - Revista mensual de cultura, literatura i pensament
+**Lletres Bàrbares** - Revista mensual de cultura, literatura i pensament

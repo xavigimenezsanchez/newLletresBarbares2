@@ -57,7 +57,7 @@ const EdicioPage: React.FC = () => {
           _id: `issue-${issueNumber}`,
           number: issueNumber,
           year: 2025, // TODO: calcular dinámicamente 
-          title: `Lletres Barbares - Número ${issueNumber}`,
+          title: `Lletres Bàrbares - Número ${issueNumber}`,
           publicationDate: issueArticles[0]?.publicationDate || new Date(),
           totalArticles: issueArticles.length,
           isPublished: true
@@ -169,7 +169,7 @@ const EdicioPage: React.FC = () => {
 
       {/* Hero Section */}
       <Hero 
-        title={currentIssue.title || `Lletres Barbares - Número ${currentIssue.number}`}
+        title={currentIssue.title || `Lletres Bàrbares - Número ${currentIssue.number}`}
         subtitle={`Publicat el ${formatDate(currentIssue.publicationDate)} • ${articles.length} articles`}
         featuredArticle={featuredArticle || undefined}
       />

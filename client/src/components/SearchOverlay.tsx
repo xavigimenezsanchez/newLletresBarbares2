@@ -70,7 +70,7 @@ const SearchOverlay: React.FC<SearchOverlayProps> = ({ isOpen, onClose }) => {
             <form onSubmit={handleSubmit} className="p-6">
               <div className="flex items-center justify-between mb-6">
                 <h2 className="font-display text-xl text-newyorker-dark">
-                  Cerca a Lletres Barbares
+                  Cerca a Lletres Bàrbares
                 </h2>
                 <button
                   type="button"

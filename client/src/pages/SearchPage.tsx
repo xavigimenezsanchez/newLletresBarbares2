@@ -341,7 +341,7 @@ const SearchPage: React.FC = () => {
             {/* No Query State */}
             {!query && !loading && (
               <div className="text-center py-12">
-                <h2 className="font-display text-2xl mb-4">Cerca a Lletres Barbares</h2>
+                <h2 className="font-display text-2xl mb-4">Cerca a Lletres Bàrbares</h2>
                 <p className="text-gray-600 mb-6">
                   Introdueix un terme de cerca per trobar articles, autors o contingut
                 </p>

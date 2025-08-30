@@ -75,7 +75,7 @@ const ArticlePage = () => {
     <div className="min-h-screen bg-white">
       <Header />
       
-      <main className="max-w-4xl mx-auto px-6 py-12">
+      <main className="max-w-4xl mx-auto pt-28 md:pt-60 pb-6 pl-6 pr-6"> 
         {/* Breadcrumb */}
         <nav className="mb-8">
           <ol className="flex items-center space-x-2 text-sm text-gray-500">
@@ -126,7 +126,7 @@ const ArticlePage = () => {
         <footer className="mt-16 pt-8 border-t border-gray-200">
           <div className="flex items-center justify-between">
             <div className="text-sm text-gray-500">
-              Article publicat al número {article.issue}
+              Article publicat al número {article.issueNumber}
             </div>
             <Link to="/" className="newyorker-button-outline">
               Tornar a l'inici

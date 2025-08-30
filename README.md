@@ -1,4 +1,4 @@
-# Lletres Barbares - Revista Digital
+# Lletres Bàrbares - Revista Digital
 
 Revista mensual de cultura, literatura i pensament amb una arquitectura moderna de full-stack JavaScript.
 
