@@ -75,18 +75,6 @@ const IssueCard: React.FC<IssueCardProps> = ({ issue, viewMode }) => {
     }
   }
 
-  // Función para obtener iconos temáticos
-  const getSectionIcon = (section: string) => {
-    const icons = {
-      'articles': '📄',
-      'creacio': '✍️',
-      'entrevistes': '🎤',
-      'llibres': '📚',
-      'llocs': '📍',
-      'recomanacions': '⭐'
-    }
-    return icons[section as keyof typeof icons] || '📖'
-  }
 
   // Función para obtener colores pasteles para los badges de secciones
   const getSectionColors = (section: string) => {
@@ -407,9 +395,8 @@ const IssueCard: React.FC<IssueCardProps> = ({ issue, viewMode }) => {
             {sections.map((section) => {
               const sectionColors = getSectionColors(section)
               return (
-                <Link
+                <div
                   key={section}
-                  to={`/${section}`}
                   className={`
                     inline-flex items-center px-2 py-1 rounded-md text-xs font-semibold 
                     transition-all duration-200 hover:scale-105 hover:shadow-sm border
@@ -419,7 +406,7 @@ const IssueCard: React.FC<IssueCardProps> = ({ issue, viewMode }) => {
                 >
                   {/* <span className="mr-1.5 text-sm">{getSectionIcon(section)}</span> */}
                   <span className="capitalize font-bold">{section}</span>
-                </Link>
+                </div>
               )
             })}
           </div>
