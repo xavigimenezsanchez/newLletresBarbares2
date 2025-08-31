@@ -79,9 +79,7 @@ const ArticlePage = () => {
             </span>
           </div>
           
-          <h1 className="text-4xl font-newyorker mb-6 leading-tight">
-            {article.title}
-          </h1>
+          <h1 className="text-4xl font-newyorker mb-6 leading-tight" dangerouslySetInnerHTML={{ __html: article.title }} />
           
           <div className="flex items-center justify-between text-sm text-gray-600 mb-8">
             <div>
