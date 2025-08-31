@@ -48,7 +48,7 @@ const Footer = () => {
           <div>
             <h4 className="font-sans font-medium mb-4">Contacte</h4>
             <ul className="space-y-2 text-gray-300">
-              <li>info@lletresbarbares.cat</li>
+              <li>lletresbarbares@gmail.com</li>
               <li>Redacció i administració</li>
               {/* <li>ISSN: 1234-5678</li> */}
             </ul>
