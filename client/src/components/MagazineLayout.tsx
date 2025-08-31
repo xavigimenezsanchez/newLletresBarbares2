@@ -40,15 +40,7 @@ const MagazineLayout = ({ articles, issueNumber, year, publicationDate }: Magazi
     return patterns[index % patterns.length]
   }
 
-  // Función para generar texto Lorem Ipsum para summary
-  const getLoremIpsum = (length: 'short' | 'medium' | 'long') => {
-    const lorem = {
-      short: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
-      medium: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-      long: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit."
-    }
-    return lorem[length]
-  }
+
 
   const getSectionLabel = (section: string) => {
     const sectionLabels: Record<string, string> = {
@@ -89,7 +81,7 @@ const MagazineLayout = ({ articles, issueNumber, year, publicationDate }: Magazi
           //   size === 'large' ? 'long' : size === 'medium' ? 'medium' : 'short'
           // )
 
-          const summaryText = article.text.find(text => text.type === 'paragraph')?.content || '';
+          const summaryText = article.summary || article.text.find(text => text.type === 'paragraph')?.content || '';
           
 
 

@@ -122,11 +122,25 @@ articleSchema.pre('save', function(next) {
 // MÉTODOS ESTÁTICOS RESTAURADOS PARA COMPATIBILIDAD
 
 // Método estático para obtener artículos recientes
-articleSchema.statics.getRecent = function(limit = 10) {
-  return this.find({ isPublished: true })
+// Obtiene todos los artículos cuya issueNumber es la más alta (última revista publicada)
+articleSchema.statics.getRecent = async function() {
+  // Encontrar el issueNumber más alto entre los artículos publicados
+  const resultado = await this.find({ isPublished: true })
+    .sort({ issueNumber: -1 })
+    .limit(1)
+    .select('issueNumber')
+    .lean();
+
+  if (!resultado || resultado.length === 0 || !resultado[0].issueNumber) {
+    return [];
+  }
+
+  const maxIssueNumber = resultado[0].issueNumber;
+
+  // Devolver todos los artículos de ese issueNumber
+  return this.find({ isPublished: true, issueNumber: maxIssueNumber })
     .populate('issueId', 'year number')
-    .sort({ publicationDate: -1 })
-    .limit(limit);
+    .sort({ publicationDate: -1 });
 };
 
 // Método estático para obtener artículos por sección
