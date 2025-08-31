@@ -29,6 +29,10 @@ app.use(helmet({
         "https://lletresbarbares.s3.*.amazonaws.com",
         "https://youtube.com"
       ],
+      frameSrc: [
+        "'self'",
+        "https://youtube.com"
+      ],
       styleSrc: ["'self'", "'unsafe-inline'", "https:"],
       fontSrc: ["'self'", "https:", "data:"],
       scriptSrc: ["'self'"],
