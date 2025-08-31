@@ -1,4 +1,7 @@
 import { Link } from "react-router-dom"
+import instagram from "../assets/instagram.svg"
+import twitter from "../assets/twitter.svg"
+import youtube from "../assets/youtube.svg"
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
@@ -6,7 +9,7 @@ const Footer = () => {
   return (
     <footer className="newyorker-footer">
       <div className="newyorker-footer-content">
-        <div className="grid md:grid-cols-3 gap-16">
+        <div className="grid md:grid-cols-4 gap-16">
           <div>
             <div className="mb-4">
               <img 
@@ -33,16 +36,14 @@ const Footer = () => {
             </ul>
           </div>
           
-          {/* <div>
-            <h4 className="font-sans font-medium mb-4 text-white">Arxiu</h4>
+          <div>
+            <h4 className="font-sans font-medium mb-4 text-white">Xarxes Socials</h4>
             <ul className="space-y-2">
-              <li><a href="/arxiu/2024" className="text-gray-300 hover:text-white transition-colors">2024</a></li>
-              <li><a href="/arxiu/2023" className="text-gray-300 hover:text-white transition-colors">2023</a></li>
-              <li><a href="/arxiu/2022" className="text-gray-300 hover:text-white transition-colors">2022</a></li>
-              <li><a href="/arxiu/2021" className="text-gray-300 hover:text-white transition-colors">2021</a></li>
-              <li><a href="/arxiu/2020" className="text-gray-300 hover:text-white transition-colors">2020</a></li>
+              <li><a href="https://www.instagram.com/lletresbarbares/" className="text-gray-300 hover:text-white transition-colors"><img src={instagram} alt="Instagram" className="m-0 md:m-7 w-7" /></a></li>
+              <li><a href="https://twitter.com/lletresbarbares" className="text-gray-300 hover:text-white transition-colors"><img src={twitter} alt="Twitter" className="m-0 md:m-7 w-6" /></a></li>
+              <li><a href="https://www.youtube.com/@lletresbarbares5962" className="text-gray-300 hover:text-white transition-colors"><img src={youtube} alt="Youtube" className="m-0 md:m-7 w-7" /></a></li>
             </ul>
-          </div> */}
+          </div>
           
           <div>
             <h4 className="font-sans font-medium mb-4">Contacte</h4>
