@@ -59,7 +59,7 @@ const MagazineLayout = ({ articles, issueNumber, year, publicationDate }: Magazi
       {/* Header de la edición */}
       <div className="edition-header">
         <h1 className="edition-title">
-          {issueNumber ? `Número ${issueNumber}` : 'Última edició'}
+          { `Número ${issueNumber}`}
         </h1>
         <div className="edition-meta">
           {publicationDate && (
