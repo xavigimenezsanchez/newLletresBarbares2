@@ -45,8 +45,8 @@ function App() {
               <Route path="/:section/:url" element={<ArticlePage />} />
             </Routes>
           </main>
+          <Footer />
       </Router>
-      <Footer />
     </div>
   )
 }

@@ -26,7 +26,8 @@ app.use(helmet({
         "'self'",
         ...(process.env.NODE_ENV === 'development' ? ["http://localhost:5000", "http://localhost:5173"] : []),
         "https://lletresbarbares.s3.amazonaws.com",
-        "https://lletresbarbares.s3.*.amazonaws.com"
+        "https://lletresbarbares.s3.*.amazonaws.com",
+        "https://www.youtube.com"
       ],
       styleSrc: ["'self'", "'unsafe-inline'", "https:"],
       fontSrc: ["'self'", "https:", "data:"],
