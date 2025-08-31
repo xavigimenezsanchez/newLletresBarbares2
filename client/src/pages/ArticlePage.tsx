@@ -94,11 +94,6 @@ const ArticlePage = () => {
             </div>
           </div>
 
-          {article.summary && (
-            <div className="text-xl text-gray-700 leading-relaxed mb-8 font-newyorker">
-              {article.summary}
-            </div>
-          )}
         </header>
 
         {/* Article Content */}
