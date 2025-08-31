@@ -6,7 +6,15 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup-compare": "cd scripts && node setup-comparison.js",
+    "compare-dbs": "cd scripts && node compare-databases.js",
+    "test-compare": "cd scripts && node test-comparison.js",
+    "test-compare:large": "cd scripts && node test-comparison.js 100",
+    "logs": "cd scripts && node manage-logs.js",
+    "logs:list": "cd scripts && node manage-logs.js list",
+    "logs:summary": "cd scripts && node manage-logs.js summary",
+    "logs:clean": "cd scripts && node manage-logs.js clean"
   },
   "keywords": [
     "api",

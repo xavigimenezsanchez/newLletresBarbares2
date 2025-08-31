@@ -1,0 +1,106 @@
+{
+    "issue": 2025,
+    "data": "31/08/2025",
+    "imageCard": "puigdellivol50-01",
+    "title" : "Charles Pierre Baudelaire, el poeta de la modernitat (II)",
+    "url" : "charles_pierre_baudelaire_el_poeta_de_la_modernitat_2",
+    "section": "articles",
+    "author": "Valentí Puigdellívol",
+    "summary": "L’any 1921, en el marc dels actes organitzats per l’Académie française per commemorar el centenari del naixement de Charles Baudelaire, Paul Valéry pronuncia una conferència titulada <em>La situació de Baudelaire</em>, on reivindica amb força la figura del poeta. En aquest discurs Valéry exhuma la importància d’una obra que, en vida de l’autor, més enllà del cercle d’amics i admiradors més propers, havia quedat marginada. Baudelaire morirà sense haver obtingut un reconeixement públic substancial i la seva figura romandrà a l’ombra fins que pensadors com Valéry i, més tard, Walter Benjamin en facin una defensa decidida. És justament en aquest moment que la literatura comença a comprendre l’abast de la seva aportació com a poeta, crític literari i crític d’art. Valéry, en paraules categòriques, sentencia durant aquella conferència",
+    "publicationDate": {
+      "$date": "2025-08-31T22:00:00.000Z"
+    },
+    "isPublished": true,
+    "tags": [],
+    "readTime": 5,
+    "year": 2025,
+    "issueNumber": 50,
+
+    "authors": [
+      "Valentí Puigdellívol"
+    ],
+    "text": [
+      {
+        "type": "image",
+        "name": "puigdellivol50-01"
+      },
+      {
+        "type": "title",
+        "content": "Baudelaire, crític literari"
+      },
+      {
+        "type": "paragraph",
+        "content": "L’any 1921, en el marc dels actes organitzats per l’Académie française per commemorar el centenari del naixement de Charles Baudelaire, Paul Valéry pronuncia una conferència titulada <em>La situació de Baudelaire</em>, on reivindica amb força la figura del poeta. En aquest discurs Valéry exhuma la importància d’una obra que, en vida de l’autor, més enllà del cercle d’amics i admiradors més propers, havia quedat marginada. Baudelaire morirà sense haver obtingut un reconeixement públic substancial i la seva figura romandrà a l’ombra fins que pensadors com Valéry i, més tard, Walter Benjamin en facin una defensa decidida. És justament en aquest moment que la literatura comença a comprendre l’abast de la seva aportació com a poeta, crític literari i crític d’art. Valéry, en paraules categòriques, sentencia durant aquella conferència:"
+      },
+      {
+        "type": "title",
+        "styles": "{\"textAlign\":\"center\"}",
+        "content": "“No hi ha un poeta més important”"
+      },
+      {
+        "type": "paragraph",
+        "content": "L’any 1974 Octavio Paz escriu a <em>Los hijos del Limo que </em>la modernitat no és altra cosa que un sinònim de crítica. L’única llei que mana al poeta dins la modernitat és la raó crítica, l’alteritat i la contradicció. La dimensió crítica que motiva la modernitat, o hi dona peu, només neix d’una negació. Ja no es treballa a mans o per encàrrec, els artistes ja no treballen per a les elits ni per entitats polítiques, religioses o divines. La literatura conquista la seva autonomia. La modernitat abasta l’art, la literatura i el pensament. L’autonomia dels valors artístics va dur l’art, com a conseqüència, d’una banda, a la concepció del museu, i de l’altra, a la crítica d’art. Construir un poema és la construcció d’un objecte. Aquest objecte és fora de qualsevol realitat. Ell —el poema— és per ell mateix una realitat."
+      },
+      {
+        "type": "paragraph",
+        "content": "La crítica és feta servir per Baudelaire com a element nou dins el pensament de l’època. Si bé no podem dir que funda la <em>Crítica</em> com a disciplina per ella mateixa, sí que podem afirmar que la fa servir com a via per crear la seva pròpia poesia. Aquest cas és molt curiós, perquè ell s’adona que no pot fer el mateix que s’està fent en aquell moment i que, a més, tot el camp poètic està pres: “Il·lustres poetes s’havien repartit les més il·lustres províncies del domini poètic”, diria Baudelaire.  Així, doncs, ell és perfectament conscient que ha de trobar alguna eina nova amb què treballar. Per aquell temps Victor Hugo ho tenia tot cobert, la poesia, però també el teatre, la novel·la, etc. La primera cosa que fa és estudiar tot l’ampli camp poètic i realitza un estudi profund de deu dels més influents poetes de l’època. Quatre d’aquests deu no seran publicats al recull per culpa del seu editor, que es negà a la seva inclusió. Gairebé es podria pensar que, amb el naixement de la crítica, neix paral·lelament la censura literària. No serà així, per descomptat, però existeix una certa relació."
+      },
+      {
+        "type": "paragraph",
+        "content": "El romanticisme és l’<em>statu quo</em> del moment. Però les múltiples tendències que subvenen dins el romanticisme —medievalitzants, arcaïtzants, etc.— fan que Baudelaire defineixi el romanticisme com “<em>el modern</em>”.  La identificació d’aquells elements que constituiran “<em>el modern</em>” serà, tanmateix, allò que conformarà la modernitat. La modernitat és “<em>el fugitiu</em>”, “<em>el transitori</em>” i “<em>l'evanescent</em>”, que combina a parts iguals amb l'eternitat i la tradició artística. I en aquest sentit lliga el principi de “<em>l'actual</em>”, de “<em>el fugaç</em>” amb “<em>l'etern</em>”."
+      },
+      {
+        "type": "paragraph",
+        "content": "Tot això serà explicat per Mallarmé i per descomptat per Paul Valéry, però també per T.S. Eliot i per Walter Benjamin. Però serà Roland Barthes qui, d’una manera extraordinària, entendrà la revolució de Baudelaire i el seu <em>modus operandi</em>. Esbossarà una teoria en la qual diu que l’escriptor fa servir el “jo” per relatar-se i es formula a través de personatges. El crític, per contra, utilitza els altres, els escriptors, per a relatar-se ell mateix. Practica una mena d’afàsia del “jo”. Baudelaire s’impregna d’Edgar Allan Poe i de Théophile Gautier de tal manera que sembla que els posseeixi. Baudelaire s’expressa, es diu ell mateix, en la crítica d’aquests dos artistes. Quan parla d’ells en realitat parla d’ell mateix. Alhora, sentencia d’una manera vehement que la crítica és i ha de ser “parcial” i “subjectiva”."
+      },
+      {
+        "type": "paragraph",
+        "content": "Baudelaire promulga una teoria o un nou pensament pel qual  s’estableix que la poesia no està en relació amb la “veritat” ni amb la “justícia”, només amb la “bellesa”. La poesia no té més objecte que ella mateixa. La modernitat fa que l’escriptura només es responsabilitzi d’ella mateixa i respongui només davant d’ella mateixa. “<em>La poesia i la bellesa no es contaminen amb el principi de veritat ni amb el principi de justícia ni amb el d’utilitat</em>”. Aquestes paraules, en aquell temps, van ser revolucionàries i escandaloses fins al punt que el condemnaren a l’ostracisme."
+      },
+      {
+        "type": "paragraph",
+        "content": "Si existeix alguna cosa que distingeix Baudelaire de la resta de parnassians i simbolistes és lligar la teoria del poema al principi de bellesa i que aquesta bellesa en abstracte ha d’incorporar una part d’actualitat <em>—“el fugaç”—</em> i una part de classicisme <em>—“l'etern</em>”—. La poesia no està deslligada del seu temps, del present, però alhora ha de contenir la tradició, és a dir, el passat, i tot això talment com a ens autònom. No serà fins molts anys després que Jorge Luis Borges tornarà a insistir sobre el mateix, ampliant o, millor dit, traslladant aquest concepte d’autonomia al concepte de “ficció”. Tractant la ficció com un ens autònom que en cap cas no serà verificable i, per tant, no respon davant de res que no sigui la ficció mateixa."
+      },
+      {
+        "type": "paragraph2",
+        "content": "<em>Lettre à sa mère, Madame Aupick<br />Paris, le 9 juillet 1857</em><br /><br /><em>Quant aux poésies (parues il y a quinze jours), comme tu le sais, j'avais d'abord l'intention de ne pas te les montrer. Mais, à la réflexion, il m’a semblé que si tu attendais, après tout, de parler de ce volume — ne serait-ce qu’à travers les critiques que je t’enverrais —, ma pudeur serait aussi ridicule que ta prudence. J’ai reçu pour moi seize exemplaires sur papier ordinaire, et quatre sur papier vélin. Je t’en ai réservé un de ces derniers ; si tu ne l’as pas encore reçu, c’est que j’ai voulu te l’envoyer relié.</em><br /><br /><em>Tu sais que j’ai toujours considéré la littérature et les arts comme poursuivant une fin étrangère à la morale ; et que la beauté de conception et de style me suffit. Mais, comme tu le verras, ce livre, dont le titre — Les Fleurs du Mal — dit tout, est revêtu d’une beauté sinistre et glacée ; il a été fait avec fureur et patience. D’ailleurs, la preuve de sa valeur incontestable réside dans toutes les horreurs qu’on en a dites. Ce livre met les gens en rage. Du reste, épouvanté moi-même par l’horreur qu’il allait inspirer, j’ai supprimé le tiers des épreuves. On me dénie tout, l’esprit d’invention, et même la connaissance de la langue française. Je me moque de tous ces imbéciles, et je sais que ce volume, avec ses qualités et ses défauts, fera son chemin dans la mémoire du public lettré, aux côtés des meilleures poésies de Victor Hugo, de Théophile Gautier et même de Byron.</em><br /><br /><em>Une seule recommandation : puisque tu vis avec la famille Emon, ne laisse pas ce livre tomber entre les mains de Mademoiselle Emon. Quant au curé, que tu reçois sans doute, tu peux le lui montrer. Il pensera que je suis damné et n’osera pas le lire. On a répandu la rumeur qu’il allait être poursuivi, mais cela n’arrivera pas. Un gouvernement qui a entre les mains les terribles élections de Paris n’a pas le temps de poursuivre un fou.</em><br /><br /><div style=\"display: flex; justify-content: end\"><div>Charles Baudelaire</div> </div>"
+      },
+      {
+        "type": "paragraph",
+        "content": "El poeta s'adreça a la seva mare amb un to íntim i protector, però també amb una lleugera ironia. Expressa la seva reticència inicial a compartir el llibre, revelant la tensió entre l’amor filial i la por al judici moral. Baudelaire reafirma aquí una de les seves idees més transgressores: l’art no ha de tenir una funció moral. Això anticipa la seva defensa de “l’art per l’art” i l’estètica de la <em>beauté maléfique</em>."
+      },
+      {
+        "type": "image",
+        "name": "puigdellivol50-02",
+        "content": "<em>Les Fleurs du Mal.</em> Frontispici de l’edició de 1857, anotacions per Charles Baudelaire"
+      },
+      {
+        "type": "paragraph",
+        "content": "Amb el romanticisme la poesia s’infecta de teoria. La poesia en forma oral és anterior a l’escriptura. Des del principi i durant molts segles és <em>indissociable</em> de la música i la dansa. Va ser hegemònica per transmetre el pensament humà. La poesia quedarà com un vehicle reduït al pensament i la prosa prendrà el relleu per transmetre el coneixement humà. De totes maneres recordem <em>De rerum natura</em> de Lucreci com a exemple de transmissió de pensament en vers, o la <em>Divina Comèdia</em> de Dante com a exemple, també, de transmissió de la cultura i el saber d’una època."
+      },
+      {
+        "type": "paragraph",
+        "content": "Els poetes romàntics canten la natura, s’adonen de l’emancipació de l’home respecte de la natura i se’n dolen. D’alguna manera Hölderlin a Alemanya o Leopardi a Itàlia canten la natura com una mena de comiat. Baudelaire, en aquell moment, ja té plenament assumida aquesta desvinculació de la natura i se sent un home plenament urbà. Es pot concloure, sense por d’equivocar-se, que Baudelaire asfalta els camins rurals cap a la metròpoli."
+      },
+      {
+        "type": "paragraph",
+        "content": "Baudelaire va violentar la sagrada prosòdia de l’alexandrí francès. En aquella època aquesta prosòdia era molt rígida i no podia, sota cap circumstància, permetre’s la més petita desviació. Baudelaire utilitza paraules malsonants i, per damunt de tot, fa servir material de rebuig literari: temes tabú com el satanisme, el lesbianisme, la caiguda a l’abisme, la finitud. Tot això serà expressat d’una manera particular i força inadequada pel moment en què s’escriu. Precisament serà llegint i traduint Edgar Allan Poe que Baudelaire descobrirà una llibertat al llenguatge i una fluïdesa que li permetrà fer aquest canvi de la rígida prosòdia francesa. Evidentment, això no es va entendre a la seva època i malgrat que era conegut, mai no va ser reconegut fora del seu cercle d’amistats."
+      },
+      {
+        "type": "paragraph",
+        "content": "La metròpoli parisenca, el París del segon imperi, es troba en plena ebullició i se succeeixen canvis i transformacions a gran escala. Arriba l’enllumenat elèctric als carrers i aquesta esplendor de la ciutat il·luminada atrau la multitud. Des de la perifèria i des del món rural dels voltants significa un gran què, però, tanmateix, es donarà un fenomen de cabdal importància, la lluminària i resplendor de la ciutat impediran, per primera vegada a la història de la humanitat, la visió del firmament estelat. La llum impedeix veure els estels. L’home, que des del principi dels temps havia alçat el cap per mirar el cel, ara deixa de fer-ho, en principi perquè és inútil, no s’hi veu, i, al cap de poc temps, perquè ja no hi ha memòria. Serà Proust, a <em>La recerca del temps perdut,</em> qui millor explicarà la pèrdua de l’experiència a la modernitat. L’home, per primera vegada, mira arran de terra. D’altra banda, s’enderroca el París insalubre, estret i que és una olla de pressió. Georges Eugène Haussmann portarà a terme un pla urbanístic radical a la ciutat de París entre els anys 1853 i 1870: obre grans avingudes, enderroca barris sencers i instal·la clavegueram i sanejament d’aigües residuals. Aquests canvis donaran lloc al París que coneixem actualment. Serà important per comprendre els canvis i les transformacions metropolitanes que vindran després a ciutats com Barcelona, amb el rebuig del pla Rovira i el mal desenvolupat pla Cerdà. Però, alhora, hem d’entendre que aquests plans urbanístics nous a París també tenien la finalitat de contenir, d’una manera més efectiva, els motins i les revoltes que es generaven amb freqüència i que, en un París ple de carrers petits i estrets, eren difícils de reprimir. Tota aquesta transformació de la metròpoli comportarà dos fenòmens importants: l’obrer i la gent sense recursos serà expulsada a la perifèria, que creixerà mísera i extremadament paupèrrima respecte del París esplendorós del centre. La burgesia i sobretot els comerciants crearan els passatges comercials i cobriran el sostre de molts carrers amb voltes de vidre. Aquestes galeries comercials, precursores dels grans centres comercials d’avui en dia, exposaran al vianant, per primer cop, la vida interior. S’exposarà a la mirada pública la intimitat, fins aleshores guardada a l’interior de les cases. Les grans botigues exposaran els productes i el luxe. Tot es farà de portes en fora. Es promouran les terrasses als cafès. Prevaldrà la imatge d’exposar-se. Es construirà la conducta de l’ésser humà del segle XXI i la seva exposició a les xarxes socials. Hi haurà, paral·lelament, un fenomen  molt curiós que tampoc havia succeït abans de manera tan significativa i serà el fet de no reconèixer la ciutat de la joventut. La desaparició dels llocs tal com eren i es recordaven. Esborrar aquells barris va significar perdre els llocs on s’havia viscut i crescut, no reconèixer espais habitats. Històries viscudes desapareixen del mapa o simplement la pèrdua de veïns i amics traslladats a indrets diferents en molt pocs anys. No reconèixer la ciutat significarà un xoc nou pel ciutadà."
+      },
+      {
+        "type": "paragraph",
+        "content": "Baudelaire s’adona d’aquests fenòmens i en parla a <em>Les flors del mal, Spleen de París o a Paradisos artificials. </em>"
+      },
+      {
+        "type": "paragraph2",
+        "content": "<div style=\"display: flex; justify-content: center\"><strong><em>Les yeux des pauvres</em></strong></div><div><em><br /><br />Ah ! Tu veux savoir pourquoi je te hais aujourd’hui. Il te sera sans doute moins facile de le comprendre qu’à moi de t’expliquer ; car tu es, je crois, le plus bel exemple d’imperméabilité féminine qui se puisse rencontrer.</em><br/><em>Nous avions passé ensemble une longue journée, qui m’avait paru courte. Nous nous étions bien promis que tous nos pensées seraient communes, et que nos deux âmes n’en feraient plus qu’une ; un rêve qui n’a rien d’original, après tout, puisque tous les hommes l’ont eu ; même plusieurs fois chacun ; mais un rêve toujours assez plaisant, lorsqu’on en peut faire la déclaration simultanément.</em><br /><em>Le soir, un peu fatiguée, tu as voulu t’asseoir devant un café nouveau, au coin d’un boulevard tout neuf, encore tout encombré de décombres, et qui montrait déjà fièrement ses promesses de splendeur. Le café resplendissait. Des gaz éclatants y déployaient toute l’ardeur de leur début, et éclairaient à plein les murailles éblouissantes de blancheur, les glaces renvoyant les lustres multipliés, les dorures des baguettes et des corniches, les valets superbes en cravate blanche, se promenant avec des airs de doges en vacances, les dames qui riaient en tenant un perroquet sur le poing, les nymphes et les déesses chargeant leur tête de plats à la mode, les Herbés et les Ganymèdes présentant de bras tendus de petites amphores pleines de liqueurs ou des pyramides de glaces multicolores ; toute l’histoire et toute la mythologie mises au service de la goinfrerie.</em><br /><em>En face de nous, sur le trottoir, un homme d’environ quarante ans, le visage hâlé, la barbe grisonnante, tenait d’une main un petit garçon, et portait sur l’autre bras un petit être trop faible pour marcher. Il remplissait le rôle de bonne d’enfant, et promenait ses enfants. Tous étaient en loques. Les six yeux regardaient fixement le café nouveau avec la même admiration, mais nuancée diversement selon l’âge.</em><br /><em>Les yeux du père disaient : « Que c’est beau ! que c’est beau ! on dirait que tout l’or du pauvre monde est venu se porter sur ces murailles. » — Les yeux du petit garçon : « Que c’est beau ! que c’est beau ! mais c’est une maison où ne peuvent entrer que les gens qui ne sont pas comme nous. » — Quant aux yeux du plus petit, ils étaient trop fascinés pour exprimer autre chose qu’une joie stupide et profonde.</em><br /><em>Les chanteurs de rues disaient quelquefois : « Le plaisir rend l’âme bonne et amollit le cœur. » Ce jour-là, la chanson avait raison pour moi. Non seulement j’étais attendri par cette famille de regards, mais j’étais un peu honteux de nos verres et de nos carafes, plus grands que notre soif. Je tournais mes regards vers les tiens, chère bien-aimée, pour y lire ma pensée ; je plongeais dans tes yeux si beaux, si étrangement doux, dans tes yeux verts, inspirés par la lune, quand tu me dis : « Ces gens-là me sont insupportables avec leurs yeux ouverts comme des portes cochères ! Ne peux-tu pas prier le maître du café de les éloigner d’ici ? »</em><br /><em>Il est si difficile de s’entendre, chère bien-aimée, et le rêve d’une âme commune est un rêve vain !</em><br /><br /></div><div style=\"display: flex; justify-content: end\"><div><em>Spleen de Paris</em>. Les yeux de pauvres, 1869<br /><br />Charles Baudelaire</div></div>"
+      },
+      {
+        "type": "paragraph",
+        "content": "Aquest poema en prosa exemplifica perfectament la mirada crítica i lúcida de Baudelaire sobre la societat burgesa del seu temps i la seva capacitat per captar les tensions interiors de la modernitat. El poeta hi descriu una escena aparentment banal: una vetllada amb una amant en un cafè luxós, interrompuda per la presència silenciosa d’una família pobra que observa des del carrer. Aquesta escena revela una fractura insalvable, no només entre classes socials, sinó també entre ànimes que pretenien compartir una mateixa visió del món."
+      }
+    ]
+  }

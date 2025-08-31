@@ -1,0 +1,21 @@
+{
+    "year": 2023,
+    "number": 27,
+    "publicationDate": {
+      "$date": "2023-07-28T23:00:00.000Z"
+    },
+    "title": "Lletres Bàrbares - Número 27",
+    "isPublished": true,
+    "totalArticles": 8,
+    "sections": [
+      "articles",
+      "creacio",
+      "llibres"
+    ],
+    "createdAt": {
+      "$date": "2025-08-03T16:28:03.965Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-03T16:28:05.612Z"
+    }
+  }

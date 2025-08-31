@@ -1,0 +1,35 @@
+{
+    "name": "Josep Vicenç Foix",
+    "bio": {
+      "short": "Josep Vicenç Foix ha contribuït amb 1 articles a Lletres Bàrbares.",
+      "full": "Josep Vicenç Foix és un autor que ha contribuït amb 1 articles a Lletres Bàrbares, publicant en les seccions: articles. La seva primera publicació va ser l'any 2020 i l'última l'any 2020."
+    },
+    "photo": null,
+    "specialties": [
+      "articles"
+    ],
+    "stats": {
+      "totalArticles": 1,
+      "firstPublication": {
+        "$date": "2023-07-28T22:00:00.000Z"
+      },
+      "lastPublication": {
+        "$date": "2023-07-28T22:00:00.000Z"
+      },
+      "totalViews": 0
+    },
+    "isActive": true,
+    "metaDescription": "Josep Vicenç Foix - Autor de Lletres Bàrbares amb 1 articles publicats.",
+    "metaKeywords": [
+      "articles"
+    ],
+    "education": [],
+    "awards": [],
+    "slug": "josep-vicenc-foix",
+    "createdAt": {
+      "$date": "2025-08-17T13:40:15.423Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-17T13:40:15.423Z"
+    }
+  }

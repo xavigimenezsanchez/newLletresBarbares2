@@ -1,0 +1,246 @@
+{
+  "timestamp": "2025-08-31T10:35:54.967Z",
+  "stats": {
+    "totalOldDocuments": 550,
+    "foundInNew": 535,
+    "notFoundInNew": 15,
+    "passedValidation": 534,
+    "failedValidation": 1
+  },
+  "discrepancies": [
+    {
+      "url": "assagets_enric-casasses_edicions_poncianes",
+      "title": "assagets, Enric Casasses. Edicions Poncianes.",
+      "type": "DOCUMENT_NOT_FOUND",
+      "message": "Documento con URL 'assagets_enric-casasses_edicions_poncianes' no encontrado en DBNew",
+      "oldData": {
+        "issue": 2,
+        "data": "20/11/2020",
+        "author": "Andreu Pérez-Mingorance",
+        "section": "llibres",
+        "textLength": 12
+      },
+      "newData": null
+    },
+    {
+      "url": "de_pulchritudine",
+      "title": "De pulchritudine",
+      "type": "AUTHOR_FIRST_MISMATCH",
+      "message": "Author no coincide con primer elemento de authors: old.author='Carles Duarte i Montserrat i Àngel Carbonell' vs new.authors[0]='Carles Duarte i Montserrat'",
+      "oldData": {
+        "issue": 6,
+        "data": "21/04/2021",
+        "author": "Carles Duarte i Montserrat i Àngel Carbonell",
+        "section": "creacio",
+        "textLength": 23
+      },
+      "newData": {
+        "issueNumber": 6,
+        "data": "21/04/2021",
+        "author": "Carles Duarte i Montserrat i Àngel Carbonell",
+        "authors": [
+          "Carles Duarte i Montserrat",
+          "Àngel Carbonell"
+        ],
+        "section": "creacio",
+        "textLength": 23
+      }
+    },
+    {
+      "url": "angel_guimera_versus_oscar_wilde",
+      "title": "Àngel Guimerà versus Oscar Wilde",
+      "type": "DOCUMENT_NOT_FOUND",
+      "message": "Documento con URL 'angel_guimera_versus_oscar_wilde' no encontrado en DBNew",
+      "oldData": {
+        "issue": 7,
+        "data": "21/05/2021",
+        "author": "Josep Pujol i Coll",
+        "section": "articles",
+        "textLength": 8
+      },
+      "newData": null
+    },
+    {
+      "url": "scherzi5",
+      "title": "Scherzi (5)",
+      "type": "DOCUMENT_NOT_FOUND",
+      "message": "Documento con URL 'scherzi5' no encontrado en DBNew",
+      "oldData": {
+        "issue": 7,
+        "data": "21/05/2021",
+        "author": "Àngel Carbonell",
+        "section": "creacio",
+        "textLength": 7
+      },
+      "newData": null
+    },
+    {
+      "url": "una-partida-de-ajedrez-con-ludwig-wittgenstein",
+      "title": "Una partida de ajedrez con Ludwig Wittgenstein",
+      "type": "DOCUMENT_NOT_FOUND",
+      "message": "Documento con URL 'una-partida-de-ajedrez-con-ludwig-wittgenstein' no encontrado en DBNew",
+      "oldData": {
+        "issue": 16,
+        "data": "24/05/2022",
+        "author": "Xavier Fernández Garrido",
+        "section": "creacio",
+        "textLength": 29
+      },
+      "newData": null
+    },
+    {
+      "url": "cronica-de-guerra-59",
+      "title": "Crònica de guerra (59)",
+      "type": "DOCUMENT_NOT_FOUND",
+      "message": "Documento con URL 'cronica-de-guerra-59' no encontrado en DBNew",
+      "oldData": {
+        "issue": 16,
+        "data": "24/05/2022",
+        "author": "Sion Serra",
+        "section": "creacio",
+        "textLength": 2
+      },
+      "newData": null
+    },
+    {
+      "url": "traduccions-de-poetes-catalans-2",
+      "title": "Traduccions de poetes catalans (2)",
+      "type": "DOCUMENT_NOT_FOUND",
+      "message": "Documento con URL 'traduccions-de-poetes-catalans-2' no encontrado en DBNew",
+      "oldData": {
+        "issue": 16,
+        "data": "24/05/2022",
+        "author": "Joan Josep Barceló",
+        "section": "creacio",
+        "textLength": 44
+      },
+      "newData": null
+    },
+    {
+      "url": "harold-i-bebe-boy-i-girl-per-sempre",
+      "title": "Harold i Bebe, <i>Boy</i> i <i>Girl</i> per sempre",
+      "type": "DOCUMENT_NOT_FOUND",
+      "message": "Documento con URL 'harold-i-bebe-boy-i-girl-per-sempre' no encontrado en DBNew",
+      "oldData": {
+        "issue": 27,
+        "data": "28/07/2023",
+        "author": "Florenci Salesas",
+        "section": "articles",
+        "textLength": 42
+      },
+      "newData": null
+    },
+    {
+      "url": "la-poesia-i-la-dignitat-literària-segons-josep-carner",
+      "title": "La poesia i la dignitat literària segons Josep Carner",
+      "type": "DOCUMENT_NOT_FOUND",
+      "message": "Documento con URL 'la-poesia-i-la-dignitat-literària-segons-josep-carner' no encontrado en DBNew",
+      "oldData": {
+        "issue": 27,
+        "data": "28/07/2023",
+        "author": "Josep Vicenç Foix",
+        "section": "articles",
+        "textLength": 8
+      },
+      "newData": null
+    },
+    {
+      "url": "els-simbols",
+      "title": "Els símbols",
+      "type": "DOCUMENT_NOT_FOUND",
+      "message": "Documento con URL 'els-simbols' no encontrado en DBNew",
+      "oldData": {
+        "issue": 27,
+        "data": "28/07/2023",
+        "author": "Jordi Mestre i Vergés",
+        "section": "articles",
+        "textLength": 25
+      },
+      "newData": null
+    },
+    {
+      "url": "el-no-temps-la-poetica-de-l-impensable-iii",
+      "title": "El no-temps, la poètica de l’impensable (III)",
+      "type": "DOCUMENT_NOT_FOUND",
+      "message": "Documento con URL 'el-no-temps-la-poetica-de-l-impensable-iii' no encontrado en DBNew",
+      "oldData": {
+        "issue": 27,
+        "data": "28/07/2023",
+        "author": "Valentí Puigdellívol",
+        "section": "articles",
+        "textLength": 55
+      },
+      "newData": null
+    },
+    {
+      "url": "vida-d-un-home-1-traduccions-de-giuseppe-ungaretti-2",
+      "title": "Vida d'un home (2). Traduccions de Giuseppe Ungaretti",
+      "type": "DOCUMENT_NOT_FOUND",
+      "message": "Documento con URL 'vida-d-un-home-1-traduccions-de-giuseppe-ungaretti-2' no encontrado en DBNew",
+      "oldData": {
+        "issue": 27,
+        "data": "28/07/2023",
+        "author": "Àngel Carbonell",
+        "section": "creacio",
+        "textLength": 24
+      },
+      "newData": null
+    },
+    {
+      "url": "tast-de-poemes",
+      "title": "Tast de poemes",
+      "type": "DOCUMENT_NOT_FOUND",
+      "message": "Documento con URL 'tast-de-poemes' no encontrado en DBNew",
+      "oldData": {
+        "issue": 27,
+        "data": "28/07/2023",
+        "author": "Isidre Oller",
+        "section": "creacio",
+        "textLength": 39
+      },
+      "newData": null
+    },
+    {
+      "url": "1995-diari-d-un-nomada-sidos-7",
+      "title": "Fac me vere tecum flere, Crucifixo condolere, Donec ego vixero. 1995 Diari d’un nòmada sidós (7)",
+      "type": "DOCUMENT_NOT_FOUND",
+      "message": "Documento con URL '1995-diari-d-un-nomada-sidos-7' no encontrado en DBNew",
+      "oldData": {
+        "issue": 27,
+        "data": "28/07/2023",
+        "author": "Andreu Pérez-Mingorance",
+        "section": "creacio",
+        "textLength": 6
+      },
+      "newData": null
+    },
+    {
+      "url": "des-de-biella-cap-al-tercer-paradiis",
+      "title": "Des de Biella, cap al tercer paradís",
+      "type": "DOCUMENT_NOT_FOUND",
+      "message": "Documento con URL 'des-de-biella-cap-al-tercer-paradiis' no encontrado en DBNew",
+      "oldData": {
+        "issue": 27,
+        "data": "28/07/2023",
+        "author": "Pere Torra",
+        "section": "llocs",
+        "textLength": 45
+      },
+      "newData": null
+    },
+    {
+      "url": "fara-bo",
+      "title": "Farà bo?",
+      "type": "DOCUMENT_NOT_FOUND",
+      "message": "Documento con URL 'fara-bo' no encontrado en DBNew",
+      "oldData": {
+        "issue": 34,
+        "data": "20/04/2024",
+        "author": "Sandra Freijomil",
+        "section": "llibres",
+        "textLength": 5
+      },
+      "newData": null
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+    "issue": 2025,
+    "data": "31/08/2025",
+    "imageCard": "torra50-01",
+    "title": "<em>La Caixa</em>: de papallona a eruga",
+    "url" : "la-caixa-de-papallona-a-eruga",
+    "section": "llibres",
+    "author": "Pere Torra",
+    "summary": "",
+    "publicationDate": {
+      "$date": "2025-08-31T22:00:00.000Z"
+    },
+    "isPublished": true,
+    "tags": [],
+    "readTime": 5,
+    "year": 2025,
+    "issueNumber": 50,
+
+    "authors": [
+      "Pere Torra"
+    ],
+    "text": [
+      {
+        "type": "paragraph2",
+        "content": "[Nota prèvia: Normalment, em dedico a comentar textos literaris amb forta vocació estètica, però compto que la redacció de <em>Lletres bàrbares</em> també pugui fer excepcions]."
+      },  
+      {
+        "type": "image",
+        "name": "torra50-01"
+      },
+      {
+        "type": "paragraph",
+        "content": "En aquest cas, em refereixo al llibre <em>La</em> <em>Metamorfosi de “la Caixa”</em>, un text oportú i necessari, publicat aquest any, en uns moments en què el sector financer a Catalunya, a l’Estat i arreu ha experimentat una gran transformació, causada per la seva fortíssima concentració i la pràctica desaparició de moltes institucions. Al capdavall, tots acabem tenint un compte corrent, fem pagaments bancaris, ens endeutem, etc., coses per a les quals resulta inevitable recórrer a una institució financera. I encara —en una revista d’orientació literària— cal recordar que una de les actuacions històriques més recordades de “la Caixa” fou la promoció de la col·lecció de <em>Les Millors Obres de la Literatura Catalana</em> (MOLC) i la de les <em>Les Millors Obres de la Literatura Universal</em> (MOLU), sota la coordinació de Josep Maria Castellet i Joaquim Molas."
+      },
+      {
+        "type": "paragraph",
+        "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+        "content": "Joan Maria Solà, gran coneixedor de “la Caixa”, ja n’ha publicat dos llibres que contribueixen a la memòria d’una institució històrica del país "
+      },
+      {
+        "type": "paragraph",
+        "content": "L’autor del llibre, Joan Maria Solà, treballador de “la Caixa” durant quaranta anys, hi va ocupar càrrecs de responsabilitat, com ara el de director de personal. En conseqüència, Solà és un gran coneixedor de la institució que ha donat lloc al banc que ara s’anomena CaixaBank. A més, complementa la informació amb una acurada bibliografia específica, que maneja amb habilitat. Anteriorment, Solà ja havia publicat <em>La Caixa de pensions (1936-1945)</em>, obra centrada en el període de la guerra del 1936 al 1939 i la primera postguerra; i també <em>La Soci, Associació del personal de “La Caixa”. Un passat per recordar, un futur per escriure</em>, text dedicat a relatar la història de l’associació de treballadors, que pretenia estimular les relacions entre companys i companyes per mitjà d’activitats esportives, culturals, familiars i solidàries."
+      },
+      {
+        "type": "paragraph",
+        "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+        "content": "Els anys fundacionals i la primera embranzida de creixement de “la Caixa” estan marcats de manera determinant per Francesc Moragas"
+      },
+      {
+        "type": "paragraph",
+        "content": "El llibre presenta una estructura ordenada cronològicament en nou capítols, més un de bibliografia. Als dos primers capítols, la personalitat de Francesc Moragas marca de manera determinant els anys fundacionals i de creixement inicial de “la Caixa”. El fundador i primer director general de “la Caixa” estava vinculat a la Unió Catalanista, partit que promogué les Bases de Manresa, i tingué com a companys a la Universitat de Barcelona personatges tan rellevants com Vidal i Barraquer —futur arquebisbe de Tarragona—, Albert Bastardas —batlle de Barcelona i vicepresident de la Mancomunitat—, o Prat de la Riba —president de la Mancomunitat. Amb aquests companys… En tot cas, Moragas fou un emprenedor amb una gran visió organitzativa i un pensament de millora de la societat, prenent models de l'estranger —sobretot la Caixa d’Estalvis de Milà—, enfocant l’activitat de “la Caixa” a tot el territori de Catalunya i Balears —més enllà de l’àmbit estrictament local—, inventant l’anomenada “obra social”, etc."
+      },
+      {
+        "type": "paragraph",
+        "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+        "content": "El Comitè de Control, creat a partir de l’Associació de Personal, va salvar la vida a Josep Maria Boix d’una patrulla de la FAI"
+      },
+      {
+        "type": "paragraph",
+        "content": "Del període de la guerra, sobretot entre el 1936 i 1937, cal destacar la precisa informació que aporta el text sobre l’actuació del Comitè de Control, creat a partir de l’Associació de Personal, que va salvar la vida a Josep Maria Boix, detingut per una patrulla de la FAI en els convulsos temps de començament de la guerra i la revolució social. Convé esmentar també el nom de Joan Cuyàs, que, com a comissari del Comitè, “fou un significatiu element moderador” i, segons Emili Boix, “actuà eficaçment davant les intimidacions i coaccions dels elements d’extrema esquerra que volien dominar-la”. Solà documenta la repressió posterior de la dictadura franquista, que va sancionar 113 empleats, dels quals 51 foren acomiadats. El cas més significatiu fou el del director general, Josep Maria Boix, l’acusació bàsica contra el qual “va ser la de la catalanitat de la Caixa”, com afirma Emili Boix. Així mateix, la institució veié eliminada l’administració de les assegurances socials en què havia estat pionera, cosa que trencava la filosofia de Moragas sobre les pensions del retir obrer."
+      },
+      {
+        "type": "paragraph",
+        "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+        "content": "L’intervencionisme de la dictadura sobre les caixes durant la postguerra va tenir uns resultats econòmics desastrosos"
+      },
+      {
+        "type": "paragraph",
+        "content": "El llibre explica molt bé els anys de foscor de la dictadura —sobretot el període 1946-1966—, durant els quals el règim sotmeté les caixes a una forta intervenció (inversions obligatòries, restricció de l'obertura d’oficines, compromís de destinació a l'estat del 15% de l’obra social… ), que va determinar uns resultats econòmics desastrosos. Així mateix, consigna detallada informació sobre l’adquisició del primer ordinador IBM 1410 l’any 1962, un aparell que funcionava amb fitxes perforades i va requerir la reforma sencera de la planta baixa de l’edifici de Via Laietana, núm. 58, tot i que només tenia 40 K de memòria. A més, Solà ha pouat en arxius, sobretot l’Arxiu Històric de la Caixa (AHC), d’on extreu sucoses anècdotes lligades a la història de l’entitat: des d’un rector d'Organyà que adreça una crítica pública a l’entitat des de la trona a un delegat que instal·la una imatge de la Mare de Déu de Fàtima al seu despatx."
+      },
+      {
+        "type": "paragraph",
+        "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+        "content": "Solà posa molt èmfasi en el paper determinant del personal en el progrés de “la Caixa”"
+      },
+      {
+        "type": "paragraph",
+        "content": "No obstant l’immobilisme franquista i l’atonia de la institució mateixa, Solà descriu com els temps van canviant i destaca el fet que fou a iniciativa dels treballadors mateixos que es va impulsar un sòlid pla de formació. La millora de la capacitació del personal des d’una perspectiva integral havia estat una de les preocupacions de Moragas als anys vint i no es reprèn fins al cap de cinquanta anys gràcies a l’empenta de l’Associació del Personal de la Caixa. A més, molt abans d’Internet s’introdueix la connexió per teleprocés en temps real, i fou la primera entitat de l’estat i d’Europa a fer-ho. Jo encara recordo les retransmissions futbolístiques del Barça, amb locució de Joaquim Maria Puyal, patrocinades per “la Caixa”, en què, de tant en tant, el periodista anava recordant que totes les oficines de l’entitat gaudien de connexió per teleprocés."
+      },
+      {
+        "type": "paragraph",
+        "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+        "content": "La metamorfosi de la Caixa és inversa: una papallona acolorida ha esdevingut una eruga monocroma"
+      },
+      {
+        "type": "paragraph",
+        "content": "El llibre dona compte de l’evolució de l’entitat fins als nostres dies, incloent-hi el procés de bancarització de les caixes, en què “la Caixa” ha desaparegut com a tal i ha estat suplerta per una institució qualsevol del capitalisme del segle XXI. Solà assenyala que “s’ha passat d’una activitat pregonament social als dictàmens del mercat implacable”, però, no parla gaire dels darrers deu anys i, en particular, del fet que hagi esdevingut una institució no només sense ànima, sinó també sense terra, sense pàtria, sense país. O, encara pitjor, una entitat que ha donat l’esquena al país on va néixer i a l’esperit dels homes —Moragas, Boix…— que la van fundar i fer créixer. Com es pot explicar la covarda fugida i el trasllat de la seu social de l’entitat fora de Catalunya l’octubre del 2017? Les comparacions gairebé sempre són odioses, però la lectura del llibre permet veure el comportament tan diferent dels dirigents i del personal de “la Caixa” durant la guerra iniciada l’any 1936 comparat amb l’octubre del 2017. No hi ha color! No ens enganyem: la pàtria i l’ànima de CaixaBank són els diners, els beneficis, els dividends i punt. La metamorfosi de la Caixa és inversa: una esplèndida papallona acolorida i de vol alegre ha esdevingut una eruga monocroma i de moviments feixucs, un cuc que s’arrossega pel fang."
+      }
+    ]
+  }

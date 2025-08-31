@@ -1,0 +1,12 @@
+# Configuración para el script de comparación de bases de datos
+
+# Base de datos antigua (DBOld) - colección 'documents'
+# Sustituye con la URI real de tu base de datos de producción antigua
+DB_OLD_URI=mongodb+srv://username:password@cluster.mongodb.net/old-database-name?retryWrites=true&w=majority
+
+# Base de datos nueva (DBNew) - colección 'articles'
+# Esta debería ser la misma que usas en tu aplicación actual
+MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/newLletresBarbares?retryWrites=true&w=majority
+
+# Opcional: configuración adicional
+NODE_ENV=development

@@ -1,0 +1,15 @@
+{
+    "year": 2025,
+    "number": 50,
+    "publicationDate": {
+      "$date": "2025-08-31T00:00:00.000Z"
+    },
+    "title": "Lletres Barbares - Número 50",
+    "isPublished": true,
+    "totalArticles": 1,
+    "sections": [
+      "articles",
+      "creacio",
+      "llibres"
+    ]
+  }
