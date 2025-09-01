@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import instagram from "../assets/instagram.svg"
 import twitter from "../assets/twitter.svg"
 import youtube from "../assets/youtube.svg"
+import bluesky from "../assets/Bluesky_Logo.svg"
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
@@ -39,9 +40,10 @@ const Footer = () => {
           <div>
             <h4 className="font-sans font-medium mb-4 text-white">Xarxes Socials</h4>
             <ul className="space-y-2">
-              <li><a href="https://www.instagram.com/lletresbarbares/" className="text-gray-300 hover:text-white transition-colors"><img src={instagram} alt="Instagram" className="m-0 md:m-7 w-7" /></a></li>
-              <li><a href="https://twitter.com/lletresbarbares" className="text-gray-300 hover:text-white transition-colors"><img src={twitter} alt="Twitter" className="m-0 md:m-7 w-6" /></a></li>
-              <li><a href="https://www.youtube.com/@lletresbarbares5962" className="text-gray-300 hover:text-white transition-colors"><img src={youtube} alt="Youtube" className="m-0 md:m-7 w-7" /></a></li>
+              <li><a href="https://www.instagram.com/lletresbarbares/" className="text-gray-300 hover:text-white transition-colors"><img src={instagram} alt="Instagram" className="m-0 md:ml-7 md:mr-7 md:mt-5 md:mb-7 w-7" /></a></li>
+              <li><a href="https://bsky.app/profile/lletresbarbares.bsky.social" className="text-gray-300 hover:text-white transition-colors"><img src={bluesky} alt="Bluesky" className="m-0 md:ml-7 md:mr-7 md:mt-4 md:mb-7 w-7" /></a></li>
+              <li><a href="https://www.youtube.com/@lletresbarbares5962" className="text-gray-300 hover:text-white transition-colors"><img src={youtube} alt="Youtube" className="m-0 md:ml-7 md:mr-7 md:mt-4 md:mb-7 w-7" /></a></li>
+              <li><a href="https://twitter.com/lletresbarbares" className="text-gray-300 hover:text-white transition-colors"><img src={twitter} alt="Twitter" className="m-0 md:mt-4 md:ml-7 md:mr-7 w-6" /></a></li>
             </ul>
           </div>
           
