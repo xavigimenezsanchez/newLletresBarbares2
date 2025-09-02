@@ -39,8 +39,8 @@ function App() {
               <Route path="/recomanacions" element={<RecomanacionsPage />} />
               <Route path="/arxiu" element={<ArxiuPage />} />
               <Route path="/cerca" element={<SearchPage />} />
-              <Route path="/analytics" element={<AnalyticsPage />} />
-              <Route path="/connections-analytics" element={<ConnectionAnalyticsPage />} />
+              <Route path="/admin-dashboard-2024" element={<AnalyticsPage />} />
+              <Route path="/admin-connections-2024" element={<ConnectionAnalyticsPage />} />
               <Route path="/edicio/:number" element={<EdicioPage />} />
               <Route path="/autors" element={<AuthorsPage />} />
               <Route path="/autor/:slug" element={<AuthorPage />} />

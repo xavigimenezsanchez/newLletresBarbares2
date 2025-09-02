@@ -151,7 +151,7 @@ const ConnectionAnalyticsPage: React.FC = () => {
           </p>
           <div className="mt-4">
             <a 
-              href="/analytics" 
+              href="/admin-dashboard-2024" 
               className="inline-flex items-center px-4 py-2 text-sm font-medium text-newyorker-dark bg-white border border-newyorker-dark rounded-md hover:bg-newyorker-dark hover:text-white transition-colors"
             >
               <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">

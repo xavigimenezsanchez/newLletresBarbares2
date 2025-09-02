@@ -91,6 +91,9 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/lletres-b
 // Importar middleware de analytics de conexiones
 const { connectionLogger, sessionTracker } = require('./middleware/connectionLogger');
 
+// Importar middleware de autenticación para analytics
+const { protectAnalytics, logAnalyticsAccess } = require('./middleware/analyticsAuth');
+
 // Middleware para registrar conexiones (después de la conexión a DB)
 app.use(connectionLogger);
 app.use(sessionTracker);
@@ -129,9 +132,29 @@ if (process.env.NODE_ENV === 'production') {
   // Servir archivos estáticos del build de React
   app.use(express.static(path.join(__dirname, '../client/dist')));
   
-  // Para cualquier ruta que no sea /api, servir el index.html de React
+  // Proteger rutas de analytics con autenticación por IP
+  app.get('/admin-dashboard-*', protectAnalytics, logAnalyticsAccess, (req, res) => {
+    res.sendFile(path.join(__dirname, '../client/dist/index.html'));
+  });
+  
+  app.get('/admin-connections-*', protectAnalytics, logAnalyticsAccess, (req, res) => {
+    res.sendFile(path.join(__dirname, '../client/dist/index.html'));
+  });
+  
+  // Para cualquier otra ruta que no sea /api, servir el index.html de React
   app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, '../client/dist/index.html'));
+  });
+} else {
+  // En desarrollo, también proteger las rutas de analytics
+  app.get('/admin-dashboard-*', protectAnalytics, logAnalyticsAccess, (req, res, next) => {
+    // En desarrollo, el frontend maneja las rutas
+    next();
+  });
+  
+  app.get('/admin-connections-*', protectAnalytics, logAnalyticsAccess, (req, res, next) => {
+    // En desarrollo, el frontend maneja las rutas
+    next();
   });
 }
 
