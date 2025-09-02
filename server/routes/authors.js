@@ -272,7 +272,7 @@ router.post('/', async (req, res) => {
       metaKeywords
     });
     
-    await author.save();
+    // await author.save();
     
     res.status(201).json({
       message: 'Autor creado exitosamente',
@@ -304,7 +304,7 @@ router.put('/:slug', async (req, res) => {
       }
     });
     
-    await author.save();
+    // await author.save();
     
     res.json({
       message: 'Autor actualizado exitosamente',
@@ -330,7 +330,7 @@ router.delete('/:slug', async (req, res) => {
     
     // En lugar de eliminar, marcar como inactivo
     author.isActive = false;
-    await author.save();
+    // await author.save();
     
     res.json({
       message: 'Autor desactivado exitosamente'

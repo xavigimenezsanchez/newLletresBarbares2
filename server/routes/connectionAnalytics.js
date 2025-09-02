@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const ConnectionAnalytics = require('../models/ConnectionAnalytics');
+const { requireAdminAuth, requireReadAuth, auditLog } = require('../middleware/authMiddleware');
 
 // GET /api/connections/debug - Endpoint de debug para verificar funcionamiento
 router.get('/debug', async (req, res) => {
@@ -52,7 +53,7 @@ router.get('/debug', async (req, res) => {
 });
 
 // GET /api/connections/stats - Estadísticas generales de conexiones
-router.get('/stats', async (req, res) => {
+router.get('/stats', requireReadAuth, async (req, res) => {
   try {
     const { days = 30 } = req.query;
     
@@ -331,8 +332,8 @@ router.get('/detailed', async (req, res) => {
   }
 });
 
-// POST /api/connections/export - Exportar datos de conexiones
-router.post('/export', async (req, res) => {
+// POST /api/connections/export - Exportar datos de conexiones (REQUIERE AUTENTICACIÓN ADMIN)
+router.post('/export', requireAdminAuth, auditLog('EXPORT_CONNECTION_ANALYTICS'), async (req, res) => {
   try {
     const { startDate, endDate, format = 'json', filters = {} } = req.body;
     
@@ -399,8 +400,8 @@ router.post('/export', async (req, res) => {
   }
 });
 
-// DELETE /api/connections/cleanup - Limpiar datos antiguos
-router.delete('/cleanup', async (req, res) => {
+// DELETE /api/connections/cleanup - Limpiar datos antiguos (REQUIERE AUTENTICACIÓN ADMIN)
+router.delete('/cleanup', requireAdminAuth, auditLog('DELETE_OLD_CONNECTION_DATA'), async (req, res) => {
   try {
     const { daysToKeep = 180 } = req.query;
     
@@ -418,8 +419,8 @@ router.delete('/cleanup', async (req, res) => {
   }
 });
 
-// POST /api/connections/sessions/close-inactive - Cerrar sesiones inactivas manualmente
-router.post('/sessions/close-inactive', async (req, res) => {
+// POST /api/connections/sessions/close-inactive - Cerrar sesiones inactivas (REQUIERE AUTENTICACIÓN ADMIN)
+router.post('/sessions/close-inactive', requireAdminAuth, auditLog('CLOSE_INACTIVE_SESSIONS'), async (req, res) => {
   try {
     const { inactiveMinutes = 30 } = req.body;
     

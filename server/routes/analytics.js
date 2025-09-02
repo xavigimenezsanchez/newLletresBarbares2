@@ -3,6 +3,7 @@ const router = express.Router();
 const SearchAnalytics = require('../models/SearchAnalytics');
 const ConnectionAnalytics = require('../models/ConnectionAnalytics');
 const UAParser = require('ua-parser-js');
+const { requireAdminAuth, requireReadAuth, rateLimitMiddleware, auditLog } = require('../middleware/authMiddleware');
 
 // Middleware para detectar dispositivo
 const detectDevice = (req, res, next) => {
@@ -18,8 +19,8 @@ const detectDevice = (req, res, next) => {
   next();
 };
 
-// POST /api/analytics/search - Registrar búsqueda
-router.post('/search', detectDevice, async (req, res) => {
+// POST /api/analytics/search - Registrar búsqueda (protegido con rate limiting)
+router.post('/search', detectDevice, rateLimitMiddleware(), async (req, res) => {
   try {
     const {
       query,
@@ -78,8 +79,8 @@ router.post('/search', detectDevice, async (req, res) => {
   }
 });
 
-// PUT /api/analytics/search/:id/click - Registrar click en resultado
-router.put('/search/:id/click', async (req, res) => {
+// PUT /api/analytics/search/:id/click - Registrar click en resultado (protegido)
+router.put('/search/:id/click', rateLimitMiddleware(), async (req, res) => {
   try {
     const { id } = req.params;
     const { clickedResultIndex, timeToClick, scrolledResults } = req.body;
@@ -104,7 +105,7 @@ router.put('/search/:id/click', async (req, res) => {
 });
 
 // GET /api/analytics/stats - Estadísticas generales (búsquedas + conexiones)
-router.get('/stats', async (req, res) => {
+router.get('/stats', requireReadAuth, async (req, res) => {
   try {
     const { days = 30 } = req.query;
     
@@ -268,8 +269,8 @@ router.get('/timeline', async (req, res) => {
   }
 });
 
-// POST /api/analytics/export - Exportar datos
-router.post('/export', async (req, res) => {
+// POST /api/analytics/export - Exportar datos (REQUIERE AUTENTICACIÓN ADMIN)
+router.post('/export', requireAdminAuth, auditLog('EXPORT_SEARCH_ANALYTICS'), async (req, res) => {
   try {
     const { startDate, endDate, format = 'json' } = req.body;
     
@@ -310,8 +311,8 @@ router.post('/export', async (req, res) => {
   }
 });
 
-// DELETE /api/analytics/cleanup - Limpiar datos antiguos
-router.delete('/cleanup', async (req, res) => {
+// DELETE /api/analytics/cleanup - Limpiar datos antiguos (REQUIERE AUTENTICACIÓN ADMIN)
+router.delete('/cleanup', requireAdminAuth, auditLog('DELETE_OLD_SEARCH_DATA'), async (req, res) => {
   try {
     const { daysToKeep = 90 } = req.query;
     
