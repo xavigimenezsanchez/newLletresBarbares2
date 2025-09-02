@@ -59,6 +59,57 @@ router.get('/debug-ip', (req, res) => {
   });
 });
 
+// GET /api/connections/test-analytics-apis - Test para verificar APIs de analytics
+router.get('/test-analytics-apis', async (req, res) => {
+  const results = {};
+  
+  try {
+    // Test API de analytics de búsquedas
+    const SearchAnalytics = require('../models/SearchAnalytics');
+    const searchCount = await SearchAnalytics.countDocuments();
+    results.searchAnalytics = { 
+      model: 'OK', 
+      count: searchCount,
+      status: 'working'
+    };
+  } catch (error) {
+    results.searchAnalytics = { 
+      model: 'ERROR', 
+      error: error.message,
+      status: 'failed'
+    };
+  }
+  
+  try {
+    // Test API de connections
+    const ConnectionAnalytics = require('../models/ConnectionAnalytics');
+    const connectionCount = await ConnectionAnalytics.countDocuments();
+    results.connectionAnalytics = { 
+      model: 'OK', 
+      count: connectionCount,
+      status: 'working'
+    };
+  } catch (error) {
+    results.connectionAnalytics = { 
+      model: 'ERROR', 
+      error: error.message,
+      status: 'failed'
+    };
+  }
+  
+  // Test rutas específicas
+  results.routes = {
+    searchStats: '/api/analytics/stats',
+    connectionStats: '/api/connections/stats'
+  };
+  
+  res.json({
+    test: 'analytics-apis',
+    timestamp: new Date().toISOString(),
+    results
+  });
+});
+
 // GET /api/connections/test-frontend - Test para verificar que el frontend se sirve
 router.get('/test-frontend', (req, res) => {
   const path = require('path');

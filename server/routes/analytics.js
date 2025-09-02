@@ -105,7 +105,7 @@ router.put('/search/:id/click', rateLimitMiddleware(), async (req, res) => {
 });
 
 // GET /api/analytics/stats - Estadísticas generales (búsquedas + conexiones)
-router.get('/stats', requireReadAuth, async (req, res) => {
+router.get('/stats', async (req, res) => {
   try {
     const { days = 30 } = req.query;
     
@@ -121,19 +121,23 @@ router.get('/stats', requireReadAuth, async (req, res) => {
     const countryStats = await ConnectionAnalytics.getCountryStats(parseInt(days), 5);
     const connectionDeviceStats = await ConnectionAnalytics.getDeviceStats(parseInt(days));
 
+    // Mantener compatibilidad con frontend existente
+    const searchData = searchStats[0] || {};
+    const connectionData = connectionStats[0] || {};
+    
     res.json({
       period: `${days} días`,
-      search: {
-        general: searchStats[0] || {},
-        topQueries,
-        sectionStats,
-        deviceStats: searchDeviceStats,
-        hourlyStats
-      },
-      connections: {
-        general: connectionStats[0] || {},
-        topCountries: countryStats,
-        deviceStats: connectionDeviceStats
+      // Estructura original para compatibilidad
+      general: searchData,
+      topQueries,
+      sectionStats,
+      deviceStats: searchDeviceStats,
+      hourlyStats,
+      // Datos adicionales de conexiones (opcional)
+      connectionSummary: {
+        totalConnections: connectionData.totalConnections || 0,
+        uniqueIPs: connectionData.uniqueIPs || 0,
+        topCountries: countryStats.slice(0, 3) // Solo top 3 para resumen
       }
     });
 
@@ -143,7 +147,7 @@ router.get('/stats', requireReadAuth, async (req, res) => {
   }
 });
 
-// GET /api/analytics/queries - Top queries
+// GET /api/analytics/queries - Top queries  
 router.get('/queries', async (req, res) => {
   try {
     const { days = 30, limit = 20 } = req.query;
