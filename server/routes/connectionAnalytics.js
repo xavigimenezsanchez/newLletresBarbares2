@@ -3,6 +3,33 @@ const router = express.Router();
 const ConnectionAnalytics = require('../models/ConnectionAnalytics');
 const { requireAdminAuth, requireReadAuth, auditLog } = require('../middleware/authMiddleware');
 
+// GET /api/connections/debug-ip - Debug para verificar IP y acceso
+router.get('/debug-ip', (req, res) => {
+  const clientIP = req.ip || req.connection.remoteAddress || '';
+  const cleanClientIP = clientIP.replace('::ffff:', '').replace('::1', '127.0.0.1');
+  const authorizedIPs = process.env.ANALYTICS_IPS ? process.env.ANALYTICS_IPS.split(',').map(ip => ip.trim()) : ['127.0.0.1', '::1'];
+  
+  res.json({
+    debug: true,
+    clientIP: {
+      original: clientIP,
+      clean: cleanClientIP
+    },
+    authorizedIPs,
+    isAuthorized: authorizedIPs.some(authIP => 
+      cleanClientIP === authIP || 
+      cleanClientIP.includes(authIP) || 
+      authIP.includes(cleanClientIP)
+    ),
+    headers: {
+      'x-forwarded-for': req.get('x-forwarded-for'),
+      'x-real-ip': req.get('x-real-ip'),
+      'cf-connecting-ip': req.get('cf-connecting-ip')
+    },
+    environment: process.env.NODE_ENV
+  });
+});
+
 // GET /api/connections/debug - Endpoint de debug para verificar funcionamiento
 router.get('/debug', async (req, res) => {
   try {

@@ -19,16 +19,52 @@ const protectAnalytics = (req, res, next) => {
     // Log del intento de acceso
     console.log(`🔍 Intento de acceso a analytics desde: ${clientIP}`);
     
-    // Verificar si la IP está autorizada
+    // Limpiar la IP del cliente (quitar prefijos IPv6)
+    const cleanClientIP = clientIP.replace('::ffff:', '').replace('::1', '127.0.0.1');
+    
+    // También verificar headers de proxy comunes
+    const forwardedFor = req.get('x-forwarded-for');
+    const realIP = req.get('x-real-ip');
+    const cfConnectingIP = req.get('cf-connecting-ip');
+    
+    // Array de posibles IPs del cliente
+    const possibleIPs = [
+      cleanClientIP,
+      forwardedFor ? forwardedFor.split(',')[0].trim() : null,
+      realIP,
+      cfConnectingIP
+    ].filter(Boolean);
+    
+    console.log(`🔍 IP del cliente (limpia): ${cleanClientIP}`);
+    console.log(`🔍 Posibles IPs: ${possibleIPs.join(', ')}`);
+    console.log(`🔍 IPs autorizadas: ${AUTHORIZED_IPS.join(', ')}`);
+    
+    // TEMPORAL: En desarrollo, permitir todas las IPs
+    if (process.env.NODE_ENV === 'development') {
+      console.log(`🟡 DESARROLLO: Permitiendo acceso sin verificación de IP`);
+      return next();
+    }
+    
+    // Verificar si alguna de las posibles IPs está autorizada
     const isAuthorizedIP = AUTHORIZED_IPS.some(authorizedIP => {
-      // Permitir coincidencia exacta o que contenga la IP (para rangos como 192.168.1.*)
-      return clientIP === authorizedIP || 
-             clientIP.includes(authorizedIP) || 
-             authorizedIP.includes(clientIP.replace('::ffff:', ''));
+      const cleanAuthorizedIP = authorizedIP.trim();
+      
+      return possibleIPs.some(possibleIP => {
+        const match = possibleIP === cleanAuthorizedIP || 
+                     possibleIP.includes(cleanAuthorizedIP) || 
+                     cleanAuthorizedIP.includes(possibleIP);
+        
+        if (match) {
+          console.log(`✅ Coincidencia encontrada: ${possibleIP} <-> ${cleanAuthorizedIP}`);
+        }
+        
+        return match;
+      });
     });
     
     if (!isAuthorizedIP) {
-      console.warn(`⚠️  Acceso DENEGADO a analytics desde IP no autorizada: ${clientIP}`);
+      console.warn(`⚠️  Acceso DENEGADO a analytics desde IP no autorizada: ${cleanClientIP}`);
+      console.warn(`⚠️  Headers: x-forwarded-for=${forwardedFor}, x-real-ip=${realIP}, cf-connecting-ip=${cfConnectingIP}`);
       
       // Devolver 404 en lugar de 403 para no revelar que existe la página
       return res.status(404).send(`
@@ -39,18 +75,20 @@ const protectAnalytics = (req, res, next) => {
           <style>
             body { font-family: Arial, sans-serif; text-align: center; margin-top: 100px; }
             .error { color: #666; }
+            .debug { color: #999; font-size: 12px; margin-top: 20px; }
           </style>
         </head>
         <body>
           <h1>404</h1>
           <p class="error">La página que buscas no existe.</p>
+          <div class="debug">Debug: IP=${cleanClientIP}, Authorized=${AUTHORIZED_IPS.join(',')}</div>
           <a href="/">Volver al inicio</a>
         </body>
         </html>
       `);
     }
     
-    console.log(`✅ Acceso AUTORIZADO a analytics desde: ${clientIP}`);
+    console.log(`✅ Acceso AUTORIZADO a analytics desde: ${cleanClientIP}`);
     next();
     
   } catch (error) {
@@ -66,9 +104,9 @@ const logAnalyticsAccess = (req, res, next) => {
   
   console.log(`📊 ACCESO A ANALYTICS: ${clientIP} - ${userAgent} - ${new Date().toISOString()}`);
   
-  // En producción, podrías enviar esto a un sistema de monitoreo
+  // En producción, podrías enviar esto a un sistema de logging externo
   if (process.env.NODE_ENV === 'production') {
-    // TODO: Enviar a sistema de logging externo
+    // TODO: Enviar a servicio de logging/monitoreo
   }
   
   next();
