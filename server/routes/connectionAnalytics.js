@@ -59,6 +59,36 @@ router.get('/debug-ip', (req, res) => {
   });
 });
 
+// GET /api/connections/test-frontend - Test para verificar que el frontend se sirve
+router.get('/test-frontend', (req, res) => {
+  const path = require('path');
+  const fs = require('fs');
+  
+  const indexPath = path.join(__dirname, '../../client/dist/index.html');
+  
+  try {
+    const exists = fs.existsSync(indexPath);
+    const stats = exists ? fs.statSync(indexPath) : null;
+    
+    res.json({
+      test: 'frontend-serving',
+      indexPath,
+      exists,
+      size: stats ? stats.size : null,
+      modified: stats ? stats.mtime : null,
+      nodeEnv: process.env.NODE_ENV,
+      __dirname
+    });
+  } catch (error) {
+    res.json({
+      test: 'frontend-serving',
+      error: error.message,
+      indexPath,
+      nodeEnv: process.env.NODE_ENV
+    });
+  }
+});
+
 // GET /api/connections/debug - Endpoint de debug para verificar funcionamiento
 router.get('/debug', async (req, res) => {
   try {

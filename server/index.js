@@ -130,34 +130,34 @@ app.get('/api/health', (req, res) => {
   });
 });
 
+// Proteger rutas de analytics con autenticación por IP (antes de servir archivos estáticos)
+app.get('/admin-dashboard-*', protectAnalytics, logAnalyticsAccess);
+app.get('/admin-connections-*', protectAnalytics, logAnalyticsAccess);
+
+// TEST: Ruta de prueba simple para verificar autenticación
+app.get('/admin-test', protectAnalytics, (req, res) => {
+  res.send(`
+    <html>
+      <head><title>Test Analytics</title></head>
+      <body>
+        <h1>🎉 ¡Autenticación Funcionando!</h1>
+        <p>Tu IP: ${req.ip}</p>
+        <p>Timestamp: ${new Date().toISOString()}</p>
+        <a href="/admin-dashboard-2024">Ir a Analytics de Búsquedas</a><br>
+        <a href="/admin-connections-2024">Ir a Analytics de Conexiones</a>
+      </body>
+    </html>
+  `);
+});
+
 // En producción, servir archivos estáticos del frontend
 if (process.env.NODE_ENV === 'production') {
   // Servir archivos estáticos del build de React
   app.use(express.static(path.join(__dirname, '../client/dist')));
   
-  // Proteger rutas de analytics con autenticación por IP
-  app.get('/admin-dashboard-*', protectAnalytics, logAnalyticsAccess, (req, res) => {
-    res.sendFile(path.join(__dirname, '../client/dist/index.html'));
-  });
-  
-  app.get('/admin-connections-*', protectAnalytics, logAnalyticsAccess, (req, res) => {
-    res.sendFile(path.join(__dirname, '../client/dist/index.html'));
-  });
-  
-  // Para cualquier otra ruta que no sea /api, servir el index.html de React
+  // Para cualquier ruta que no sea /api, servir el index.html de React
   app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, '../client/dist/index.html'));
-  });
-} else {
-  // En desarrollo, también proteger las rutas de analytics
-  app.get('/admin-dashboard-*', protectAnalytics, logAnalyticsAccess, (req, res, next) => {
-    // En desarrollo, el frontend maneja las rutas
-    next();
-  });
-  
-  app.get('/admin-connections-*', protectAnalytics, logAnalyticsAccess, (req, res, next) => {
-    // En desarrollo, el frontend maneja las rutas
-    next();
   });
 }
 
