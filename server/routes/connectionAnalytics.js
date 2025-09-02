@@ -5,28 +5,57 @@ const { requireAdminAuth, requireReadAuth, auditLog } = require('../middleware/a
 
 // GET /api/connections/debug-ip - Debug para verificar IP y acceso
 router.get('/debug-ip', (req, res) => {
-  const clientIP = req.ip || req.connection.remoteAddress || '';
+  // Lógica idéntica al middleware de autenticación
+  const forwardedFor = req.get('x-forwarded-for');
+  const realIP = req.get('x-real-ip');
+  const cfConnectingIP = req.get('cf-connecting-ip');
+  const directIP = req.ip || req.connection.remoteAddress || '';
+  
+  // Determinar la IP real del cliente (misma lógica que el middleware)
+  let clientIP = directIP;
+  if (forwardedFor) {
+    clientIP = forwardedFor.split(',')[0].trim();
+  } else if (realIP) {
+    clientIP = realIP;
+  } else if (cfConnectingIP) {
+    clientIP = cfConnectingIP;
+  }
+  
   const cleanClientIP = clientIP.replace('::ffff:', '').replace('::1', '127.0.0.1');
   const authorizedIPs = process.env.ANALYTICS_IPS ? process.env.ANALYTICS_IPS.split(',').map(ip => ip.trim()) : ['127.0.0.1', '::1'];
   
+  const possibleIPs = [
+    cleanClientIP,
+    forwardedFor ? forwardedFor.split(',')[0].trim() : null,
+    realIP,
+    cfConnectingIP,
+    directIP.replace('::ffff:', '')
+  ].filter(Boolean);
+  
+  const isAuthorized = authorizedIPs.some(authorizedIP => {
+    const cleanAuthorizedIP = authorizedIP.trim();
+    return possibleIPs.some(possibleIP => {
+      return possibleIP === cleanAuthorizedIP || 
+             possibleIP.includes(cleanAuthorizedIP) || 
+             cleanAuthorizedIP.includes(possibleIP);
+    });
+  });
+  
   res.json({
     debug: true,
-    clientIP: {
-      original: clientIP,
-      clean: cleanClientIP
-    },
-    authorizedIPs,
-    isAuthorized: authorizedIPs.some(authIP => 
-      cleanClientIP === authIP || 
-      cleanClientIP.includes(authIP) || 
-      authIP.includes(cleanClientIP)
-    ),
+    step1_directIP: directIP,
+    step2_selectedIP: clientIP,
+    step3_cleanIP: cleanClientIP,
+    step4_possibleIPs: possibleIPs,
+    step5_authorizedIPs: authorizedIPs,
+    step6_isAuthorized: isAuthorized,
     headers: {
-      'x-forwarded-for': req.get('x-forwarded-for'),
-      'x-real-ip': req.get('x-real-ip'),
-      'cf-connecting-ip': req.get('cf-connecting-ip')
+      'x-forwarded-for': forwardedFor,
+      'x-real-ip': realIP,
+      'cf-connecting-ip': cfConnectingIP
     },
-    environment: process.env.NODE_ENV
+    environment: process.env.NODE_ENV,
+    trustProxy: req.app.get('trust proxy')
   });
 });
 

@@ -10,6 +10,9 @@ require('dotenv').config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 
+// Configurar Express para confiar en proxies (para obtener IP real)
+app.set('trust proxy', true);
+
 // Middleware de seguridad y optimización
 app.use(helmet({
   contentSecurityPolicy: {

@@ -14,25 +14,36 @@ const SECRET_PATH = process.env.ANALYTICS_SECRET_PATH || 'admin-dashboard-2024';
 // Middleware para proteger acceso a analytics
 const protectAnalytics = (req, res, next) => {
   try {
-    const clientIP = req.ip || req.connection.remoteAddress || '';
+    // Obtener IP del cliente, priorizando headers de proxy
+    const forwardedFor = req.get('x-forwarded-for');
+    const realIP = req.get('x-real-ip');
+    const cfConnectingIP = req.get('cf-connecting-ip');
+    const directIP = req.ip || req.connection.remoteAddress || '';
+    
+    // Determinar la IP real del cliente
+    let clientIP = directIP;
+    if (forwardedFor) {
+      clientIP = forwardedFor.split(',')[0].trim();
+    } else if (realIP) {
+      clientIP = realIP;
+    } else if (cfConnectingIP) {
+      clientIP = cfConnectingIP;
+    }
     
     // Log del intento de acceso
     console.log(`🔍 Intento de acceso a analytics desde: ${clientIP}`);
+    console.log(`🔍 Headers de IP: direct=${directIP}, x-forwarded-for=${forwardedFor}, x-real-ip=${realIP}, cf-connecting-ip=${cfConnectingIP}`);
     
     // Limpiar la IP del cliente (quitar prefijos IPv6)
     const cleanClientIP = clientIP.replace('::ffff:', '').replace('::1', '127.0.0.1');
     
-    // También verificar headers de proxy comunes
-    const forwardedFor = req.get('x-forwarded-for');
-    const realIP = req.get('x-real-ip');
-    const cfConnectingIP = req.get('cf-connecting-ip');
-    
-    // Array de posibles IPs del cliente
+    // Array de posibles IPs del cliente (para casos edge)
     const possibleIPs = [
       cleanClientIP,
       forwardedFor ? forwardedFor.split(',')[0].trim() : null,
       realIP,
-      cfConnectingIP
+      cfConnectingIP,
+      directIP.replace('::ffff:', '')
     ].filter(Boolean);
     
     console.log(`🔍 IP del cliente (limpia): ${cleanClientIP}`);
