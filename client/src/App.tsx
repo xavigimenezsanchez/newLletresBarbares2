@@ -11,6 +11,7 @@ import ArxiuPage from './pages/ArxiuPage'
 import EdicioPage from './pages/EdicioPage'
 import SearchPage from './pages/SearchPage'
 import AnalyticsPage from './pages/AnalyticsPage'
+import ConnectionAnalyticsPage from './pages/ConnectionAnalyticsPage'
 import AuthorsPage from './pages/AuthorsPage'
 import AuthorPage from './pages/AuthorPage'
 import { useScrollDirection } from './hooks/useScrollDirection'
@@ -39,6 +40,7 @@ function App() {
               <Route path="/arxiu" element={<ArxiuPage />} />
               <Route path="/cerca" element={<SearchPage />} />
               <Route path="/analytics" element={<AnalyticsPage />} />
+              <Route path="/connections-analytics" element={<ConnectionAnalyticsPage />} />
               <Route path="/edicio/:number" element={<EdicioPage />} />
               <Route path="/autors" element={<AuthorsPage />} />
               <Route path="/autor/:slug" element={<AuthorPage />} />

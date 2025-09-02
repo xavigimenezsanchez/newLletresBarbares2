@@ -88,11 +88,19 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/lletres-b
 .then(() => console.log('✅ Conectado a MongoDB Atlas'))
 .catch(err => console.error('❌ Error conectando a MongoDB:', err));
 
+// Importar middleware de analytics de conexiones
+const { connectionLogger, sessionTracker } = require('./middleware/connectionLogger');
+
+// Middleware para registrar conexiones (después de la conexión a DB)
+app.use(connectionLogger);
+app.use(sessionTracker);
+
 // Importar rutas de la API
 const articlesRoutes = require('./routes/articles');
 const issuesRoutes = require('./routes/issues');
 const searchRoutes = require('./routes/search');
 const analyticsRoutes = require('./routes/analytics');
+const connectionAnalyticsRoutes = require('./routes/connectionAnalytics');
 const authorsRoutes = require('./routes/authors');
 const debugRoutes = require('./routes/debug');
 const mediaRoutes = require('./routes/media');
@@ -102,6 +110,7 @@ app.use('/api/articles', articlesRoutes);
 app.use('/api/issues', issuesRoutes);
 app.use('/api/search', searchRoutes);
 app.use('/api/analytics', analyticsRoutes);
+app.use('/api/connections', connectionAnalyticsRoutes);
 app.use('/api/authors', authorsRoutes);
 app.use('/api/debug', debugRoutes);
 app.use('/api', mediaRoutes);

@@ -111,6 +111,17 @@ const AnalyticsPage: React.FC = () => {
           <p className="text-gray-600">
             Estadístiques detallades de les cerques dels usuaris
           </p>
+          <div className="mt-4">
+            <a 
+              href="/connections-analytics" 
+              className="inline-flex items-center px-4 py-2 text-sm font-medium text-newyorker-dark bg-white border border-newyorker-dark rounded-md hover:bg-newyorker-dark hover:text-white transition-colors"
+            >
+              <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+              </svg>
+              Veure Analytics de Connexions
+            </a>
+          </div>
         </div>
 
         {/* Controles */}

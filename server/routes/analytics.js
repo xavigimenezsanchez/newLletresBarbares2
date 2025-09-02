@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const SearchAnalytics = require('../models/SearchAnalytics');
+const ConnectionAnalytics = require('../models/ConnectionAnalytics');
 const UAParser = require('ua-parser-js');
 
 // Middleware para detectar dispositivo
@@ -102,24 +103,37 @@ router.put('/search/:id/click', async (req, res) => {
   }
 });
 
-// GET /api/analytics/stats - Estadísticas generales
+// GET /api/analytics/stats - Estadísticas generales (búsquedas + conexiones)
 router.get('/stats', async (req, res) => {
   try {
     const { days = 30 } = req.query;
     
-    const stats = await SearchAnalytics.getSearchStats(parseInt(days));
+    // Estadísticas de búsquedas
+    const searchStats = await SearchAnalytics.getSearchStats(parseInt(days));
     const topQueries = await SearchAnalytics.getTopQueries(parseInt(days), 10);
     const sectionStats = await SearchAnalytics.getSectionStats(parseInt(days));
-    const deviceStats = await SearchAnalytics.getDeviceStats(parseInt(days));
+    const searchDeviceStats = await SearchAnalytics.getDeviceStats(parseInt(days));
     const hourlyStats = await SearchAnalytics.getHourlyStats(parseInt(days));
+    
+    // Estadísticas de conexiones
+    const connectionStats = await ConnectionAnalytics.getConnectionStats(parseInt(days));
+    const countryStats = await ConnectionAnalytics.getCountryStats(parseInt(days), 5);
+    const connectionDeviceStats = await ConnectionAnalytics.getDeviceStats(parseInt(days));
 
     res.json({
       period: `${days} días`,
-      general: stats[0] || {},
-      topQueries,
-      sectionStats,
-      deviceStats,
-      hourlyStats
+      search: {
+        general: searchStats[0] || {},
+        topQueries,
+        sectionStats,
+        deviceStats: searchDeviceStats,
+        hourlyStats
+      },
+      connections: {
+        general: connectionStats[0] || {},
+        topCountries: countryStats,
+        deviceStats: connectionDeviceStats
+      }
     });
 
   } catch (error) {
