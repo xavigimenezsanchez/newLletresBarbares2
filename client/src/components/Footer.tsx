@@ -52,6 +52,8 @@ const Footer = () => {
             <ul className="space-y-2 text-gray-300">
               <li>lletresbarbares@gmail.com</li>
               <li>Redacció i administració</li>
+              <li>Carrer Figueres, 21</li>
+              <li>17820, Banyoles</li>
               {/* <li>ISSN: 1234-5678</li> */}
             </ul>
           </div>
