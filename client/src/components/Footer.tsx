@@ -51,10 +51,10 @@ const Footer = () => {
             <h4 className="font-sans font-medium mb-4">Contacte</h4>
             <ul className="space-y-2 text-gray-300">
               <li>lletresbarbares@gmail.com</li>
+              <li><strong>ISSN:</strong> 3081-7218</li> 
               <li>Redacció i administració</li>
               <li>Carrer Figueres, 21</li>
               <li>17820, Banyoles</li>
-              {/* <li>ISSN: 1234-5678</li> */}
             </ul>
           </div>
         </div>
