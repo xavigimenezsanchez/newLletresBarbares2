@@ -90,23 +90,23 @@
   
   }
 
-  .scroll-down .newyorker-header {
+  html[data-scroll-direction="down"] .newyorker-header {
     @apply h-16 md:h-24;
   }
 
-  .scroll-down .newyorker-header-container {
+  html[data-scroll-direction="down"] .newyorker-header-container {
     @apply h-16 md:h-24;
   }
 
-  .scroll-down .logo-row {
+  html[data-scroll-direction="down"] .logo-row {
     @apply flex items-end md:items-center h-20 md:h-24;
   }
 
-  .scroll-down .logo {
+  html[data-scroll-direction="down"] .logo {
     @apply top-0 mt-0 md:mt-4 md:w-32;
   }
 
-  .scroll-down .newyorker-nav-links {
+  html[data-scroll-direction="down"] .newyorker-nav-links {
     @apply top-0;
   }
   .scroll-block {
@@ -160,7 +160,7 @@
   @apply absolute top-8 left-1 w-full transition-all duration-300;
 }
 
-.scroll-down .main-navigation {
+html[data-scroll-direction="down"] .main-navigation {
   @apply top-4 md:top-8 transition-all duration-300;
 }
 
@@ -170,7 +170,7 @@
   /* left: -44px; */
 }
 
-.scroll-down .burgerstack-search {
+html[data-scroll-direction="down"] .burgerstack-search {
   left: 0;
 }
 
@@ -189,7 +189,7 @@
   transition: opacity 0.3s ease;
 }
 
-.scroll-down .burgerstack {
+html[data-scroll-direction="down"] .burgerstack {
   @apply opacity-100  inline-block transition-all duration-300;
 }
 
@@ -286,7 +286,7 @@
     transition: opacity 0.3s, top 0.3s;
   }
   
-  .scroll-down .newyorker-nav-links{
+  html[data-scroll-direction="down"] .newyorker-nav-links{
     top: 0;
     opacity: 0;
   }

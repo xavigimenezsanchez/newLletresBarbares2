@@ -1,31 +1,15 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import ElegantSearch from './ElegantSearch'
 import JaraLogo from '../assets/Jara logo.svg'
 import Burguer from '../assets/burguer.svg'
 import SideNav from './SideNav'
 import { Link } from 'react-router-dom'
+import { useScrollDirection } from '../hooks/useScrollDirection'
 
 const Header = () => {
-  const [isCompressed, setIsCompressed] = useState(false)
   const [isSideNavOpen, setIsSideNavOpen] = useState(false)
-
-  useEffect(() => {
-    let ticking = false
-    const handleScroll = () => {
-      const y = window.scrollY || window.pageYOffset || 0
-      if (!ticking) {
-        window.requestAnimationFrame(() => {
-          if (y > 120 && !isCompressed) setIsCompressed(true)
-          else if (y < 40 && isCompressed) setIsCompressed(false)
-          ticking = false
-        })
-        ticking = true
-      }
-    }
-
-    window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [isCompressed])
+  // Inicializar el hook de scroll (funciona automáticamente sin necesidad de guardar el valor)
+  useScrollDirection()
 
   const navigationItems = [
     { label: 'La Revista', href: '/' },

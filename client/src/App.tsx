@@ -14,14 +14,11 @@ import AnalyticsPage from './pages/AnalyticsPage'
 import ConnectionAnalyticsPage from './pages/ConnectionAnalyticsPage'
 import AuthorsPage from './pages/AuthorsPage'
 import AuthorPage from './pages/AuthorPage'
-import { useScrollDirection } from './hooks/useScrollDirection'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import ScrollToTop from './hooks/useScrollToTop'
 
 function App() {
-  // Inicializar el hook para detectar la dirección del scroll
-  useScrollDirection()
 
   return (
     <div className="min-h-screen bg-white">

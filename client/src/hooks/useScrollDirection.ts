@@ -1,54 +1,42 @@
-import { useEffect, useState } from 'react'
+import { useState, useEffect, useRef, useCallback } from 'react'
 
 type ScrollDirection = 'up' | 'down' | null
 
 export const useScrollDirection = () => {
   const [scrollDirection, setScrollDirection] = useState<ScrollDirection>(null)
-  const [lastScrollY, setLastScrollY] = useState(0)
+  const lastScrollY = useRef(0)
+  const ticking = useRef(false)
+
+  const updateScrollDirection = useCallback(() => {
+    const scrollY = window.scrollY
+    const direction = scrollY > lastScrollY.current ? 'down' : 'up'
+    
+    if (Math.abs(scrollY - lastScrollY.current) > 10) {
+      setScrollDirection(direction)
+    }
+    
+    lastScrollY.current = scrollY > 0 ? scrollY : 0
+    ticking.current = false
+  }, [])
 
   useEffect(() => {
-    const updateScrollDirection = () => {
-      const scrollY = window.scrollY
-      const direction = scrollY > lastScrollY ? 'down' : 'up'
-      
-      if (direction !== scrollDirection && Math.abs(scrollY - lastScrollY) > 10) {
-        setScrollDirection(direction)
-      }
-      
-      setLastScrollY(scrollY > 0 ? scrollY : 0)
-    }
-
     const onScroll = () => {
-      requestAnimationFrame(updateScrollDirection)
+      if (!ticking.current) {
+        requestAnimationFrame(updateScrollDirection)
+        ticking.current = true
+      }
     }
 
-    window.addEventListener('scroll', onScroll)
+    window.addEventListener('scroll', onScroll, { passive: true })
 
     return () => {
       window.removeEventListener('scroll', onScroll)
     }
-  }, [scrollDirection, lastScrollY])
+  }, [updateScrollDirection])
 
+  // Aplicar clases CSS usando CSS variables en lugar de manipulación directa del DOM
   useEffect(() => {
-    // Obtener el div que está dentro de root
-    const rootElement = document.getElementById('root')
-    let targetDiv = rootElement?.firstElementChild as HTMLElement
-    
-    // Si no existe, crearlo
-    if (!targetDiv) {
-      targetDiv = document.createElement('div')
-      targetDiv.id = 'scroll-indicator'
-      rootElement?.parentNode?.insertBefore(targetDiv, rootElement.nextSibling)
-    }
-
-    // Aplicar las clases según la dirección del scroll
-    if (scrollDirection === 'down') {
-      targetDiv.classList.remove('scroll-up')
-      targetDiv.classList.add('scroll-down')
-    } else if (scrollDirection === 'up') {
-      targetDiv.classList.remove('scroll-down')
-      targetDiv.classList.add('scroll-up')
-    }
+    document.documentElement.setAttribute('data-scroll-direction', scrollDirection || '')
   }, [scrollDirection])
 
   return scrollDirection
