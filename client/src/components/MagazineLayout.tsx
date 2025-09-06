@@ -70,6 +70,13 @@ const MagazineLayout = ({ articles, issueNumber, year, publicationDate }: Magazi
             })}</span>
           )}
           <span className="edition-count">{articles.length} articles</span>
+          <Link 
+            to={`/edicio/${issueNumber}/pdf`}
+            className="pdf-link"
+            title="Veure en format PDF"
+          >
+            📄 Veure PDF
+          </Link>
         </div>
       </div>
 

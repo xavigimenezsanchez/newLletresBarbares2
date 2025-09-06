@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
 import HomePage from './pages/HomePage'
 import ArticlePage from './pages/ArticlePage'
 import ArticlesPage from './pages/ArticlesPage'
@@ -9,6 +9,7 @@ import LlocsPage from './pages/LlocsPage'
 import RecomanacionsPage from './pages/RecomanacionsPage'
 import ArxiuPage from './pages/ArxiuPage'
 import EdicioPage from './pages/EdicioPage'
+import EdicioPDFPage from './pages/EdicioPDFPage'
 import SearchPage from './pages/SearchPage'
 import AnalyticsPage from './pages/AnalyticsPage'
 import ConnectionAnalyticsPage from './pages/ConnectionAnalyticsPage'
@@ -18,35 +19,44 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import ScrollToTop from './hooks/useScrollToTop'
 
-function App() {
+function AppContent() {
+  const location = useLocation()
+  const isPDFView = location.pathname.includes('/pdf')
 
   return (
-    <div className="min-h-screen bg-white">
-      <Router>
-          <Header />
-          <ScrollToTop />
-          <main className="home-background">
-            <Routes>
-              <Route path="/" element={<HomePage />} />
-              <Route path="/articles" element={<ArticlesPage />} />
-              <Route path="/creacio" element={<CreacioPage />} />
-              <Route path="/entrevistes" element={<EntrevistesPage />} />
-              <Route path="/llibres" element={<LlibresPage />} />
-              <Route path="/llocs" element={<LlocsPage />} />
-              <Route path="/recomanacions" element={<RecomanacionsPage />} />
-              <Route path="/arxiu" element={<ArxiuPage />} />
-              <Route path="/cerca" element={<SearchPage />} />
-              <Route path="/admin-dashboard-2024" element={<AnalyticsPage />} />
-              <Route path="/admin-connections-2024" element={<ConnectionAnalyticsPage />} />
-              <Route path="/edicio/:number" element={<EdicioPage />} />
-              <Route path="/autors" element={<AuthorsPage />} />
-              <Route path="/autor/:slug" element={<AuthorPage />} />
-              <Route path="/:section/:url" element={<ArticlePage />} />
-            </Routes>
-          </main>
-          <Footer />
-      </Router>
+    <div className={`min-h-screen bg-white ${isPDFView ? 'pdf-view' : ''}`}>
+      {!isPDFView && <Header />}
+      <ScrollToTop />
+      <main className={isPDFView ? '' : 'home-background'}>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/articles" element={<ArticlesPage />} />
+          <Route path="/creacio" element={<CreacioPage />} />
+          <Route path="/entrevistes" element={<EntrevistesPage />} />
+          <Route path="/llibres" element={<LlibresPage />} />
+          <Route path="/llocs" element={<LlocsPage />} />
+          <Route path="/recomanacions" element={<RecomanacionsPage />} />
+          <Route path="/arxiu" element={<ArxiuPage />} />
+          <Route path="/cerca" element={<SearchPage />} />
+          <Route path="/admin-dashboard-2024" element={<AnalyticsPage />} />
+          <Route path="/admin-connections-2024" element={<ConnectionAnalyticsPage />} />
+          <Route path="/edicio/:number" element={<EdicioPage />} />
+          <Route path="/edicio/:number/pdf" element={<EdicioPDFPage />} />
+          <Route path="/autors" element={<AuthorsPage />} />
+          <Route path="/autor/:slug" element={<AuthorPage />} />
+          <Route path="/:section/:url" element={<ArticlePage />} />
+        </Routes>
+      </main>
+      {!isPDFView && <Footer />}
     </div>
+  )
+}
+
+function App() {
+  return (
+    <Router>
+      <AppContent />
+    </Router>
   )
 }
 
