@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import { apiService } from '../services/api'
 import type { Issue, Article } from '../types'
-import PDFArticleContent from '../components/PDFArticleContent'
+import PDFArticlePaginated from '../components/PDFArticlePaginated'
 
 const EdicioPDFPage: React.FC = () => {
   const { number } = useParams<{ number: string }>()
@@ -168,11 +168,7 @@ const EdicioPDFPage: React.FC = () => {
 
       {/* Páginas de artículos */}
       {articles.map((article) => (
-        <div key={article.url} className="pdf-page pdf-article">
-          <div className="pdf-page-content">
-            <PDFArticleContent article={article} />
-          </div>
-        </div>
+        <PDFArticlePaginated key={article.url} article={article} />
       ))}
     </div>
   )

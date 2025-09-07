@@ -1004,7 +1004,7 @@ html[data-scroll-direction="down"] .burgerstack {
 
 .pdf-page-content {
   padding: 20mm;
-  height: calc(297mm - 40mm);
+  height: calc(297mm - 10mm);
   box-sizing: border-box;
 }
 
@@ -1028,6 +1028,8 @@ html[data-scroll-direction="down"] .burgerstack {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
+  margin: 0 auto;
 }
 
 /* Índice */
@@ -1128,6 +1130,28 @@ html[data-scroll-direction="down"] .burgerstack {
   margin-bottom: 6mm;
 }
 
+.pdf-article-header-continued {
+  margin-bottom: 4mm;
+  padding-bottom: 2mm;
+  border-bottom: 1px solid #bdc3c7;
+}
+
+.pdf-article-title-continued {
+  font-family: 'Playfair Display', serif;
+  font-size: 16pt;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 2mm;
+  color: #2c3e50;
+}
+
+.pdf-page-indicator {
+  font-size: 10pt;
+  color: #7f8c8d;
+  font-style: italic;
+  text-align: right;
+}
+
 .pdf-article-section {
   font-size: 10pt;
   text-transform: uppercase;
@@ -1166,12 +1190,17 @@ html[data-scroll-direction="down"] .burgerstack {
 .pdf-article-main-image {
   margin-bottom: 4mm;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .pdf-main-image {
   max-width: 100%;
   max-height: 60mm;
   object-fit: contain;
+  display: block;
+  margin: 0 auto;
 }
 
 .pdf-article-summary {
@@ -1193,11 +1222,51 @@ html[data-scroll-direction="down"] .burgerstack {
 .pdf-paragraph {
   margin-bottom: 3mm;
   text-align: justify;
-  text-indent: 5mm;
+  /* text-indent: 5mm; */
+}
+
+/* Párrafo dividido - primera parte (justificar última línea) */
+.pdf-paragraph-split-first {
+  text-align-last: justify;
+  margin-bottom: 0; /* Sin margen inferior para continuidad visual */
+}
+
+/* Párrafo dividido - segunda parte (sin sangría) */
+.pdf-paragraph-split-second {
+  text-indent: 0;
+  margin-top: 0; /* Sin margen superior para continuidad visual */
 }
 
 .pdf-paragraph:first-child {
   text-indent: 0;
+}
+
+/* Párrafos al final de página (sin margen inferior extra) */
+.pdf-paragraph:last-child {
+  margin-bottom: 1mm;
+}
+
+/* Párrafos al inicio de página continuada (sin indentación extra) */
+.pdf-article-text .pdf-paragraph:first-child {
+  text-indent: 0;
+}
+
+/* Párrafos divididos entre páginas */
+.pdf-paragraph-wrapper:last-child .pdf-paragraph {
+  margin-bottom: 0; /* Sin margen si es el último elemento de página */
+}
+
+.pdf-paragraph-wrapper:first-child .pdf-paragraph {
+  text-indent: 0; /* Sin indentación si es el primer elemento de página */
+}
+
+.pdf-paragraph-with-image {
+  margin-bottom: 3mm;
+}
+
+.pdf-paragraph-with-image .pdf-image-container {
+  text-align: center;
+  margin: 2mm 0;
 }
 
 .pdf-subtitle {
@@ -1206,10 +1275,23 @@ html[data-scroll-direction="down"] .burgerstack {
   font-weight: 600;
   margin: 5mm 0 3mm 0;
   color: #2c3e50;
+  page-break-after: avoid; /* Evitar salto de página después del título */
 }
 
 .pdf-subtitle-2 {
   font-size: 14pt;
+  page-break-after: avoid;
+}
+
+/* Títulos al inicio de página (reducir margen superior) */
+.pdf-article-text .pdf-subtitle:first-child {
+  margin-top: 2mm;
+}
+
+/* Títulos nunca solos al final de página */
+.pdf-subtitle {
+  orphans: 2; /* Al menos 2 líneas después del título */
+  widows: 2;  /* Al menos 2 líneas antes de un salto */
 }
 
 .pdf-question {
@@ -1223,12 +1305,17 @@ html[data-scroll-direction="down"] .burgerstack {
 .pdf-image-container {
   text-align: center;
   margin: 4mm 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .pdf-image {
   max-width: 100%;
-  max-height: 40mm;
+  max-height: 90mm;
   object-fit: contain;
+  display: block;
+  margin: 0 auto;
 }
 
 .pdf-image-caption {
@@ -1291,6 +1378,11 @@ html[data-scroll-direction="down"] .burgerstack {
   font-size: 10pt;
   line-height: 1.4;
 }
+.pdf-footnotes-list {
+  list-style-type: decimal;
+  padding-left: 1.5rem;
+}
+
 
 .pdf-bibliography-item,
 .pdf-footnote-item {
@@ -1331,6 +1423,12 @@ html[data-scroll-direction="down"] .burgerstack {
 .pdf-view .newyorker-header-container,
 .pdf-view .footer {
   display: none !important;
+}
+
+/* Wrappers para medición de elementos */
+.pdf-paragraph-wrapper,
+.pdf-title-wrapper {
+  display: block;
 }
 
 /* Enlace a la vista PDF */
