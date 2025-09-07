@@ -1,0 +1,28 @@
+{
+  "name": "revista-pdf-generator",
+  "version": "1.0.0",
+  "description": "Generador de PDF para la revista Lletres Bàrbares",
+  "main": "generate-pdf.js",
+  "scripts": {
+    "generate": "node generate-pdf.js",
+    "test": "node generate-pdf.js --issue=51",
+    "list": "node generate-multiple.js --list",
+    "latest": "node generate-multiple.js --latest",
+    "latest:3": "node generate-multiple.js --latest --count=3",
+    "year": "node generate-multiple.js --year-range"
+  },
+  "dependencies": {
+    "puppeteer": "^22.0.0",
+    "fs-extra": "^11.1.1",
+    "path": "^0.12.7",
+    "handlebars": "^4.7.8",
+    "marked": "^9.1.6"
+  },
+  "keywords": [
+    "pdf",
+    "revista",
+    "lletres-barbares"
+  ],
+  "author": "Lletres Bàrbares",
+  "license": "MIT"
+}

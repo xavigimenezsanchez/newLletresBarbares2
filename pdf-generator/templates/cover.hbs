@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 0;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            color: white;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .logo {
+            font-size: 3.5rem;
+            font-weight: bold;
+            margin-bottom: 2rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+        .subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 3rem;
+            font-style: italic;
+            opacity: 0.9;
+        }
+        .issue-info {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            font-weight: bold;
+        }
+        .date {
+            font-size: 1.2rem;
+            opacity: 0.8;
+        }
+        .articles-count {
+            position: absolute;
+            bottom: 3rem;
+            right: 3rem;
+            font-size: 1rem;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">Lletres Bàrbares</div>
+    <div class="subtitle">Revista de cultura, literatura i pensament</div>
+    <div class="issue-info">Número {{number}}</div>
+    <div class="date">{{date}}</div>
+    <div class="articles-count">{{totalArticles}} articles</div>
+</body>
+</html>
