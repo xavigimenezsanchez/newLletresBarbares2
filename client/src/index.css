@@ -982,6 +982,43 @@ html[data-scroll-direction="down"] .burgerstack {
   .animate-fade-in {
     animation: fadeIn 0.5s ease-out;
   }
+
+  /* Estilos para PDF Manual */
+  .pdf-division-info {
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-left: 3px solid #1a1a2e;
+    border-radius: 4px;
+  }
+
+  .pdf-division-current {
+    margin-bottom: 0.5rem;
+  }
+
+  .pdf-division-current strong {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #1a1a2e;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .pdf-division-next {
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid #e9ecef;
+  }
+
+  .pdf-division-next strong {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #666;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
 }
 
 /* PDF View Styles */

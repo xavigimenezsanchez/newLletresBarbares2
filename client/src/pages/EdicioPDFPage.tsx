@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom'
 import { apiService } from '../services/api'
 import type { Issue, Article } from '../types'
 import PDFArticlePaginated from '../components/PDFArticlePaginated'
+import PDFArticlePaginatedManual from '../components/PDFArticlePaginatedManual'
 
 const EdicioPDFPage: React.FC = () => {
   const { number } = useParams<{ number: string }>()
@@ -31,23 +32,34 @@ const EdicioPDFPage: React.FC = () => {
           return
         }
 
+        // Intentar obtener el issue completo primero
+        try {
+          const issueData = await apiService.getIssueByNumber(issueNumber)
+          if (issueData) {
+            setCurrentIssue(issueData as Issue)
+          }
+        } catch (issueError) {
+          console.log('No se encontró issue completo, creando uno básico')
+        }
+
         // Cargar datos de la edición
         const articlesData = await apiService.getArticlesByIssueNumber(issueNumber)
         const issueArticles = (articlesData as any).articles || []
         
-        // Crear un issue básico si tenemos artículos
-        if (issueArticles.length > 0) {
-          const firstArticle = issueArticles[0]
-          const basicIssue: Issue = {
-            number: issueNumber,
-            year: firstArticle.year || 2024,
-            publicationDate: firstArticle.publicationDate || new Date().toISOString(),
-            title: `Lletres Barbares - Número ${issueNumber}`,
-            isPublished: true,
-            coverImage: `portada${issueNumber}.jpg` // Asumimos este patrón
-          }
-          setCurrentIssue(basicIssue)
-        }
+        // Si no tenemos issue completo, crear uno básico
+        // if (!currentIssue && issueArticles.length > 0) {
+        //   const firstArticle = issueArticles[0]
+        //   const basicIssue: Issue = {
+        //     number: issueNumber,
+        //     year: firstArticle.year || 2024,
+        //     publicationDate: firstArticle.publicationDate || new Date().toISOString(),
+        //     title: `Lletres Barbares - Número ${issueNumber}`,
+        //     isPublished: true,
+        //     coverImage: `portada${issueNumber}.jpg`, // Asumimos este patrón
+        //     pdfManual: false // Por defecto no es manual
+        //   }
+        //   setCurrentIssue(basicIssue)
+        // }
         
         setArticles(issueArticles)
         
@@ -167,9 +179,25 @@ const EdicioPDFPage: React.FC = () => {
       </div>
 
       {/* Páginas de artículos */}
-      {articles.map((article) => (
-        <PDFArticlePaginated key={article.url} article={article} />
-      ))}
+      {articles.map((article) => {
+        // Usar el componente apropiado según pdfManual
+        if (currentIssue?.pdfManual === true) {
+          return (
+            <PDFArticlePaginatedManual 
+              key={article.url} 
+              article={article} 
+            />
+          )
+        } else {
+          return (
+            <PDFArticlePaginated 
+
+              key={article.url} 
+              article={article} 
+            />
+          )
+        }
+      })}
     </div>
   )
 }

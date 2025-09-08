@@ -1,15 +1,57 @@
 {
-    "year": 2025,
-    "number": 50,
-    "publicationDate": {
-      "$date": "2025-08-31T00:00:00.000Z"
+  "_id": {
+    "$oid": "68b43340b21ef69276192872"
+  },
+  "year": 2025,
+  "number": 50,
+  "publicationDate": {
+    "$date": "2025-08-31T00:00:00.000Z"
+  },
+  "title": "Lletres Barbares - Número 50",
+  "isPublished": true,
+  "totalArticles": 12,
+  "sections": [
+    "articles",
+    "creacio",
+    "llibres"
+  ],
+  "articlesOrder": [
+    {
+      "$oid": "68b432fbb21ef6927619286f"
     },
-    "title": "Lletres Barbares - Número 50",
-    "isPublished": true,
-    "totalArticles": 1,
-    "sections": [
-      "articles",
-      "creacio",
-      "llibres"
-    ]
-  }
+    {
+      "$oid": "68b445a1a46c4ea9d2365ae2"
+    },
+    {
+      "$oid": "68b44f6aa46c4ea9d2365ae5"
+    },
+    {
+      "$oid": "68b4549aa46c4ea9d2365aea"
+    },
+    {
+      "$oid": "68b45b3da46c4ea9d2365aec"
+    },
+    {
+      "$oid": "68b461eca46c4ea9d2365aee"
+    },
+    {
+      "$oid": "68b467fba46c4ea9d2365af0"
+    },
+    {
+      "$oid": "68b47029a46c4ea9d2365af2"
+    },
+    {
+      "$oid": "68b4757ca46c4ea9d2365af4"
+    },
+    {
+      "$oid": "68b4790ba46c4ea9d2365af6"
+    },
+    {
+      "$oid": "68b47d52a46c4ea9d2365af8"
+    },
+    {
+      "$oid": "68b480f3a46c4ea9d2365afa"
+    }
+  ],
+  "pdfManual": true
+}

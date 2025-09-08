@@ -23,59 +23,101 @@
       {
         "type": "image",
         "name": "carbonell50-01-01",
-        "content": "<em>Eclipsi de sol</em>, George Grosz, 1926, oli sobre tela, 207,3 x 182,6 cm, Heckscher Museum of Art, Huntington, Nova York, EUA"
+        "content": "<em>Eclipsi de sol</em>, George Grosz, 1926, oli sobre tela, 207,3 x 182,6 cm, Heckscher Museum of Art, Huntington, Nova York, EUA",
+        "pdf":{
+          "page": 1
+        }
       },
       {
         "type": "paragraph",
-        "content": "El debat sobre el poder a l’ombra i la realitat oligàrquica de la democràcia formal a l’Estat espanyol i a Catalunya obre les portes a un panorama inquietant que reflecteix les limitacions d’un sistema polític nominalment democràtic però pràcticament oligàrquic. Aquesta dualitat és el resultat d’una història política i econòmica carregada d’inèrcies, herències de dictadures i sistemes centralitzats que mai no han estat completament desmantellats, així com de dinàmiques de poder que perpetuen privilegis en poques mans, allunyant la ciutadania de les decisions reals. En el fons, aquesta democràcia formal funciona com una façana sota la qual uns quants actors econòmics, polítics, judicials i mediàtics controlen gran part del destí de la societat. Per entendre aquesta realitat, cal aprofundir en els mecanismes i protagonistes que defineixen el poder a l’ombra a Espanya i Catalunya."
+        "content": "El debat sobre el poder a l’ombra i la realitat oligàrquica de la democràcia formal a l’Estat espanyol i a Catalunya obre les portes a un panorama inquietant que reflecteix les limitacions d’un sistema polític nominalment democràtic però pràcticament oligàrquic. Aquesta dualitat és el resultat d’una història política i econòmica carregada d’inèrcies, herències de dictadures i sistemes centralitzats que mai no han estat completament desmantellats, així com de dinàmiques de poder que perpetuen privilegis en poques mans, allunyant la ciutadania de les decisions reals. En el fons, aquesta democràcia formal funciona com una façana sota la qual uns quants actors econòmics, polítics, judicials i mediàtics controlen gran part del destí de la societat. Per entendre aquesta realitat, cal aprofundir en els mecanismes i protagonistes que defineixen el poder a l’ombra a Espanya i Catalunya.",
+        "pdf":{
+          "page": 1
+        }
       },
       {
         "type": "paragraph",
-        "content": "El primer actor en aquesta partida és l’economia, especialment a través de les grans corporacions, les multinacionals i el sector financer. A l’Estat espanyol, l’IBEX 35 exemplifica aquesta concentració de poder empresarial, reunint les principals empreses del país amb capacitat per influir directament en les decisions polítiques. Aquestes companyies no només exerceixen pressió per afavorir regulacions que els beneficien, sinó que estableixen connexions estretes amb el poder executiu i legislatiu mitjançant el sistema conegut com a portes giratòries. Aquesta pràctica, habitual a sectors clau com l’energia, les telecomunicacions o les infraestructures, assegura que les decisions públiques responguin sovint més a interessos privats que no pas a necessitats socials. Un exemple paradigmàtic són les polítiques energètiques, mentre la ciutadania pateix els costos elevats de la factura de la llum, les grans elèctriques aconsegueixen beneficis rècord gràcies a un sistema tarifari dissenyat a la seva conveniència."
+        "content": "El primer actor en aquesta partida és l’economia, especialment a través de les grans corporacions, les multinacionals i el sector financer. A l’Estat espanyol, l’IBEX 35 exemplifica aquesta concentració de poder empresarial, reunint les principals empreses del país amb capacitat per influir directament en les decisions polítiques. Aquestes companyies no només exerceixen pressió per afavorir regulacions que els beneficien, sinó que estableixen connexions estretes amb el poder executiu i legislatiu mitjançant el sistema conegut com a portes giratòries. Aquesta pràctica, habitual a sectors clau com l’energia, les telecomunicacions o les infraestructures, assegura que les decisions públiques responguin sovint més a interessos privats que no pas a necessitats socials. Un exemple paradigmàtic són les polítiques energètiques, mentre la ciutadania pateix els costos elevats de la factura de la llum, les grans elèctriques aconsegueixen beneficis rècord gràcies a un sistema tarifari dissenyat a la seva conveniència.",
+        "pdf":{
+          "page": 1
+        }
       },
       {
         "type": "paragraph",
-        "content": "Aquest mateix esquema és aplicable al sector bancari. Durant la crisi financera de 2008, els grans bancs espanyols van rebre rescats multimilionaris de diners públics per evitar el seu col·lapse, sense que aquestes ajudes es traduïssin en beneficis directes per a la societat. L’Estat es va endeutar, mentre els bancs continuaven operant amb beneficis astronòmics. Aquesta relació de dependència entre política i banca també es veu reforçada pel deute públic, que els governs han de gestionar sota la vigilància i el control d’aquests mateixos bancs que tenen la capacitat d’afectar els mercats. Aquesta interdependència crea una situació en què els governs queden sovint paralitzats, incapaços d’adoptar polítiques que confrontin seriosament els interessos financers."
+        "content": "Aquest mateix esquema és aplicable al sector bancari. Durant la crisi financera de 2008, els grans bancs espanyols van rebre rescats multimilionaris de diners públics per evitar el seu col·lapse, sense que aquestes ajudes es traduïssin en beneficis directes per a la societat. L’Estat es va endeutar, mentre els bancs continuaven operant amb beneficis astronòmics. Aquesta relació de dependència entre política i banca també es veu reforçada pel deute públic, que els governs han de gestionar sota la vigilància i el control d’aquests mateixos bancs que tenen la capacitat d’afectar els mercats. Aquesta interdependència crea una situació en què els governs queden sovint paralitzats, incapaços d’adoptar polítiques que confrontin seriosament els interessos financers.",
+        "pdf":{
+          "page": 2
+        }
       },
       {
         "type": "paragraph",
-        "content": "A l’àmbit institucional, l’estat espanyol té una altra font de poder opaca en la seva estructura judicial. La judicatura no només no es va democratitzar després de la dictadura franquista, sinó que moltes de les seves estructures i actors han mantingut una ideologia ultraconservadora i centralista. A això se suma que l’elecció dels jutges més importants depèn directament o indirectament dels grans partits polítics, perpetuant així una manca d’independència que reforça l'oligarquia institucional. Les actuacions del Tribunal Constitucional i el Tribunal Suprem, especialment en moments de crisi política com el procés independentista català o les qüestions de drets laborals i socials, mostren una posició que sovint afavoreix les estructures tradicionals del poder abans que les demandes de canvi o de justícia social."
+        "content": "A l’àmbit institucional, l’estat espanyol té una altra font de poder opaca en la seva estructura judicial. La judicatura no només no es va democratitzar després de la dictadura franquista, sinó que moltes de les seves estructures i actors han mantingut una ideologia ultraconservadora i centralista. A això se suma que l’elecció dels jutges més importants depèn directament o indirectament dels grans partits polítics, perpetuant així una manca d’independència que reforça l'oligarquia institucional. Les actuacions del Tribunal Constitucional i el Tribunal Suprem, especialment en moments de crisi política com el procés independentista català o les qüestions de drets laborals i socials, mostren una posició que sovint afavoreix les estructures tradicionals del poder abans que les demandes de canvi o de justícia social.",
+        "pdf":{
+          "page": 2
+        }
       },
       {
         "type": "paragraph",
-        "content": "Paral·lelament, les forces de seguretat i els serveis d’intel·ligència funcionen amb una autonomia que moltes vegades els situa fora del control democràtic efectiu. Aquestes institucions, hereves en gran manera dels mecanismes de control social del franquisme, han operat històricament com a garants de l’estabilitat del sistema establert, utilitzant de manera recurrent tècniques opaques que han generat desconfiança i han estat denunciades com a repressives en nombrosos casos, especialment contra moviments dissidents."
+        "content": "Paral·lelament, les forces de seguretat i els serveis d’intel·ligència funcionen amb una autonomia que moltes vegades els situa fora del control democràtic efectiu. Aquestes institucions, hereves en gran manera dels mecanismes de control social del franquisme, han operat històricament com a garants de l’estabilitat del sistema establert, utilitzant de manera recurrent tècniques opaques que han generat desconfiança i han estat denunciades com a repressives en nombrosos casos, especialment contra moviments dissidents.",
+        "pdf":{
+          "page": 2
+        }
       },
       {
         "type": "paragraph",
-        "content": "A aquest esquema institucional se suma el paper particular de la monarquia espanyola. Teòricament, una institució simbòlica i representativa, la monarquia ha estat sovint vinculada a operacions de poder a l’ombra que no sempre respecten els límits que li assigna la Constitució. Casos de corrupció, connivència amb grans fortunes i empreses i un paper actiu en moments de crisi política han posat en dubte el caràcter neutral i simbòlic de la Corona. Tot i els escàndols i les pressions socials per democratitzar la institució, aquesta continua sent intocable."
+        "content": "A aquest esquema institucional se suma el paper particular de la monarquia espanyola. Teòricament, una institució simbòlica i representativa, la monarquia ha estat sovint vinculada a operacions de poder a l’ombra que no sempre respecten els límits que li assigna la Constitució. Casos de corrupció, connivència amb grans fortunes i empreses i un paper actiu en moments de crisi política han posat en dubte el caràcter neutral i simbòlic de la Corona. Tot i els escàndols i les pressions socials per democratitzar la institució, aquesta continua sent intocable.",
+        "pdf":{
+          "page": 2
+        }
       },
       {
         "type": "paragraph",
-        "content": "Un altre element essencial per mantenir aquest statu quo és el control dels mitjans de comunicació. Els mitjans són una eina crucial de poder ideològic, capaços de modelar l’opinió pública i de decidir quines narratives es promocionen o se silencien. A l’estat espanyol, la concentració de mitjans en poques mans, com ara Atresmedia, Mediaset o el Grup Prisa, assegura que la informació que arriba al gran públic estigui altament filtrada i esbiaixada cap als interessos dels sectors dominants. Aquesta situació fa molt difícil que les narratives alternatives o crítiques tinguin un accés significatiu a les audiències més àmplies. Així, els mitjans no només actuen com a còmplices del poder establert, sinó que contribueixen a la criminalització de qualsevol moviment polític o social que plantegi un desafiament seriós."
+        "content": "Un altre element essencial per mantenir aquest statu quo és el control dels mitjans de comunicació. Els mitjans són una eina crucial de poder ideològic, capaços de modelar l’opinió pública i de decidir quines narratives es promocionen o se silencien. A l’estat espanyol, la concentració de mitjans en poques mans, com ara Atresmedia, Mediaset o el Grup Prisa, assegura que la informació que arriba al gran públic estigui altament filtrada i esbiaixada cap als interessos dels sectors dominants. Aquesta situació fa molt difícil que les narratives alternatives o crítiques tinguin un accés significatiu a les audiències més àmplies. Així, els mitjans no només actuen com a còmplices del poder establert, sinó que contribueixen a la criminalització de qualsevol moviment polític o social que plantegi un desafiament seriós.",
+        "pdf":{
+          "page": 3
+        }
       },
       {
         "type": "paragraph",
-        "content": "Pel que fa a Catalunya, les dinàmiques són específiques, però segueixen patrons semblants. Les elits econòmiques catalanes han jugat històricament un doble paper. D’una banda, s’han erigit en defensores dels interessos locals davant Madrid, però, de l’altra, han actuat com aliades estratègiques de l’oligarquia estatal quan això els ha beneficiat. Figures com les grans famílies empresarials del Grup Godó o les estructures financeres com La Caixa han jugat un paper clau en l’estabilitat política catalana, negociant tant amb Madrid com amb el catalanisme polític per assegurar el manteniment dels seus privilegis."
+        "content": "Pel que fa a Catalunya, les dinàmiques són específiques, però segueixen patrons semblants. Les elits econòmiques catalanes han jugat històricament un doble paper. D’una banda, s’han erigit en defensores dels interessos locals davant Madrid, però, de l’altra, han actuat com aliades estratègiques de l’oligarquia estatal quan això els ha beneficiat. Figures com les grans famílies empresarials del Grup Godó o les estructures financeres com La Caixa han jugat un paper clau en l’estabilitat política catalana, negociant tant amb Madrid com amb el catalanisme polític per assegurar el manteniment dels seus privilegis.",
+        "pdf":{
+          "page": 3
+        }
+      },
+      { 
+        "type": "paragraph",
+        "content": "Durant l’època de Jordi Pujol, el projecte de Convergència i Unió es va construir com un sistema d’estabilitat basat en el control polític de Catalunya a través de polítiques que equilibraven el discurs nacionalista amb una clara dependència de les elits empresarials. Aquesta tradició ha persistit durant i després del procés independentista, en què el moviment va incorporar un gran ventall de classes socials i interessos, però també va mantenir moltes de les dinàmiques oligàrquiques prèvies. L’auge de partits com Junts per Catalunya o la lluita interna per liderar el procés sovint reflecteix més una pugna pel poder intern que no pas un desig autèntic d’impulsar un model polític radicalment democràtic.",
+        "pdf":{
+          "page": 3
+        }
       },
       {
         "type": "paragraph",
-        "content": "Durant l’època de Jordi Pujol, el projecte de Convergència i Unió es va construir com un sistema d’estabilitat basat en el control polític de Catalunya a través de polítiques que equilibraven el discurs nacionalista amb una clara dependència de les elits empresarials. Aquesta tradició ha persistit durant i després del procés independentista, en què el moviment va incorporar un gran ventall de classes socials i interessos, però també va mantenir moltes de les dinàmiques oligàrquiques prèvies. L’auge de partits com Junts per Catalunya o la lluita interna per liderar el procés sovint reflecteix més una pugna pel poder intern que no pas un desig autèntic d’impulsar un model polític radicalment democràtic."
+        "content": "Una anàlisi rigorosa de la configuració de la democràcia formal també posa en evidència els seus propis límits estructurals. Els partits polítics, tant a Espanya com a Catalunya, solen funcionar com a màquines jeràrquiques, altament verticalitzades, on el pes de les decisions recau en unes elits allunyades de les bases i de la ciutadania. Això genera un cercle viciós en què els polítics escollits prioritzen el manteniment del seu propi poder i l’accés als beneficis associats al càrrec, abans que abordar reformes estructurals profundes. La corrupció sistèmica, reflectida en nombrosos casos que han implicat partits de tot l’espectre ideològic, accentua aquesta percepció i erosiona encara més la confiança en les institucions democràtiques.",
+        "pdf":{
+          "page": 3
+        }
       },
       {
         "type": "paragraph",
-        "content": "Una anàlisi rigorosa de la configuració de la democràcia formal també posa en evidència els seus propis límits estructurals. Els partits polítics, tant a Espanya com a Catalunya, solen funcionar com a màquines jeràrquiques, altament verticalitzades, on el pes de les decisions recau en unes elits allunyades de les bases i de la ciutadania. Això genera un cercle viciós en què els polítics escollits prioritzen el manteniment del seu propi poder i l’accés als beneficis associats al càrrec, abans que abordar reformes estructurals profundes. La corrupció sistèmica, reflectida en nombrosos casos que han implicat partits de tot l’espectre ideològic, accentua aquesta percepció i erosiona encara més la confiança en les institucions democràtiques."
+        "content": "Aquesta democràcia limitada no és només el resultat de problemes locals. El fenomen de l’oligarquia formal és un problema compartit per moltes democràcies occidentals, en què la concentració de poder i recursos econòmics a les mans d’una minoria afavoreix la perpetuació d’un sistema que deixa la majoria en un estat de participació limitada. Eleccions cada quatre anys i mecanismes de representació allunyats del votant mitjà reforcen la idea que la ciutadania té molt poc marge per influir de manera real en les decisions polítiques que condicionen les seves vides.",
+        "pdf":{
+          "page": 4
+        }
       },
       {
         "type": "paragraph",
-        "content": "Aquesta democràcia limitada no és només el resultat de problemes locals. El fenomen de l’oligarquia formal és un problema compartit per moltes democràcies occidentals, en què la concentració de poder i recursos econòmics a les mans d’una minoria afavoreix la perpetuació d’un sistema que deixa la majoria en un estat de participació limitada. Eleccions cada quatre anys i mecanismes de representació allunyats del votant mitjà reforcen la idea que la ciutadania té molt poc marge per influir de manera real en les decisions polítiques que condicionen les seves vides."
+        "content": "A l’estat espanyol i a Catalunya, aquest escenari només es pot revertir a través d’una doble acció, d’una banda, una reforma profunda de les estructures institucionals, judicials i econòmiques, orientada a democratitzar de manera efectiva el sistema; de l’altra, una presa de consciència col·lectiva que impulsi la participació ciutadana activa, més enllà dels processos electorals tradicionals. Això implica obrir el camí cap a models de democràcia directa o deliberativa que empoderin la ciutadania per participar en les decisions del dia a dia. També implica desmuntar els mecanismes que perpetuen el poder concentrat, incloent-hi la regulació efectiva dels lobbies, la nacionalització d’actius clau i la despolitització de la judicatura.",
+        "pdf":{
+          "page": 4
+        }
       },
       {
         "type": "paragraph",
-        "content": "A l’estat espanyol i a Catalunya, aquest escenari només es pot revertir a través d’una doble acció, d’una banda, una reforma profunda de les estructures institucionals, judicials i econòmiques, orientada a democratitzar de manera efectiva el sistema; de l’altra, una presa de consciència col·lectiva que impulsi la participació ciutadana activa, més enllà dels processos electorals tradicionals. Això implica obrir el camí cap a models de democràcia directa o deliberativa que empoderin la ciutadania per participar en les decisions del dia a dia. També implica desmuntar els mecanismes que perpetuen el poder concentrat, incloent-hi la regulació efectiva dels lobbies, la nacionalització d’actius clau i la despolitització de la judicatura."
-      },
-      {
-        "type": "paragraph",
-        "content": "L’ombra del poder a l’estat espanyol i a Catalunya no desapareixerà fàcilment, però identificar i visibilitzar els actors i mecanismes que la sostenen és el primer pas per imaginar i construir un sistema democràtic més just, igualitari i participatiu. La lluita per desmuntar l’oligarquia és un repte a llarg termini, però absolutament necessari si es vol avançar cap a un model de societat realment democràtica."
+        "content": "L’ombra del poder a l’estat espanyol i a Catalunya no desapareixerà fàcilment, però identificar i visibilitzar els actors i mecanismes que la sostenen és el primer pas per imaginar i construir un sistema democràtic més just, igualitari i participatiu. La lluita per desmuntar l’oligarquia és un repte a llarg termini, però absolutament necessari si es vol avançar cap a un model de societat realment democràtica.",
+        "pdf":{
+          "page": 4
+        }
       }
     ]
   }

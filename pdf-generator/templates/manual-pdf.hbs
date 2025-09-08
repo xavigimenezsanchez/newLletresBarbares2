@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{issue.title}}</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 2cm;
+        }
+        
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .page-break {
+            page-break-before: always;
+        }
+
+        .cover-page {
+            text-align: center;
+            padding: 4cm 2cm;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            color: white;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .cover-title {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .cover-subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        .cover-info {
+            font-size: 1.2rem;
+            margin-top: 2rem;
+        }
+
+        .article-page {
+            padding: 2cm;
+        }
+
+        .article-header {
+            text-align: center;
+            margin-bottom: 2rem;
+            border-bottom: 2px solid #1a1a2e;
+            padding-bottom: 1rem;
+        }
+
+        .article-title {
+            font-size: 2rem;
+            color: #1a1a2e;
+            margin-bottom: 0.5rem;
+        }
+
+        .article-authors {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 0.5rem;
+        }
+
+        .article-section {
+            font-size: 1rem;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .content-element {
+            margin-bottom: 1rem;
+        }
+
+        .content-element.title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #1a1a2e;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .content-element.paragraph {
+            text-align: justify;
+            margin-bottom: 1rem;
+        }
+
+        .content-element.image {
+            text-align: center;
+            margin: 2rem 0;
+        }
+
+        .content-element.image img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .division-content {
+            border-left: 3px solid #1a1a2e;
+            padding-left: 1rem;
+            margin: 1rem 0;
+        }
+
+        .division-content.current-page {
+            background-color: #f8f9fa;
+            padding: 1rem;
+            border-radius: 4px;
+        }
+
+        .division-content.next-page {
+            background-color: #e9ecef;
+            padding: 1rem;
+            border-radius: 4px;
+            margin-top: 0.5rem;
+        }
+
+        .page-number {
+            position: fixed;
+            bottom: 1cm;
+            right: 2cm;
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        .generated-info {
+            position: fixed;
+            bottom: 1cm;
+            left: 2cm;
+            font-size: 0.8rem;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <!-- Portada -->
+    <div class="cover-page">
+        <h1 class="cover-title">{{issue.title}}</h1>
+        <p class="cover-subtitle">Generació Manual de PDF</p>
+        <div class="cover-info">
+            <p>Número {{issue.number}} - {{issue.year}}</p>
+            <p>Generat el {{generatedAt}}</p>
+        </div>
+    </div>
+
+    {{#each articles}}
+    {{#each pdfData.pagesArray}}
+    <div class="page-break">
+        <div class="article-page">
+            {{#if @first}}
+            <div class="article-header">
+                <h1 class="article-title">{{../title}}</h1>
+                <p class="article-authors">{{#each ../authors}}{{this}}{{#unless @last}}, {{/unless}}{{/each}}</p>
+                <p class="article-section">{{../section}}</p>
+            </div>
+            {{/if}}
+
+            <div class="page-number">Pàgina {{pageNumber}}</div>
+
+            {{#each content}}
+            <div class="content-element {{type}}">
+                {{#if division}}
+                    <div class="division-content current-page">
+                        <strong>Contingut pàgina actual:</strong>
+                        <div>{{division.contentPage}}</div>
+                    </div>
+                    {{#if division.contentNextPage}}
+                    <div class="division-content next-page">
+                        <strong>Contingut pàgina següent:</strong>
+                        <div>{{division.contentNextPage}}</div>
+                    </div>
+                    {{/if}}
+                {{else}}
+                    {{#if (eq type 'title')}}
+                        <h2>{{content}}</h2>
+                    {{else if (eq type 'paragraph')}}
+                        <p>{{content}}</p>
+                    {{else if (eq type 'image')}}
+                        <div class="image">
+                            {{#if name}}<p><strong>{{name}}</strong></p>{{/if}}
+                            <p><em>Imatge: {{content}}</em></p>
+                        </div>
+                    {{else}}
+                        <p>{{content}}</p>
+                    {{/if}}
+                {{/if}}
+            </div>
+            {{/each}}
+        </div>
+    </div>
+    {{/each}}
+    {{/each}}
+
+    <div class="generated-info">PDF generat manualment - {{generatedAt}}</div>
+</body>
+</html>

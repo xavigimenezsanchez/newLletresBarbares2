@@ -36,6 +36,14 @@ export interface Article {
     type: 'paragraph' | 'title' | 'image' | 'video' | 'youtube' | 'biography' | 'footnotes';
     content: string;
     name?: string;
+    pdf?: {
+      page: number;
+      division?: {
+        alignLast?: boolean;
+        contentPage: string;
+        contentNextPage: string;
+      };
+    };
   }>;
   publicationDate?: string;
   isPublished?: boolean;
@@ -59,6 +67,9 @@ export interface Issue {
   articles?: Article[];
   totalArticles?: number;
   sections?: string[];
+  // Campos para generación manual de PDF
+  pdfManual?: boolean;
+  articlesOrder?: string[]; // Array de IDs de artículos
   createdAt?: string;
   updatedAt?: string;
 }

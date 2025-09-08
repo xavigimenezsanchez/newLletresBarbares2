@@ -22,204 +22,353 @@
     "text": [
       {
         "type": "paragraph",
-        "content": "Nínive, la capital de l'antiga Assíria, avui és només un munt de runes. Ja ho era fa 2.300 anys, quan Xenofont, a la seva famosa <em>Retirada dels Deu Mil</em> – coneguda també com <em>l’Anàbasi</em> – se la va trobar per casualitat: munts gegantins de runa, gairebé amorfs, que ningú d'aquell país li va saber dir de qui diantre havien estat. Al segle IV abans de Crist només feia uns tres segles de la caiguda d'Assíria; però ja ningú no la recordava."
+        "content": "Nínive, la capital de l'antiga Assíria, avui és només un munt de runes. Ja ho era fa 2.300 anys, quan Xenofont, a la seva famosa <em>Retirada dels Deu Mil</em> – coneguda també com <em>l’Anàbasi</em> – se la va trobar per casualitat: munts gegantins de runa, gairebé amorfs, que ningú d'aquell país li va saber dir de qui diantre havien estat. Al segle IV abans de Crist només feia uns tres segles de la caiguda d'Assíria; però ja ningú no la recordava.",
+        "pdf": {
+          "page": 1
+        }
       },
       {
         "type": "image",
-        "name": "rovira50-01"
+        "name": "rovira50-01",
+        "pdf": {
+          "page": 1
+        }
       },
       {
         "type": "title",
-        "content": "U. Ruïnes terribles"
+        "content": "U. Ruïnes terribles",
+        "pdf": {
+          "page": 1
+        }
       },
       {
         "type": "paragraph",
-        "content": "I malgrat tot Nínive és un dels jaciments arqueològics més impressionants del món. Perquè a les portes de la ciutat, on els defensors van lliurar la darrera i desesperada batalla per salvar la ciutat, el terra va quedar entapissat de cossos morts: els dels soldats – i civils – que hi van morir, cavalls, fragments sencers dels murs, tots apilats els uns damunt dels altres, aparentment en la mateixa posició en què van morir. Amb la mà a l'espasa, carregant l'escut, intentant de treure's una sageta clavada al pit... Tot soterrat sota de metres de sorra i pols, arrossegats pel vent i acumulats al llarg de milers d'anys. Els arqueòlegs que van desenterrar aquella escena devien quedar atònits: tenien davant seu una mena d'instantània d'una batalla que devia haver estat colossal —puix que Nínive era aleshores una de les ciutats més grans del món— i d'una ferocitat terrorífica."
+        "content": "I malgrat tot Nínive és un dels jaciments arqueològics més impressionants del món. Perquè a les portes de la ciutat, on els defensors van lliurar la darrera i desesperada batalla per salvar la ciutat, el terra va quedar entapissat de cossos morts: els dels soldats – i civils – que hi van morir, cavalls, fragments sencers dels murs, tots apilats els uns damunt dels altres, aparentment en la mateixa posició en què van morir. Amb la mà a l'espasa, carregant l'escut, intentant de treure's una sageta clavada al pit... Tot soterrat sota de metres de sorra i pols, arrossegats pel vent i acumulats al llarg de milers d'anys. Els arqueòlegs que van desenterrar aquella escena devien quedar atònits: tenien davant seu una mena d'instantània d'una batalla que devia haver estat colossal —puix que Nínive era aleshores una de les ciutats més grans del món— i d'una ferocitat terrorífica.",
+        "pdf": {
+          "page": 1
+        }
       },
       {
         "type": "paragraph",
-        "content": "L'exèrcit assaltant, format per una coalició de medes i babilònics, va destruir la ciutat i no va fer res per reconstruir-la després, ni que fos repoblant-la amb la seva pròpia gent. No es tractava de conquerir la ciutat, doncs, es tractava de destruir-la fins als fonaments, que no en quedés pedra sobre pedra. L'assalt a Assíria no va ser una guerra de conquesta, sinó una ofensiva de destrucció total. Quelcom que no era tan normal aleshores, fins i tot tenint present la gran violència que caracteritzava el món antic. Per quina raó caldria destruir una ciutat? Sotmetre-la era molt més pràctic, si la ciutat es rendia el vencedor li imposava un tribut i l'obligació futura de proporcionar ajut —tropes o vitualles— en les futures guerres que el vencedor planifiqués per a més endavant. Els murals de molts palaus de l'antiguitat són plens de relleus o frescos on es retrata una corrua d'emissaris de països vassalls duent tributs, presents, ofrenes que simbolitzen llur submissió. Ben al contrari, una ciutat totalment arrasada no produïa res."
+        "content": "L'exèrcit assaltant, format per una coalició de medes i babilònics, va destruir la ciutat i no va fer res per reconstruir-la després, ni que fos repoblant-la amb la seva pròpia gent. No es tractava de conquerir la ciutat, doncs, es tractava de destruir-la fins als fonaments, que no en quedés pedra sobre pedra. L'assalt a Assíria no va ser una guerra de conquesta, sinó una ofensiva de destrucció total. Quelcom que no era tan normal aleshores, fins i tot tenint present la gran violència que caracteritzava el món antic. Per quina raó caldria destruir una ciutat? Sotmetre-la era molt més pràctic, si la ciutat es rendia el vencedor li imposava un tribut i l'obligació futura de proporcionar ajut —tropes o vitualles— en les futures guerres que el vencedor planifiqués per a més endavant. Els murals de molts palaus de l'antiguitat són plens de relleus o frescos on es retrata una corrua d'emissaris de països vassalls duent tributs, presents, ofrenes que simbolitzen llur submissió. Ben al contrari, una ciutat totalment arrasada no produïa res.",
+        "pdf": {
+          "page": 2
+        }
       },
       {
         "type": "image",
         "name": "rovira50-02",
-        "content": "Cossos trobats a les excavacions de les portes de Nínive, mostrant els cadàvers de la darrera batalla contra medes i babilònics."
+        "content": "Cossos trobats a les excavacions de les portes de Nínive, mostrant els cadàvers de la darrera batalla contra medes i babilònics.",
+        "pdf": {
+          "page": 2
+        }
       },
       {
         "type": "paragraph",
-        "content": "Però aquesta voluntat de destrucció total no sorprendrà qui conegui la història d'Assíria. Allò que ara coneixem com a Pròxim Orient i que els historiadors han batejat com a <em>Creixent Fèrtil</em> —un territori que fa una mitja lluna: Mesopotàmia, el sud de l'actual Turquia i la costa mediterrània, incloent-hi l'actual Líban i Israel—, va conèixer una bona corrua de cultures i civilitzacions, cadascuna amb la seva llengua, la seva escriptura, la seva història. Totes apassionants. Però Assíria és alguna cosa més. Una civilització que, enmig d'un món violent i brutal com ho era el món antic va passar a la història com una civilització particularment violenta i brutal, cosa que ens suggereix que va dur la violència i la brutalitat a extrems mai vistos."
+        "content": "Però aquesta voluntat de destrucció total no sorprendrà qui conegui la història d'Assíria. Allò que ara coneixem com a Pròxim Orient i que els historiadors han batejat com a <em>Creixent Fèrtil</em> —un territori que fa una mitja lluna: Mesopotàmia, el sud de l'actual Turquia i la costa mediterrània, incloent-hi l'actual Líban i Israel—, va conèixer una bona corrua de cultures i civilitzacions, cadascuna amb la seva llengua, la seva escriptura, la seva història. Totes apassionants. Però Assíria és alguna cosa més. Una civilització que, enmig d'un món violent i brutal com ho era el món antic va passar a la història com una civilització particularment violenta i brutal, cosa que ens suggereix que va dur la violència i la brutalitat a extrems mai vistos.",
+        "pdf": {
+          "page": 2
+        }
       },
       {
         "type": "title",
-        "content": "DOS. La bellesa de les paraules terribles"
+        "content": "DOS. La bellesa de les paraules terribles",
+        "pdf": {
+          "page": 3
+        }
       },
-      {
+      { 
         "type": "paragraph",
-        "content": "Assurnassirpal II va regnar a Assíria del 883 al 859 aC. Ho va dir ben clar als seus Annals:"
+        "content": "Assurnassirpal II va regnar a Assíria del 883 al 859 aC. Ho va dir ben clar als seus Annals:",
+        "pdf": {
+          "page": 3
+        }
       },
       {
         "type": "paragraph2",
-        "content": "Vaig construir un pilar davant la porta de la ciutat, i vaig fer espellar tots els cabdills que s'havien revoltat en contra meva, i vaig penjar llurs pells al pilar. Alguns els vaig enterrar al pilar, altres els vaig empalar a les estaques damunt el pilar, d'altres els vaig empalar en estaques al voltant del pilar. En vaig espellar molts al llarg de tot el país i vaig penjar llurs pells damunt les muralles."
+        "content": "Vaig construir un pilar davant la porta de la ciutat, i vaig fer espellar tots els cabdills que s'havien revoltat en contra meva, i vaig penjar llurs pells al pilar. Alguns els vaig enterrar al pilar, altres els vaig empalar a les estaques damunt el pilar, d'altres els vaig empalar en estaques al voltant del pilar. En vaig espellar molts al llarg de tot el país i vaig penjar llurs pells damunt les muralles.",
+        "pdf": {
+          "page": 3
+        }
       },
       {
         "type": "paragraph2",
-        "content": "Vaig cremar molts dels seus presoners. Vaig capturar molts soldats vius. A alguns els vaig tallar els braços o les mans, a altres els vaig tallar el nas, les orelles i les extremitats. Vaig arrencar els ulls a molts soldats. Vaig fer una muntanya d'éssers vius i una altra de caps. Vaig fer penjar els caps als arbres, al voltant de la ciutat. Vaig fer cremar els seus adolescents, nois i noies..."
-      },
-      {
-        "type": "paragraph",
-        "content": "I segueix, més i més. El text, en si mateix terrible, impressiona pel fet que proclamar aquests fets fos la manera com Assurnassirpal volia ser recordat. El món ha conegut la brutalitat durant milers d'anys, però sembla clar que els reis d'Assíria no veien aquesta brutalitat només com una eina per mantenir l'ordre, sinó com quelcom de bell en si mateix, una font d'orgull, no pas una vergonya que calgués amagar. També avui tots els estats tenen clavegueres; operacions amagades que no volen que surtin a la llum perquè els horroritza passar a la història com criminals. Parafrasejant <em>El Nom de la Rosa</em> d'Umberto Eco, saben que fan mal fet, saben que aquests fets tan ‘útils’ són èticament insostenibles. Tots els reis, faraons, emperadors, van deixar petja relatant grans victòries sobre els enemics del seu país —algunes, totalment inventades, simples trucs de propaganda política. Però eren prudents a l'hora de recrear-se en el relat de crueltats inaudites contra les poblacions vençudes. Ser recordat com un gran general no és el mateix que ser recordat com un comte Dràcula. Ben al contrari, els assiris no dubtaven en aquest punt, als seus murals es relaten – es <em>proclamen</em>, de fet – tota mena de crueltats contra els vençuts."
+        "content": "Vaig cremar molts dels seus presoners. Vaig capturar molts soldats vius. A alguns els vaig tallar els braços o les mans, a altres els vaig tallar el nas, les orelles i les extremitats. Vaig arrencar els ulls a molts soldats. Vaig fer una muntanya d'éssers vius i una altra de caps. Vaig fer penjar els caps als arbres, al voltant de la ciutat. Vaig fer cremar els seus adolescents, nois i noies...",
+        "pdf": {
+          "page": 3
+        }
       },
       {
         "type": "image",
         "name": "rovira50-03",
-        "content": "Relleu amb presoners empalats. Escenes d’aquesta mena són molt freqüents als relleus dels palaus assiris. És inevitable pensar que és aixi com els reis assiris volien ser recordats."
+        "content": "Relleu amb presoners empalats. Escenes d’aquesta mena són molt freqüents als relleus dels palaus assiris. És inevitable pensar que és aixi com els reis assiris volien ser recordats.",
+        "pdf": {
+          "page": 3
+        }
+      },
+     {
+        "type": "paragraph",
+        "content": "I segueix, més i més. El text, en si mateix terrible, impressiona pel fet que proclamar aquests fets fos la manera com Assurnassirpal volia ser recordat. El món ha conegut la brutalitat durant milers d'anys, però sembla clar que els reis d'Assíria no veien aquesta brutalitat només com una eina per mantenir l'ordre, sinó com quelcom de bell en si mateix, una font d'orgull, no pas una vergonya que calgués amagar. També avui tots els estats tenen clavegueres; operacions amagades que no volen que surtin a la llum perquè els horroritza passar a la història com criminals. Parafrasejant <em>El Nom de la Rosa</em> d'Umberto Eco, saben que fan mal fet, saben que aquests fets tan ‘útils’ són èticament insostenibles. Tots els reis, faraons, emperadors, van deixar petja relatant grans victòries sobre els enemics del seu país —algunes, totalment inventades, simples trucs de propaganda política. Però eren prudents a l'hora de recrear-se en el relat de crueltats inaudites contra les poblacions vençudes. Ser recordat com un gran general no és el mateix que ser recordat com un comte Dràcula. Ben al contrari, els assiris no dubtaven en aquest punt, als seus murals es relaten – es <em>proclamen</em>, de fet – tota mena de crueltats contra els vençuts.",
+        "pdf": {
+          "page": 3
+        }
       },
       {
         "type": "paragraph",
-        "content": "Alguns especialistes en aquest període relativitzen aquesta llegenda negra. Es tractava, diuen, d'un pur afer de manteniment de l'ordre, qui assumia la dominació assíria no patia res de particularment desagradable. Però els fets nus són prou atroços per posar les coses a lloc. Recordo particularment una conferència del professor Fernando Quesada Sanz, a la Fundació Joan March, amb l'explícit títol <em>Los asirios: un imperio con (inmerecida) mala fama</em>, on desenvolupava aquest argument de manera extensa. Però les imatges projectades al plafó eren tossudes, mural rere mural ple d'atrocitats, bestialitats d'una crueltat inaudita que ara sí ara també posaven en dubte el missatge que – en principi – el conferenciant volia transmetre. Una de les imatges em va impressionar especialment, els habitants d'una ciutat vençuda eren obligats a desenterrar els ossos dels seus morts —pares, avis, esposes—, esmicolar-los del tot i escampar-los pels camps, obligaven els vençuts a donar una segona mort als seus avantpassats, una de més definitiva perquè ara ja no hi hauria cap tomba on portar ofrenes per recordar-los. La cirera del pastís era que, després d'haver estat obligats a cometre aquest acte atroç contra els seus propis avantpassats, els vençuts eren espellats de viu en viu."
+        "content": "Alguns especialistes en aquest període relativitzen aquesta llegenda negra. Es tractava, diuen, d'un pur afer de manteniment de l'ordre, qui assumia la dominació assíria no patia res de particularment desagradable. Però els fets nus són prou atroços per posar les coses a lloc. Recordo particularment una conferència del professor Fernando Quesada Sanz, a la Fundació Joan March, amb l'explícit títol <em>Los asirios: un imperio con (inmerecida) mala fama</em>, on desenvolupava aquest argument de manera extensa. Però les imatges projectades al plafó eren tossudes, mural rere mural ple d'atrocitats, bestialitats d'una crueltat inaudita que ara sí ara també posaven en dubte el missatge que – en principi – el conferenciant volia transmetre. Una de les imatges em va impressionar especialment, els habitants d'una ciutat vençuda eren obligats a desenterrar els ossos dels seus morts —pares, avis, esposes—, esmicolar-los del tot i escampar-los pels camps, obligaven els vençuts a donar una segona mort als seus avantpassats, una de més definitiva perquè ara ja no hi hauria cap tomba on portar ofrenes per recordar-los. La cirera del pastís era que, després d'haver estat obligats a cometre aquest acte atroç contra els seus propis avantpassats, els vençuts eren espellats de viu en viu.",
+        "pdf": {
+          "page": 4 
+        }
       },
       {
         "type": "paragraph",
-        "content": "La clau de volta era una religió que els donava carta blanca per a les seves atrocitats. El déu Assur, creien, beneïa les campanyes militars —d'extermini o de simple intimidació— perquè la submissió als reis assiris era una derivació obligada d'un deure més elevat, la submissió al déu Assur mateix, en nom de la qual totes les bestialitats comeses contra els pobles conquerits quedaven justificades. El pas cabdal en la definició de l'imperi assiri com a quelcom repugnant als nostres ulls és la conversió de la cobdícia pura i simple —que duu necessàriament a ràtzies contra territoris veïns, expedicions de pillatge i pirateria i depredacions de tota mena— en un afer religiós, en una mena de deure sagrat incoat pels déus, de vegades per un déu ben concret que donava ordres de destrucció massiva, d'obediència obligada per als seus adoradors."
+        "content": "La clau de volta era una religió que els donava carta blanca per a les seves atrocitats. El déu Assur, creien, beneïa les campanyes militars —d'extermini o de simple intimidació— perquè la submissió als reis assiris era una derivació obligada d'un deure més elevat, la submissió al déu Assur mateix, en nom de la qual totes les bestialitats comeses contra els pobles conquerits quedaven justificades. El pas cabdal en la definició de l'imperi assiri com a quelcom repugnant als nostres ulls és la conversió de la cobdícia pura i simple —que duu necessàriament a ràtzies contra territoris veïns, expedicions de pillatge i pirateria i depredacions de tota mena— en un afer religiós, en una mena de deure sagrat incoat pels déus, de vegades per un déu ben concret que donava ordres de destrucció massiva, d'obediència obligada per als seus adoradors.",
+        "pdf": {
+          "page": 4
+        }
       },
       {
         "type": "paragraph",
-        "content": "Aquest és un punt crucial, però, on desapareix allò que anomenaríem l'excepció assíria. Els déus assiris no han estat els únics que han beneït guerres de conquesta i extermini. Darius I, emperador persa i el primer que va començar a guerrejar contra els grecs, va establir l'autoritat d'Ahura Mazda sobre el món sencer, l'obligació de tots els pobles d'adorar-lo, i —com ens recorda Tom Holland al seu llibre <em>Persian Fire</em>— el dret dels perses, com a poble escollit d'Ahura Mazda, d'esclafar els pobles sacrílegs que es resistissin a aquesta autoritat. També podríem recordar com, més modernament, el rei de França Felip el Bell —un autèntic criminal— definia les atrocitats comeses pels exèrcits francesos com ‘Gesta Dei per Francos’: obra de Déu, essent els francesos simplement el braç executor."
+        "content": "Aquest és un punt crucial, però, on desapareix allò que anomenaríem l'excepció assíria. Els déus assiris no han estat els únics que han beneït guerres de conquesta i extermini. Darius I, emperador persa i el primer que va començar a guerrejar contra els grecs, va establir l'autoritat d'Ahura Mazda sobre el món sencer, l'obligació de tots els pobles d'adorar-lo, i —com ens recorda Tom Holland al seu llibre <em>Persian Fire</em>— el dret dels perses, com a poble escollit d'Ahura Mazda, d'esclafar els pobles sacrílegs que es resistissin a aquesta autoritat. També podríem recordar com, més modernament, el rei de França Felip el Bell —un autèntic criminal— definia les atrocitats comeses pels exèrcits francesos com ‘Gesta Dei per Francos’: obra de Déu, essent els francesos simplement el braç executor.",
+        "pdf": {
+          "page": 4
+        }
       },
       {
         "type": "title",
-        "content": "TRES. Paraules sagrades"
+        "content": "TRES. Paraules sagrades",
+        "pdf": {
+          "page": 5
+        }
       },
       {
         "type": "paragraph",
-        "content": "Jahvé, l'antecessor directe del Déu cristià, no era cap excepció a aquesta norma. Cal dir que a l'Antic Testament, els textos que testimonien atrocitats comeses pels jueus contra altres pobles —s'entén que plenament justificades— no constitueixen una proporció important del total. Però molts dels fets gloriosos que narren aquests exterminis són dels més recordats popularment. Recordem la destrucció de Jericó, per exemple, ciutat que va tenir la mala sort que els jueus errants se la trobessin pel camí. Un dels llibres més impressionants de tot l'Antic Testament, el de Josuè, és al capdavall la narració d'un genocidi. Un dia, els jueus errants arriben a una comarca. Decideixen que és seva, per voluntat de Jahvé. L'assalten i n'exterminen tota la població. Després la repoblen amb una gent com Déu mana —i mai tan ben dit—, és a dir, jueus. I tornem-hi, una vegada i una altra."
+        "content": "Jahvé, l'antecessor directe del Déu cristià, no era cap excepció a aquesta norma. Cal dir que a l'Antic Testament, els textos que testimonien atrocitats comeses pels jueus contra altres pobles —s'entén que plenament justificades— no constitueixen una proporció important del total. Però molts dels fets gloriosos que narren aquests exterminis són dels més recordats popularment. Recordem la destrucció de Jericó, per exemple, ciutat que va tenir la mala sort que els jueus errants se la trobessin pel camí. Un dels llibres més impressionants de tot l'Antic Testament, el de Josuè, és al capdavall la narració d'un genocidi. Un dia, els jueus errants arriben a una comarca. Decideixen que és seva, per voluntat de Jahvé. L'assalten i n'exterminen tota la població. Després la repoblen amb una gent com Déu mana —i mai tan ben dit—, és a dir, jueus. I tornem-hi, una vegada i una altra.",
+        "pdf": {
+          "page": 5
+        }
       },
       {
         "type": "paragraph2",
-        "content": "Tornant de la batalla, Josuè es va apoderar d'Hassor, que antigament havia estat la capital de tots aquells reialmes. Va executar el seu rei i consagrà a l'extermini tots els seus habitants passant-los a tall d'espasa. No en va deixar cap de viu, i calà foc a la ciutat. Josuè s'apoderà de tots aquells reis i de totes les seves ciutats i els consagrà tots a l'extermini, els reis i els habitants, passant-los a tall d'espasa, tal com havia manat Moisès, servent del Senyor<br />[Js 11, 10-12]"
+        "content": "Tornant de la batalla, Josuè es va apoderar d'Hassor, que anteriorment havia estat la capital de tots aquells reialmes. Va executar el seu rei i consagrà a l'extermini tots els seus habitants passant-los a tall d'espasa. No en va deixar cap de viu, i calà foc a la ciutat. Josuè s'apoderà de tots aquells reis i de totes les seves ciutats i els consagrà tots a l'extermini, els reis i els habitants, passant-los a tall d'espasa, tal com havia manat Moisès, servent del Senyor<br />[Js 11, 10-12]",
+        "pdf": {
+          "page": 5
+        }
       },
       {
         "type": "paragraph2",
-        "content": "El Senyor havia decidit que els seus habitants endurissin el cor i fessin la guerra contra Israel. Així, sense clemència, havien de ser consagrades a l'extermini, tal com el Senyor havia manat a Moisès<br />[Js 11, 20]"
+        "content": "El Senyor havia decidit que els seus habitants endurissin el cor i fessin la guerra contra Israel. Així, sense clemència, havien de ser consagrades a l'extermini, tal com el Senyor havia manat a Moisès<br />[Js 11, 20]",
+        "pdf": {
+          "page": 5
+        }
       },
       {
         "type": "paragraph2",
-        "content": "[Versions en català segons BCI: Bíblia Catalana Interconfessional]"
+        "content": "[Versions en català segons BCI: Bíblia Catalana Interconfessional]",
+        "pdf": {
+          "page": 5
+        }
       },
       {
         "type": "paragraph",
-        "content": "El llibre de Josuè entusiasma els moderns jueus radicals, però l'Església més aviat hi passa de puntetes, per raons òbvies, és massa terrible, fins i tot acceptant que els pobles que vivien en aquella terra podien no ser angelicals. De petit, quan anava a missa amb els pares i/o amb els avis, em fixava molt en les lectures de textos bíblics, la part que més m'agradava de tot el cerimonial, i no puc recordar ni una sola vegada que el llibre de Josuè fos part de les lectures. Els contes d'Abraham, Isaac, Jacob, Josep... eren més fàcils, com a font de rondalles edificants i amb conclusions positives."
+        "content": "El llibre de Josuè entusiasma els moderns jueus radicals, però l'Església més aviat hi passa de puntetes, per raons òbvies, és massa terrible, fins i tot acceptant que els pobles que vivien en aquella terra podien no ser angelicals. De petit, quan anava a missa amb els pares i/o amb els avis, em fixava molt en les lectures de textos bíblics, la part que més m'agradava de tot el cerimonial, i no puc recordar ni una sola vegada que el llibre de Josuè fos part de les lectures. Els contes d'Abraham, Isaac, Jacob, Josep... eren més fàcils, com a font de rondalles edificants i amb conclusions positives.",
+        "pdf": {
+          "page": 5
+        }
       },
       {
         "type": "paragraph",
-        "content": "Un detall referent al llibre de Josuè, que no tothom coneix, és que la majoria dels exegetes accepta que és un llibre totalment inventat, no té cap fonament històric i els fets que explica no encaixen gens amb el registre arqueològic —extremadament difícil de falsificar. Tot indica que l'ocupació de les valls de Canaan, territori que amb el temps esdevindria Israel, fou pacífica. Certament, hi va haver pinyes amb pobles com ara els filisteus, però això fou posteriorment. En tot cas, que es tracti d'una crònica inventada és significatiu, perquè una crònica inventada reflecteix com l'autor hauria volgut que fos la crònica veritable, la passada i la futura. En un territori tan antic i amb tanta història prèvia com Canaan, arreu on els jueus fixessin la vista trobarien algú, algun poble, algun establiment agrari o pastoral, alguna ciutat molt antiga, probablement del neolític. Decidir unilateralment que aquests pobles no tenien el permís de Jahvé per viure-hi era una solució fàcil al problema de què diantre calia fer amb tota aquella gent. I Jahvé, és clar, va donar graciosament aquesta terra al seu poble escollit. L'expulsió o l'extermini pur i simple dels pobles que gosessin viure en terres que Jahvé havia donat al poble jueu era una pràctica potser un pèl bestiota, però que tenia el vistiplau del Déu absolut, l’havia tingut en el passat —real o mític— i, si calia, la tindria també en el futur. Qui sap si la Nakba —l'expulsió de la població palestina del seu país, el 1947, arran de la creació de l'estat d'Israel– no s'ha d'entendre com un pas més en aquesta direcció."
+        "content": "Un detall referent al llibre de Josuè, que no tothom coneix, és que la majoria dels exegetes accepta que és un llibre totalment inventat, no té cap fonament històric i els fets que explica no encaixen gens amb el registre arqueològic —extremadament difícil de falsificar. Tot indica que l'ocupació de les valls de Canaan, territori que amb el temps esdevindria Israel, fou pacífica. Certament, hi va haver pinyes amb pobles com ara els filisteus, però això fou posteriorment. En tot cas, que es tracti d'una crònica inventada és significatiu, perquè una crònica inventada reflecteix com l'autor hauria volgut que fos la crònica veritable, la passada i la futura. En un territori tan antic i amb tanta història prèvia com Canaan, arreu on els jueus fixessin la vista trobarien algú, algun poble, algun establiment agrari o pastoral, alguna ciutat molt antiga, probablement del neolític. Decidir unilateralment que aquests pobles no tenien el permís de Jahvé per viure-hi era una solució fàcil al problema de què diantre calia fer amb tota aquella gent. I Jahvé, és clar, va donar graciosament aquesta terra al seu poble escollit. L'expulsió o l'extermini pur i simple dels pobles que gosessin viure en terres que Jahvé havia donat al poble jueu era una pràctica potser un pèl bestiota, però que tenia el vistiplau del Déu absolut, l’havia tingut en el passat —real o mític— i, si calia, la tindria també en el futur. Qui sap si la Nakba —l'expulsió de la població palestina del seu país, el 1947, arran de la creació de l'estat d'Israel– no s'ha d'entendre com un pas més en aquesta direcció.",
+        "pdf": {
+          "page": 6
+        }
       },
       {
         "type": "paragraph",
-        "content": "Ho va dir ben clarament Moshe Feiglin, polític israelià i líder del partit ultradretà Zehut, en una entrevista televisiva:"
+        "content": "Ho va dir ben clarament Moshe Feiglin, polític israelià i líder del partit ultradretà Zehut, en una entrevista televisiva:",
+        "pdf": {
+          "page": 6
+        }
       },
       {
         "type": "paragraph2",
-        "content": "‘Cada nen, cada bebè a Gaza és un enemic. Hem de conquerir Gaza i colonitzar-la, i no deixar viu ni un sol nen Gazià. No hi ha cap altra victòria que aquesta’."
+        "content": "‘Cada nen, cada bebè a Gaza és un enemic. Hem de conquerir Gaza i colonitzar-la, i no deixar viu ni un sol nen Gazià. No hi ha cap altra victòria que aquesta’.",
+        "pdf": {
+          "page": 6
+        }
       },
       {
         "type": "paragraph",
-        "content": "El llibre de Josuè ressona en aquestes declaracions, un eco d'un temps llunyà —però ben present, d'ençà de l'assalt israelià als territoris palestins."
+        "content": "El llibre de Josuè ressona en aquestes declaracions, un eco d'un temps llunyà —però ben present, d'ençà de l'assalt israelià als territoris palestins.",
+        "pdf": {
+          "page": 6
+        }
       },
       {
         "type": "image",
         "name": "rovira50-04",
-        "content": "Moshe Feiglin, polític ultradretà israelià"
+        "content": "Moshe Feiglin, polític ultradretà israelià",
+        "pdf": {
+          "page": 6
+        }
       },
       {
         "type": "paragraph",
-        "content": "Mentre escrivia aquestes línies m'arribava l'eco de les notícies de la Franja de Gaza. Quadrilles de simpàtics xicots israelians es dediquen a arrasar els camps de conreu dels pagesos palestins, a fi de fer més definitiva l'expulsió d'aquests de les seves cases ancestrals. Sobretot, els piròmans ataquen camps d'oliveres mil·lenàries, que al llarg de segles han alimentat les poblacions d'agricultors de la zona. Em resulta impossible no recordar la rondalla de Samsó, heroi jueu que es dedicava a destruir camps i collites dels pobles que van tenir la mala sort de ser veïns dels jueus. La faula —o fet real, qui sap— deia que Samsó havia agafat llops i guineus, els havia lligat a la cua una torxa encesa i els havia deixat anar pels camps de blat que alimentaven aquelles poblacions, no tolerables als ulls de Jahvè. Costa d'imaginar que aquesta rondalla no hagi estat la font d'inspiració dels joves piròmans actuals. I creure que Jahvè beneeix aquesta mena d'actes deu ser un al·licient considerable per dur-los a terme."
+        "content": "Mentre escrivia aquestes línies m'arribava l'eco de les notícies de la Franja de Gaza. Quadrilles de simpàtics xicots israelians es dediquen a arrasar els camps de conreu dels pagesos palestins, a fi de fer més definitiva l'expulsió d'aquests de les seves cases ancestrals. Sobretot, els piròmans ataquen camps d'oliveres mil·lenàries, que al llarg de segles han alimentat les poblacions d'agricultors de la zona. Em resulta impossible no recordar la rondalla de Samsó, heroi jueu que es dedicava a destruir camps i collites dels pobles que van tenir la mala sort de ser veïns dels jueus. La faula —o fet real, qui sap— deia que Samsó havia agafat llops i guineus, els havia lligat a la cua una torxa encesa i els havia deixat anar pels camps de blat que alimentaven aquelles poblacions, no tolerables als ulls de Jahvè. Costa d'imaginar que aquesta rondalla no hagi estat la font d'inspiració dels joves piròmans actuals. I creure que Jahvè beneeix aquesta mena d'actes deu ser un al·licient considerable per dur-los a terme.",
+        "pdf":{
+          "page": 7
+        }
       },
       {
         "type": "title",
-        "content": "QUATRE. L'única sortida"
+        "content": "QUATRE. L'única sortida",
+        "pdf":{
+          "page": 7
+        }
+
       },
       {
         "type": "paragraph",
-        "content": "Durant la matança actual de palestins, que va camí d'esdevenir un genocidi amb tots els ets i uts, hi ha hagut un fet del qual se n'ha parlat menys, la caiguda del règim de Baixar-el-Assad, el tirànic dictador de Síria, convenientment educat a Occident —la seva esposa és britànica—, refinat i elegant, però al capdavall tan sanguinari com el seu pare Hafez-el-Assad. Els relats del terror del règim Sirià omplirien llibres sencers i és per això que ningú no ha lamentat la seva caiguda. Va fugir a Rússia, on probablement gaudirà d'una vida còmoda fins al final, mentre els vencedors de l'aixecament popular feien crides a la reconciliació de les diverses faccions, amb promeses d'edificar un nou ordre, obert a totes les faccions, tribus i ètnies del país."
+        "content": "Durant la matança actual de palestins, que va camí d'esdevenir un genocidi amb tots els ets i uts, hi ha hagut un fet del qual se n'ha parlat menys, la caiguda del règim de Baixar-el-Assad, el tirànic dictador de Síria, convenientment educat a Occident —la seva esposa és britànica—, refinat i elegant, però al capdavall tan sanguinari com el seu pare Hafez-el-Assad. Els relats del terror del règim Sirià omplirien llibres sencers i és per això que ningú no ha lamentat la seva caiguda. Va fugir a Rússia, on probablement gaudirà d'una vida còmoda fins al final, mentre els vencedors de l'aixecament popular feien crides a la reconciliació de les diverses faccions, amb promeses d'edificar un nou ordre, obert a totes les faccions, tribus i ètnies del país.",
+        "pdf":{
+          "page": 7
+        }
+
       },
       {
         "type": "paragraph",
-        "content": "La comunitat internacional ho va acollir amb un escepticisme prudent. En un país tan habituat a guerres i violència, sovint lligades a rivalitats de tipus ètnic o tribal, és fàcil que qualsevol espurna reobri ferides i el conflicte armat es reobri sota altres paràmetres —i sota altres excuses. Però se'ls ha de donar l'oportunitat del dubte. De moment s'imposaria esperar, i observar com evoluciona el nou ordre."
+        "content": "La comunitat internacional ho va acollir amb un escepticisme prudent. En un país tan habituat a guerres i violència, sovint lligades a rivalitats de tipus ètnic o tribal, és fàcil que qualsevol espurna reobri ferides i el conflicte armat es reobri sota altres paràmetres —i sota altres excuses. Però se'ls ha de donar l'oportunitat del dubte. De moment s'imposaria esperar, i observar com evoluciona el nou ordre.",
+        "pdf":{
+          "page": 7
+        }
       },
       {
         "type": "paragraph",
-        "content": "No pas per Israel, és clar. Els primers dies del nou règim, amb el país arrasat i els nous líders mirant de reprendre una nova normalitat quotidiana, Benjamin Netanyahu va aprofitar per llençar un atac militar a gran escala, amb bombardejos inclosos i arribant fins a Damasc mateix. Es van excusar per la necessitat d'assegurar la frontera, certament, però és prou sabut que quan es vol la violència qualsevol excusa va bé. De moment van contribuir a augmentar el nombre de víctimes de la guerra de Síria, i també —òbviament— van ocupar nous territoris, que és molt dubtós que finalment siguin retornats a l'estat sirià. Amanim-ho amb els atacs fets poc abans al sud del Líban, avui pràcticament arrasat, i les amenaces de Netanyahu d'annexar a Israel tota aquella zona i ja tenim un nou llibre de Josuè en versió del segle XXI. La doctrina dels falcons sembla ser esclafar els veïns d'Israel —si més no, els que no tenen la simpatia dels Estats Units— d’una manera tal que, literalment, deixin d'existir, destrucció de les ciutats, matança de tanta població com sigui possible, expulsió de la població supervivent i, finalment, colonització dels territoris arrabassats amb nova població —aquesta vegada, però, de l'ètnia correcta."
+        "content": "No pas per Israel, és clar. Els primers dies del nou règim, amb el país arrasat i els nous líders mirant de reprendre una nova normalitat quotidiana, Benjamin Netanyahu va aprofitar per llençar un atac militar a gran escala, amb bombardejos inclosos i arribant fins a Damasc mateix. Es van excusar per la necessitat d'assegurar la frontera, certament, però és prou sabut que quan es vol la violència qualsevol excusa va bé. De moment van contribuir a augmentar el nombre de víctimes de la guerra de Síria, i també —òbviament— van ocupar nous territoris, que és molt dubtós que finalment siguin retornats a l'estat sirià. Amanim-ho amb els atacs fets poc abans al sud del Líban, avui pràcticament arrasat, i les amenaces de Netanyahu d'annexar a Israel tota aquella zona i ja tenim un nou llibre de Josuè en versió del segle XXI. La doctrina dels falcons sembla ser esclafar els veïns d'Israel —si més no, els que no tenen la simpatia dels Estats Units— d’una manera tal que, literalment, deixin d'existir, destrucció de les ciutats, matança de tanta població com sigui possible, expulsió de la població supervivent i, finalment, colonització dels territoris arrabassats amb nova població —aquesta vegada, però, de l'ètnia correcta.",
+        "pdf":{
+          "page": 8
+        }
       },
       {
         "type":"image",
         "name":"rovira50-05",
-        "content": "Benjamin Netanyahu"
+        "content": "Benjamin Netanyahu",
+        "pdf":{
+          "page": 8
+        }
       },
       {
         "type": "paragraph",
-        "content": "La incapacitat de concebre cap relació amb els veïns que no sigui aquesta té un perill, que els pobles del voltant arribin a la conclusió que els queden poques opcions, deixar-se destruir estoicament n'és una, fugir n'és una altra. Cap a on, però? Quin país obriria les portes a milions de refugiats reduïts a la més absoluta misèria? Finalment, la tercera opció és acceptar el repte, una opció incòmoda, però ben mirat és la que van prendre els veïns d'Assíria fa dos mil set-cents anys."
+        "content": "La incapacitat de concebre cap relació amb els veïns que no sigui aquesta té un perill, que els pobles del voltant arribin a la conclusió que els queden poques opcions, deixar-se destruir estoicament n'és una, fugir n'és una altra. Cap a on, però? Quin país obriria les portes a milions de refugiats reduïts a la més absoluta misèria? Finalment, la tercera opció és acceptar el repte, una opció incòmoda, però ben mirat és la que van prendre els veïns d'Assíria fa dos mil set-cents anys.",
+        "pdf":{
+          "page": 8
+        }
       },
       {
         "type": "title",
-        "content": "QUATRE. Vint anys màgics"
+        "content": "QUATRE. Vint anys màgics",
+        "pdf":{
+          "page": 9
+        }
       },
       {
         "type": "paragraph",
-        "content": "Quan Assíria va arrasar Elam —tot destruint completament la seva capital, Susa— es pot dir que l'emperador d'aleshores, Assurbanipal, es trobava al zenit del seu poder. Abans, com a aperitiu, havia ordenat arrasar Babilònia. Assurbanipal va fer decorar el seu magnífic palau a Nínive amb murals exquisits on les campanyes de destrucció i les matances hi eren narrades amb detall —cosa que ha fet la delícia dels historiadors, que hi veuen nombrosos detalls de les tècniques de guerra de l'exèrcit assiri, el més poderós mai vist fins aleshores. No només el rei es trobava al zenit del seu poder, també hi era l'imperi assiri, que en aquell moment s'estenia per tot Mesopotàmia, arribant fins al sud de l'actual Turquia, i tota la riba de l'est del Mediterrani, fins a Egipte —que Assurbanipal sotmetia amb mà de ferro i arrasava cada vegada que hi havia una revolta de la població autòctona."
+        "content": "Quan Assíria va arrasar Elam —tot destruint completament la seva capital, Susa— es pot dir que l'emperador d'aleshores, Assurbanipal, es trobava al zenit del seu poder. Abans, com a aperitiu, havia ordenat arrasar Babilònia. Assurbanipal va fer decorar el seu magnífic palau a Nínive amb murals exquisits on les campanyes de destrucció i les matances hi eren narrades amb detall —cosa que ha fet la delícia dels historiadors, que hi veuen nombrosos detalls de les tècniques de guerra de l'exèrcit assiri, el més poderós mai vist fins aleshores. No només el rei es trobava al zenit del seu poder, també hi era l'imperi assiri, que en aquell moment s'estenia per tot Mesopotàmia, arribant fins al sud de l'actual Turquia, i tota la riba de l'est del Mediterrani, fins a Egipte —que Assurbanipal sotmetia amb mà de ferro i arrasava cada vegada que hi havia una revolta de la població autòctona.",
+        "pdf":{
+          "page": 9
+        }
       },
       {
         "type": "paragraph",
-        "content": "És obligat preguntar-se què haurien pensat els assiris d'aleshores si qualque àugur els hagués predit que aquell imperi immens desapareixeria del tot en només vint anys. Potser els semblaria un acudit. Però fou així."
+        "content": "És obligat preguntar-se què haurien pensat els assiris d'aleshores si qualque àugur els hagués predit que aquell imperi immens desapareixeria del tot en només vint anys. Potser els semblaria un acudit. Però fou així.",
+        "pdf":{
+          "page": 9
+        }
       },
       {
         "type":"image",
         "name":"rovira50-06",
-        "content": "Caiguda de Nínive. Quadre romàntic de John Martin."
+        "content": "Caiguda de Nínive. Quadre romàntic de John Martin.",
+        "pdf":{
+          "page": 9
+        }
       },
       {
         "type": "paragraph",
-        "content": "La caiguda de Nínive fou, segons tots els indicis arqueològics —i també segons les fonts babilòniques— un fet colossal. El quadre romàntic de John Martin que ho il·lustra, pintat el segle XIX, no és massa exacte a l’hora de reconstruir la ciutat ni els uniformes dels soldats, però cal recordar que l’assiriologia llavors tot just era a les beceroles. Sí que sembla creïble a l'hora de retratar l'atmosfera apocalíptica que devia tenir la batalla."
+        "content": "La caiguda de Nínive fou, segons tots els indicis arqueològics —i també segons les fonts babilòniques— un fet colossal. El quadre romàntic de John Martin que ho il·lustra, pintat el segle XIX, no és massa exacte a l’hora de reconstruir la ciutat ni els uniformes dels soldats, però cal recordar que l’assiriologia llavors tot just era a les beceroles. Sí que sembla creïble a l'hora de retratar l'atmosfera apocalíptica que devia tenir la batalla.",
+        "pdf":{
+          "page": 9
+        }
       },
       {
         "type": "paragraph",
-        "content": "El col·lapse de l'imperi assiri és enigmàtic perquè les fonts assíries escrites emmudeixen de sobte. Sabem què va passar —més o menys— a través de fonts babilòniques, és a dir, dels enemics mortals dels assiris, cosa que ens obliga a ser prudents. S'ha pogut establir que a la mort d'Assurbanipal hi va haver un canvi climàtic a la zona, que esdevingué més seca i àrida. La disminució de la productivitat agrícola devia posar en un embolic la hisenda —i, per tant, la paga de l'exèrcit. S'ha parlat de grans desercions a l'exèrcit assiri, que s'haurien passat a l'enemic, però les evidències són discutibles. El fet clau, sens dubte, fou l'establiment d'una coalició de dos pobles (medes i babilònics) entestats en l'objectiu únic i innegociable de destruir Assíria. Els medes s'havien establert al país dels elamites —sud-oest de l’actual Iran—, virtualment buit després que Assurbanipal destruís la civilització d'Elam. Els babilònics havien reeixit a reconstruir Babilònia, després de la destrucció ordenada per Assurbanipal. Tornem així al punt de partida, medes i babilònics haurien pogut conquerir les ciutats assíries i sotmetre-les al nou ordre que estaven generant, però sembla clar que no s'ho van plantejar en cap moment. La destrucció total era l'únic destí esperable per a una civilització que havia dut mort i destrucció a tots els països veïns. Primerament Assur, després Nimrud i, finalment, Nínive, van ser totalment arrasades i mai no van ser reconstruïdes ni repoblades. Medes i babilònics no podien ‘només’ conquerir Assíria, no podien concebre que una guerra contra Assíria acabés de cap manera que no fos la destrucció total d'aquella civilització. En certa manera, van parlar a Assíria en el mateix llenguatge que Assíria els havia parlat, que semblava l'únic llenguatge que els assiris entenien."
+        "content": "El col·lapse de l'imperi assiri és enigmàtic perquè les fonts assíries escrites emmudeixen de sobte. Sabem què va passar —més o menys— a través de fonts babilòniques, és a dir, dels enemics mortals dels assiris, cosa que ens obliga a ser prudents. S'ha pogut establir que a la mort d'Assurbanipal hi va haver un canvi climàtic a la zona, que esdevingué més seca i àrida. La disminució de la productivitat agrícola devia posar en un embolic la hisenda —i, per tant, la paga de l'exèrcit. S'ha parlat de grans desercions a l'exèrcit assiri, que s'haurien passat a l'enemic, però les evidències són discutibles. El fet clau, sens dubte, fou l'establiment d'una coalició de dos pobles (medes i babilònics) entestats en l'objectiu únic i innegociable de destruir Assíria. Els medes s'havien establert al país dels elamites —sud-oest de l’actual Iran—, virtualment buit després que Assurbanipal destruís la civilització d'Elam. Els babilònics havien reeixit a reconstruir Babilònia, després de la destrucció ordenada per Assurbanipal. Tornem així al punt de partida, medes i babilònics haurien pogut conquerir les ciutats assíries i sotmetre-les al nou ordre que estaven generant, però sembla clar que no s'ho van plantejar en cap moment. La destrucció total era l'únic destí esperable per a una civilització que havia dut mort i destrucció a tots els països veïns. Primerament Assur, després Nimrud i, finalment, Nínive, van ser totalment arrasades i mai no van ser reconstruïdes ni repoblades. Medes i babilònics no podien ‘només’ conquerir Assíria, no podien concebre que una guerra contra Assíria acabés de cap manera que no fos la destrucció total d'aquella civilització. En certa manera, van parlar a Assíria en el mateix llenguatge que Assíria els havia parlat, que semblava l'únic llenguatge que els assiris entenien.",
+        "pdf":{
+          "page": 10
+        }
       },
       {
         "type": "paragraph",
-        "content": "A la BCI (Bíblia Catalana Interconfessional) el llibre de Nahum és presentat com una litúrgia de celebració a Jerusalem per la caiguda de Nínive, l’any 612 aC. Les paraules de l’enigmàtic profeta no enganyen ningú pel que fa a la joia amb què la notícia fou rebuda arreu:"
+        "content": "A la BCI (Bíblia Catalana Interconfessional) el llibre de Nahum és presentat com una litúrgia de celebració a Jerusalem per la caiguda de Nínive, l’any 612 aC. Les paraules de l’enigmàtic profeta no enganyen ningú pel que fa a la joia amb què la notícia fou rebuda arreu:",
+        "pdf":{
+          "page": 10
+        }
       },
       {
         "type": "paragraph",
-        "content" : "<div style=\"display: flex; justify-content: center\"></br></br><div><em>Aquí em tens contra tu, Nínive!<br />Ho dic jo, el Senyor de l'Univers.<br />Convertiré en fum la teva gent,<br />els teus cadells cauran víctimes de l'espasa.<br />Sobre la terra, posaré fi a la teva cacera,<br />i ningú més no hi sentirà<br />les ordres dels teus enviats.<br /><br />(...)<br /><br />La teva ruïna no té remei, <br />la teva ferida és oberta.<br />Tots els que en sentiran parlar<br />aplaudiran el teu desastre.<br />Perquè la teva maldat<br />qui no l’ha soferta dia rere dia?</em></div></div>"
+        "content" : "<div style=\"display: flex; justify-content: center\"></br></br><div><em>Aquí em tens contra tu, Nínive!<br />Ho dic jo, el Senyor de l'Univers.<br />Convertiré en fum la teva gent,<br />els teus cadells cauran víctimes de l'espasa.<br />Sobre la terra, posaré fi a la teva cacera,<br />i ningú més no hi sentirà<br />les ordres dels teus enviats.<br /><br />(...)<br /><br />La teva ruïna no té remei, <br />la teva ferida és oberta.<br />Tots els que en sentiran parlar<br />aplaudiran el teu desastre.<br />Perquè la teva maldat<br />qui no l’ha soferta dia rere dia?</em></div></div>",
+        "pdf":{
+          "page": 10
+        }
       },
       {
         "type": "paragraph",
-        "content": "Una joia semblant a la que traspuen aquests versets devia planar per tot el Creixent Fèrtil, des d’Egipte fins a la desembocadura de l’Eufrates, passant per les terres de Canaan i les terres del sud de l’actual Turquia (antic imperi hitita), tots els països on Assíria havia exercit la seva brutalitat."
+        "content": "Una joia semblant a la que traspuen aquests versets deviaplanar per tot el Creixent Fèrtil, des d’Egipte fins a la desembocadura de l’Eufrates, passant per les terres de Canaan i les terres del sud de l’actual Turquia (antic imperi hitita), tots els països on Assíria havia exercit la seva brutalitat.",
+        "pdf":{
+          "page": 11
+        }
       },
       {
         "type": "title",
-        "content": "CINC. Nínive(s) per al nou segle"
+        "content": "CINC. Nínive(s) per al nou segle",
+        "pdf":{
+          "page": 12
+        }
       },
       {
         "type": "paragraph",
-        "content": "Salvant les distàncies, els versets de Nahum traspuen un sentiment semblant al que Europa devia sentir quan Berlín va caure el 1945 i es van esfondrar les darreres restes de l’Alemanya nazi. La destrucció apocalíptica de Berlín seria un equivalent de la destrucció de Nínive. Amb la lleu diferència que la destrucció de Berlín no fou definitiva, la població civil que va sobreviure no fou deportada com a esclava, hi va romandre, i amb el temps la ciutat fou reconstruïda, si més no en gran part. Potser un signe dels temps moderns, menys brutals —malgrat tot— que el món antic en general i el Mesopotàmic en particular. O potser el fet que l’atemptat contra Hitler, tot just un any abans, fos senyal que a Alemanya hi havia part de la població que no s’havia rendit del tot al nazisme i que aquest fet fos prou per a uns aliats que buscaven una excusa per no fer d'assiris —ni que fos contra uns altres assiris."
+        "content": "Salvant les distàncies, els versets de Nahum traspuen un sentiment semblant al que Europa devia sentir quan Berlín va caure el 1945 i es van esfondrar les darreres restes de l’Alemanya nazi. La destrucció apocalíptica de Berlín seria un equivalent de la destrucció de Nínive. Amb la lleu diferència que la destrucció de Berlín no fou definitiva, la població civil que va sobreviure no fou deportada com a esclava, hi va romandre, i amb el temps la ciutat fou reconstruïda, si més no en gran part. Potser un signe dels temps moderns, menys brutals —malgrat tot— que el món antic en general i el Mesopotàmic en particular. O potser el fet que l’atemptat contra Hitler, tot just un any abans, fos senyal que a Alemanya hi havia part de la població que no s’havia rendit del tot al nazisme i que aquest fet fos prou per a uns aliats que buscaven una excusa per no fer d'assiris —ni que fos contra uns altres assiris.",
+        "pdf":{
+          "page": 12
+        }
       },
       {
         "type": "paragraph",
-        "content": "Si això funcionarà una segona vegada amb Israel, l'Assíria del segle XXI, queda per veure."
+        "content": "Si això funcionarà una segona vegada amb Israel, l'Assíria del segle XXI, queda per veure.",
+        "pdf":{
+          "page": 12
+        }
       },
       {
         "type": "paragraph",
-        "content": "Una de les lliçons més grans que ens ha donat la guerra d’Ucraïna és que la vàlua real d’un exèrcit —el de Rússia, en aquest cas— no es comprova fins que s’enfronta en una guerra real amb un altre exèrcit. Un exèrcit de debò, no pas milícies com Hezbollah o Hamàs, que al capdavall són milícies amb un armament que de cap manera no es pot comparar al d’un exèrcit convencional. Quan acabo aquest article fa pocs dies del final (?) de la guerra-llampec que ha enfrontat Israel i l’Iran, guerra que se suposava que havia de ser un passeig per Israel. Ben al contrari de les expectatives, l’Iran ha resultat ser un os més dur que no es pensaven Netanyahu o Trump, un os que ha resistit els bombardeigs i encara ha tingut prou força per atacar amb míssils el territori d’Israel, que ha tastat per primera vegada en dècades què és un bombardeig. Una miniguerra que ha engrandit als ulls de bona part del món àrab el règim dels ayatollahs —règim repugnant, d’altra banda. Per ara Israel compta amb l’ajut incondicional dels Estats Units, però, i demà...?  La lliçó essencial que els historiadors traurien del fat de les ciutats assíries és que una potència que ha establert el seu poder sobre els seus veïns basant-se en la brutalitat més extrema, que necessàriament comporta l’odi extrem dels veïns afectats, no es pot permetre el luxe de tenir èpoques de debilitat, ni de demostrar als seus veïns que no són ni de bon tros tan invencibles com la propaganda vol fer creure."
+        "content": "Una de les lliçons més grans que ens ha donat la guerra d’Ucraïna és que la vàlua real d’un exèrcit —el de Rússia, en aquest cas— no es comprova fins que s’enfronta en una guerra real amb un altre exèrcit. Un exèrcit de debò, no pas milícies com Hezbollah o Hamàs, que al capdavall són milícies amb un armament que de cap manera no es pot comparar al d’un exèrcit convencional. Quan acabo aquest article fa pocs dies del final (?) de la guerra-llampec que ha enfrontat Israel i l’Iran, guerra que se suposava que havia de ser un passeig per Israel. Ben al contrari de les expectatives, l’Iran ha resultat ser un os més dur que no es pensaven Netanyahu o Trump, un os que ha resistit els bombardeigs i encara ha tingut prou força per atacar amb míssils el territori d’Israel, que ha tastat per primera vegada en dècades què és un bombardeig. Una miniguerra que ha engrandit als ulls de bona part del món àrab el règim dels ayatollahs —règim repugnant, d’altra banda. Per ara Israel compta amb l’ajut incondicional dels Estats Units, però, i demà...?  La lliçó essencial que els historiadors traurien del fat de les ciutats assíries és que una potència que ha establert el seu poder sobre els seus veïns basant-se en la brutalitat més extrema, que necessàriament comporta l’odi extrem dels veïns afectats, no es pot permetre el luxe de tenir èpoques de debilitat, ni de demostrar als seus veïns que no són ni de bon tros tan invencibles com la propaganda vol fer comprendre.",
+        "pdf":{
+          "page": 12
+        }
       },
       {
         "type": "paragraph",
-        "content": "Desitjo que Israel, que ha demostrat dècada rere dècada la seva incapacitat per respectar cap tractat de pau ni cap alto el foc amb els seus veïns musulmans, pateixi dins un revulsiu, un daltabaix ideològic que dugui al poder una classe dirigent nova, conscient que buscar una convivència pacífica amb els seus veïns és essencial a la llarga. L’alternativa serà que els arqueòlegs del futur desenterrin amb cura les restes d’una ciutat devastada, arrasada fins als fonaments, que segons les cròniques antigues havia estat anomenada <em>Tel-Aviv</em> pels seus habitants."
+        "content": "Desitjo que Israel, que ha demostrat dècada rere dècada la seva incapacitat per respectar cap tractat de pau ni cap alto el foc amb els seus veïns musulmans, pateixi dins un revulsiu, un daltabaix ideològic que dugui al poder una classe dirigent nova, conscient que buscar una convivència pacífica amb els seus veïns és essencial a la llarga. L’alternativa serà que els arqueòlegs del futur desenterrin amb cura les restes d’una ciutat devastada, arrasada fins als fonaments, que segons les cròniques antigues havia estat anomenada <em>Tel-Aviv</em> pels seus habitants.",
+        "pdf":{
+          "page": 12
+        }
       },
       {
         "type": "paragraph",
-        "content": "Una segona Nínive, en definitiva."
+        "content": "Una segona Nínive, en definitiva.", 
+        "pdf":{
+          "page": 12
+        }
       }
     ]
   }

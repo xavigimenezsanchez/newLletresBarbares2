@@ -22,215 +22,388 @@
     "text": [
       {
         "type": "image",
-        "name": "carbonell50-01"
+        "name": "carbonell50-01",
+        "pdf": {
+          "page": 1
+        }
       },
       {
         "type": "paragraph",
-        "content": "<em>Un reportatge d’investigació (molt seriós) sobre la fi de la llibertat als nostres instituts… i del descans dels professors.</em>"
+        "content": "<em>Un reportatge d’investigació (molt seriós) sobre la fi de la llibertat als nostres instituts… i del descans dels professors.</em>",
+        "pdf": {
+          "page": 1
+        }
       },
       {
         "type": "paragraph",
-        "content": "En un lloc no tan llunyà—ni tan fictici— l’última frontera de la llibertat adolescent (i l’últim racó d’aire fresc per al professorat) és conquerida, neutralitzada i desinfectada per brigades de professors amb armaris plens de fitxes d’activitats supervisades. Benvinguts al regnat imparable dels patis coactius."
+        "content": "En un lloc no tan llunyà—ni tan fictici— l’última frontera de la llibertat adolescent (i l’últim racó d’aire fresc per al professorat) és conquerida, neutralitzada i desinfectada per brigades de professors amb armaris plens de fitxes d’activitats supervisades. Benvinguts al regnat imparable dels patis coactius.",
+        "pdf": {
+          "page": 1
+        }
       },
       {
         "type": "title",
-        "content": "I. La fi del caos: utopia o distopia?"
+        "content": "I. La fi del caos: utopia o distopia?",
+        "pdf": {
+          "page": 1
+        }
       },
       {
         "type": "paragraph",
-        "content": "Tots tenim gravada al subconscient aquella imatge bucòlica de l’esbarjo, adolescents entre dotze i quinze anys que, després de cinquanta-cinc minuts, amb sort, anestesiats per la lògica algebraica, irrompen al pati com animalons de retorn a l’instint primari. Corrent, cridant, negociant regles absurdes per jugar a futbol amb tan sols una pilota per trenta, mentre, fora de la vista, els professors aprofiten per endrapar l’esmorzar, fer un cafè o una cigarreta, respirar i dir fàstics del departament de deseducació, dels pares i dels fills, però no de la direcció per por que algun company corri a dir-ho a la directora."
+        "content": "Tots tenim gravada al subconscient aquella imatge bucòlica de l’esbarjo, adolescents entre dotze i quinze anys que, després de cinquanta-cinc minuts, amb sort, anestesiats per la lògica algebraica, irrompen al pati com animalons de retorn a l’instint primari. Corrent, cridant, negociant regles absurdes per jugar a futbol amb tan sols una pilota per trenta, mentre, fora de la vista, els professors aprofiten per endrapar l’esmorzar, fer un cafè o una cigarreta, respirar i dir fàstics del departament de deseducació, dels pares i dels fills, però no de la direcció per por que algun company corri a dir-ho a la directora.",
+        "pdf": {
+          "page": 1
+        }
       },
       {
         "type": "paragraph",
-        "content": "Però aquest món ha estat condemnat a la destrucció. Les noves ordres educatives han posat sota sospita el joc lliure. “El futbol ocupa massa espai”, diuen. “Juguen sempre els mateixos”, reiteren. “No és inclusiu”, decreten. I la solució, inevitable com una graella d’Excel, coordinar-ho tot. Ara bé, la revolució arriba carregada de deures també pel professorat, no només caldrà controlar, sinó <em>dirigir</em> les activitats, coordinar la socialització i, de pas, fer de policies de l’ànima adolescent."
+        "content": "Però aquest món ha estat condemnat a la destrucció. Les noves ordres educatives han posat sota sospita el joc lliure. “El futbol ocupa massa espai”, diuen. “Juguen sempre els mateixos”, reiteren. “No és inclusiu”, decreten. I la solució, inevitable com una graella d’Excel, coordinar-ho tot. Ara bé, la revolució arriba carregada de deures també pel professorat, no només caldrà controlar, sinó <em>dirigir</em> les activitats, coordinar la socialització i, de pas, fer de policies de l’ànima adolescent.",
+        "pdf": {
+          "page": 1,
+          "division": {
+            "alignLast": true,
+            "contentPage": "Però aquest món ha estat condemnat a la destrucció. Les noves ordres educatives han posat sota sospita el joc lliure. “El futbol ocupa massa espai”, diuen. “Juguen sempre els mateixos”, reiteren. “No és inclusiu”, decreten. I la solució, inevitable com una graella d’Excel, coordinar-ho tot. Ara bé, la",
+            "contentNextPage": "revolució arriba carregada de deures també pel professorat, no només caldrà controlar, sinó <em>dirigir</em> les activitats, coordinar la socialització i, de pas, fer de policies de l’ànima adolescent."
+          }
+        }
       },
       {
         "type": "paragraph",
-        "content": "A partir d’ara, totes les activitats de pati seran curosament planificades, dirigides i supervisades pel professorat (que, en lloc de fer el cafè, es converteix en Comissari Polític de la Diversió Inclusiva). Autonomia? Un concepte massa arriscat. Aleatorietat? Ni parlar-ne. El pati és massa valuós per deixar-lo en mans dels que més el necessiten, els adolescents. I, ni que sigui per una llei no escrita, el descans dels professors queda abolit en nom de la gran causa pedagògica."
+        "content": "A partir d’ara, totes les activitats de pati seran curosament planificades, dirigides i supervisades pel professorat (que, en lloc de fer el cafè, es converteix en Comissari Polític de la Diversió Inclusiva). Autonomia? Un concepte massa arriscat. Aleatorietat? Ni parlar-ne. El pati és massa valuós per deixar-lo en mans dels que més el necessiten, els adolescents. I, ni que sigui per una llei no escrita, el descans dels professors queda abolit en nom de la gran causa pedagògica.",
+        "pdf": {
+          "page": 2
+          }
+        
       },
       {
         "type": "title",
-        "content": "II. Un dia a l’institut: manual de supervivència per a l’espai coactiu"
+        "content": "II. Un dia a l’institut: manual de supervivència per a l’espai coactiu",
+        "pdf": {
+          "page": 2
+        }
       },
       {
         "type": "paragraph",
-        "content": "08:00. Arribes a l’institut. Et trobes amb la coordinadora de patis, armada amb un walkie-talkie i llistats plastificats dels “torns de monitors”. El fum s’eleva darrere les papereres —un grup ha intentat cremar la normativa per alleujar la tensió. A la sala de professors, la Maria es mira el calendari: “Avui em toca dinamitzar cèrcols… Demà seré controladora de xanques… I demà passat, si la fortuna m’ho permet, potser podré prendre un cafè.”"
+        "content": "08:00. Arribes a l’institut. Et trobes amb la coordinadora de patis, armada amb un walkie-talkie i llistats plastificats dels “torns de monitors”. El fum s’eleva darrere les papereres —un grup ha intentat cremar la normativa per alleujar la tensió. A la sala de professors, la Maria es mira el calendari: “Avui em toca dinamitzar cèrcols… Demà seré controladora de xanques… I demà passat, si la fortuna m’ho permet, potser podré prendre un cafè.”",
+        "pdf": {
+          "page": 2
+        }
       },
       {
         "type": "paragraph",
-        "content": "11:00. Patis coactius. Els alumnes de 2n d’ESO surten amb el somni ingenu d’un partit espontani. En lloc d’això, una professora els rep amb el somriure de qui ha vist “La taronja mecànica” i ha acabat convençuda que els electroxocs tenen un gran valor pedagògic."
+        "content": "11:00. Patis coactius. Els alumnes de 2n d’ESO surten amb el somni ingenu d’un partit espontani. En lloc d’això, una professora els rep amb el somriure de qui ha vist “La taronja mecànica” i ha acabat convençuda que els electroxocs tenen un gran valor pedagògic.",
+        "pdf": {
+          "page": 2
+        }
       },
       {
         "type": "paragraph",
-        "content": "—Avui ens toca el circuit de cordes i el joc del mocador cooperatiu!<br />—Però, profe, podem jugar a futbol una estoneta?<br />—No. Això és excloent. Ara, feu parelles, tothom farà girar cèrcols com a metàfora de la inclusió."
+        "content": "—Avui ens toca el circuit de cordes i el joc del mocador cooperatiu!<br />—Però, profe, podem jugar a futbol una estoneta?<br />—No. Això és excloent. Ara, feu parelles, tothom farà girar cèrcols com a metàfora de la inclusió.",
+        "pdf": {
+          "page": 2
+        }
       },
       {
         "type": "paragraph",
-        "content": "<em>Un espontani intenta amagar-se rere una paperera. El localitzen i el reintegren als cèrcols. La dissidència queda registrada i pendent de reunió personalitzada amb la coordinadora de coacció pedagògica.</em>"
+        "content": "<em>Un espontani intenta amagar-se rere una paperera. El localitzen i el reintegren als cèrcols. La dissidència queda registrada i pendent de reunió personalitzada amb la coordinadora de coacció pedagògica.</em>",
+        "pdf": {
+          "page": 2
+        }
       },
       {
         "type": "paragraph",
-        "content": "Mentrestant, en un racó, la professora d’anglès consulta el rellotge i sospira: “Fa tres dies que no puc sortir a esmorzar…”."
+        "content": "Mentrestant, en un racó, la professora d’anglès consulta el rellotge i sospira: “Fa tres dies que no puc sortir a esmorzar…”.",
+        "pdf": {
+          "page": 2
+        }
       },
       {
         "type": "title",
-        "content": "III. Els arguments sagrats: les taules de la nova llei"
+        "content": "III. Els arguments sagrats: les taules de la nova llei",
+        "pdf": {
+          "page": 2
+        }
       },
       {
         "type": "paragraph",
-        "content": "<ul><li>Argument 1: El futbol és l’origen de tots els mals.<br />Futbol? Pràctica feixista, patriarcal i invasora. Fins i tot les pilotes són sospitosament esfèriques—rodones com els testicles. Es prohibeix pel bé comú, “perquè ocupa espais i genera relliscades de gènere”.</li><li>Argument 2: Si una persona NO pot o NO vol, ningú hi pot jugar.<br />Ningú no ha de sentir-se exclòs en cap joc. I qui pot dir quin joc pot agradar a tothom? Resposta fàcil: cap. Per tant, cap joc lliure. O joc inventat burocràticament que no desperti passions (per prevenció).</li><li>Argument 3: L’activitat ha de tenir valors.<br />Requisits per a qualsevol activitat de pati: dossier pedagògic, llicència administrativa, i que sigui “transversalment significativa”. Si un adolescent gaudeix sense aprendre competències, alerta, no és políticament correcte.</li><li>I l’argument ocult: Per evitar problemes de pati, farem que el professorat perdi el seu descans i es dediqui a “dirigir la convivència” i la revolució lúdica.</li></ul>"
+        "content": "<ul><li>Argument 1: El futbol és l’origen de tots els mals.<br />Futbol? Pràctica feixista, patriarcal i invasora. Fins i tot les pilotes són sospitosament esfèriques—rodones com els testicles. Es prohibeix pel bé comú, “perquè ocupa espais i genera relliscades de gènere”.</li><li>Argument 2: Si una persona NO pot o NO vol, ningú hi pot jugar.<br />Ningú no ha de sentir-se exclòs en cap joc. I qui pot dir quin joc pot agradar a tothom? Resposta fàcil: cap. Per tant, cap joc lliure. O joc inventat burocràticament que no desperti passions (per prevenció).</li><li>Argument 3: L’activitat ha de tenir valors.<br />Requisits per a qualsevol activitat de pati: dossier pedagògic, llicència administrativa, i que sigui “transversalment significativa”. Si un adolescent gaudeix sense aprendre competències, alerta, no és políticament correcte.</li><li>I l’argument ocult: Per evitar problemes de pati, farem que el professorat perdi el seu descans i es dediqui a “dirigir la convivència” i la revolució lúdica.</li></ul>",
+        "pdf": {
+          "page": 2,
+          "division": {
+            "contentPage": "<ul><li>Argument 1: El futbol és l’origen de tots els mals.<br />Futbol? Pràctica feixista, patriarcal i invasora. Fins i tot les pilotes són sospitosament esfèriques—rodones com els testicles. Es prohibeix pel bé comú, “perquè ocupa espais i genera relliscades de gènere”.</li><li>Argument 2: Si una persona NO pot o NO vol, ningú hi pot jugar.<br />Ningú no ha de sentir-se exclòs en cap joc. I qui pot dir quin joc pot agradar a tothom? Resposta fàcil: cap. Per tant, cap joc lliure. O joc inventat burocràticament que no desperti passions (per prevenció).</li><li>Argument 3: L’activitat ha de tenir valors.<br />Requisits per a qualsevol activitat de pati: dossier pedagògic, llicència administrativa, i que sigui “transversalment significativa”. Si un adolescent gaudeix sense aprendre competències, alerta, no és políticament correcte.</li><li>I l’argument ocult: Per evitar problemes de pati, farem que el professorat perdi el seu descans i es dediqui a “dirigir la convivència” i la revolució lúdica.</li></ul>",
+            "contentNextPage": "<ul><li>Argument 3: L’activitat ha de tenir valors.<br />Requisits per a qualsevol activitat de pati: dossier pedagògic, llicència administrativa, i que sigui “transversalment significativa”. Si un adolescent gaudeix sense aprendre competències, alerta, no és políticament correcte.</li><li>I l’argument ocult: Per evitar problemes de pati, farem que el professorat perdi el seu descans i es dediqui a “dirigir la convivència” i la revolució lúdica.</li></ul>"
+          }
+        }
       },
       {
         "type": "title",
-        "content": "IV. El pati: un espai vigilat, higiènic i inofensiu"
+        "content": "IV. El pati: un espai vigilat, higiènic i inofensiu",
+        "pdf": {
+          "page": 2
+        }
       },
       {
         "type": "paragraph",
-        "content": "La coordinadora fa una ronda amb el cronòmetre. “Els del Grup 1, a la zona de xanquetes cooperatives! Grup 2, a endreçar els cons! Grup 3… podeu fer ioga durant 7 minuts mentre reciteu el decàleg de la coeducació en veu alta” Mentrestant, els monitors (profes dissimulats) fan fotos, prenen nota de la participació i elaboren informes trimestrals (mentre pensen, “Això val per sis crèdits d’oposicions?”)."
+        "content": "La coordinadora fa una ronda amb el cronòmetre. “Els del Grup 1, a la zona de xanquetes cooperatives! Grup 2, a endreçar els cons! Grup 3… podeu fer ioga durant 7 minuts mentre reciteu el decàleg de la coeducació en veu alta” Mentre, els monitors (profes dissimulats) fan fotos, prenen nota de la participació i elaboren informes trimestrals (mentre pensen, “Això val per sis crèdits d’oposicions?”).",
+        "pdf": {
+          "page": 2
+        }
       },
       {
         "type": "paragraph",
-        "content": "Una nena proposa, baixet, “pugem a la barana a parlar?” i la resposta és fulminant:<br />—No, la conversa lliure només està permesa al subgrup d’entesa emocional dels dimecres. I sempre amb dinàmiques guiades."
+        "content": "Una nena proposa, baixet, “pugem a la barana a parlar?” i la resposta és fulminant:<br />—No, la conversa lliure només està permesa al subgrup d’entesa emocional dels dimecres. I sempre amb dinàmiques guiades.",
+        "pdf": {
+          "page": 2
+        }
       },
       {
         "type": "paragraph",
-        "content": "Presència, ordre i control. Impossible escapar a la mirada panòptica dels adults —professors que, per cert, també enyoren la llibertat."
+        "content": "Presència, ordre i control. Impossible escapar a la mirada panòptica dels adults —professors que, per cert, també enyoren la llibertat.",
+        "pdf": {
+          "page": 2
+        }
       },
       {
         "type": "title",
-        "content": "V. El protocol d’incidències espontànies"
+        "content": "V. El protocol d’incidències espontànies",
+        "pdf": {
+          "page": 2
+        }
       },
       {
         "type": "paragraph",
-        "content": "Precedent: Uns alumnes, al juny, van jugar a cuita i amagar. No es va fer fitxa, ni valoració C i D del currículum, ni es va prendre nota de la participació. L’equip directiu va obrir expedient disciplinari."
+        "content": "Precedent: Uns alumnes, al juny, van jugar a cuita i amagar. No es va fer fitxa, ni valoració C i D del currículum, ni es va prendre nota de la participació. L’equip directiu va obrir expedient disciplinari.",
+        "pdf": {
+          "page": 2
+        }
       },
       {
         "type": "paragraph",
-        "content": "—Això pot portar a conductes antisistema! —va sentenciar la directora."
+        "content": "—Això pot portar a conductes antisistema! —va sentenciar la directora.",
+        "pdf": {
+          "page": 2
+        }
       },
       {
         "type": "title",
-        "content": "VI. El nou llenguatge institucional"
+        "content": "VI. El nou llenguatge institucional", 
+        "pdf": {
+          "page": 2
+        }
       },
       {
         "type": "paragraph",
-        "content": "“Pati coeducatiu”= Pati supervisat, higienitzat i amb més normativa que una plaça d’aparcament per a discapacitats.<br />“Activitat educativa d’esbarjo”= Cooperació forçada i simulacre d’esforç lúdic amb el mínim de conflicte i el màxim d’avorriment per a alumnes i professors.<br />“Espai d’amistat”= Zona assignada —amb monitor, dinàmica de debat i la paraula “valors” a cada frase.<br />“Consell d’alumnes”= Comitè decoratiu per legitimar decisions ja preses per la direcció.<br />“I el descans del professorat”?= Una utopia abolida en nom de la diversitat homogeneïtzada."
+        "content": "“Pati coeducatiu”= Pati supervisat, higienitzat i amb més normativa que una plaça d’aparcament per a discapacitats.<br />“Activitat educativa d’esbarjo”= Cooperació forçada i simulacre d’esforç lúdic amb el mínim de conflicte i el màxim d’avorriment per a alumnes i professors.<br />“Espai d’amistat”= Zona assignada —amb monitor, dinàmica de debat i la paraula “valors” a cada frase.<br />“Consell d’alumnes”= Comitè decoratiu per legitimar decisions ja preses per la direcció.<br />“I el descans del professorat”?= Una utopia abolida en nom de la diversitat homogeneïtzada.",
+        "pdf": {
+          "page": 2
+        }
       },
       {
         "type": "title",
-        "content": "VII. Adolescència en règim penitenciari: espontaneïtat perseguida"
+        "content": "VII. Adolescència en règim penitenciari: espontaneïtat perseguida",
+        "pdf": {
+          "page": 3
+        }
       },
       {
         "type": "paragraph",
-        "content": "Alguns adolescents intenten resistir."
+        "content": "Alguns adolescents intenten resistir.",
+        "pdf": {
+          "page": 3
+        }
       },
       {
         "type": "paragraph",
-        "content": "—Quin greu haver de demanar permís per jugar! Sembla que tot allò que fem, si no passa pel control dels adults, és perillós, agressiu, excloent o poc igualitari."
+        "content": "—Quin greu haver de demanar permís per jugar! Sembla que tot allò que fem, si no passa pel control dels adults, és perillós, agressiu, excloent o poc equalitari.",
+        "pdf": {
+          "page": 3
+        }
       },
       {
         "type": "paragraph",
-        "content": "Una altra, exhausta:"
+        "content": "Una altra, exhausta:",
+        "pdf": {
+          "page": 3
+        }
       },
       {
         "type": "paragraph",
-        "content": "—M’agrada llegir sola, però aquí tot és organitzat per fer-ho en cercle. A casa puc ser jo, al pati ja no hi ha manera."
+        "content": "—M’agrada llegir sola, però aquí tot és organitzat per fer-ho en cercle. A casa puc ser jo, al pati ja no hi ha manera.",
+        "pdf": {
+          "page": 3
+        }
       },
       {
         "type": "paragraph",
-        "content": "I el professorat, en veu baixa:"
+        "content": "I el professorat, en veu baixa:",
+        "pdf": {
+          "page": 3
+        }
       },
       {
         "type": "paragraph",
-        "content": "—Abans podia esmorzar tranquil. Ara, si descuido el circuit cooperatiu, tinc expedient!"
+        "content": "—Abans podia esmorzar tranquil. Ara, si descuido el circuit cooperatiu, tinc expedient!",
+        "pdf": {
+          "page": 3
+        }
       },
       {
         "type": "title",
-        "content": "VIII. El creixement emocional: instruccions d’ús"
+        "content": "VIII. El creixement emocional: instruccions d’ús",
+        "pdf": {
+          "page": 3
+        }
       },
       {
         "type": "paragraph",
-        "content": "Les guies oficials insisteixen:<br />“Els adolescents augmentaran la seva intel·ligència emocional acompanyats de l’adult referent en tot moment.”<br />“Aprendran a resoldre conflictes a partir de jocs preestructurats.”<br />“Tots els grups són rotatius: avui cooperativisme, demà mindfulness, demà passat debat sobre si debatre és prou inclusiu.”"
+        "content": "Les guies oficials insisteixen:<br />“Els adolescents augmentaran la seva intel·ligència emocional acompanyats de l’adult referent en tot moment.”<br />“Aprendran a resoldre conflictes a partir de jocs preestructurats.”<br />“Tots els grups són rotatius: avui cooperativisme, demà mindfulness, demà passat debat sobre si debatre és prou inclusiu.”",
+        "pdf": {
+          "page": 3
+        }
       },
       {
         "type": "paragraph",
-        "content": "Mentrestant, creix el nombre de queixes d’avorriment, conflictes ocults i desafiaments secrets (“Fes el teu pati clandestí a menys de cinc metres del profe… i que no t’enxampin.”). I alguns docents, entre fitxa i fitxa, conspiren per recuperar “el dret sagrat a esmorzar.”"
+        "content": "Mentrestant, creix el nombre de queixes d’avorriment, conflictes ocults i desafiaments secrets (“Fes el teu pati clandestí a menys de cinc metres del profe… i que no t’enxampin.”). I alguns docents, entre fitxa i fitxa, conspiren per recuperar “el dret sagrat a esmorzar.”",
+        "pdf": {
+          "page": 3
+        }
       },
       {
         "type": "title",
-        "content": "IX. Els patis coactius i l'economia de la frustració"
+        "content": "IX. Els patis coactius i l'economia de la frustració",
+        "pdf": {
+          "page": 3
+        }
       },
       {
         "type": "paragraph",
-        "content": "Experts consultats (i adolescents in situ) confirmen la teoria següent:<br />El pati coactiu no redueix el conflicte, només el desplaça fora del radi de visió adulta.<br />No aconsegueix més inclusió, només conjugació d’apatia col·lectiva.<br />El joc lliure permet negociar rols, crear llenguatges propis, incloure i excloure de manera dinàmica (i sí: també reparar-ho!).<br />A les reunions pedagògiques, però, això es tradueix com: “Activitat X ha estat un èxit: 100% participació, 0% lesions, 0% videojocs”. Sospitosament, les parets bramen de desig de créixer i escapar.<br />El professorat, que abans dinava tranquil, mira el rellotge i sospira: “Un altre trimestre d'activitats cooperatives i conferències. Encara sort que em queden festius!”"
+        "content": "Experts consultats (i adolescents in situ) confirmen la teoria següent:<br />El pati coactiu no redueix el conflicte, només el desplaça fora del radi de visió adulta.<br />No aconsegueix més inclusió, només conjugació d’apatia col·lectiva.<br />El joc lliure permet negociar rols, crear llenguatges propis, incloure i excloure de manera dinàmica (i sí: també reparar-ho!).<br />A les reunions pedagògiques, però, això es tradueix com: “Activitat X ha estat un èxit: 100% participació, 0% lesions, 0% videojocs”. Sospitosament, les parets bramen de desig de créixer i escapar.<br />El professorat, que abans dinava tranquil, mira el rellotge i sospira: “Un altre trimestre d'activitats cooperatives i conferències. Encara sort que em queden festius!”",
+        "pdf": {
+          "page": 3
+        }
       },
       {
         "type": "title",
-        "content": "X. Preguntes més freqüents del pati coactiu (amb respostes satíriques)"
+        "content": "X. Preguntes més freqüents del pati coactiu (amb respostes satíriques)",
+        "pdf": {
+          "page": 4
+        }
       },
       {
         "type": "paragraph",
-        "content": "Q: Puc caminar sense direcció ni objectiu pel pati?<br />A: Només si tens una nota signada per la coordinadora i ho fas en fila."
+        "content": "Q: Puc caminar sense direcció ni objectiu pel pati?<br />A: Només si tens una nota signada per la coordinadora i ho fas en fila.",  
+        "pdf": {
+          "page": 4
+        }
       },
       {
         "type": "paragraph",
-        "content": "Q: I si em vull quedar quiet pensant en les meves coses?<br />A: Només al racó mindfulness, sota supervisió i amb temps limitat."
+        "content": "Q: I si em vull quedar quiet pensant en les meves coses?<br />A: Només al racó mindfulness, sota supervisió i amb temps limitat.",
+        "pdf": {
+          "page": 4
+        }
       },
       {
         "type": "paragraph",
-        "content": "Q: Hi haurà algun dia esbarjo lliure?<br />A: Es convocarà una comissió per debatre-ho la setmana dels dos dijous."
+        "content": "Q: Hi haurà algun dia esbarjo lliure?<br />A: Es convocarà una comissió per debatre-ho la setmana dels dos dijous.",
+        "pdf": {
+          "page": 4
+        }
       },
       {
         "type": "paragraph",
-        "content": "Q: I el professorat, quan descansa?<br />A: Quan acabi la graella d’activitats i els alumnes s’hagin graduat. O mai."
+        "content": "Q: I el professorat, quan descansa?<br />A: Quan acabi la graella d’activitats i els alumnes s’hagin graduat. O mai.",
+        "pdf": {
+          "page": 4
+        }
       },
       {
         "type": "title",
-        "content": "XI. Els futurs adults: una generació preparada (o no)?"
+        "content": "XI. Els futurs adults: una generació preparada (o no)?",
+        "pdf": {
+          "page": 4
+        }
       },
       {
         "type": "paragraph",
-        "content": "Imatge de la promoció 2027: graduats en gestió documental d’activitats lúdiques, experts a demanar permís per tot i incapaços de prendre decisions sense una rúbrica d’avaluació. Li pregunten a l’orientador laboral com poden innovar en el món adult i respon:<br />—Potser et pots organitzar en “subgrups de cooperació” per pactar qui neteja la màquina de cafè."
+        "content": "Imatge de la promoció 2027: graduats en gestió documental d’activitats lúdiques, experts a demanar permís per tot i incapaços de prendre decisions sense una rúbrica d’avaluació. Li pregunten a l’orientador laboral com poden innovar en el món adult i respon:<br />—Potser et pots organitzar en “subgrups de cooperació” per pactar qui neteja la màquina de cafè.",
+        "pdf": {
+          "page": 4
+        }
       },
       {
         "type": "paragraph",
-        "content": "El pati coactiu crea persones segures, obedients… i profundament avorrides. Inútils per a la rebel·lió, el pensament crític i la creativitat. No hi ha res millor per a la societat del futur: cap adolescent farà mai soroll, cap conflicte sortirà de mare, cap idea genuïna tindrà oportunitat de germinar. Ni cap professor podrà esmorzar sense ser cronometrat."
+        "content": "El pati coactiu crea persones segures, obedients… i profundament avorrides. Inútils per a la rebel·lió, el pensament crític i la creativitat. No hi ha res millor per a la societat del futur: cap adolescent farà mai soroll, cap conflicte sortirà de mare, cap idea genuïna tindrà oportunitat de germinar. Ni cap professor podrà esmorzar sense ser cronometrat.",
+        "pdf": {
+          "page": 4
+        }
       },
       {
         "type": "title",
-        "content": "XII. Excursions a la nostàlgia i utopia possible"
+        "content": "XII. Excursions a la nostàlgia i utopia possible",
+        "pdf": {
+          "page": 4
+        }
       },
       {
         "type": "paragraph",
-        "content": "Recordeu aquell pati on havies de lluitar pel teu lloc, construir la teva colla, negociar quin joc es feia i qui portava la pilota? On, en la diversitat espontània, esclataven conflictes que s’havien de resoldre (o no), i on tant els més tímids com els més extravertits trobaven, a la llarga, el seu espai? I on els professors, a distància prudent, només intervenien com a últim recurs?"
+        "content": "Recordeu aquell pati on havies de lluitar pel teu lloc, construir la teva colla, negociar quin joc es feia i qui portava la pilota? On, en la diversitat espontània, esclataven conflictes que s’havien de resoldre (o no), i on tant els més tímids com els més extravertits trobaven, a la llarga, el seu espai? I on els professors, a distància prudent, només intervenien com a últim recurs?",
+        "pdf": {
+          "page": 4
+        }
       },
       {
         "type": "paragraph",
-        "content": "El pati coactiu, disfressat de coeducatiu, empetiteix la infància i l’adolescència… i la dignitat del professorat. Només permet la diversitat programada i la creativitat regulada. Si el pati és la primera república autogestionada que coneixem, ara s’ha convertit en una dictadura de policies de l’activitat i monitors de la moral pedagògica."
+        "content": "El pati coactiu, disfressat de coeducatiu, empetiteix la infància i l’adolescència… i la dignitat del professorat. Només permet la diversitat programada i la creativitat regulada. Si el pati és la primera república autogestionada que coneixem, ara s’ha convertit en una dictadura de policies de l’activitat i monitors de la moral pedagògica.",
+        "pdf": {
+          "page": 4
+        }
       },
       {
         "type": "title",
-        "content": "XIII. Epíleg: consells per sobreviure als patis coactius"
+        "content": "XIII. Epíleg: consells per sobreviure als patis coactius",
+        "pdf": {
+          "page": 4
+        }
       },
       {
         "type": "paragraph",
-        "content": "<ul><li>Practica la dissidència subtil: Porta sempre un llibre a la butxaca per llegir sense estar al club de lectura.</li><li>Pensa dins del mindfulness, però pensa el que vulguis.</li><li>Reivindica el joc lliure a les assemblees: No serveix de res, però almenys practicaràs oratòria.</li><li>Ajuda a altres companys fugitius: Hi ha vida al marge de la zona de cèrcols, també pels adults.</li><li>Inventa't jocs nous… i fes veure que són totalment inclusius i cooperatius. Així podràs recuperar clandestinament el vici de la llibertat.</li><li>Si ets docent, defensa el teu dret de sortir a fer un piti.</li></ul>"
+        "content": "<ul><li>Practica la dissidència subtil: Porta sempre un llibre a la butxaca per llegir sense estar al club de lectura.</li><li>Pensa dins del mindfulness, però pensa el que vulguis.</li><li>Reivindica el joc lliure a les assemblees: No serveix de res, però almenys practicaràs oratòria.</li><li>Ajuda a altres companys fugitius: Hi ha vida al marge de la zona de cèrcols, també pels adults.</li><li>Inventa't jocs nous… i fes veure que són totalment inclusius i cooperatius. Així podràs recuperar clandestinament el vici de la llibertat.</li><li>Si ets docent, defensa el teu dret de sortir a fer un piti.</li></ul>",
+        "pdf": {
+          "page": 4,
+          "division": {
+            "contentPage": "<ul><li>Practica la dissidència subtil: Porta sempre un llibre a la butxaca per llegir sense estar al club de lectura.</li><li>Pensa dins del mindfulness, però pensa el que vulguis.</li></ul>",
+            "contentNextPage": "<ul><li>Reivindica el joc lliure a les assemblees: No serveix de res, però almenys practicaràs oratòria.</li><li>Ajuda a altres companys fugitius: Hi ha vida al marge de la zona de cèrcols, també pels adults.</li><li>Inventa't jocs nous… i fes veure que són totalment inclusius i cooperatius. Així podràs recuperar clandestinament el vici de la llibertat.</li><li>Si ets docent, defensa el teu dret de sortir a fer un piti.</li></ul>"
+          }
+        }
       },
       {
         "type": "title",
-        "content": "XIV. Conclusió: la rebel·lió comença al pati"
+        "content": "XIV. Conclusió: la rebel·lió comença al pati",
+        "pdf": {
+          "page": 5
+        }
       },
       {
         "type": "paragraph",
-        "content": "Quan el totalitarisme banal s’instal·la als patis, potser no es nota gaire. No hi ha fuetades, ni murs. Però cada indicador, cada codi QR de registre, cada fitxa de seguiment, cada conversa tutelada, construeixen una petita presó per alumnes i per docents. Si volem adults creatius, solidaris i lliures, potser haurem de defensar la llibertat allà on comença, al pati, en aquell crit desordenat que diu, “Avui jugaré al que em doni la gana!”"
+        "content": "Quan el totalitarisme banal s’instal·la als patis, potser no es nota gaire. No hi ha fuetades, ni murs. Però cada indicador, cada codi QR de registre, cada fitxa de seguiment, cada conversa tutelada, construeixen una petita presó per alumnes i per docents. Si volem adults creatius, solidaris i lliures, potser haurem de defensar la llibertat allà on comença, al pati, en aquell crit desordenat que diu, “Avui jugaré al que em doni la gana!”",
+        "pdf": {
+          "page": 5
+        }
       },
       {
         "type": "paragraph",
-        "content": "Entre cèrcols, cons, circuits i manuals de cooperació, la història de la llibertat al pati encara està per escriure. I potser comença, de nou, amb un bot a la tanca."
+        "content": "Entre cèrcols, cons, circuits i manuals de cooperació, la història de la llibertat al pati encara està per escriure. I potser comença, de nou, amb un bot a la tanca.",
+        "pdf": {
+          "page": 5
+        }
       },
       {
         "type": "paragraph",
-        "content": "<em>Fi de la primera temporada. La segona, amb més activitats dirigides, menys descans per a tothom i sota la mirada atenta del departament de diversitat d’interessos prou cohesionats.</em>"
+        "content": "<em>Fi de la primera temporada. La segona, amb més activitats dirigides, menys descans per a tothom i sota la mirada atenta del departament de diversitat d’interessos prou cohesionats.</em>",
+        "pdf": {
+          "page": 5
+        }
       }
     ]
   }

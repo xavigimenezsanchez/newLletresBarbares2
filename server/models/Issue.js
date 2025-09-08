@@ -36,6 +36,15 @@ const issueSchema = new mongoose.Schema({
   sections: [{
     type: String,
     enum: ['articles', 'creacio', 'entrevistes', 'llibres', 'llocs', 'recomanacions']
+  }],
+  // Campos para generación manual de PDF
+  pdfManual: {
+    type: Boolean,
+    required: false
+  },
+  articlesOrder: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Article'
   }]
 }, {
   timestamps: true
