@@ -1,18 +1,15 @@
 import React from 'react'
-import type { Article, ArticleTextElement } from '../types'
+import type { Article, ArticleTextElement, PageContent } from '../types'
 
 interface PDFArticlePaginatedManualProps {
   article: Article
+  pageNumberStart: number
+  pages: PageContent[]
 }
 
-interface PageContent {
-  elements: ArticleTextElement[]
-  hasHeader: boolean
-  pageNumber: number
-  totalPages: number
-}
 
-const PDFArticlePaginatedManual: React.FC<PDFArticlePaginatedManualProps> = ({ article }) => {
+
+const PDFArticlePaginatedManual: React.FC<PDFArticlePaginatedManualProps> = ({ article, pageNumberStart, pages }) => {
   const getSectionLabel = (section: string) => {
     const sectionLabels: Record<string, string> = {
       articles: 'Articles',
@@ -26,76 +23,84 @@ const PDFArticlePaginatedManual: React.FC<PDFArticlePaginatedManualProps> = ({ a
   }
 
   // Función para organizar elementos por página usando la información del campo pdf
-  const organizeElementsByPage = (): PageContent[] => {
-    const pagesMap = new Map<number, ArticleTextElement[]>()
-    let maxPageNumber = 0
-    debugger
-    // Agrupar elementos por número de página
-    article.text?.forEach((element, index) => {
-      if (element.pdf && element.pdf.page) {
-        const pageNumber = element.pdf.page
-        let createdNextPage = false
+  // const organizeElementsByPage = (): PageContent[] => {
+  //   const pagesMap = new Map<number, ArticleTextElement[]>()
+  //   let maxPageNumber = 0
+  //   // Agrupar elementos por número de página
+  //   article.text?.forEach((element, index) => {
+  //     if (element.pdf && element.pdf.page) {
+  //       const pageNumber = element.pdf.page
+  //       let createdNextPage = false
         
-        if (!pagesMap.has(pageNumber)) {
-          pagesMap.set(pageNumber, [])
-        }
+  //       if (!pagesMap.has(pageNumber)) {
+  //         pagesMap.set(pageNumber, [])
+  //       }
         
-        if (element.pdf.division) { 
-          pagesMap.get(pageNumber)!.push({ ...element, content: element.pdf.division.contentPage }) 
-          if (!createdNextPage) {
-            pagesMap.set(pageNumber + 1, [])
-            pagesMap.get(pageNumber + 1)!.push({ ...element, content: element.pdf.division.contentNextPage })
-            createdNextPage = true
-          }
-        } else {
-          pagesMap.get(pageNumber)!.push(element)
-        }
+  //       if (element.pdf.division) { 
+  //         pagesMap.get(pageNumber)!.push({ ...element, divided: true && element.pdf.division.alignLast, content: element.pdf.division.contentPage }) 
+  //         if (!createdNextPage) {
+  //           pagesMap.set(pageNumber + 1, [])
+  //           pagesMap.get(pageNumber + 1)!.push({ ...element, content: element.pdf.division.contentNextPage })
+  //           createdNextPage = true
+  //         }
+  //       } else if (element.pdf.type === 'qr') {
+  //         // Create QR in https://rosskhanas.github.io/react-qr-code/
+  //         pagesMap.get(pageNumber)!.push({ ...element, type: 'image-foot', path: element.pdf.path })
+  //       } else {
+  //         pagesMap.get(pageNumber)!.push(element)
+  //       }
         
-        if (pageNumber > maxPageNumber) {
-          maxPageNumber = createdNextPage ? pageNumber + 1 : pageNumber
-        }
-      }
-    })
+  //       if (pageNumber > maxPageNumber || createdNextPage) {
+  //         maxPageNumber = createdNextPage ? pageNumber + 1 : pageNumber
+  //       }
+  //     }
+  //   })
 
-    // Convertir Map a array de páginas ordenadas
-    const pages: PageContent[] = []
+  //   // Convertir Map a array de páginas ordenadas
+  //   const pages: PageContent[] = []
     
-    for (let pageNumber = 1; pageNumber <= maxPageNumber; pageNumber++) {
-      const elements = pagesMap.get(pageNumber) || []
+  //   for (let pageNumber = 1; pageNumber <= maxPageNumber; pageNumber++) {
+  //     const elements = pagesMap.get(pageNumber) || []
       
-      if (elements.length > 0) {
-        pages.push({
-          elements,
-          hasHeader: pageNumber === 1,
-          pageNumber,
-          totalPages: maxPageNumber
-        })
-      }
-    }
+  //     if (elements.length > 0) {
+  //       pages.push({
+  //         elements,
+  //         hasHeader: pageNumber === 1,
+  //         pageNumber,
+  //         totalPages: maxPageNumber,
+  //       })
+  //     }
+  //   }
 
-    // Si no hay elementos con información de pdf, crear una página vacía
-    if (pages.length === 0) {
-      pages.push({
-        elements: [],
-        hasHeader: true,
-        pageNumber: 1,
-        totalPages: 1
-      })
-    }
+  //   // Si no hay elementos con información de pdf, crear una página vacía
+  //   if (pages.length === 0) {
+  //     pages.push({
+  //       elements: [],
+  //       hasHeader: true,
+  //       pageNumber: 1,
+  //       totalPages: 1
+  //     })
+  //   }
 
-    return pages
-  }
+  //   return pages
+  // }
 
-  const pages = organizeElementsByPage()
+  // const pages = organizeElementsByPage()
 
   const renderElement = (element: ArticleTextElement, index: number, pageIndex: number) => {
     const elementKey = `pdf-manual-article-${article.url}-page-${pageIndex}-${index}`
 
     switch (element.type) {
-      case 'paragraph':
       case 'paragraph2':
+        return (            <figure key={elementKey} className="my-8">
+          <blockquote className="border-l-4 border-gray-300 pl-6 italic text-sm">
+            <span dangerouslySetInnerHTML={{ __html: element.content }} />
+          </blockquote>
+        </figure>)
+
+      case 'paragraph':
         return (
-          <div key={elementKey} className="pdf-paragraph-wrapper">
+          <div key={elementKey} className={`pdf-paragraph-wrapper ${element.divided ? 'pdf-paragraph-divided' : ''}`}>
             <p
                style={element.styles ? JSON.parse(element.styles) : undefined}
                className={`pdf-paragraph ${element.className || ''}`}
@@ -104,64 +109,6 @@ const PDFArticlePaginatedManual: React.FC<PDFArticlePaginatedManualProps> = ({ a
           </div>
         )
 
-        // if (element.image) {
-        //   return (
-        //     <div key={elementKey} className="pdf-paragraph-with-image">
-        //       <p
-        //         className={`pdf-paragraph ${element.className || ''}`}
-        //         dangerouslySetInnerHTML={{ __html: element.content }}
-        //       />
-        //       <div className="pdf-image-container">
-        //         <img
-        //           src={`/api/images/${element.image.name}`}
-        //           alt=""
-        //           className="pdf-image"
-        //           onError={(e) => {
-        //             const target = e.currentTarget;
-        //             target.style.display = 'none';
-        //           }}
-        //         />
-        //       </div>
-        //     </div>
-        //   )
-        // } else {
-        //   // Si el elemento tiene división de contenido, renderizar ambas partes
-        //   if (element.pdf?.division) {
-        //     return (
-        //       <div key={elementKey} className="pdf-paragraph-wrapper">
-        //         <p
-        //           className={`pdf-paragraph ${element.className || ''}`}
-        //           dangerouslySetInnerHTML={{ __html: element.content }}
-        //         />
-                
-        //         {/* Mostrar información de división si está disponible */}
-        //         {element.pdf.division.contentPage && (
-        //           <div className="pdf-division-info">
-        //             <div className="pdf-division-current">
-        //               <strong>Contingut pàgina actual:</strong>
-        //               <div dangerouslySetInnerHTML={{ __html: element.pdf.division.contentPage }} />
-        //             </div>
-        //             {element.pdf.division.contentNextPage && (
-        //               <div className="pdf-division-next">
-        //                 <strong>Contingut pàgina següent:</strong>
-        //                 <div dangerouslySetInnerHTML={{ __html: element.pdf.division.contentNextPage }} />
-        //               </div>
-        //             )}
-        //           </div>
-        //         )}
-        //       </div>
-        //     )
-        //   } else {
-        //     return (
-        //       <div key={elementKey} className="pdf-paragraph-wrapper">
-        //         <p
-        //           className={`pdf-paragraph ${element.className || ''}`}
-        //           dangerouslySetInnerHTML={{ __html: element.content }}
-        //         />
-        //       </div>
-        //     )
-        //   }
-        // }
 
       case 'title':
       case 'title2':
@@ -251,8 +198,7 @@ const PDFArticlePaginatedManual: React.FC<PDFArticlePaginatedManualProps> = ({ a
             <h4 className="pdf-bibliography-title">Bibliografia</h4>
             <ul className="pdf-bibliography-list">
               {element.biography?.map((item, index) => (
-                <li key={index} className="pdf-bibliography-item">
-                  {item}
+                <li key={index} className="pdf-bibliography-item" dangerouslySetInnerHTML={{ __html: item }}>
                 </li>
               ))}
             </ul>
@@ -273,6 +219,18 @@ const PDFArticlePaginatedManual: React.FC<PDFArticlePaginatedManualProps> = ({ a
           </div>
         )
 
+      case "image-foot":
+        // Create QR in https://rosskhanas.github.io/react-qr-code/
+        return (
+          <div key={elementKey} className={`pdf-paragraph-wrapper`}>
+            <p
+               style={element.styles ? JSON.parse(element.styles) : undefined}
+               className={`pdf-paragraph-qr`}
+              dangerouslySetInnerHTML={{ __html: `<svg width='90' viewBox='0 0 29 29'><path d='${element.path}'></path></svg>` + element.content }}
+            />
+          </div>
+        )  
+
       default:
         return null
     }
@@ -288,7 +246,7 @@ const PDFArticlePaginatedManual: React.FC<PDFArticlePaginatedManualProps> = ({ a
               {page.hasHeader && (
                 <header className="pdf-article-header">
                   <div className="pdf-article-section">{getSectionLabel(article.section)}</div>
-                  <h1 className="pdf-article-title" dangerouslySetInnerHTML={{ __html: article.title }} />
+                  <h1 className="pdf-article-title" dangerouslySetInnerHTML={{ __html:  article.title }} />
                   <div className="pdf-article-meta">
                     <div className="pdf-article-authors">
                       {Array.isArray(article.authors) ? article.authors.join(', ') : article.author}
@@ -300,10 +258,10 @@ const PDFArticlePaginatedManual: React.FC<PDFArticlePaginatedManualProps> = ({ a
               {/* Header reducido para páginas siguientes */}
               {!page.hasHeader && page.totalPages > 1 && (
                 <header className="pdf-article-header-continued">
-                  <h2 className="pdf-article-title-continued" dangerouslySetInnerHTML={{ __html: article.title }} />
-                  <div className="pdf-page-indicator">
+                  <h2 className="pdf-article-title-continued" dangerouslySetInnerHTML={{ __html: article.titlePdf || article.title }} />
+                  {/* <div className="pdf-page-indicator">
                     Pàgina {page.pageNumber} de {page.totalPages}
-                  </div>
+                  </div> */}
                 </header>
               )}
 
@@ -314,6 +272,13 @@ const PDFArticlePaginatedManual: React.FC<PDFArticlePaginatedManualProps> = ({ a
                 )}
               </div>
             </article>
+            <footer className="pdf-article-footer">
+              <div className="pdf-article-footer-content">
+                <div className="pdf-page-indicator">
+                  {pageIndex + pageNumberStart }/{page.totalPages}
+                 </div> 
+              </div>
+            </footer>
           </div>
         </div>
       ))}

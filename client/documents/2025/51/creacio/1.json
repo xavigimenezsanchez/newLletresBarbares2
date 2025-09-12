@@ -1,39 +1,45 @@
 {
-    "issue": 2025,
-    "data": "31/08/2025",
-    "imageCard": "carbonell50-02-01",
-    "title": "Sirventès transitiu",
-    "url": "sirventes_transitiu",
-    "section": "creacio",
-    "author": "Àngel Carbonell",
-    "summary": "<div style=\"display: flex; justify-content: center\"><div>1.<br />Fulla que tremola,<br />el teu binari és rígid,<br />el vers amfibi.</div></div>",
-    "publicationDate": {
-      "$date": "2025-08-31T22:00:00.000Z"
+  "_id": {
+    "$oid": "68b47029a46c4ea9d2365af2"
+  },
+  "issue": 2025,
+  "data": "31/08/2025",
+  "imageCard": "carbonell50-02-01",
+  "title": "Sirventès transitiu",
+  "url": "sirventes_transitiu",
+  "section": "creacio",
+  "author": "Àngel Carbonell",
+  "summary": "<div style=\"display: flex; justify-content: center\"><div>1.<br />Fulla que tremola,<br />el teu binari és rígid,<br />el vers amfibi.</div></div>",
+  "publicationDate": {
+    "$date": "2025-08-31T22:00:00.000Z"
+  },
+  "isPublished": true,
+  "tags": [],
+  "readTime": 5,
+  "year": 2025,
+  "issueNumber": 50,
+  "authors": [
+    "Àngel Carbonell"
+  ],
+  "text": [
+    {
+      "type": "image",
+      "name": "carbonell50-02-01",
+      "content": "Divine a <em>Pink Flamingos</em>, de John Waters, 1972",
+      "pdf": {
+        "page": 1
+      }
     },
-    "isPublished": true,
-    "tags": [],
-    "readTime": 5,
-    "year": 2025,
-    "issueNumber": 50,
-
-    "authors": [
-      "Àngel Carbonell"
-    ],
-    "text": [
-      {
-        "type": "image",
-        "name": "carbonell50-02-01",
-        "content": "Divine a <em>Pink Flamingos</em>, de John Waters, 1972",
-        "pdf":{
-          "page": 1
-        }
-      },
-      {
-        "type": "paragraph",
-        "content": "<div style=\"display: flex; justify-content: center\"><div>1.<br />Fulla que tremola,<br />el teu binari és rígid,<br />el vers amfibi.<br /><br />2.<br />Al camp de lletres<br />vols llaurar drets els rengles,<br />l'herba és obliqua.<br /><br />3.<br />Llera deserta,<br />els teus comptes són àrids,<br />l'aigua se't rifa.<br /><br />4.<br />Només dos?<br />El poema<br />en fa mil.<br /><br />5.<br />Divisa oculta,<br />el trobador ja trenca<br />el teu binari.<br /><br />6.<br />Els marges fugen<br />perquè la veu que canta<br />no té llicència.<br /><br />7. <br />Diu el comptable: “comptem-los bé,<br />homes i dones, ni més ni menys!”<br />Prò la musa no vol repertoris,<br />canta salvatge, sense raons.<br />El teu binari és un jou ferreny,<br />el vers se n'escapa, no té seny.<br /><br />8.<br />Binari rònec, cervell rovellat,<br />fas recomptes com un escanyapobres,<br />t’encega l’ordre, t’ofeguen els rengles.<br />Si fossis trobador no trobaries,<br />avorrit, sec, com una fulla en blanc.<br /><br />9.<br />Vols comptar dones, vols comptar homes<br />amb aire de notari que registra actes,<br />Prò la lletra no en sap de sumaris,<br />creix com l'heura, ensorra parets.<br />Els trobadors ja van jugar amb disfresses,<br />muses canviants que burlen endreces.<br />El teu binari és ferro rovellat,<br />la poesia és vent desbocat.</div></div>",
-        "pdf":{
-          "page": 1
+    {
+      "type": "paragraph",
+      "content": "<div style=\"display: flex; justify-content: center\"><div>1.<br />Fulla que tremola,<br />el teu binari és rígid,<br />el vers amfibi.<br /><br />2.<br />Al camp de lletres<br />vols llaurar drets els rengles,<br />l'herba és obliqua.<br /><br />3.<br />Llera deserta,<br />els teus comptes són àrids,<br />l'aigua se't rifa.<br /><br />4.<br />Només dos?<br />El poema<br />en fa mil.<br /><br />5.<br />Divisa oculta,<br />el trobador ja trenca<br />el teu binari.<br /><br />6.<br />Els marges fugen<br />perquè la veu que canta<br />no té llicència.<br /><br />7. <br />Diu el comptable: “comptem-los bé,<br />homes i dones, ni més ni menys!”<br />Prò la musa no vol repertoris,<br />canta salvatge, sense raons.<br />El teu binari és un jou ferreny,<br />el vers se n'escapa, no té seny.<br /><br />8.<br />Binari rònec, cervell rovellat,<br />fas recomptes com un escanyapobres,<br />t’encega l’ordre, t’ofeguen els rengles.<br />Si fossis trobador no trobaries,<br />avorrit, sec, com una fulla en blanc.<br /><br />9.<br />Vols comptar dones, vols comptar homes<br />amb aire de notari que registra actes,<br />Prò la lletra no en sap de sumaris,<br />creix com l'heura, ensorra parets.<br />Els trobadors ja van jugar amb disfresses,<br />muses canviants que burlen endreces.<br />El teu binari és ferro rovellat,<br />la poesia és vent desbocat.</div></div>",
+      "pdf": {
+        "page": 1,
+        "division": {
+          "contentPage": "<div style=\"display: flex; justify-content: center\"><div style=\"font-size: 14px; width: 232px\">1.<br />Fulla que tremola,<br />el teu binari és rígid,<br />el vers amfibi.<br /><br />2.<br />Al camp de lletres<br />vols llaurar drets els rengles,<br />l'herba és obliqua.<br /><br />3.<br />Llera deserta,<br />els teus comptes són àrids,<br />l'aigua se't rifa.</div></div>",
+          "contentNextPage": "<div style=\"display: flex; justify-content: center\"><div style=\"font-size: 14px; width: 232px\">4.<br />Només dos?<br />El poema<br />en fa mil.<br /><br />5.<br />Divisa oculta,<br />el trobador ja trenca<br />el teu binari.<br /><br />6.<br />Els marges fugen<br />perquè la veu que canta<br />no té llicència.<br /><br />7. <br />Diu el comptable: “comptem-los bé,<br />homes i dones, ni més ni menys!”<br />Prò la musa no vol repertoris,<br />canta salvatge, sense raons.<br />El teu binari és un jou ferreny,<br />el vers se n'escapa, no té seny.<br /><br />8.<br />Binari rònec, cervell rovellat,<br />fas recomptes com un escanyapobres,<br />t’encega l’ordre, t’ofeguen els rengles.<br />Si fossis trobador no trobaries,<br />avorrit, sec, com una fulla en blanc.<br /><br />9.<br />Vols comptar dones, vols comptar homes<br />amb aire de notari que registra actes,<br />Prò la lletra no en sap de sumaris,<br />creix com l'heura, ensorra parets.<br />Els trobadors ja van jugar amb disfresses,<br />muses canviants que burlen endreces.<br />El teu binari és ferro rovellat,<br />la poesia és vent desbocat.</div></div>"
         }
       }
-    ]
-  }
+    }
+  ]
+}

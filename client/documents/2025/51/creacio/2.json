@@ -1,116 +1,118 @@
 {
-    "issue": 2025,
-    "data": "31/08/2025",
-    "imageCard": "andreu50-02-01",
-    "title": "Quadern de les cigales (7). Zambras del Sacromonte egarenc",
-    "url" : "quadern-de-les-cigales-7",
-    "section": "creacio",
-    "author": "Andreu Pérez-Mingorance",
-    "summary": "Quina sort tindria si fos això el que brollés de la meva boca: zambra pura, sense frontera de llengua ni d’accent, paraula viva com un doll que no s’atura.<br />Tot podria ser cendra, foc punyent encès a flor de pell, capaç de parir un ritme net, ardent, però vau matar el compàs per ofegar-me l’alè.",
-    "publicationDate": {
-      "$date": "2025-08-31T22:00:00.000Z"
-    },
-    "isPublished": true,
-    "tags": [],
-    "readTime": 5,
-    "year": 2025,
-    "issueNumber": 50,
-
-    "authors": [
-      "Andreu Pérez-Mingorance"
-    ],
-    "text": [
-      {
-        "type": "image",
-        "name": "andreu50-02-01",
-        "content": "Foto de George Marattile, instagram   @_mjgeorge, estiu 2025.",
-        "pdf":{
-          "page": 1
-        }
-      },
-      {
-        "type": "paragraph",
-        "content": "Quina sort tindria si fos això el que brollés de la meva boca: zambra pura, sense frontera de llengua ni d’accent, paraula viva com un doll que no s’atura.",
-        "pdf":{
-          "page": 1
-        }
-      },
-      {
-        "type": "paragraph",
-        "content": "Tot podria ser cendra, foc punyent encès a flor de pell, capaç de parir un ritme net, ardent, però vau matar el compàs per ofegar-me l’alè.",
-        "pdf":{
-          "page": 1
-        }
-      },
-      {
-        "type": "paragraph",
-        "content": "La tempesta de la hipocresia no és d’aigua, és un devessall de notes massa llargues. Les curtes, seques, tancades, són passes que dibuixen un camí invisible, que no es veu, però que em repica endins. I crema. I no deixa ferida. I és flama recta, dura, que arrenca del fons la força més crua i més clara.",
-        "pdf":{
-          "page": 1
-        }
-      },
-      {
-        "type": "paragraph",
-        "content": "Però no l’heu morta, aquesta força amagada. Davant la vostra rònega creença en l’ordre de la submissió, ara esclata, ara és repic i trepig de talons que no he calçat mai —jo, pobre marieta hipòcrita que somiava trepitjar el món com qui trepitja terrat de tablao.",
-        "pdf":{
-          "page": 1
-        }
-      },
-      {
-        "type": "paragraph",
-        "content": "Sempre he sentit, al fons de la gola cremada, el cante jondo, com un crit a punt de sortir. I repicaré amb els dits al vell piano i amb les castanyoles faré� el compàs, no sabreu si és so de cobla o de tablao. Seré jo, i l’altre, i l’altre, i tots nosaltres lliures. Lliures com ningú no ens ha volgut, prou hàbils per fer-vos entendre el ritme abans no us perdeu en la fumera ridícula de renaixences mortes i gestes embalsamades.",
-        "pdf":{
-          "page": 2
-        }
-      },
-      {
-        "type": "paragraph",
-        "content": "El temps dels que no vam cobrar legítimes ja és aquí.",
-        "pdf":{
-          "page": 2
-        }
-      },
-      {
-        "type": "paragraph",
-        "content": "La misèria dels miserables —la nostra— us redimirà.",
-        "pdf":{
-          "page": 2
-        }
-      },
-      {
-        "type": "paragraph",
-        "content": "No baixarà pas un gaiter pel Llobregat ardent de fàbriques, baixaran masses de desposseïts, nets de filadores de Can Amat, d’aprestadors de Can Guardiola, de metxeres, de bataners, de tintorers, de conductors i carboners. Fills i nets dels desheretats —de Lleida, de València, de Granada, d’Almeria, de Còrdova i de Múrcia— que sabran recordar d’on venim, de vapors i telers, de les fàbriques, amb títols d’universitats públiques que encara fan olor d’aprest, de petroli, de llana d’ovella per cardar.",
-        "pdf":{
-          "page": 2
-        }
-      },
-      {
-        "type": "paragraph",
-        "content": "Venim de la pudor per canviar-ho tot.",
-        "pdf":{
-          "page": 2
-        }
-      },
-      {
-        "type": "paragraph",
-        "content": "I no, no us odiem, això és fantasia vostra. El que volem és el nostre lloc, i ens crema el temps a les mans.",
-        "pdf":{
-          "page": 2
-        }
-      },
-      {
-        "type": "paragraph",
-        "content": "El vell piano Bechstein és el cor que batega sota els meus dits, cada nota és un crit sec, directe, una veritat que no s’empolaina. Música com pelegrinatge, com resistència, com vida que no es rendeix. Ja no necessitem les vostres lliçons de piano, hem forjat les nostres pròpies mans.",
-        "pdf":{
-          "page": 2
-        }
-      },
-      {
-        "type": "paragraph2",
-        "content": "<div style=\"display: flex; justify-content: center\"><div style=\"padding-left: 1rem;\"><em>Les grosses portes de ferro del Vapor Rigau s’obriren al toc de la sirena. Al cap de pocs minuts vomitaven homes i dones que sortien xerrant i cridant i, un cop a l’esplanada, es fragmentaven en grups que anaven desapareixent, la majoria pels carrers que conduïen al centre. </em><br /><br /><div style=\"text-align: right;\">La Teranyina, Jaume Cabré, començament cap. 6. p 43. Edicions Proa, Col. A tot vent, Barcelona 1984</div></div></div>",
-        "pdf":{
-          "page": 2
-        }
+  "_id": {
+    "$oid": "68b4757ca46c4ea9d2365af4"
+  },
+  "issue": 2025,
+  "data": "31/08/2025",
+  "imageCard": "andreu50-02-01",
+  "title": "Quadern de les cigales (7). Zambras del Sacromonte egarenc",
+  "url": "quadern-de-les-cigales-7",
+  "section": "creacio",
+  "author": "Andreu Pérez-Mingorance",
+  "summary": "Quina sort tindria si fos això el que brollés de la meva boca: zambra pura, sense frontera de llengua ni d’accent, paraula viva com un doll que no s’atura.<br />Tot podria ser cendra, foc punyent encès a flor de pell, capaç de parir un ritme net, ardent, però vau matar el compàs per ofegar-me l’alè.",
+  "publicationDate": {
+    "$date": "2025-08-31T22:00:00.000Z"
+  },
+  "isPublished": true,
+  "tags": [],
+  "readTime": 5,
+  "year": 2025,
+  "issueNumber": 50,
+  "authors": [
+    "Andreu Pérez-Mingorance"
+  ],
+  "text": [
+    {
+      "type": "image",
+      "name": "andreu50-02-01",
+      "content": "Foto de George Marattile, instagram   @_mjgeorge, estiu 2025.",
+      "pdf": {
+        "page": 1
       }
-    ]
-  }
+    },
+    {
+      "type": "paragraph",
+      "content": "Quina sort tindria si fos això el que brollés de la meva boca: zambra pura, sense frontera de llengua ni d’accent, paraula viva com un doll que no s’atura.",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Tot podria ser cendra, foc punyent encès a flor de pell, capaç de parir un ritme net, ardent, però vau matar el compàs per ofegar-me l’alè.",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "La tempesta de la hipocresia no és d’aigua, és un devessall de notes massa llargues. Les curtes, seques, tancades, són passes que dibuixen un camí invisible, que no es veu, però que em repica endins. I crema. I no deixa ferida. I és flama recta, dura, que arrenca del fons la força més crua i més clara.",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Però no l’heu morta, aquesta força amagada. Davant la vostra rònega creença en l’ordre de la submissió, ara esclata, ara és repic i trepig de talons que no he calçat mai —jo, pobre marieta hipòcrita que somiava trepitjar el món com qui trepitja terrat de tablao.",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Sempre he sentit, al fons de la gola cremada, el cante jondo, com un crit a punt de sortir. I repicaré amb els dits al vell piano i amb les castanyoles faré el compàs, no sabreu si és so de cobla o de tablao. Seré jo, i l’altre, i l’altre, i tots nosaltres lliures. Lliures com ningú no ens ha volgut, prou hàbils per fer-vos entendre el ritme abans no us perdeu en la fumera ridícula de renaixences mortes i gestes embalsamades.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "El temps dels que no vam cobrar legítimes ja és aquí.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "La misèria dels miserables —la nostra— us redimirà.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "No baixarà pas un gaiter pel Llobregat ardent de fàbriques, baixaran masses de desposseïts, nets de filadores de Can Amat, d’aprestadors de Can Guardiola, de metxeres, de bataners, de tintorers, de conductors i carboners. Fills i nets dels desheretats —de Lleida, de València, de Granada, d’Almeria, de Còrdova i de Múrcia— que sabran recordar d’on venim, de vapors i telers, de les fàbriques, amb títols d’universitats públiques que encara fan olor d’aprest, de petroli, de llana d’ovella per cardar.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Venim de la pudor per canviar-ho tot.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "I no, no us odiem, això és fantasia vostra. El que volem és el nostre lloc, i ens crema el temps a les mans.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "El vell piano Bechstein és el cor que batega sota els meus dits, cada nota és un crit sec, directe, una veritat que no s’empolaina. Música com pelegrinatge, com resistència, com vida que no es rendeix. Ja no necessitem les vostres lliçons de piano, hem forjat les nostres pròpies mans.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph2",
+      "content": "<div style=\"display: flex; justify-content: center\"><div style=\"padding-left: 1rem;\"><em>Les grosses portes de ferro del Vapor Rigau s’obriren al toc de la sirena. Al cap de pocs minuts vomitaven homes i dones que sortien xerrant i cridant i, un cop a l’esplanada, es fragmentaven en grups que anaven desapareixent, la majoria pels carrers que conduïen al centre. </em><br /><br /><div style=\"text-align: right;\">La Teranyina, Jaume Cabré, començament cap. 6. p 43. Edicions Proa, Col. A tot vent, Barcelona 1984</div></div></div>",
+      "pdf": {
+        "page": 2
+      }
+    }
+  ]
+}

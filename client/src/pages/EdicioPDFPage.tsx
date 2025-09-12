@@ -1,9 +1,83 @@
 import React, { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import { apiService } from '../services/api'
-import type { Issue, Article } from '../types'
+import type { Issue, Article, ArticleTextElement, PageContent } from '../types'
 import PDFArticlePaginated from '../components/PDFArticlePaginated'
 import PDFArticlePaginatedManual from '../components/PDFArticlePaginatedManual'
+import logo from '../assets/Jara logo.svg'
+
+
+interface ArticlesPdfManual {
+  article: Article
+  pagesNumber: number
+  pages: PageContent[]
+}
+
+
+  // Función para organizar elementos por página usando la información del campo pdf
+  const organizeElementsByPage = (article:Article): PageContent[] => {
+    const pagesMap = new Map<number, ArticleTextElement[]>()
+    let maxPageNumber = 0
+    // Agrupar elementos por número de página
+    article.text?.forEach((element, index) => {
+      if (element.pdf && element.pdf.page) {
+        const pageNumber = element.pdf.page
+        let createdNextPage = false
+        
+        if (!pagesMap.has(pageNumber)) {
+          pagesMap.set(pageNumber, [])
+        }
+        
+        if (element.pdf.division) { 
+          pagesMap.get(pageNumber)!.push({ ...element, divided: true && element.pdf.division.alignLast, content: element.pdf.division.contentPage }) 
+          if (!createdNextPage) {
+            pagesMap.set(pageNumber + 1, [])
+            pagesMap.get(pageNumber + 1)!.push({ ...element, content: element.pdf.division.contentNextPage })
+            createdNextPage = true
+          }
+        } else if (element.pdf.type === 'qr') {
+          // Create QR in https://rosskhanas.github.io/react-qr-code/
+          pagesMap.get(pageNumber)!.push({ ...element, type: 'image-foot', path: element.pdf.path })
+        } else {
+          pagesMap.get(pageNumber)!.push(element)
+        }
+        
+        if (pageNumber > maxPageNumber || createdNextPage) {
+          maxPageNumber = createdNextPage ? pageNumber + 1 : pageNumber
+        }
+      }
+    })
+
+    // Convertir Map a array de páginas ordenadas
+    const pages: PageContent[] = []
+    
+    for (let pageNumber = 1; pageNumber <= maxPageNumber; pageNumber++) {
+      const elements = pagesMap.get(pageNumber) || []
+      
+      if (elements.length > 0) {
+        pages.push({
+          elements,
+          hasHeader: pageNumber === 1,
+          pageNumber,
+          totalPages: maxPageNumber,
+        })
+      }
+    }
+
+    // Si no hay elementos con información de pdf, crear una página vacía
+    if (pages.length === 0) {
+      pages.push({
+        elements: [],
+        hasHeader: true,
+        pageNumber: 1,
+        totalPages: 1
+      })
+    }
+
+    return pages
+  }
+
+
 
 const EdicioPDFPage: React.FC = () => {
   const { number } = useParams<{ number: string }>()
@@ -12,6 +86,7 @@ const EdicioPDFPage: React.FC = () => {
   const [articles, setArticles] = useState<Article[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
+  const [articlesPdfManual, setArticlesPdfManual] = useState<ArticlesPdfManual[]>([])
 
   useEffect(() => {
     const loadIssueData = async () => {
@@ -74,6 +149,25 @@ const EdicioPDFPage: React.FC = () => {
     loadIssueData()
   }, [number])
 
+
+  useEffect(() => {
+    if (currentIssue?.pdfManual === true && articles.length > 0) {
+      const articlesPdfManual: ArticlesPdfManual[] = []
+      if (currentIssue?.articlesOrder) {
+        let pageNumber = 1
+      currentIssue?.articlesOrder.forEach(articleId => {
+        const article = articles.find(article => article._id === articleId)
+        if (article) {
+          const pages = organizeElementsByPage(article)
+          articlesPdfManual.push({ article, pagesNumber: pageNumber, pages: pages })
+          pageNumber += pages.length
+        }
+      })
+      setArticlesPdfManual(articlesPdfManual)
+    }
+  }
+  }, [articles, currentIssue])
+
   const getSectionLabel = (section: string) => {
     const sectionLabels: Record<string, string> = {
       articles: 'Articles',
@@ -127,7 +221,7 @@ const EdicioPDFPage: React.FC = () => {
       <div className="pdf-page pdf-cover">
         <div className="pdf-cover-content">
           <img 
-            src={`/api/images/portada${currentIssue.number}.jpg`}
+            src={"/src/assets/background.png"}
             alt={`Portada número ${currentIssue.number}`}
             className="pdf-cover-image"
             onError={(e) => {
@@ -138,15 +232,13 @@ const EdicioPDFPage: React.FC = () => {
                 // Si tampoco está local, usar una genérica
                 target.src = '/src/assets/portada0.png';
               }
+
             }}
           />
         </div>
-      </div>
-
-      {/* Página 2: Índice */}
-      <div className="pdf-page pdf-index">
-        <div className="pdf-page-content">
-          <h1 className="pdf-title">Lletres Barbares</h1>
+        <div className="pdf-cover-title">
+          <img src={logo} alt="Lletres Bàrbares" className="pdf-logo" />
+          <h1 className="pdf-title">Lletres Bàrbares</h1>
           <h2 className="pdf-issue-number">Número {currentIssue.number}</h2>
           <div className="pdf-publication-date">
             {new Date(currentIssue.publicationDate).toLocaleDateString('ca-ES', {
@@ -155,11 +247,27 @@ const EdicioPDFPage: React.FC = () => {
               day: 'numeric'
             })}
           </div>
+        </div>
+      </div>
 
+      {/* Página 2: Índice */}
+      <div className="pdf-page pdf-index">
+        <div className="pdf-page-content">
           <div className="pdf-index-content">
             <h3 className="pdf-index-title">Índex</h3>
+
+            {currentIssue?.pdfManual && articlesPdfManual.map((articlePdfManual) => (
+                <ul className="pdf-article-list">
+                    <li key={articlePdfManual.article.url} className="pdf-article-item-manual">
+                      <div className="pdf-article-index-item">
+                        <div className="pdf-article-title" dangerouslySetInnerHTML={{ __html: articlePdfManual.article.title }} />
+                      </div>
+                      <div className="pdf-article-page-number">{articlePdfManual.pagesNumber}</div>
+                    </li>
+                </ul>
+            ))}
             
-            {Object.entries(sectionedArticles).map(([sectionKey, sectionArticles]) => (
+            {!currentIssue?.pdfManual && Object.entries(sectionedArticles).map(([sectionKey, sectionArticles]) => (
               <div key={sectionKey} className="pdf-index-section">
                 <h4 className="pdf-section-title">{getSectionLabel(sectionKey)}</h4>
                 <ul className="pdf-article-list">
@@ -179,25 +287,29 @@ const EdicioPDFPage: React.FC = () => {
       </div>
 
       {/* Páginas de artículos */}
-      {articles.map((article) => {
-        // Usar el componente apropiado según pdfManual
-        if (currentIssue?.pdfManual === true) {
-          return (
-            <PDFArticlePaginatedManual 
-              key={article.url} 
-              article={article} 
-            />
-          )
-        } else {
-          return (
-            <PDFArticlePaginated 
 
-              key={article.url} 
-              article={article} 
-            />
-          )
-        }
-      })}
+
+        {currentIssue?.pdfManual === true ? (
+          articlesPdfManual.map((articlePdfManual, index) => {
+            return (
+              <PDFArticlePaginatedManual 
+                key={articlePdfManual.article.url} 
+                article={articlePdfManual.article} 
+                pageNumberStart={articlePdfManual.pagesNumber}
+                pages={articlePdfManual.pages}
+              />
+            )
+          })
+        ) : (
+          articles.map((article) => {
+            return (
+              <PDFArticlePaginated 
+                key={article.url} 
+                article={article} 
+              />
+            )
+          })
+        )}
     </div>
   )
 }

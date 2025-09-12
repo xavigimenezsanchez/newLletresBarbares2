@@ -1,5 +1,5 @@
 export interface ArticleTextElement {
-  type: 'paragraph' | 'paragraph2' | 'title' | 'title2' | 'question' | 'image' | 'video' | 'youtube' | 'biography' | 'footnotes';
+  type: 'paragraph' | 'paragraph2' | 'title' | 'title2' | 'question' | 'image' | 'video' | 'youtube' | 'biography' | 'footnotes' | 'image-foot';
   content: string;
   name?: string;
   className?: string;
@@ -11,6 +11,8 @@ export interface ArticleTextElement {
   foot?: string;
   biography?: string[];
   notes?: Footnote[];
+  divided?: boolean;
+  path?: string;
 }
 
 export interface Footnote {
@@ -25,6 +27,7 @@ export interface Article {
   data: string;
   imageCard?: string;
   title: string;
+  titlePdf?: string;
   url: string;
   section: 'articles' | 'creacio' | 'entrevistes' | 'llibres' | 'llocs' | 'recomanacions';
   // CAMBIO: author → authors (array de strings)
@@ -38,6 +41,8 @@ export interface Article {
     name?: string;
     pdf?: {
       page: number;
+      type?: 'qr';
+      path?: string;
       division?: {
         alignLast?: boolean;
         contentPage: string;
@@ -186,3 +191,10 @@ export interface ApiResponse<T> {
   error?: string;
   pagination?: PaginationInfo;
 } 
+
+export interface PageContent {
+  elements: ArticleTextElement[]
+  hasHeader: boolean
+  pageNumber: number
+  totalPages: number
+}
