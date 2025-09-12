@@ -80,7 +80,7 @@ interface ArticlesPdfManual {
 
 
 
-const EdicioPDFPage: React.FC = () => {
+const EdicioPDFPage: React.FC<{issueLocal?: Issue, articlesLocal?: Article[]}> = ({issueLocal, articlesLocal}) => {
   const { number } = useParams<{ number: string }>()
   
   const [currentIssue, setCurrentIssue] = useState<Issue | null>(null)
@@ -147,8 +147,14 @@ const EdicioPDFPage: React.FC = () => {
       }
     }
 
-    loadIssueData()
-  }, [number])
+    if (issueLocal && articlesLocal) {
+      setCurrentIssue(issueLocal)
+      setArticles(articlesLocal)
+      setLoading(false)
+    } else {
+      loadIssueData()
+    }
+  }, [number, issueLocal, articlesLocal])
 
 
   useEffect(() => {
