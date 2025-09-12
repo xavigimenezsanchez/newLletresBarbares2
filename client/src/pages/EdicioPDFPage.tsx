@@ -4,7 +4,8 @@ import { apiService } from '../services/api'
 import type { Issue, Article, ArticleTextElement, PageContent } from '../types'
 import PDFArticlePaginated from '../components/PDFArticlePaginated'
 import PDFArticlePaginatedManual from '../components/PDFArticlePaginatedManual'
-import logo from '../assets/Jara logo.svg'
+import logoPetit from '../assets/Jara logo petit.svg'
+import logoEnd from '../assets/logo5.svg'
 
 
 interface ArticlesPdfManual {
@@ -237,8 +238,9 @@ const EdicioPDFPage: React.FC = () => {
           />
         </div>
         <div className="pdf-cover-title">
-          <img src={logo} alt="Lletres Bàrbares" className="pdf-logo" />
-          <h1 className="pdf-title">Lletres Bàrbares</h1>
+          
+          <h1 className="pdf-title">Lletres</h1>
+          <h1 className="pdf-title-2"><span><img src={logoPetit} alt="Lletres Bàrbares" className="pdf-logo" /></span>àrbares</h1>
           <h2 className="pdf-issue-number">Número {currentIssue.number}</h2>
           <div className="pdf-publication-date">
             {new Date(currentIssue.publicationDate).toLocaleDateString('ca-ES', {
@@ -310,6 +312,15 @@ const EdicioPDFPage: React.FC = () => {
             )
           })
         )}
+
+
+        {/* last page: footer */}
+        <div className="pdf-page pdf-cover">
+          <div className="pdf-cover-content">
+            <img src={logoEnd} alt="Lletres Bàrbares" className="pdf-cover-image-end" />
+          </div>
+          
+        </div>
     </div>
   )
 }

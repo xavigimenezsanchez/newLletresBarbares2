@@ -275,7 +275,7 @@ const PDFArticlePaginatedManual: React.FC<PDFArticlePaginatedManualProps> = ({ a
             <footer className="pdf-article-footer">
               <div className="pdf-article-footer-content">
                 <div className="pdf-page-indicator">
-                  {pageIndex + pageNumberStart }/{page.totalPages}
+                  {pageIndex + pageNumberStart }
                  </div> 
               </div>
             </footer>
