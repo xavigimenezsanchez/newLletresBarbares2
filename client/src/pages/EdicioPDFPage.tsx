@@ -228,13 +228,13 @@ const EdicioPDFPage: React.FC<{issueLocal?: Issue, articlesLocal?: Article[]}> =
       <div className="pdf-page pdf-cover">
         <div className="pdf-cover-content">
           <img 
-            src={"/src/assets/background.png"}
+            src={`/api/images/${currentIssue.coverImage}`}
             alt={`Portada número ${currentIssue.number}`}
             className="pdf-cover-image"
             onError={(e) => {
               // Fallback a imagen local si no está en S3
               const target = e.currentTarget;
-              target.src = `/src/assets/porrtada${currentIssue.number}.png`;
+              target.src = `/src/assets/portada${currentIssue.number}.png`;
               target.onerror = () => {
                 // Si tampoco está local, usar una genérica
                 target.src = '/src/assets/portada0.png';

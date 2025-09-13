@@ -21,6 +21,10 @@ const issueSchema = new mongoose.Schema({
       return `Lletres Barbares - Número ${this.number}`;
     }
   },
+  coverImage: {
+    type: String,
+    required: false
+  },
   description: String,
   coverImage: String,
   isPublished: {
