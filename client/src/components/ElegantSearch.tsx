@@ -19,7 +19,7 @@ const ElegantSearch: React.FC<ElegantSearchProps> = ({ className = '' }) => {
       <div className={`hidden md:block ${className}`}>
         <button
           onClick={handleClick}
-          className="flex items-center gap-2 pl-2 text-newyorker-dark hover:text-newyorker-red transition-colors duration-200"
+          className="flex items-center gap-2 pl-2 h-[24px] text-newyorker-dark hover:text-newyorker-red transition-colors duration-200"
           aria-label="Obrir cerca"
         >
             <img src={Search} alt="Search" className="h-6 w-6 p-1" />
