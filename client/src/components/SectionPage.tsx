@@ -29,7 +29,7 @@ const SectionPage: React.FC<SectionPageProps> = ({
   sectionDisplayName 
 }) => {
   const fetchArticles = useCallback(async (page: number) => {
-    const limit = page === 1 ? 15 : 12 // Primera carga: 15, resto: 12
+    const limit = page === 1 ? 12 : 12 // Primera carga: 15, resto: 12
     const response = await apiService.getArticlesBySectionPaginated(section, page, limit) as ApiResponse
     
     return {
@@ -111,7 +111,7 @@ const SectionPage: React.FC<SectionPageProps> = ({
                     <Link to={`/${section}/${article.url}`} dangerouslySetInnerHTML={{ __html: article.title }}   />
                   </h3>
                   
-                  <p className="newyorker-article-summary" dangerouslySetInnerHTML={{ __html: article.summary }} />
+                  {/* <p className="newyorker-article-summary" dangerouslySetInnerHTML={{ __html: article.summary }} /> */}
                   
                   <div className="mt-4 pt-4 border-t border-newyorker-light-gray">
                     <div className="text-sm text-gray-600">
