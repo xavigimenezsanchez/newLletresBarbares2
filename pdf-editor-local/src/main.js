@@ -18,7 +18,7 @@ function createWindow() {
   })
 
   // En desarrollo, cargar desde Vite dev server
-  mainWindow.loadURL('http://localhost:5173')
+  mainWindow.loadURL('http://localhost:5124')
     mainWindow.webContents.openDevTools()
   // if (process.env.NODE_ENV === 'development') {
   //   mainWindow.loadURL('http://localhost:5173')

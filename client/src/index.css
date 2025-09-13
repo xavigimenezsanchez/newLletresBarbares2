@@ -1,9 +1,11 @@
 /* Import fonts */
 @import './fonts.css';
 
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+
+@import "tailwindcss";
 
 @layer base {
   html {
@@ -390,82 +392,74 @@ html[data-scroll-direction="down"] .burgerstack {
   } */
 
   /* Tamaños diferentes para crear dinamismo */
+  .magazine-card--large, .magazine-card--medium, .magazine-card--small {
+    @apply row-span-2 col-span-1;
+  }
+
 
   .magazine-grid {
-    display: grid;
-    /* grid-template-columns: 1fr;
-    grid-auto-rows: minmax(300px, auto);
-    grid-auto-flow: row dense; */
-
-
-
-    /* grid-template-columns: repeat(12, 1fr);
-    gap: 2rem; */
-    /* gap: 1.5rem; */
+    @apply grid grid-cols-1 gap-0;
+    /* grid-flow-row-dense grid-cols-12 gap-0; */
   }
 
-  @media (min-width: 1024px) {
-    .magazine-grid {
-      grid-template-columns: repeat(8, 1fr);
-    }
-    
-    .magazine-card--large {
-      grid-column: span 5;
-    }
-    .magazine-card--medium {
-      grid-column: span 3;
-    }
-    .magazine-card--small {
-      grid-column: span 3;
-    }
-  }
+
 
 
   @media (min-width: 768px) {
     .magazine-grid {
-      grid-template-columns: repeat(6, 1fr);
+      @apply grid  grid-flow-row-dense  grid-cols-6 gap-0; 
     }
-    
     .magazine-card--large {
-      grid-column: span 6;
+      @apply col-span-6 row-span-4;
     }
     .magazine-card--medium {
-      grid-column: span 3;
+      @apply col-span-3 row-span-2;
     }
     .magazine-card--small {
-      grid-column: span 3;
+      @apply col-span-3 row-span-1;
     }
   }
 
-  /* Responsive breakpoints */
-  @media (min-width: 1200px) {
+
+  @media (min-width: 1024px) {
     .magazine-grid {
-      grid-template-columns: repeat(12, 1fr);
-      /* gap: 2rem; */
+      @apply grid  grid-flow-row-dense grid-flow-col grid-cols-9 gap-0; 
     }
+    
     .magazine-card--large {
-      grid-column: span 8;
-      grid-row: span 2;
-      /*background: rgba(255, 0, 0, 0.1);  Debug: rojo para large */
+      @apply col-span-6 row-span-4;
+    }
+    .magazine-card--medium {
+      @apply col-span-3 row-span-2;
+    }
+    .magazine-card--small {
+      @apply col-span-3 row-span-1;
+    }
+  }
+
+  @media (min-width: 1200px) {
+
+    .magazine-grid {
+      @apply grid  grid-flow-row-dense grid-flow-col grid-cols-12; 
+    }
+
+    .magazine-card--large {
+      @apply col-span-8 row-span-8;
     }
   
     .magazine-card--medium {
-      grid-column: span 4;
-      grid-row: span 1;
-      /*background: rgba(0, 255, 0, 0.1);  Debug: verde para medium */
+      @apply col-span-4 row-span-4;
     }
   
     .magazine-card--small {
-      grid-column: span 4;
-      grid-row: span 1;
-        /*background: rgba(0, 0, 255, 0.1);  Debug: azul para small */
+      @apply col-span-4 row-span-2;
       }
 
-    .magazine-card--small {
+    /* .magazine-card--small {
       grid-column: span 4;
       grid-row: span 1;
         /*background: rgba(0, 0, 255, 0.1);  Debug: azul para small */
-      }
+      
 
       arxiu-grid {
         @apply grid-cols-1 sm:grid-cols-2;
@@ -503,27 +497,8 @@ html[data-scroll-direction="down"] .burgerstack {
   .mobile-filter-modal-content {
     scroll-behavior: smooth;
   }
-
-  /* Mejoras responsivas para la página de archivo */
-  /* @media (min-width: 1023px) {
-    .arxiu-grid {
-      @apply grid-cols-1 sm:grid-cols-2;
-    }
-    
-    .arxiu-container {
-      @apply mx-auto pr-4 pl-4 pb-8 pt-60  md:w-full md:pt-60;
-    }
-    
-    .arxiu-title {
-      @apply text-3xl;
-    }
-  } */
-  }
-
-
-
-
-
+}
+  
 
   .magazine-card__image {
     position: relative;
@@ -532,11 +507,8 @@ html[data-scroll-direction="down"] .burgerstack {
     justify-content: center;
   }
 
-  .magazine-card--large {
-    @apply grid-row-span-2 grid-col-span-12;
-  }
 
-  
+
   .magazine-card--large .magazine-card__image {
      max-width: 300px;
      margin: 0 auto;
