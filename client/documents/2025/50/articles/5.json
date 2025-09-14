@@ -1,64 +1,114 @@
 {
-    "title" : "Pro me lata, pro te angusta",
-    "url" : "pro_me_lata_pro_te_angusta",
-    "section" : "articles",
-    "issue" : 49,
-    "data" : "27/07/2025",
-    "imageCard" : "carbonell49-01",
-    "author" : "Àngel Carbonell",
-    "summary" : "",
-    "text": [
-        {
-            "type" : "image",
-            "name" : "carbonell49-01"
-        },
+  "_id": {
+    "$oid": "688f8e37ac16e0dadcf03d8f"
+  },
+  "issueId": {
+    "$oid": "688f8e36ac16e0dadcf03d80"
+  },
+  "issue": 2025,
+  "data": "27/07/2025",
+  "imageCard": "carbonell49-01",
+  "title": "Pro me lata, pro te angusta",
+  "url": "pro_me_lata_pro_te_angusta",
+  "section": "articles",
+  "author": "Àngel Carbonell",
+  "summary": "",
+  "text": [
     {
-      "type": "paragraph",
-      "content": "La democràcia, tal com es proclama en la teoria, és un sistema destinat a representar la voluntat del poble i a garantir els drets de tots els ciutadans. Aquesta idealització, però, sovint contrasta radicalment amb la seva pràctica en molts països on la democràcia formal es presenta com una estructura institucional sòlida, però que, en realitat, ha quedat segrestada per interessos econòmics i polítics que privilegien a una minoria. Les decisions es prenen no en funció de les necessitats de la majoria, sinó a favor d'aquells que concentren el poder, sigui en forma de riquesa, influència corporativa o control sobre les institucions."
+      "type": "image",
+      "name": "carbonell49-01",
+      "pdf": { "page": 1 }
     },
     {
       "type": "paragraph",
-      "content": "Aquesta desviació de la democràcia cap a un sistema que serveix els interessos de les elits genera múltiples conseqüències. D’una banda, alimenta la frustració i la desafecció dels ciutadans que no se senten representats. De l’altra, crea un terreny fèrtil per a l’emergència de forces polítiques populistes, que aprofiten aquest buit per construir discursos simplificats que connecten amb la ira i el desencís generalitzats. Això no només amenaça de transformar la democràcia liberal en una caricatura d’ella mateixa, sinó que posa en risc els principis fonamentals d’equitat, justícia i inclusió que haurien de ser-ne el fonament."
+      "content": "La democràcia, tal com es proclama en la teoria, és un sistema destinat a representar la voluntat del poble i a garantir els drets de tots els ciutadans. Aquesta idealització, però, sovint contrasta radicalment amb la seva pràctica en molts països on la democràcia formal es presenta com una estructura institucional sòlida, però que, en realitat, ha quedat segrestada per interessos econòmics i polítics que privilegien a una minoria. Les decisions es prenen no en funció de les necessitats de la majoria, sinó a favor d'aquells que concentren el poder, sigui en forma de riquesa, influència corporativa o control sobre les institucions.",
+      "pdf": { "page": 1 }
     },
     {
       "type": "paragraph",
-      "content": "El procés pel qual la democràcia ha estat capturada és insidiós i difícil de detectar en temps real. Les retallades en serveis públics essencials com l’educació i la sanitat són un exemple clar d’aquesta dinàmica. En nom de l’austeritat o l’eficiència econòmica, els governs han desmantellat sistemes que, en la seva millor expressió, haurien d’igualar oportunitats i garantir condicions de vida dignes per a tothom. Aquest desmantellament no és casual: sovint respon a la pressió d’interessos corporatius que veuen en la privatització una oportunitat per incrementar beneficis. Els serveis públics infrafinançats queden en una situació que sembla justificar les alternatives privades, convertint la desigualtat en un negoci lucratiu."
+      "content": "Aquesta desviació de la democràcia cap a un sistema que serveix els interessos de les elits genera múltiples conseqüències. D’una banda, alimenta la frustració i la desafecció dels ciutadans que no se senten representats. De l’altra, crea un terreny fèrtil per a l’emergència de forces polítiques populistes, que aprofiten aquest buit per construir discursos simplificats que connecten amb la ira i el desencís generalitzats. Això no només amenaça de transformar la democràcia liberal en una caricatura d’ella mateixa, sinó que posa en risc els principis fonamentals d’equitat, justícia i inclusió que haurien de ser-ne el fonament.",
+      "pdf": { "page": 1 }
     },
     {
       "type": "paragraph",
-      "content": "Aquest cicle reforça una estructura de poder en què els més rics i influents amplien constantment la seva capacitat de modelar les polítiques públiques. Ho fan a través del finançament dels partits polítics, la influència als mitjans de comunicació, el control dels lobbies i les seves estretes relacions amb institucions econòmiques i financeres globals. Aquesta concentració de poder crea un marc en què les institucions democràtiques operen dins de marges molt estrets, amb les polítiques condicionades per forces que van més enllà del control dels ciutadans corrents."
+      "content": "El procés pel qual la democràcia ha estat capturada és insidiós i difícil de detectar en temps real. Les retallades en serveis públics essencials com l’educació i la sanitat són un exemple clar d’aquesta dinàmica. En nom de l’austeritat o l’eficiència econòmica, els governs han desmantellat sistemes que, en la seva millor expressió, haurien d’igualar oportunitats i garantir condicions de vida dignes per a tothom. Aquest desmantellament no és casual: sovint respon a la pressió d’interessos corporatius que veuen en la privatització una oportunitat per incrementar beneficis. Els serveis públics infrafinançats queden en una situació que sembla justificar les alternatives privades, convertint la desigualtat en un negoci lucratiu.",
+      "pdf": { "page": 1,
+        "division": {
+          "alignLast": true,
+          "contentPage": "El procés pel qual la democràcia ha estat capturada és insidiós i difícil de detectar en temps real. Les retallades en serveis públics essencials com l’educació i la sanitat són un exemple clar d’aquesta",
+          "contentNextPage": "dinàmica. En nom de l’austeritat o l’eficiència econòmica, els governs han desmantellat sistemes que, en la seva millor expressió, haurien d’igualar oportunitats i garantir condicions de vida dignes per a tothom. Aquest desmantellament no és casual: sovint respon a la pressió d’interessos corporatius que veuen en la privatització una oportunitat per incrementar beneficis. Els serveis públics infrafinançats queden en una situació que sembla justificar les alternatives privades, convertint la desigualtat en un negoci lucratiu."
+        }
+      }
     },
     {
       "type": "paragraph",
-      "content": "Mentrestant, l’electorat observa amb creixent frustració com les promeses de canvi es queden en no res un cop els governs prenen el poder. Aquesta desconnexió entre les expectatives de la ciutadania i la realitat de les polítiques aplicades genera desconfiança. L'escepticisme no només es dirigeix contra els governs específics, sinó també contra el sistema democràtic en conjunt. Es fa evident que el vot, tot i ser el pilar central del sistema formal, sovint no té l’efecte desitjat. En molts casos, la competència electoral es redueix a un exercici d’intercanvi retòric entre opcions polítiques que, en la pràctica, implementen polítiques molt similars un cop han accedit al poder."
+      "content": "Aquest cicle reforça una estructura de poder en què els més rics i influents amplien constantment la seva capacitat de modelar les polítiques públiques. Ho fan a través del finançament dels partits polítics, la influència als mitjans de comunicació, el control dels lobbies i les seves estretes relacions amb institucions econòmiques i financeres globals. Aquesta concentració de poder crea un marc en què les institucions democràtiques operen dins de marges molt estrets, amb les polítiques condicionades per forces que van més enllà del control dels ciutadans corrents.",
+      "pdf": { "page": 2 }
     },
     {
       "type": "paragraph",
-      "content": "Aquest marc ens força a reflexionar sobre la naturalesa d’aquest sistema democràtic formal. És realment una democràcia quan les decisions importants es prenen a porta tancada, sota la influència de grups econòmics que no són elegits per la ciutadania? Potser no. Tal vegada cal admetre que allò que presentem com democràcia és, en essència, una oligarquia, en què unes poques mans controlen el destí de molts. O fins i tot, una plutocràcia, on la riquesa no només dona accés al poder, sinó que garanteix la continuïtat del seu domini generació rere generació."
+      "content": "Mentrestant, l’electorat observa amb creixent frustració com les promeses de canvi es queden en no res un cop els governs prenen el poder. Aquesta desconnexió entre les expectatives de la ciutadania i la realitat de les polítiques aplicades genera desconfiança. L'escepticisme no només es dirigeix contra els governs específics, sinó també contra el sistema democràtic en conjunt. Es fa evident que el vot, tot i ser el pilar central del sistema formal, sovint no té l’efecte desitjat. En molts casos, la competència electoral es redueix a un exercici d’intercanvi retòric entre opcions polítiques que, en la pràctica, implementen polítiques molt similars un cop han accedit al poder.",
+      "pdf": { "page": 2 }
     },
     {
       "type": "paragraph",
-      "content": "Aquesta realitat no es pot desvincular de l’auge dels populismes, tant d’extrema esquerra com d’extrema dreta. Quan les institucions democràtiques no responen a les necessitats de les majories i es perceben com a aliades dels poderosos, sorgeixen actors polítics que prometen sacsejar l’ordre establert. Aquests populismes canalitzen l’enuig i la frustració ciutadana cap a projectes que sovint posen en risc els principis democràtics. Encara que les ideologies d’aquests moviments són diferents, comparteixen un ús recurrent de l’emoció i la simplificació per mobilitzar suports, així com una crítica frontal a la legitimitat de les institucions existents."
+      "content": "Aquest marc ens força a reflexionar sobre la naturalesa d’aquest sistema democràtic formal. És realment una democràcia quan les decisions importants es prenen a porta tancada, sota la influència de grups econòmics que no són elegits per la ciutadania? Potser no. Tal vegada cal admetre que allò que presentem com democràcia és, en essència, una oligarquia, en què unes poques mans controlen el destí de molts. O fins i tot, una plutocràcia, on la riquesa no només dona accés al poder, sinó que garanteix la continuïtat del seu domini generació rere generació.",
+      "pdf": { "page": 2 }
     },
     {
       "type": "paragraph",
-      "content": "Els populismes d’extrema dreta sovint instrumentalitzen la por i el ressentiment, amb discursos xenòfobs, nacionalistes i autoritaris. Aquests moviments es presenten com a guardians de valors tradicionals i denuncien enemics que suposadament amenacen l’ordre social. En canvi, els populismes d’extrema esquerra solen apuntar directament al capitalisme global, les grans corporacions i les desigualtats estructurals. Prometen solucions radicals, amb la promesa de redistribuir el poder i la riquesa en nom del poble. Tot i que els objectius finals d’aquests dos corrents són profundament diferents, el seu efecte és similar: polaritzen la societat, erosionen la confiança en les institucions democràtiques tradicionals i poden desembocar en sistemes polítics menys participatius i més autoritaris."
+      "content": "Aquesta realitat no es pot desvincular de l’auge dels populismes, tant d’extrema esquerra com d’extrema dreta. Quan les institucions democràtiques no responen a les necessitats de les majories i es perceben com a aliades dels poderosos, sorgeixen actors polítics que prometen sacsejar l’ordre establert. Aquests populismes canalitzen l’enuig i la frustració ciutadana cap a projectes que sovint posen en risc els principis democràtics. Encara que les ideologies d’aquests moviments són diferents, comparteixen un ús recurrent de l’emoció i la simplificació per mobilitzar suports, així com una crítica frontal a la legitimitat de les institucions existents.",
+      "pdf": { 
+        "page": 2,
+        "division": {
+          "alignLast": true,
+          "contentPage": "Aquesta realitat no es pot desvincular de l’auge dels populismes, tant d’extrema esquerra com d’extrema dreta. Quan les institucions democràtiques no responen a les necessitats de les majories i es perceben com a aliades dels poderosos, sorgeixen actors polítics que prometen sacsejar l’ordre establert. Aquests populismes canalitzen l’enuig i la frustració ciutadana cap a projectes que sovint posen en risc els principis democràtics. Encara que les ideologies d’aquests moviments són diferents,",
+          "contentNextPage": "comparteixen un ús recurrent de l’emoció i la simplificació per mobilitzar suports, així com una crítica frontal a la legitimitat de les institucions existents."
+        }
+      }
     },
     {
       "type": "paragraph",
-      "content": "La resposta a aquesta crisi no és tan senzilla com oposar-se frontalment als populismes. Això no atacaria l’arrel del problema, sinó que podria reforçar la narrativa segons la qual el sistema existent està blindat contra qualsevol canvi. La veritable solució rau en la renovació profunda de la democràcia liberal. Si les institucions polítiques volen recuperar la confiança ciutadana, han de demostrar que poden escoltar i respondre a les necessitats de les majories. Això passa per la implementació de polítiques que prioritzin el bé comú per sobre dels interessos econòmics privats i per la construcció de mecanismes que permetin una participació ciutadana més directa en la presa de decisions."
+      "content": "Els populismes d’extrema dreta sovint instrumentalitzen la por i el ressentiment, amb discursos xenòfobs, nacionalistes i autoritaris. Aquests moviments es presenten com a guardians de valors tradicionals i denuncien enemics que suposadament amenacen l’ordre social. En canvi, els populismes d’extrema esquerra solen apuntar directament al capitalisme global, les grans corporacions i les desigualtats estructurals. Prometen solucions radicals, amb la promesa de redistribuir el poder i la riquesa en nom del poble. Tot i que els objectius finals d’aquests dos corrents són profundament diferents, el seu efecte és similar: polaritzen la societat, erosionen la confiança en les institucions democràtiques tradicionals i poden desembocar en sistemes polítics menys participatius i més autoritaris.",
+      "pdf": { "page": 3 }
     },
     {
       "type": "paragraph",
-      "content": "A més, cal limitar dràsticament el paper dels diners en la política. Els sistemes actuals, on el finançament privat de campanyes és una pràctica habitual, permeten que aquells amb més recursos tinguin una influència desproporcionada. Igualment, cal reduir el poder dels lobbies i augmentar la transparència de la presa de decisions, per garantir que aquestes responguin a criteris d’interès públic i no d’elitisme corporatiu. També és urgent reformar el marc institucional per garantir que les promeses electorals siguin més vinculants i que les decisions clau no es prenguin en estructures supranacionals opaques sense supervisió democràtica."
+      "content": "La resposta a aquesta crisi no és tan senzilla com oposar-se frontalment als populismes. Això no atacaria l’arrel del problema, sinó que podria reforçar la narrativa segons la qual el sistema existent està blindat contra qualsevol canvi. La veritable solució rau en la renovació profunda de la democràcia liberal. Si les institucions polítiques volen recuperar la confiança ciutadana, han de demostrar que poden escoltar i respondre a les necessitats de les majories. Això passa per la implementació de polítiques que prioritzin el bé comú per sobre dels interessos econòmics privats i per la construcció de mecanismes que permetin una participació ciutadana més directa en la presa de decisions.",
+      "pdf": { "page": 3 }
     },
     {
       "type": "paragraph",
-      "content": "Però això només serà possible si hi ha una mobilització ciutadana conscient i persistent. El desafiament més gran és recuperar la participació activa de les persones en els processos polítics. Això no només passa pel vot, sinó també per la implicació en moviments socials, plataformes locals i espais de deliberació col·lectiva. Una democràcia forta no pot dependre exclusivament de les institucions; requereix una societat civil viva, crítica i organitzada, capaç de pressionar i influir en les estructures del poder."
+      "content": "A més, cal limitar dràsticament el paper dels diners en la política. Els sistemes actuals, on el finançament privat de campanyes és una pràctica habitual, permeten que aquells amb més recursos tinguin una influència desproporcionada. Igualment, cal reduir el poder dels lobbies i augmentar la transparència de la presa de decisions, per garantir que aquestes responguin a criteris d’interès públic i no d’elitisme corporatiu. També és urgent reformar el marc institucional per garantir que les promeses electorals siguin més vinculants i que les decisions clau no es prenguin en estructures supranacionals opaques sense supervisió democràtica.",
+      "pdf": { "page": 3 }
     },
     {
       "type": "paragraph",
-      "content": "El segrest de la democràcia no és només un problema tècnic o una qüestió de corrupció moral; és una qüestió existencial. Si no som capaços de revertir aquest procés, el risc és que la democràcia esdevingui només una il·lusió, una paraula buida utilitzada per legitimar un sistema profundament desigual. La tasca és immensa, però també necessària. El futur de la democràcia depèn de la nostra capacitat per imaginar alternatives i lluitar per elles, tornant a posar el poder real al servei de la majoria. Sense aquest esforç col·lectiu, el sistema continuarà caminant cap a l’abisme, erosionant no només els seus propis valors, sinó també l’esperança d’un futur més just."
+      "content": "Però això només serà possible si hi ha una mobilització ciutadana conscient i persistent. El desafiament més gran és recuperar la participació activa de les persones en els processos polítics. Això no només passa pel vot, sinó també per la implicació en moviments socials, plataformes locals i espais de deliberació col·lectiva. Una democràcia forta no pot dependre exclusivament de les institucions; requereix una societat civil viva, crítica i organitzada, capaç de pressionar i influir en les estructures del poder.",
+      "pdf": { 
+        "page": 3,
+        "division": {
+          "alignLast": true,
+          "contentPage": "Però això només serà possible si hi ha una mobilització ciutadana conscient i persistent. El desafiament més gran és recuperar la participació activa de les persones en els processos polítics. Això no només passa pel vot, sinó també per la implicació en moviments socials, plataformes locals i espais de deliberació col·lectiva. Una democràcia forta no pot dependre exclusivament de les",
+          "contentNextPage": "institucions; requereix una societat civil viva, crítica i organitzada, capaç de pressionar i influir en les estructures del poder."
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "El segrest de la democràcia no és només un problema tècnic o una qüestió de corrupció moral; és una qüestió existencial. Si no som capaços de revertir aquest procés, el risc és que la democràcia esdevingui només una il·lusió, una paraula buida utilitzada per legitimar un sistema profundament desigual. La tasca és immensa, però també necessària. El futur de la democràcia depèn de la nostra capacitat per imaginar alternatives i lluitar per elles, tornant a posar el poder real al servei de la majoria. Sense aquest esforç col·lectiu, el sistema continuarà caminant cap a l’abisme, erosionant no només els seus propis valors, sinó també l’esperança d’un futur més just.",
+      "pdf": { "page": 4 }
     }
+  ],
+  "publicationDate": {
+    "$date": "2025-07-26T22:00:00.000Z"
+  },
+  "isPublished": true,
+  "tags": [],
+  "readTime": 5,
+  "year": 2025,
+  "issueNumber": 49,
+  "authors": [
+    "Àngel Carbonell"
   ]
 }

@@ -1,45 +1,82 @@
 {
-    "title" : "Geografia d'aigua",
-    "url" : "geografia_d_aigua",
-    "section" : "llibres",
-    "issue" : 49,
-    "data" : "27/07/2025",
-    "imageCard" : "soler49-01",
-    "author" : "Nati Soler Alcaide",
-    "summary" : "",
-    "text": [
-        {
-            "type" : "image",
-            "name" : "soler49-01",
-            "content": "La poeta M. Carme Arnau"
-        },
+  "_id": {
+    "$oid": "688f8e38ac16e0dadcf03d9e"
+  },
+  "issueId": {
+    "$oid": "688f8e36ac16e0dadcf03d80"
+  },
+  "issue": 2025,
+  "data": "27/07/2025",
+  "imageCard": "soler49-01",
+  "title": "Geografia d'aigua",
+  "url": "geografia_d_aigua",
+  "section": "llibres",
+  "author": "Nati Soler Alcaide",
+  "summary": "",
+  "text": [
     {
-      "type": "paragraph",
-      "content": "Hi ha qui diu que al nostre país sobren premis literaris; no sé si, al capdavall, ens volen fer entendre que hi ha massa reconeixements públics per escriure en català i no gosen dir-ho amb claredat. Qui ho afirma no ha especificat els noms concrets dels premis sobrers i, com que ho diu a la manera de tirar la pedra i amagar el braç, no li he pogut preguntar obertament de quins premis prescindiria o a quins autors premiats silenciaria. Encara que no hagi pogut fer les preguntes a qui pertoca, sé la resposta. La sé perquè fa molt que segueixo el panorama citat i del meu estar amatent n’he tret conclusions. Hi ha premis que es consideren menors o insignificants i, generalment, aquesta valoració es fa en funció del nombre d’habitants de la població que atorga el guardó. Oblidant que l’esforç econòmic a favor de la literatura fet per un poble petit, proporcionalment sempre supera amb escreix l’esforç fet per una populosa ciutat. Els concursos convocats per petits ajuntaments acostumen a demanar treballs poc extensos, fet que reverteix en una alta participació i en una menor possibilitat de premi per als concursants. També he observat l’existència d’autors sistemàticament ocultats i aquesta ocultació es fa prescindint dels seus textos i de la seva presència arreu, com si existís un acord tàcit per silenciar-los, el qual estic segura que no hi és, però es practica. L’any que un d’aquests escriptors guanya un determinat premi, aquella edició del premi es torna invisible i, l’any que aquell mateix premi és adjudicat a un escriptor destinat a la visibilitat, aquell any la publicitat al seu entorn es multiplica graciosament."
+      "type": "image",
+      "name": "soler49-01",
+      "content": "La poeta M. Carme Arnau",
+      "pdf": { "page": 1 }
     },
     {
       "type": "paragraph",
-      "content": "La fila dels literats invisibles en llengua catalana és llarga. Ho és perquè les vendes de llibres en català és més reduïda del que molts desitgem i per aconseguir uns certs beneficis econòmics pel producte ofert, cal triar uns pocs i fer que aquests predestinats arribin al cim de l’esquifida glòria possible. Tinc ganes de fer i publicar la llarga llista d’autors catalans invisibles, però tal com ens deien en el passat opac, «ara no toca». Tocarà? Quan? Tocarà quan l’etiqueta d’invisible no sigui un dolor considerable per qui la porta o tocarà quan, com és el cas d’avui, qui forma part dels invisibles sigui alhora multipremiada, i s’hagi convertit en activista cultural incansable. M. Carme Arnau és una de les poetes i escriptores en qui coincideixen aquestes característiques i a més a més podem afegir, tal com era fàcilment deduïble, que no és una autora novella. És una autora consolidada i d'una molt llarga i sòlida trajectòria."
+      "content": "Hi ha qui diu que al nostre país sobren premis literaris; no sé si, al capdavall, ens volen fer entendre que hi ha massa reconeixements públics per escriure en català i no gosen dir-ho amb claredat. Qui ho afirma no ha especificat els noms concrets dels premis sobrers i, com que ho diu a la manera de tirar la pedra i amagar el braç, no li he pogut preguntar obertament de quins premis prescindiria o a quins autors premiats silenciaria. Encara que no hagi pogut fer les preguntes a qui pertoca, sé la resposta. La sé perquè fa molt que segueixo el panorama citat i del meu estar amatent n’he tret conclusions. Hi ha premis que es consideren menors o insignificants i, generalment, aquesta valoració es fa en funció del nombre d’habitants de la població que atorga el guardó. Oblidant que l’esforç econòmic a favor de la literatura fet per un poble petit, proporcionalment sempre supera amb escreix l’esforç fet per una populosa ciutat. Els concursos convocats per petits ajuntaments acostumen a demanar treballs poc extensos, fet que reverteix en una alta participació i en una menor possibilitat de premi per als concursants. També he observat l’existència d’autors sistemàticament ocultats i aquesta ocultació es fa prescindint dels seus textos i de la seva presència arreu, com si existís un acord tàcit per silenciar-los, el qual estic segura que no hi és, però es practica. L’any que un d’aquests escriptors guanya un determinat premi, aquella edició del premi es torna invisible i, l’any que aquell mateix premi és adjudicat a un escriptor destinat a la visibilitat, aquell any la publicitat al seu entorn es multiplica graciosament.",
+      "pdf": { 
+        "page": 1
+      }
     },
     {
       "type": "paragraph",
-      "content": "Us feia aquest preàmbul il·lustratiu sobre la situació real d’un sector massa gran de la literatura per a transmetre la meva admiració per la suma dels elements esmentats: dos premis considerats menors, guanyats per una poeta que hauria de sonar molt més del que sona i, aquí hi podem afegir un altre element peculiar, editats per una petita editorial. Els premis són el 38è premi de poesia Pastor Aicard 2023 de Beneixama i el 40è Premi Sant Antoni de Poesia 2023 del Perelló; i la petita, gran, editorial que publica els dos premis junts és Tèmenos. M. Carme Arnau fa un encertat collage amb els noms dels dos treballs guardonats i aconsegueix un nom rotund per la peça: Geografia d’aigua."
+      "content": "La fila dels literats invisibles en llengua catalana és llarga. Ho és perquè les vendes de llibres en català és més reduïda del que molts desitgem i per aconseguir uns certs beneficis econòmics pel producte ofert, cal triar uns pocs i fer que aquests predestinats arribin al cim de l’esquifida glòria possible. Tinc ganes de fer i publicar la llarga llista d’autors catalans invisibles, però tal com ens deien en el passat opac, «ara no toca». Tocarà? Quan? Tocarà quan l’etiqueta d’invisible no sigui un dolor considerable per qui la porta o tocarà quan, com és el cas d’avui, qui forma part dels invisibles sigui alhora multipremiada, i s’hagi convertit en activista cultural incansable. M. Carme Arnau és una de les poetes i escriptores en qui coincideixen aquestes característiques i a més a més podem afegir, tal com era fàcilment deduïble, que no és una autora novella. És una autora consolidada i d'una molt llarga i sòlida trajectòria.",
+      "pdf": { "page": 2 }
     },
     {
       "type": "paragraph",
-      "content": "Inicia el llibre de manera valenta, <em>«T’has llençat a l’aigua / sense conèixer-ne la fondària»</em>,<em> </em>i<em> </em>acaba el poema trobant la salvació, <em>«Si no fos per la humanitat/ que respires, els teus somnis / i els teus ulls serien de sal»</em>.<em> </em>Això passa perquè la poeta vol canviar el món i el món es resisteix a perdre les velles guies i les tradicionals corrupcions; Arnau ho sap, és una dona amb experiència, practicant del coneix-te a tu mateix i sabedora del cost d’aquesta pràctica, aparentment propera. Diu de tots que <em>«Som éssers de fragàncies mudes»</em> i em fa pensar que ho som, però ho amaguem i ho amaguem per por, per manca de llibertat o pel temible desconeixement de la vàlua pròpia i, aquest, el fet d’amagar-nos a nosaltres mateixos, és un camí perillós. Confio que sigui un sender, no vull ni imaginar que, el fet d'ignorar-nos, sigui una via ràpida que ens porti a anar perdent la pietat i d’aquí a mirar amb pupil·les d’estàtua, recordant els versos de la poeta Maica Rafecas. M. Carme Arnau sap dels dubtes humans, els entén, els justifica i els difon retratant-los amb paraules bellament triades, <em>«Els sentiments que dibuixen els llavis/ són fràgils i, incansablement fluctuen»</em>.<em> </em>Sap i nota el cansament per la lluita i el canta una vegada darrere l'altra, sense defallir, amb la intenció i l’esperança de mantenir o, fins i tot, d’engreixar els ànims amb la màxima força que ens permet viure entre tanta incongruència i sabent-nos propietaris d’una enorme fragilitat."
+      "content": "Us feia aquest preàmbul il·lustratiu sobre la situació real d’un sector massa gran de la literatura per a transmetre la meva admiració per la suma dels elements esmentats: dos premis considerats menors, guanyats per una poeta que hauria de sonar molt més del que sona i, aquí hi podem afegir un altre element peculiar, editats per una petita editorial. Els premis són el 38è premi de poesia Pastor Aicard 2023 de Beneixama i el 40è Premi Sant Antoni de Poesia 2023 del Perelló; i la petita, gran, editorial que publica els dos premis junts és Tèmenos. M. Carme Arnau fa un encertat collage amb els noms dels dos treballs guardonats i aconsegueix un nom rotund per la peça: Geografia d’aigua.",
+      "pdf": { 
+        "page": 2
+      }
     },
     {
       "type": "paragraph",
-      "content": "La saviesa salicada dels versos d’aquesta <em>Geografia d’aigua</em> ens mostra imatges deliqüescents quan, sense necessitat de mirar els núvols, ens mirem a nosaltres mateixos i podem <em>«Estirar els fils invisibles de la llum»</em> i arribar a la conclusió apuntada,<em> «obres la mirada al món/ i és el món qui et mira»</em>,<em> </em>mentre ens ressona dins un consell infal·lible per aconseguir la justícia somniada, <em>«Deixa l’absurda conquesta dels objectes».</em>"
+      "content": "Inicia el llibre de manera valenta, <em>«T’has llençat a l’aigua / sense conèixer-ne la fondària»</em>,<em> </em>i<em> </em>acaba el poema trobant la salvació, <em>«Si no fos per la humanitat/ que respires, els teus somnis / i els teus ulls serien de sal»</em>.<em> </em>Això passa perquè la poeta vol canviar el món i el món es resisteix a perdre les velles guies i les tradicionals corrupcions; Arnau ho sap, és una dona amb experiència, practicant del coneix-te a tu mateix i sabedora del cost d’aquesta pràctica, aparentment propera. Diu de tots que <em>«Som éssers de fragàncies mudes»</em> i em fa pensar que ho som, però ho amaguem i ho amaguem per por, per manca de llibertat o pel temible desconeixement de la vàlua pròpia i, aquest, el fet d’amagar-nos a nosaltres mateixos, és un camí perillós. Confio que sigui un sender, no vull ni imaginar que, el fet d'ignorar-nos, sigui una via ràpida que ens porti a anar perdent la pietat i d’aquí a mirar amb pupil·les d’estàtua, recordant els versos de la poeta Maica Rafecas. M. Carme Arnau sap dels dubtes humans, els entén, els justifica i els difon retratant-los amb paraules bellament triades, <em>«Els sentiments que dibuixen els llavis/ són fràgils i, incansablement fluctuen»</em>.<em> </em>Sap i nota el cansament per la lluita i el canta una vegada darrere l'altra, sense defallir, amb la intenció i l’esperança de mantenir o, fins i tot, d’engreixar els ànims amb la màxima força que ens permet viure entre tanta incongruència i sabent-nos propietaris d’una enorme fragilitat.",
+      "pdf": { 
+        "page": 2
+      }
     },
     {
       "type": "paragraph",
-      "content": "En aquest poemari trobem poesia dins la poesia i té la mateixa finalitat que el mirall de Velázquez al quadre de «Les Menines», aprofundir fins a l’infinit i aportar llum. Usant aquesta tècnica, la poeta fa de la seva tasca una comesa plaent, irrenunciable i responsable i, també, fa que el seu ofici sigui una benedicció per qui és triat per ell, un desig per als no elegits i un goig pels qui en podem palpar els resultats i assaborir-los, sentint-nos inclosos en totes les crides, les reivindicatives, les de reconeixement i les que conviden a sentir."
+      "content": "La saviesa salicada dels versos d’aquesta <em>Geografia d’aigua</em> ens mostra imatges deliqüescents quan, sense necessitat de mirar els núvols, ens mirem a nosaltres mateixos i podem <em>«Estirar els fils invisibles de la llum»</em> i arribar a la conclusió apuntada,<em> «obres la mirada al món/ i és el món qui et mira»</em>,<em> </em>mentre ens ressona dins un consell infal·lible per aconseguir la justícia somniada, <em>«Deixa l’absurda conquesta dels objectes».</em>",
+      "pdf": { 
+        "page": 3
+      }
     },
-     {
-        "type" : "paragraph",
-        "content" : "<div style=\"display: flex; justify-content: center\"></br></br><div><em>Sents créixer, als llavis, ocells</em><br /><em>que, potser, recorreran</em><br /><em>geografies del cel,</em><br /><em>i obriran finestres</em><br /><em>quan la vida es desgrane.</em></div></div>"
+    {
+      "type": "paragraph",
+      "content": "En aquest poemari trobem poesia dins la poesia i té la mateixa finalitat que el mirall de Velázquez al quadre de «Les Menines», aprofundir fins a l’infinit i aportar llum. Usant aquesta tècnica, la poeta fa de la seva tasca una comesa plaent, irrenunciable i responsable i, també, fa que el seu ofici sigui una benedicció per qui és triat per ell, un desig per als no elegits i un goig pels qui en podem palpar els resultats i assaborir-los, sentint-nos inclosos en totes les crides, les reivindicatives, les de reconeixement i les que conviden a sentir.",
+      "pdf": { 
+        "page": 3
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "<div style=\"display: flex; justify-content: center\"></br></br><div><em>Sents créixer, als llavis, ocells</em><br /><em>que, potser, recorreran</em><br /><em>geografies del cel,</em><br /><em>i obriran finestres</em><br /><em>quan la vida es desgrane.</em></div></div>",
+      "pdf": { 
+        "page": 3
+      }
     }
+  ],
+  "publicationDate": {
+    "$date": "2025-07-26T22:00:00.000Z"
+  },
+  "isPublished": true,
+  "tags": [],
+  "readTime": 5,
+  "year": 2025,
+  "issueNumber": 49,
+  "authors": [
+    "Nati Soler Alcaide"
   ]
 }

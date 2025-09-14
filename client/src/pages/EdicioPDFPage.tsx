@@ -124,22 +124,7 @@ const EdicioPDFPage: React.FC<{issueLocal?: Issue, articlesLocal?: Article[]}> =
         // Cargar datos de la edición
         const articlesData = await apiService.getArticlesByIssueNumber(issueNumber)
         const issueArticles = (articlesData as any).articles || []
-        
-        // Si no tenemos issue completo, crear uno básico
-        // if (!currentIssue && issueArticles.length > 0) {
-        //   const firstArticle = issueArticles[0]
-        //   const basicIssue: Issue = {
-        //     number: issueNumber,
-        //     year: firstArticle.year || 2024,
-        //     publicationDate: firstArticle.publicationDate || new Date().toISOString(),
-        //     title: `Lletres Barbares - Número ${issueNumber}`,
-        //     isPublished: true,
-        //     coverImage: `portada${issueNumber}.jpg`, // Asumimos este patrón
-        //     pdfManual: false // Por defecto no es manual
-        //   }
-        //   setCurrentIssue(basicIssue)
-        // }
-        
+                
         setArticles(issueArticles)
         
       } catch (error) {
@@ -257,6 +242,32 @@ const EdicioPDFPage: React.FC<{issueLocal?: Issue, articlesLocal?: Article[]}> =
               month: 'long',
               day: 'numeric'
             })}
+          </div>
+        </div>
+      </div>
+
+      {/* Página 3: Créditos */}
+      <div className="pdf-page pdf-credits">
+        <div className="pdf-page-content">
+          <div className="pdf-credits-content">
+            <div className="pdf-credits-item">
+              <h3 className="pdf-credits-title">Editors</h3>
+              <div className="pdf-credits-text">Àngel Carbonell</div>
+              <div className="pdf-credits-text">Josep-Andreu Pèrez Mingorance</div>
+            </div>
+            <div className="pdf-credits-item">
+              <h3 className="pdf-credits-title">Diseny Gràfic i Web</h3>
+              <div className="pdf-credits-text">Francisco Javier Giménez Sánchez</div>
+            </div>
+            <div className="pdf-credits-item">
+              <h3 className="pdf-credits-title">Il·lustració de la coberta</h3>
+              <div className="pdf-credits-text">Fragment de la obra de Mercedes Gallardo</div>
+              <div className="pdf-credits-text">www.instagram.com/mercedesgallardo.art</div>
+            </div>
+            <div className="pdf-credits-item">
+              <h3 className="pdf-credits-title">ISSN</h3>
+              <div className="pdf-credits-text">3081-7218</div>
+            </div>
           </div>
         </div>
       </div>

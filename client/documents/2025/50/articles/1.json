@@ -1,205 +1,386 @@
 {
-    "title" : "L’efecte Kuleixov abans de Kuleixov i Kuleixov després de l’efecte",
-    "url" : "l_efecte_kuleixov_abans_de_kuleixov_i_kuleixov_despres_de_l_efecte",
-    "section" : "articles",
-    "issue" : 49,
-    "data" : "27/07/2025",
-    "imageCard" : "salesas49-00",
-    "author" : "Florenci Salesas",
-    "summary" : "",
-    "text": [
+  "_id": {
+    "$oid": "688f8e37ac16e0dadcf03d83"
+  },
+  "issueId": {
+    "$oid": "688f8e36ac16e0dadcf03d80"
+  },
+  "issue": 2025,
+  "data": "27/07/2025",
+  "imageCard": "salesas49-00",
+  "title": "L’efecte Kuleixov abans de Kuleixov i Kuleixov després de l’efecte",
+  "url": "l_efecte_kuleixov_abans_de_kuleixov_i_kuleixov_despres_de_l_efecte",
+  "section": "articles",
+  "author": "Florenci Salesas",
+  "summary": "",
+  "text": [
+    {
+      "type": "image",
+      "name": "salesas49-00",
+      "content": "Lev Vladimirovitx Kuleixov (1899-1970), joveníssim, a l’època de “l’efecte”.",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "title",
+      "content": "Un efecte que fa efecte",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Avui donarem visibilitat a dues seccions importants de la història del cinema que han quedat injustament eclipsades, alhora, de carambola, a causa de l’anomenat “efecte Kuleixov”. Per una banda, s’han eclipsat tots els artistes que de facto ja l’usaven i dominaven, en un munt de pel·lícules, molt abans que s’enunciés, i, per una altra, s’ha eclipsat la innovadora obra del seu creador. Perquè, quan se cita “l’efecte Kuleixov” sembla com si hi hagués un abans i un després seu —la qual cosa no és certa— i si preguntem pel mateix Kuleixov molta gent es pensa que potser era un gran teòric, però un director mediocre —que tampoc és cert! Pitjor passa amb els qui es pensen que no és una persona sinó una cosa, un nom dels pedals d’efecte de guitarra elèctrica, com l’efecte de <em>reverb</em>, de <em>delay</em>, de <em>phaser</em>, de <em>flanger</em>... No rigueu, conec algú que escrivia sobre cinema i s’ho pensava.",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Per establir un pla, dedicarem una primera part a defensar els pioners que usaven aquest recurs abans que ell i una segona a defensar el mateix Kuleixov d’ell mateix. Abans, però, haurem d’explicar que és aquest maleït efecte, per saber de què parlo. Si ja esteu farts de llegir-ne la descripció en altres llocs, salteu-vos el paràgraf següent, sense pena.",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "L’efecte Kuleixov és un fenomen mental, enunciat i dut a la pràctica pel rus Lev Kuleixov el 1918, en plena guerra civil postrevolució —gran moment per teoritzar en calma—, segons el qual els espectadors de cinema perceben més significats per la interacció de dos plans disposats seqüencialment que pel que conté un sol pla aïllat. Com a prova filmaria i muntaria una breu seqüència en què un primer pla de la cara d’Ivan Mosjoukine<sup>1</sup> —l’actor més lloat de Rússia, un gran mite llavors—, mirant a càmera amb actitud neutra, s'alternava, copiat igual, amb tres més d’un plat de sopa, d’una nena morta en un taüt i d’una dona atractiva ajaçada, per aquest ordre. Es diu que el muntatge es va projectar a un públic convençut que el rostre de l’actor canviava cada cop, expressant gana, dolor i desig, segons el que veia. Vsévolod Pudovkin, còmplice de la prova, explicaria després que tothom “es va meravellar amb l'actuació, subtil i eloqüent a la vegada, commogut per l’anhel de sopa, compungit de dol per la nena i ple de luxúria cap a la dona, però nosaltres sabíem que la cara era la mateixa!”",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "image",
+      "name": "salesas49-01",
+      "content": "Antecedent de l’efecte Kuleixov:  <em>Par le trou de la serrure</em> (1901), de Ferdinand Zecca.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Un vell Kuleixov deia que el metratge original es va perdre, però cada cop és més ferma la sospita que no es va arribar a filmar. Sí que se sap que entre 1920 i 1921 va explorar els límits del muntatge amb assaigs com <em>El ball</em>,<em> L'home creat</em>,<em> L'espai creat </em>o<em> La superfície creada de la Terra </em>—l’únic conservat, on diversos actors interactuen en un pretès mateix espai que en realitat es va filmar en llocs diferents del món, com Moscou o Washington—, però cap no ha generat l’onanisme mental de l’efecte estrella. En tot cas, els seus assaigs van ser emprats pel muntatge soviètic, en cèlebres títols fets per noms com Eisenstein —que també va deixar àrids textos sobre el tema, que fins i tot Kubrick admet no entendre—, Pudovkin, Vertov, Dovjenko o el mateix Kuleixov.",
+      "pdf": {
+        "page": 2,
+        "division": {
+          "alignLast": true,
+          "contentPage":"Un vell Kuleixov deia que el metratge original es va perdre, però cada cop és més ferma la sospita que no es va arribar a filmar. Sí que se sap que entre 1920 i 1921 va explorar els límits del muntatge amb assaigs com <em>El ball</em>,<em> L'home creat</em>,<em> L'espai creat </em>o<em> La superfície creada de la Terra </em>—l’únic conservat, on diversos actors interactuen en un pretès mateix espai que en realitat es va filmar en llocs diferents del món, com Moscou o Washington—, però cap no ha generat l’onanisme mental de l’efecte estrella. En tot cas, els seus assaigs van ser emprats pel muntatge soviètic, en cèlebres títols fets per noms com Eisenstein —que també va deixar àrids textos sobre el tema, que fins i tot",
+          "contentNextPage":"Kubrick admet no entendre—, Pudovkin, Vertov, Dovjenko o el mateix Kuleixov."
+          }
+      }
+    },
+    {
+      "type": "image",
+      "name": "salesas49-02",
+      "content": "Antecedent de l’efecte Kuleixov: <em>Drame dans les airs</em> (1904), de Gaston Velle.",
+      "pdf": {
+        "page": 3
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "L'efecte també ha estat homenatjat per un bon nombre de cineastes posteriors, que han realitzat les seves pròpies versions. Un dels seus fans més fidels ha estat potser el més famós de tots: Alfred Hitchcock. L’autor de <em>Psicosi </em>ja s’hi refereix al diàleg amb François Truffaut. A l’entrevista que Fletcher Markle li va fer a l’espai <em>Telescope </em>(1964), de la CBS, el mestre detalla l’efecte, que allà bateja com a “muntatge pur”. En una escena didàctica, Hitchcock empra la seva pròpia cara per demostrar que el mateix pla pot expressar sentits diferents, i fins i tot contraris, segons el context. Primer surt un primer pla d’ell, mirant a càmera, amb expressió buida. Després un pla d’una dona amb un nadó en braços. Tornem per tal de copsar la reacció d’ell, que somriu. Hitchcock diu en off: “per al públic, ell és ara un home amable i tendre”. La seva veu continua descrivint: “ara traiem el tros del mig, amb la mare i el bebè; posem-hi una noia amb un biquini, però deixem els dos extrems. Ell mira la noia i somriu. Què és ara?, l'home amable, amant dels bebès, és ara un vell verd.” No es pot negar que Hitchcock era un geni, però la voluntat educativa sola no pot dissimular que a càmera fa una cara on costa molt veure “l’home amable i tendre” que descriu a la primera escena, amb la qual cosa el seu somriure resulta triplement pertorbador quan mira el nadó que quan mira la noia. Ho sento, Alfred, no sé com no t’ho van tallar això o potser soc jo, que encara soc més pervers que tu...",
+      "pdf": {
+        "page": 3
+      }
+    },
+    {
+      "type": "title",
+      "content": "L’efecte Kuleixov abans de Kuleixov",
+      "pdf": {
+        "page": 4
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "L’efecte Kuleixov, malgrat tot el que hem dit, es basa en principis que ja s’usaven intuïtivament des de molt abans que el rus els teoritzés. Juxtaposar plans per generar significats nous era emprat a posta per molts cineastes anteriors. Era una eina més, un recurs de l’ofici, i li donaven tanta dimensió teòrica com un manobre al sistema d’apilar maons. Hi ha exponents molt antics d’ús del muntatge per crear una narrativa implícita que el públic connecta mentalment. La tècnica s’aniria refinant i arribaria al súmmum amb obres com <em>Intolerance</em> (1916), de David W. Griffith, sense demanar permís a l’amic Kuleixov. Newton va establir la llei de la gravetat, però les pomes cauen al cap de la gent des que existeixen pomes i exist.",
+      "pdf": {
+        "page": 4
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Idèntica reflexió es pot aplicar a les teories del muntatge d’Eisenstein. Arribem a llegir que mai abans del Potemkin s’havien muntat plans tan curts. Deixant de banda la superficialitat del comentari, en l’àmbit experimental, Walter Ruttmann amb el seu <em>Opus</em> (1920-25) i René Clair amb <em>Entr’acte</em> (1924) jahavien exhaurit totes les possibilitats de trossejar el metratge fins a la picada d’all, i Abel Gance, amb el monumental drama <em>La Roue, </em>acabat tres anys abans que l’òpera prima del rus, havia dut el muntatge a igual cim tècnic, creatiu i poètic. Però és que també el slapstick dels anys deu —i el més “mata-esnobs”, com el de Larry Semon “Jaimito”—, arribava a tallar tan curt. I fins i tot trobem mostres anteriors, com el trepidant <em>Onésime employé des postes</em> (1911), on Jean Durand munta 6 plans seguits que duren entre 9 i 14 fotogrames —una fracció de segon!— provocant una catarsi digna d’un anunci de pirotècnia. I la cosa continua.",
+      "pdf": {
+        "page": 4
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Si parlem de res més profund que la mera durada dels plans en escenes d’acció i ens endinsem en la profusió de punts de vista i d’escala —des del pla general al de detall, i l’ús intencionat d’inserts d’objectes, mans o altres parts del cos humà per generar tensió psicològica— res com revisar Griffith, amb menció per a l’eterna <em>The Avenging Conscience </em>(1914): al tros de l’interrogatori usa més de 60 talls en 4 minuts, precedint el Potemkin en onze anys, i un progressiu, obsessiu, acostament final als rostres, per transmetre l’angoixa del sospitós, que és pur Leone... cinquanta anys abans! En la línia d’Eisenstein també cal recordar noms tan dotats com John H. Collins, que a <em>Children of Eve</em> (1915) o <em>Blue Jeans </em>(1917), mira de tu a tu a Griffith i el supera en la fluïdesa d’angles de tir de la càmera dins el decorat. Kuleixov i després Eisenstein van teoritzar a fons i és per això que se’ls ha de valorar, no per inventar l’objecte estudiat. Val a dir que també en van explorar l’extrem pràctic, obrint-hi vies. Però el camp ja tenia qui el cultivava des de feia anys, fins a un punt de sofisticació que se sol oblidar massa sovint.",
+      "pdf": {
+        "page": 4
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Els anglesos van ser dels primers a manipular l’espai-temps a través de filmacions en llocs separats, per crear una realitat nova al muntatge. Pels anys 1900, Georges Méliès, malgrat l’amistat amb George Albert Smith, no s’interessava tant pels avanços anglesos en el llenguatge fílmic mateix com en la màgia dels efectes. El també francès Ferdinand Zecca no excel·liria tant amb la màgia, però aviat va adoptar les troballes narratives dels veïns de l’altra riba del canal. Amb<em> Par le trou de la serrure</em> (1901) ofereix un dels primers usos més clars d’efecte Kuleixov abans de Kuleixov que coneixem.",
+      "pdf": {
+        "page": 5
+      }
+    },
+    {
+      "type": "image",
+      "name": "salesas49-03",
+      "content": "Antecedent sofisticat de l’efecte Kuleixov: Mary McLaren a <em>Shoes </em>(1916), de Lois Weber.",
+      "pdf": {
+        "page": 5
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "En aquest brevíssim curt veiem un criat que espia pels forats del pany de diverses portes. El filmet està muntat en diversos plans mestres —el criat espiant— i altres amb temes intermedis —plans dels subjectes espiats— i viceversa. El mateix Zecca repetiria la idea sovint, com a <em>Ce que je vois de mon sixième </em>(1904), amb un home que espia els veïns amb un telescopi. Visca el voyeurisme! I no era l’únic: Gaston Velle, entre d’altres, realitzava <em>Drame dans les airs </em>(1904), on dos viatgers en globus contemplen el panorama amb una ullera de llarga vista. És cert que, mentre al seu exemple Kuleixov vol dur l’actor al hieratisme límit, manllevant-li tota “actuació”, els francesos gesticulaven per mostrar què senten davant el que veuen, però el concepte no varia una coma, tant és que l’actor romangui quiet —Kuleixov— o que es bellugui —Zecca, Velle...—, els plans de reacció es poden intercanviar a pleret i així alterar el sentit dels actes del voyeur. A més, a mesura que ens acostem a la data de l’efecte, trobem exemples més subtils, d’una espiritualitat extrema, com <em>Shoes</em> (1916), de Lois Weber, on la frustració de la noia (Mary MacLaren), que no pot comprar les sabates, ens fa mal, malgrat que, quan l’actriu “mira” l’objecte desitjat, no fa gairebé res. Aquí sí, com a cap de llança, destil·lació microscòpica de molts altres exemples anteriors, tenim un efecte Kuleixov gairebé pur.",
+      "pdf": {
+        "page": 5,
+        "division": {
+          "alignLast": true,
+          "contentPage": "En aquest brevíssim curt veiem un criat que espia pels forats del pany de diverses portes. El filmet està muntat en diversos plans mestres —el criat espiant— i altres amb temes intermedis —plans dels subjectes espiats— i viceversa. El mateix Zecca repetiria la idea sovint, com a <em>Ce que je vois de mon sixième </em>(1904), amb un home que espia els veïns amb un telescopi. Visca el voyeurisme! I no era l’únic: Gaston Velle, entre d’altres, realitzava <em>Drame dans les airs </em>(1904), on dos viatgers en globus contemplen el panorama amb una ullera de llarga vista. És cert que, mentre al seu exemple Kuleixov vol dur l’actor al hieratisme límit, manllevant-li tota “actuació”, els francesos gesticulaven per mostrar què senten davant el que veuen, però el concepte no varia una coma, tant és que l’actor romangui quiet —Kuleixov— o que es bellugui —Zecca, Velle...—, els plans de reacció es poden intercanviar a pleret i així alterar el sentit dels actes del voyeur. A més, a mesura que ens acostem a la data de l’efecte, trobem exemples més subtils, d’una espiritualitat extrema, com <em>Shoes</em> (1916), de Lois Weber,",
+          "contentNextPage": "on la frustració de la noia (Mary MacLaren), que no pot comprar les sabates, ens fa mal, malgrat que, quan l’actriu “mira” l’objecte desitjat, no fa gairebé res. Aquí sí, com a cap de llança, destil·lació microscòpica de molts altres exemples anteriors, tenim un efecte Kuleixov gairebé pur."
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "En la seva transició narrativa els cineastes exploraven el poder del muntatge per influir en la percepció de l’audiència, sense disposar de teories formals com les de Kuleixov o Eisenstein, ni els calia per igualar el nivell d’ascetisme màxim assolit per directors més moderns, defensors acèrrims de l’estaquirotisme facial. A més, aquests títols —sobretot els de Griffith, molt citats als seus textos—, el van inspirar directament. El poc interès pel cinema primitiu i l’enorme fama de “l’efecte” del títol, formalment enunciat més tard, ha fet oblidar l’ús massiu que se’n feia des de molt abans.",
+      "pdf": {
+        "page": 6
+      }
+    },
+    {
+      "type": "image",
+      "name": "salesas49-04",
+      "content": "Exemple d’efecte Kuleixov realitzat per Alfred Hitchcock per al programa Telescope (1964, CBS).",
+      "pdf": {
+        "page": 6
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Se’m dirà: “però no has posat cap exemple anterior, amb actor immòbil, repetit cada cop que surt”. I què? Seria com dir que John Cage amb <em>4’33’’</em> va descobrir el silenci en la música, abans i després d’ell hi ha hagut compositors als quals no els calia arribar al seu nivell de 0 dbs. per mostrar que donen tant de pes al silenci, o més, que no pas Cage. A l’experiment del rus el paper de l’actor s’ha reduït fins a l’extermini, com el del so a <em>4’33’’</em>, o com el del color damunt un llenç al famós quadre <em>Blanc sobre blanc</em>, de Kazimir Malèvitx (1918) —què els va agafar als russos aquell any?—, però aital punt de radicalitat absoluta, per bo que sigui haver-lo provat, a efectes pràctics, reals, té un recorregut limitat. Si de cas certifica la validesa de tots els acostaments, anteriors o posteriors.",
+      "pdf": {
+        "page": 6
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "El que dèiem de la Llei de Newton, si en fa de temps que cauen pomes dels arbres!",
+      "pdf": {
+        "page": 7
+      }
+    },
+    {
+      "type": "title",
+      "content": "Kuleixov després de l’efecte",
+      "pdf":{
+        "page": 7
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Amb tot el que he dit, no vull que sembli que vinc a disminuir Lev Vladimirovitx Kuleixov (1899-1970). De fet, ell és per mi, de tot el cinema mut soviètic que conec, un dels noms més originals i divertits i, en molts aspectes, el més avançat. Cert que acabo de reivindicar els que posaven en pràctica les seves teories molt abans que les formulés, però una cosa no lleva mèrit a l’altra. Recordo una dona, entristida per la notícia que la ciència havia descobert la fórmula química de l’amor, lamentant que si ara l’amor es podia analitzar al laboratori, perdia valor, poesia. Cèlia Sànchez-Mústich li va dir: “això no li treu cap valor ni poesia a l’amor, si de cas li dona valor i poesia a la química!”",
+      "pdf": {
+        "page": 7
+      }
+    },
+    {
+      "type": "image",
+      "name": "salesas49-05",
+      "content": "Planificació que explota al màxim la planificació i el muntatge, amb varietat de punts de vista i direcció del tir de la càmera, a un nivell pràctic no gaire allunyat del muntatge simbòlic d’Eisenstein, amb inserts de plans de detall i segment de les escales dels personatges segons augmenta la tensió psicològica, a <em>Blue Jeans</em> (1917), de John H. Collins, amb Viola Dana de protagonista.",
+      "pdf": {
+        "page": 7
+      }
+    },
+   {
+      "type": "paragraph",
+      "content": "Abans que res hem de subratllar un detall important i força menys conegut que el seu efecte, que Kuleixov va ser un autèntic nen prodigi. El 1916, amb setze anys, va entrar  a l’ofici com a ajudant del gran Ievgueni Bauer<sup>2</sup>. Amb disset escriu, dirigeix i actua al seu primer llarg, <em>Pesn lyubvi nedopetaya</em>. En part per abruptesa de novell, en part per la pobra producció, és un film desmanegat, però divertit i amb idees. En menys d’un any va establir la teoria de l’efecte i va conèixer la seva futura dona, mussa i sòcia de vida, la inefable Aleksandra Khokhlova (1897-1985). I tot abans de la majoria d’edat! En aquest sentit, emociona que un veterà Hitchcock de seixanta-quatre anys reti honors al seu mestre adolescent. L’infern generacional —l’horror de <em>millenials</em>, <em>boomers</em>, <em>Gen X</em>, <em>Y...</em> dissenyat per dividir-nos, alienar-nos i desactivar revoltes—, dinamitat per la sincera admiració entre cineastes de diferents èpoques que, ara que hi penso…, van néixer el mateix any! (1899).",
+      "pdf": {
+        "page": 7,
+        "division": {
+          "alignLast": true,
+          "contentPage": "Abans que res hem de subratllar un detall important i força menys conegut que el seu efecte, que Kuleixov va ser un autèntic nen prodigi. El 1916, amb setze anys, va entrar  a l’ofici com a ajudant del gran Ievgueni Bauer<sup>2</sup>. Amb disset escriu, dirigeix i actua al seu primer llarg, <em>Pesn lyubvi nedopetaya</em>. En part per abruptesa de novell, en part per la pobra producció, és un film desmanegat, però divertit",
+          "contentNextPage": "i amb idees. En menys d’un any va establir la teoria de l’efecte i va conèixer la seva futura dona, mussa i sòcia de vida, la inefable Aleksandra Khokhlova (1897-1985). I tot abans de la majoria d’edat! En aquest sentit, emociona que un veterà Hitchcock de seixanta-quatre anys reti honors al seu mestre adolescent. L’infern generacional —l’horror de <em>millenials</em>, <em>boomers</em>, <em>Gen X</em>, <em>Y...</em> dissenyat per dividir-nos, alienar-nos i desactivar revoltes—, dinamitat per la sincera admiració entre cineastes de diferents èpoques que, ara que hi penso…, van néixer el mateix any! (1899)."
+        }
+      }
+    },
+    {
+      "type": "image",
+      "name": "salesas49-06",
+      "content": "Fragment de la planificació hiperfragmentada de l’escena de l’interrogatori de <em>The Avenging Conscience</em> (1914), de David W. Griffith, en què s’inclou tota mena d’inserts, però també plans externs, d’una simbologia que reforça l’angoixa interior del personatge interpretat per Henry B. Walthall.",
+      "pdf": {
+        "page": 8
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Com altres pioners russos, Kuleixov va veure en la Revolució una oportunitat per fer experiments i es va bolcar a treballar dins aquell context. Va fundar el “Col·lectiu Kuleixov” a l’Escola Estatal de Cinema de Moscou (1919), on va tenir tots els futurs grans noms —tots més grans que ell— com a alumnes, influint en l’estil soviètic més del que diu la història oficial, on certes troballes s’atribueixen a altres. És un cas, però, de mala sort, sense mala fe, amb quina facilitat els nostres mèrits poden quedar ocults pel més mínim corriment de terres! Malgrat l’alt nivell, la seva obra fa de mal seguir i estudiar, és menys extensa i més dispersa que la dels seus col·legues i la docència  i, més tard, les imposicions del règim —l’escull de tots els directors creatius— el van limitar.",
+      "pdf": {
+        "page": 8
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Kuleixov reconeixia la influència dels americans. Griffith i els còmics l’admiraven per la seva facilitat per captivar el públic amb bon ritme i claredat. Aquesta fascinació la confirmarien alumnes seus, com Pudovkin, que es va estrenar amb l’hilarant curt <em>Shakhmatnaya goryachka</em> (1925) —<em>“la febre dels escacs”—, </em>amb Vladímir Fogel, un dels actors fetitxe del mestre. Això és perquè, encara que per a ell el muntatge era important, el seu efecte número 1 no era “aquell” sinó les ganyotes i gesticulacions del seu elenc.",
+      "pdf": {
+        "page": 8,
+        "division": {
+          "alignLast": true,
+          "contentPage": "Kuleixov reconeixia la influència dels americans. Griffith i els còmics l’admiraven per la seva facilitat per captivar el públic amb bon ritme i claredat. Aquesta fascinació la confirmarien alumnes seus,",
+          "contentNextPage": "com Pudovkin, que es va estrenar amb l’hilarant curt <em>Shakhmatnaya goryachka</em> (1925) —<em>“la febre dels escacs”—, </em>amb Vladímir Fogel, un dels actors fetitxe del mestre. Això és perquè, encara que per a ell el muntatge era important, el seu efecte número 1 no era “aquell” sinó les ganyotes i gesticulacions del seu elenc."
+        }
+        
+      }
+    },
+    {
+      "type": "image",
+      "name": "salesas49-07",
+      "content": "La provocativa bellesa d’Aleksandra Khokhlova (1897-1985).",
+      "pdf": {
+        "page": 9
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Sorprèn que poc fidel era al seu propi efecte i que demanés als seus actors d’assolir el to més grotesc possible, sabotejant per dins les seves teories. Això havia creat alguna diferència amb  l’Akesandra, al plató. Khokhlova venia d’un entorn culturalment ric. Neta del fundador de la Galeria Tretiakov, estava connectada amb cercles artístics russos i provenia d’una escola teatral refinada. Kuleixov, per contra, defensava l’actuació basada en els aspectes més físics i el moviment atlètic més que en el psicologisme del teatre. Malgrat les friccions, però, va trobar en Khokhlova la coautora ideal. Amb una formació completa en la dansa, transmetia emocions a través del cos com qui respira. El que més destacava d’ella era, sobretot, la seva cara bella i lletja alhora, desafiant. Públic, crítica i col·legues discutien sobre el nou prototip estètic que proposava aquell espècimen inclassificable. Per a ell, però, no hi havia dubte, fos el que fos, era perfecta.",
+      "pdf": {
+        "page": 9
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "La sàtira <em>Neobychainye priklyucheniya mistera Vesta v strane bolshevikov </em>(1924) —<em>“Les extraordinàries aventures de Mr. West al país dels bolxevics”</em>(!)<em>—</em>, per exemple, és plena de gags i situacions absurdes que piquen l’ullet a Chaplin, Lloyd i Keaton fins a agafar un tic. Els experts es divideixen. Pel pianista de cinema mut John Sweeney és la comèdia menys divertida del món i per a la blogger “Movies Silently” és millor que <em>Ninotchka</em> (1939), de Lubitsch. Jo soc al mig, contrit pel conjunt, però flipant amb l’espectacle d’ulls, ossos i genives de la Khokhlova sobreeixint-li del cos. A més, sorprèn veure gags en clarobscurs tan treballats, com també un film a la Caravaggio amb tanta conya.",
+      "pdf": {
+        "page": 9,
+        "division":{
+          "alignLast": true,
+          "contentPage": "La sàtira <em>Neobychainye priklyucheniya mistera Vesta v strane bolshevikov </em>(1924) —<em>“Les extraordinàries aventures de Mr. West al país dels bolxevics”</em>(!)<em>—</em>, per exemple, és plena de gags i situacions absurdes que piquen l’ullet a Chaplin, Lloyd i Keaton fins a agafar un tic. Els experts es",
+          "contentNextPage": "divideixen. Pel pianista de cinema mut John Sweeney és la comèdia menys divertida del món i per a la blogger “Movies Silently” és millor que <em>Ninotchka</em> (1939), de Lubitsch. Jo soc al mig, contrit pel conjunt, però flipant amb l’espectacle d’ulls, ossos i genives de la Khokhlova sobreeixint-li del cos. A més, sorprèn veure gags en clarobscurs tan treballats, com també un film a la Caravaggio amb tanta conya."
+
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Més reeixits trobo, però, <em>Luch Smerti</em> (1925) i l’encara més ferma <em>Po zakonu</em> (1926), on Khokhlova demostra que amb un físic cubista pot fer coses que només hem vist fer als gats. Per a Kuleixov, apart d’estar-ne enamorat, ella era l’estrella ideal per a experimentar, constructivisme personificat, un acte de terrorisme viu que feia volar pels aires tot estàndard de bellesa. Per xocant que pugui semblar, els productors no ho veien igual. Els de Goskino ja n’havien tingut prou d’aquella bèstia rara. Deien que no era “prou atractiva” per al paper d’Edith, però Kuleixov va defensar tan ardentment que ella era part indestriable del seu concepte que els amos es van haver de rendir, plorant.",
+      "pdf": {
+        "page": 10
+      }
+    },
+    {
+      "type": "image",
+      "name": "salesas49-08",
+      "content": "Dos fotogrames de <em>Po zanoku</em> (1926), de Lev Kuleixov.",
+      "pdf": {
+        "page": 10
+      }
+    },
+   {
+      "type": "paragraph",
+      "content": "<em>Luch Smerti</em> és per mi un dels films amb un to genèric més caòticament genial que existeixen. Mai no saps si t’has de decantar per gaudir d’un slapstick de Harold Lloyd, un serial de Feuillade, un <em>spin-off</em> de Mabuse o de l’avantguarda a la francesa. Com a pel·lícula ofereix totes les emocions que promet, malgrat que es contradigui tant. Desborda tècnica, gosadia, idees visuals, jocs de llum i tantes ganes de menjar-s’ho tot que sembla voler encabir tres <em>Citizen Kane</em> a cada escena. Tanta bogeria empatxaria els cartesians, que li posarien una camisa de força. Però sabent que l’estrena es va avançar uns mesos a les intocables <em>Stachka</em> (1925) i <em>Bronenóssets Potiomkin</em> (1925) d’Eisenstein, jo seré sempre al costat de Kuleixov, braç a braç, defensant el seu monstre contra el món.",
+      "pdf": {
+        "page": 10,
+        "division": {
+          "alignLast": true,
+          "contentPage": "<em>Luch Smerti</em> és per mi un dels films amb un to genèric més caòticament genial que existeixen. Mai no saps si t’has de decantar per gaudir d’un slapstick de Harold Lloyd, un serial de Feuillade, un <em>spin-off</em> de Mabuse o de l’avantguarda a la francesa. Com a pel·lícula ofereix totes les emocions que promet, malgrat que es contradigui tant. Desborda tècnica, gosadia, idees visuals, jocs de llum i tantes ganes de menjar-s’ho tot que sembla voler encabir tres <em>Citizen Kane</em> a cada escena. Tanta",
+          "contentNextPage": "bogeria empatxaria els cartesians, que li posarien una camisa de força. Però sabent que l’estrena es va avançar uns mesos a les intocables <em>Stachka</em> (1925) i <em>Bronenóssets Potiomkin</em> (1925) d’Eisenstein, jo seré sempre al costat de Kuleixov, braç a braç, defensant el seu monstre contra el món."
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "<em>Po zanoku</em> ja és molt més que un film <em>friqui</em> i rep el títol d’obra mestra amb més consens. Basat en un relat de Jack London, narra la claustrofòbica relació d’un grup de cercadors d’or al remot Yukon, Alaska. Un és una dona —ella—, que manté un vibrant duel fílmic amb Fogel. La franca violència amb què Kuleixov el filma i munta, i la manca de pudor dels actors a buidar-se fan de <em>Po zanoku</em> un dels films muts més durs de pair. Sens dubte, quedem tocats per aquest retrat d’un grup d’humans que, duts al límit, es deshumanitzen i destrueixen entre ells, per supervivència i cobdícia, mostrat sense embuts ni hipocresies, amb una cinematografia del màxim nivell.",
+      "pdf": {
+        "page": 11
+      }
+    },
+    {
+      "type": "image",
+      "name": "salesas49-09",
+      "content": "A dreta i esquerra una imatge del gran actor rus Ivan Mosjoukine a <em>Kean</em> (1923), d’Aleksandr Aleksàndrovitx Vólkov i, al centre, l’actor o model anònim protagonista d’una reproducció de l’efecte Kuleixov amb qui constantment se’l confon. Aquest bon home NO és Mosjoukine.",
+      "pdf": {
+        "page": 11
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "A mesura que Stalin consolidava el poder i el Partit Comunista adoptava oficialment el Realisme Socialista, la folla creativitat de la parella va començar a ser vista amb recel. La nova doctrina exigia que l’art —cinema inclòs—, fos accessible, optimista i sotmès a la propaganda oficial, prevalent continguts clars i històries que exaltessin els valors de la revolució. Kuleixov, que privilegiava l’humor absurd i l’aventura estètica més que la propaganda ideològica, va ser acusat de “formalisme”, terme pejoratiu usat per condemnar l’art considerat massa abstracte o desvinculat dels objectius comuns. Amb tot, quan el cinema mut encara cuejava, Khokhlova va dirigir <em>Delo s zastezhkami</em> (1929) i <em>Sasha</em> (1930), els seus primers films al marge del marit.",
+      "pdf": {
+        "page": 11
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Mentre el matrimoni realitzava<em> Dokhunda</em> (1934-1935), al Tadjikistan, basat en un text del poeta nacional Sadriddin Ayni, les autoritats van aturar el rodatge, acusant Kuleixov de promoure el nacionalisme tadjik, amenaça per a la unitat centralista de l'URSS. El material rodat va ser destruït i no se’n conserva res. Aquest va ser el sotrac fatal per a la seva carrera i l’estrena dels seus títols es van espaiar. Les seves idees i mètodes havien estat criticats per alguns sectors del partit ja des de l’inici, però des d’aquell moment la seva mobilitat es va reduir dràsticament.",
+      "pdf": {
+        "page": 12
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Després d’un últim títol el 1943, va sobreviure com a docent i funcionari. Per sort, no el van purgar ni empresonar, com si es va fer amb altres col·legues. Per a ella la cosa no aniria millor. En el seu cas s’hi afegia l’ascendència familiar, poc proletària, i l’educació massa refinada que havia rebut. A més, un oncle seu havia estat metge personal de la família del tsar Nicolau II i va tenir la mala pensada de seguir-lo al seu exili i de deixar-se executar al costat dels seus imperials pacients. Amb una taca així a les venes, l’actriu no hi podia fer res. Com a mínim Lev i Aleksandra es tenien a ells mateixos i l’amor que els unia, que és una cosa que sempre fa caliu.",
+      "pdf": {
+        "page": 12
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Per acabar, un breu esment a un dels personatges que pateix una desproporció més injusta entre la seva importància real en la història del cinema i com se l’ignora, fins i tot entre molts amants del cinema mut, i que aquí s’ha esmentat de passada, Ivan Mosjoukine, un actor immens de qui en parlarem aviat. Avui només farem una alerta urgent: per tot arreu trobareu exemples de l’efecte Kuleixov, però el més famós i estès és un on apareix un model/actor, d’uns quaranta anys, un xic calb, amb cara de carda fàstics, fent el paper de Mosjoukine a l’original. L’escena circula en vídeo i en forma de fotografies. En realitat formava part d’un antic documental sobre l’efecte —el vaig veure fa molt temps, però ara no hi ha hagut manera de trobar-lo, si algú ho fa ho agrairé molt— i, llevat de l’actor, que s’assembla a Mosjoukine com una arpa celta a una gralla, el pastitx d’època és prou bo. En molts llocs l’escena es descriu bé —“reproducció posterior de l’efecte Kuleixov”...—, però en d’altres s’acredita aquell home com el mític intèrpret. Això ha fet que qui no l’ha vist mai —com en la trista confusió d’Alice Guy amb Mary Pickford—, en sentir el seu nom, s’imagini el calb. Els humans normals prou fan pagant factures i deixant-se alienar, però qui divulga hauria de tallar les cadenes d’errors, no parlem d’un secundari obscur sinó d’un dels més ferms candidats a millor actor de tot el cinema mut!",
+      "pdf": {
+        "page": 12
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "I ja n’hi ha prou. Us deixo amb un clip amb escenes del període 1924-1926 de què he parlat, perquè us dividiu entre els que us enamoreu de la bogeria preciosa de Kuleixov i Khokhlova i els que els tancaríeu en un manicomi. Com que jo soc dels que encara trobo que n'hi ha poca de bogeria d’aquesta al món, he convocat el mirífic Dr. Truna (Andrés Blasco), que m’ha cedit amablement el seu violoncel i electrònica al marge de la normalitat perquè el poti-poti final encara sigui més divisiu. Com diria Cèsar: <em>“Divide et Impera” </em>i a volar!",
+      "pdf": {
+        "page": 12,
+        "division": {
+          "alignLast": true,
+          "contentPage": "I ja n’hi ha prou. Us deixo amb un clip amb escenes del període 1924-1926 de què he parlat, perquè us dividiu entre els que us enamoreu de la bogeria preciosa de Kuleixov i Khokhlova i els que els tancaríeu en un manicomi. Com que jo soc dels que encara trobo que n'hi ha poca de bogeria d’aquesta al món, he convocat el mirífic Dr. Truna (Andrés Blasco), que m’ha cedit amablement el",
+          "contentNextPage":"seu violoncel i electrònica al marge de la normalitat perquè el poti-poti final encara sigui més divisiu. Com diria Cèsar: <em>“Divide et Impera” </em>i a volar!"
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "<iframe width='100%' height='400' src='https://youtube.com/embed/XfqOGU9EUh8'></iframe>"
+    },
+    {
+      "type": "paragraph",
+      "className": "image-foot",
+      "content": "Vídeo que recull un muntatge de tres films de Lev Kuleixov protagonitzats per Aleksandra Khokhlova: <em>Neobychainye priklyucheniya mistera Vesta v strane bolshevikov </em>(1924), <em>Luch smerti</em> (1925) i <em>Po zanoku</em> (1926), amb un fragment de <em>Secondo Spettro</em>, del disc <em>Live at Spettro, Brescia</em> (2022), de Dr. Truna (Andrés Blasco), com a banda sonora.",
+      "pdf": {
+        "page": 13,
+        "type": "qr",
+        "path": "M 0 0 l 1 0 0 1 -1 0 Z M 1 0 l 1 0 0 1 -1 0 Z M 2 0 l 1 0 0 1 -1 0 Z M 3 0 l 1 0 0 1 -1 0 Z M 4 0 l 1 0 0 1 -1 0 Z M 5 0 l 1 0 0 1 -1 0 Z M 6 0 l 1 0 0 1 -1 0 Z  M 8 0 l 1 0 0 1 -1 0 Z  M 10 0 l 1 0 0 1 -1 0 Z  M 12 0 l 1 0 0 1 -1 0 Z   M 15 0 l 1 0 0 1 -1 0 Z M 16 0 l 1 0 0 1 -1 0 Z    M 20 0 l 1 0 0 1 -1 0 Z  M 22 0 l 1 0 0 1 -1 0 Z M 23 0 l 1 0 0 1 -1 0 Z M 24 0 l 1 0 0 1 -1 0 Z M 25 0 l 1 0 0 1 -1 0 Z M 26 0 l 1 0 0 1 -1 0 Z M 27 0 l 1 0 0 1 -1 0 Z M 28 0 l 1 0 0 1 -1 0 Z M 0 1 l 1 0 0 1 -1 0 Z      M 6 1 l 1 0 0 1 -1 0 Z   M 9 1 l 1 0 0 1 -1 0 Z M 10 1 l 1 0 0 1 -1 0 Z M 11 1 l 1 0 0 1 -1 0 Z M 12 1 l 1 0 0 1 -1 0 Z M 13 1 l 1 0 0 1 -1 0 Z    M 17 1 l 1 0 0 1 -1 0 Z M 18 1 l 1 0 0 1 -1 0 Z    M 22 1 l 1 0 0 1 -1 0 Z      M 28 1 l 1 0 0 1 -1 0 Z M 0 2 l 1 0 0 1 -1 0 Z  M 2 2 l 1 0 0 1 -1 0 Z M 3 2 l 1 0 0 1 -1 0 Z M 4 2 l 1 0 0 1 -1 0 Z  M 6 2 l 1 0 0 1 -1 0 Z  M 8 2 l 1 0 0 1 -1 0 Z M 9 2 l 1 0 0 1 -1 0 Z M 10 2 l 1 0 0 1 -1 0 Z   M 13 2 l 1 0 0 1 -1 0 Z  M 15 2 l 1 0 0 1 -1 0 Z M 16 2 l 1 0 0 1 -1 0 Z  M 18 2 l 1 0 0 1 -1 0 Z  M 20 2 l 1 0 0 1 -1 0 Z  M 22 2 l 1 0 0 1 -1 0 Z  M 24 2 l 1 0 0 1 -1 0 Z M 25 2 l 1 0 0 1 -1 0 Z M 26 2 l 1 0 0 1 -1 0 Z  M 28 2 l 1 0 0 1 -1 0 Z M 0 3 l 1 0 0 1 -1 0 Z  M 2 3 l 1 0 0 1 -1 0 Z M 3 3 l 1 0 0 1 -1 0 Z M 4 3 l 1 0 0 1 -1 0 Z  M 6 3 l 1 0 0 1 -1 0 Z  M 8 3 l 1 0 0 1 -1 0 Z M 9 3 l 1 0 0 1 -1 0 Z M 10 3 l 1 0 0 1 -1 0 Z  M 12 3 l 1 0 0 1 -1 0 Z  M 14 3 l 1 0 0 1 -1 0 Z  M 16 3 l 1 0 0 1 -1 0 Z M 17 3 l 1 0 0 1 -1 0 Z M 18 3 l 1 0 0 1 -1 0 Z    M 22 3 l 1 0 0 1 -1 0 Z  M 24 3 l 1 0 0 1 -1 0 Z M 25 3 l 1 0 0 1 -1 0 Z M 26 3 l 1 0 0 1 -1 0 Z  M 28 3 l 1 0 0 1 -1 0 Z M 0 4 l 1 0 0 1 -1 0 Z  M 2 4 l 1 0 0 1 -1 0 Z M 3 4 l 1 0 0 1 -1 0 Z M 4 4 l 1 0 0 1 -1 0 Z  M 6 4 l 1 0 0 1 -1 0 Z  M 8 4 l 1 0 0 1 -1 0 Z   M 11 4 l 1 0 0 1 -1 0 Z M 12 4 l 1 0 0 1 -1 0 Z  M 14 4 l 1 0 0 1 -1 0 Z  M 16 4 l 1 0 0 1 -1 0 Z  M 18 4 l 1 0 0 1 -1 0 Z    M 22 4 l 1 0 0 1 -1 0 Z  M 24 4 l 1 0 0 1 -1 0 Z M 25 4 l 1 0 0 1 -1 0 Z M 26 4 l 1 0 0 1 -1 0 Z  M 28 4 l 1 0 0 1 -1 0 Z M 0 5 l 1 0 0 1 -1 0 Z      M 6 5 l 1 0 0 1 -1 0 Z    M 10 5 l 1 0 0 1 -1 0 Z M 11 5 l 1 0 0 1 -1 0 Z  M 13 5 l 1 0 0 1 -1 0 Z M 14 5 l 1 0 0 1 -1 0 Z     M 19 5 l 1 0 0 1 -1 0 Z M 20 5 l 1 0 0 1 -1 0 Z  M 22 5 l 1 0 0 1 -1 0 Z      M 28 5 l 1 0 0 1 -1 0 Z M 0 6 l 1 0 0 1 -1 0 Z M 1 6 l 1 0 0 1 -1 0 Z M 2 6 l 1 0 0 1 -1 0 Z M 3 6 l 1 0 0 1 -1 0 Z M 4 6 l 1 0 0 1 -1 0 Z M 5 6 l 1 0 0 1 -1 0 Z M 6 6 l 1 0 0 1 -1 0 Z  M 8 6 l 1 0 0 1 -1 0 Z  M 10 6 l 1 0 0 1 -1 0 Z  M 12 6 l 1 0 0 1 -1 0 Z  M 14 6 l 1 0 0 1 -1 0 Z  M 16 6 l 1 0 0 1 -1 0 Z  M 18 6 l 1 0 0 1 -1 0 Z  M 20 6 l 1 0 0 1 -1 0 Z  M 22 6 l 1 0 0 1 -1 0 Z M 23 6 l 1 0 0 1 -1 0 Z M 24 6 l 1 0 0 1 -1 0 Z M 25 6 l 1 0 0 1 -1 0 Z M 26 6 l 1 0 0 1 -1 0 Z M 27 6 l 1 0 0 1 -1 0 Z M 28 6 l 1 0 0 1 -1 0 Z           M 10 7 l 1 0 0 1 -1 0 Z  M 12 7 l 1 0 0 1 -1 0 Z  M 14 7 l 1 0 0 1 -1 0 Z   M 17 7 l 1 0 0 1 -1 0 Z M 18 7 l 1 0 0 1 -1 0 Z M 19 7 l 1 0 0 1 -1 0 Z          M 0 8 l 1 0 0 1 -1 0 Z M 1 8 l 1 0 0 1 -1 0 Z M 2 8 l 1 0 0 1 -1 0 Z M 3 8 l 1 0 0 1 -1 0 Z   M 6 8 l 1 0 0 1 -1 0 Z  M 8 8 l 1 0 0 1 -1 0 Z  M 10 8 l 1 0 0 1 -1 0 Z M 11 8 l 1 0 0 1 -1 0 Z       M 18 8 l 1 0 0 1 -1 0 Z   M 21 8 l 1 0 0 1 -1 0 Z   M 24 8 l 1 0 0 1 -1 0 Z M 25 8 l 1 0 0 1 -1 0 Z M 26 8 l 1 0 0 1 -1 0 Z  M 28 8 l 1 0 0 1 -1 0 Z M 0 9 l 1 0 0 1 -1 0 Z   M 3 9 l 1 0 0 1 -1 0 Z  M 5 9 l 1 0 0 1 -1 0 Z     M 10 9 l 1 0 0 1 -1 0 Z  M 12 9 l 1 0 0 1 -1 0 Z  M 14 9 l 1 0 0 1 -1 0 Z    M 18 9 l 1 0 0 1 -1 0 Z  M 20 9 l 1 0 0 1 -1 0 Z  M 22 9 l 1 0 0 1 -1 0 Z M 23 9 l 1 0 0 1 -1 0 Z M 24 9 l 1 0 0 1 -1 0 Z    M 28 9 l 1 0 0 1 -1 0 Z  M 1 10 l 1 0 0 1 -1 0 Z   M 4 10 l 1 0 0 1 -1 0 Z M 5 10 l 1 0 0 1 -1 0 Z M 6 10 l 1 0 0 1 -1 0 Z M 7 10 l 1 0 0 1 -1 0 Z M 8 10 l 1 0 0 1 -1 0 Z M 9 10 l 1 0 0 1 -1 0 Z M 10 10 l 1 0 0 1 -1 0 Z M 11 10 l 1 0 0 1 -1 0 Z  M 13 10 l 1 0 0 1 -1 0 Z    M 17 10 l 1 0 0 1 -1 0 Z M 18 10 l 1 0 0 1 -1 0 Z   M 21 10 l 1 0 0 1 -1 0 Z  M 23 10 l 1 0 0 1 -1 0 Z   M 26 10 l 1 0 0 1 -1 0 Z M 27 10 l 1 0 0 1 -1 0 Z   M 1 11 l 1 0 0 1 -1 0 Z    M 5 11 l 1 0 0 1 -1 0 Z   M 8 11 l 1 0 0 1 -1 0 Z M 9 11 l 1 0 0 1 -1 0 Z M 10 11 l 1 0 0 1 -1 0 Z M 11 11 l 1 0 0 1 -1 0 Z  M 13 11 l 1 0 0 1 -1 0 Z M 14 11 l 1 0 0 1 -1 0 Z M 15 11 l 1 0 0 1 -1 0 Z M 16 11 l 1 0 0 1 -1 0 Z  M 18 11 l 1 0 0 1 -1 0 Z M 19 11 l 1 0 0 1 -1 0 Z  M 21 11 l 1 0 0 1 -1 0 Z M 22 11 l 1 0 0 1 -1 0 Z M 23 11 l 1 0 0 1 -1 0 Z     M 28 11 l 1 0 0 1 -1 0 Z   M 2 12 l 1 0 0 1 -1 0 Z    M 6 12 l 1 0 0 1 -1 0 Z M 7 12 l 1 0 0 1 -1 0 Z  M 9 12 l 1 0 0 1 -1 0 Z M 10 12 l 1 0 0 1 -1 0 Z M 11 12 l 1 0 0 1 -1 0 Z M 12 12 l 1 0 0 1 -1 0 Z M 13 12 l 1 0 0 1 -1 0 Z  M 15 12 l 1 0 0 1 -1 0 Z     M 20 12 l 1 0 0 1 -1 0 Z M 21 12 l 1 0 0 1 -1 0 Z  M 23 12 l 1 0 0 1 -1 0 Z  M 25 12 l 1 0 0 1 -1 0 Z M 26 12 l 1 0 0 1 -1 0 Z   M 0 13 l 1 0 0 1 -1 0 Z M 1 13 l 1 0 0 1 -1 0 Z M 2 13 l 1 0 0 1 -1 0 Z M 3 13 l 1 0 0 1 -1 0 Z M 4 13 l 1 0 0 1 -1 0 Z   M 7 13 l 1 0 0 1 -1 0 Z    M 11 13 l 1 0 0 1 -1 0 Z M 12 13 l 1 0 0 1 -1 0 Z M 13 13 l 1 0 0 1 -1 0 Z M 14 13 l 1 0 0 1 -1 0 Z M 15 13 l 1 0 0 1 -1 0 Z M 16 13 l 1 0 0 1 -1 0 Z M 17 13 l 1 0 0 1 -1 0 Z M 18 13 l 1 0 0 1 -1 0 Z M 19 13 l 1 0 0 1 -1 0 Z   M 22 13 l 1 0 0 1 -1 0 Z    M 26 13 l 1 0 0 1 -1 0 Z M 27 13 l 1 0 0 1 -1 0 Z M 28 13 l 1 0 0 1 -1 0 Z   M 2 14 l 1 0 0 1 -1 0 Z    M 6 14 l 1 0 0 1 -1 0 Z   M 9 14 l 1 0 0 1 -1 0 Z M 10 14 l 1 0 0 1 -1 0 Z   M 13 14 l 1 0 0 1 -1 0 Z M 14 14 l 1 0 0 1 -1 0 Z  M 16 14 l 1 0 0 1 -1 0 Z  M 18 14 l 1 0 0 1 -1 0 Z M 19 14 l 1 0 0 1 -1 0 Z  M 21 14 l 1 0 0 1 -1 0 Z  M 23 14 l 1 0 0 1 -1 0 Z   M 26 14 l 1 0 0 1 -1 0 Z M 27 14 l 1 0 0 1 -1 0 Z M 28 14 l 1 0 0 1 -1 0 Z  M 1 15 l 1 0 0 1 -1 0 Z M 2 15 l 1 0 0 1 -1 0 Z  M 4 15 l 1 0 0 1 -1 0 Z   M 7 15 l 1 0 0 1 -1 0 Z M 8 15 l 1 0 0 1 -1 0 Z M 9 15 l 1 0 0 1 -1 0 Z   M 12 15 l 1 0 0 1 -1 0 Z  M 14 15 l 1 0 0 1 -1 0 Z M 15 15 l 1 0 0 1 -1 0 Z    M 19 15 l 1 0 0 1 -1 0 Z M 20 15 l 1 0 0 1 -1 0 Z M 21 15 l 1 0 0 1 -1 0 Z M 22 15 l 1 0 0 1 -1 0 Z M 23 15 l 1 0 0 1 -1 0 Z M 24 15 l 1 0 0 1 -1 0 Z   M 27 15 l 1 0 0 1 -1 0 Z     M 3 16 l 1 0 0 1 -1 0 Z M 4 16 l 1 0 0 1 -1 0 Z M 5 16 l 1 0 0 1 -1 0 Z M 6 16 l 1 0 0 1 -1 0 Z M 7 16 l 1 0 0 1 -1 0 Z M 8 16 l 1 0 0 1 -1 0 Z  M 10 16 l 1 0 0 1 -1 0 Z M 11 16 l 1 0 0 1 -1 0 Z M 12 16 l 1 0 0 1 -1 0 Z M 13 16 l 1 0 0 1 -1 0 Z  M 15 16 l 1 0 0 1 -1 0 Z   M 18 16 l 1 0 0 1 -1 0 Z  M 20 16 l 1 0 0 1 -1 0 Z M 21 16 l 1 0 0 1 -1 0 Z   M 24 16 l 1 0 0 1 -1 0 Z M 25 16 l 1 0 0 1 -1 0 Z  M 27 16 l 1 0 0 1 -1 0 Z            M 10 17 l 1 0 0 1 -1 0 Z M 11 17 l 1 0 0 1 -1 0 Z M 12 17 l 1 0 0 1 -1 0 Z M 13 17 l 1 0 0 1 -1 0 Z  M 15 17 l 1 0 0 1 -1 0 Z  M 17 17 l 1 0 0 1 -1 0 Z   M 20 17 l 1 0 0 1 -1 0 Z   M 23 17 l 1 0 0 1 -1 0 Z  M 25 17 l 1 0 0 1 -1 0 Z M 26 17 l 1 0 0 1 -1 0 Z M 27 17 l 1 0 0 1 -1 0 Z  M 0 18 l 1 0 0 1 -1 0 Z      M 6 18 l 1 0 0 1 -1 0 Z M 7 18 l 1 0 0 1 -1 0 Z M 8 18 l 1 0 0 1 -1 0 Z  M 10 18 l 1 0 0 1 -1 0 Z    M 14 18 l 1 0 0 1 -1 0 Z M 15 18 l 1 0 0 1 -1 0 Z M 16 18 l 1 0 0 1 -1 0 Z  M 18 18 l 1 0 0 1 -1 0 Z   M 21 18 l 1 0 0 1 -1 0 Z  M 23 18 l 1 0 0 1 -1 0 Z   M 26 18 l 1 0 0 1 -1 0 Z     M 2 19 l 1 0 0 1 -1 0 Z M 3 19 l 1 0 0 1 -1 0 Z M 4 19 l 1 0 0 1 -1 0 Z M 5 19 l 1 0 0 1 -1 0 Z  M 7 19 l 1 0 0 1 -1 0 Z  M 9 19 l 1 0 0 1 -1 0 Z M 10 19 l 1 0 0 1 -1 0 Z M 11 19 l 1 0 0 1 -1 0 Z     M 16 19 l 1 0 0 1 -1 0 Z M 17 19 l 1 0 0 1 -1 0 Z   M 20 19 l 1 0 0 1 -1 0 Z  M 22 19 l 1 0 0 1 -1 0 Z  M 24 19 l 1 0 0 1 -1 0 Z  M 26 19 l 1 0 0 1 -1 0 Z    M 1 20 l 1 0 0 1 -1 0 Z  M 3 20 l 1 0 0 1 -1 0 Z M 4 20 l 1 0 0 1 -1 0 Z  M 6 20 l 1 0 0 1 -1 0 Z M 7 20 l 1 0 0 1 -1 0 Z  M 9 20 l 1 0 0 1 -1 0 Z  M 11 20 l 1 0 0 1 -1 0 Z M 12 20 l 1 0 0 1 -1 0 Z   M 15 20 l 1 0 0 1 -1 0 Z  M 17 20 l 1 0 0 1 -1 0 Z   M 20 20 l 1 0 0 1 -1 0 Z M 21 20 l 1 0 0 1 -1 0 Z M 22 20 l 1 0 0 1 -1 0 Z M 23 20 l 1 0 0 1 -1 0 Z M 24 20 l 1 0 0 1 -1 0 Z M 25 20 l 1 0 0 1 -1 0 Z M 26 20 l 1 0 0 1 -1 0 Z           M 8 21 l 1 0 0 1 -1 0 Z M 9 21 l 1 0 0 1 -1 0 Z M 10 21 l 1 0 0 1 -1 0 Z M 11 21 l 1 0 0 1 -1 0 Z   M 14 21 l 1 0 0 1 -1 0 Z   M 17 21 l 1 0 0 1 -1 0 Z  M 19 21 l 1 0 0 1 -1 0 Z M 20 21 l 1 0 0 1 -1 0 Z    M 24 21 l 1 0 0 1 -1 0 Z M 25 21 l 1 0 0 1 -1 0 Z M 26 21 l 1 0 0 1 -1 0 Z M 27 21 l 1 0 0 1 -1 0 Z M 28 21 l 1 0 0 1 -1 0 Z M 0 22 l 1 0 0 1 -1 0 Z M 1 22 l 1 0 0 1 -1 0 Z M 2 22 l 1 0 0 1 -1 0 Z M 3 22 l 1 0 0 1 -1 0 Z M 4 22 l 1 0 0 1 -1 0 Z M 5 22 l 1 0 0 1 -1 0 Z M 6 22 l 1 0 0 1 -1 0 Z   M 9 22 l 1 0 0 1 -1 0 Z  M 11 22 l 1 0 0 1 -1 0 Z  M 13 22 l 1 0 0 1 -1 0 Z   M 16 22 l 1 0 0 1 -1 0 Z M 17 22 l 1 0 0 1 -1 0 Z   M 20 22 l 1 0 0 1 -1 0 Z  M 22 22 l 1 0 0 1 -1 0 Z  M 24 22 l 1 0 0 1 -1 0 Z M 25 22 l 1 0 0 1 -1 0 Z  M 27 22 l 1 0 0 1 -1 0 Z  M 0 23 l 1 0 0 1 -1 0 Z      M 6 23 l 1 0 0 1 -1 0 Z   M 9 23 l 1 0 0 1 -1 0 Z  M 11 23 l 1 0 0 1 -1 0 Z M 12 23 l 1 0 0 1 -1 0 Z M 13 23 l 1 0 0 1 -1 0 Z M 14 23 l 1 0 0 1 -1 0 Z  M 16 23 l 1 0 0 1 -1 0 Z    M 20 23 l 1 0 0 1 -1 0 Z    M 24 23 l 1 0 0 1 -1 0 Z M 25 23 l 1 0 0 1 -1 0 Z   M 28 23 l 1 0 0 1 -1 0 Z M 0 24 l 1 0 0 1 -1 0 Z  M 2 24 l 1 0 0 1 -1 0 Z M 3 24 l 1 0 0 1 -1 0 Z M 4 24 l 1 0 0 1 -1 0 Z  M 6 24 l 1 0 0 1 -1 0 Z    M 10 24 l 1 0 0 1 -1 0 Z M 11 24 l 1 0 0 1 -1 0 Z M 12 24 l 1 0 0 1 -1 0 Z M 13 24 l 1 0 0 1 -1 0 Z M 14 24 l 1 0 0 1 -1 0 Z   M 17 24 l 1 0 0 1 -1 0 Z M 18 24 l 1 0 0 1 -1 0 Z  M 20 24 l 1 0 0 1 -1 0 Z M 21 24 l 1 0 0 1 -1 0 Z M 22 24 l 1 0 0 1 -1 0 Z M 23 24 l 1 0 0 1 -1 0 Z M 24 24 l 1 0 0 1 -1 0 Z  M 26 24 l 1 0 0 1 -1 0 Z M 27 24 l 1 0 0 1 -1 0 Z  M 0 25 l 1 0 0 1 -1 0 Z  M 2 25 l 1 0 0 1 -1 0 Z M 3 25 l 1 0 0 1 -1 0 Z M 4 25 l 1 0 0 1 -1 0 Z  M 6 25 l 1 0 0 1 -1 0 Z  M 8 25 l 1 0 0 1 -1 0 Z M 9 25 l 1 0 0 1 -1 0 Z  M 11 25 l 1 0 0 1 -1 0 Z M 12 25 l 1 0 0 1 -1 0 Z   M 15 25 l 1 0 0 1 -1 0 Z M 16 25 l 1 0 0 1 -1 0 Z  M 18 25 l 1 0 0 1 -1 0 Z M 19 25 l 1 0 0 1 -1 0 Z  M 21 25 l 1 0 0 1 -1 0 Z  M 23 25 l 1 0 0 1 -1 0 Z M 24 25 l 1 0 0 1 -1 0 Z M 25 25 l 1 0 0 1 -1 0 Z  M 27 25 l 1 0 0 1 -1 0 Z M 28 25 l 1 0 0 1 -1 0 Z M 0 26 l 1 0 0 1 -1 0 Z  M 2 26 l 1 0 0 1 -1 0 Z M 3 26 l 1 0 0 1 -1 0 Z M 4 26 l 1 0 0 1 -1 0 Z  M 6 26 l 1 0 0 1 -1 0 Z  M 8 26 l 1 0 0 1 -1 0 Z M 9 26 l 1 0 0 1 -1 0 Z    M 13 26 l 1 0 0 1 -1 0 Z M 14 26 l 1 0 0 1 -1 0 Z   M 17 26 l 1 0 0 1 -1 0 Z M 18 26 l 1 0 0 1 -1 0 Z  M 20 26 l 1 0 0 1 -1 0 Z   M 23 26 l 1 0 0 1 -1 0 Z   M 26 26 l 1 0 0 1 -1 0 Z  M 28 26 l 1 0 0 1 -1 0 Z M 0 27 l 1 0 0 1 -1 0 Z      M 6 27 l 1 0 0 1 -1 0 Z  M 8 27 l 1 0 0 1 -1 0 Z M 9 27 l 1 0 0 1 -1 0 Z M 10 27 l 1 0 0 1 -1 0 Z M 11 27 l 1 0 0 1 -1 0 Z M 12 27 l 1 0 0 1 -1 0 Z  M 14 27 l 1 0 0 1 -1 0 Z      M 20 27 l 1 0 0 1 -1 0 Z   M 23 27 l 1 0 0 1 -1 0 Z M 24 27 l 1 0 0 1 -1 0 Z M 25 27 l 1 0 0 1 -1 0 Z  M 27 27 l 1 0 0 1 -1 0 Z  M 0 28 l 1 0 0 1 -1 0 Z M 1 28 l 1 0 0 1 -1 0 Z M 2 28 l 1 0 0 1 -1 0 Z M 3 28 l 1 0 0 1 -1 0 Z M 4 28 l 1 0 0 1 -1 0 Z M 5 28 l 1 0 0 1 -1 0 Z M 6 28 l 1 0 0 1 -1 0 Z  M 8 28 l 1 0 0 1 -1 0 Z M 9 28 l 1 0 0 1 -1 0 Z M 10 28 l 1 0 0 1 -1 0 Z      M 16 28 l 1 0 0 1 -1 0 Z  M 18 28 l 1 0 0 1 -1 0 Z  M 20 28 l 1 0 0 1 -1 0 Z M 21 28 l 1 0 0 1 -1 0 Z  M 23 28 l 1 0 0 1 -1 0 Z M 24 28 l 1 0 0 1 -1 0 Z M 25 28 l 1 0 0 1 -1 0 Z  M 27 28 l 1 0 0 1 -1 0 Z "
+      }
+    },
+    {
+      "type": "footnotes",
+      "notes": [
         {
-            "type" : "image",
-            "name" : "salesas49-00",
-            "content": "Lev Vladimirovitx Kuleixov (1899-1970), joveníssim, a l’època de “l’efecte”."
-        },
-    {
-      "type": "title",
-      "content": "Un efecte que fa efecte"
-    },
-    {
-      "type": "paragraph",
-      "content": "Avui donarem visibilitat a dues seccions importants de la història del cinema que han quedat injustament eclipsades, alhora, de carambola, a causa de l’anomenat “efecte Kuleixov”. Per una banda, s’han eclipsat tots els artistes que de facto ja l’usaven i dominaven, en un munt de pel·lícules, molt abans que s’enunciés, i, per una altra, s’ha eclipsat la innovadora obra del seu creador. Perquè, quan se cita “l’efecte Kuleixov” sembla com si hi hagués un abans i un després seu —la qual cosa no és certa— i si preguntem pel mateix Kuleixov molta gent es pensa que potser era un gran teòric, però un director mediocre —que tampoc és cert! Pitjor passa amb els qui es pensen que no és una persona sinó una cosa, un nom dels pedals d’efecte de guitarra elèctrica, com l’efecte de <em>reverb</em>, de <em>delay</em>, de <em>phaser</em>, de <em>flanger</em>... No rigueu, conec algú que escrivia sobre cinema i s’ho pensava."
-    },
-    {
-      "type": "paragraph",
-      "content": "Per establir un pla, dedicarem una primera part a defensar els pioners que usaven aquest recurs abans que ell i una segona a defensar el mateix Kuleixov d’ell mateix. Abans, però, haurem d’explicar que és aquest maleït efecte, per saber de què parlo. Si ja esteu farts de llegir-ne la descripció en altres llocs, salteu-vos el paràgraf següent, sense pena."
-    },
-    {
-        "type" : "image",
-        "name" : "salesas49-01",
-        "content": "Antecedent de l’efecte Kuleixov:  <em>Par le trou de la serrure</em> (1901), de Ferdinand Zecca."
-    },
-    {
-      "type": "paragraph",
-      "content": "L’efecte Kuleixov és un fenomen mental, enunciat i dut a la pràctica pel rus Lev Kuleixov el 1918, en plena guerra civil postrevolució —gran moment per teoritzar en calma—, segons el qual els espectadors de cinema perceben més significats per la interacció de dos plans disposats seqüencialment que pel que conté un sol pla aïllat. Com a prova filmaria i muntaria una breu seqüència en què un primer pla de la cara d’Ivan Mosjoukine<sup>1</sup> —l’actor més lloat de Rússia, un gran mite llavors—, mirant a càmera amb actitud neutra, s'alternava, copiat igual, amb tres més d’un plat de sopa, d’una nena morta en un taüt i d’una dona atractiva ajaçada, per aquest ordre. Es diu que el muntatge es va projectar a un públic convençut que el rostre de l’actor canviava cada cop, expressant gana, dolor i desig, segons el que veia. Vsévolod Pudovkin, còmplice de la prova, explicaria després que tothom “es va meravellar amb l'actuació, subtil i eloqüent a la vegada, commogut per l’anhel de sopa, compungit de dol per la nena i ple de luxúria cap a la dona, però nosaltres sabíem que la cara era la mateixa!”"
-    },
-    {
-      "type": "paragraph",
-      "content": "Un vell Kuleixov deia que el metratge original es va perdre, però cada cop és més ferma la sospita que no es va arribar a filmar. Sí que se sap que entre 1920 i 1921 va explorar els límits del muntatge amb assaigs com <em>El ball</em>,<em> L'home creat</em>,<em> L'espai creat </em>o<em> La superfície creada de la Terra </em>—l’únic conservat, on diversos actors interactuen en un pretès mateix espai que en realitat es va filmar en llocs diferents del món, com Moscou o Washington—, però cap no ha generat l’onanisme mental de l’efecte estrella. En tot cas, els seus assaigs van ser emprats pel muntatge soviètic, en cèlebres títols fets per noms com Eisenstein —que també va deixar àrids textos sobre el tema, que fins i tot Kubrick admet no entendre—, Pudovkin, Vertov, Dovjenko o el mateix Kuleixov."
-    },
-    {
-      "type": "paragraph",
-      "content": "L'efecte també ha estat homenatjat per un bon nombre de cineastes posteriors, que han realitzat les seves pròpies versions. Un dels seus fans més fidels ha estat potser el més famós de tots: Alfred Hitchcock. L’autor de <em>Psicosi </em>ja s’hi refereix al diàleg amb François Truffaut. A l’entrevista que Fletcher Markle li va fer a l’espai <em>Telescope </em>(1964), de la CBS, el mestre detalla l’efecte, que allà bateja com a “muntatge pur”. En una escena didàctica, Hitchcock empra la seva pròpia cara per demostrar que el mateix pla pot expressar sentits diferents, i fins i tot contraris, segons el context. Primer surt un primer pla d’ell, mirant a càmera, amb expressió buida. Després un pla d’una dona amb un nadó en braços. Tornem per tal de copsar la reacció d’ell, que somriu. Hitchcock diu en off: “per al públic, ell és ara un home amable i tendre”. La seva veu continua descrivint: “ara traiem el tros del mig, amb la mare i el bebè; posem-hi una noia amb un biquini, però deixem els dos extrems. Ell mira la noia i somriu. Què és ara?, l'home amable, amant dels bebès, és ara un vell verd.” No es pot negar que Hitchcock era un geni, però la voluntat educativa sola no pot dissimular que a càmera fa una cara on costa molt veure “l’home amable i tendre” que descriu a la primera escena, amb la qual cosa el seu somriure resulta triplement pertorbador quan mira el nadó que quan mira la noia. Ho sento, Alfred, no sé com no t’ho van tallar això o potser soc jo, que encara soc més pervers que tu..."
-    },
-     {
-        "type" : "image",
-        "name" : "salesas49-02",
-        "content": "Antecedent de l’efecte Kuleixov: <em>Drame dans les airs</em> (1904), de Gaston Velle."
-    },
-   {
-      "type": "title",
-      "content": "L’efecte Kuleixov abans de Kuleixov"
-    },
-    {
-      "type": "paragraph",
-      "content": "L’efecte Kuleixov, malgrat tot el que hem dit, es basa en principis que ja s’usaven intuïtivament des de molt abans que el rus els teoritzés. Juxtaposar plans per generar significats nous era emprat a posta per molts cineastes anteriors. Era una eina més, un recurs de l’ofici, i li donaven tanta dimensió teòrica com un manobre al sistema d’apilar maons. Hi ha exponents molt antics d’ús del muntatge per crear una narrativa implícita que el públic connecta mentalment. La tècnica s’aniria refinant i arribaria al súmmum amb obres com <em>Intolerance</em> (1916), de David W. Griffith, sense demanar permís a l’amic Kuleixov. Newton va establir la llei de la gravetat, però les pomes cauen al cap de la gent des que existeixen pomes i existeixen caps."
-    },
-    {
-      "type": "paragraph",
-      "content": "Idèntica reflexió es pot aplicar a les teories del muntatge d’Eisenstein. Arribem a llegir que mai abans del Potemkin s’havien muntat plans tan curts. Deixant de banda la superficialitat del comentari, en l’àmbit experimental, Walter Ruttmann amb el seu <em>Opus</em> (1920-25) i René Clair amb <em>Entr’acte</em> (1924) ja havien exhaurit totes les possibilitats de trossejar el metratge fins a la picada d’all, i Abel Gance, amb el monumental drama <em>La Roue, </em>acabat tres anys abans que l’òpera prima del rus, havia dut el muntatge a igual cim tècnic, creatiu i poètic. Però és que també el slapstick dels anys deu —i el més “mata-esnobs”, com el de Larry Semon “Jaimito”—, arribava a tallar tan curt. I fins i tot trobem mostres anteriors, com el trepidant <em>Onésime employé des postes</em> (1911), on Jean Durand munta 6 plans seguits que duren entre 9 i 14 fotogrames —una fracció de segon!— provocant una catarsi digna d’un anunci de pirotècnia. I la cosa continua."
-    },
-    {
-      "type": "paragraph",
-      "content": "Si parlem de res més profund que la mera durada dels plans en escenes d’acció i ens endinsem en la profusió de punts de vista i d’escala —des del pla general al de detall, i l’ús intencionat d’inserts d’objectes, mans o altres parts del cos humà per generar tensió psicològica— res com revisar Griffith, amb menció per a l’eterna <em>The Avenging Conscience </em>(1914): al tros de l’interrogatori usa més de 60 talls en 4 minuts, precedint el Potemkin en onze anys, i un progressiu, obsessiu, acostament final als rostres, per transmetre l’angoixa del sospitós, que és pur Leone... cinquanta anys abans! En la línia d’Eisenstein també cal recordar noms tan dotats com John H. Collins, que a <em>Children of Eve</em> (1915) o <em>Blue Jeans </em>(1917), mira de tu a tu a Griffith i el supera en la fluïdesa d’angles de tir de la càmera dins el decorat. Kuleixov i després Eisenstein van teoritzar a fons i és per això que se’ls ha de valorar, no per inventar l’objecte estudiat. Val a dir que també en van explorar l’extrem pràctic, obrint-hi vies. Però el camp ja tenia qui el cultivava des de feia anys, fins a un punt de sofisticació que se sol oblidar massa sovint."
-    },
-    {
-        "type" : "image",
-        "name" : "salesas49-03",
-        "content": "Antecedent sofisticat de l’efecte Kuleixov: Mary McLaren a <em>Shoes </em>(1916), de Lois Weber."
-    },
-    {
-      "type": "paragraph",
-      "content": "Els anglesos van ser dels primers a manipular l’espai-temps a través de filmacions en llocs separats, per crear una realitat nova al muntatge. Pels anys 1900, Georges Méliès, malgrat l’amistat amb George Albert Smith, no s’interessava tant pels avanços anglesos en el llenguatge fílmic mateix com en la màgia dels efectes. El també francès Ferdinand Zecca no excel·liria tant amb la màgia, però aviat va adoptar les troballes narratives dels veïns de l’altra riba del canal. Amb<em> Par le trou de la serrure</em> (1901) ofereix un dels primers usos més clars d’efecte Kuleixov abans de Kuleixov que coneixem."
-    },
-    {
-      "type": "paragraph",
-      "content": "En aquest brevíssim curt veiem un criat que espia pels forats del pany de diverses portes. El filmet està muntat en diversos plans mestres —el criat espiant— i altres amb temes intermedis —plans dels subjectes espiats— i viceversa. El mateix Zecca repetiria la idea sovint, com a <em>Ce que je vois de mon sixième </em>(1904), amb un home que espia els veïns amb un telescopi. Visca el voyeurisme! I no era l’únic: Gaston Velle, entre d’altres, realitzava <em>Drame dans les airs </em>(1904), on dos viatgers en globus contemplen el panorama amb una ullera de llarga vista. És cert que, mentre al seu exemple Kuleixov vol dur l’actor al hieratisme límit, manllevant-li tota “actuació”, els francesos gesticulaven per mostrar què senten davant el que veuen, però el concepte no varia una coma, tant és que l’actor romangui quiet —Kuleixov— o que es bellugui —Zecca, Velle...—, els plans de reacció es poden intercanviar a pleret i així alterar el sentit dels actes del voyeur. A més, a mesura que ens acostem a la data de l’efecte, trobem exemples més subtils, d’una espiritualitat extrema, com <em>Shoes</em> (1916), de Lois Weber, on la frustració de la noia (Mary MacLaren), que no pot comprar les sabates, ens fa mal, malgrat que, quan l’actriu “mira” l’objecte desitjat, no fa gairebé res. Aquí sí, com a cap de llança, destil·lació microscòpica de molts altres exemples anteriors, tenim un efecte Kuleixov gairebé pur."
-    },
-    {
-      "type": "paragraph",
-      "content": "En la seva transició narrativa els cineastes exploraven el poder del muntatge per influir en la percepció de l’audiència, sense disposar de teories formals com les de Kuleixov o Eisenstein, ni els calia per igualar el nivell d’ascetisme màxim assolit per directors més moderns, defensors acèrrims de l’estaquirotisme facial. A més, aquests títols —sobretot els de Griffith, molt citats als seus textos—, el van inspirar directament. El poc interès pel cinema primitiu i l’enorme fama de “l’efecte” del títol, formalment enunciat més tard, ha fet oblidar l’ús massiu que se’n feia des de molt abans."
-    },
-    {
-      "type": "paragraph",
-      "content": "Se’m dirà: “però no has posat cap exemple anterior, amb actor immòbil, repetit cada cop que surt”. I què? Seria com dir que John Cage amb <em>4’33’’</em> va descobrir el silenci en la música, abans i després d’ell hi ha hagut compositors als quals no els calia arribar al seu nivell de 0 dbs. per mostrar que donen tant de pes al silenci, o més, que no pas Cage. A l’experiment del rus el paper de l’actor s’ha reduït fins a l’extermini, com el del so a <em>4’33’’</em>, o com el del color damunt un llenç al famós quadre <em>Blanc sobre blanc</em>, de Kazimir Malèvitx (1918) —què els va agafar als russos aquell any?—, però aital punt de radicalitat absoluta, per bo que sigui haver-lo provat, a efectes pràctics, reals, té un recorregut limitat. Si de cas certifica la validesa de tots els acostaments, anteriors o posteriors."
-    },
-    {
-      "type": "paragraph",
-      "content": "El que dèiem de la Llei de Newton, si en fa de temps que cauen pomes dels arbres!"
-    },
-    {
-        "type" : "image",
-        "name" : "salesas49-04",
-        "content": "Exemple d’efecte Kuleixov realitzat per Alfred Hitchcock per al programa Telescope (1964, CBS)."
-    },
-    {
-      "type": "title",
-      "content": "Kuleixov després de l’efecte"
-    },
-    {
-      "type": "paragraph",
-      "content": "Amb tot el que he dit, no vull que sembli que vinc a disminuir Lev Vladimirovitx Kuleixov (1899-1970). De fet, ell és per mi, de tot el cinema mut soviètic que conec, un dels noms més originals i divertits i, en molts aspectes, el més avançat. Cert que acabo de reivindicar els que posaven en pràctica les seves teories molt abans que les formulés, però una cosa no lleva mèrit a l’altra. Recordo una dona, entristida per la notícia que la ciència havia descobert la fórmula química de l’amor, lamentant que si ara l’amor es podia analitzar al laboratori, perdia valor, poesia. Cèlia Sànchez-Mústich li va dir: “això no li treu cap valor ni poesia a l’amor, si de cas li dona valor i poesia a la química!”"
-    },
-    {
-      "type": "paragraph",
-      "content": "Abans que res hem de subratllar un detall important i força menys conegut que el seu efecte, que Kuleixov va ser un autèntic nen prodigi. El 1916, amb setze anys, va entrar  a l’ofici com a ajudant del gran Ievgueni Bauer<sup>2</sup>. Amb disset escriu, dirigeix i actua al seu primer llarg, <em>Pesn lyubvi nedopetaya</em>. En part per abruptesa de novell, en part per la pobra producció, és un film desmanegat, però divertit i amb idees. En menys d’un any va establir la teoria de l’efecte i va conèixer la seva futura dona, mussa i sòcia de vida, la inefable Aleksandra Khokhlova (1897-1985). I tot abans de la majoria d’edat! En aquest sentit, emociona que un veterà Hitchcock de seixanta-quatre anys reti honors al seu mestre adolescent. L’infern generacional —l’horror de <em>millenials</em>, <em>boomers</em>, <em>Gen X</em>, <em>Y...</em> dissenyat per dividir-nos, alienar-nos i desactivar revoltes—, dinamitat per la sincera admiració entre cineastes de diferents èpoques que, ara que hi penso…, van néixer el mateix any! (1899)."
-    },
-    {
-        "type" : "image",
-        "name" : "salesas49-05",
-        "content": "Planificació que explota al màxim la planificació i el muntatge, amb varietat de punts de vista i direcció del tir de la càmera, a un nivell pràctic no gaire allunyat del muntatge simbòlic d’Eisenstein, amb inserts de plans de detall i segment de les escales dels personatges segons augmenta la tensió psicològica, a <em>Blue Jeans</em> (1917), de John H. Collins, amb Viola Dana de protagonista."
-    },
-    {
-      "type": "paragraph",
-      "content": "Com altres pioners russos, Kuleixov va veure en la Revolució una oportunitat per fer experiments i es va bolcar a treballar dins aquell context. Va fundar el “Col·lectiu Kuleixov” a l’Escola Estatal de Cinema de Moscou (1919), on va tenir tots els futurs grans noms —tots més grans que ell— com a alumnes, influint en l’estil soviètic més del que diu la història oficial, on certes troballes s’atribueixen a altres. És un cas, però, de mala sort, sense mala fe, amb quina facilitat els nostres mèrits poden quedar ocults pel més mínim corriment de terres! Malgrat l’alt nivell, la seva obra fa de mal seguir i estudiar, és menys extensa i més dispersa que la dels seus col·legues i la docència  i, més tard, les imposicions del règim —l’escull de tots els directors creatius— el van limitar."
-    },
-    {
-      "type": "paragraph",
-      "content": "Kuleixov reconeixia la influència dels americans. Griffith i els còmics l’admiraven per la seva facilitat per captivar el públic amb bon ritme i claredat. Aquesta fascinació la confirmarien alumnes seus, com Pudovkin, que es va estrenar amb l’hilarant curt <em>Shakhmatnaya goryachka</em> (1925) —<em>“la febre dels escacs”—, </em>amb Vladímir Fogel, un dels actors fetitxe del mestre. Això és perquè, encara que per a ell el muntatge era important, el seu efecte número 1 no era “aquell” sinó les ganyotes i gesticulacions del seu elenc."
-    },
-    {
-      "type": "paragraph",
-      "content": "Sorprèn que poc fidel era al seu propi efecte i que demanés als seus actors d’assolir el to més grotesc possible, sabotejant per dins les seves teories. Això havia creat alguna diferència amb  l’Akesandra, al plató. Khokhlova venia d’un entorn culturalment ric. Neta del fundador de la Galeria Tretiakov, estava connectada amb cercles artístics russos i provenia d’una escola teatral refinada. Kuleixov, per contra, defensava l’actuació basada en els aspectes més físics i el moviment atlètic més que en el psicologisme del teatre. Malgrat les friccions, però, va trobar en Khokhlova la coautora ideal. Amb una formació completa en la dansa, transmetia emocions a través del cos com qui respira. El que més destacava d’ella era, sobretot, la seva cara bella i lletja alhora, desafiant. Públic, crítica i col·legues discutien sobre el nou prototip estètic que proposava aquell espècimen inclassificable. Per a ell, però, no hi havia dubte, fos el que fos, era perfecta."
-    },
-     {
-        "type" : "image",
-        "name" : "salesas49-06",
-        "content": "Fragment de la planificació hiperfragmentada de l’escena de l’interrogatori de <em>The Avenging Conscience</em> (1914), de David W. Griffith, en què s’inclou tota mena d’inserts, però també plans externs, d’una simbologia que reforça l’angoixa interior del personatge interpretat per Henry B. Walthall."
-    },
-   {
-      "type": "paragraph",
-      "content": "La sàtira <em>Neobychainye priklyucheniya mistera Vesta v strane bolshevikov </em>(1924) —<em>“Les extraordinàries aventures de Mr. West al país dels bolxevics”</em>(!)<em>—</em>, per exemple, és plena de gags i situacions absurdes que piquen l’ullet a Chaplin, Lloyd i Keaton fins a agafar un tic. Els experts es divideixen. Pel pianista de cinema mut John Sweeney és la comèdia menys divertida del món i per a la blogger “Movies Silently” és millor que <em>Ninotchka</em> (1939), de Lubitsch. Jo soc al mig, contrit pel conjunt, però flipant amb l’espectacle d’ulls, ossos i genives de la Khokhlova sobreeixint-li del cos. A més, sorprèn veure gags en clarobscurs tan treballats, com també un film a la Caravaggio amb tanta conya."
-    },
-    {
-      "type": "paragraph",
-      "content": "Més reeixits trobo, però, <em>Luch Smerti</em> (1925) i l’encara més ferma <em>Po zakonu</em> (1926), on Khokhlova demostra que amb un físic cubista pot fer coses que només hem vist fer als gats. Per a Kuleixov, apart d’estar-ne enamorat, ella era l’estrella ideal per a experimentar, constructivisme personificat, un acte de terrorisme viu que feia volar pels aires tot estàndard de bellesa. Per xocant que pugui semblar, els productors no ho veien igual. Els de Goskino ja n’havien tingut prou d’aquella bèstia rara. Deien que no era “prou atractiva” per al paper d’Edith, però Kuleixov va defensar tan ardentment que ella era part indestriable del seu concepte que els amos es van haver de rendir, plorant."
-    },
-    {
-      "type": "paragraph",
-      "content": "<em>Luch Smerti</em> és per mi un dels films amb un to genèric més caòticament genial que existeixen. Mai no saps si t’has de decantar per gaudir d’un slapstick de Harold Lloyd, un serial de Feuillade, un <em>spin-off</em> de Mabuse o de l’avantguarda a la francesa. Com a pel·lícula ofereix totes les emocions que promet, malgrat que es contradigui tant. Desborda tècnica, gosadia, idees visuals, jocs de llum i tantes ganes de menjar-s’ho tot que sembla voler encabir tres <em>Citizen Kane</em> a cada escena. Tanta bogeria empatxaria els cartesians, que li posarien una camisa de força. Però sabent que l’estrena es va avançar uns mesos a les intocables <em>Stachka</em> (1925) i <em>Bronenóssets Potiomkin</em> (1925) d’Eisenstein, jo seré sempre al costat de Kuleixov, braç a braç, defensant el seu monstre contra el món."
-    },
-    {
-      "type": "paragraph",
-      "content": "<em>Po zanoku</em> ja és molt més que un film <em>friqui</em> i rep el títol d’obra mestra amb més consens. Basat en un relat de Jack London, narra la claustrofòbica relació d’un grup de cercadors d’or al remot Yukon, Alaska. Un és una dona —ella—, que manté un vibrant duel fílmic amb Fogel. La franca violència amb què Kuleixov el filma i munta, i la manca de pudor dels actors a buidar-se fan de <em>Po zanoku</em> un dels films muts més durs de pair. Sens dubte, quedem tocats per aquest retrat d’un grup d’humans que, duts al límit, es deshumanitzen i destrueixen entre ells, per supervivència i cobdícia, mostrat sense embuts ni hipocresies, amb una cinematografia del màxim nivell."
-    },
-    {
-        "type" : "image",
-        "name" : "salesas49-07",
-        "content": "La provocativa bellesa d’Aleksandra Khokhlova (1897-1985)."
-    },
-    {
-      "type": "paragraph",
-      "content": "A mesura que Stalin consolidava el poder i el Partit Comunista adoptava oficialment el Realisme Socialista, la folla creativitat de la parella va començar a ser vista amb recel. La nova doctrina exigia que l’art —cinema inclòs—, fos accessible, optimista i sotmès a la propaganda oficial, prevalent continguts clars i històries que exaltessin els valors de la revolució. Kuleixov, que privilegiava l’humor absurd i l’aventura estètica més que la propaganda ideològica, va ser acusat de “formalisme”, terme pejoratiu usat per condemnar l’art considerat massa abstracte o desvinculat dels objectius comuns. Amb tot, quan el cinema mut encara cuejava, Khokhlova va dirigir <em>Delo s zastezhkami</em> (1929) i <em>Sasha</em> (1930), els seus primers films al marge del marit."
-    },
-    {
-      "type": "paragraph",
-      "content": "Mentre el matrimoni realitzava<em> Dokhunda</em> (1934-1935), al Tadjikistan, basat en un text del poeta nacional Sadriddin Ayni, les autoritats van aturar el rodatge, acusant Kuleixov de promoure el nacionalisme tadjik, amenaça per a la unitat centralista de l'URSS. El material rodat va ser destruït i no se’n conserva res. Aquest va ser el sotrac fatal per a la seva carrera i l’estrena dels seus títols es van espaiar. Les seves idees i mètodes havien estat criticats per alguns sectors del partit ja des de l’inici, però des d’aquell moment la seva mobilitat es va reduir dràsticament."
-    },
-    {
-        "type" : "image",
-        "name" : "salesas49-08",
-        "content": "Dos fotogrames de <em>Po zanoku</em> (1926), de Lev Kuleixov."
-    },
-    {
-      "type": "paragraph",
-      "content": "Després d’un últim títol el 1943, va sobreviure com a docent i funcionari. Per sort, no el van purgar ni empresonar, com si es va fer amb altres col·legues. Per a ella la cosa no aniria millor. En el seu cas s’hi afegia l’ascendència familiar, poc proletària, i l’educació massa refinada que havia rebut. A més, un oncle seu havia estat metge personal de la família del tsar Nicolau II i va tenir la mala pensada de seguir-lo al seu exili i de deixar-se executar al costat dels seus imperials pacients. Amb una taca així a les venes, l’actriu no hi podia fer res. Com a mínim Lev i Aleksandra es tenien a ells mateixos i l’amor que els unia, que és una cosa que sempre fa caliu."
-    },
-   {
-      "type": "paragraph",
-      "content": "Per acabar, un breu esment a un dels personatges que pateix una desproporció més injusta entre la seva importància real en la història del cinema i com se l’ignora, fins i tot entre molts amants del cinema mut, i que aquí s’ha esmentat de passada, Ivan Mosjoukine, un actor immens de qui en parlarem aviat. Avui només farem una alerta urgent: per tot arreu trobareu exemples de l’efecte Kuleixov, però el més famós i estès és un on apareix un model/actor, d’uns quaranta anys, un xic calb, amb cara de carda fàstics, fent el paper de Mosjoukine a l’original. L’escena circula en vídeo i en forma de fotografies. En realitat formava part d’un antic documental sobre l’efecte —el vaig veure fa molt temps, però ara no hi ha hagut manera de trobar-lo, si algú ho fa ho agrairé molt— i, llevat de l’actor, que s’assembla a Mosjoukine com una arpa celta a una gralla, el pastitx d’època és prou bo. En molts llocs l’escena es descriu bé —“reproducció posterior de l’efecte Kuleixov”...—, però en d’altres s’acredita aquell home com el mític intèrpret. Això ha fet que qui no l’ha vist mai —com en la trista confusió d’Alice Guy amb Mary Pickford—, en sentir el seu nom, s’imagini el calb. Els humans normals prou fan pagant factures i deixant-se alienar, però qui divulga hauria de tallar les cadenes d’errors, no parlem d’un secundari obscur sinó d’un dels més ferms candidats a millor actor de tot el cinema mut!"
-    },
-     {
-        "type" : "image",
-        "name" : "salesas49-09",
-        "content": "A dreta i esquerra una imatge del gran actor rus Ivan Mosjoukine a <em>Kean</em> (1923), d’Aleksandr Aleksàndrovitx Vólkov i, al centre, l’actor o model anònim protagonista d’una reproducció de l’efecte Kuleixov amb qui constantment se’l confon. Aquest bon home NO és Mosjoukine."
-    },
-    {
-      "type": "paragraph",
-      "content": "I ja n’hi ha prou. Us deixo amb un clip amb escenes del període 1924-1926 de què he parlat, perquè us dividiu entre els que us enamoreu de la bogeria preciosa de Kuleixov i Khokhlova i els que els tancaríeu en un manicomi. Com que jo soc dels que encara trobo que n'hi ha poca de bogeria d’aquesta al món, he convocat el mirífic Dr. Truna (Andrés Blasco), que m’ha cedit amablement el seu violoncel i electrònica al marge de la normalitat perquè el poti-poti final encara sigui més divisiu. Com diria Cèsar: <em>“Divide et Impera” </em>i a volar!"
-    },
-         {
-            "type" : "paragraph",
-            "content" : "<iframe width='100%' height='400' src='https://youtube.com/embed/XfqOGU9EUh8'></iframe>"
+          "number": 1,
+          "content": "Ivan Mosjoukine (1889-1939) gran actor rus que va rodar a Rússia, França, Alemanya i fins i tot USA. El seu cognom s’escrivia segons on treballava. Uso la forma francesa per senzilla i més usual. Article del Dr. Caligari <a href=\"https://eltestamentodeldoctorcaligari.com/2022/01/20/especial-films-albatros-iv-los-100-rostros-de-ivan-mosjoukine-ivan-mozzhukhin/\">https://eltestamentodeldoctorcaligari.com/2022/01/20/especial-films-albatros-iv-los-100-rostros-de-ivan-mosjoukine-ivan-mozzhukhin/</a>"
         },
         {
-            "type" : "paragraph",
-            "className" : "image-foot",
-            "content" : "Vídeo que recull un muntatge de tres films de Lev Kuleixov protagonitzats per Aleksandra Khokhlova: <em>Neobychainye priklyucheniya mistera Vesta v strane bolshevikov </em>(1924), <em>Luch smerti</em> (1925) i <em>Po zanoku</em> (1926), amb un fragment de <em>Secondo Spettro</em>, del disc <em>Live at Spettro, Brescia</em> (2022), de Dr. Truna (Andrés Blasco), com a banda sonora."
-        },
-   {
-        "type" : "footnotes",
-        "notes" : [
-            {
-                "number" : 1,
-                "content" : "Ivan Mosjoukine (1889-1939) gran actor rus que va rodar a Rússia, França, Alemanya i fins i tot USA. El seu cognom s’escrivia segons on treballava. Uso la forma francesa per senzilla i més usual. Article del Dr. Caligari <a href=\"https://eltestamentodeldoctorcaligari.com/2022/01/20/especial-films-albatros-iv-los-100-rostros-de-ivan-mosjoukine-ivan-mozzhukhin/\">https://eltestamentodeldoctorcaligari.com/2022/01/20/especial-films-albatros-iv-los-100-rostros-de-ivan-mosjoukine-ivan-mozzhukhin/</a>"
-            },
-            {
-              "number" : 2,
-              "content" : "<a href=\"https://www.lletresbarbares.cat/articles/yevgeni-bauer-o-la-vida-mes-enlla-de-la-mort\">https://www.lletresbarbares.cat/articles/yevgeni-bauer-o-la-vida-mes-enlla-de-la-mort</a> article de Lletres Bàrbares que vaig dedicar al gran director rus de l’època tsarista Ievgueni Bauer."
-            }
-        ]
+          "number": 2,
+          "content": "<a href=\"https://www.lletresbarbares.cat/articles/yevgeni-bauer-o-la-vida-mes-enlla-de-la-mort\">https://www.lletresbarbares.cat/articles/yevgeni-bauer-o-la-vida-mes-enlla-de-la-mort</a> article de Lletres Bàrbares que vaig dedicar al gran director rus de l’època tsarista Ievgueni Bauer."
+        }
+      ],
+      "pdf": {
+        "page": 13
+      }
     }
+  ],
+  "publicationDate": {
+    "$date": "2025-07-26T22:00:00.000Z"
+  },
+  "isPublished": true,
+  "tags": [],
+  "readTime": 5,
+  "year": 2025,
+  "issueNumber": 49,
+  "authors": [
+    "Florenci Salesas"
   ]
-    
 }

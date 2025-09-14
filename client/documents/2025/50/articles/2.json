@@ -1,151 +1,198 @@
 {
-    "title" : "L'andalusisme en Federico García Lorca",
-    "url" : "l_andalusisme_en_federico_garcia_lorca",
-    "section" : "articles",
-    "issue" : 49,
-    "data" : "27/07/2025",
-    "imageCard" : "andreu49-00",
-    "author" : "Andreu Pérez-Mingorance",
-    "summary" : "",
-    "text": [
-        {
-            "type" : "image",
-            "name" : "andreu49-00",
-            "content": "Federico García Lorca a Pitres, Alpujarra granadina, 1928, foto enviada a Jorge Guillén. Fons Centro FGL, Granada"
-        },
+  "_id": {
+    "$oid": "688f8e37ac16e0dadcf03d86"
+  },
+  "issueId": {
+    "$oid": "688f8e36ac16e0dadcf03d80"
+  },
+  "issue": 2025,
+  "data": "27/07/2025",
+  "imageCard": "andreu49-00",
+  "title": "L'andalusisme en Federico García Lorca",
+  "url": "l_andalusisme_en_federico_garcia_lorca",
+  "section": "articles",
+  "author": "Andreu Pérez-Mingorance",
+  "summary": "",
+  "text": [
     {
-      "type": "paragraph",
-      "content": "Federico García Lorca és fill de la Vega de Granada. No sé si això seria, des del punt de vista de la crítica literària, anterior o posterior a la seva inquietud poètica dins la Generació del 27, però en realitat penso que és l’embrió de la seva formació com a poeta, la llavor seminal de la seva poesia. La figura humana i l’escriptor són part fonamental de la literatura en llengua castellana del segle XX, i no tan sols pel seu tràgic final, sinó per la rellevància de la seva obra, obra que encara no crec que s’hagi posat prou en valor i en context."
+      "type": "image",
+      "name": "andreu49-00",
+      "content": "Federico García Lorca a Pitres, Alpujarra granadina, 1928, foto enviada a Jorge Guillén. Fons Centro FGL, Granada",
+      "pdf": { "page": 1 }
     },
     {
       "type": "paragraph",
-      "content": "La seva obra s’impregna, des dels seus primers versos de joventut, de llum i d’ombra d’Andalusia. Transcendeix el localisme per esdevenir una veu universal. La seva capacitat d’elevar el drama rural a la categoria de mite, d’atorgar a l’andalusisme una dimensió profundament crítica, simbòlica i renovadora, situa la calor espessa de l’estiu del dol de <em>La casa de Bernarda Alba</em>, tan andalusa, o la romeria tan plena de paganisme de <em>Yerma</em> en una categoria clàssica, grega, per mediterrània. Fonts de cultura són Grècia i Andalusia, un ancoratge a la terra que arriba fins a l’arrel tartèssia, com es pot veure a la conferència <a href=\"https://www.lletresbarbares.cat/articles/poema_del_toro_de_federico_garcia_lorca\">“El poema del toro”<a>."
+      "content": "Federico García Lorca és fill de la Vega de Granada. No sé si això seria, des del punt de vista de la crítica literària, anterior o posterior a la seva inquietud poètica dins la Generació del 27, però en realitat penso que és l’embrió de la seva formació com a poeta, la llavor seminal de la seva poesia. La figura humana i l’escriptor són part fonamental de la literatura en llengua castellana del segle XX, i no tan sols pel seu tràgic final, sinó per la rellevància de la seva obra, obra que encara no crec que s’hagi posat prou en valor i en context.",
+      "pdf": { "page": 1 }
     },
     {
       "type": "paragraph",
-      "content": "No ha estat Andalusia tartèssia, fenícia, grega, romana, bizantina, andalusí? Sí, ho ha estat, i això va impregnar la cultura de Federico García Lorca, perquè la cultura de l’immediat, sempre local, és la primera que ens impregna i cal profunditzar en ella per fer-la universal."
+      "content": "La seva obra s’impregna, des dels seus primers versos de joventut, de llum i d’ombra d’Andalusia. Transcendeix el localisme per esdevenir una veu universal. La seva capacitat d’elevar el drama rural a la categoria de mite, d’atorgar a l’andalusisme una dimensió profundament crítica, simbòlica i renovadora, situa la calor espessa de l’estiu del dol de <em>La casa de Bernarda Alba</em>, tan andalusa, o la romeria tan plena de paganisme de <em>Yerma</em> en una categoria clàssica, grega, per mediterrània. Fonts de cultura són Grècia i Andalusia, un ancoratge a la terra que arriba fins a l’arrel tartèssia, com es pot veure a la conferència <a href=\"https://www.lletresbarbares.cat/articles/poema_del_toro_de_federico_garcia_lorca\">“El poema del toro”<a>.",
+      "pdf": { "page": 1 }
     },
     {
       "type": "paragraph",
-      "content": "És una sort néixer a qualsevol lloc, i cal transcendir-lo per elevar-lo al seu valor universal, perquè universal és l’home que neix arreu i és sensible a la realitat, al patiment, a la felicitat i a la grandesa que l’envolta i el fa únic i gran. Federico García Lorca va ser un mestre en fer-ho amb la seva Granada natal i amb la seva Andalusia, la seva veritable pàtria, que, al cap i a la fi, va ser el paisatge de la seva infància; després la gent es fa gran, va de la Seca a la Meca i al final torna a la mirada primera, voltar el món per tornar al Born."
+      "content": "No ha estat Andalusia tartèssia, fenícia, grega, romana, bizantina, andalusí? Sí, ho ha estat, i això va impregnar la cultura de Federico García Lorca, perquè la cultura de l’immediat, sempre local, és la primera que ens impregna i cal profunditzar en ella per fer-la universal.",
+      "pdf": { 
+        "page": 1,
+        "division": {
+          "alignLast": true,
+          "contentPage": "No ha estat Andalusia tartèssia, fenícia, grega, romana, bizantina, andalusí? Sí, ho ha estat, i això va",
+          "contentNextPage": "impregnar la cultura de Federico García Lorca, perquè la cultura de l’immediat, sempre local, és la primera que ens impregna i cal profunditzar en ella per fer-la universal."
+        }
+      }
     },
     {
       "type": "paragraph",
-      "content": "El meu article pretén oferir una anàlisi de l’andalusisme lorquià, tot integrant-hi la seva relació amb la pluralitat cultural de l’estat espanyol i la seva visió cosmopolita del món, la seva connexió amb poetes i intel·lectuals catalans i el seu apropament a la literatura gallega. L’objectiu és mostrar com Lorca va contribuir a la renovació de les literatures peninsulars i a la dignificació de les identitats que constitueixen la pell de brau."
+      "content": "És una sort néixer a qualsevol lloc, i cal transcendir-lo per elevar-lo al seu valor universal, perquè universal és l’home que neix arreu i és sensible a la realitat, al patiment, a la felicitat i a la grandesa que l’envolta i el fa únic i gran. Federico García Lorca va ser un mestre en fer-ho amb la seva Granada natal i amb la seva Andalusia, la seva veritable pàtria, que, al cap i a la fi, va ser el paisatge de la seva infància; després la gent es fa gran, va de la Seca a la Meca i al final torna a la mirada primera, voltar el món per tornar al Born.",
+      "pdf": { "page": 2 }
     },
     {
       "type": "paragraph",
-      "content": "Lorca no és només una bogeria passional, té la intenció de crear cultura i canviar la visió dels més desafavorits, siguin gitanos o pagesos a Andalusia, o la massa d’obrers que el sentia recitar el Romancero Gitano a través de les ones de Ràdio Barcelona, a la plaça de Catalunya. Lorca té la capacitat d’escriure, recitar, cantar, dramatitzar i dur la cultura en un camió pels camps de la pell de brau, perquè vol tornar la dignitat a la petita història de cada home."
+      "content": "El meu article pretén oferir una anàlisi de l’andalusisme lorquià, tot integrant-hi la seva relació amb la pluralitat cultural de l’estat espanyol i la seva visió cosmopolita del món, la seva connexió amb poetes i intel·lectuals catalans i el seu apropament a la literatura gallega. L’objectiu és mostrar com Lorca va contribuir a la renovació de les literatures peninsulars i a la dignificació de les identitats que constitueixen la pell de brau.",
+      "pdf": { "page": 2 }
     },
     {
       "type": "paragraph",
-      "content": "L’obra de Lorca situa Andalusia al centre d’una tensió constant entre realitat i símbol. Andalusia ha estat sempre utilitzada com una força simbòlica, el seu folklore és fort i profundament marcat per l’orientalisme, que de vegades és més una creació literària que no pas una realitat. El folklore real és, clarament, marcat per elements orientals. És una terra fortament marcada pel seu passat andalusí i jueu, però també pel pes dels diferents fets socials i històrics que, en el cas de l’Andalusia oriental, van des del llegat morisc, un poderós llegat històric, fins a la força de les repoblacions castellanes, gallegues o basques."
+      "content": "Lorca no és només una bogeria passional, té la intenció de crear cultura i canviar la visió dels més desafavorits, siguin gitanos o pagesos a Andalusia, o la massa d’obrers que el sentia recitar el Romancero Gitano a través de les ones de Ràdio Barcelona, a la plaça de Catalunya. Lorca té la capacitat d’escriure, recitar, cantar, dramatitzar i dur la cultura en un camió pels camps de la pell de brau, perquè vol tornar la dignitat a la petita història de cada home.",
+      "pdf": { "page": 2 }
     },
     {
       "type": "paragraph",
-      "content": "La seva Andalusia no és una postal folklòrica ni un simple decorat, sinó una terra marcada per la tragèdia, la repressió social i la força tel·lúrica dels seus mites, coses que de vegades desconeixen els viatgers romàntics europeus o el mateix romanticisme castellà, tots dos molt desitjosos d’una idea únicament orientalitzant, molt influïda per una arquitectura evident i potser de vegades per la calidesa del sud."
+      "content": "L’obra de Lorca situa Andalusia al centre d’una tensió constant entre realitat i símbol. Andalusia ha estat sempre utilitzada com una força simbòlica, el seu folklore és fort i profundament marcat per l’orientalisme, que de vegades és més una creació literària que no pas una realitat. El folklore real és, clarament, marcat per elements orientals. És una terra fortament marcada pel seu passat andalusí i jueu, però també pel pes dels diferents fets socials i històrics que, en el cas de l’Andalusia oriental, van des del llegat morisc, un poderós llegat històric, fins a la força de les repoblacions castellanes, gallegues o basques.",
+      "pdf": { "page": 2 }
     },
     {
       "type": "paragraph",
-      "content": "A <em>Bodas de sangre</em>, per exemple, el Cortijo del Fraile esdevé més que un escenari, és la metàfora d’un sistema feudal on l’honor familiar i la jerarquia tradicional condueixen inexorablement a la tragèdia. Aquesta visió s’allunya del costumisme idealitzat per denunciar l’opressió de les estructures feudals andaluses, que neguen l’autonomia individual i sotmeten la dona i les classes baixes a una disciplina ferotge, un fet social que prové més de les jerarquies castellanes que imposen la seva estructura social que no pas de l’herència nassarita dels últims moments del Regne de Granada."
+      "content": "La seva Andalusia no és una postal folklòrica ni un simple decorat, sinó una terra marcada per la tragèdia, la repressió social i la força tel·lúrica dels seus mites, coses que de vegades desconeixen els viatgers romàntics europeus o el mateix romanticisme castellà, tots dos molt desitjosos d’una idea únicament orientalitzant, molt influïda per una arquitectura evident i potser de vegades per la calidesa del sud.",
+      "pdf": { "page": 2 }
     },
     {
       "type": "paragraph",
-      "content": "A <em>La casa de Bernarda Alba</em>, la claustrofòbia de l’espai domèstic reflecteix la rigidesa moral de la societat rural andalusa, on la religiositat imposada per una societat que no ha de semblar ni mora ni jueva imposa el silenci i la por com a instruments de control. Lorca converteix la llar en presó i la dona en víctima d’una societat patriarcal que reprimeix el desig i la llibertat."
+      "content": "A <em>Bodas de sangre</em>, per exemple, el Cortijo del Fraile esdevé més que un escenari, és la metàfora d’un sistema feudal on l’honor familiar i la jerarquia tradicional condueixen inexorablement a la tragèdia. Aquesta visió s’allunya del costumisme idealitzat per denunciar l’opressió de les estructures feudals andaluses, que neguen l’autonomia individual i sotmeten la dona i les classes baixes a una disciplina ferotge, un fet social que prové més de les jerarquies castellanes que imposen la seva estructura social que no pas de l’herència nassarita dels últims moments del Regne de Granada.",
+      "pdf": { "page": 3 }
     },
     {
       "type": "paragraph",
-      "content": "Aquesta Andalusia, lluny de la imatge pintoresca, esdevé un espai de conflicte i de resistència, on la llum i l’ombra, la vida i la mort, es confonen en un univers poètic d’una força inusitada, més fruit de les influències d’una Castella puritana que d’un món andalusí que era molt més obert i lluminós."
+      "content": "A <em>La casa de Bernarda Alba</em>, la claustrofòbia de l’espai domèstic reflecteix la rigidesa moral de la societat rural andalusa, on la religiositat imposada per una societat que no ha de semblar ni mora ni jueva imposa el silenci i la por com a instruments de control. Lorca converteix la llar en presó i la dona en víctima d’una societat patriarcal que reprimeix el desig i la llibertat.",
+      "pdf": { "page": 3 }
     },
     {
       "type": "paragraph",
-      "content": "El cortijo, element i espai recurrent en l’obra lorquiana, simbolitza un poder oligàrquic i de repressió social que, encara a la primera meitat del segle XX, era viu com a espai social on les classes dominants imposaven una manera de fer social, duresa i rigidesa com a model opressor de camperols que no poden exercir la seva pròpia llibertat, homes i dones obligats quasi a la servitud."
+      "content": "Aquesta Andalusia, lluny de la imatge pintoresca, esdevé un espai de conflicte i de resistència, on la llum i l’ombra, la vida i la mort, es confonen en un univers poètic d’una força inusitada, més fruit de les influències d’una Castella puritana que d’un món andalusí que era molt més obert i lluminós.",
+      "pdf": { "page": 3 }
     },
     {
       "type": "paragraph",
-      "content": "A <em>Bodas de sangre</em>, el Cortijo del Fraile no només arrela la història en un context rural andalús molt concret, sinó que esdevé l’escenari de la fatalitat i de la lluita entre el desig i la norma. Aquest espai, que trobem primer a <em>Puñal de claveles</em> de Carmen de Burgos, es caracteritza per un realisme que es barreja amb elements simbòlics: el cementiri, les creus del camí, la presència de la mort i la superstició."
+      "content": "El cortijo, element i espai recurrent en l’obra lorquiana, simbolitza un poder oligàrquic i de repressió social que, encara a la primera meitat del segle XX, era viu com a espai social on les classes dominants imposaven una manera de fer social, duresa i rigidesa com a model opressor de camperols que no poden exercir la seva pròpia llibertat, homes i dones obligats quasi a la servitud.",
+      "pdf": { "page": 3 }
     },
     {
       "type": "paragraph",
-      "content": "L’ambient opressiu i patriarcal del cortijo reflecteix la realitat d’una Andalusia marcada per la jerarquia, la tradició i la impossibilitat d’escapar del destí. Un model que la dictadura franquista mantindrà fins al moment en què interessa destruir l’espai rural per alliberar mà d’obra barata per a la indústria del nord i el centre peninsular, però no serà a través d’un alliberament de la consciència col·lectiva, ja que no hi ha ni revolució social ni agrària, serà mà d’obra que passa de la servitud del camp a la servitud de la indústria."
+      "content": "A <em>Bodas de sangre</em>, el Cortijo del Fraile no només arrela la història en un context rural andalús molt concret, sinó que esdevé l’escenari de la fatalitat i de la lluita entre el desig i la norma. Aquest espai, que trobem primer a <em>Puñal de claveles</em> de Carmen de Burgos, es caracteritza per un realisme que es barreja amb elements simbòlics: el cementiri, les creus del camí, la presència de la mort i la superstició.",
+      "pdf": { "page": 3 }
     },
     {
       "type": "paragraph",
-      "content": "La dictadura va malmetre el llegat cultural andalús, convertint-lo en folklore de masses al servei del franquisme, explotant la força del “duende” fins a convertir-lo en un producte per satisfer el sentimentalisme d’una massa d’andalusos forçats a abandonar la seva terra a causa de la decisió del règim franquista i de les seves elits, també les andaluses, de mantenir Andalusia en un estat de subdesenvolupament econòmic i cultural."
+      "content": "L’ambient opressiu i patriarcal del cortijo reflecteix la realitat d’una Andalusia marcada per la jerarquia, la tradició i la impossibilitat d’escapar del destí. Un model que la dictadura franquista mantindrà fins al moment en què interessa destruir l’espai rural per alliberar mà d’obra barata per a la indústria del nord i el centre peninsular, però no serà a través d’un alliberament de la consciència col·lectiva, ja que no hi ha ni revolució social ni agrària, serà mà d’obra que passa de la servitud del camp a la servitud de la indústria.",
+      "pdf": { "page": 3 }
     },
     {
       "type": "paragraph",
-      "content": "Aquest esguerro franquista provocarà la rancúnia d’altres territoris de l’estat espanyol, com Catalunya, que, per contra, havien de veure menystingudes o fins i tot perseguides les seves senyes d’identitat. Costarà molt refer la dignitat de tot el llegat real de la cultura andalusa, encara hi ha pendent una revisió de tot aquest període i donar una visió digna de l'andalusisme."
+      "content": "La dictadura va malmetre el llegat cultural andalús, convertint-lo en folklore de masses al servei del franquisme, explotant la força del “duende” fins a convertir-lo en un producte per satisfer el sentimentalisme d’una massa d’andalusos forçats a abandonar la seva terra a causa de la decisió del règim franquista i de les seves elits, també les andaluses, de mantenir Andalusia en un estat de subdesenvolupament econòmic i cultural.",
+      "pdf": { "page": 4 }
     },
     {
       "type": "paragraph",
-      "content": "<em>Romancero gitano</em> (1928) representa un punt àlgid de la poesia lorquiana. El poble gitano esdevé símbol de llibertat, passió i tragèdia. Lorca no busca al món gitano el tòpic folklòric, sinó una projecció d’una força mítica i ancestral que determina el destí andalús. El poble gitano, que s’ha integrat profundament a la societat popular andalusa durant quatre segles, serveix de refugi a elements del passat morisc i dona sentit a l’orientalisme subjacent al substrat andalús."
+      "content": "Aquest esguerro franquista provocarà la rancúnia d’altres territoris de l’estat espanyol, com Catalunya, que, per contra, havien de veure menystingudes o fins i tot perseguides les seves senyes d’identitat. Costarà molt refer la dignitat de tot el llegat real de la cultura andalusa, encara hi ha pendent una revisió de tot aquest període i donar una visió digna de l'andalusisme.",
+      "pdf": { "page": 4 }
     },
     {
       "type": "paragraph",
-      "content": "La poesia lorquiana, hereva d’una tradició visual i sensitiva, expressa les emocions a través del cant i el ball, i esdevé un cant a la contemplació, al color, a la llum i a la pena d’Andalusia. El mite gitano serveix a Lorca per denunciar la marginació i la persecució, però també per exaltar la força vital i la capacitat de resistència davant l’adversitat. Així mateix, contribueix a mantenir una idea i una emoció fortes i convençudes, potser inconscientment al principi, de la pròpia identitat."
+      "content": "<em>Romancero gitano</em> (1928) representa un punt àlgid de la poesia lorquiana. El poble gitano esdevé símbol de llibertat, passió i tragèdia. Lorca no busca al món gitano el tòpic folklòric, sinó una projecció d’una força mítica i ancestral que determina el destí andalús. El poble gitano, que s’ha integrat profundament a la societat popular andalusa durant quatre segles, serveix de refugi a elements del passat morisc i dona sentit a l’orientalisme subjacent al substrat andalús.",
+      "pdf": { "page": 4 }
     },
     {
       "type": "paragraph",
-      "content": "El teatre de Lorca —<em>Yerma, Bodas de sangre, La casa de Bernarda Alba</em>— aprofundeix en les tensions socials i en la tragèdia de l’existència autèntica del poble andalús. L’espai rural esdevé un escenari universal on es debaten els grans temes de la condició humana: llibertat, desig, repressió i mort. Lorca, hereu de la tragèdia grega i del simbolisme modern, converteix la ruralia andalusa en un univers de denúncia i de poesia. Les seves heroïnes, com Yerma o Adela, encarnen la lluita per la llibertat i la rebel·lia contra un ordre injust, tot convertint-se en símbols universals de la condició femenina i de la recerca de l’autenticitat."
+      "content": "La poesia lorquiana, hereva d’una tradició visual i sensitiva, expressa les emocions a través del cant i el ball, i esdevé un cant a la contemplació, al color, a la llum i a la pena d’Andalusia. El mite gitano serveix a Lorca per denunciar la marginació i la persecució, però també per exaltar la força vital i la capacitat de resistència davant l’adversitat. Així mateix, contribueix a mantenir una idea i una emoció fortes i convençudes, potser inconscientment al principi, de la pròpia identitat.",
+      "pdf": { "page": 4 }
     },
     {
       "type": "paragraph",
-      "content": "Amb <em>Poeta en Nueva York</em> (1940, publicat pòstumament), Lorca trasllada el seu univers andalús a la metròpoli moderna, confrontant la seva sensibilitat amb la deshumanització de la ciutat i la injustícia social."
+      "content": "El teatre de Lorca —<em>Yerma, Bodas de sangre, La casa de Bernarda Alba</em>— aprofundeix en les tensions socials i en la tragèdia de l’existència autèntica del poble andalús. L’espai rural esdevé un escenari universal on es debaten els grans temes de la condició humana: llibertat, desig, repressió i mort. Lorca, hereu de la tragèdia grega i del simbolisme modern, converteix la ruralia andalusa en un univers de denúncia i de poesia. Les seves heroïnes, com Yerma o Adela, encarnen la lluita per la llibertat i la rebel·lia contra un ordre injust, tot convertint-se en símbols universals de la condició femenina i de la recerca de l’autenticitat.",
+      "pdf": { "page": 4 }
     },
     {
       "type": "paragraph",
-      "content": "El poeta, profundament marcat per la seva experiència andalusa, esdevé portaveu dels oprimits —negres, gitanos, marginats— i denuncia la pèrdua de la dimensió humana en la societat industrial."
+      "content": "Amb <em>Poeta en Nueva York</em> (1940, publicat pòstumament), Lorca trasllada el seu univers andalús a la metròpoli moderna, confrontant la seva sensibilitat amb la deshumanització de la ciutat i la injustícia social.",
+      "pdf": { "page": 4 }
     },
     {
       "type": "paragraph",
-      "content": "Aquesta obra, d’una modernitat radical, manté viva la flama de l’andalusisme lorquià, ara projectada sobre el món global."
+      "content": "El poeta, profundament marcat per la seva experiència andalusa, esdevé portaveu dels oprimits —negres, gitanos, marginats— i denuncia la pèrdua de la dimensió humana en la societat industrial.",
+      "pdf": { "page": 5 }
     },
     {
       "type": "paragraph",
-      "content": "Lorca, a través d’una veu lírica i visionària, denuncia la mecanització de la vida, la soledat i la pèrdua de sentit, però també reivindica la força de la natura i de l’instint com a formes de resistència."
+      "content": "Aquesta obra, d’una modernitat radical, manté viva la flama de l’andalusisme lorquià, ara projectada sobre el món global.",
+      "pdf": { "page": 5 }
     },
     {
       "type": "paragraph",
-      "content": "Aquestes formes de resistència evolucionaran cap a un espai personal més profundament surrealista a <em>El Público</em>, on el poeta ja no allibera només la identitat col·lectiva, sinó que fa un pas per alliberar la pròpia identitat homosexual, discordant amb la societat i la moral dominants."
+      "content": "Lorca, a través d’una veu lírica i visionària, denuncia la mecanització de la vida, la soledat i la pèrdua de sentit, però també reivindica la força de la natura i de l’instint com a formes de resistència.",
+      "pdf": { "page": 5 }
     },
     {
       "type": "paragraph",
-      "content": "La recerca d’allò que allibera l’ésser col·lectiu li obrirà la porta a alliberar l’ésser individual. La força del jo s’encarnarà en una veritable crida a la pròpia llibertat per estimar com ell, i cadascú, vol."
+      "content": "Aquestes formes de resistència evolucionaran cap a un espai personal més profundament surrealista a <em>El Público</em>, on el poeta ja no allibera només la identitat col·lectiva, sinó que fa un pas per alliberar la pròpia identitat homosexual, discordant amb la societat i la moral dominants.",
+      "pdf": { "page": 5 }
     },
     {
       "type": "paragraph",
-      "content": "L’andalusisme de Lorca dialoga constantment amb altres corrents de recuperació literària a l’estat espanyol. Lorca és un home sense prejudicis culturals, un observador de les diferents realitats que li toca viure, tant al conjunt de la realitat immediata de l’estat espanyol com a les diferents realitats que coneix a les terres americanes."
+      "content": "La recerca d’allò que allibera l’ésser col·lectiu li obrirà la porta a alliberar l’ésser individual. La força del jo s’encarnarà en una veritable crida a la pròpia llibertat per estimar com ell, i cadascú, vol.",
+      "pdf": { "page": 5 }
     },
     {
       "type": "paragraph",
-      "content": "La seva relació amb Catalunya fou intensa i fecunda: amistat i col·laboració amb Salvador Dalí, vinculació amb la revista L’Amic de les Arts i amb figures com Josep Maria de Sagarra, Sebastià Gasch, Eduard Marquina, Lluís Montanyà, J.V. Foix, Rafael Barradas i una complicitat profunda amb l’actriu Margarida Xirgu, que va estrenar les seves obres més emblemàtiques a Barcelona. Lorca, considerat “catalanista autèntic i català honorari”, va estimar la cultura catalana fins al punt de cantar cançons populars i defensar la llengua catalana públicament."
+      "content": "L’andalusisme de Lorca dialoga constantment amb altres corrents de recuperació literària a l’estat espanyol. Lorca és un home sense prejudicis culturals, un observador de les diferents realitats que li toca viure, tant al conjunt de la realitat immediata de l’estat espanyol com a les diferents realitats que coneix a les terres americanes.",
+      "pdf": { "page": 5 }
     },
     {
       "type": "paragraph",
-      "content": "A més, Lorca va escriure els <em>Seis poemas galegos</em> (1935), homenatge a la llengua i al paisatge de Galícia, inspirat per la seva admiració per Rosalía de Castro i per l’esperit de les literatures considerades perifèriques. Aquesta obertura a les altres nacionalitats de l’estat el situa al centre d’un corrent de renovació i de diàleg intercultural. Lorca entén la pluralitat com una riquesa i la seva obra esdevé un pont entre les diferents cultures peninsulars, tot reivindicant la dignitat de les llengües i les identitats minoritzades."
+      "content": "La seva relació amb Catalunya fou intensa i fecunda: amistat i col·laboració amb Salvador Dalí, vinculació amb la revista L’Amic de les Arts i amb figures com Josep Maria de Sagarra, Sebastià Gasch, Eduard Marquina, Lluís Montanyà, J.V. Foix, Rafael Barradas i una complicitat profunda amb l’actriu Margarida Xirgu, que va estrenar les seves obres més emblemàtiques a Barcelona. Lorca, considerat “catalanista autèntic i català honorari”, va estimar la cultura catalana fins al punt de cantar cançons populars i defensar la llengua catalana públicament.",
+      "pdf": { "page": 5 }
     },
     {
       "type": "paragraph",
-      "content": "És per això que resulta tan difícil d’entendre les posicions de dreta i extrema dreta que ara se’l volen fer seu. Federico García Lorca té una veritable consciència cultural i social, no pot defensar la supremacia d’un home sobre un altre. Fer una anàlisi que no parli del seu compromís social i de com influeix en tota la seva obra és canviar el sentit de la seva vida i de les seves conviccions, fermes i valentes. És aquest compromís el que el durà al sacrifici al Barranco de Víznar: la recerca de la llibertat del seu poble, dels pobles que coneixia i de la pròpia llibertat, és el que el converteix en carn de canó el 1936."
+      "content": "A més, Lorca va escriure els <em>Seis poemas galegos</em> (1935), homenatge a la llengua i al paisatge de Galícia, inspirat per la seva admiració per Rosalía de Castro i per l’esperit de les literatures considerades perifèriques. Aquesta obertura a les altres nacionalitats de l’estat el situa al centre d’un corrent de renovació i de diàleg intercultural. Lorca entén la pluralitat com una riquesa i la seva obra esdevé un pont entre les diferents cultures peninsulars, tot reivindicant la dignitat de les llengües i les identitats minoritzades.",
+      "pdf": { "page": 5 }
     },
     {
       "type": "paragraph",
-      "content": "L’andalusisme en Lorca no és una simple evocació del passat ni una exaltació de les essències regionals. És, sobretot, una força poètica i crítica que travessa tota la seva obra i que es manifesta en la capacitat de transformar la realitat en mite, de denunciar la injustícia i de reivindicar la llibertat."
+      "content": "És per això que resulta tan difícil d’entendre les posicions de dreta i extrema dreta que ara se’l volen fer seu. Federico García Lorca té una veritable consciència cultural i social, no pot defensar la supremacia d’un home sobre un altre. Fer una anàlisi que no parli del seu compromís social i de com influeix en tota la seva obra és canviar el sentit de la seva vida i de les seves conviccions, fermes i valentes. És aquest compromís el que el durà al sacrifici al Barranco de Víznar: la recerca de la llibertat del seu poble, dels pobles que coneixia i de la pròpia llibertat, és el que el converteix en carn de canó el 1936.",
+      "pdf": { "page": 6 }
     },
     {
       "type": "paragraph",
-      "content": "Lorca converteix Andalusia en un espai de conflicte i de resistència, però també en una font inesgotable de bellesa i de creativitat. La seva Andalusia és, alhora, terra de dolor i d’esperança, de mort i de renaixement."
+      "content": "L’andalusisme en Lorca no és una simple evocació del passat ni una exaltació de les essències regionals. És, sobretot, una força poètica i crítica que travessa tota la seva obra i que es manifesta en la capacitat de transformar la realitat en mite, de denunciar la injustícia i de reivindicar la llibertat.",
+      "pdf": { "page": 6 }
     },
     {
       "type": "paragraph",
-      "content": "Aquesta visió, lluny de ser exclusivament andalusa, dialoga amb altres moviments de recuperació literària i cultural, com el catalanisme i el galleguisme, i situa Lorca al centre d’una renovació profunda de la literatura en llengua castellana."
+      "content": "Lorca converteix Andalusia en un espai de conflicte i de resistència, però també en una font inesgotable de bellesa i de creativitat. La seva Andalusia és, alhora, terra de dolor i d’esperança, de mort i de renaixement.",
+      "pdf": { "page": 6 }
     },
     {
       "type": "paragraph",
-      "content": "El seu llegat, marcat per la passió, la lucidesa i la modernitat, continua essent una font d’inspiració per a les generacions posteriors i un exemple de com la literatura pot esdevenir un espai de diàleg, de denúncia i de llibertat."
+      "content": "Aquesta visió, lluny de ser exclusivament andalusa, dialoga amb altres moviments de recuperació literària i cultural, com el catalanisme i el galleguisme, i situa Lorca al centre d’una renovació profunda de la literatura en llengua castellana.",
+      "pdf": { "page": 6 }
     },
-        {
+    {
+      "type": "paragraph",
+      "content": "El seu llegat, marcat per la passió, la lucidesa i la modernitat, continua essent una font d’inspiració per a les generacions posteriors i un exemple de com la literatura pot esdevenir un espai de diàleg, de denúncia i de llibertat.",
+      "pdf": { "page": 6 }
+    },
+    {
       "type": "biography",
       "biography": [
         "García Lorca, Federico. <em>Teatro Completo</em>. Galaxia Gutenberg, Barcelona,  2016.",
@@ -169,8 +216,19 @@
         "<em>Seis poemas galegos</em> (edició facsímil). Editorial Camiño do Faro, 2005.",
         "Vilaweb, “García Lorca: ‘Visca Catalunya lliure!’”.",
         "Wojcik, Sara. “Andalucía en el Romancero gitano de Federico García Lorca”. Revista Actes."
-      ]
+      ],
+      "pdf": { "page": 7 }
     }
+  ],
+  "publicationDate": {
+    "$date": "2025-07-26T22:00:00.000Z"
+  },
+  "isPublished": true,
+  "tags": [],
+  "readTime": 5,
+  "year": 2025,
+  "issueNumber": 49,
+  "authors": [
+    "Andreu Pérez-Mingorance"
   ]
-    
 }

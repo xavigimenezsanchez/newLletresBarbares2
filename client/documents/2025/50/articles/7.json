@@ -1,32 +1,50 @@
 {
-    "title" : "Charles Pierre Baudelaire, el poeta de la modernitat (I)",
-    "url" : "charles_pierre_baudelaire_el_poeta_de_la_modernitat_1",
-    "section" : "articles",
-    "issue" : 49,
-    "data" : "27/07/2025",
-    "imageCard" : "puigdellívol49-01",
-    "author" : "Valentí Puigdellívol",
-    "summary" : "",
-    "text": [
-        {
-            "type" : "image",
-            "name" : "puigdellívol49-01"
-        },
+  "_id": {
+    "$oid": "688f8e37ac16e0dadcf03d95"
+  },
+  "issueId": {
+    "$oid": "688f8e36ac16e0dadcf03d80"
+  },
+  "issue": 2025,
+  "data": "27/07/2025",
+  "imageCard": "puigdellívol49-01",
+  "title": "Charles Pierre Baudelaire, el poeta de la modernitat (I)",
+  "url": "charles_pierre_baudelaire_el_poeta_de_la_modernitat_1",
+  "section": "articles",
+  "author": "Valentí Puigdellívol",
+  "summary": "",
+  "text": [
+    {
+      "type": "image",
+      "name": "puigdellívol49-01",
+      "pdf": { "page": 1 }
+    },
     {
       "type": "title",
-      "content": "Baudelaire i el seu temps: una introducció"
+      "content": "Baudelaire i el seu temps: una introducció",
+      "pdf": { "page": 1 }
     },
     {
       "type": "paragraph",
-      "content": "Charles Pierre Baudelaire, París (1821 – 1867) és el poeta que transforma radicalment la concepció de la poesia, substituint el romanticisme imperant per una poesia urbana. Giravolta el concepte de bellesa i sacseja tota la tradició poètica de l’acadèmia francesa. Amb tot, també exerceix de crític d’art, assagista i traductor. Paul Verlaine l’inclou dins <em>els poetes maleïts<sup>1</sup>. </em>T. S. Eliot afirma que tot el que sap de poesia ho deu a Baudelaire i que només li ha calgut mitja dotzena de versos per condensar tot el coneixement poètic de la modernitat, admet que se sent hereu de Baudelaire."
+      "content": "Charles Pierre Baudelaire, París (1821 – 1867) és el poeta que transforma radicalment la concepció de la poesia, substituint el romanticisme imperant per una poesia urbana. Giravolta el concepte de bellesa i sacseja tota la tradició poètica de l’acadèmia francesa. Amb tot, també exerceix de crític d’art, assagista i traductor. Paul Verlaine l’inclou dins <em>els poetes maleïts<sup>1</sup>. </em>T. S. Eliot afirma que tot el que sap de poesia ho deu a Baudelaire i que només li ha calgut mitja dotzena de versos per condensar tot el coneixement poètic de la modernitat, admet que se sent hereu de Baudelaire.",
+      "pdf": { "page": 1 }
     },
     {
       "type": "paragraph",
-      "content": "Malgrat que sovint se l’ha considerat, erròniament, el pare de la modernitat, aquesta afirmació només és certa si ens referim a la modernitat literària. La modernitat comença molt abans. La modernitat com a època històrica comença amb el renaixement (s. XIV-XVI), considerat aquest com a pont entre l’edat mitjana i l’edat contemporània. L’home passa a ser el centre de la creació i com a ésser humà té sentit propi assolint el concepte d’individu com a ens central al món. L’home abandona la religió i les creences com a única forma d’entendre el món per buscar elements científics i lògics que siguin capaços d’explicar els fenòmens. El descobriment d’Amèrica, la impremta, però per damunt de tot l’extensió de la cultura a capes més àmplies de la societat, propiciarà l’arribada de la modernitat literària. Les societats, totes, però primerament les <em>eurocentrades,</em> patiran canvis d’homogeneïtzació de les diferents classes socials. Com a concepte filosòfic la modernitat és el debat entre “els antics” i “els moderns” (“<em>Querelle des Anciens et des Modernes</em>”). El canvi esdevé amb diferent fortuna per a uns i per a altres. L’home deixa de ser guiat per senyors feudals i és propietari de la seva vida. La modernitat històrica rebrà suport intel·lectual de la il·lustració, alhora que els estats inicien la redacció de constitucions liberals per a les nacions com a forma de controlar les masses. La societat passa de ser rural a ser urbana gràcies a la revolució industrial, al triomf del capitalisme i a la mercantilització de productes i serveis. La migració humana del camp a la ciutat genera unes metròpolis que mai no havien existit. Baudelaire es converteix en qui millor explica aquest canvi social i l’efecte que produeix en l’home. No sols serà capaç de dir com és la vida a la metròpolis, sinó que avança els canvis que es produiran als segles XX i XXI."
+      "content": "Malgrat que sovint se l’ha considerat, erròniament, el pare de la modernitat, aquesta afirmació només és certa si ens referim a la modernitat literària. La modernitat comença molt abans. La modernitat com a època històrica comença amb el renaixement (s. XIV-XVI), considerat aquest com a pont entre l’edat mitjana i l’edat contemporània. L’home passa a ser el centre de la creació i com a ésser humà té sentit propi assolint el concepte d’individu com a ens central al món. L’home abandona la religió i les creences com a única forma d’entendre el món per buscar elements científics i lògics que siguin capaços d’explicar els fenòmens. El descobriment d’Amèrica, la impremta, però per damunt de tot l’extensió de la cultura a capes més àmplies de la societat, propiciarà l’arribada de la modernitat literària. Les societats, totes, però primerament les <em>eurocentrades,</em> patiran canvis d’homogeneïtzació de les diferents classes socials. Com a concepte filosòfic la modernitat és el debat entre “els antics” i “els moderns” (“<em>Querelle des Anciens et des Modernes</em>”). El canvi esdevé amb diferent fortuna per a uns i per a altres. L’home deixa de ser guiat per senyors feudals i és propietari de la seva vida. La modernitat històrica rebrà suport intel·lectual de la il·lustració, alhora que els estats inicien la redacció de constitucions liberals per a les nacions com a forma de controlar les masses. La societat passa de ser rural a ser urbana gràcies a la revolució industrial, al triomf del capitalisme i a la mercantilització de productes i serveis. La migració humana del camp a la ciutat genera unes metròpolis que mai no havien existit. Baudelaire es converteix en qui millor explica aquest canvi social i l’efecte que produeix en l’home. No sols serà capaç de dir com és la vida a la metròpolis, sinó que avança els canvis que es produiran als segles XX i XXI.",
+      "pdf": { 
+        "page": 1 ,
+        "division": {
+          "alignLast": true,
+          "contentPage": "Malgrat que sovint se l’ha considerat, erròniament, el pare de la modernitat, aquesta afirmació només és certa si ens referim a la modernitat literària. La modernitat comença molt abans. La modernitat com a època històrica comença amb el renaixement (s. XIV-XVI), considerat aquest com a pont entre l’edat mitjana i l’edat contemporània. L’home passa a ser el centre de la creació i com a ésser humà té sentit propi assolint el concepte d’individu com a ens central al món. L’home abandona la religió i les creences com a única forma d’entendre el món per buscar elements científics i lògics que siguin capaços d’explicar els fenòmens. El descobriment d’Amèrica, la impremta, però per damunt de tot l’extensió de la cultura a capes més àmplies de la societat, propiciarà l’arribada de la modernitat literària. Les societats, totes, però primerament les <em>eurocentrades,</em> patiran canvis",
+          "contentNextPage": "d’homogeneïtzació de les diferents classes socials. Com a concepte filosòfic la modernitat és el debat entre “els antics” i “els moderns” (“<em>Querelle des Anciens et des Modernes</em>”). El canvi esdevé amb diferent fortuna per a uns i per a altres. L’home deixa de ser guiat per senyors feudals i és propietari de la seva vida. La modernitat històrica rebrà suport intel·lectual de la il·lustració, alhora que els estats inicien la redacció de constitucions liberals per a les nacions com a forma de controlar les masses. La societat passa de ser rural a ser urbana gràcies a la revolució industrial, al triomf del capitalisme i a la mercantilització de productes i serveis. La migració humana del camp a la ciutat genera unes metròpolis que mai no havien existit. Baudelaire es converteix en qui millor explica aquest canvi social i l’efecte que produeix en l’home. No sols serà capaç de dir com és la vida a la metròpolis, sinó que avança els canvis que es produiran als segles XX i XXI."
+        }
+      }
     },
     {
       "type": "paragraph",
-      "content": "Així doncs, Baudelaire cartografia com ningú aquesta vida metropolitana. Les grans ciutats europees són Londres i París i és allà on apareixen els primers signes d’aquesta vida urbana i l’efecte que aquest nou hàbitat produeix en l’individu. Apareix la cultura metropolitana, s’acaba el viatge com a tal per donar pas al turisme. Mai abans les persones s’havien trobat cara a cara durant hores en un mitjà de transport sense dirigir-se la paraula. És la primera vegada que s’entén el concepte d’anonimat. La comunitat on tothom sap la vida i miracles de tothom, on fins i tot l’odi té cara, nom i cognoms,  es converteix en una massa anònima en què l’individu na viu d’esquena al veí. Baudelaire explica això, parla del concepte del <em>Flâneur<sup>2</sup>, </em>del rodamon, del que passeja badant, de vagarejar, de dropejar, de perdre els temps mandrejant per tot arreu. Entendrà com ningú el concepte de soledat en la multitud i apareixerà un efecte nou, el tedi, allò que és producte de l’avorriment. A l’edat mitjana els cecs, en segons quines circumstàncies i llocs, eren considerats hereus o dipositaris de la saviesa divina perquè existia en ells una prevalença de l’oïda respecte de la vista. A la metròpoli preval la vista per damunt de l’oïda. Serà aquesta prevalença allò que donarà pas a un home molt més nerviós, més inquiet, més intranquil, però a la vegada aquest canvi serà precursor de la presència de la imatge al segle XXI. Internet i les xarxes socials exposen la imatge de l’home fins a l’extenuació. La vida s’entén a través de la vista i l’oïda perdrà tot el protagonisme fins al punt que l’home no escolta ni llegeix perquè ja no té temps. És el pas de la musicalitat (element diví) a la visualitat. Res a l’oïda, tot per a la vista. Hi ha un canvi que va de la necessitat de saber, <em>sapere aude</em>, a la negació del saber, fins i tot a l’apologia de la niciesa. A<em> Nova il·lustració radical</em> Marina Garcés ho palesa. Autoritarisme, terrorisme, catastrofisme són cares d’una contra-il·lustració que enderroca la civilització actual. Baudelaire ho deixa escrit en un parell de versos a <em>Les Fleurs du mal, </em>1857:"
+      "content": "Així doncs, Baudelaire cartografia com ningú aquesta vida metropolitana. Les grans ciutats europees són Londres i París i és allà on apareixen els primers signes d’aquesta vida urbana i l’efecte que aquest nou hàbitat produeix en l’individu. Apareix la cultura metropolitana, s’acaba el viatge com a tal per donar pas al turisme. Mai abans les persones s’havien trobat cara a cara durant hores en un mitjà de transport sense dirigir-se la paraula. És la primera vegada que s’entén el concepte d’anonimat. La comunitat on tothom sap la vida i miracles de tothom, on fins i tot l’odi té cara, nom i cognoms,  es converteix en una massa anònima en què l’individu na viu d’esquena al veí. Baudelaire explica això, parla del concepte del <em>Flâneur<sup>2</sup>, </em>del rodamon, del que passeja badant, de vagarejar, de dropejar, de perdre els temps mandrejant per tot arreu. Entendrà com ningú el concepte de soledat en la multitud i apareixerà un efecte nou, el tedi, allò que és producte de l’avorriment. A l’edat mitjana els cecs, en segons quines circumstàncies i llocs, eren considerats hereus o dipositaris de la saviesa divina perquè existia en ells una prevalença de l’oïda respecte de la vista. A la metròpoli preval la vista per damunt de l’oïda. Serà aquesta prevalença allò que donarà pas a un home molt més nerviós, més inquiet, més intranquil, però a la vegada aquest canvi serà precursor de la presència de la imatge al segle XXI. Internet i les xarxes socials exposen la imatge de l’home fins a l’extenuació. La vida s’entén a través de la vista i l’oïda perdrà tot el protagonisme fins al punt que l’home no escolta ni llegeix perquè ja no té temps. És el pas de la musicalitat (element diví) a la visualitat. Res a l’oïda, tot per a la vista. Hi ha un canvi que va de la necessitat de saber, <em>sapere aude</em>, a la negació del saber, fins i tot a l’apologia de la niciesa. A<em> Nova il·lustració radical</em> Marina Garcés ho palesa. Autoritarisme, terrorisme, catastrofisme són cares d’una contra-il·lustració que enderroca la civilització actual. Baudelaire ho deixa escrit en un parell de versos a <em>Les Fleurs du mal, </em>1857:",
+      "pdf": { "page": 2 }
     },
     {
       "type": "paragraph",
@@ -34,82 +52,129 @@
     },
     {
       "type": "paragraph",
-        "styles": "{\"fontSize\":\"0.875rem\",\"paddingLeft\":\"1rem\"}",
-     "content": "<em>La foule est son élément, comme l’air pour les oiseaux et l’eau pour les poissons. Sa passion et sa profession le poussent à ne faire qu’un avec la multitude. Pour le flâneur parfait, pour l’observateur passionné, c’est une joie immense d’établir sa demeure au cœur de la foule, parmi le flux et le reflux du mouvement, au milieu de ce qui est fugitif et de ce qui est infini. Être loin de chez soi et pourtant se sentir chez soi partout ; contempler le monde, être au centre du monde, et pourtant passer inaperçu — tels sont les petits plaisirs de ces esprits indépendants, passionnés, incorruptibles, que la langue peine à définir sans gaucherie. Le spectateur est un prince qui se réjouit de son anonymat, où qu’il aille. L’amant de la vie fait du monde entier sa famille, tout comme l’amant du beau sexe agrandit la sienne avec toutes les beautés qu’il a connues, accessibles ou inaccessibles, ou comme l’amateur d’images vit dans une société magique de rêves peints sur toile. Ainsi, l’amant de la vie universelle pénètre dans la foule comme dans un immense réservoir d’énergie électrique. Ou bien on peut le voir comme un miroir aussi vaste que la foule elle-même, un kaléidoscope doué de conscience, qui reproduit à chaque mouvement la multiplicité de la vie, la grâce intermittente de tous les fragments de l’existence.</em>"
-    },
-    {
-      "type": "paragraph",
-         "styles": "{\"fontSize\":\"0.875rem\",\"textAlign\":\"right\"}",
-     "content": "Charles Baudelaire, <em>“Le Peintre de la vie moderne” (1863)</em>"
-    },
-    {
-      "type": "paragraph",
       "styles": "{\"fontSize\":\"0.875rem\",\"paddingLeft\":\"1rem\"}",
-      "content": "<em>La foule était le voile derrière lequel la ville intime, telle une fantasmagorie, faisait signe au flâneur. Dans celle-ci, la ville était tour à tour un paysage, une chambre, et les deux tombèrent en déclin avec la construction des grands magasins, qui exploitèrent la flânerie elle-même pour vendre leur marchandise. Le grand magasin porta le coup fatal au flâneur. Avec le flâneur, l’intelligence entra dans le marché. On croyait que c’était pour l’observer — mais en réalité, pour y trouver un acheteur. Dans cette phase intermédiaire, ils adoptèrent les manières de la Bohème. À l’incertitude de leur situation économique s’ajouta l’incertitude de leur rôle politique.</em>"
-    },
-    {
-      "type": "paragraph",
-     "styles": "{\"fontSize\":\"0.875rem\",\"textAlign\":\"right\"}",
-      "content": "Walter Benjamin (1935)<em>, “Paris, capitale du XIXe siècle”</em>"
-    },
-    {
-      "type": "paragraph",
-       "styles": "{\"fontSize\":\"0.875rem\",\"paddingLeft\":\"1rem\"}",
-     "content": "<em>“C’est l’oasis d’horreur dans un désert d’ennui !”<sup>3</sup>"
+      "content": "<em>La foule est son élément, comme l’air pour les oiseaux et l’eau pour les poissons. Sa passion et sa profession le poussent à ne faire qu’un avec la multitude. Pour le flâneur parfait, pour l’observateur passionné, c’est une joie immense d’établir sa demeure au cœur de la foule, parmi le flux et le reflux du mouvement, au milieu de ce qui est fugitif et de ce qui est infini. Être loin de chez soi et pourtant se sentir chez soi partout ; contempler le monde, être au centre du monde, et pourtant passer inaperçu — tels sont les petits plaisirs de ces esprits indépendants, passionnés, incorruptibles, que la langue peine à définir sans gaucherie. Le spectateur est un prince qui se réjouit de son anonymat, où qu’il aille. L’amant de la vie fait du monde entier sa famille, tout comme l’amant du beau sexe agrandit la sienne avec toutes les beautés qu’il a connues, accessibles ou inaccessibles, ou comme l’amateur d’images vit dans une société magique de rêves peints sur toile. Ainsi, l’amant de la vie universelle pénètre dans la foule comme dans un immense réservoir d’énergie électrique. Ou bien on peut le voir comme un miroir aussi vaste que la foule elle-même, un kaléidoscope doué de conscience, qui reproduit à chaque mouvement la multiplicité de la vie, la grâce intermittente de tous les fragments de l’existence.</em>",
+      "pdf": { "page": 3 }
     },
     {
       "type": "paragraph",
       "styles": "{\"fontSize\":\"0.875rem\",\"textAlign\":\"right\"}",
-     "content": "<em>Les Fleurs du mal</em>. “Le voyage”. Edition de 1861"
+      "content": "Charles Baudelaire, <em>“Le Peintre de la vie moderne” (1863)</em>",
+      "pdf": { "page": 3 }
     },
     {
       "type": "paragraph",
-      "content": "Sembla que d’una manera premonitòria advertís de les convulsions del segle XX. Aquest tedi, l’avorriment, portarà l’home a l’horror, certament. L’avorriment serà tractat com un element central a l’obra poètica. <em>Spleen de París</em>, 1869, és un recull de poesia en prosa que referma aquesta idea."
+      "styles": "{\"fontSize\":\"0.875rem\",\"paddingLeft\":\"1rem\"}",
+      "content": "<em>La foule était le voile derrière lequel la ville intime, telle une fantasmagorie, faisait signe au flâneur. Dans celle-ci, la ville était tour à tour un paysage, une chambre, et les deux tombèrent en déclin avec la construction des grands magasins, qui exploitèrent la flânerie elle-même pour vendre leur marchandise. Le grand magasin porta le coup fatal au flâneur. Avec le flâneur, l’intelligence entra dans le marché. On croyait que c’était pour l’observer — mais en réalité, pour y trouver un acheteur. Dans cette phase intermédiaire, ils adoptèrent les manières de la Bohème. À l’incertitude de leur situation économique s’ajouta l’incertitude de leur rôle politique.</em>",
+      "pdf": { "page": 3 }
     },
     {
       "type": "paragraph",
-      "content": "La societat de la metròpolis llegeix diaris i es converteix en el nou jutge. El poeta ja no es dirigeix a les elits, al rei, al clergue, etc., sinó que escriu poesia per al públic lector. Una veritable novetat perquè fins aleshores la cultura anava dirigida a les classes dominants. Serà la Revolució Francesa la que donarà pas a què el poeta versifiqui mirant a terra, que deixi de mirar a les estrelles per mirar cap avall, cap a la ciutat. Tota literatura urbana té el seu precedent en Baudelaire."
+      "styles": "{\"fontSize\":\"0.875rem\",\"textAlign\":\"right\"}",
+      "content": "Walter Benjamin (1935)<em>, “Paris, capitale du XIXe siècle”</em>",
+      "pdf": { "page": 3 }
     },
     {
       "type": "paragraph",
-      "content": "Tanmateix, són els romàntics els pares de la modernitat. Són ells els que canten la natura en clara observació de la seva caiguda i allunyament. Els romàntics saben que la vida metropolitana obvia la natura donant-li l’esquena. Ells saben que tot s’acaba en pro de la civilització i és justament Walter Benjamin qui definirà com ningú que aquesta evolució civilitzada està basada en <em>la pèrdua de les petjades del pecat original</em>. L’home s’allunya de la natura i comença a ser irrepresentable. Comença a existir allò que serà anomenat<em> pèrdua de l’experiència</em>. Goya pinta per primer cop grups de persones, la massa és representada de forma pictòrica. Aquest fet mai no havia estat plasmat. Els grups de persones en una obra pictòrica es devien a una raó, al fet de ser una representació particular d’un passatge bíblic o històric. Goya introdueix la massa de manera gratuïta, provocant un gran escàndol. Serà Goya qui dibuixi i pinti la mort. Aquest canvi del concepte grec de “<em>bellesa</em>” que havia perdurat fins llavors és canviat per la mort com allò que estèticament representa l’home. Pinta i litografia cadàvers. Édouard Manet, amb l’escandalós <em>Olímpia, </em>fa exactament el mateix. Pinta una model nua sense cap mena de símbol que faci referència a qualsevol atribut religiós o polític. La pintura per la pintura per aquest nou jutge que s’anomena públic."
+      "styles": "{\"fontSize\":\"0.875rem\",\"paddingLeft\":\"1rem\"}",
+      "content": "<em>“C’est l’oasis d’horreur dans un désert d’ennui !”<sup>3</sup>",
+      "pdf": { "page": 3 }
     },
     {
       "type": "paragraph",
-      "content": "Baudelaire elabora una crítica artística dels salons de 1845 i 1846. Aquesta crítica es troba en dos volums. Fa una defensa aferrissada de Delacroix, Wagner i Edgar Allan Poe. Manet li passarà desapercebut, però a França és aquest pintor el que trenca amb el pacte de la mimesi, també anomenat simplement “el pacte”. Trenca amb la tradició pintant la multitud, que representa, ja en aquest moment, la massa urbana sense cap mena de connotació religiosa o política. Baudelaire farà exactament el mateix, trencarà amb el pacte tàcit de cantar la natura: “<em>soc incapaç de poetitzar verdures i hortalisses sacralitzades</em>”, afirmarà quan li demanen una col·laboració. Trencarà també amb la tradició literària i poètica, únicament es referirà al mateix llenguatge en exclusiva. Ja no serà la subjectivitat la que menarà l’acte poètic. Farà poesia amb material no poètic —això justament va obrir els ulls a T.S. Eliot—, les deixalles de la gran metròpolis que representa París en aquella època —“<em>Fer poesia amb material de rebuig”, </em>dirà. L’estructura poètica criticada per alguns resultarà del fet d’estar engabiada pel vers alexandrí, que ell domina a la perfecció, i al fet que la llengua francesa no té l’elasticitat de la llengua anglesa. Baudelaire se n’adona després de traduir Edgar Allan Poe. Intentarà estirar, tòrcer, doblegar l’alexandrí, aspirant a donar-li més velocitat. Ho farà de tal manera que és acusat de mal poeta quan l’única cosa que pretén és dotar de major moviment al vers. Cosa, aquesta, que ha vist possible amb la llengua anglesa, mai tan rígida com la llengua francesa del moment. Cal pensar que les paraules òmnibus, vagó o quinqué van ser pronunciades per primer cop damunt de l’escenari d’un teatre amb l’enèrgica protesta del públic, no es tolerava cert llenguatge als ambients culturals del moment. El salt a la prosa i, més concretament, al poema en prosa<sup>4</sup> el farà a <em>Le Spleen de París</em> a conseqüència d’haver traduït Poe. Encara més, Poe serà més llegit i reconegut en llengua francesa que no pas en anglès al seu país d’origen. El llenguatge passa a ser l’únic significat del significant. Mallarmé arribarà fins a l’abstracció. S’arribarà a prescindir de qualsevol entitat o element que estigui fora del poema, només interessarà allò que queda dins del poema"
+      "styles": "{\"fontSize\":\"0.875rem\",\"textAlign\":\"right\"}",
+      "content": "<em>Les Fleurs du mal</em>. “Le voyage”. Edition de 1861",
+      "pdf": { "page": 3 }
     },
     {
       "type": "paragraph",
-      "content": "Baudelaire publica <em>Les fleurs du mal</em> l’any 1857. Serà portat a judici per atemptar contra la moral i els bons costums. Va ser condemnat a pagar una multa copiosa i a eliminar sis poemes de l’obra. El més colpidor per a ell va ser el fet de constatar que no va convèncer el públic que creia, erròniament, poder posar del seu costat. A la poesia de Baudelaire l’estimada ja no és una deessa, ni és tractada com a tal, és algú que pot arribar a fer mal."
+      "content": "Sembla que d’una manera premonitòria advertís de les convulsions del segle XX. Aquest tedi, l’avorriment, portarà l’home a l’horror, certament. L’avorriment serà tractat com un element central a l’obra poètica. <em>Spleen de París</em>, 1869, és un recull de poesia en prosa que referma aquesta idea.",
+      "pdf": { "page": 3 }
     },
     {
-        "type" : "paragraph",
-        "content" : "<div style=\"display: flex; justify-content: center\"></br></br><div><strong><em>CONFESSION</em></strong><br/><em>Une fois, une seule, aimable et douce femme,<br />À mon bras votre bras poli<br />S’appuya ; — sur le fond ténébreux de mon âme<br />Ce souvenir n’est point pâli.</em><br /><br /><em>Il était tard ; ainsi qu’une médaille neuve<br />La pleine lune s’étalait,<br />Et la solennité de la nuit, comme un fleuve,<br />Sur Paris dormant ruisselait.</em><br/><br /><em>Et le long des maisons, sous les portes cochères,<br />Des chats passaient furtivement,<br />L’oreille au guet, — ou bien, comme des ombres chères,<br />Nous accompagnaient lentement.</em><br /><em><br />Tout-à-coup, au milieu de l’intimité libre<br />Éclose à la pâle clarté,<br />De vous, — riche et sonore instrument où ne vibre<br />Que la radieuse gaîté,</em><br/><em><br />De vous, claire et joyeuse ainsi qu’une fanfare<br />Dans le matin étincelant,<br />— Une note plaintive ; une note bizarre<br />S’échappa, — tout en chancelant</em></br><em><br />Comme une enfant chétive, horrible, sombre, immonde,<br />Dont sa famille rougirait,<br />Et qu’elle aurait longtemps, pour la cacher au monde,<br />Dans un caveau mise au secret.</em></br><em><br />Pauvre ange, elle chantait, votre note criarde :<br />« Que rien ici-bas n’est certain,<br />Et que toujours, avec quelque soin qu’il se farde,<br />Se trahit l’égoïsme humain ;</em><br /><em><br />Que c’est un dur métier que d’être belle femme,<br />— Qu’il ressemble au travail banal<br />De la danseuse folle et froide qui se pâme<br />Dans un sourire machinal ;</em><br /><em><br />Que bâtir sur les cœurs est une chose sotte,<br />— Que tout craque, amour et beauté,<br />Jusqu’à ce que l’Oubli les jette dans sa hotte<br />Pour les rendre à l’Éternité ! »</em><br /><em><br />J’ai souvent évoqué cette lune enchantée,<br />Ce silence et cette langueur,<br />Et cette confidence horrible chuchotée<br />Au confessionnal du cœur.</em><div style=\"text-align: right\"><em>«Confession» Les Fleurs du mal, 1857<sup>5</sup></div></div></div>"
+      "type": "paragraph",
+      "content": "La societat de la metròpolis llegeix diaris i es converteix en el nou jutge. El poeta ja no es dirigeix a les elits, al rei, al clergue, etc., sinó que escriu poesia per al públic lector. Una veritable novetat perquè fins aleshores la cultura anava dirigida a les classes dominants. Serà la Revolució Francesa la que donarà pas a què el poeta versifiqui mirant a terra, que deixi de mirar a les estrelles per mirar cap avall, cap a la ciutat. Tota literatura urbana té el seu precedent en Baudelaire.",
+      "pdf": { 
+        "page": 3,
+        "division": {
+          "alignLast": true,
+          "contentPage": "La societat de la metròpolis llegeix diaris i es converteix en el nou jutge. El poeta ja no es dirigeix a les elits, al rei, al clergue, etc., sinó que escriu poesia per al públic lector. Una veritable novetat perquè fins aleshores la cultura anava dirigida a les classes dominants. Serà la Revolució Francesa la que donarà pas a què el poeta versifiqui mirant a terra, que deixi de mirar a les estrelles per mirar cap",
+          "contentNextPage": "avall, cap a la ciutat. Tota literatura urbana té el seu precedent en Baudelaire."
+        }
+      }
     },
-   {
-        "type" : "footnotes",
-        "notes" : [
-            {
-                "number" : 1,
-                "content" : "<strong><em>Els poetes maleïts</em></strong> o del francès <em>Les poètes maudits </em>va ser el terme que va dictar Paul Verlaine per referir-se a un conjunt de poetes que van trencar amb el romanticisme francès de l’època i que formarien part del que seria anomenat el simbolisme francès. Aquest terme vindrà publicat en un text de 1888 on Verlaine inclou cinc contemporanis, a més d’ell mateix amb l’anagrama de <em>Pauvre Lelian</em>. Són Tristan Corbière, Arthur Rimbaud, Stéphane Mallarmé, Marceline Desbordes-Valmore i Auguste Villiers de L’Isle-Adam els que conformen aquesta primera llista, però ben seguit el terme es va popularitzar ràpidament i hi van ser inclosos d’altres, com Charles Baudelaire, <a href=\"https://ca.wikipedia.org/wiki/Aloysius_Bertrand\">Aloysius Bertrand</a>, Gerard de Nerval, el <a href=\"https://ca.wikipedia.org/w/index.php?title=Conde_de_Lautr%C3%A9amont&amp;action=edit&amp;redlink=1\">comte de Lautréamont</a>, <a href=\"https://ca.wikipedia.org/w/index.php?title=Petrus_Borel&amp;action=edit&amp;redlink=1\">Petrus Borel</a>, <a href=\"https://ca.wikipedia.org/wiki/Charles_Cros\">Charles Cros</a>, <a href=\"https://ca.wikipedia.org/wiki/Germain_Nouveau\">Germain Nouveau</a>, <a href=\"https://ca.wikipedia.org/wiki/Antonin_Artaud\">Antonin Artaud</a>, <a href=\"https://ca.wikipedia.org/w/index.php?title=%C3%89mile_Nelligan&amp;action=edit&amp;redlink=1\">Émile Nelligan</a>, <a href=\"https://ca.wikipedia.org/w/index.php?title=Armand_Robin&amp;action=edit&amp;redlink=1\">Armand Robin</a>, <a href=\"https://ca.wikipedia.org/w/index.php?title=Olivier_Larronde&amp;action=edit&amp;redlink=1\">Olivier Larronde</a>, <a href=\"https://ca.wikipedia.org/wiki/John_Keats\">John Keats</a>, <a href=\"https://ca.wikipedia.org/wiki/Edgar_Allan_Poe\">Edgar Allan Poe</a> i <a href=\"https://ca.wikipedia.org/wiki/Leopoldo_Mar%C3%ADa_Panero\">Leopoldo María Panero</a>. Molts d’ells <em>extracontemporanis</em>, predecessors o successors, perquè d’alguna manera tots aquests poetes considerats maleïts en realitat compleixen amb una actitud vital compromesa de rebuig als valors de la societat, essent majoritàriament provocadors i titllats d’antisocials. Aquests talentosos poetes de vegades no són reconeguts en vida i d’alguna manera la seva obra és rescatada per poetes posteriors. Aquests moviments antiidealistes, que exaltaven la realitat quotidiana i l'ubicaven per damunt del fet  ideal, van trencar amb la rígida tradició poètica del moment, donant lloc a moviments i corrents estètics com el parnassianisme, el decadentisme, etc. En definitiva, conformaran l’actualitat. Neix el poema en prosa."
-            },
-            {
-              "number" : 2,
-                "content": "El mot <strong><em>flâneur</em></strong> prové del francès, i significa ‘passejant’, ‘‘rodaire’. La paraula <strong><em>flanerie</em></strong> ‘vagareig’ es refereix a l'activitat pròpia del <em>flâneur</em>: vagar pels carrers, errar sense rumb, sense objectiu, obert a totes les impressions que se li ofereixen. És un terme conegut sobretot per la seva associació amb la figura de Charles Baudelaire, que la fa servir per caracteritzar l'artista amb esperit independent, apassionat, imparcial. Es relaciona amb la figura del <em>dandi</em>, el fin de siècle i l’esteticisme anglès."
-            },
-            {
-              "number": 3,
-              "content": "Aquest vers de Baudelaire el fa servir Roberto Bolaño com a citació a l’inici de la seva obra <em>Los detectives salvajes</em>. Sembla una premonició de Baudelaire en tant que s’adona que l’home metropolità pateix d’avorriment. El tedi serà el gran mal que s’haurà de combatre amb l’horror. El segle XX, tecnificat, ha comportat l’horror més gran de tota la història de la humanitat."
-            },
-            {
-              "number": 4,
-              "content": "Caldrà no confondre el poema en prosa amb allò que s’entén avui dia com a prosa poètica. Res a veure."
-            },
-            {
-              "number": 5,
-              "content": "La versió de 1861 presenta uns canvis respecte de la de 1857. Elimina alguns guions i incorpora el parèntesi a la primera estrofa. Tanmateix, regula algun espai gràfic i algun connector."        
-            }
-        ]
+    {
+      "type": "paragraph",
+      "content": "Tanmateix, són els romàntics els pares de la modernitat. Són ells els que canten la natura en clara observació de la seva caiguda i allunyament. Els romàntics saben que la vida metropolitana obvia la natura donant-li l’esquena. Ells saben que tot s’acaba en pro de la civilització i és justament Walter Benjamin qui definirà com ningú que aquesta evolució civilitzada està basada en <em>la pèrdua de les petjades del pecat original</em>. L’home s’allunya de la natura i comença a ser irrepresentable. Comença a existir allò que serà anomenat<em> pèrdua de l’experiència</em>. Goya pinta per primer cop grups de persones, la massa és representada de forma pictòrica. Aquest fet mai no havia estat plasmat. Els grups de persones en una obra pictòrica es devien a una raó, al fet de ser una representació particular d’un passatge bíblic o històric. Goya introdueix la massa de manera gratuïta, provocant un gran escàndol. Serà Goya qui dibuixi i pinti la mort. Aquest canvi del concepte grec de “<em>bellesa</em>” que havia perdurat fins llavors és canviat per la mort com allò que estèticament representa l’home. Pinta i litografia cadàvers. Édouard Manet, amb l’escandalós <em>Olímpia, </em>fa exactament el mateix. Pinta una model nua sense cap mena de símbol que faci referència a qualsevol atribut religiós o polític. La pintura per la pintura per aquest nou jutge que s’anomena públic.",
+      "pdf": { "page": 4 }
+    },
+    {
+      "type": "paragraph",
+      "content": "Baudelaire elabora una crítica artística dels salons de 1845 i 1846. Aquesta crítica es troba en dos volums. Fa una defensa aferrissada de Delacroix, Wagner i Edgar Allan Poe. Manet li passarà desapercebut, però a França és aquest pintor el que trenca amb el pacte de la mimesi, també anomenat simplement “el pacte”. Trenca amb la tradició pintant la multitud, que representa, ja en aquest moment, la massa urbana sense cap mena de connotació religiosa o política. Baudelaire farà exactament el mateix, trencarà amb el pacte tàcit de cantar la natura: “<em>soc incapaç de poetitzar verdures i hortalisses sacralitzades</em>”, afirmarà quan li demanen una col·laboració. Trencarà també amb la tradició literària i poètica, únicament es referirà al mateix llenguatge en exclusiva. Ja no serà la subjectivitat la que menarà l’acte poètic. Farà poesia amb material no poètic —això justament va obrir els ulls a T.S. Eliot—, les deixalles de la gran metròpolis que representa París en aquella època —“<em>Fer poesia amb material de rebuig”, </em>dirà. L’estructura poètica criticada per alguns resultarà del fet d’estar engabiada pel vers alexandrí, que ell domina a la perfecció, i al fet que la llengua francesa no té l’elasticitat de la llengua anglesa. Baudelaire se n’adona després de traduir Edgar Allan Poe. Intentarà estirar, tòrcer, doblegar l’alexandrí, aspirant a donar-li més velocitat. Ho farà de tal manera que és acusat de mal poeta quan l’única cosa que pretén és dotar de major moviment al vers. Cosa, aquesta, que ha vist possible amb la llengua anglesa, mai tan rígida com la llengua francesa del moment. Cal pensar que les paraules òmnibus, vagó o quinqué van ser pronunciades per primer cop damunt de l’escenari d’un teatre amb l’enèrgica protesta del públic, no es tolerava cert llenguatge als ambients culturals del moment. El salt a la prosa i, més concretament, al poema en prosa<sup>4</sup> el farà a <em>Le Spleen de París</em> a conseqüència d’haver traduït Poe. Encara més, Poe serà més llegit i reconegut en llengua francesa que no pas en anglès al seu país d’origen. El llenguatge passa a ser l’únic significat del significant. Mallarmé arribarà fins a l’abstracció. S’arribarà a prescindir de qualsevol entitat o element que estigui fora del poema, només interessarà allò que queda dins del poema",
+      "pdf": { 
+        "page": 4,
+        "division": {
+          "alignLast": true,
+          "contentPage": "Baudelaire elabora una crítica artística dels salons de 1845 i 1846. Aquesta crítica es troba en dos volums. Fa una defensa aferrissada de Delacroix, Wagner i Edgar Allan Poe. Manet li passarà desapercebut, però a França és aquest pintor el que trenca amb el pacte de la mimesi, també anomenat simplement “el pacte”. Trenca amb la tradició pintant la multitud, que representa, ja en aquest moment, la massa urbana sense cap mena de connotació religiosa o política. Baudelaire farà exactament el mateix, trencarà amb el pacte tàcit de cantar la natura: “<em>soc incapaç de poetitzar verdures i hortalisses sacralitzades</em>”, afirmarà quan li demanen una col·laboració. Trencarà també amb la tradició literària i poètica, únicament es referirà al mateix llenguatge en exclusiva. Ja no serà la subjectivitat la que menarà l’acte poètic. Farà poesia amb material no poètic —això justament va obrir els ulls a T.S. Eliot—, les deixalles de la gran metròpolis que representa París en aquella època —“<em>Fer poesia amb material de rebuig”, </em>dirà. L’estructura poètica criticada per alguns resultarà del fet d’estar engabiada pel vers alexandrí, que ell domina a la perfecció, i al fet que la llengua francesa no té l’elasticitat de la llengua anglesa. Baudelaire se n’adona després de traduir Edgar Allan Poe. Intentarà estirar, tòrcer, doblegar l’alexandrí, aspirant a donar-li més velocitat. Ho farà de tal manera que és acusat de mal poeta quan l’única cosa que pretén és dotar de major moviment al vers. Cosa, aquesta, que ha vist possible amb la llengua anglesa, mai tan rígida com la llengua francesa del moment. Cal pensar que les paraules òmnibus, vagó o quinqué van ser pronunciades per primer cop",
+          "contentNextPage": "damunt de l’escenari d’un teatre amb l’enèrgica protesta del públic, no es tolerava cert llenguatge als ambients culturals del moment. El salt a la prosa i, més concretament, al poema en prosa<sup>4</sup> el farà a <em>Le Spleen de París</em> a conseqüència d’haver traduït Poe. Encara més, Poe serà més llegit i reconegut en llengua francesa que no pas en anglès al seu país d’origen. El llenguatge passa a ser l’únic significat del significant. Mallarmé arribarà fins a l’abstracció. S’arribarà a prescindir de qualsevol entitat o element que estigui fora del poema, només interessarà allò que queda dins del poema"
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Baudelaire publica <em>Les fleurs du mal</em> l’any 1857. Serà portat a judici per atemptar contra la moral i els bons costums. Va ser condemnat a pagar una multa copiosa i a eliminar sis poemes de l’obra. El més colpidor per a ell va ser el fet de constatar que no va convèncer el públic que creia, erròniament, poder posar del seu costat. A la poesia de Baudelaire l’estimada ja no és una deessa, ni és tractada com a tal, és algú que pot arribar a fer mal.",
+      "pdf": { 
+        "page": 5
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "<div style=\"display: flex; justify-content: center\"></br></br><div><strong><em>CONFESSION</em></strong><br/><em>Une fois, une seule, aimable et douce femme,<br />À mon bras votre bras poli<br />S’appuya ; — sur le fond ténébreux de mon âme<br />Ce souvenir n’est point pâli.</em><br /><br /><em>Il était tard ; ainsi qu’une médaille neuve<br />La pleine lune s’étalait,<br />Et la solennité de la nuit, comme un fleuve,<br />Sur Paris dormant ruisselait.</em><br/><br /><em>Et le long des maisons, sous les portes cochères,<br />Des chats passaient furtivement,<br />L’oreille au guet, — ou bien, comme des ombres chères,<br />Nous accompagnaient lentement.</em><br /><em><br />Tout-à-coup, au milieu de l’intimité libre<br />Éclose à la pâle clarté,<br />De vous, — riche et sonore instrument où ne vibre<br />Que la radieuse gaîté,</em><br/><em><br />De vous, claire et joyeuse ainsi qu’une fanfare<br />Dans le matin étincelant,<br />— Une note plaintive ; une note bizarre<br />S’échappa, — tout en chancelant</em></br><em><br />Comme une enfant chétive, horrible, sombre, immonde,<br />Dont sa famille rougirait,<br />Et qu’elle aurait longtemps, pour la cacher au monde,<br />Dans un caveau mise au secret.</em></br><em><br />Pauvre ange, elle chantait, votre note criarde :<br />« Que rien ici-bas n’est certain,<br />Et que toujours, avec quelque soin qu’il se farde,<br />Se trahit l’égoïsme humain ;</em><br /><em><br />Que c’est un dur métier que d’être belle femme,<br />— Qu’il ressemble au travail banal<br />De la danseuse folle et froide qui se pâme<br />Dans un sourire machinal ;</em><br /><em><br />Que bâtir sur les cœurs est une chose sotte,<br />— Que tout craque, amour et beauté,<br />Jusqu’à ce que l’Oubli les jette dans sa hotte<br />Pour les rendre à l’Éternité ! »</em><br /><em><br />J’ai souvent évoqué cette lune enchantée,<br />Ce silence et cette langueur,<br />Et cette confidence horrible chuchotée<br />Au confessionnal du cœur.</em><div style=\"text-align: right\"><em>«Confession» Les Fleurs du mal, 1857<sup>5</sup></div></div></div>",
+      "pdf": { 
+        "page": 5,
+        "division": {
+          
+          "contentPage": "<div style=\"display: flex; justify-content: center\"></br></br><div><strong><em>CONFESSION</em></strong><br/><em>Une fois, une seule, aimable et douce femme,<br />À mon bras votre bras poli<br />S’appuya ; — sur le fond ténébreux de mon âme<br />Ce souvenir n’est point pâli.</em><br /><br /><em>Il était tard ; ainsi qu’une médaille neuve<br />La pleine lune s’étalait,<br />Et la solennité de la nuit, comme un fleuve,<br />Sur Paris dormant ruisselait.</em><br/><br /><em>Et le long des maisons, sous les portes cochères,<br />Des chats passaient furtivement,<br />L’oreille au guet, — ou bien, comme des ombres chères,<br />Nous accompagnaient lentement.</em><br /><em><br />Tout-à-coup, au milieu de l’intimité libre<br />Éclose à la pâle clarté,<br />De vous, — riche et sonore instrument où ne vibre<br />Que la radieuse gaîté,</em><br/><em></div></div></div>",
+          "contentNextPage": "<div style=\"display: flex; justify-content: center\"><div><br/><br/><br/>De vous, claire et joyeuse ainsi qu’une fanfare<br />Dans le matin étincelant,<br />— Une note plaintive ; une note bizarre<br />S’échappa, — tout en chancelant</em></br><em><br />Comme une enfant chétive, horrible, sombre, immonde,<br />Dont sa famille rougirait,<br />Et qu’elle aurait longtemps, pour la cacher au monde,<br />Dans un caveau mise au secret.</em></br><em><br />Pauvre ange, elle chantait, votre note criarde :<br />« Que rien ici-bas n’est certain,<br />Et que toujours, avec quelque soin qu’il se farde,<br />Se trahit l’égoïsme humain ;</em><br /><em><br />Que c’est un dur métier que d’être belle femme,<br />— Qu’il ressemble au travail banal<br />De la danseuse folle et froide qui se pâme<br />Dans un sourire machinal ;</em><br /><em><br />Que bâtir sur les cœurs est une chose sotte,<br />— Que tout craque, amour et beauté,<br />Jusqu’à ce que l’Oubli les jette dans sa hotte<br />Pour les rendre à l’Éternité ! »</em><br /><em><br />J’ai souvent évoqué cette lune enchantée,<br />Ce silence et cette langueur,<br />Et cette confidence horrible chuchotée<br />Au confessionnal du cœur.</em><div style=\"text-align: right\"><em>«Confession» Les Fleurs du mal, 1857<sup>5</sup></div></div></div>"
+        }
+      }
+    },
+    {
+      "type": "footnotes",
+      "notes": [
+        {
+          "number": 1,
+          "content": "<strong><em>Els poetes maleïts</em></strong> o del francès <em>Les poètes maudits </em>va ser el terme que va dictar Paul Verlaine per referir-se a un conjunt de poetes que van trencar amb el romanticisme francès de l’època i que formarien part del que seria anomenat el simbolisme francès. Aquest terme vindrà publicat en un text de 1888 on Verlaine inclou cinc contemporanis, a més d’ell mateix amb l’anagrama de <em>Pauvre Lelian</em>. Són Tristan Corbière, Arthur Rimbaud, Stéphane Mallarmé, Marceline Desbordes-Valmore i Auguste Villiers de L’Isle-Adam els que conformen aquesta primera llista, però ben seguit el terme es va popularitzar ràpidament i hi van ser inclosos d’altres, com Charles Baudelaire, <a href=\"https://ca.wikipedia.org/wiki/Aloysius_Bertrand\">Aloysius Bertrand</a>, Gerard de Nerval, el <a href=\"https://ca.wikipedia.org/w/index.php?title=Conde_de_Lautr%C3%A9amont&amp;action=edit&amp;redlink=1\">comte de Lautréamont</a>, <a href=\"https://ca.wikipedia.org/w/index.php?title=Petrus_Borel&amp;action=edit&amp;redlink=1\">Petrus Borel</a>, <a href=\"https://ca.wikipedia.org/wiki/Charles_Cros\">Charles Cros</a>, <a href=\"https://ca.wikipedia.org/wiki/Germain_Nouveau\">Germain Nouveau</a>, <a href=\"https://ca.wikipedia.org/wiki/Antonin_Artaud\">Antonin Artaud</a>, <a href=\"https://ca.wikipedia.org/w/index.php?title=%C3%89mile_Nelligan&amp;action=edit&amp;redlink=1\">Émile Nelligan</a>, <a href=\"https://ca.wikipedia.org/w/index.php?title=Armand_Robin&amp;action=edit&amp;redlink=1\">Armand Robin</a>, <a href=\"https://ca.wikipedia.org/w/index.php?title=Olivier_Larronde&amp;action=edit&amp;redlink=1\">Olivier Larronde</a>, <a href=\"https://ca.wikipedia.org/wiki/John_Keats\">John Keats</a>, <a href=\"https://ca.wikipedia.org/wiki/Edgar_Allan_Poe\">Edgar Allan Poe</a> i <a href=\"https://ca.wikipedia.org/wiki/Leopoldo_Mar%C3%ADa_Panero\">Leopoldo María Panero</a>. Molts d’ells <em>extracontemporanis</em>, predecessors o successors, perquè d’alguna manera tots aquests poetes considerats maleïts en realitat compleixen amb una actitud vital compromesa de rebuig als valors de la societat, essent majoritàriament provocadors i titllats d’antisocials. Aquests talentosos poetes de vegades no són reconeguts en vida i d’alguna manera la seva obra és rescatada per poetes posteriors. Aquests moviments antiidealistes, que exaltaven la realitat quotidiana i l'ubicaven per damunt del fet  ideal, van trencar amb la rígida tradició poètica del moment, donant lloc a moviments i corrents estètics com el parnassianisme, el decadentisme, etc. En definitiva, conformaran l’actualitat. Neix el poema en prosa."
+        },
+        {
+          "number": 2,
+          "content": "El mot <strong><em>flâneur</em></strong> prové del francès, i significa ‘passejant’, ‘‘rodaire’. La paraula <strong><em>flanerie</em></strong> ‘vagareig’ es refereix a l'activitat pròpia del <em>flâneur</em>: vagar pels carrers, errar sense rumb, sense objectiu, obert a totes les impressions que se li ofereixen. És un terme conegut sobretot per la seva associació amb la figura de Charles Baudelaire, que la fa servir per caracteritzar l'artista amb esperit independent, apassionat, imparcial. Es relaciona amb la figura del <em>dandi</em>, el fin de siècle i l’esteticisme anglès."
+        },
+        {
+          "number": 3,
+          "content": "Aquest vers de Baudelaire el fa servir Roberto Bolaño com a citació a l’inici de la seva obra <em>Los detectives salvajes</em>. Sembla una premonició de Baudelaire en tant que s’adona que l’home metropolità pateix d’avorriment. El tedi serà el gran mal que s’haurà de combatre amb l’horror. El segle XX, tecnificat, ha comportat l’horror més gran de tota la història de la humanitat."
+        },
+        {
+          "number": 4,
+          "content": "Caldrà no confondre el poema en prosa amb allò que s’entén avui dia com a prosa poètica. Res a veure."
+        },
+        {
+          "number": 5,
+          "content": "La versió de 1861 presenta uns canvis respecte de la de 1857. Elimina alguns guions i incorpora el parèntesi a la primera estrofa. Tanmateix, regula algun espai gràfic i algun connector."
+        }
+      ],
+      "pdf": { "page": 7 }
     }
+  ],
+  "publicationDate": {
+    "$date": "2025-07-26T22:00:00.000Z"
+  },
+  "isPublished": true,
+  "tags": [],
+  "readTime": 5,
+  "year": 2025,
+  "issueNumber": 49,
+  "authors": [
+    "Valentí Puigdellívol"
   ]
 }

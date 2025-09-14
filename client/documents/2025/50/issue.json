@@ -1,0 +1,52 @@
+{
+    "_id": {
+      "$oid": "688f8e36ac16e0dadcf03d80"
+    },
+    "year": 2025,
+    "number": 49,
+    "publicationDate": {
+      "$date": "2025-07-27T00:00:00.000Z"
+    },
+    "title": "Lletres Bàrbares - Número 49",
+    "isPublished": true,
+    "pdfManual": true,
+    "coverImage": "numero49",
+    "totalArticles": 10,
+    "sections": [
+      "articles",
+      "creacio",
+      "llibres"
+    ],
+    "articlesOrder": [
+        {
+        "$oid": "688f8e37ac16e0dadcf03d83"
+      },
+      {
+        "$oid": "688f8e37ac16e0dadcf03d86"
+      },
+      {
+        "$oid": "688f8e37ac16e0dadcf03d89"
+      },
+      {
+        "$oid": "688f8e37ac16e0dadcf03d8c"
+      },
+      {
+        "$oid": "688f8e37ac16e0dadcf03d8f"
+      },
+      {
+        "$oid": "688f8e37ac16e0dadcf03d92"
+      },
+      {
+        "$oid": "688f8e37ac16e0dadcf03d95"
+      },
+      {
+        "$oid": "688f8e37ac16e0dadcf03d98"
+      },
+      {
+        "$oid": "688f8e38ac16e0dadcf03d9b"
+      },
+      {
+        "$oid": "688f8e38ac16e0dadcf03d9e"
+      }
+  ]
+  }

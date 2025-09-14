@@ -1,106 +1,142 @@
 {
-    "title" : "La rosa de ningú: fractura i resistència",
-    "url" : "la_rosa_de_ningu_fractura_i_resistencia",
-    "section" : "llibres",
-    "issue" : 49,
-    "data" : "27/07/2025",
-    "imageCard" : "carbonell49-02",
-    "author" : "Àngel Carbonell",
-    "summary" : "",
-    "text": [
-        {
-            "type" : "image",
-            "name" : "carbonell49-02"
-        },
+  "_id": {
+    "$oid": "688f8e38ac16e0dadcf03d9b"
+  },
+  "issueId": {
+    "$oid": "688f8e36ac16e0dadcf03d80"
+  },
+  "issue": 2025,
+  "data": "27/07/2025",
+  "imageCard": "carbonell49-02",
+  "title": "La rosa de ningú: fractura i resistència",
+  "url": "la_rosa_de_ningu_fractura_i_resistencia",
+  "section": "llibres",
+  "author": "Àngel Carbonell",
+  "summary": "",
+  "text": [
     {
-      "type": "paragraph",
-      "content": "<em>La rosa de ningú</em>, de Paul Celan, traduïda amb destresa i radicalitat per Arnau Pons a la col·lecció Alabatre de LaBreu Edicions, representa molt més que una fita editorial, és un esdeveniment per a la literatura catalana, un d’aquells engranatges decisius on una tradició es posa a prova davant el repte de traduir no només una veu poètica, sinó una experiència límit del llenguatge, la història i la memòria europea contemporània. L’obra i el projecte de Pons —publicar íntegrament Celan en català— signifiquen un acte editorial i literari d’alt voltatge civil, un desafiament hermenèutic altíssim, una resposta ètica davant la catàstrofe del segle XX —tot esperant que no hi tornem al segle XXI—, que Celan va fer esclatar dins dels límits del poema."
+      "type": "image",
+      "name": "carbonell49-02",
+      "pdf": { "page": 1 }
     },
     {
       "type": "paragraph",
-      "content": "Paul Celan (1920–1970), nascut a Txernivtsí com a Paul Antschel en una família jueva de parla alemanya quan aquesta ciutat ucraïnesa pertanyia a Romania, va viure en la seva biografia la tragèdia col·lectiva de la Shoah, la deportació i assassinat dels seus pares als camps nazis, la pròpia fugida, l’exili i el desarrelament perpetu. Aquesta vivència travessa tota la seva obra i s’acumula al seu gest fonamental: escriure en alemany després de l’Holocaust. En Celan escriure implica literalment sobreviure a una llengua històricament contaminada. El seu vers, fragmentari, violentament refet, reactualitza el sentit de la paraula i mostra el seu caràcter trencat i irreconciliable. Del trauma, Celan extrau una poètica inèdita de la fractura, on la memòria s’acumula, es fa carn, pols, pedra i silenci."
+      "content": "<em>La rosa de ningú</em>, de Paul Celan, traduïda amb destresa i radicalitat per Arnau Pons a la col·lecció Alabatre de LaBreu Edicions, representa molt més que una fita editorial, és un esdeveniment per a la literatura catalana, un d’aquells engranatges decisius on una tradició es posa a prova davant el repte de traduir no només una veu poètica, sinó una experiència límit del llenguatge, la història i la memòria europea contemporània. L’obra i el projecte de Pons —publicar íntegrament Celan en català— signifiquen un acte editorial i literari d’alt voltatge civil, un desafiament hermenèutic altíssim, una resposta ètica davant la catàstrofe del segle XX —tot esperant que no hi tornem al segle XXI—, que Celan va fer esclatar dins dels límits del poema.",
+      "pdf": { "page": 1 }
     },
     {
       "type": "paragraph",
-      "content": "Aquest paisatge devastat pel trauma i la pèrdua és el que habita <em>La rosa de ningú</em> (1963), quart poemari de Celan traduït per Arnau Pons, que, fidel a la radicalitat de l’original, converteix el català literari en un nou espai per a la densitat i la foscor celanianes. El propòsit de Pons no és només filològic, la seva traducció va acompanyada per un extens aparell crític que facilita la recepció d’una poesia que formula interrogants sobre la traducció mateixa, sobre la veritat i la possibilitat de dir la realitat després de la pèrdua absoluta. Llegir Celan en català remet, així, a un diàleg triple amb la poesia universal, amb la història recent i amb la pròpia tradició literària del país receptor."
+      "content": "Paul Celan (1920–1970), nascut a Txernivtsí com a Paul Antschel en una família jueva de parla alemanya quan aquesta ciutat ucraïnesa pertanyia a Romania, va viure en la seva biografia la tragèdia col·lectiva de la Shoah, la deportació i assassinat dels seus pares als camps nazis, la pròpia fugida, l’exili i el desarrelament perpetu. Aquesta vivència travessa tota la seva obra i s’acumula al seu gest fonamental: escriure en alemany després de l’Holocaust. En Celan escriure implica literalment sobreviure a una llengua històricament contaminada. El seu vers, fragmentari, violentament refet, reactualitza el sentit de la paraula i mostra el seu caràcter trencat i irreconciliable. Del trauma, Celan extrau una poètica inèdita de la fractura, on la memòria s’acumula, es fa carn, pols, pedra i silenci.",
+      "pdf": { "page": 1 }
+    },
+    {
+      "type": "paragraph",
+      "content": "Aquest paisatge devastat pel trauma i la pèrdua és el que habita <em>La rosa de ningú</em> (1963), quart poemari de Celan traduït per Arnau Pons, que, fidel a la radicalitat de l’original, converteix el català literari en un nou espai per a la densitat i la foscor celanianes. El propòsit de Pons no és només filològic, la seva traducció va acompanyada per un extens aparell crític que facilita la recepció d’una poesia que formula interrogants sobre la traducció mateixa, sobre la veritat i la possibilitat de dir la realitat després de la pèrdua absoluta. Llegir Celan en català remet, així, a un diàleg triple amb la poesia universal, amb la història recent i amb la pròpia tradició literària del país receptor.",
+      "pdf": { "page": 2 }
     },
     {
       "type": "title",
-      "content": "Entre la pols i la paraula: un dol sense consol"
+      "content": "Entre la pols i la paraula: un dol sense consol",
+      "pdf": { "page": 2 }
     },
     {
       "type": "paragraph",
-      "content": "La poesia de <em>La rosa de ningú</em> neix d’allò que és absent. El món de Celan ja no permet ni la plenitud lírica de la modernitat (Baudelaire, Rilke, Trakl) ni cap harmonia metafísica, tot poema s’alça, amb l’esforç d’una pedra, des de l’absència, la ruïna i el silenci de les víctimes. No hi ha consols metafísics, ni reconciliacions fàcils, la rosa celaniana és la flor d’un ningú, d’un jo universalitzat convertit en veu col·lectiva dels que ja no poden parlar. La rosa —és fonamental— no simbolitza la bellesa immutable o la perfecció transcendent, sinó l’arrelament de la memòria en la història, la presència dolorosa del desaparegut. Com apunta Arnau Pons, la flor de Celan floreix perquè ho deu tot al context de la catàstrofe."
+      "content": "La poesia de <em>La rosa de ningú</em> neix d’allò que és absent. El món de Celan ja no permet ni la plenitud lírica de la modernitat (Baudelaire, Rilke, Trakl) ni cap harmonia metafísica, tot poema s’alça, amb l’esforç d’una pedra, des de l’absència, la ruïna i el silenci de les víctimes. No hi ha consols metafísics, ni reconciliacions fàcils, la rosa celaniana és la flor d’un ningú, d’un jo universalitzat convertit en veu col·lectiva dels que ja no poden parlar. La rosa —és fonamental— no simbolitza la bellesa immutable o la perfecció transcendent, sinó l’arrelament de la memòria en la història, la presència dolorosa del desaparegut. Com apunta Arnau Pons, la flor de Celan floreix perquè ho deu tot al context de la catàstrofe.",
+      "pdf": { "page": 2 }
     },
     {
       "type": "paragraph",
-      "content": "Els poemes, llavors, resulten actes de dol inacabat, però a la vegada criden a la resistència activa. El poema “Psalm”, possiblement el més emblemàtic del recull, sintetitza aquest gest a través de la destrucció de tota expectativa consoladora:"
+      "content": "Els poemes, llavors, resulten actes de dol inacabat, però a la vegada criden a la resistència activa. El poema “Psalm”, possiblement el més emblemàtic del recull, sintetitza aquest gest a través de la destrucció de tota expectativa consoladora:",
+      "pdf": { "page": 2 }
     },
     {
       "type": "paragraph",
-      "content": "<em>“Ningú ens pasta de nou de terra i fang,<br />ningú conjura la nostra pols.<br />Ningú.”</em>"
+      "content": "<em>“Ningú ens pasta de nou de terra i fang,<br />ningú conjura la nostra pols.<br />Ningú.”</em>",
+      "pdf": { "page": 2 }
     },
     {
       "type": "paragraph",
-      "content": "Allò que <em>La rosa de ningú</em> formula és un intent d’aturar l’oblit i de reclamar el dret a la memòria a través de la fractura mateixa del llenguatge."
+      "content": "Allò que <em>La rosa de ningú</em> formula és un intent d’aturar l’oblit i de reclamar el dret a la memòria a través de la fractura mateixa del llenguatge.",
+      "pdf": { "page": 2 }
     },
     {
       "type": "title",
-      "content": "Poètica de la fragmentació, ètica del testimoni"
+      "content": "Poètica de la fragmentació, ètica del testimoni",
+      "pdf": { "page": 2 }
     },
     {
       "type": "paragraph",
-      "content": "Celan rebutja la sintaxi establerta, fragmenta el vers, exagera l’el·lipsi, crea neologismes i paraules compostes d’una força plàstica inusitada. L’alemany s’hi manifesta trencat, gairebé irreconeixible, perquè res no pot ser dit igual que abans. Aquesta llengua sabotejada esdevé el terreny exacte per al testimoni, la paraula no busca comprendre-ho tot, ni reconciliar, sinó exercir la funció de testimoniatge irredempt, resistir el no-res on la memòria s’enfonsa."
+      "content": "Celan rebutja la sintaxi establerta, fragmenta el vers, exagera l’el·lipsi, crea neologismes i paraules compostes d’una força plàstica inusitada. L’alemany s’hi manifesta trencat, gairebé irreconeixible, perquè res no pot ser dit igual que abans. Aquesta llengua sabotejada esdevé el terreny exacte per al testimoni, la paraula no busca comprendre-ho tot, ni reconciliar, sinó exercir la funció de testimoniatge irredempt, resistir el no-res on la memòria s’enfonsa.",
+      "pdf": { 
+        "page": 2,
+        "division": {
+          "alignLast": true,
+          "contentPage": "Celan rebutja la sintaxi establerta, fragmenta el vers, exagera l’el·lipsi, crea neologismes i paraules compostes d’una força plàstica inusitada. L’alemany s’hi manifesta trencat, gairebé irreconeixible,",
+          "contentNextPage": " perquè res no pot ser dit igual que abans. Aquesta llengua sabotejada esdevé el terreny exacte per al testimoni, la paraula no busca comprendre-ho tot, ni reconciliar, sinó exercir la funció de testimoniatge irredempt, resistir el no-res on la memòria s’enfonsa."
+        }
+      }
     },
     {
       "type": "paragraph",
-      "content": "Aquesta dificultat no és gratuïta. Té un altíssim valor ètic, el poema fragmentat serveix per evitar el simulacre de l'harmonia després de la fi de les certeses. El crit de Celan —mai obvi ni altisonant— ressona en el silenci d’allò no-dit."
+      "content": "Aquesta dificultat no és gratuïta. Té un altíssim valor ètic, el poema fragmentat serveix per evitar el simulacre de l'harmonia després de la fi de les certeses. El crit de Celan —mai obvi ni altisonant— ressona en el silenci d’allò no-dit.",
+      "pdf": { "page": 3 }
     },
     {
       "type": "paragraph",
-      "content": "La fragmentació del vers i el recurs constant a figures de la negació, la buidor i la pols són, per Celan, vehicles d’una responsabilitat civil i moral. El poema ja no reconcilia, sinó que ressalta la fractura. Ara bé, en aquesta fractura s’hi poden llegir traces de resistència, d’un combat contra l’oblit que és la matèria última de tota ètica de la memòria."
+      "content": "La fragmentació del vers i el recurs constant a figures de la negació, la buidor i la pols són, per Celan, vehicles d’una responsabilitat civil i moral. El poema ja no reconcilia, sinó que ressalta la fractura. Ara bé, en aquesta fractura s’hi poden llegir traces de resistència, d’un combat contra l’oblit que és la matèria última de tota ètica de la memòria.",
+      "pdf": { "page": 3 }
     },
     {
       "type": "title",
-      "content": "Lectura i recepció d’una obra radical"
+      "content": "Lectura i recepció d’una obra radical",
+      "pdf": { "page": 3 }
     },
     {
       "type": "paragraph",
-      "content": "La publicació de <em>La rosa de ningú</em> a LaBreu, i el projecte de completar l’obra celaniana en català, suposa l’ambició de situar la tradició literària catalana dins els grans debats universals sobre el mal, la memòria i la responsabilitat. Aquesta aposta per la “dificultat” i el rigor literari ha estat ben acollida per la crítica, que destaca la capacitat de l’editorial i del traductor per fer accessible una veu que, per la seva essència, fuig de tota facilitat. LaBreu, amb la col·lecció Alabatre, aposta per una poesia d’exigència, però no aliena al seu temps, al contrari, la veu de Celan i la seva radicalitat formal s’adrecen a un lector contemporani saturat de discursos buits, sovint insensible davant la magnitud de la pèrdua històrica."
+      "content": "La publicació de <em>La rosa de ningú</em> a LaBreu, i el projecte de completar l’obra celaniana en català, suposa l’ambició de situar la tradició literària catalana dins els grans debats universals sobre el mal, la memòria i la responsabilitat. Aquesta aposta per la “dificultat” i el rigor literari ha estat ben acollida per la crítica, que destaca la capacitat de l’editorial i del traductor per fer accessible una veu que, per la seva essència, fuig de tota facilitat. LaBreu, amb la col·lecció Alabatre, aposta per una poesia d’exigència, però no aliena al seu temps, al contrari, la veu de Celan i la seva radicalitat formal s’adrecen a un lector contemporani saturat de discursos buits, sovint insensible davant la magnitud de la pèrdua històrica.",
+      "pdf": { "page": 3 }
     },
     {
       "type": "title",
-      "content": "Arnau Pons i la traducció com a gest radical"
+      "content": "Arnau Pons i la traducció com a gest radical",
+      "pdf": { "page": 3 }
     },
     {
       "type": "paragraph",
-      "content": "Traduir Celan exigeix molt més que destresa filològica. Requereix voler col·lapsar el sentit i restituir-lo en una llengua diferent sense “tancar” el poema, sense esborrar el vertigen, la inquietud, la brutícia conceptual que cada mot arrossega. La tasca d’Arnau Pons és, des d'aquesta perspectiva, titànica, el català adquireix una nova sintaxi, absorbint la tensió de l’original. Pons articula una llengua poètica deliberadament intranquil·la, que preserva l’escassetat, la fragmentació, el pes de l’el·lipsi. Traducció i edició s’integren així en una proposta cultural coherent i arriscada, que permet que Celan sigui llegit en català amb tota la finor i aspresa que requereix."
+      "content": "Traduir Celan exigeix molt més que destresa filològica. Requereix voler col·lapsar el sentit i restituir-lo en una llengua diferent sense “tancar” el poema, sense esborrar el vertigen, la inquietud, la brutícia conceptual que cada mot arrossega. La tasca d’Arnau Pons és, des d'aquesta perspectiva, titànica, el català adquireix una nova sintaxi, absorbint la tensió de l’original. Pons articula una llengua poètica deliberadament intranquil·la, que preserva l’escassetat, la fragmentació, el pes de l’el·lipsi. Traducció i edició s’integren així en una proposta cultural coherent i arriscada, que permet que Celan sigui llegit en català amb tota la finor i aspresa que requereix.",
+      "pdf": { "page": 3 }
     },
     {
       "type": "paragraph",
-      "content": "Aquesta empresa, sostinguda al llarg del temps, constitueix ja un camí paral·lel a l’obra original, una mena de doble textual que dialoga amb Celan i també amb la història de la traducció catalana moderna."
+      "content": "Aquesta empresa, sostinguda al llarg del temps, constitueix ja un camí paral·lel a l’obra original, una mena de doble textual que dialoga amb Celan i també amb la història de la traducció catalana moderna.",
+      "pdf": { "page": 4 }
     },
     {
       "type": "title",
-      "content": "Celan a la cultura catalana: una herència d’absència"
+      "content": "Celan a la cultura catalana: una herència d’absència",
+      "pdf": { "page": 4 }
     },
     {
       "type": "paragraph",
-      "content": "No es pot sobrevalorar la importància del gest de LaBreu i Pons en el panorama literari català. La recepció de Celan a Catalunya —en el context contemporani d’un país que també ha viscut dictadures, persecucions i exilis— genera preguntes noves sobre la memòria, el testimoni i la traducció cultural. Més que una assimilació passiva, la presència de Celan produeix una sacsejada, afavoreix la reflexió sobre les pròpies formes d’afrontar el silenci, la pèrdua i la identitat. El repte d’integrar la modernitat trencada alemanya —la radicalitat d’una paraula lacerant— dins el tempo, la sensibilitat i la història catalanes suposa un acte d’intel·ligència crítica col·lectiva. La presència d’aquest poemari a les llibreries, a l’àmbit acadèmic i als cercles lectors fa possible que una nova generació de lectors dialogui amb la tradició poètica europea a través de la pròpia llengua i memòria."
+      "content": "No es pot sobrevalorar la importància del gest de LaBreu i Pons en el panorama literari català. La recepció de Celan a Catalunya —en el context contemporani d’un país que també ha viscut dictadures, persecucions i exilis— genera preguntes noves sobre la memòria, el testimoni i la traducció cultural. Més que una assimilació passiva, la presència de Celan produeix una sacsejada, afavoreix la reflexió sobre les pròpies formes d’afrontar el silenci, la pèrdua i la identitat. El repte d’integrar la modernitat trencada alemanya —la radicalitat d’una paraula lacerant— dins el tempo, la sensibilitat i la història catalanes suposa un acte d’intel·ligència crítica col·lectiva. La presència d’aquest poemari a les llibreries, a l’àmbit acadèmic i als cercles lectors fa possible que una nova generació de lectors dialogui amb la tradició poètica europea a través de la pròpia llengua i memòria.",
+      "pdf": { "page": 4 }
     },
     {
       "type": "title",
-      "content": "Una conclusió oberta: poesia com a interpel·lació radical"
+      "content": "Una conclusió oberta: poesia com a interpel·lació radical",
+      "pdf": { "page": 4 }
     },
     {
       "type": "paragraph",
-      "content": "Llegir <em>La rosa de ningú</em> demana, per tant, un posicionament ètic tant com estètic. La dificultat —lluny de ser un obstacle— és testimoni de la voluntat d’emprendre una interlocució amb l'inabastable. El lector català, aquí, no és només receptor passiu, és cridat a la conversa, a l’escolta activa i —per què no?— a replantejar la seva relació amb el passat i la paraula. <em>La rosa de ningú</em> planteja la pregunta de si es pot dir res després de la destrucció; i la seva existència —tant l’original com la traducció i l’edició catalanes— ofereixen una resposta provisional, però urgent, només confrontant el buit, només acceptant la fractura i el silenci, el poema pot, eventualment, florir."
+      "content": "Llegir <em>La rosa de ningú</em> demana, per tant, un posicionament ètic tant com estètic. La dificultat —lluny de ser un obstacle— és testimoni de la voluntat d’emprendre una interlocució amb l'inabastable. El lector català, aquí, no és només receptor passiu, és cridat a la conversa, a l’escolta activa i —per què no?— a replantejar la seva relació amb el passat i la paraula. <em>La rosa de ningú</em> planteja la pregunta de si es pot dir res després de la destrucció; i la seva existència —tant l’original com la traducció i l’edició catalanes— ofereixen una resposta provisional, però urgent, només confrontant el buit, només acceptant la fractura i el silenci, el poema pot, eventualment, florir.",
+      "pdf": { "page": 4 }
     },
     {
       "type": "paragraph",
-      "content": "Aquesta rosa, ni de ningú ni per a ningú en particular, testimonia, enmig de la devastació, la força persistent de la poesia: la de qui vol dir, una vegada més, l’indicible."
+      "content": "Aquesta rosa, ni de ningú ni per a ningú en particular, testimonia, enmig de la devastació, la força persistent de la poesia: la de qui vol dir, una vegada més, l’indicible.",
+      "pdf": { "page": 4 }
     },
-       {
+    {
       "type": "biography",
       "biography": [
         "<a href=\"https://labreuedicions.com/la-rosa-de-ningu-paul-celan/\">LaBreu Edicions, Dossier oficial i nota editorial</a>",
@@ -108,7 +144,19 @@
         "<a href=\"https://www.ara.cat/cultura/lobra-paul-celan-desxifrada-catala_1_2777841.html\">Ara.cat, \"L’obra de Paul Celan, desxifrada en català\"</a>",
         "<a href=\"https://ca.wikipedia.org/wiki/Paul_Celan\">Viquipèdia, Paul Celan</a>",
         "<a href=\"https://labreuedicions.com/la-poesia-de-celan-un-acte-de-resistencia-elpuntavui-18-07-25/\">LaBreu Edicions, “La poesia de Celan, un acte de resistència”</a>"
-      ]
+      ],
+      "pdf": { "page": 5 }
     }
+  ],
+  "publicationDate": {
+    "$date": "2025-07-26T22:00:00.000Z"
+  },
+  "isPublished": true,
+  "tags": [],
+  "readTime": 5,
+  "year": 2025,
+  "issueNumber": 49,
+  "authors": [
+    "Àngel Carbonell"
   ]
 }

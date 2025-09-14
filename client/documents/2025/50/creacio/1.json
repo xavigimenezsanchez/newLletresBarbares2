@@ -1,41 +1,80 @@
 {
-    "title" : "Quadern de les cigales (6). La llepada de cul i els llepadors, conflicte pseudo-intel·lecto-sexual. Sàtira a la Vallfogona",
-    "url" : "quadern-de-les-cigales-6",
-    "section" : "creacio",
-    "issue" : 49,
-    "data" : "27/07/2025",
-    "imageCard" : "andreu49-03",
-    "author" : "Andreu Pérez-Mingorance",
-    "summary" : "",
-    "text" : [ 
-      {
-        "type": "image",
-        "name": "andreu49-03",
-      "content": "Cul mític, Hèrcules Farnese, Museo Archeologico Nazionale, Nàpols"
-      },
+  "_id": {
+    "$oid": "688f8e37ac16e0dadcf03d98"
+  },
+  "issueId": {
+    "$oid": "688f8e36ac16e0dadcf03d80"
+  },
+  "issue": 2025,
+  "data": "27/07/2025",
+  "imageCard": "andreu49-03",
+  "title": "Quadern de les cigales (6). La llepada de cul i els llepadors, conflicte pseudo-intel·lecto-sexual. Sàtira a la Vallfogona",
+  "url": "quadern-de-les-cigales-6",
+  "section": "creacio",
+  "author": "Andreu Pérez-Mingorance",
+  "summary": "",
+  "text": [
     {
-      "type": "paragraph",
-      "content": "Quan s’enfonsaren les formes pures, oh glòria sodomita dels plaers prohibits, qui va rescatar la dignitat d’una bona llepada de cul? No pas el llepador de pa sucat amb oli, sinó aquell que, amb llengua vivaç i sense manies, s’endinsa als plecs tersos d’un anus net, sense condilomes ni morenes, com qui explora un tresor amagat rere les cortines de la decència."
+      "type": "image",
+      "name": "andreu49-03",
+      "content": "Cul mític, Hèrcules Farnese, Museo Archeologico Nazionale, Nàpols",
+      "pdf": {
+        "page": 1
+      }
     },
     {
       "type": "paragraph",
-      "content": "Ai, cultura nostra, tan amant de l’hetero-dominant i de l’homòfob encobert, que ha convertit la llepada de cul en acte de servilisme, d’adulació barroera, de vassallatge sense gràcia! Jo, confés luxuriós, porquet sense prejudicis, m’hi entregaria de grat i sense submissió, sinó per deliri, per passió, per l’alegria de perdre’m en la carn. Però em fatiga l’intrús, l’hetero perdut, que busca als anals canals dels seus superiors un trist reconeixement social, una ombra de visibilitat."
+      "content": "Quan s’enfonsaren les formes pures, oh glòria sodomita dels plaers prohibits, qui va rescatar la dignitat d’una bona llepada de cul? No pas el llepador de pa sucat amb oli, sinó aquell que, amb llengua vivaç i sense manies, s’endinsa als plecs tersos d’un anus net, sense condilomes ni morenes, com qui explora un tresor amagat rere les cortines de la decència.",
+      "pdf": {
+        "page": 1
+      }
     },
     {
       "type": "paragraph",
-      "content": "Vivim subscrits als senyors feudo-culturals i als seus vassalls llepaculs. Ho deia fa poc: si no llepes, no esgarrapes. Però, si us plau, llepadors, feu-ho amb gust, amb art, amb la gràcia d’un bon Rector de Vallfogona, que la cultura necessita una felicitat anal, una menjada de cul que relaxi aquests esfínters ressecs, petrificats a les cadires dels diaris, les editorials i les institucions."
+      "content": "Ai, cultura nostra, tan amant de l’hetero-dominant i de l’homòfob encobert, que ha convertit la llepada de cul en acte de servilisme, d’adulació barroera, de vassallatge sense gràcia! Jo, confés luxuriós, porquet sense prejudicis, m’hi entregaria de grat i sense submissió, sinó per deliri, per passió, per l’alegria de perdre’m en la carn. Però em fatiga l’intrús, l’hetero perdut, que busca als anals canals dels seus superiors un trist reconeixement social, una ombra de visibilitat.",
+      "pdf": {
+        "page": 1
+      }
+    
     },
     {
       "type": "paragraph",
-      "content": "Demano poc: que els llepaculs professionals provoquin l’orgasme de les patums que ho controlen tot. Si no ens penetren amb alegria, que almenys ens sedueixin amb goig. Tot seria més fluid, menys disfressat d’una pseudoconsciència queer que no deixa avançar ningú."
+      "content": "Vivim subscrits als senyors feudo-culturals i als seus vassalls llepaculs. Ho deia fa poc: si no llepes, no esgarrapes. Però, si us plau, llepadors, feu-ho amb gust, amb art, amb la gràcia d’un bon Rector de Vallfogona, que la cultura necessita una felicitat anal, una menjada de cul que relaxi aquests esfínters ressecs, petrificats a les cadires dels diaris, les editorials i les institucions.",
+      "pdf": {
+        "page": 1
+      }
     },
     {
       "type": "paragraph",
-      "content": "Llepadors de culs pseudo-intel·lecto-sexuals, feu bé la vostra feina, pel bé comú d’aquells que patim aquest tap cultural, que ni carda ni deixa cardar. Si us plau, que la llepada sigui digna de poema, i que el cul, finalment, s’obri a la felicitat."
+      "content": "Demano poc: que els llepaculs professionals provoquin l’orgasme de les patums que ho controlen tot. Si no ens penetren amb alegria, que almenys ens sedueixin amb goig. Tot seria més fluid, menys disfressat d’una pseudoconsciència queer que no deixa avançar ningú.",
+      "pdf": {
+        "page": 2
+      }
     },
     {
-        "type" : "paragraph",
-        "content" : "<div style=\"display: flex; justify-content: center\"></br></br><div><em>He trescat pels llavis de la fufa<br />a mercè d'un vent arrossegat. Guaita!:<br />núvols de pol·len mentalitzen altres furóncols<br />altres càries. De la ràtzia, una jove, del lleu,<br />l'aeroplàncton, una síl·laba. Lluen les natges.<br />Lluen els glavis. Roda calu! I les puntes de<br />les titiues, dolors del cos menstruen i antoien:<br />ganivet esmús que entra dins la carn<br />com una fetor abans d'hora. Treu els testicles<br />de l'escrot: per la mucosa, l'enfonyall.<br /> </em>   <div style=\"text-align: right\">Joan Palou<br /><em>Col·lisió entre vaixells, 1981</em></div></div></div>"
+      "type": "paragraph",
+      "content": "Llepadors de culs pseudo-intel·lecto-sexuals, feu bé la vostra feina, pel bé comú d’aquells que patim aquest tap cultural, que ni carda ni deixa cardar. Si us plau, que la llepada sigui digna de poema, i que el cul, finalment, s’obri a la felicitat.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "<div style=\"display: flex; justify-content: center\"></br></br><div><em>He trescat pels llavis de la fufa<br />a mercè d'un vent arrossegat. Guaita!:<br />núvols de pol·len mentalitzen altres furóncols<br />altres càries. De la ràtzia, una jove, del lleu,<br />l'aeroplàncton, una síl·laba. Lluen les natges.<br />Lluen els glavis. Roda calu! I les puntes de<br />les titiues, dolors del cos menstruen i antoien:<br />ganivet esmús que entra dins la carn<br />com una fetor abans d'hora. Treu els testicles<br />de l'escrot: per la mucosa, l'enfonyall.<br /> </em>   <div style=\"text-align: right\">Joan Palou<br /><em>Col·lisió entre vaixells, 1981</em></div></div></div>",
+      "pdf": {
+        "page": 2
+      }
     }
+  ],
+  "publicationDate": {
+    "$date": "2025-07-26T22:00:00.000Z"
+  },
+  "isPublished": true,
+  "tags": [],
+  "readTime": 5,
+  "year": 2025,
+  "issueNumber": 49,
+  "authors": [
+    "Andreu Pérez-Mingorance"
   ]
 }

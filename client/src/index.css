@@ -1404,7 +1404,10 @@ html[data-scroll-direction="down"] .burgerstack {
     margin-top: 2mm;
   }
 
-
+  .pdf-credits-content {
+    @apply flex flex-col justify-between mt-[200pt] ml-[140pt] items-start h-[38%];
+    
+  }
 
   .pdf-bibliography-title,
   .pdf-footnotes-title {
@@ -1421,13 +1424,15 @@ html[data-scroll-direction="down"] .burgerstack {
   }
   .pdf-footnotes-list {
     list-style-type: decimal;
-    padding-left: 1.5rem;
+    padding-left: 1.5r em;
   }
 
 
   .pdf-bibliography-item,
   .pdf-footnote-item {
-    margin-bottom: 2mm;
+    @apply text-justify mb-[2mm] font-['TNYAdobeCaslonPro'] text-[10pt] ml-[10pt];
+    
+
   }
 
   /* Loading y Error states */
