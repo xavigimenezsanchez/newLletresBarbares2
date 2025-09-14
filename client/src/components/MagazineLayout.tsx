@@ -93,7 +93,7 @@ const MagazineLayout = ({ articles, issueNumber, year, publicationDate }: Magazi
 
 
           return (
-            <article 
+            <Link to={`/${article.section}/${article.url}`} 
               key={article.url} 
               className={`magazine-card magazine-card--${size}`}
             >
@@ -124,7 +124,7 @@ const MagazineLayout = ({ articles, issueNumber, year, publicationDate }: Magazi
                   {Array.isArray(article.authors) ? article.authors.join(', ') : article.author}
                 </div>
               </div>
-            </article>
+            </Link>
           )
         })}
       </div>
