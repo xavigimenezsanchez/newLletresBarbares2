@@ -1,9 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const path = require('path');
 const Issue = require('../models/Issue');
 const Article = require('../models/Article');
-const ManualPDFGenerator = require('../../pdf-generator/generate-manual-pdf');
 
 // GET /api/issues - Obtener todos los números con paginación
 router.get('/', async (req, res) => {
@@ -160,48 +158,48 @@ router.get('/:year/:number', async (req, res) => {
   }
 });
 
-// POST /api/issues/:number/generate-manual-pdf - Generar PDF manual
-router.post('/:number/generate-manual-pdf', async (req, res) => {
-  try {
-    const { number } = req.params;
-    const issueNumber = parseInt(number);
+// // POST /api/issues/:number/generate-manual-pdf - Generar PDF manual
+// router.post('/:number/generate-manual-pdf', async (req, res) => {
+//   try {
+//     const { number } = req.params;
+//     const issueNumber = parseInt(number);
     
-    if (isNaN(issueNumber)) {
-      return res.status(400).json({ error: 'Número de edición no válido' });
-    }
+//     if (isNaN(issueNumber)) {
+//       return res.status(400).json({ error: 'Número de edición no válido' });
+//     }
 
-    // Verificar que el issue existe y tiene pdfManual activado
-    const issue = await Issue.findOne({ number: issueNumber });
-    if (!issue) {
-      return res.status(404).json({ error: `Edición número ${issueNumber} no encontrada` });
-    }
+//     // Verificar que el issue existe y tiene pdfManual activado
+//     const issue = await Issue.findOne({ number: issueNumber });
+//     if (!issue) {
+//       return res.status(404).json({ error: `Edición número ${issueNumber} no encontrada` });
+//     }
 
-    if (!issue.pdfManual) {
-      return res.status(400).json({ 
-        error: `La edición número ${issueNumber} no tiene generación manual activada` 
-      });
-    }
+//     if (!issue.pdfManual) {
+//       return res.status(400).json({ 
+//         error: `La edición número ${issueNumber} no tiene generación manual activada` 
+//       });
+//     }
 
-    // Generar PDF manual
-    const generator = new ManualPDFGenerator();
-    await generator.init();
+//     // Generar PDF manual
+//     const generator = new ManualPDFGenerator();
+//     await generator.init();
     
-    const pdfPath = await generator.generateManualPDF(issueNumber);
-    await generator.close();
+//     const pdfPath = await generator.generateManualPDF(issueNumber);
+//     await generator.close();
 
-    // Enviar el archivo PDF
-    res.download(pdfPath, `revista-manual-${issueNumber}.pdf`, (err) => {
-      if (err) {
-        console.error('Error enviando PDF:', err);
-        res.status(500).json({ error: 'Error enviando el archivo PDF' });
-      }
-    });
+//     // Enviar el archivo PDF
+//     res.download(pdfPath, `revista-manual-${issueNumber}.pdf`, (err) => {
+//       if (err) {
+//         console.error('Error enviando PDF:', err);
+//         res.status(500).json({ error: 'Error enviando el archivo PDF' });
+//       }
+//     });
 
-  } catch (error) {
-    console.error('Error generando PDF manual:', error);
-    res.status(500).json({ error: 'Error interno del servidor' });
-  }
-});
+//   } catch (error) {
+//     console.error('Error generando PDF manual:', error);
+//     res.status(500).json({ error: 'Error interno del servidor' });
+//   }
+// });
 
 // GET /api/issues/:id - Obtener número por ID
 router.get('/:id', async (req, res) => {
