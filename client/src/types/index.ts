@@ -39,10 +39,12 @@ export interface Article {
     type: 'paragraph' | 'title' | 'image' | 'video' | 'youtube' | 'biography' | 'footnotes';
     content: string;
     name?: string;
+    styles?: string;
     pdf?: {
       page: number;
       type?: 'qr';
       path?: string;
+      styles?: string;
       division?: {
         alignLast?: boolean;
         contentPage: string;

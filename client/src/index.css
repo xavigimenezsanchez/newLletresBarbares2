@@ -67,8 +67,97 @@
 }
 
 @layer components {
-  /* Header like The New Yorker */
-  .newyorker-header-container {
+ 
+
+  html[data-scroll-direction="down"] .newyorker-header {
+    @apply h-16 md:h-24;
+  }
+
+  html[data-scroll-direction="down"] .newyorker-header-container {
+    @apply h-16 md:h-24;
+  }
+
+  html[data-scroll-direction="down"] .logo-row {
+    @apply flex items-end md:items-center h-20 md:h-24;
+  }
+
+  html[data-scroll-direction="down"] .logo {
+    @apply top-0 mt-0 md:mt-4 md:w-32;
+  }
+
+  html[data-scroll-direction="down"] .newyorker-nav-links {
+    @apply top-0;
+  }
+
+    /* The New Yorker specific utilities */
+    .font-newyorker {
+      font-family: 'TNYAdobeCaslonPro', 'Times New Roman', Times, serif;
+    }
+    
+    .text-newyorker {
+      font-family: 'TNYAdobeCaslonPro', 'Times New Roman', Times, serif;
+      line-height: 1.6;
+    }
+    
+    /* Article Text Styles */
+    .article-text {
+      font-family: 'TNYAdobeCaslonPro', 'Times New Roman', Times, serif;
+      line-height: 1.6;
+    }
+    
+    .article-text blockquote {
+      font-style: italic;
+      border-left: 4px solid #e5e5e5;
+      padding-left: 1.5rem;
+      margin: 2rem 0;
+    }
+    
+    .article-text figure {
+      margin: 2rem 0;
+    }
+    
+    .article-text figcaption {
+      font-size: 0.875rem;
+      color: #6b7280;
+      margin-top: 0.5rem;
+    }
+    
+    .article-text img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 0.5rem;
+    }
+    
+    .article-text video {
+      max-width: 100%;
+      border-radius: 0.5rem;
+    }
+    
+    .article-text iframe {
+      border-radius: 0.5rem;
+    }
+    
+    .article-text ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+    }
+    
+    .article-text ol {
+      list-style-type: decimal;
+      padding-left: 1.5rem;
+    }
+    
+    .article-text li {
+      margin-bottom: 0.5rem;
+    }
+  
+    .issue-edition-button {
+      @apply inline-flex items-center px-4 py-2 bg-[#dc2626] text-white text-[0.625rem] font-black rounded hover:bg-red-800 transition-colors duration-200;
+      font-family: "Irvin-Heading";
+    }
+
+   /* Header like The New Yorker */
+   .newyorker-header-container {
     @apply bg-white border-b border-gray-200 fixed top-0 left-0 right-0 z-50 h-24 md:h-48 transition-transform duration-300;
     will-change: transform;
   }
@@ -92,25 +181,6 @@
   
   }
 
-  html[data-scroll-direction="down"] .newyorker-header {
-    @apply h-16 md:h-24;
-  }
-
-  html[data-scroll-direction="down"] .newyorker-header-container {
-    @apply h-16 md:h-24;
-  }
-
-  html[data-scroll-direction="down"] .logo-row {
-    @apply flex items-end md:items-center h-20 md:h-24;
-  }
-
-  html[data-scroll-direction="down"] .logo {
-    @apply top-0 mt-0 md:mt-4 md:w-32;
-  }
-
-  html[data-scroll-direction="down"] .newyorker-nav-links {
-    @apply top-0;
-  }
   .scroll-block {
     @apply bg-white absolute;
     height: 112px;
@@ -154,9 +224,7 @@
     background-color: #da3a3a;
   }
 
-  .main-navigation-holder {
 
-  }
 
 .main-navigation {
   @apply absolute top-8 left-1 w-full transition-all duration-300;
@@ -867,77 +935,12 @@ html[data-scroll-direction="down"] .burgerstack {
 
 }
 
-@layer utilities {
+@layer utilities2 {
   .text-balance {
     text-wrap: balance;
   }
   
-  /* The New Yorker specific utilities */
-  .font-newyorker {
-    font-family: 'TNYAdobeCaslonPro', 'Times New Roman', Times, serif;
-  }
-  
-  .text-newyorker {
-    font-family: 'TNYAdobeCaslonPro', 'Times New Roman', Times, serif;
-    line-height: 1.6;
-  }
-  
-  /* Article Text Styles */
-  .article-text {
-    font-family: 'TNYAdobeCaslonPro', 'Times New Roman', Times, serif;
-    line-height: 1.6;
-  }
-  
-  .article-text blockquote {
-    font-style: italic;
-    border-left: 4px solid #e5e5e5;
-    padding-left: 1.5rem;
-    margin: 2rem 0;
-  }
-  
-  .article-text figure {
-    margin: 2rem 0;
-  }
-  
-  .article-text figcaption {
-    font-size: 0.875rem;
-    color: #6b7280;
-    margin-top: 0.5rem;
-  }
-  
-  .article-text img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 0.5rem;
-  }
-  
-  .article-text video {
-    max-width: 100%;
-    border-radius: 0.5rem;
-  }
-  
-  .article-text iframe {
-    border-radius: 0.5rem;
-  }
-  
-  .article-text ul {
-    list-style-type: disc;
-    padding-left: 1.5rem;
-  }
-  
-  .article-text ol {
-    list-style-type: decimal;
-    padding-left: 1.5rem;
-  }
-  
-  .article-text li {
-    margin-bottom: 0.5rem;
-  }
 
-  .issue-edition-button {
-    @apply inline-flex items-center px-4 py-2 bg-[#dc2626] text-white text-[0.625rem] font-black rounded hover:bg-red-800 transition-colors duration-200;
-    font-family: "Irvin-Heading";
-  }
 
   /* Animaciones para navegación por swipe */
   @keyframes fadeIn {
@@ -955,579 +958,579 @@ html[data-scroll-direction="down"] .burgerstack {
     animation: fadeIn 0.5s ease-out;
   }
 
-  /* Estilos para PDF Manual */
-  .pdf-division-info {
-    margin: 1rem 0;
-    padding: 1rem;
-    background-color: #f8f9fa;
-    border-left: 3px solid #1a1a2e;
-    border-radius: 4px;
-  }
 
-  .pdf-division-current {
-    margin-bottom: 0.5rem;
-  }
-
-  .pdf-division-current strong {
-    display: block;
-    margin-bottom: 0.5rem;
-    color: #1a1a2e;
-    font-size: 0.9rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-  }
-
-  .pdf-division-next {
-    margin-top: 0.5rem;
-    padding-top: 0.5rem;
-    border-top: 1px solid #e9ecef;
-  }
-
-  .pdf-division-next strong {
-    display: block;
-    margin-bottom: 0.5rem;
-    color: #666;
-    font-size: 0.9rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-  }
-}
-
-/* PDF View Styles */
-.pdf-view {
-  background: #f5f5f5;
-  min-height: 100vh;
-  padding: 20px 0;
-}
-
-.pdf-page {
-  width: 210mm;
-  min-height: 297mm;
-  margin: 0 auto 20px;
-  background: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  position: relative;
-  page-break-after: always;
-  overflow: hidden;
-}
-
-.pdf-page-content {
-  padding: 20mm;
-  height: calc(297mm - 10mm);
-  box-sizing: border-box;
-}
-
-/* Portada */
-.pdf-cover {
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.pdf-cover-title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.pdf-cover-content {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.pdf-cover-image-end {
-  margin: 0 220pt;
-}
-
-.pdf-cover-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  margin: 0 auto;
-}
-
-/* Índice */
-.pdf-index .pdf-page-content {
-  display: flex;
-  flex-direction: column;
-}
-
-.pdf-title {
-  font-family: 'Playfair Display', serif;
-  font-size: 22pt;
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: -20mm; 
-   margin-left: 22mm;
-  color: #2c3e50;
-}
-
-.pdf-title-2 {
-  width: 174pt;
-  display: flex;
-  align-items: flex-end;
-  font-size: 22pt;
-  font-family: 'Playfair Display', serif;
-  justify-content: center;
-  font-weight: 700;
-}
-
-.pdf-title-2 img {
-  width: 68pt;
-    position: relative;
-    
-}
-
-.pdf-issue-number {
-  font-family: 'Playfair Display', serif;
-  font-size: 24pt;
-  font-weight: 400;
-  text-align: center;
-  margin-bottom: 5mm;
-  margin-top: 13mm;
-  color: #34495e;
-}
-
-.pdf-publication-date {
-  font-size: 14pt;
-  text-align: center;
-  margin-bottom: 15mm;
-  color: #7f8c8d;
-}
-
-.pdf-index-content {
-  flex: 1;
-}
-
-.pdf-index-title {
-  font-family: 'Playfair Display', serif;
-  font-size: 20pt;
-  font-weight: 600;
-  margin-bottom: 10mm;
-  padding-bottom: 2mm;
-  border-bottom: 1px solid #bdc3c7;
-}
-
-.pdf-article-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.pdf-article-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 2mm;
-  padding-bottom: 1mm;
-  border-bottom: 1px dotted #ecf0f1;
-}
-
-
-.pdf-article-item-manual {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  margin-bottom: 2mm;
-  padding-bottom: 1mm;
-  border-bottom: 1px dotted #ecf0f1;
-}
-
-
-/* .pdf-article-title {
-  font-size: 12pt;
-  flex: 1;
-  margin-right: 5mm;
-  line-height: 1.3;
-} */
-.pdf-article-item-author {
-  font-size: 10pt;
-  color: #7f8c8d;
-  font-style: italic;
-  min-width: 40mm;
-}
-
-.pdf-article-author {
-  font-size: 10pt;
-  color: #7f8c8d;
-  font-style: italic;
-  min-width: 40mm;
-  text-align: right;
-}
-
-.pdf-article-page-number {
-  font-size: 10pt;
-  color: #7f8c8d;
-  font-style: italic;
-  min-width: 40mm;
-  text-align: right;
-}
-
-/* Artículos */
-.pdf-article-content {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-.pdf-article-header {
-  margin-bottom: 6mm;
-}
-
-.pdf-article-header-continued {
-  margin-bottom: 4mm;
-  padding-bottom: 2mm;
-  border-bottom: 1px solid #bdc3c7;
-}
-
-.pdf-article-title-continued {
-  font-family: 'Playfair Display', serif;
-  font-size: 16pt;
-  font-weight: 600;
-  line-height: 1.2;
-  margin-bottom: 2mm;
-  color: #2c3e50;
-}
-
-.pdf-page-indicator {
-  font-size: 10pt;
-  color: #7f8c8d;
-  font-style: italic;
-  text-align: right;
-  margin-right: 40pt;
-}
-
-.pdf-article-section {
-  font-size: 10pt;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: #e74c3c;
-  margin-bottom: 2mm;
-  font-weight: 600;
-}
-
-.pdf-article-title {
-  font-family: 'Playfair Display', serif;
-  font-size: 12pt;
-  flex: 1;
-  margin-right: 5mm;
-  font-weight: 700;
-  line-height: 1.2;
-  margin-bottom: 3mm;
-  color: #2c3e50;
-}
-
-.pdf-article-meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 11pt;
-  color: #7f8c8d;
-  margin-bottom: 4mm;
-}
-
-.pdf-article-authors {
-  font-weight: 600;
-}
-
-.pdf-article-date {
-  font-style: italic;
-}
-
-.pdf-article-main-image {
-  margin-bottom: 4mm;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.pdf-main-image {
-  max-width: 100%;
-  max-height: 60mm;
-  object-fit: contain;
-  display: block;
-  margin: 0 auto;
-}
-
-.pdf-article-summary {
-  font-size: 13pt;
-  line-height: 1.4;
-  font-style: italic;
-  margin-bottom: 6mm;
-  padding: 3mm;
-  background: #f8f9fa;
-  border-left: 3mm solid #e74c3c;
-}
-
-.pdf-article-text {
-  flex: 1;
-  font-size: 11pt;
-  line-height: 1.5;
-}
-
-.pdf-paragraph {
-  @apply mb-[3mm] text-justify;
-}
-
-.pdf-bibliography-list {
-  @apply list-disc pl-[1.5rem];
-}
-
-.pdf-paragraph ul {
-  @apply list-disc pl-[1.5rem];
-}
-
-.pdf-paragraph ol {
-  @apply list-decimal pl-[1.5rem];
-}
-
-.pdf-paragraph-qr {
-  @apply text-justify;
-}
-
-.pdf-paragraph-qr svg  {
-  @apply float-left mt-[4px] mr-[14px];
-
-}
-
-/* Párrafo dividido - primera parte (justificar última línea) */
-.pdf-paragraph-divided {
-  text-align-last: justify;
-}
-
-/* Párrafo dividido - segunda parte (sin sangría) */
-.pdf-paragraph-split-second {
-  text-indent: 0;
-  margin-top: 0; /* Sin margen superior para continuidad visual */
-}
-
-.pdf-paragraph:first-child {
-  text-indent: 0;
-}
-
-/* Párrafos al final de página (sin margen inferior extra) */
-.pdf-paragraph:last-child {
-  margin-bottom: 1mm;
-}
-
-/* Párrafos al inicio de página continuada (sin indentación extra) */
-.pdf-article-text .pdf-paragraph:first-child {
-  text-indent: 0;
-}
-
-/* Párrafos divididos entre páginas */
-.pdf-paragraph-wrapper:last-child {
-  @apply mb-0;
-}
-
-.pdf-paragraph-wrapper:first-child {
-  @apply mt-0;
-  text-indent: 0; /* Sin indentación si es el primer elemento de página */
-}
-
-/* Párrafos divididos entre páginas */
-.pdf-title-wrapper:last-child {
-  @apply mb-0;
-}
-
-.pdf-title-wrapper:first-child {
-  @apply mt-0;
-  text-indent: 0; /* Sin indentación si es el primer elemento de página */
-}
-
-.pdf-paragraph-with-image {
-  margin-bottom: 3mm;
-}
-
-.pdf-paragraph-with-image .pdf-image-container {
-  text-align: center;
-  margin: 2mm 0;
-}
-
-.pdf-subtitle {
-  font-family: 'Playfair Display', serif;
-  font-size: 16pt;
-  font-weight: 600;
-  margin: 5mm 0 3mm 0;
-  color: #2c3e50;
-  page-break-after: avoid; /* Evitar salto de página después del título */
-}
-
-.pdf-subtitle-2 {
-  font-size: 14pt;
-  page-break-after: avoid;
-}
-
-/* Títulos al inicio de página (reducir margen superior) */
-.pdf-article-text .pdf-subtitle:first-child {
-  margin-top: 2mm;
-}
-
-/* Títulos nunca solos al final de página */
-.pdf-subtitle {
-  orphans: 2; /* Al menos 2 líneas después del título */
-  widows: 2;  /* Al menos 2 líneas antes de un salto */
-}
-
-.pdf-question {
-  font-style: italic;
-  font-weight: 600;
-  margin: 4mm 0;
-  padding-left: 5mm;
-  border-left: 2px solid #3498db;
-}
-
-.pdf-image-container {
-  text-align: center;
-  margin: 4mm 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.pdf-image {
-  max-width: 100%;
-  max-height: 90mm;
-  object-fit: contain;
-  display: block;
-  margin: 0 auto;
-}
-
-.pdf-image-caption {
-  font-size: 9pt;
-  color: #7f8c8d;
-  font-style: italic;
-  margin-top: 1mm;
-}
-
-.pdf-video-placeholder,
-.pdf-youtube-placeholder {
-  border: 2px dashed #bdc3c7;
-  padding: 4mm;
-  margin: 4mm 0;
-  text-align: center;
-  background: #f8f9fa;
-}
-
-.pdf-video-icon {
-  font-size: 24pt;
-  margin-bottom: 2mm;
-}
-
-.pdf-video-text {
-  font-size: 11pt;
-  margin-bottom: 2mm;
-}
-
-.pdf-video-link {
-  font-family: monospace;
-  font-size: 10pt;
-  color: #3498db;
-  word-break: break-all;
-}
-
-.pdf-video-caption {
-  font-size: 9pt;
-  color: #7f8c8d;
-  font-style: italic;
-  margin-top: 2mm;
-}
-
-
-
-.pdf-bibliography-title,
-.pdf-footnotes-title {
-  font-size: 14pt;
-  font-weight: 600;
-  margin-bottom: 3mm;
-  color: #2c3e50;
-}
-
-.pdf-bibliography-list,
-.pdf-footnotes-list {
-  font-size: 12pt;
-  text-align: justify;
-}
-.pdf-footnotes-list {
-  list-style-type: decimal;
-  padding-left: 1.5rem;
-}
-
-
-.pdf-bibliography-item,
-.pdf-footnote-item {
-  margin-bottom: 2mm;
-}
-
-/* Loading y Error states */
-.pdf-loading,
-.pdf-error {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #f5f5f5;
 }
 
-/* Print styles */
-@media print {
+@layer pdf-view {
+  /* PDF View Styles */
   .pdf-view {
-    background: white;
-    padding: 0;
+    background: #f5f5f5;
+    min-height: 100vh;
+    padding: 20px 0;
   }
-  
+
   .pdf-page {
     width: 210mm;
-    height: 297mm;
-    margin: 0;
-    box-shadow: none;
+    min-height: 297mm;
+    margin: 0 auto 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
     page-break-after: always;
+    overflow: hidden;
   }
+
+  .pdf-page-content {
+    padding: 20mm;
+    height: calc(297mm - 10mm);
+    box-sizing: border-box;
+  }
+
+  /* Portada */
+  .pdf-cover {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pdf-cover-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pdf-cover-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pdf-cover-image-end {
+    margin: 0 220pt;
+  }
+
+  .pdf-cover-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* Índice */
+  .pdf-index .pdf-page-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pdf-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 22pt;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: -20mm; 
+    margin-left: 22mm;
+    color: #2c3e50;
+  }
+
+  .pdf-title-2 {
+    width: 174pt;
+    display: flex;
+    align-items: flex-end;
+    font-size: 22pt;
+    font-family: 'Playfair Display', serif;
+    justify-content: center;
+    font-weight: 700;
+  }
+
+  .pdf-title-2 img {
+    width: 68pt;
+      position: relative;
+      
+  }
+
+  .pdf-issue-number {
+    font-family: 'Playfair Display', serif;
+    font-size: 24pt;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 5mm;
+    margin-top: 13mm;
+    color: #34495e;
+  }
+
+  .pdf-publication-date {
+    font-size: 14pt;
+    text-align: center;
+    margin-bottom: 15mm;
+    color: #7f8c8d;
+  }
+
+  .pdf-index-content {
+    flex: 1;
+  }
+
+  .pdf-index-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 20pt;
+    font-weight: 600;
+    margin-bottom: 10mm;
+    padding-bottom: 2mm;
+    border-bottom: 1px solid #bdc3c7;
+  }
+
+  .pdf-article-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .pdf-article-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 2mm;
+    padding-bottom: 1mm;
+    border-bottom: 1px dotted #ecf0f1;
+  }
+
+
+  .pdf-article-item-manual {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 2mm;
+    padding-bottom: 1mm;
+    border-bottom: 1px dotted #ecf0f1;
+  }
+
+
+  /* .pdf-article-title {
+    font-size: 12pt;
+    flex: 1;
+    margin-right: 5mm;
+    line-height: 1.3;
+  } */
+  .pdf-article-item-author {
+    font-size: 10pt;
+    color: #7f8c8d;
+    font-style: italic;
+    min-width: 40mm;
+  }
+
+  .pdf-article-author {
+    font-size: 10pt;
+    color: #7f8c8d;
+    font-style: italic;
+    min-width: 40mm;
+    text-align: right;
+  }
+
+  .pdf-article-page-number {
+    @apply text-[10pt] text-stone-950 text-right relative bottom-[6pt];
+  }
+
+  /* Artículos */
+  .pdf-article-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pdf-article-header {
+    margin-bottom: 6mm;
+  }
+
+  .pdf-article-header-continued {
+    margin-bottom: 4mm;
+    padding-bottom: 2mm;
+    border-bottom: 1px solid #bdc3c7;
+  }
+
+  .pdf-article-title-continued {
+    font-family: 'Playfair Display', serif;
+    font-size: 16pt;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 2mm;
+    color: #2c3e50;
+  }
+
+  .pdf-page-indicator {
+    @apply text-[10pt] text-stone-950 text-center;
+  }
+
+  .pdf-article-section {
+    font-size: 10pt;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #e74c3c;
+    margin-bottom: 2mm;
+    font-weight: 600;
+  }
+
+  .pdf-article-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 12pt;
+    flex: 1;
+    margin-right: 5mm;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 3mm;
+    color: #2c3e50;
+  }
+
+  .pdf-article-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 11pt;
+    color: #7f8c8d;
+    margin-bottom: 4mm;
+  }
+
+  .pdf-article-authors {
+    font-weight: 600;
+  }
+
+  .pdf-article-date {
+    font-style: italic;
+  }
+
+  .pdf-article-main-image {
+    margin-bottom: 4mm;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pdf-main-image {
+    max-width: 100%;
+    max-height: 60mm;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .pdf-article-summary {
+    font-size: 13pt;
+    line-height: 1.4;
+    font-style: italic;
+    margin-bottom: 6mm;
+    padding: 3mm;
+    background: #f8f9fa;
+    border-left: 3mm solid #e74c3c;
+  }
+
+  .pdf-article-text {
+    flex: 1;
+    font-size: 11pt;
+    line-height: 1.5;
+  }
+
+  .pdf-paragraph {
+    @apply mb-[3mm] text-justify;
+  }
+
+  .pdf-bibliography-list {
+    @apply list-disc pl-[1.5rem];
+  }
+
+  .pdf-paragraph ul {
+    @apply list-disc pl-[1.5rem];
+  }
+
+  .pdf-paragraph ol {
+    @apply list-decimal pl-[1.5rem];
+  }
+
+  .pdf-paragraph-qr {
+    @apply text-justify;
+  }
+
+  .pdf-paragraph-qr svg  {
+    @apply float-left mt-[4px] mr-[14px];
+
+  }
+
+  .pdf-paragraph-wrapper > .pdf-blockquote {
+    @apply border-l-4 border-gray-300 pl-6 italic text-sm;
+  }
+
+  /* Párrafo dividido - primera parte (justificar última línea) */
+  .pdf-paragraph-divided {
+    text-align-last: justify;
+  }
+
+  /* Párrafo dividido - segunda parte (sin sangría) */
+  .pdf-paragraph-split-second {
+    text-indent: 0;
+    margin-top: 0; /* Sin margen superior para continuidad visual */
+  }
+
+  .pdf-paragraph:first-child {
+    text-indent: 0;
+  }
+
+  /* Párrafos al final de página (sin margen inferior extra) */
+  .pdf-paragraph:last-child {
+    margin-bottom: 1mm;
+  }
+
+  /* Párrafos al inicio de página continuada (sin indentación extra) */
+  .pdf-article-text .pdf-paragraph:first-child {
+    text-indent: 0;
+  }
+
+  /* Párrafos divididos entre páginas */
+  .pdf-paragraph-wrapper:last-child {
+    @apply mb-0;
+  }
+
+  .pdf-paragraph-wrapper:first-child {
+    @apply mt-0;
+    text-indent: 0; /* Sin indentación si es el primer elemento de página */
+  }
+
+  /* Párrafos divididos entre páginas */
+  .pdf-title-wrapper:last-child {
+    @apply mb-0;
+  }
+
+  .pdf-title-wrapper:first-child {
+    @apply mt-0;
+    text-indent: 0; /* Sin indentación si es el primer elemento de página */
+  }
+
+  .pdf-paragraph-with-image {
+    margin-bottom: 3mm;
+  }
+
+  .pdf-paragraph-with-image .pdf-image-container {
+    text-align: center;
+    margin: 2mm 0;
+  }
+
+  .pdf-subtitle {
+    font-family: 'Playfair Display', serif;
+    font-size: 16pt;
+    font-weight: 600;
+    margin: 5mm 0 3mm 0;
+    color: #2c3e50;
+    page-break-after: avoid; /* Evitar salto de página después del título */
+  }
+
+  .pdf-subtitle-2 {
+    font-size: 14pt;
+    page-break-after: avoid;
+  }
+
+  /* Títulos al inicio de página (reducir margen superior) */
+  .pdf-article-text .pdf-subtitle:first-child {
+    margin-top: 2mm;
+  }
+
+  /* Títulos nunca solos al final de página */
+  .pdf-subtitle {
+    orphans: 2; /* Al menos 2 líneas después del título */
+    widows: 2;  /* Al menos 2 líneas antes de un salto */
+  }
+
+  .pdf-question {
+    font-style: italic;
+    font-weight: 600;
+    margin: 4mm 0;
+    padding-left: 5mm;
+    border-left: 2px solid #3498db;
+  }
+
+  .pdf-image-container {
+    text-align: center;
+    margin: 4mm 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pdf-image {
+    max-width: 100%;
+    max-height: 90mm;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .pdf-image-caption {
+    font-size: 9pt;
+    color: #7f8c8d;
+    font-style: italic;
+    margin-top: 1mm;
+  }
+
+  .pdf-video-placeholder,
+  .pdf-youtube-placeholder {
+    border: 2px dashed #bdc3c7;
+    padding: 4mm;
+    margin: 4mm 0;
+    text-align: center;
+    background: #f8f9fa;
+  }
+
+  .pdf-video-icon {
+    font-size: 24pt;
+    margin-bottom: 2mm;
+  }
+
+  .pdf-video-text {
+    font-size: 11pt;
+    margin-bottom: 2mm;
+  }
+
+  .pdf-video-link {
+    font-family: monospace;
+    font-size: 10pt;
+    color: #3498db;
+    word-break: break-all;
+  }
+
+  .pdf-video-caption {
+    font-size: 9pt;
+    color: #7f8c8d;
+    font-style: italic;
+    margin-top: 2mm;
+  }
+
+
+
+  .pdf-bibliography-title,
+  .pdf-footnotes-title {
+    font-size: 14pt;
+    font-weight: 600;
+    margin-bottom: 3mm;
+    color: #2c3e50;
+  }
+
+  .pdf-bibliography-list,
+  .pdf-footnotes-list {
+    font-size: 12pt;
+    text-align: justify;
+  }
+  .pdf-footnotes-list {
+    list-style-type: decimal;
+    padding-left: 1.5rem;
+  }
+
+
+  .pdf-bibliography-item,
+  .pdf-footnote-item {
+    margin-bottom: 2mm;
+  }
+
+  /* Loading y Error states */
+  .pdf-loading,
+  .pdf-error {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5f5f5;
+  }
+
+  /* Print styles */
+  @media print {
+    .pdf-view {
+      background: white;
+      padding: 0;
+    }
+    
+    .pdf-page {
+      width: 210mm;
+      height: 297mm;
+      margin: 0;
+      box-shadow: none;
+      page-break-after: always;
+    }
+    
+    .pdf-page:last-child {
+      page-break-after: auto;
+    }
+  }
+
+  /* Para ocultar header y footer en la vista PDF */
+  .pdf-view .newyorker-header-container,
+  .pdf-view .footer {
+    display: none !important;
+  }
+
+  /* Wrappers para medición de elementos */
+  .pdf-paragraph-wrapper,
+  .pdf-title-wrapper {
+    @apply block my-8;
+
+  }
+  .pdf-article-footer {
+    @apply relative bottom-[-62px];
+  }
+
+  /* Enlace a la vista PDF */
+  .pdf-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 6px 12px;
+    background: #e74c3c;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+
+  .pdf-link:hover {
+    background: #c0392b;
+    color: white;
+    text-decoration: none;
+  }
+
+    /* Estilos para PDF Manual */
+    .pdf-division-info {
+      margin: 1rem 0;
+      padding: 1rem;
+      background-color: #f8f9fa;
+      border-left: 3px solid #1a1a2e;
+      border-radius: 4px;
+    }
   
-  .pdf-page:last-child {
-    page-break-after: auto;
-  }
-}
-
-/* Para ocultar header y footer en la vista PDF */
-.pdf-view .newyorker-header-container,
-.pdf-view .footer {
-  display: none !important;
-}
-
-/* Wrappers para medición de elementos */
-.pdf-paragraph-wrapper,
-.pdf-title-wrapper {
-   @apply block my-8;
-
-}
-.pdf-article-footer {
-  @apply absolute bottom-[24px] right-[24px];
-}
-
-/* Enlace a la vista PDF */
-.pdf-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  padding: 6px 12px;
-  background: #e74c3c;
-  color: white;
-  border-radius: 4px;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 500;
-  transition: background-color 0.3s ease;
-}
-
-.pdf-link:hover {
-  background: #c0392b;
-  color: white;
-  text-decoration: none;
+    .pdf-division-current {
+      margin-bottom: 0.5rem;
+    }
+  
+    .pdf-division-current strong {
+      display: block;
+      margin-bottom: 0.5rem;
+      color: #1a1a2e;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+  
+    .pdf-division-next {
+      margin-top: 0.5rem;
+      padding-top: 0.5rem;
+      border-top: 1px solid #e9ecef;
+    }
+  
+    .pdf-division-next strong {
+      display: block;
+      margin-bottom: 0.5rem;
+      color: #666;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
 }

@@ -141,8 +141,8 @@
         "page": 4,
         "division": {
           "alignLast": true,
-          "contentPage": "Aquest és un punt crucial, però, on desapareix allò que anomenaríem l'excepció assíria. Els déus assiris no han estat els únics que han beneït guerres de conquesta i extermini. Darius I, emperador persa i el primer que va començar a guerrejar contra els grecs, va establir l'autoritat d'Ahura Mazda",
-          "contentNextPage": "sobre el món sencer, l'obligació de tots els pobles d'adorar-lo, i —com ens recorda Tom Holland al seu llibre <em>Persian Fire</em>— el dret dels perses, com a poble escollit d'Ahura Mazda, d'esclafar els pobles sacrílegs que es resistissin a aquesta autoritat. També podríem recordar com, més modernament, el rei de França Felip el Bell —un autèntic criminal— definia les atrocitats comeses pels exèrcits francesos com ‘Gesta Dei per Francos’: obra de Déu, essent els francesos simplement el braç executor."
+          "contentPage": "Aquest és un punt crucial, però, on desapareix allò que anomenaríem l'excepció assíria. Els déus assiris no han estat els únics que han beneït guerres de conquesta i extermini. Darius I, emperador",
+          "contentNextPage": "persa i el primer que va començar a guerrejar contra els grecs, va establir l'autoritat d'Ahura Mazda sobre el món sencer, l'obligació de tots els pobles d'adorar-lo, i —com ens recorda Tom Holland al seu llibre <em>Persian Fire</em>— el dret dels perses, com a poble escollit d'Ahura Mazda, d'esclafar els pobles sacrílegs que es resistissin a aquesta autoritat. També podríem recordar com, més modernament, el rei de França Felip el Bell —un autèntic criminal— definia les atrocitats comeses pels exèrcits francesos com ‘Gesta Dei per Francos’: obra de Déu, essent els francesos simplement el braç executor."
         }
       }
     },
@@ -188,8 +188,8 @@
         "page": 5,
         "division": {
           "alignLast": true,
-          "contentPage": "El llibre de Josuè entusiasma els moderns jueus radicals, però l'Església més aviat hi passa de puntetes, per raons òbvies, és massa terrible, fins i tot acceptant que els pobles que vivien en aquella terra podien no ser angelicals. De petit, quan anava a missa amb els pares i/o amb els avis, em fixava molt en les lectures de textos bíblics, la part que més m'agradava de tot el cerimonial, i no puc recordar ni una sola vegada que el llibre de Josuè fos part de les lectures. Els contes d'Abraham,",
-          "contentNextPage": "Isaac, Jacob, Josep... eren més fàcils, com a font de rondalles edificants i amb conclusions positives."
+          "contentPage": "El llibre de Josuè entusiasma els moderns jueus radicals, però l'Església més aviat hi passa de puntetes, per raons òbvies, és massa terrible, fins i tot acceptant que els pobles que vivien en aquella terra podien no ser angelicals. De petit, quan anava a missa amb els pares i/o amb els avis, em fixava molt en les lectures de textos bíblics, la part que més m'agradava de tot el cerimonial, i no puc",
+          "contentNextPage": "recordar ni una sola vegada que el llibre de Josuè fos part de les lectures. Els contes d'Abraham, Isaac, Jacob, Josep... eren més fàcils, com a font de rondalles edificants i amb conclusions positives."
         }
       }
     },
@@ -323,12 +323,7 @@
       "type": "paragraph",
       "content": "La caiguda de Nínive fou, segons tots els indicis arqueològics —i també segons les fonts babilòniques— un fet colossal. El quadre romàntic de John Martin que ho il·lustra, pintat el segle XIX, no és massa exacte a l’hora de reconstruir la ciutat ni els uniformes dels soldats, però cal recordar que l’assiriologia llavors tot just era a les beceroles. Sí que sembla creïble a l'hora de retratar l'atmosfera apocalíptica que devia tenir la batalla.",
       "pdf": {
-        "page": 9,
-        "division": {
-          "alignLast": true,
-          "contentPage": "La caiguda de Nínive fou, segons tots els indicis arqueològics —i també segons les fonts",
-          "contentNextPage": "babilòniques— un fet colossal. El quadre romàntic de John Martin que ho il·lustra, pintat el segle XIX, no és massa exacte a l’hora de reconstruir la ciutat ni els uniformes dels soldats, però cal recordar que l’assiriologia llavors tot just era a les beceroles. Sí que sembla creïble a l'hora de retratar l'atmosfera apocalíptica que devia tenir la batalla."
-        }
+        "page": 10
       }
     },
     {
@@ -351,8 +346,8 @@
       "pdf": {
         "page": 10,
         "division": {
-          "contentPage": "<div style=\"display: flex; justify-content: center\"></br></br><div style=\"width: 272px\" ><em>Aquí em tens contra tu, Nínive!<br />Ho dic jo, el Senyor de l'Univers.<br />Convertiré en fum la teva gent,<br />els teus cadells cauran víctimes de l'espasa.<br />Sobre la terra, posaré fi a la teva cacera,<br />i ningú més no hi sentirà<br />les ordres dels teus enviats.</em></div></div>",
-          "contentNextPage": "<div style=\"display: flex; justify-content: center\"></br></br><div style=\"width: 272px\"><em>(...)<br/><br/>La teva ruïna no té remei, <br />la teva ferida és oberta.<br />Tots els que en sentiran parlar<br />aplaudiran el teu desastre.<br />Perquè la teva maldat<br />qui no l’ha soferta dia rere dia?</em></div></div>"
+          "contentPage": "<div style=\"display: flex; justify-content: center\"></br></br><div style=\"width: 272px\" ><em>Aquí em tens contra tu, Nínive!<br />Ho dic jo, el Senyor de l'Univers.<br />Convertiré en fum la teva gent,<br />els teus cadells cauran víctimes de l'espasa.<br />Sobre la terra, posaré fi a la teva cacera,</em></div></div>",
+          "contentNextPage": "<div style=\"display: flex; justify-content: center\"></br></br><div style=\"width: 272px\"><em>i ningú més no hi sentirà<br />les ordres dels teus enviats.<br/><br/>(...)<br/><br/>La teva ruïna no té remei, <br />la teva ferida és oberta.<br />Tots els que en sentiran parlar<br />aplaudiran el teu desastre.<br />Perquè la teva maldat<br />qui no l’ha soferta dia rere dia?</em></div></div>"
         }
       }
     },
@@ -391,8 +386,8 @@
         "page": 11,
         "division": {
           "alignLast": true,
-          "contentPage": "Una de les lliçons més grans que ens ha donat la guerra d’Ucraïna és que la vàlua real d’un exèrcit —el de Rússia, en aquest cas— no es comprova fins que s’enfronta en una guerra real amb un altre exèrcit. Un exèrcit de debò, no pas milícies com Hezbollah o Hamàs, que al capdavall són milícies amb un armament que de cap manera no es pot comparar al d’un exèrcit convencional. Quan acabo aquest article fa pocs dies del final (?) de la guerra-llampec que ha enfrontat Israel i l’Iran, guerra que se suposava que havia de ser un passeig per Israel. Ben al contrari de les expectatives, l’Iran ha resultat ser un os més dur que no es pensaven Netanyahu o Trump, un os que ha resistit els",
-          "contentNextPage": "bombardeigs i encara ha tingut prou força per atacar amb míssils el territori d’Israel, que ha tastat per primera vegada en dècades què és un bombardeig. Una miniguerra que ha engrandit als ulls de bona part del món àrab el règim dels ayatollahs —règim repugnant, d’altra banda. Per ara Israel compta amb l’ajut incondicional dels Estats Units, però, i demà...?  La lliçó essencial que els historiadors traurien del fat de les ciutats assíries és que una potència que ha establert el seu poder sobre els seus veïns basant-se en la brutalitat més extrema, que necessàriament comporta l’odi extrem dels veïns afectats, no es pot permetre el luxe de tenir èpoques de debilitat, ni de demostrar als seus veïns que no són ni de bon tros tan invencibles com la propaganda vol fer comprendre."
+          "contentPage": "Una de les lliçons més grans que ens ha donat la guerra d’Ucraïna és que la vàlua real d’un exèrcit —el de Rússia, en aquest cas— no es comprova fins que s’enfronta en una guerra real amb un altre exèrcit. Un exèrcit de debò, no pas milícies com Hezbollah o Hamàs, que al capdavall són milícies amb un armament que de cap manera no es pot comparar al d’un exèrcit convencional. Quan acabo",
+          "contentNextPage": "aquest article fa pocs dies del final (?) de la guerra-llampec que ha enfrontat Israel i l’Iran, guerra que se suposava que havia de ser un passeig per Israel. Ben al contrari de les expectatives, l’Iran ha resultat ser un os més dur que no es pensaven Netanyahu o Trump, un os que ha resistit els bombardeigs i encara ha tingut prou força per atacar amb míssils el territori d’Israel, que ha tastat per primera vegada en dècades què és un bombardeig. Una miniguerra que ha engrandit als ulls de bona part del món àrab el règim dels ayatollahs —règim repugnant, d’altra banda. Per ara Israel compta amb l’ajut incondicional dels Estats Units, però, i demà...?  La lliçó essencial que els historiadors traurien del fat de les ciutats assíries és que una potència que ha establert el seu poder sobre els seus veïns basant-se en la brutalitat més extrema, que necessàriament comporta l’odi extrem dels veïns afectats, no es pot permetre el luxe de tenir èpoques de debilitat, ni de demostrar als seus veïns que no són ni de bon tros tan invencibles com la propaganda vol fer comprendre."
         }
       }
     },

@@ -20,27 +20,30 @@ interface ArticlesPdfManual {
     const pagesMap = new Map<number, ArticleTextElement[]>()
     let maxPageNumber = 0
     // Agrupar elementos por número de página
-    article.text?.forEach((element, index) => {
+    article.text?.forEach((element) => {
       if (element.pdf && element.pdf.page) {
         const pageNumber = element.pdf.page
         let createdNextPage = false
-        
+        let stylesPdf = element.pdf.styles || element.styles
+        if (element.pdf.styles) {
+         debugger
+        }
         if (!pagesMap.has(pageNumber)) {
           pagesMap.set(pageNumber, [])
         }
         
         if (element.pdf.division) { 
-          pagesMap.get(pageNumber)!.push({ ...element, divided: true && element.pdf.division.alignLast, content: element.pdf.division.contentPage }) 
+          pagesMap.get(pageNumber)!.push({ ...element, divided: true && element.pdf.division.alignLast, content: element.pdf.division.contentPage, styles: stylesPdf }) 
           if (!createdNextPage) {
             pagesMap.set(pageNumber + 1, [])
-            pagesMap.get(pageNumber + 1)!.push({ ...element, content: element.pdf.division.contentNextPage })
+            pagesMap.get(pageNumber + 1)!.push({ ...element, content: element.pdf.division.contentNextPage, styles: stylesPdf })
             createdNextPage = true
           }
         } else if (element.pdf.type === 'qr') {
           // Create QR in https://rosskhanas.github.io/react-qr-code/
           pagesMap.get(pageNumber)!.push({ ...element, type: 'image-foot', path: element.pdf.path })
         } else {
-          pagesMap.get(pageNumber)!.push(element)
+          pagesMap.get(pageNumber)!.push({ ...element, styles: stylesPdf })
         }
         
         if (pageNumber > maxPageNumber || createdNextPage) {
@@ -298,7 +301,7 @@ const EdicioPDFPage: React.FC<{issueLocal?: Issue, articlesLocal?: Article[]}> =
 
 
         {currentIssue?.pdfManual === true ? (
-          articlesPdfManual.map((articlePdfManual, index) => {
+          articlesPdfManual.map((articlePdfManual) => {
             return (
               <PDFArticlePaginatedManual 
                 key={articlePdfManual.article.url} 

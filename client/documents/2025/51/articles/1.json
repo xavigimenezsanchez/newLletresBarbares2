@@ -114,7 +114,12 @@
       "type": "paragraph",
       "content": "A l’hora de valorar un film, una figura damnificada pels articles de la revista, i no per les crítiques sinó per omissió, és la del guionista. Se’n parla molt del guió, però no d’ell. I no és que no se’n parlés mai, tampoc, però en molts casos ni tan sols se l’esmentava. Val a dir que la publicació va aportar la defensa de l’anàlisi fílmica en profunditat, entre molts altres aspectes positius per a la dignificació de l’art cinematogràfic. N’hi va haver d’altres, però, que van tenir un resultat com a mínim discutible. Un d’ells l’esmentat a l’inici del paràgraf, d’efectes col·laterals afeblidors per a la memòria de la munió de dones que van passar l’era del cinema mut aferrades a una màquina d’escriure.",
       "pdf": {
-        "page": 3
+        "page": 3,
+        "division": {
+          "alignLast": true,
+          "contentPage": "A l’hora de valorar un film, una figura damnificada pels articles de la revista, i no per les crítiques sinó per omissió, és la del guionista. Se’n parla molt del guió, però no d’ell. I no és que no se’n parlés mai, tampoc, però en molts casos ni tan sols se l’esmentava. Val a dir que la publicació va aportar la defensa de l’anàlisi fílmica en profunditat, entre molts altres aspectes positius per a la dignificació de l’art cinematogràfic. N’hi va haver d’altres, però, que van tenir un resultat com a mínim discutible. Un d’ells l’esmentat a l’inici del paràgraf, d’efectes col·laterals afeblidors per a la memòria de la",
+          "contentNextPage": "munió de dones que van passar l’era del cinema mut aferrades a una màquina d’escriure."
+        }
     }
     },
 
@@ -137,7 +142,12 @@
       "type": "paragraph",
       "content": "La història oculta del cinema és plena de grans guionistes —avui oblidats— que reneguen de la destrossa que grans directors —recordats per molts cinèfils— van fer amb el seu guió, la seva idea primigènia, el seu estimat bebè. Aquest va ser el motiu pel qual, a partir de Preston Sturges i altres rebels, molts guionistes van fer el salt a la direcció al Hollywood dels anys quaranta. La llista és important i hi inclou noms mítics, encara amb molts fans, com John Huston, Joseph Leo Mankiewicz i, sobretot, Billy Wilder, el nombre d’entrades del qual a Google demostra que l’autor de <em>The Apartment </em>(1960)<em> </em>és el <em>Boss</em> absolut. Si demanem a molts dels fans d’aquests tres —els de pedra picada no compten— que ens facin una llista de títols anteriors al salt directiu en què el seu ídol va escriure el guió, l’aixeta de la memòria es tanca de cop. A mi mateix, preguntat a boca de canó, sense accés a la xarxa, em surt el de Billy Wilder per a <em>Ninotchka</em> (1939), dirigida per Ernst Lubitsch, i poca cosa més.",
       "pdf": {
-        "page": 4
+        "page": 4,
+        "division": {
+          "alignLast": true,
+          "contentPage": "La història oculta del cinema és plena de grans guionistes —avui oblidats— que reneguen de la destrossa que grans directors —recordats per molts cinèfils— van fer amb el seu guió, la seva idea primigènia, el seu estimat bebè. Aquest va ser el motiu pel qual, a partir de Preston Sturges i altres rebels, molts guionistes van fer el salt a la direcció al Hollywood dels anys quaranta. La llista és important i hi inclou noms mítics, encara amb molts fans, com John Huston, Joseph Leo Mankiewicz i, sobretot, Billy Wilder, el nombre d’entrades del qual a Google demostra que l’autor de <em>The Apartment </em>(1960)<em> </em>és el <em>Boss</em> absolut. Si demanem a molts dels fans d’aquests tres —els de pedra picada no compten— que ens facin una llista de títols anteriors al salt directiu en què el seu",
+          "contentNextPage": "ídol va escriure el guió, l’aixeta de la memòria es tanca de cop. A mi mateix, preguntat a boca de canó, sense accés a la xarxa, em surt el de Billy Wilder per a <em>Ninotchka</em> (1939), dirigida per Ernst Lubitsch, i poca cosa més."
+        }
       }
     },
     {
@@ -175,8 +185,8 @@
         "page": 5,
         "division": {
           "alignLast": true,
-          "contentPage": "Això va fer que els anys anteriors a la primera onada d’alliberament femení —produïda el 1920, amb l’establiment del vot femení al país i l’esclat de l’era del jazz i totes les guilladures associades— fossin els anys en què a les dones els van permetre “jugar” amb aquella nova joguina. Després de l’apoteosi de <em>Birth of a Nation </em>(1915), de David W. Griffith, que, mal que ens pesi, va representar un canvi de paradigma a tots nivells, la prosperitat generada en finir la guerra, l’augment del pressupost de les",
-          "contentNextPage": "produccions, la universalització de les estrelles americanes i l’entrada de diners a cabassos van acabar convertint aquell joc de criatures en un art que cada dia es tenia més en consideració i, per damunt de tot — siguem realistes— en un negoci milionari. I, és clar, quan entren els diners, els homes, que sempre hi van ser i mai no havien deixat de dominar les posicions importants —no ens entusiasmem gaire, tampoc—, van arrasar fins al darrer racó on es bellugava un bri d’independència. Per tant, tot va ser començar a entrar diners perquè l’espai assolit per les dones s’aprimés fins a fer-se irrespirable. Algunes d’importants van resistir, però es van tancar les portes a les noves. El gremi de les guionistes encara va regar el seu hortet fins a l’arribada del sonor. Aquest següent canvi d’esquema acabaria anihilant, definitivament, l’únic espai creatiu rere les càmeres que quedava a les dones."
+          "contentPage": "Això va fer que els anys anteriors a la primera onada d’alliberament femení —produïda el 1920, amb",
+          "contentNextPage": "l’establiment del vot femení al país i l’esclat de l’era del jazz i totes les guilladures associades— fossin els anys en què a les dones els van permetre “jugar” amb aquella nova joguina. Després de l’apoteosi de <em>Birth of a Nation </em>(1915), de David W. Griffith, que, mal que ens pesi, va representar un canvi de paradigma a tots nivells, la prosperitat generada en finir la guerra, l’augment del pressupost de les produccions, la universalització de les estrelles americanes i l’entrada de diners a cabassos van acabar convertint aquell joc de criatures en un art que cada dia es tenia més en consideració i, per damunt de tot — siguem realistes— en un negoci milionari. I, és clar, quan entren els diners, els homes, que sempre hi van ser i mai no havien deixat de dominar les posicions importants —no ens entusiasmem gaire, tampoc—, van arrasar fins al darrer racó on es bellugava un bri d’independència. Per tant, tot va ser començar a entrar diners perquè l’espai assolit per les dones s’aprimés fins a fer-se irrespirable. Algunes d’importants van resistir, però es van tancar les portes a les noves. El gremi de les guionistes encara va regar el seu hortet fins a l’arribada del sonor. Aquest següent canvi d’esquema acabaria anihilant, definitivament, l’únic espai creatiu rere les càmeres que quedava a les dones."
         }
       }
     },
@@ -195,12 +205,20 @@
         "page": 6,
         "division": {
           "alignLast": true,
-          "contentPage": "Si remarco tant el cas dels EUA és perquè, malgrat que les raons que van generar aquesta diferència tan gran en el nombre de dones en tasques rere la càmera, entre el període mut i el sonor, van ser més o menys les mateixes a tot arreu, en cap lloc com en aquell país —que va dominar la indústria d’una manera aclaparadora des de 1914— va ser tan extrema i en cap lloc es va formar un gremi tan nombrós i cohesionat. El nombre i percentatges varia per països. Així veiem que a Itàlia o a l’URSS n’hi ha més que a Dinamarca, per exemple, o fins i tot més que Alemanya, la indústria més important després de l’estatunidenca, sobretot a partir de 1920, malgrat tenir Thea von Harbou, un",
-          "contentNextPage": "dels mites més perdurables de l’era. Analitzant país per país veiem com certs trets concrets influeixen en els resultats, però la norma sol ser “a més precarietat industrial, més dones”. No es pot agafar l’anècdota pel tot, però l’exemple perfecte seria el de Haydée Tamzali, primera dona guionista del nord d’Àfrica, tractat a <a href=\"https://www.lletresbarbares.cat/articles/la_paradoxa_chikli_i_l_aventura_tunisiana_de_rex_ingram\">Lletres Bàrbares</a>, també primera guionista a seques —fins que no es demostri el contrari— d’aquella zona, pobríssima, amb una indústria del cinema a zero, i amb una de les societats del món menys proclius a deixar que les dones campin lliures."
+          "contentPage": "Si remarco tant el cas dels EUA és perquè, malgrat que les raons que van generar aquesta diferència tan gran en el nombre de dones en tasques rere la càmera, entre el període mut i el sonor, van ser més o menys les mateixes a tot arreu, en cap lloc com en aquell país —que va dominar la indústria d’una manera aclaparadora des de 1914— va ser tan extrema i en cap lloc es va formar un gremi tan",
+          "contentNextPage": "nombrós i cohesionat. El nombre i percentatges varia per països. Així veiem que a Itàlia o a l’URSS n’hi ha més que a Dinamarca, per exemple, o fins i tot més que Alemanya, la indústria més important després de l’estatunidenca, sobretot a partir de 1920, malgrat tenir Thea von Harbou, un dels mites més perdurables de l’era. Analitzant país per país veiem com certs trets concrets influeixen en els resultats, però la norma sol ser “a més precarietat industrial, més dones”. No es pot agafar l’anècdota pel tot, però l’exemple perfecte seria el de Haydée Tamzali, primera dona guionista del nord d’Àfrica, tractat a <a href=\"https://www.lletresbarbares.cat/articles/la_paradoxa_chikli_i_l_aventura_tunisiana_de_rex_ingram\">Lletres Bàrbares</a>, també primera guionista a seques —fins que no es demostri el contrari— d’aquella zona, pobríssima, amb una indústria del cinema a zero, i amb una de les societats del món menys proclius a deixar que les dones campin lliures."
         }
       }
     },
     {
+      "type": "image",
+      "name": "salesas50-06",
+      "content": "Marion Ainslee, 3a posició a la llista de <em>Silent Era</em> i una targeta de presentació on mostra algunes de les obres mestres, dirigides per Erich von Stroheim, Victor Sjöström, King Vidor, Clarence Brown, entre d’altres, de les quals va escriure el guió.",
+      "pdf": {
+        "page": 7
+      }
+    },
+   {
       "type": "paragraph",
       "content": "Com ja he dit, podríem aprofundir més en les causes específiques de cada lloc, però aquest és un tema abastament estudiat, on no descobreixo res que no hagi investigat abans gent molt més experta i dedicada a aquest tema específic. Mentre la raó principal hagi quedat clara —la pasta— no cal donar-hi més voltes.",
       "pdf": {
@@ -218,15 +236,12 @@
       "type": "paragraph",
       "content": "Alguns dels títols muts més estimats per l’afeccionat tipus —sovint els únics que ha vist— com <em>Metropolis</em>, <em>Greed </em>o <em>The Wind</em>,<em> </em>són recordats perquè els van dirigir Fritz Lang, Erich von Stroheim o Victor Sjöström, però molt pocs cinèfils sabrien dir a un micròfon traïdor —com m’han fet a mi amb el Billy Wilder predirector—  qui ha escrit els seus guions —en els tres casos esmentats, tot dones.",
       "pdf": {
-        "page": 7
-      }
-    },
-    {
-      "type": "image",
-      "name": "salesas50-06",
-      "content": "Marion Ainslee, 3a posició a la llista de <em>Silent Era</em> i una targeta de presentació on mostra algunes de les obres mestres, dirigides per Erich von Stroheim, Victor Sjöström, King Vidor, Clarence Brown, entre d’altres, de les quals va escriure el guió.",
-      "pdf": {
-        "page": 7
+        "page": 7,
+        "division": {
+          "alignLast": true,
+          "contentPage":"Alguns dels títols muts més estimats per l’afeccionat tipus —sovint els únics que ha vist— com <em>Metropolis</em>, <em>Greed </em>o <em>The Wind</em>,<em> </em>són recordats perquè els van dirigir Fritz Lang, Erich von Stroheim",
+          "contentNextPage":"o Victor Sjöström, però molt pocs cinèfils sabrien dir a un micròfon traïdor —com m’han fet a mi amb el Billy Wilder predirector—  qui ha escrit els seus guions —en els tres casos esmentats, tot dones."
+        }
       }
     },
     {
@@ -250,8 +265,8 @@
         "page": 8,
         "division": {
           "alignLast": false,
-          "contentPage": "2. <em>Metropolis</em> (1927), de Thea von Harbou.<br/>10. <em>Greed</em> (1924), de June Mathis.<br/>13. <em>The Wind</em> (1928), de Frances Marion.<br/>16. <em>Intolerance</em> (1916), d’Anita Loos.<br/>25. <em>Ben-Hur: A Tale of the Christ</em> (1925), de June Mathis.<br/>26. <em>The Thief of Bagdad</em> (1924), de Lotta Woods.<br/>27. <em>Flesh and the Devil</em> (1927), de Marian Ainslee.<br/>29. <em>Wings</em> (1927), de Hope Loring.<br/>33. <em>Way Down East </em>(1920), de Lottie Blair Parker.<br/>35. <em>Das Tagebuch einer Verlorenen</em> (1929), de Margarete Bohme.<br/>39. <em>Show People</em> (1928), d’Agnes Christine Johnston i Wanda Tushock.<br/>42. <em>Dr. Mabuse: Der Spieler</em> (1922), de Thea von Harbou.<br/>43. <em>The Four Horsemen of the Apocalypse</em> (1921), de June Mathis.<br/>44. <em>The Sheik</em> (1921), d’Edith Maude Hull.<br/>45. <em>Die Nibelungen / Siegfried und Kriemhilds Rache</em> (1924), de Thea Von Harbou.<br/>53. <em>The Lodger</em> (1926), de Marie Belloc Lowndes.<br/>58. <em>Sparrows</em> (1926), de Winifred Dunn.<br/>65. <em>My Best Girl</em> (1927), de Hope Loring i Kathleen Norris.<br/>69. <em>The Son of the Sheik</em> (1926), de Frances Marion.<br/>70. <em>7th Heaven</em> (1927), de Katherine Hilliker.<br/>71. <em>It</em> (1927), d’Elinor Glyn.",
-          "contentNextPage": "72. <em>The Lost World</em> (1925), de Marion Fairfax.<br/>75. <em>Queen Kelly </em>(1928), de Laura Hope Crews i Marian Ainslee.<br/>82. <em>Der müde Tod</em> (1921), de Thea von Harbou.<br/>84. <em>Sadie Thompson</em> (1928), de Gloria Swanson.<br/>85. <em>Tess of the Storm Country</em> (1922), de Gracie Miller White.<br/>87. <em>Dr. Jekyll and Mr. Hyde</em> (1920), de Clara Beranger.<br/>91. <em>The Cheat</em> (1915), de Jeanie MacPherson.<br/>96. <em>The King of Kings</em> (1927), de Jeannie MacPherson.<br/>99. <em>Stella Maris</em> (1918), de Frances Marion.<br/>101. <em>Male and Female</em> (1919), de Jeannie MacPherson.<br/>105. <em>Spione</em> (1928), de Thea von Harbou.<br/>115. <em>Blood and Sand</em> (1922), de June Mathis.<br/>119. <em>The Ten Commandments</em> (1923), de Jeannie MacPherson.<br/>120. <em>A Woman of Affairs</em> (1928), de Bess Meredyth.<br/>124. <em>The Scarlet Letter</em> (1926), de Frances Marion.<br/>128. <em>Our Dancing Daughters</em> (1928), de Marian Ainslee i Josephine Lovett.<br/>137. <em>True Heart Susie</em> (1919), de Marian Fremont.<br/>154. <em>Don Juan</em> (1926), de Maude Fulton i Bess Meredith.<br/>155. <em>Our Daily Bread</em> (o <em>City Girl</em>) (1929), de Marion Orth.<br/>160. <em>Jujiro </em>(1928), d’Akiko Chihaya.<br/>164. <em>Daddy-Long-Legs</em> (1919), d’Agnes Christine Johnston.<br/>171. <em>Die Abenteuer des Prinzen Achmed</em> (1926), de Lotte Reiniger.<br/>176. <em>Rebecca of Sunnybrook Farm</em> (1917), de Frances Marion.<br/>186. <em>Lady Windermere’s Fan</em> (1925), de Maude Fulton.<br/>187. <em>The Whispering Chorus</em> (1918), de Jeannie MacPherson.<br/>193. <em>La Bohème</em> (1926), de Ruth Cummings.<br/>199. <em>Laugh, Clown, Laugh</em> (1928), d’Elizabeth Meehan."
+          "contentPage": "2. <em>Metropolis</em> (1927), de Thea von Harbou.<br/>10. <em>Greed</em> (1924), de June Mathis.<br/>13. <em>The Wind</em> (1928), de Frances Marion.<br/>16. <em>Intolerance</em> (1916), d’Anita Loos.<br/>25. <em>Ben-Hur: A Tale of the Christ</em> (1925), de June Mathis.<br/>26. <em>The Thief of Bagdad</em> (1924), de Lotta Woods.<br/>27. <em>Flesh and the Devil</em> (1927), de Marian Ainslee.<br/>29. <em>Wings</em> (1927), de Hope Loring.<br/>33. <em>Way Down East </em>(1920), de Lottie Blair Parker.<br/>35. <em>Das Tagebuch einer Verlorenen</em> (1929), de Margarete Bohme.<br/>39. <em>Show People</em> (1928), d’Agnes Christine Johnston i Wanda Tushock.<br/>42. <em>Dr. Mabuse: Der Spieler</em> (1922), de Thea von Harbou.<br/>43. <em>The Four Horsemen of the Apocalypse</em> (1921), de June Mathis.<br/>44. <em>The Sheik</em> (1921), d’Edith Maude Hull.<br/>45. <em>Die Nibelungen / Siegfried und Kriemhilds Rache</em> (1924), de Thea Von Harbou.<br/>53. <em>The Lodger</em> (1926), de Marie Belloc Lowndes.<br/>58. <em>Sparrows</em> (1926), de Winifred Dunn.<br/>65. <em>My Best Girl</em> (1927), de Hope Loring i Kathleen Norris.",
+          "contentNextPage": "69. <em>The Son of the Sheik</em> (1926), de Frances Marion.<br/>70. <em>7th Heaven</em> (1927), de Katherine Hilliker.<br/>71. <em>It</em> (1927), d’Elinor Glyn.<br/>72. <em>The Lost World</em> (1925), de Marion Fairfax.<br/>75. <em>Queen Kelly </em>(1928), de Laura Hope Crews i Marian Ainslee.<br/>82. <em>Der müde Tod</em> (1921), de Thea von Harbou.<br/>84. <em>Sadie Thompson</em> (1928), de Gloria Swanson.<br/>85. <em>Tess of the Storm Country</em> (1922), de Gracie Miller White.<br/>87. <em>Dr. Jekyll and Mr. Hyde</em> (1920), de Clara Beranger.<br/>91. <em>The Cheat</em> (1915), de Jeanie MacPherson.<br/>96. <em>The King of Kings</em> (1927), de Jeannie MacPherson.<br/>99. <em>Stella Maris</em> (1918), de Frances Marion.<br/>101. <em>Male and Female</em> (1919), de Jeannie MacPherson.<br/>105. <em>Spione</em> (1928), de Thea von Harbou.<br/>115. <em>Blood and Sand</em> (1922), de June Mathis.<br/>119. <em>The Ten Commandments</em> (1923), de Jeannie MacPherson.<br/>120. <em>A Woman of Affairs</em> (1928), de Bess Meredyth.<br/>124. <em>The Scarlet Letter</em> (1926), de Frances Marion.<br/>128. <em>Our Dancing Daughters</em> (1928), de Marian Ainslee i Josephine Lovett.<br/>137. <em>True Heart Susie</em> (1919), de Marian Fremont.<br/>154. <em>Don Juan</em> (1926), de Maude Fulton i Bess Meredith.<br/>155. <em>Our Daily Bread</em> (o <em>City Girl</em>) (1929), de Marion Orth.<br/>160. <em>Jujiro </em>(1928), d’Akiko Chihaya.<br/>164. <em>Daddy-Long-Legs</em> (1919), d’Agnes Christine Johnston.<br/>171. <em>Die Abenteuer des Prinzen Achmed</em> (1926), de Lotte Reiniger.<br/>176. <em>Rebecca of Sunnybrook Farm</em> (1917), de Frances Marion.<br/>186. <em>Lady Windermere’s Fan</em> (1925), de Maude Fulton.<br/>187. <em>The Whispering Chorus</em> (1918), de Jeannie MacPherson.<br/>193. <em>La Bohème</em> (1926), de Ruth Cummings.<br/>199. <em>Laugh, Clown, Laugh</em> (1928), d’Elizabeth Meehan."
         }
       }
     },

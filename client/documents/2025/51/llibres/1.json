@@ -45,8 +45,8 @@
         "page": 1,
         "division": {
           "alignLast": true,
-          "contentPage": "L’obra parteix d’una crítica sòlida a la visió simplista de l’estat espanyol com a estat nació homogeni, una idea que ha estat tradicionalment acceptada i que ha servit sovint per a justificar lectures",
-          "contentNextPage": "historicistes i ètniques tancades. González Ferrín reinterpreta aquesta noció des d’una perspectiva inspirada en la concepció de nació-cultura desenvolupada per Menéndez Pelayo. Segons aquesta visió, l’estat espanyol no és només una frontera política o jurídica, sinó un territori construït a partir de textos, continuïtats culturals i interaccions diverses. Així, proposa que la història espanyola, i especialment la seva fase medieval, ha de ser entesa com un procés viu i dinàmic, on models diversos d’identitat i maneres de viure conviuen i s’intercanvien de manera constant."
+          "contentPage": "L’obra parteix d’una crítica sòlida a la visió simplista de l’estat espanyol com a estat nació homogeni, una idea que ha estat tradicionalment acceptada i que ha servit sovint per a justificar lectures historicistes i ètniques tancades. González Ferrín reinterpreta aquesta noció des d’una perspectiva inspirada en la concepció de nació-cultura desenvolupada per Menéndez Pelayo. Segons aquesta visió, l’estat espanyol no és només una frontera política o jurídica, sinó un territori construït a partir de textos, continuïtats culturals i interaccions diverses. Així, proposa que la història espanyola, i",
+          "contentNextPage": "especialment la seva fase medieval, ha de ser entesa com un procés viu i dinàmic, on models diversos d’identitat i maneres de viure conviuen i s’intercanvien de manera constant."
         }
       }
     },
@@ -68,12 +68,7 @@
       "type": "paragraph",
       "content": "Dins d’aquest marc ampli, l’autor destaca la importància del període àrab no només com un episodi cronològic passatger, sinó com una etapa fonamental que va contribuir decisivament a modelar la cultura i la identitat europees. D’aquesta manera, posa un accent especial en la llengua àrab com a llengua culta, vehicle principal d’una cultura de coneixement, saviesa i diàleg. Aquest llegat àrab va tenir una gran influència en el desenvolupament del Renaixement europeu i, per tant, de la Il·lustració. Les figures d’Averrois (Ibn Rushd) i Abentofail (Ibn Tufayl) són presentades no només com a personatges històrics remarcables, sinó com a elements imprescindibles per comprendre l’essència mateixa de la cultura occidental. La seva filosofia i pensament van introduir línies intel·lectuals que han influït profundament en la tradició filosòfica i científica europea.",
       "pdf": {
-        "page": 2,
-        "division": {
-          "alignLast": true,
-          "contentPage": "Dins d’aquest marc ampli, l’autor destaca la importància del període àrab no només com un episodi cronològic passatger, sinó com una etapa fonamental que va contribuir decisivament a modelar la cultura i la identitat europees. D’aquesta manera, posa un accent especial en la llengua àrab com a llengua culta, vehicle principal d’una cultura de coneixement, saviesa i diàleg. Aquest llegat àrab va tenir una gran influència en el desenvolupament del Renaixement europeu i, per tant, de la Il·lustració. Les figures d’Averrois (Ibn Rushd) i Abentofail (Ibn Tufayl) són presentades no només",
-          "contentNextPage": "com a personatges històrics remarcables, sinó com a elements imprescindibles per comprendre l’essència mateixa de la cultura occidental. La seva filosofia i pensament van introduir línies intel·lectuals que han influït profundament en la tradició filosòfica i científica europea."
-        }
+        "page": 2
       }
     },
     {
@@ -111,8 +106,8 @@
         "page": 3,
         "division": {
           "alignLast": true,
-          "contentPage": "En definitiva, <em>Cuando fuimos árabes</em> és una lectura imprescindible per a qualsevol persona",
-          "contentNextPage": "interessada en la història de la península Ibèrica, la història medieval, les relacions interculturals i la rica herència del món àrab en la formació de la cultura occidental. González Ferrín no només presenta arguments historiogràfics sòlids i ben documentats, sinó que també proposa una nova mirada que pot ajudar a construir una societat més oberta, plural i dialogant. Aquesta obra, amb el seu estil rigorós, però també accessible, esdevé un referent per repensar el passat i, en conseqüència, el present i futur d’un estat espanyol que no acaba d’assumir la seva diversitat com a font de riquesa i força."
+          "contentPage": "En definitiva, <em>Cuando fuimos árabes</em> és una lectura imprescindible per a qualsevol persona interessada en la història de la península Ibèrica, la història medieval, les relacions interculturals i la rica herència del món àrab en la formació de la cultura occidental. González Ferrín no només presenta arguments historiogràfics sòlids i ben documentats, sinó que també proposa una nova",
+          "contentNextPage": "mirada que pot ajudar a construir una societat més oberta, plural i dialogant. Aquesta obra, amb el seu estil rigorós, però també accessible, esdevé un referent per repensar el passat i, en conseqüència, el present i futur d’un estat espanyol que no acaba d’assumir la seva diversitat com a font de riquesa i força."
         }
       }
     }
