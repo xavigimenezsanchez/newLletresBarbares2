@@ -1,0 +1,172 @@
+{
+  "_id": {
+    "$oid": "68cec717a6b5c7290c68a8fb"
+  },
+  "issue": 2025,
+  "data": "27/09/2025",
+  "imageCard": "andreu51-01",
+  "title": "La veritat manipulada del nostre temps",
+  "url": "la_veritat_manipulada_del_nostre_temps",
+  "section": "articles",
+  "author": "Andreu Pérez-Mingorance",
+  "summary": "",
+  "publicationDate": {
+    "$date": "2025-09-27T22:00:00.000Z"
+  },
+  "isPublished": true,
+  "tags": [],
+  "readTime": 5,
+  "year": 2025,
+  "issueNumber": 51,
+  "authors": [
+    "Andreu Pérez-Mingorance"
+  ],
+  "text": [
+    {
+      "type": "image",
+      "name": "andreu51-01",
+      "content": "L’Esfinx de Naxos, majestuosa guardiana dels misteris antics, ofrena dels habitants de Naxos al Temple d’Apol·lo de Delfos. Amb el seu enigma perpetu, reptava l’ànima dels viatgers, desafiant-los a desxifrar la veritat amagada. Museu Arqueològic de Delfos (Αρχαιολογικό Μουσείο Δελφών), Grècia.",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "En un temps en què la paraula es torna líquida, fugissera i oberta a cent interpretacions, hi ha un perill constant, la veritat que creiem íntima i la veritat pública es fan distants, alienes com estrelles insondables. Aquesta separació alimenta un joc de miralls deformants on el reflex d’allò que som ja no s’assembla a cap realitat palpable sinó a una suma de desitjos, pors i falsedats hiperbòliques. És en aquest laberint on la mentida es disfressa de gest noble i on l’home i la dona, atrapats per la seva pròpia grandesa i misèria, han decidit construir una veritat tan flexible que ja no serveix ni a l’ètica ni a la raó.",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Aquest article vol ser un crit i un somriure, un imant per a la lucidesa i l’irònic pensament, perquè solament des de la consciència del joc de les aparences pot sorgir el desig sincer de recórrer el camí tortuós de la veritat compartida. I què és la veritat sinó aquesta difícil conquesta humana que cal preservar, no com un trofeu rebutjat, sinó com una gènesi constant que no admet la rigidesa de dogmes ni el vel de la teatralitat?",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "El primer que traïm tots és la veritat. La veritat unipersonal esdevé la més gran de les mentides. La veritat col·lectiva es metamorfosa, inexorablement, en una mentida política. I la mentida argumentada? Aquesta fusió de ficció i raó que no sols enganya sinó que captiva, subjuga i fins i tot sacrifica la mateixa realitat en benefici del relat que reconstrueix la veritat a la seva mesura. L’àmbit familiar és l’expressió més crua d’aquesta realitat, sang i llàgrimes amagades sota el vel de l’afecte, pactes de silenci i petits enganys còmplices. I la veritat argumental? Res més que un teatre perpetu on l’engany s’exhibeix sense xarxa, amb un toc tragicòmic que enlluerna i encega el públic present.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Aquesta és la fotografia sociocultural del nostre temps, una veritat tan feble que es doblega sota el pes dels interessos i la manipulació. Els discursos identitaris oscil·len entre la defensa ferotge d’una suposada “puresa” i una realitat innegable que els desmenteix irrecusablement. Félix de Azúa, el deu-pensador inflamat i contradicció viva del panorama cultural dels últims anys, encarna aquest embolic ideològic i discursiu. En col·laborar amb projectes com Ciutadans o el polèmic Fòrum Babel, Azúa ha jugat magistralment a confondre la línia entre cultura i política, entre autonomia nacional i integrisme estatal, tot justificat pel “perill” d’un procés independentista que el convidava a esgrimir la unitat política a costa de tergiversar la cultura catalana.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Les identitats, siguin espanyoles, catalanes o europees, són en realitat un recinte ple de reflexos i capes d’herències múltiples, llengües sobreposades i membranes culturals permeables i contradictòries. Contràriament al que proclamen molts, la puresa de la identitat està tan lluny de la realitat com la foscor d’una caverna antiga ho està del sol radiant. Maria-Mercè Marçal denunciava aquesta construcció de murs invisibles, edificats amb l’exclusió selectiva i la memòria esmolada, amb l’únic objectiu de dividir i absoldre’s.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Amb aquesta mirada, no estranya que figures com Sílvia Orriols proclamin la família tradicional des de llocs privilegiats, mentre la seva vida és un exponent claríssim de la descoordinació total entre el discurs oficial i la realitat. La trajectòria vital d’Orriols, divorciada i amb fills fora del matrimoni, és un detall irònic impossible de passar per alt quan es parla de “valors” conservadors. Al mateix nivell de dissonància es troba la italiana Giorgia Meloni, que ha fet bandera de la família nuclear mentre prové d’una infància marcada per fugides i absències paternes. I dins de la nostra immediatesa, Ignacio Garriga exhibeix en discursos identitaris una Catalunya que ignora el seu multicolor empenyorament personal, fruit d’un matrimoni mixt català-guineà que desafia la seva pròpia retòrica exclusivista. L’exemple d’Anthony Sánchez, militant proindependència amb arrels africanes i discursos gairebé xenòfobs contra la immigració d’origen africà com ell, és un reflex irònicament viu de la impossibilitat de reduir l’experiència social a un cànon monolític.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Els conflictes amb la llengua oficial, donada per “estatal”, han generat un altre escenari tragicòmic de múltiples capes. El català, el basc, el gallec, l’occità, entre d’altres, són acusats per conspiranoics mediàtics i polítics com la “gran amenaça” contra el domini cultural castellà o francès. No cal ser sociolingüista per saber que aquestes llengües són una manifestació viva i resistent, i que l’ús social de tota llengua va més enllà del que qualsevol fal·làcia mediàtica podria pintar. L’exemple paradigmàtic és Víctor Amela, que fa servir el català quan li convé, però el denuncia com una tirania, exemplificant la hipocresia descarada que fa de la llengua, tot alhora, trampolí i escut. Mendoza, premiat per la cultura catalana, no s’està d’assenyalar la “dictadura” lingüística en nom d’una llibertat selectiva, mentre retreu als que defensen el català la manca de pluralitat cultural en altres àmbits. I Pérez-Reverte, el “visionari” de l’espanyol universal, esdevé un mite irritat que dedica hores a desprestigiar amb ironia amarga el català, tot condemnant la seva pròpia obra per la pèrdua de qualitat.",
+      "pdf": {
+        "page": 3
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Cap d’aquests discursos seria complet sense la presència dels nous creients de la “lingüística universal”, influenciadors i artistes que renuncien a la llengua pròpia per abraçar l’anglès com a passaport global —amb accents insegurs, gramàtica improvisada i una dosi generosa d’autenticitat falsa— mentre desdenyen el català, el basc o el gallec, llengües que són la carn viva de la seva cultura i la base natural del seu art.",
+      "pdf": {
+        "page": 3
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Arribem així a la zona més feble i sarcàstica del nostre gir discursiu. El fet terrible i, ja podem dir, curiós, com a Gaza, sembla que la realitat no té prou lluentor i cal reescriure-la amb filtres, portades i titulars que decideixin què és visible i què no, allà on hi ha fam, se’ns diu que hi ha “gestos humanitaris”; on hi ha destrucció, ens parlen d'“operacions precises”; i quan la gent mor sota runes, la història oficial es permet batejar-ho com a “col·lateral”. Tot un art, aquest de la manipulació, convertir el crit en murmuri, la sang en estadística i la desesperació en un simple peu de pàgina que quasi ningú no llegeix. I, tanmateix, no podia faltar la veu insistent de Pilar Rahola, satèl·lit ideològic de la constel·lació sionista, que, revestida d’un saber i una intel·ligència tant superiors com absurdes, no deixa de carregar la culpa de tots els mals del “terrorisme islàmic” sobre qui gosa defensar la vida del poble de Gaza, consumint així amb encomiable zel la víctima i la raó al mateix foc retòric.",
+      "pdf": {
+        "page": 3
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "O com els sectors ultraconservadors i d’ultradreta, especialment les figures femenines que han emergit com a defensors acèrrims de la família “tradicional”, despleguen un discurs paleolític de rebuig als drets feministes i LGTBI+, tot ignorant o parlant en contra del fet tangible —i sovint ocult— que moltes d’aquestes dones són, o han estat, mirades pel seu entorn com a dones que no tindrien lloc fora de la família tradicional, si no fos per la clara defensa de les llibertats femenines feta per l’estat de dret; lesbianes, bisexuals, trans… pateixen conflictes de gènere no reconeguts per aquestes dones que juguen, en definitiva, amb la seva condició de classe privilegiada. Aquesta hipocresia cava un forat profund en la credibilitat del discurs que pretenen imposar, ja que trepitjar els drets dels altres és l’admissió implícita que la pròpia identitat és d’una feblesa patètica que necessita la coartada del “perill” per sobreviure.",
+      "pdf": {
+        "page": 3,
+        "division": {
+          "alignLast": true,
+          "contentPage": "O com els sectors ultraconservadors i d’ultradreta, especialment les figures femenines que han emergit com a defensors acèrrims de la família “tradicional”, despleguen un discurs paleolític de rebuig als drets feministes i LGTBI+, tot ignorant o parlant en contra del fet tangible —i sovint ocult— que moltes d’aquestes dones són, o han estat, mirades pel seu entorn com a dones que no",
+          "contentNextPage": "tindrien lloc fora de la família tradicional, si no fos per la clara defensa de les llibertats femenines feta per l’estat de dret; lesbianes, bisexuals, trans… pateixen conflictes de gènere no reconeguts per aquestes dones que juguen, en definitiva, amb la seva condició de classe privilegiada. Aquesta hipocresia cava un forat profund en la credibilitat del discurs que pretenen imposar, ja que trepitjar els drets dels altres és l’admissió implícita que la pròpia identitat és d’una feblesa patètica que necessita la coartada del “perill” per sobreviure."
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Aquest discurs d’exclusió i temor no només és perillós sinó profundament reaccionari. El model social del passat —el dels homes que manaven, les dones que callaven i la diversitat que s’amagava sota el llit— és un model que no només cal negar sinó combatre, perquè les seves seqüeles encara ens travessen, discriminació institucional, violència sistemàtica, exclusions reiterades. Si no fos així, encara viuríem en coves, coberts de polls i supersticions, en una “comoditat” d’ignorància i repressió que molts ara defensen a través d’una mitologia barata i amenaçadora.",
+      "pdf": {
+        "page": 4
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "El futur significa acceptar que el progrés només és possible a través de la igualtat seriosa, el respecte a la diversitat i la construcció d’una societat on la diferència no sigui motiu d’odi sinó de riquesa cultural i humana. El retrocés en els drets dels col·lectius més vulnerables no només és un atac als individus sinó un fracàs col·lectiu que ens condemna a dècades de foscor política, social i cultural.",
+      "pdf": {
+        "page": 4
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "De fet, Joan Fuster, mestre de la crítica i de la ironia social com pocs, que, malgrat que se n’hagi parlat poc —donada la repressió del seu temps que no li va permetre viure-ho públicament—, era gai, advertia que la mentida és, sovint, part del nostre ésser, però que només amb valentia intel·lectual podem superar la foscor de la ignorància i la por per enfocar la veritat amb una mirada crítica. Aquest és l’impuls que necessitem avui com a societat per escapar de la postveritat i reinstaurar una veritat plural i oberta.",
+      "pdf": {
+        "page": 4
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "És aquí on la ironia aguda de Maria-Mercè Marçal i la finíssima sàtira de Pere Calders i Víctor Català ens mostren la via, observar la mentida amb humor, desmuntar-la amb alegria i no resignar-se mai a la trivialització. Aquest somriure, que reconeix la tragèdia i la comèdia, dota la crítica de frescor i de força per continuar treballant per una societat millor.",
+      "pdf": {
+        "page": 4
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Amb aquesta actitud, que no renuncia a la profunditat, la cultura, el coneixement i la vida literària, podrem trencar les cadenes dels discursos buits i bastir ponts sòlids cap a una convivència veritablement humana. No hi ha altra manera d’acabar amb el vodevil col·lectiu de la mentida que aturar-nos a pensar, a debatre i a créixer col·lectivament.",
+      "pdf": {
+        "page": 4
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "I, sobretot, amb aquesta ironia intel·ligent i implacable que treu a la superfície la gran tragicomèdia que vivim i que, si no la sabem manejar, ens pot engolir. Perquè només així ens alliberarem dels bojos, dels manipuladors i dels que han fet de la mentida i de la divisió el seu únic capital social.",
+      "pdf": {
+        "page": 5
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Quan la foscor envolta la paraula i la promesa, quan l’espectacle del poder s’apodera de la veritat i l’aixafa com un coixí vell i roí, només ens queda una arma sense puntes ni espases, l’humor i la ironia. Aquesta ironia que ens ensenya a no prendre’ns massa seriosament els fantasmes que inventem, però que ens convida a percebre amb una claredat punyent les ombres i reflexos que d’amagat es confabulen contra la vida compartida.",
+      "pdf": {
+        "page": 5
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Recordem que la veritat no és una possessió, ni una arma, és una llavor, una llavor que creix només quan la terra és rica d’imaginació i diàleg, quan el respecte travessa barreres i quan ens atrevim a veure en el diferent no un enemic, sinó la inesperada mà amiga.",
+      "pdf": {
+        "page": 5
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Amb aquest compromís i aquest amor a la complexitat deixem aquesta reflexió, esperant que qui la llegeixi no s’aturi al soroll, sinó que se submergeixi en el silenci viu que la veritat acostuma a tenir quan no és manipulada. Que trobi en aquesta ironia afilada la força per continuar caminant, no només cap a un món més just, sinó cap a una humanitat que aprengui a estimar, encara, la veritat.",
+      "pdf": {
+        "page": 5
+      }
+    }
+  ]
+}

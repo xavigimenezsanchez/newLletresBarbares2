@@ -1,0 +1,87 @@
+{
+  "_id": {
+    "$oid": "68cedf60a6b5c7290c68a906"
+  },
+  "issue": 2025,
+  "data": "27/09/2025",
+  "imageCard": "carbonell51-02-01",
+  "title": "Paraula, llum, resistència",
+  "url": "paraula_llum_resistencia",
+  "section": "llibres",
+  "author": "Àngel Carbonell",
+  "summary": "",
+  "publicationDate": {
+    "$date": "2025-09-27T22:00:00.000Z"
+  },
+  "isPublished": true,
+  "tags": [],
+  "readTime": 5,
+  "year": 2025,
+  "issueNumber": 51,
+  "authors": [
+    "Àngel Carbonell"
+  ],
+  "text": [
+    {
+      "type": "image",
+      "name": "carbonell51-02-01",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "El conjunt de la poesia d’Odysseas Elytis representa una de les aventures més singulars de la modernitat grega i mediterrània. El seu nom, estretament associat a la llum, l’aigua, la sensualitat i un sentit de la llibertat que només pot concebre qui habita una illa, s’ha anat obrint pas en la consciència europea molt lentament, gairebé a contracor de la massificació editorial. Amb la traducció de <em>Sol primer</em> al català, gràcies a la feina acurada de Pau Sabaté i a l’aposta de Godall Edicions, s’afegeix una pedra més —potser fonamental— a la construcció d’un pont poètic entre dues vores antigues i, alhora, dolorosament contemporànies del mar comú.",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "La paraula d’Elytis s’ha d’entendre com feien alguns antics amb la veu dels poetes: és música abans que missatge; ecos abans que estructura. La paraula del grec modern busca una llum refractada, un relleu de sorra i sal, que aquí arriba —gràcies a l’esforç del traductor— a través del vel fi de la llengua catalana. Hi ha un misteri persistent a <em>Sol primer,</em> que no dona respostes sinó la necessitat de formular-ne de noves. El poeta, sota l’ocupació alemanya, envoltat d’una realitat tràgica, no opta per la fugida nostàlgica ni per l’exaltació èpica. Al contrari, troba en la matèria quotidiana (el pa, la mar, els arbres, fins i tot els colors) la presència latent d’un sentit possible, una esperança sense predicats.",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Seria un error llegir <em>Sol primer</em> exclusivament com a testimoni d’una situació històrica. El llibre està impregnat de temps, però el transcendeix. L’escriptura d’Elytis fa que cada mot sembli una sola pedra d’un temple enfonsat, grava un batec profund, però, alhora, deixa penetrar l’aire, la pols ingràvida; cada poema és un espai habitable de l’ànima, on la pèrdua i la consolació es donen la mà com aigua i sol. Aquesta consciència de la ruïna, però també de la llavor que tot naufragi pot deixar enrere, alimenta una tensió lírica que traspua innocència i saviesa a parts iguals.",
+      "pdf": {
+        "page": 1,
+        "division": {
+          "alignLast": true,
+          "contentPage": "Seria un error llegir <em>Sol primer</em> exclusivament com a testimoni d’una situació històrica. El llibre està",
+          "contentNextPage": "impregnat de temps, però el transcendeix. L’escriptura d’Elytis fa que cada mot sembli una sola pedra d’un temple enfonsat, grava un batec profund, però, alhora, deixa penetrar l’aire, la pols ingràvida; cada poema és un espai habitable de l’ànima, on la pèrdua i la consolació es donen la mà com aigua i sol. Aquesta consciència de la ruïna, però també de la llavor que tot naufragi pot deixar enrere, alimenta una tensió lírica que traspua innocència i saviesa a parts iguals."
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "La llum no és només tema, sinó mètode i obsessió compositiva. La llum als versos d’Elytis no és mai intranscendent, apareix per enlluernar o per subtilitzar els contorns del món, per perfilar una geografia interior que només pot descriure’s des de l’assossec melancòlic. Aquí és on la traducció juga un paper decisiu: captar, traslladar i fer perceptible aquesta llum sense perdre matisos. Pau Sabaté torna a demostrar que és un intèrpret dotat d’una oïda extraordinària per la música verbal. Hi ha un respecte per la prosòdia i una fidelitat als girs i als matisos, que fan que el lector català pugui sentir l’eco indesxifrable d’una remor fònica remota.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Llegir Elytis ara, quan la poesia sembla retrocedir davant la dictadura del literalisme i l’anècdota, té un punt de resistència. La lírica d’Elytis, rebutjant el proselitisme, insinua una ètica i una manera d’estar al món; afirma la dignitat del murmuri, la solemnitat de la dificultat, la necessitat de guardar viva la pregunta. En aquest sentit, <em>Sol primer</em> és més que un homenatge a la cultura mediterrània, és una invitació a habitar l’espai diminut de la paraula, a assumir la precarietat del sentit.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "La recepció a la nostra llengua d’aquesta poesia hauria de ser, doncs, celebrada com una ampliació del patrimoni poètic, però també com una assumpció d’una exigència, estar a l’altura de la llum. Oferir Elytis en català, fer-lo llegible, vol dir —i aquest volum n’és una mostra palpable— que la llengua catalana també es vol reconèixer en la seva capacitat de dir l’indicible, d’emmirallar-se en una altra veu per confirmar la pròpia. Godall Edicions ho entén, i caldria que la comunitat lectora i crítica ho corroborés, sostenint la voluntat de donar noves oportunitats de diàleg entre llengües i tradicions.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Resultaria temptador cloure aquí, postulant <em>Sol primer </em>com una fita, un destí, seria més just, però, encarar-lo com una etapa, com una pàgina d’un llibre mai tancat. Si hi ha una esperança, és la de veure acomplerts més lliuraments d’aquesta obra vital, de descobrir un dia la constel·lació sencera dels poemes d’Elytis en català. Mentrestant, el goig, el privilegi i el deure de llegir, tornar a llegir i aprendre a escoltar allò que la poesia no diu i ningú no podrà dir més que amb la seva ombra, la seva llum, la seva remor.",
+      "pdf": {
+        "page": 2
+      }
+    }
+  ]
+}

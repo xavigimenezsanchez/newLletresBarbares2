@@ -1,0 +1,73 @@
+{
+  "_id": {
+    "$oid": "68cec31aa6b5c7290c68a8f9"
+  },
+  "issue": 2025,
+  "data": "27/09/2025",
+  "imageCard": "freijomil51-01",
+  "title": "Romeria o el joc de la memòria",
+  "url": "romeria_o_el_joc_de_la_memoria",
+  "section": "articles",
+  "author": "Sandra Freijomil",
+  "summary": "",
+  "publicationDate": {
+    "$date": "2025-09-27T22:00:00.000Z"
+  },
+  "isPublished": true,
+  "tags": [],
+  "readTime": 5,
+  "year": 2025,
+  "issueNumber": 51,
+  "authors": [
+    "Sandra Freijomil"
+  ],
+  "text": [
+    {
+      "type": "image",
+      "name": "freijomil51-01",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Romeria vol dir peregrinació, especialment la que es fa per devoció a un santuari. I peregrinar és el que fa la Marina, l’alter ego de la cineasta Carla Simón, a la pel·lícula que duu aquest títol. La protagonista inicia aquesta peregrinació a la recerca d’uns orígens confusos que la memòria fragmentada dels que van viure en aquell Vigo dels anys vuitanta intentaran reconstruir.",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "<em>Romería</em> és per a mi sense dubte la millor pel·lícula de la trilogia de Simón; trilogia que parla dels seus orígens familiars. La primera d’elles, <em>Estiu de 1993,</em> narrava des del silenci i amb les emocions contingudes, la vivència d’una nena (alter ego de la directora) que ha d’anar a viure amb els tiets després de la mort dels pares. Si en aquesta pel·lícula fundacional Simón ens mostrava la fractura interna que es produeix en una criatura de set anys a qui la vida se li ha capgirat de manera dràstica, a <em>Alcarràs</em>, la segona de la trilogia, ens posava davant la vida al camp de Lleida, com un homenatge a aquella família de la mare adoptiva que la Carla nena acaba fent seva. Finalment, <em>Romería</em> explora l’aproximació a la família paterna, a qui la nena no va conèixer i als quals l’adulta acabada d’estrenar busca comprendre alhora que omplir els buits del relat que arrossega des de petita.",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "<em>Romería</em> és, d’una banda, una lluita contra l’oblit per fer encaixar les peces del trencaclosques de la memòria que mai no acaben d’encaixar perquè la memòria és fragmentada, traïdora i subjectiva. I així, la jove Marina descobreix que els records de cadascun dels germans, pares i nebots d’aquell pare a qui ella no va arribar a conèixer mai difereixen els uns dels altres en una amalgama que no encaixa, sinó que es balanceja entre les mitges veritats del que cadascun d’ells va viure i va voler veure. Per això, la jove Marina només podrà acabar construint la seva pròpia seqüència de fets, prou versemblant i coherent, des de totes aquestes mitges veritats i fins a arribar a bastir un collage que se sostingui i que li permeti continuar endavant.",
+      "pdf": {
+        "page": 1,
+        "division": {
+          "alignLast": true,
+          "contentPage": "<em>Romería</em> és, d’una banda, una lluita contra l’oblit per fer encaixar les peces del trencaclosques de la memòria que mai no acaben d’encaixar perquè la memòria és fragmentada, traïdora i subjectiva. I",
+          "contentNextPage": "així, la jove Marina descobreix que els records de cadascun dels germans, pares i nebots d’aquell pare a qui ella no va arribar a conèixer mai difereixen els uns dels altres en una amalgama que no encaixa, sinó que es balanceja entre les mitges veritats del que cadascun d’ells va viure i va voler veure. Per això, la jove Marina només podrà acabar construint la seva pròpia seqüència de fets, prou versemblant i coherent, des de totes aquestes mitges veritats i fins a arribar a bastir un collage que se sostingui i que li permeti continuar endavant."
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "D’altra banda, aquesta romeria de la Marina esdevé una recerca de la pròpia entitat per entendre d’on ve, qui és i poder aleshores decidir qui vol ser a partir d’ara. És des d’aquest encaix rebregat de la memòria fragmentada de la família que ella es construirà com a adulta independent. Diu Carla Simón en una entrevista a El Periódico arran de la promoció de la pel·lícula: “Que <em>Romería</em> coincideixi amb el part de la meva filla ha estat màgic; deixo el passat de la meva família perquè he creat la meva pròpia”. L’adulta s’ha emancipat d’aquest passat per construir el seu present.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Finalment, cal destacar la clara i evident voluntat política de l’obra de Carla Simón en mostrar situacions incòmodes que durant generacions han estat silenciades o amagades. Quan la Marina, davant els avis i els tiets que es mouen maldestres en aquest terreny enfangat que és la mort del fill-germà addicte a l’heroïna, expressa amb claredat i fermesa el que cap d’ells va ser capaç de verbalitzar aleshores: el meu pare va morir de sida, l’aposta és clara. Sense judicis, sense culpes, redimeix així aquella generació de joves sortits de la dictadura que van caure en mans de l’heroïna i no se’n van poder sortir. I aquí, com una onada, creix amb força la confirmació evident que tot el que és personal és polític i que el cas particular de la cineasta és en el fons d’abast universal.",
+      "pdf": {
+        "page": 2
+      }
+    }
+  ]
+}

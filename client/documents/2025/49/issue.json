@@ -1,0 +1,58 @@
+{
+    "_id": {
+      "$oid": "688f8e35ac16e0dadcf03d58"
+    },
+    "year": 2025,
+    "number": 48,
+    "coverImage": "numero48",
+    "pdfManual": true,
+    "publicationDate": {
+      "$date": "2025-06-28T22:00:00.000Z"
+    },
+    "title": "Lletres Bàrbares - Número 48",
+    "isPublished": true,
+    "totalArticles": 12,
+    "sections": [
+      "articles",
+      "creacio",
+      "llibres"
+    ],
+    "articlesOrder": [
+        {
+            "$oid": "688f8e35ac16e0dadcf03d5b"
+        },
+        {
+            "$oid": "688f8e35ac16e0dadcf03d5e"
+        },
+        {
+            "$oid": "688f8e35ac16e0dadcf03d61"
+        },
+        {
+            "$oid": "688f8e35ac16e0dadcf03d64"
+        },
+        {
+            "$oid": "688f8e35ac16e0dadcf03d67"
+        },
+        {
+            "$oid": "688f8e35ac16e0dadcf03d6a"
+        },
+        {
+            "$oid": "688f8e36ac16e0dadcf03d6d"
+        },
+        {
+            "$oid": "688f8e36ac16e0dadcf03d70"
+        },
+        {
+            "$oid": "688f8e36ac16e0dadcf03d73"
+        },
+        {
+            "$oid": "688f8e36ac16e0dadcf03d76"
+        },
+        {
+            "$oid": "688f8e36ac16e0dadcf03d79"
+        },
+        {
+            "$oid": "688f8e36ac16e0dadcf03d7c"
+        }
+    ]
+  }

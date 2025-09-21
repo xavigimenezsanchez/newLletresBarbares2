@@ -1,0 +1,143 @@
+{
+  "_id": {
+    "$oid": "68cee6fea6b5c7290c68a90a"
+  },
+  "issue": 2025,
+  "data": "27/09/2025",
+  "imageCard": "solealcaide51-01",
+  "title": "La caputxeta vermella",
+  "url": "la-caputxeta-vermella",
+  "section": "creacio",
+  "author": "Nati Soler Alcaide",
+  "summary": "",
+  "publicationDate": {
+    "$date": "2025-09-27T22:00:00.000Z"
+  },
+  "isPublished": true,
+  "tags": [],
+  "readTime": 5,
+  "year": 2025,
+  "issueNumber": 51,
+  "authors": [
+    "Nati Soler Alcaide"
+  ],
+  "text": [
+    {
+      "type": "image",
+      "name": "solealcaide51-01",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Li deien la Roja. No li deien perquè el vermell fos el seu color predilecte. Li deien per què aquest era l’antic malnom de la casa on havia nascut i on vivia amb la seva mare. Vivien en una planta baixa, petita i rònega, gairebé adossada a les parets de l’església. L’àvia vivia als afores, en un tercer pis gran i lluminós, sense ascensor i davant d’un parc poc concorregut i ben cuidat. La mare hauria volgut canviar l’habitatge amb l’àvia; deia que l’àvia tenia més espai del que li calia i que no tenia cotxe; en canvi, nosaltres, en aquella caseta del centre del poble hi vivíem encofurnades i que li era costós trobar lloc per aparcar. La seva mare li responia que a ella, a casa nostra, li hauria costat trobar lloc per guardar els seus llibres i per a prendre el sol.",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "No era una àvia convencional, d’aquelles que sempre estan a punt per a tenir cura de la neta i que no es queixen de res i si ho fan, ho fan, només quan estan segures que la protesta no sortirà de l’habitació on l’emeten. Ella feia saber a tothom que no es podia refiar de la filla, que no l’ajudava gaire i el poc que ho feia ho reservava per a quan la gent se la mirava. L’àvia tampoc era d’aquelles a les que els agrada viatjar, fer ganxet, cuinar, menjar, ballar... A la seva no; a la seva li agradava «el queer», però ella no ho sabia. No ho sabia perquè era del tipus de persones que no saben ni un borrall d’anglès i no saber-ne els és completament indiferent. A l’àvia el que li agradava era llegir. Cada cop li costava més caminar; li pesaven les cames i a la mare de la Roja li pesava haver d’anar a la biblioteca a canviar-li els llibres llegits pels que ja li tenien reservats. Un dia, la Roja, àvida de noves experiències, s’oferí per a fer l’intercanvi. La mare, menyspreant les seves capacitats, li donà un mòbil amb IA, que aniria dient-li, pas per pas, i, seguint l’itinerari menys concorregut, per quina cantonada havia de girar per arribar a la biblioteca municipal i d’allí a casa l’àvia, sense perdre’s.",
+      "pdf": {
+        "page": 1,
+        "division": {
+          "alignLast": true,
+          "contentPage": "No era una àvia convencional, d’aquelles que sempre estan a punt per a tenir cura de la neta i que no es queixen de res i si ho fan, ho fan, només quan estan segures que la protesta no sortirà de l’habitació on l’emeten. Ella feia saber a tothom que no es podia refiar de la filla, que no l’ajudava gaire i el poc que ho feia ho reservava per a quan la gent se la mirava. L’àvia tampoc era d’aquelles a les que els agrada viatjar, fer ganxet, cuinar, menjar, ballar... A la seva no; a la seva li agradava «el queer», però ella no ho sabia. No ho sabia perquè era del tipus de persones que no saben ni un borrall d’anglès i no saber-ne els és completament indiferent. A l’àvia el que li agradava era llegir. Cada cop li costava més caminar; li pesaven les cames i a la mare de la Roja li pesava haver d’anar a",
+          "contentNextPage": "la biblioteca a canviar-li els llibres llegits pels que ja li tenien reservats. Un dia, la Roja, àvida de noves experiències, s’oferí per a fer l’intercanvi. La mare, menyspreant les seves capacitats, li donà un mòbil amb IA, que aniria dient-li, pas per pas, i, seguint l’itinerari menys concorregut, per quina cantonada havia de girar per arribar a la biblioteca municipal i d’allí a casa l’àvia, sense perdre’s."
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "La bibliotecària li tenia a punt un parell de llibres i va ser tan amable que, fins i tot, la va ajudar a treure de la bossa els llegits i a posar-hi els que la usuària havia demanat. Encara no havia baixat les escales que, sumades a les del pis, impedien a l’àvia anar-se'n a bescanviar ella mateixa els llibres, quan se li atansà una senyora, molt vistosa, fent-li saber que a ella també li agradaven els llibres, que li agradaven tant que n’escrivia. Li va assegurar que l’àvia estaria encantada de rebre la seva visita, la d’una escriptora i, que ella era una escriptora famosa de qui, ben segur, l’àvia n'hauria llegit narracions. També li va dir que era més intel·ligent que la intel·ligència artificial i que arribaria abans a casa l’àvia, després d’haver mirat l’adreça exacta al mòbil, que seguint les indicacions de la IA. La Roja va pensar que, tant si sí com si no era una bona ocasió i calia aprofitar-la. L’àvia estaria encantada de rebre la visita de l’escriptora i, alhora, distreta, xerrant de literatura, no s'adonaria de la seva trigança. Trigança que dedicaria a visionar els vídeos que la mama no li deixava veure, argumentant que no tenia l’edat per a fer-ho. Però la Roja oblidava o ignorava que la seva mare era una dona previsora i, havent intuït la possibilitat que la nena volgués accedir al web, considerat perniciós, per evitar-li l’accés, havia introduït una contrasenya impossible d’encertar.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "No va haver de trucar al porter automàtic de ca l'àvia perquè la porta de l’edifici estava oberta de bat a bat i, enmig del portal, assegut en una gandula i mirant el mòbil, hi havia un home voluminós, fumant un cigar fosc, gros i pudent. L’home la va convidar a mirar els vídeos que ell s’estava mirant en aquell moment. No eren exactament els que la Roja tenia preseleccionats, però eren del mateix caire. Així que la nena va seure a la gandula amablement cedida pel fumador, qui s’instal·là dret darrere del respatller tou, amb els braços recolzats damunt el cos menut de la Roja; mentrestant, ella gaudia de l’aparell cedit amb una rialla congelada i la mirada clavada a la pantalla. Feia una bona estona que estava en aquesta beatitud quan sonà l’alarma del mòbil que li havia donat la mama, La Roja s’alçà d’un salt i afirmà que havia de pujar a l’acte a casa l’àvia i com que ella era una nena extremadament obedient s’encaminà cap al seu destí, mentre l’home li deia que no s’amoïnés per la seva iaia.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "La Roja trucà al timbre de la porta del pis. L’escriptora l’obrí i la va fer passar a l’habitació de l’àvia, que era al llit. La Roja se la mirà i li digué:",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "— Àvia, àvia, quins ulls més grossos, vermells i rodons que tens!",
+      "pdf": {
+        "page": 3
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "— Són per veure-la i llegir-la millor! Va dir l’àvia, assenyalant l’escriptora.",
+      "pdf": {
+        "page": 3
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "— Àvia, àvia, quines orelles més grosses i dreçades que tens! Va dir la Roja.",
+      "pdf": {
+        "page": 3
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "— Són per escoltar-la millor! Va respondre, assenyalant l’escriptora.",
+      "pdf": {
+        "page": 3
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "— Àvia, àvia, quin nas més inflat que tens!, observà la nena.",
+      "pdf": {
+        "page": 3
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "— És per esnifar millor la farina que m’ha dut, va dir l’àvia, assenyalant l’escriptora.",
+      "pdf": {
+        "page": 3
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "— Àvia, àvia quina boca més grossa i quines dents més grogues que tens!, va dir la neta.",
+      "pdf": {
+        "page": 3
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "— Són per menjar-me millor les pastetes que ella em durà, va dir assenyalant l’escriptora.",
+      "pdf": {
+        "page": 3
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Llavors el timbre sonà, l’escriptora anà a openerduceda ocasió per a una dona humilde i gran, va ser ella qui va acceptar la seva oferta i qui li va dir que la seva bóta ja era plena. El fumador, amb la cadira de rodes, va marxar, després de cridar a la Roja que podia tornar a casa i assabentar a la mama que havia fet l’encàrrec força bé i que, d’ara endavant, ja no calia que patís més per anar a la biblioteca ni per tenir un pis gran, que, de l’àvia, se’n cuidarien ells dos, deia assenyalant l’home i a ella mateixa.",
+      "pdf": {
+        "page": 3
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "La Roja se’n tornà cap a casa amb la IA a la butxaca. L’àvia, el fumador i l’escriptora se’n van anar a l’estrena d’una obra teatral.",
+      "pdf": {
+        "page": 3
+      }
+    }
+  ]
+}

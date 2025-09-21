@@ -1,0 +1,142 @@
+{
+    "_id": {
+      "$oid": "68cebbb6a6b5c7290c68a8f4"
+    },
+    "issue": 2025,
+    "data": "27/09/2025",
+    "imageCard": "carbonell51-01",
+    "title": "El totalitarisme banal",
+    "url": "el_totalitarisme_banal",
+    "section": "articles",
+    "author": "Àngel Carbonell",
+    "summary": "",
+    "publicationDate": {
+      "$date": "2025-09-27T22:00:00.000Z"
+    },
+    "isPublished": true,
+    "tags": [],
+    "readTime": 5,
+    "year": 2025,
+    "issueNumber": 51,
+    "authors": [
+      "Àngel Carbonell"
+    ],
+    "text": [
+      {
+        "type": "image",
+        "name": "carbonell51-01",
+        "content": "<em>Sèrie Mao</em>, sèrie de litografies d’Andy Warhol, 1967",
+        "pdf": {
+          "page": 1
+        }
+      },
+      {
+        "type": "paragraph",
+        "content": "Amb l’alegria de qui escriu sobre la decadència de la civilització occidental mentre pren un cafè descafeïnat en una cafeteria gentrificada del centre de Barcelona, em disposo a perpetrar un discurs que pretén lligar la crisi de l’esquerra, la societat de consum, el feixisme i la nostàlgia per mons que mai no han existit ni existiran.",
+        "pdf": {
+          "page": 1
+        }
+      },
+      {
+        "type": "paragraph",
+        "content": "Comencem pel principi, o pel final, que en aquestes qüestions mai no se sap. La socialdemocràcia —aquell invent europeu que aspira, o fa veure que aspira, a preparar un ou ferrat sense trencar-ne cap— va comptar amb la inestimable col·laboració d’un altre invent: la democràcia cristiana, els quals, si cal, serien els que llançarien la primera pedra. Junts van construir l’estat del benestar. Aquest estat, de fet, va esborrar qualsevol obstacle que impedís el triomf del consumisme i es va convertir, així, en l’instrument perfecte perquè les classes populars deixessin de ser-ho, o almenys deixessin de sentir-se’n i actuar com a tals.",
+        "pdf": {
+          "page": 1
+        }
+      },
+      {
+        "type": "paragraph",
+        "content": "Però no ens avancem. El nacionalisme banal, aquell concepte tan ben parit per Michael Billig, ens ajuda a entendre com la identitat nacional es reprodueix cada dia sense que ningú se n’adoni: banderes als edificis públics, himnes abans dels partits de futbol, la mateixa sopa de lletres de sempre a la sopa de cada dia. Si traslladem aquest concepte a l’esquerra, ens trobem amb l’“esquerra banal”, una esquerra que es manifesta en gestos, rituals i discursos superficials, però que ha perdut tota connexió amb la realitat material de la gent. L’esquerra banal és aquella que celebra el Dia de la Dona amb una foto a Instagram, però no sap què és un contracte temporal; la que penja la bandera multicolor al balcó de l’ajuntament, però no sap què vol dir pagar el lloguer a final de mes. És una esquerra de símbols, de consignes, de postureig, que ha convertit la política en una mena de performance permanent, on el més important no és canviar el món, sinó que sembli que el vols canviar.",
+        "pdf": {
+          "page": 1,
+          "division": {
+            "alignLast": true,
+            "contentPage": "Però no ens avancem. El nacionalisme banal, aquell concepte tan ben parit per Michael Billig, ens ajuda a entendre com la identitat nacional es reprodueix cada dia sense que ningú se n’adoni: banderes als edificis públics, himnes abans dels partits de futbol, la mateixa sopa de lletres de sempre",
+            "contentNextPage": "a la sopa de cada dia. Si traslladem aquest concepte a l’esquerra, ens trobem amb l’“esquerra banal”, una esquerra que es manifesta en gestos, rituals i discursos superficials, però que ha perdut tota connexió amb la realitat material de la gent. L’esquerra banal és aquella que celebra el Dia de la Dona amb una foto a Instagram, però no sap què és un contracte temporal; la que penja la bandera multicolor al balcó de l’ajuntament, però no sap què vol dir pagar el lloguer a final de mes. És una esquerra de símbols, de consignes, de postureig, que ha convertit la política en una mena de performance permanent, on el més important no és canviar el món, sinó que sembli que el vols canviar."
+          }
+        }
+      },
+      {
+        "type": "paragraph",
+        "content": "I aquí és on entra en escena la societat de consum, aquesta meravella que ens permet comprar samarretes amb el rostre del Che Guevara fabricades a Bangladesh per nens que no saben qui era el Che Guevara. La societat de consum, filla predilecta de l’estat del benestar, ha aconseguit que les classes populars deixin de ser un subjecte històric per convertir-se en compradors compulsius. Pasolini, que era un home d’aquells que veu venir les coses —fins i tot, potser, el seu assassinat—, va advertir que aquest consumisme era una forma de feixisme, un feixisme sense camises negres ni desfilades, però amb targetes de crèdit. Un feixisme que no reprimeix, sinó que sedueix; que no imposa, sinó que suggereix; que no castiga, sinó que premia. I, sobretot, un feixisme que aliena i desarticula la societat civil amb la mateixa eficàcia que el feixisme de tota la vida, però sense necessitat de repartir hòsties ni de saludar a la romana.",
+        "pdf": {
+          "page": 2
+        }
+      },
+      {
+        "type": "paragraph",
+        "content": "La gran victòria del consumisme, segons Pasolini, és la seva capacitat per transformar no només els hàbits, sinó també les ànimes. Ja no es tracta només de comprar més coses, sinó de ser d’una determinada manera, de pensar d’una determinada manera, de sentir d’una determinada manera. El consumisme imposa una nova moral, una nova estètica, una nova identitat. I ho fa amb tanta subtilesa que ningú no se n’adona, o, si se n’adona, li sembla la mar de bé, perquè, al capdavall, qui vol ser diferent quan pot ser igual que tothom? El consumisme, en definitiva, és el feixisme perfecte per a una societat que ha perdut la fe en la política, en la comunitat i en la possibilitat de canviar res.",
+        "pdf": {
+          "page": 2
+        }
+      },
+      {
+        "type": "paragraph",
+        "content": "Mentrestant, l’esquerra institucional, aquella que va néixer per defensar els interessos de les classes populars, ha decidit que la millor manera de fer-ho és ignorar-les. La socialdemocràcia, que havia estat el gran motor de la igualtat i la justícia social, s’ha convertit en una gestoria d’interessos particulars, en una agència de publicitat de valors progressistes per a classes mitjanes-altes amb mala consciència. Aquesta esquerra, que ja no sap què vol dir treballar a la fàbrica ni viure en un barri obrer, ha fet de la política una qüestió d’estil, de gustos, de sensibilitats. Ara, el que importa no és el que es fa, sinó el que es diu; no el que es defensa, sinó com es defensa. I així, mentre les classes populars pateixen la precarietat, la inseguretat i la pèrdua de drets, l’esquerra es dedica a discutir sobre llenguatge inclusiu, microagressions i altres qüestions que, tot i ser importants, no resolen el problema de fons, la desigualtat creixent i la pèrdua de poder de la majoria social.",
+        "pdf": {
+          "page": 2,
+          "division": {
+            "alignLast": true,
+            "contentPage": "Mentrestant, l’esquerra institucional, aquella que va néixer per defensar els interessos de les classes populars, ha decidit que la millor manera de fer-ho és ignorar-les. La socialdemocràcia, que havia estat el gran motor de la igualtat i la justícia social, s’ha convertit en una gestoria d’interessos particulars, en una agència de publicitat de valors progressistes per a classes mitjanes-altes amb mala consciència. Aquesta esquerra, que ja no sap què vol dir treballar a la fàbrica ni viure en un barri obrer, ha fet de la política una qüestió d’estil, de gustos, de sensibilitats. Ara, el que importa no és el",
+            "contentNextPage": "que es fa, sinó el que es diu; no el que es defensa, sinó com es defensa. I així, mentre les classes populars pateixen la precarietat, la inseguretat i la pèrdua de drets, l’esquerra es dedica a discutir sobre llenguatge inclusiu, microagressions i altres qüestions que, tot i ser importants, no resolen el problema de fons, la desigualtat creixent i la pèrdua de poder de la majoria social."
+          }
+        }
+      },
+      {
+        "type": "paragraph",
+        "content": "No és estrany, doncs, que aquestes mateixes classes populars, sentint-se abandonades per una esquerra que ja no parla el seu idioma ni entén les seves necessitats, busquin alternatives en altres llocs. I qui ha sabut aprofitar millor aquest buit? L’extrema dreta, és clar. Aquesta extrema dreta que es presenta com la veu del poble contra les elits, que parla de sobirania, de seguretat, de tradicions, i que sap connectar emocionalment amb el malestar i la frustració de la gent. L’extrema dreta, amb la seva barreja de populisme, nacionalisme i nostàlgia, ofereix una identitat, una comunitat i una promesa de protecció que l’esquerra ja no sap oferir. I així, el cercle es tanca, la crisi de la socialdemocràcia, l’auge de l’extrema dreta i la descomposició de la societat civil són les tres cares d’una mateixa moneda.",
+        "pdf": {
+          "page": 3
+        }
+      },
+      {
+        "type": "paragraph",
+        "content": "Però no tot és culpa del consumisme ni de l’esquerra banal. Hi ha, també, una responsabilitat col·lectiva en aquesta deriva. La societat del benestar, amb totes les seves conquestes, ha generat una cultura de l’individualisme, de la comoditat, de la desconnexió. Ara, la llibertat es mesura en la capacitat de triar entre vint-i-cinc marques de iogurt, i la solidaritat es practica fent m'agrada a campanyes solidàries des del sofà de casa. L’acció col·lectiva ha estat substituïda per la indignació virtual, i la política s’ha convertit en un espectacle on el més important és tenir una bona imatge i un bon discurs. La societat de consum ha desactivat qualsevol resistència real als interessos del capital, perquè ha aconseguit que tothom vulgui ser capitalista, encara que sigui per un dia, encara que sigui només per comprar-se un mòbil nou.",
+        "pdf": {
+          "page": 3
+        }
+      },
+      {
+        "type": "paragraph",
+        "content": "Aquí és on la reflexió de Hannah Arendt sobre el totalitarisme esdevé especialment pertinent. Arendt advertia que el totalitarisme no és només una qüestió de dictadures i camps de concentració, sinó un fenomen molt més profund, que té a veure amb la desarticulació de la societat civil, l’atomització dels individus i la imposició d’una uniformitat de pensament i de comportament. El totalitarisme, segons Arendt, es caracteritza per la destrucció dels vincles socials, per la conversió de la societat en una massa d’individus aïllats i manipulables, i per la imposició d’una ideologia que ho justifica tot i ho explica tot. El terror i la ideologia són les dues cares d’aquesta moneda, però el més perillós de tot és la banalitat del mal, la capacitat de persones ordinàries de participar en sistemes opressius sense ni tan sols adonar-se’n, simplement perquè segueixen les normes, perquè fan el que toca, perquè no volen complicar-se la vida.",
+        "pdf": {
+          "page": 3
+        }
+      },
+      {
+        "type": "paragraph",
+        "content": "No cal ser gaire perspicaç per veure que la societat de consum comparteix molts d’aquests trets. L’individualisme, la desconnexió, la uniformitat, la submissió acrítica a les modes i als discursos dominants, la incapacitat de resistència col·lectiva, tot plegat configura un escenari on el poder pot imposar-se amb una facilitat sorprenent, sense necessitat de recórrer a la violència o a la repressió directa. El consumisme, com el totalitarisme, dissol la pluralitat, la diversitat, la capacitat de pensar i actuar per un mateix. I, com en el totalitarisme, la majoria de la gent no només accepta aquesta situació, sinó que la celebra, perquè li permet viure sense conflictes, sense responsabilitats, sense la molèstia de pensar en el bé comú.",
+        "pdf": {
+          "page": 4
+        }
+      },
+      {
+        "type": "paragraph",
+        "content": "Aquesta és, potser, la gran tragèdia de la nostra època, hem confós la llibertat amb el dret a consumir, la igualtat amb el dret a ser igual que tothom, la fraternitat amb el dret a compartir mems a les xarxes socials. L’esquerra, que hauria d’haver estat el motor de la resistència a aquesta alienació, s’ha convertit en una peça més del mecanisme, en una veu més del cor de la banalitat. Ara, la política d’esquerres és cosa d’una minoria il·lustrada, de classe mitjana-alta, que es dedica a pontificar sobre justícia social tot ignorant la injustícia. Aquesta minoria, sovint esnob i autosuficient, menysprea les mateixes classes populars que diu defensar, perquè les troba massa vulgars, massa poc sofisticades, massa poc cosmopolites. El resultat és una esquerra que parla només per a ella mateixa, que es retroalimenta en els seus cercles tancats, que confon el debat polític amb una tertúlia de club privat.",
+        "pdf": {
+          "page": 4
+        }
+      },
+      {
+        "type": "paragraph",
+        "content": "Mentrestant, la realitat segueix el seu curs. Les desigualtats augmenten, la precarietat s’estén, la democràcia es buida de contingut i la gent, cansada de promeses incomplertes i de discursos buits, busca alternatives en altres llocs. L’extrema dreta, amb la seva capacitat per connectar amb el malestar i la por, esdevé la nova veu del poble, mentre l’esquerra es dedica a discutir sobre la millor manera de dir “tots i totes i tothom”. La societat de consum, amb la seva promesa de felicitat instantània, continua fabricant ciutadans obedients, acrítics i satisfets amb el seu paper d’espectadors. I el capitalisme, que ho observa tot amb un somriure de satisfacció, sap que, mentre la gent estigui entretinguda comprant, discutint a Twitter i mirant sèries, no hi haurà cap perill real per al sistema.",
+        "pdf": {
+          "page": 4
+        }
+      },
+      {
+        "type": "paragraph",
+        "content": "Potser, al final, la gran victòria del capitalisme no ha estat només convertir les classes populars en consumidors, sinó convertir l’esquerra en una marca més del mercat, una opció més del catàleg, un producte més per a una minoria exigent però inofensiva. I potser, també, la gran lliçó de Pasolini i d’Arendt és que la llibertat, la igualtat i la fraternitat no es poden comprar al supermercat, ni es poden defensar des del sofà de casa. Caldria recuperar la capacitat de resistència, de comunitat, de pensament crític; caldria, en definitiva, tornar a creure que podem canviar el món, encara que sigui només per portar la contrària a tots aquells que diuen que no podem.",
+        "pdf": {
+          "page": 4
+        }
+      },
+      {
+        "type": "paragraph",
+        "content": "Però, de moment, continuarem escrivint assaigs irònics sobre la decadència de l’esquerra, la societat de consum i el feixisme banal, mentre esperem que algú, algun dia, tingui la decència de deixar de riure’s de tot plegat i decideixi, per fi, fer alguna cosa útil. O, si més no, que ens convidi a un cafè descafeïnat per parlar-ne, que no és poca cosa.",
+        "pdf": {
+          "page": 5
+        }
+      }
+    ]
+  }

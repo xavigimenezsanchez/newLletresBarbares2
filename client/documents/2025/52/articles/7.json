@@ -1,0 +1,191 @@
+{
+  "_id": {
+    "$oid": "68cece7ea6b5c7290c68a900"
+  },
+  "issue": 2025,
+  "data": "27/09/2025",
+  "imageCard": "mestre51-01",
+  "title": "Les pedres de llamp",
+  "url": "les_pedres_de_llamp",
+  "section": "articles",
+  "author": "Jordi Mestre i Vergés",
+  "summary": "",
+  "publicationDate": {
+    "$date": "2025-09-27T22:00:00.000Z"
+  },
+  "isPublished": true,
+  "tags": [],
+  "readTime": 5,
+  "year": 2025,
+  "issueNumber": 51,
+  "authors": [
+    "Jordi Mestre i Vergés"
+  ],
+  "text": [
+    {
+      "type": "paragraph",
+      "content": "Ignoro si primer va ser l’ou o la gallina, però la veritat és que els noms dels llocs o les coses s’expliquen de manera més o menys clara i concreta per poc que pensem en la seva etimologia. Així, és sabut que una garriga és un tipus de terreny, però no tant que una armentera és un lloc amb abundant herba on es deixen péixer les ovelles perquè s’engreixin després de la transhumància.",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "També ens trobem que a vegades les coses poden haver canviat de nom, com en el cas de les arques, que ara en diem dòlmens, ja que, per anomenar-les, hem adoptat el nom bretó que deriva de “taol maen”, que significa taula de pedra. Ara ens queda clar que al Puig d’Arques hi ha una gran probabilitat de trobar-hi dòlmens.",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "image",
+      "name": "mestre51-01",
+      "content": "Dolmen Megalític. Carnac, Bretanya, França",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Menhir també prové del bretó i significa ‘pedra llarga’. El nom cromlec té l’origen en una altra llengua celta i vol dir ‘lloses corbades’, en irlandès. Sembla, doncs, raonable que el nom d’aquests megàlits provingui de llengües celtes, ja que és en terres celtes on en trobem la majoria, almenys tal com els acostumem a entendre. Les grans i magnífiques estructures que podem admirar, per exemple, a Antequera són molt diferents de les d’altres indrets, i resulta difícil situar-les en la mateixa tradició constructiva que les que coneixem aquí o en territoris celtes. Quan observem el gran esforç col·lectiu que devia comportar moure unes pedres sovint descomunals, se’ns planteja un seguit de preguntes sobre el lloc on eren col·locades, les raons perquè s’hi posaven i la manera com podien moure objectes tan pesants. D’altra banda, la diversitat de monuments megalítics, més que ajudar-nos a comprendre’n el sentit, potser encara ens dificulta més entendre la intencionalitat dels constructors.",
+      "pdf": {
+        "page": 1,
+        "division": {
+          "alignLast": true,
+          "contentPage": "Menhir també prové del bretó i significa ‘pedra llarga’. El nom cromlec té l’origen en una altra llengua celta i vol dir ‘lloses corbades’, en irlandès. Sembla, doncs, raonable que el nom d’aquests megàlits provingui de llengües celtes, ja que és en terres celtes on en trobem la majoria, almenys tal com els acostumem a entendre. Les grans i magnífiques estructures que podem admirar, per exemple, a Antequera són molt diferents de les d’altres indrets, i resulta difícil situar-les en la mateixa tradició constructiva que les que coneixem aquí o en territoris celtes. Quan observem el gran",
+          "contentNextPage": "esforç col·lectiu que devia comportar moure unes pedres sovint descomunals, se’ns planteja un seguit de preguntes sobre el lloc on eren col·locades, les raons perquè s’hi posaven i la manera com podien moure objectes tan pesants. D’altra banda, la diversitat de monuments megalítics, més que ajudar-nos a comprendre’n el sentit, potser encara ens dificulta més entendre la intencionalitat dels constructors."
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Hi ha indicis que, lluny d’aportar-nos llum, sovint ens confonen encara més. Al cromlec del mas Valeta, al terme de la Jonquera, veiem que l’entrada assenyala la posta de sol del solstici. També hi ha un menhir central, que podria estar relacionat amb la fertilitat, i una cambra lateral que potser respon a una funció funerària. En definitiva, quan intentem interpretar-ho, acabem esgarriats.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "image",
+      "name": "mestre51-02",
+      "content": "Camp de menhirs, Carnac, Bretanya, França",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "A Carnac, a la Bretanya, hi ha diversos alineaments de menhirs, tots ells una mica diferents, essent el més gran el de Menec, amb més d’un miler de pedres no gaire grans disposades en fileres. L’explicació que ha gaudit de més fortuna és que podria tractar-se d’un observatori o bé que mantingués una relació amb els astres. Mogut per aquesta hipòtesi, vaig decidir presenciar-hi el solstici d’estiu, abans que no hi col·loquessin la tanca. Hi vaig anar a l’hora de la posta de sol: l’alineament, tanmateix, no assenyala l’est, sinó que s’orienta aproximadament d’E-SE a O-NO. A més, tot el jaciment es troba en una zona enfonsada i, per tant, de nit els menhirs no poden servir de punts de mira, simplement perquè no es veuen.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Altres interpretacions sobre Carnac hi veuen una necròpolis, però sense restes mortals costa molt d’afirmar-ho. Sense proves, és tan cert com dir que les van aixecar els marcians, una explicació que també s’ha arribat a sentir. On sí que s’han trobat restes d’enterraments col·lectius és als dòlmens, sovint acompanyats d’aixovars funeraris. Pel que fa als menhirs, no en conec cap que presenti restes fúnebres.",
+      "pdf": {
+        "page": 3
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "A bona part de l’Europa occidental, almenys a les zones on hi ha megàlits, es conserva una tradició popular entorn de les anomenades pedres de llamp. Es tracta de pedres negres, més o menys fusiformes, a les quals s’atribueix la virtut de protegir contra els llamps. El primer que sorprèn és l’amplíssim territori on arrela aquesta mateixa explicació. Quan es pregunta a la gent que en posseeix, la resposta, gairebé idèntica a tot arreu, és que aquestes pedres són les puntes dels llamps, que en tocar terra resten enterrades i, amb el pas del temps, afloren a la superfície. Quan les recullen, la gent sol guardar-les, generalment en un racó de la casa o damunt la tauleta de nit, amb la intenció que els protegeixin.",
+      "pdf": {
+        "page": 3
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "El material que constitueix aquestes pedres pot ser metàl·lic o, en alguns casos, basalt o altres tipus de pedra negra. Les pedres de llamp metàl·liques són, sens dubte, meteorits amb un alt contingut de ferro. En algun moment devia caure sobre la Terra una pluja important d’aquests cossos. Recordem que a l’aixovar funerari de Tutankamon hi havia un ganivet fet amb aquest material, en una època en què era una autèntica raresa i que representa el primer ganivet de ferro conegut.",
+      "pdf": {
+        "page": 3
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "També és famosa la pedra negra de la Meca, custodiada a la Kaaba, que és el centre de la religió islàmica, on tot musulmà ha de peregrinar almenys una vegada a la vida, de preferència durant el mes de hadj.",
+      "pdf": {
+        "page": 3
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "El déu principal del Panteó olímpic és Zeus, qui llança els llamps, el seu atribut característic. A Roma, Júpiter n’hereta les funcions i els atributs. Igualment, resulta molt interessant el culte de Xangó, originari dels iorubes del golf de Guinea, que després va passar a Amèrica i esdevingué una figura central de la santeria.",
+      "pdf": {
+        "page": 3
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Segons el mite, els atributs de Xangó són el tro i el llamp, que crea enviant pedres de llamp sobre la terra. Quan es produeix una gran tempesta amb llamps, els sacerdots de Xangó surten a cercar aquestes pedres i les porten a l’altar. Perquè mantinguin la seva força cal regar-les amb sang durant les celebracions. La pedra que s’associa a Xangó és el meteorit. La llegenda de Xangó resulta, curiosament, molt propera a la que ens podria explicar qualsevol pagès de l’Empordà, de Galícia o de la Toscana.",
+      "pdf": {
+        "page": 3,
+        "division": {
+          "alignLast": true,
+          "contentPage": "Segons el mite, els atributs de Xangó són el tro i el llamp, que crea enviant pedres de llamp sobre la terra. Quan es produeix una gran tempesta amb llamps, els sacerdots de Xangó surten a cercar aquestes pedres i les porten a l’altar. Perquè mantinguin la seva força cal regar-les amb sang durant",
+          "contentNextPage": "les celebracions. La pedra que s’associa a Xangó és el meteorit. La llegenda de Xangó resulta, curiosament, molt propera a la que ens podria explicar qualsevol pagès de l’Empordà, de Galícia o de la Toscana."
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Si preguntem a un arqueòleg què són i d’on provenen aquestes pedres negres, probablement ens dirà que es tracta de destrals neolítiques de pedra polida —generalment de basalt— que provenen dels aixovars funeraris, possiblement d’un dolmen o d’algun altre tipus de sepultura ritual. És interessant constatar dues explicacions tan diverses i, en realitat, gairebé mai confrontades. No hi ha dubte que, tant a l’exterior com a dins dels dòlmens, molta gent ha recollit pedres negres d’aspecte més o menys fusiforme, a les quals ha atribuït una relació amb els llamps. Tanmateix, és evident que és molt més fàcil fabricar una destral neolítica de basalt que no pas trobar un fragment de meteorit.",
+      "pdf": {
+        "page": 4
+      }
+    },
+    {
+      "type": "image",
+      "name": "mestre51-03",
+      "content": "Pedra de llamp",
+      "pdf": {
+        "page": 4
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Com en el cas de les relíquies a l’edat mitjana, si no en tens, te les fabriques. Una destral negra estableix una referència simbòlica evident amb la pedra negra desitjada, encara que no sigui un meteorit, té un aspecte similar i és negra. Així mateix, aquestes destrals es troben en llocs on no abunden materials d’aquesta mena.",
+      "pdf": {
+        "page": 4
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Però, què tenen a veure els dòlmens amb els llamps? Possiblement, molt més del que sembla a simple vista. Els llamps cauen en llocs preferencials, atrets per les càrregues elèctriques contràries. En moltes zones, els dòlmens i menhirs s’erigeixen en terrenys granítics. El granit és conegut per ser lleugerament radioactiu i, sobretot quan hi ha humitat, per la ionització i, per tant, les càrregues elèctriques al seu entorn són molt importants. En aquest tipus de terreny hi ha vetes de quars que fan de dielèctric i, en conseqüència, generen diferències de potencial que poden atraure els llamps de manera prioritària en determinats punts.",
+      "pdf": {
+        "page": 4,
+        "division": {
+          "alignLast": true,
+          "contentPage": "Però, què tenen a veure els dòlmens amb els llamps? Possiblement, molt més del que sembla a simple",
+          "contentNextPage": "vista. Els llamps cauen en llocs preferencials, atrets per les càrregues elèctriques contràries. En moltes zones, els dòlmens i menhirs s’erigeixen en terrenys granítics. El granit és conegut per ser lleugerament radioactiu i, sobretot quan hi ha humitat, per la ionització i, per tant, les càrregues elèctriques al seu entorn són molt importants. En aquest tipus de terreny hi ha vetes de quars que fan de dielèctric i, en conseqüència, generen diferències de potencial que poden atraure els llamps de manera prioritària en determinats punts."
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "En Josep Tarrús ha publicat recentment un altre llibre, encara més complet, que encara no he pogut estudiar a fons, però en el seu monumental volum<em> Poblats, dòlmens i menhirs</em>, ens parla dels grups megalítics de l’Albera, la serra de Rodes i el Cap de Creus, on ens descriu els entorns geològics, que curiosament són tots granítics amb afloraments de quars. Afegeixo jo que sovint es troben prop de la capa d’esquistos. Per tant, no sembla que es pugui descartar que aquests llocs fossin punts atractius per als llamps.",
+      "pdf": {
+        "page": 5
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Ara fem una hipòtesi: hi havia, fa alguns milers d’anys, un pastor que veia apropar-se una tempesta i sortia corrents, ja que el lloc on es trobava era un punt on sempre cauen llamps, molt perillós. Buscava refugi on podia. Quan el seu clan decidia construir un monument funerari, escollien fer-lo al lloc on el cel es manifestava amb més claredat i on enviava tota la seva força. Més connexió impossible. Dins de l’aixovar funerari hi posaven una destral negra feta d’un material que venia de lluny, per retre homenatge al llamp que connectava amb el cel.",
+      "pdf": {
+        "page": 5
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Imaginem que, diversos mil·lennis després, un pastor es troba sobtadament atrapat per una tempesta d’estiu; veu com cauen llamps i s’amaga en un dolmen que conté ossos i que no és gens acollidor, però no té més remei. Justament en aquell moment li cau un llamp a sobre, però el dolmen actua com una mena de caixa de Faraday i desvia la descàrrega cap a terra, deixant-lo il·lès. Només cal trobar la pedra negra dins del dolmen per entendre que es tracta d’un amulet molt poderós que l’ha salvat del llamp.",
+      "pdf": {
+        "page": 5
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Heus aquí un gat, heus aquí un gos, aquest conte ja s’ha fos.",
+      "pdf": {
+        "page": 5
+      }
+    }
+  ]
+}

@@ -1,37 +1,84 @@
 {
-    "title" : "Sigui quina sigui la història",
-    "url" : "sigui_quina_sigui_la_historia",
-    "section" : "articles",
-    "issue" : 48,
-    "data" : "29/06/2025",
-    "imageCard" : "puigdellivol48-01",
-    "author" : "Valentí Puigdellívol",
-    "summary" : "",
-    "text" : [
-        {
-            "type" : "image",
-            "name" : "puigdellivol48-01"
-        },
-     {
+  "_id": {
+    "$oid": "688f8e35ac16e0dadcf03d64"
+  },
+  "issueId": {
+    "$oid": "688f8e35ac16e0dadcf03d58"
+  },
+  "issue": 2025,
+  "data": "29/06/2025",
+  "imageCard": "puigdellivol48-01",
+  "title": "Sigui quina sigui la història",
+  "url": "sigui_quina_sigui_la_historia",
+  "section": "articles",
+  "author": "Valentí Puigdellívol",
+  "summary": "",
+  "text": [
+    {
+      "type": "image",
+      "name": "puigdellivol48-01",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
       "type": "paragraph",
       "styles": "{\"textAlign\":\"right\", \"fontSize\":\"0.813rem\"}",
-      "content": "Les històries s'expliquen com una successió en el temps, però queden eclipsades</br>per la <em>causalitat</em>. Queden eclipsades per la tristor, per la motivació dels personatges,</br>per la incapacitat que els priva d'arribar a aconseguir el desig. La història queda</br>eclipsada per la <em>causalitat</em>, aquí radica la clau de tota narració.</br><em>Los diarios de Emilio Renzi. </em>Ricardo Piglia"
+      "content": "Les històries s'expliquen com una successió en el temps, però queden eclipsades</br>per la <em>causalitat</em>. Queden eclipsades per la tristor, per la motivació dels personatges,</br>per la incapacitat que els priva d'arribar a aconseguir el desig. La història queda</br>eclipsada per la <em>causalitat</em>, aquí radica la clau de tota narració.</br><em>Los diarios de Emilio Renzi. </em>Ricardo Piglia",
+      "pdf": {
+        "page": 1
+      }
     },
     {
       "type": "paragraph",
-      "content": "No recordem les històries, recordem els personatges. Les històries es desfilen a la memòria a mesura que passa el temps. Perdem el detall i la trama se’ns fa confusa. Sabem que tota història és un viatge. Comença i acaba en un espai-temps determinat. Totes són explicades perquè conten alguna cosa que ignorem i és, llavors, quan aquestes transformen la veritat que crèiem certa fins aleshores. Totes les històries —que mereixen ser contades— guarden un secret velat, alguna cosa oblidada que cal treure a la superfície —<em>alétheia</em>—. Tot això ho sabem sobradament, però amics, benvolguts lectors, permeteu-me que us faci arribar el meu dubte, què hem de fer amb aquella vida invalidada? Què fem amb allò que fins al moment donàvem per una certesa? On va a parar aquest residu? Què passa amb totes les hipòtesis que podíem considerar possibles i que el narrador destrueix en construir una sola i única història? De possibilitats, de tria, parlo. Així que recordo a Helena i a Paris, malgrat que se m’escapin els detalls de la guerra de Troia. Això mateix ho podem traslladar a Hamlet, Emma Bovary, Robinson Crusoe o Moby Dick, fins i tot. Recordem els personatges, per descomptat."
+      "content": "No recordem les històries, recordem els personatges. Les històries es desfilen a la memòria a mesura que passa el temps. Perdem el detall i la trama se’ns fa confusa. Sabem que tota història és un viatge. Comença i acaba en un espai-temps determinat. Totes són explicades perquè conten alguna cosa que ignorem i és, llavors, quan aquestes transformen la veritat que crèiem certa fins aleshores. Totes les històries —que mereixen ser contades— guarden un secret velat, alguna cosa oblidada que cal treure a la superfície —<em>alétheia</em>—. Tot això ho sabem sobradament, però amics, benvolguts lectors, permeteu-me que us faci arribar el meu dubte, què hem de fer amb aquella vida invalidada? Què fem amb allò que fins al moment donàvem per una certesa? On va a parar aquest residu? Què passa amb totes les hipòtesis que podíem considerar possibles i que el narrador destrueix en construir una sola i única història? De possibilitats, de tria, parlo. Així que recordo a Helena i a Paris, malgrat que se m’escapin els detalls de la guerra de Troia. Això mateix ho podem traslladar a Hamlet, Emma Bovary, Robinson Crusoe o Moby Dick, fins i tot. Recordem els personatges, per descomptat.",
+      "pdf": {
+        "page": 1
+      }
     },
     {
       "type": "paragraph",
-      "content": "Quan penso en els personatges, penso en la “causalitat”. Penso en allò que ha de resultar clau en qualsevol història. Rumio en el personatge que en sortir de casa i caminar quinze minuts fins on té aparcat el cotxe s'adona que ha oblidat les claus. Sigui quina sigui la història que s’estigui explicant, aquesta turpitud farà que quan arribi a lloc la persona amb la qual s'havia de trobar hagi marxat molesta, que hagi perdut el tren o el vol que pretenia prendre, que hagi tancat l’embarcament."
+      "content": "Quan penso en els personatges, penso en la “causalitat”. Penso en allò que ha de resultar clau en qualsevol història. Rumio en el personatge que en sortir de casa i caminar quinze minuts fins on té aparcat el cotxe s'adona que ha oblidat les claus. Sigui quina sigui la història que s’estigui explicant, aquesta turpitud farà que quan arribi a lloc la persona amb la qual s'havia de trobar hagi marxat molesta, que hagi perdut el tren o el vol que suposadament hauria prestat, que hagi tancat l’embarcament.",
+      "pdf": {
+        "page": 2
+      }
     },
     {
       "type": "paragraph",
-      "content": "Sigui quina sigui la història, el personatge no para de trobar-se amb coneguts que el retenen i arriba a misses dites. Ja és tancat i es veu obligat a canviar els objectius previstos. Sigui quina sigui la història que la protagonista encarna, anit covava el ferm propòsit de sortir a córrer cada matí d'aquesta setmana, però avui s'ha llevat amb el turmell inflat. La qüestió és: «<em>sigui quina sigui la història</em>», al personatge li passaran coses no previstes, i algunes li esdevindran per culpa seva, per forçar massa les situacions. Però no estic parlant del conflicte de la història, ni tan sols del conflicte del personatge, parlo d'entrebancs, de petites foteses, de molèsties, d'un cafè amb llet que li cau al damunt, parlo de trencar involuntàriament la corretja del rellotge d'una estrebada i veure’s obligat a passar pel taller del rellotger sense haver-ho previst.  Un personatge nostre o aliè no preveu que s’espatlli el cotxe. S’espatlla sobtadament, ha d’avisar la grua, es veu impedit i es troba fora del temps. A qui de vosaltres no li ha caigut el mòbil dins la tassa del vàter, encara? Tot queda suspès. Passa de vegades que aquestes anècdotes, els entrebancs, els impulsos, les enrabiades, les casualitats, les pulsions passen a un primer pla i d'una manera extraordinària eclipsen la història que es pretenia contar. La raó és que aquestes “causalitats” desplacen el discurs cap al correlat trencant la trama. Els personatges esdevenen humans, imperfectes, com qualsevol de nosaltres. La “causalitat” és un dels motius pel qual les grans novel·les sempre resulten imperfectes."
+      "content": "Sigui quina sigui la història, el personatge no para de trobar-se amb coneguts que el retenen i arriba a misses dites. Ja és tancat i es veu obligat a canviar els objectius previstos. Sigui quina sigui la història que la protagonista encarna, anit covava el ferm propòsit de sortir a córrer cada matí d'aquesta setmana, però avui s'ha llevat amb el turmell inflat. La qüestió és: «<em>sigui quina sigui la història</em>», al personatge li passaran coses no previstes, i algunes li esdevindran per culpa seva, per forçar massa les situacions. Però no estic parlant del conflicte de la història, ni tan sols del conflicte del personatge, parlo d'entrebancs, de petites foteses, de molèsties, d'un cafè amb llet que li cau al damunt, parlo de trencar involuntàriament la corretja del rellotge d'una estrebada i veure’s obligat a passar pel taller del rellotger sense haver-ho previst.  Un personatge nostre o aliè no preveu que s’espatlli el cotxe. S’espatlla sobtadament, ha d’avisar la grua, es veu impedit i es troba fora del temps. A qui de vosaltres no li ha caigut el mòbil dins la tassa del vàter, encara? Tot queda suspès. Passa de vegades que aquestes anècdotes, els entrebancs, els impulsos, les enrabiades, les casualitats, les pulsions passen a un primer pla i d'una manera extraordinària eclipsen la història que es pretenia contar. La raó és que aquestes “causalitats” desplacen el discurs cap al correlat trencant la trama. Els personatges esdevenen humans, imperfectes, com qualsevol de nosaltres. La “causalitat” és un dels motius pel qual les grans novel·les sempre resulten imperfectes.",
+      "pdf": {
+        "page": 2
+      }
     },
     {
       "type": "paragraph",
-      "content": "Una altra de les característiques que més m’agrada dels personatges són els dubtes. M’encanta veure com tremolen davant la incertesa, ja que d’una manera immediata esdevenen éssers reals, versemblants, iguals a tots nosaltres que mai no sabem si allò que decidim és el millor o si les conseqüències d’una decisió seran assumibles. No dic que dubtin entre el bé i el mal. Això em sembla pueril. Un món massa simplificat, només vàlid per a la literatura infantil. Dubtes que s’arrosseguen, que es porten enganxats a la pell i a l’ànima sense perdre mai la sensació d’equivocació, <em>sigui quina sigui </em>l’opció que es triï. Sempre he pensat que aquests dubtes humanitzen els personatges fins al punt que el lector no té altra opció que alinear-se, que veure’s reflectit, i és llavors, quan se’ls creuen, quan creu que l’autor escriu només per a ell, que ha sabut mirar dins el seu interior per un forat i que l’hi està retratant el seu dedins més íntim, que ho explica nítidament, com si el conegués de tota la vida. I és aleshores quan es produeix la màgia de la literatura. El lector encarna el personatge o al revés, tant se val una cosa com l’altra. Es viu la mateixa vida i ja no sabem si som nosaltres o algú que s’assembla a nosaltres. Som literatura."
+      "content": "Una altra de les característiques que més m’agrada dels personatges són els dubtes. M’encanta veure com tremolen davant la incertesa, ja que d’una manera immediata esdevenen éssers reals, versemblants, iguals a tots nosaltres que mai no sabem si allò que decidim és el millor o si les conseqüències d’una decisió seran assumibles. No dic que dubtin entre el bé i el mal. Això em sembla pueril. Un món massa simplificat, només vàlid per a la literatura infantil. Dubtes que s’arrosseguen, que es porten enganxats a la pell i a l’ànima sense perdre mai la sensació d’equivocació, <em>sigui quina sigui </em>l’opció que es triï. Sempre he pensat que aquests dubtes humanitzen els personatges fins al punt que el lector no té altra opció que alinear-se, que veure’s reflectit, i és llavors, quan se’ls creuen, quan creu que l’autor escriu només per a ell, que ha sabut mirar dins el seu interior per un forat i que l’hi està retratant el seu dedins més íntim, que ho explica nítidament, com si el conegués de tota la vida. I és aleshores quan es produeix la màgia de la literatura. El lector encarna el personatge o al revés, tant se val una cosa com l’altra. Es viu la mateixa vida i ja no sabem si som nosaltres o algú que s’assembla a nosaltres. Som literatura.",
+      "pdf": {
+        "page": 2,
+        "division": {
+          "alignLast": true,
+          "contentPage": "Una altra de les característiques que més m’agrada dels personatges són els dubtes. M’encanta veure com tremolen davant la incertesa, ja que d’una manera immediata esdevenen éssers reals, versemblants, iguals a tots nosaltres que mai no sabem si allò que decidim és el millor o si les conseqüències d’una decisió seran assumibles. No dic que dubtin entre el bé i el mal. Això em sembla pueril. Un món massa simplificat, només vàlid per a la literatura infantil. Dubtes que s’arrosseguen, que es porten enganxats a la pell i a l’ànima sense perdre mai la sensació d’equivocació, <em>sigui quina sigui </em>l’opció que es triï. Sempre he pensat que aquests dubtes humanitzen els personatges fins al punt que el lector no té altra opció que alinear-se, que veure’s reflectit, i és llavors, quan se’ls creuen, quan creu que l’autor escriu només per a ell, que ha sabut mirar dins el seu interior per un forat i que l’hi està retratant el seu dedins més íntim, que ho explica nítidament, com si el conegués de tota la vida. I és aleshores quan es produeix la màgia de la literatura. El lector encarna el",
+          "contentNextPage": "personatge o al revés, tant se val una cosa com l’altra. Es viu la mateixa vida i ja no sabem si som nosaltres o algú que s’assembla a nosaltres. Som literatura."
+        }
+      }
     }
+  ],
+  "publicationDate": {
+    "$date": "2025-06-28T22:00:00.000Z"
+  },
+  "isPublished": true,
+  "tags": [],
+  "readTime": 5,
+  "year": 2025,
+  "issueNumber": 48,
+  "createdAt": {
+    "$date": "2025-08-03T16:28:37.706Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-17T09:04:39.720Z"
+  },
+  "__v": 0,
+  "authors": [
+    "Valentí Puigdellívol"
   ]
 }

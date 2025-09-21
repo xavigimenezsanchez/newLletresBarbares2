@@ -1,40 +1,95 @@
 {
-    "title" : "Mirar i recordar: Una falena als dits, de Julia Hartwig",
-    "url" : "mirar_i_recordar_una_falena_als_dits_de_julia_hartwig",
-    "section" : "llibres",
-    "issue" : 48,
-    "data" : "29/06/2025",
-    "imageCard" : "chantalPoch48-01",
-    "author" : "Chantal Poch",
-    "summary" : "",
-    "text" : [
-        {
-            "type" : "image",
-            "name" : "chantalPoch48-01"
-        },
+  "_id": {
+    "$oid": "688f8e36ac16e0dadcf03d76"
+  },
+  "issueId": {
+    "$oid": "688f8e35ac16e0dadcf03d58"
+  },
+  "issue": 2025,
+  "data": "29/06/2025",
+  "imageCard": "chantalPoch48-01",
+  "title": "Mirar i recordar: Una falena als dits, de Julia Hartwig",
+  "url": "mirar_i_recordar_una_falena_als_dits_de_julia_hartwig",
+  "section": "llibres",
+  "author": "Chantal Poch",
+  "summary": "",
+  "text": [
     {
-      "type": "paragraph",
-      "content": "Escriu Julia Hartwig a “També és això”: “L’art és conjurar l’existència / perquè perduri / però el seu espai s’estira vers l’invisible”. La creació artística provaria de preservar la vida o, més exactament, de replicar-la; però aquesta rèplica creixeria fora del control de l’autor. Així amb els poemes de Hartwig, imatges del món on se n’escolen també les ombres."
+      "type": "image",
+      "name": "chantalPoch48-01",
+      "pdf": {
+        "page": 1
+      }
     },
     {
       "type": "paragraph",
-      "content": "<em>Una falena als dits</em> apropa per primera vegada al públic català l’obra de la polonesa Julia Hartwig, amb poemes que abasten tota la seva trajectòria. Una edició que respira cura i estima pel text i que fa créixer la petita gran aportació de Salze Editorial a les traduccions catalanes de poesia. Xavier Farré és l’encarregat de la tria i de la traducció, així com d’un cuidat prefaci que ens dona algunes claus contextuals en el cas de Hartwig ben necessàries si volem augmentar els nivells de la nostra lectura."
+      "content": "Escriu Julia Hartwig a “També és això”: “L’art és conjurar l’existència / perquè perduri / però el seu espai s’estira vers l’invisible”. La creació artística provaria de preservar la vida o, més exactament, de replicar-la; però aquesta rèplica creixeria fora del control de l’autor. Així amb els poemes de Hartwig, imatges del món on se n’escolen també les ombres.",
+      "pdf": {
+        "page": 1
+      }
     },
     {
       "type": "paragraph",
-      "content": "Necessàries per entendre la recepció de l’autora al seu país: companya de generació de Tadeusz Różewicz (en català en podem llegir <em>Udols d’un llop de paper</em> en traducció de Josep-Antoni Ysern per a Edicions 96), Zbigniew Herbert (<em>El senyor Cogito</em>, Xavier Farré, Eumo; <em>Informe des de la ciutat assetjada</em>, Grzegorz Gryc, Edicions de la Guerra) o Wisława Szymborska (<em>Instant</em>, Joanna Bielak, Eumo; <em>Vista amb un gra de sorra</em>, Josep M. de Sagarra, Columna), forma part d’un grup al qual podríem afegir Czesław Miłosz (<em>Travessant fronteres</em>, Xavier Farré, Proa; <em>La ment captiva</em>, Guillem Calaforra, Universitat de València), una mica anterior, que va situar la poesia polonesa al mapa d’Europa. Julia Hartwig (1921-2017), va rebre en vida cert reconeixement; però mai va ser valorada com aquests noms, i Farré s’ocupa d’analitzar aquesta diferència de tracte amb una enumeració de possibles motius que marcaria bona part de les caselles proposades per <em>Com destruir l’escriptura de les dones</em>, de Joanna Russ (Raig Verd)."
+      "content": "<em>Una falena als dits</em> apropa per primera vegada al públic català l’obra de la polonesa Julia Hartwig, amb poemes que abasten tota la seva trajectòria. Una edició que respira cura i estima pel text i que fa créixer la petita gran aportació de Salze Editorial a les traduccions catalanes de poesia. Xavier Farré és l’encarregat de la tria i de la traducció, així com d’un cuidat prefaci que ens dona algunes claus contextuals en el cas de Hartwig ben necessàries si volem augmentar els nivells de la nostra lectura.",
+      "pdf": {
+        "page": 1
+      }
     },
     {
       "type": "paragraph",
-      "content": "Claus necessàries, també, perquè en una de les moltes dimensions de l’obra de Hartwig ens trobem amb una literatura àmpliament referencial, sobretot pel que fa a topònims, però també profusa en noms propis. Al llarg de la selecció el lector topa amb personatges que van dels mitològics Posidó o Cronos a Raymund Gomez, un home que viu al C/ 87 de l’East Side de Nova York. Però entre els déus i la persona que viu a la porta del costat hi ha el gruix més gran de noms, els que pertanyen als artistes. Tiepolo, Lautréamont, Matisse, Schiller, Michaux, Allen Ginsberg, Borges, Friedrich, Georgia O'Keeffe, Apollinaire, Debussy o, més proper, Ramon Llull. “Digues quant de temps perduraran els noms antics”, fa el títol d’un dels poemes de “Tendresa”. Hartwig fa l’exercici de recollir aquests noms des de l’esperit del col·leccionista, no per afany d’exhibició sinó de preservació, perquè seria la immortalitat el que persegueix l’art, que tal com segueix el poema que citàvem inicialment, en la seva audàcia “busca la immortalitat / essent —com tot— mortal”; però, per damunt de tot, per una recerca permanent de connexió, per una voluntat d’anar a trobar-se en els altres. Envoltant la seva obra de l’obra dels que han existit prèviament, l’autora mostra certa fe en la capacitat de l’art per superar distàncies geogràfiques i temporals."
+      "content": "Necessàries per entendre la recepció de l’autora al seu país: companya de generació de Tadeusz Różewicz (en català en podem llegir <em>Udols d’un llop de paper</em> en traducció de Josep-Antoni Ysern per a Edicions 96), Zbigniew Herbert (<em>El senyor Cogito</em>, Xavier Farré, Eumo; <em>Informe des de la ciutat assetjada</em>, Grzegorz Gryc, Edicions de la Guerra) o Wisława Szymborska (<em>Instant</em>, Joanna Bielak, Eumo; <em>Vista amb un gra de sorra</em>, Josep M. de Sagarra, Columna), forma part d’un grup al qual podríem afegir Czesław Miłosz (<em>Travessant fronteres</em>, Xavier Farré, Proa; <em>La ment captiva</em>, Guillem Calaforra, Universitat de València), una mica anterior, que va situar la poesia polonesa al mapa d’Europa. Julia Hartwig (1921-2017), va rebre en vida cert reconeixement; però mai va ser valorada com aquests noms, i Farré s’ocupa d’analitzar aquesta diferència de tracte amb una enumeració de possibles motius que marcaria bona part de les caselles proposades per <em>Com destruir l’escriptura de les dones</em>, de Joanna Russ (Raig Verd).",
+      "pdf": {
+        "page": 1,
+        "division": {
+          "alignLast": true,
+          "contentPage": "Necessàries per entendre la recepció de l’autora al seu país: companya de generació de Tadeusz Różewicz (en català en podem llegir <em>Udols d’un llop de paper</em> en traducció de Josep-Antoni Ysern per a Edicions 96), Zbigniew Herbert (<em>El senyor Cogito</em>, Xavier Farré, Eumo; <em>Informe des de la ciutat assetjada</em>, Grzegorz Gryc, Edicions de la Guerra) o Wisława Szymborska (<em>Instant</em>, Joanna Bielak, Eumo; <em>Vista amb un gra de sorra</em>, Josep M. de Sagarra, Columna), forma part d’un grup al qual podríem afegir Czesław Miłosz (<em>Travessant fronteres</em>, Xavier Farré, Proa; <em>La ment captiva</em>,",
+          "contentNextPage": "Guillem Calaforra, Universitat de València), una mica anterior, que va situar la poesia polonesa al mapa d’Europa. Julia Hartwig (1921-2017), va rebre en vida cert reconeixement; però mai va ser valorada com aquests noms, i Farré s’ocupa d’analitzar aquesta diferència de tracte amb una enumeració de possibles motius que marcaria bona part de les caselles proposades per <em>Com destruir l’escriptura de les dones</em>, de Joanna Russ (Raig Verd)."
+        }
+      }
     },
     {
       "type": "paragraph",
-      "content": "El prefaci esmenta un comentari d’Anna Legeżyńska, especialista en l’obra de Hartwig, especialment interessant pel que fa a aquesta voluntat de connexió: “Ambdós poetes [Czesław Miłosz i Julia Hartwig], indubtablement, pertanyen al grup de poetes atents, que observen el món i es concentren en el ritme ocult, metafísic, del ser. Però els diferencia el grau de mostrar l’atenció en si mateixos. Miłosz sol endinsar-se a les profunditats del seu propi jo, fa recomptes de consciència. Julia Hartwig amb molta més freqüència trasllada el pensament del seu propi jo a altres persones. L’empatia (que és el contrari de l’egotisme) és el tret característic de la seva postura creativa i vital.” Aquesta tendència a l’empatia s’explicita en diverses ocasions en la idea de situar-se en la mirada de l’altre, humà o no. En tenim exemples al poema “Ser”, que comença amb un “ser en l’ocell que vola” i uns versos més avall continua “ser els ulls de l’aigua”; o a “Un cop”, en què cadascuna de les estrofes mana mirar d’una manera determinada: “Mira amb l’ull d’una formiga (...) Mira amb l’ull d’un ocell (...) Mira amb l’ull del cel i mira / amb l’ull de l’aigua l’ull de la víctima i l’ull del patiment (...)”. Dels ulls de l’ocell o del cel als de la víctima: aquesta actitud empàtica amb la resta d’éssers i elements que conformen el món podria donar com a resultat una excel·lent poesia paisatgística o d’observació, però en aquest espai de trobada amb l’altre que construeixen els poemes de Hartwig se n’hi infiltra també el dolor. Les ombres del món, que dèiem al principi."
+      "content": "Claus necessàries, també, perquè en una de les moltes dimensions de l’obra de Hartwig ens trobem amb una literatura àmpliament referencial, sobretot pel que fa a topònims, però també profusa en noms propis. Al llarg de la selecció el lector topa amb personatges que van dels mitològics Posidó o Cronos a Raymund Gomez, un home que viu al C/ 87 de l’East Side de Nova York. Però entre els déus i la persona que viu a la porta del costat hi ha el gruix més gran de noms, els que pertanyen als artistes. Tiepolo, Lautréamont, Matisse, Schiller, Michaux, Allen Ginsberg, Borges, Friedrich, Georgia O'Keeffe, Apollinaire, Debussy o, més proper, Ramon Llull. “Digues quant de temps perduraran els noms antics”, fa el títol d’un dels poemes de “Tendresa”. Hartwig fa l’exercici de recollir aquests noms des de l’esperit del col·leccionista, no per afany d’exhibició sinó de preservació, perquè seria la immortalitat el que persegueix l’art, que tal com segueix el poema que citàvem inicialment, en la seva audàcia “busca la immortalitat / essent —com tot— mortal”; però, per damunt de tot, per una recerca permanent de connexió, per una voluntat d’anar a trobar-se en els altres. Envoltant la seva obra de l’obra dels que han existit prèviament, l’autora mostra certa fe en la capacitat de l’art per superar distàncies geogràfiques i temporals.",
+      "pdf": {
+        "page": 2
+      }
     },
     {
       "type": "paragraph",
-      "content": "En poemes com “Elegia de Lublin” o “Cap on vagaregen” veiem com aquests infinits ulls de l’autora són, també, els ulls de la memòria. Una memòria feridora del passat polonès i europeu recent que impregna tota mirada. Al breu “Unes senyores seien” llegim: “Unes senyores seien prenent un cafè. / A mi em van arrencar les ungles —diu una. / Jo vaig estar sota els focus. / A damunt meu em va gotejar aigua dos dies. / A mi, em van destrossar els ronyons. / A mi, em van afusellar el fill, em cremaren el marit. / Unes senyores normals de Varsòvia”. L’atrocitat i la barbàrie es barregen amb la vida quotidiana: qui decideix observar el món es condemna a recordar. No llegirem als poemes de Hartwig grans expressions personals, perquè el seu dolor és el dolor que ve dels d’altres; això no significa, però, que el lector no pugui intuir una mica d’ella rere els poemes. Una mica que apareix des de la subtilitat de qui observa però que arriba carregada de força, perquè és aquesta observació, aquesta tria de mirades, la que s’erigeix en tota una lluita contra la uniformitat de pensament. “El món seglar, el profà, se separa només una passa del sacre. Però per què només alguns aconsegueixen fer aquella passa —això serà sempre un misteri”, escriu. Una mica d’ella que és capaç de fer aquesta gran passa creient en la possibilitat de la bellesa tal com ho havien fet abans tots els artistes que fa passejar pels seus poemes; una mica d’ella incapaç de separar aquesta bellesa del món on pertany, i que, d’aquesta manera, planteja la possibilitat d’una bellesa crítica."
+      "content": "El prefaci esmenta un comentari d’Anna Legeżyńska, especialista en l’obra de Hartwig, especialment interessant pel que fa a aquesta voluntat de connexió: “Ambdós poetes [Czesław Miłosz i Julia Hartwig], indubtablement, pertanyen al grup de poetes atents, que observen el món i es concentren en el ritme ocult, metafísic, del ser. Però els diferencia el grau de mostrar l’atenció en si mateixos. Miłosz sol endinsar-se a les profunditats del seu propi jo, fa recomptes de consciència. Julia Hartwig amb molta més freqüència trasllada el pensament del seu propi jo a altres persones. L’empatia (que és el contrari de l’egotisme) és el tret característic de la seva postura creativa i vital.” Aquesta tendència a l’empatia s’explicita en diverses ocasions en la idea de situar-se en la mirada de l’altre, humà o no. En tenim exemples al poema “Ser”, que comença amb un “ser en l’ocell que vola” i uns versos més avall continua “ser els ulls de l’aigua”; o a “Un cop”, en què cadascuna de les estrofes mana mirar d’una manera determinada: “Mira amb l’ull d’una formiga (...) Mira amb l’ull d’un ocell (...) Mira amb l’ull del cel i mira / amb l’ull de l’aigua l’ull de la víctima i l’ull del patiment (...)”. Dels ulls de l’ocell o del cel als de la víctima: aquesta actitud empàtica amb la resta d’éssers i elements que conformen el món podria donar com a resultat una excel·lent poesia paisatgística o d’observació, però en aquest espai de trobada amb l’altre que construeixen els poemes de Hartwig se n’hi infiltra també el dolor. Les ombres del món, que dèiem al principi.",
+      "pdf": {
+        "page": 2,
+        "division": {
+          "alignLast": true,
+          "contentPage": "El prefaci esmenta un comentari d’Anna Legeżyńska, especialista en l’obra de Hartwig, especialment interessant pel que fa a aquesta voluntat de connexió: “Ambdós poetes [Czesław Miłosz i Julia Hartwig], indubtablement, pertanyen al grup de poetes atents, que observen el món i es concentren en el ritme ocult, metafísic, del ser. Però els diferencia el grau de mostrar l’atenció en si mateixos. Miłosz sol endinsar-se a les profunditats del seu propi jo, fa recomptes de consciència. Julia Hartwig amb molta més freqüència trasllada el pensament del seu propi jo a altres persones. L’empatia (que és el contrari de l’egotisme) és el tret característic de la seva postura creativa i vital.” Aquesta tendència a l’empatia s’explicita en diverses ocasions en la idea de situar-se en la mirada de l’altre, humà o no. En tenim exemples al poema “Ser”, que comença amb un “ser en l’ocell que vola” i uns versos més avall continua “ser els ulls de l’aigua”; o a “Un cop”, en què cadascuna de les estrofes mana mirar d’una manera determinada: “Mira amb l’ull d’una formiga (...) Mira amb l’ull d’un ocell (...) Mira amb l’ull del cel i mira / amb l’ull de l’aigua l’ull de la víctima i l’ull del patiment (...)”. Dels ulls de l’ocell o del cel als de la víctima: aquesta actitud empàtica amb la resta d’éssers i elements que",
+          "contentNextPage": "conformen el món podria donar com a resultat una excel·lent poesia paisatgística o d’observació, però en aquest espai de trobada amb l’altre que construeixen els poemes de Hartwig se n’hi infiltra també el dolor. Les ombres del món, que dèiem al principi."
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "En poemes com “Elegia de Lublin” o “Cap on vagaregen” veiem com aquests infinits ulls de l’autora són, també, els ulls de la memòria. Una memòria feridora del passat polonès i europeu recent que impregna tota mirada. Al breu “Unes senyores seien” llegim: “Unes senyores seien prenent un cafè. / A mi em van arrencar les ungles —diu una. / Jo vaig estar sota els focus. / A damunt meu em va gotejar aigua dos dies. / A mi, em van destrossar els ronyons. / A mi, em van afusellar el fill, em cremaren el marit. / Unes senyores normals de Varsòvia”. L’atrocitat i la barbàrie es barregen amb la vida quotidiana: qui decideix observar el món es condemna a recordar. No llegirem als poemes de Hartwig grans expressions personals, perquè el seu dolor és el dolor que ve dels d’altres; això no significa, però, que el lector no pugui intuir una mica d’ella rere els poemes. Una mica que apareix des de la subtilitat de qui observa però que arriba carregada de força, perquè és aquesta observació, aquesta tria de mirades, la que s’erigeix en tota una lluita contra la uniformitat de pensament. “El món seglar, el profà, se separa només una passa del sacre. Però per què només alguns aconsegueixen fer aquella passa —això serà sempre un misteri”, escriu. Una mica d’ella que és capaç de fer aquesta gran passa creient en la possibilitat de la bellesa tal com ho havien fet abans tots els artistes que fa passejar pels seus poemes; una mica d’ella incapaç de separar aquesta bellesa del món on pertany, i que, d’aquesta manera, planteja la possibilitat d’una bellesa crítica.",
+      "pdf": {
+        "page": 3
+      }
     }
+  ],
+  "publicationDate": {
+    "$date": "2025-06-28T22:00:00.000Z"
+  },
+  "isPublished": true,
+  "tags": [],
+  "readTime": 5,
+  "year": 2025,
+  "issueNumber": 48,
+  "createdAt": {
+    "$date": "2025-08-03T16:28:38.394Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-17T09:04:40.709Z"
+  },
+  "__v": 0,
+  "authors": [
+    "Chantal Poch"
   ]
 }

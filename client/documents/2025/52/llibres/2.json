@@ -1,0 +1,263 @@
+{
+  "_id": {
+    "$oid": "68cee42ba6b5c7290c68a908"
+  },
+  "issue": 2025,
+  "data": "27/09/2025",
+  "imageCard": "camarasa51-01",
+  "title": "La literatura respon a la crida de la transversalitat",
+  "url": "la-literatura-respon-a-la-crida-de-la-transversalitat",
+  "section": "llibres",
+  "author": "Arnau Martín Camarasa",
+  "summary": "",
+  "publicationDate": {
+    "$date": "2025-09-27T22:00:00.000Z"
+  },
+  "isPublished": true,
+  "tags": [],
+  "readTime": 5,
+  "year": 2025,
+  "issueNumber": 51,
+  "authors": [
+    "Arnau Martín Camarasa"
+  ],
+  "text": [
+    {
+      "type": "image",
+      "name": "camarasa51-01",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "title",
+      "content": "A tall d’introducció: de la concreció de l'assaig al vol de la imaginació",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "El text present entén la literatura com un engranatge de transmissió que objectiva idees mitjançant la paraula escrita i que projecta, de generació en generació, mentalitats que engloben formes diverses de veure el món. Si bé la literatura més recordada sempre ha sacsejat els esquemes culturals que l'han acollit, també és cert que la història de les lletres és un vast raïm de concordances (i discordances) entre uns autors i els seus deixebles, els quals han conreat el seu estil propi a partir de l'influx dels seus referents. Aquests són predecessors escollits com a guies, com Sant Agustí per a Petrarca o Virgili per a Dante, i tots ells van vetllar perquè la nostra herència cultural respirés sana. Aquest assaig existeix gràcies a l'ànim que em suscita l'escriptura transversal de Rafael Argullol, la visió del qual s'ha de posar en relleu en un moment delicat de les Humanitats i l'Estètica.",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Una pregunta de base és si un assaig pot assolir el rang de la literatura, i, de moment, afirmo que sí, perquè la paraula té infinits graus de fondària segons la passió que l’engendra i la precisió que la fila. L'assaig és, per a la voluntat d'escriure, com les capes de la pell que recobreixen el nostre esquelet. D'altra banda, si la filosofia excava en les nostres maneres de fer per desenterrar interrogants, la literatura és un procés que, mitjançant l'absorció de tota mena de tècniques, filtra aquests dubtes i els expandeix. La filosofia estimula la pregunta i la literatura la incorpora en noves zones de difusió. Altrament dit, la literatura origina les tremolors que la filosofia esmorteeix. A efectes de resultat, però, la distinció entre totes dues mai no és diàfana.",
+      "pdf": {
+        "page": 1,
+        "division": {
+          "alignLast": true,
+          "contentPage": "Una pregunta de base és si un assaig pot assolir el rang de la literatura, i, de moment, afirmo que sí, perquè la paraula té infinits graus de fondària segons la passió que l’engendra i la precisió que la fila. L'assaig és, per a la voluntat d'escriure, com les capes de la pell que recobreixen el nostre esquelet. D'altra banda, si la filosofia excava en les nostres maneres de fer per desenterrar interrogants, la literatura és un procés que, mitjançant l'absorció de tota mena de tècniques, filtra aquests dubtes i els",
+          "contentNextPage": "expandeix. La filosofia estimula la pregunta i la literatura la incorpora en noves zones de difusió. Altrament dit, la literatura origina les tremolors que la filosofia esmorteeix. A efectes de resultat, però, la distinció entre totes dues mai no és diàfana."
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Cal fer esment que la literatura com a disciplina ja neix sent comparada, perquè parteix de la frondositat de la vida per prevaldre com a relat i llenguatge, i aquests sempre abracen ambivalències i sinergies. La literatura és de naturalesa interseccional i exigeix més coneixements dels que proveeix, perquè oscil·la entre l'experiència personal de l'escriptura i els seus miralls, contextos socials i marcs de suport. En aquest sentit, Argullol accepta aquesta condició, se la fa seva i la seva ploma treballa per habilitar possibilitats expressives en aquest terreny de clarobscurs. Alhora, per a ell la tradició pictòrica és un enclavament primordial i l'àmbit en el qual s’alça l'impuls de les seves facultats. Gràcies a ell, qui escriu aquests paràgrafs s'adona que una línia d’anàlisi interessant té a veure amb els graus d’adscripció dels autors respecte de la Història que ens precedeix, i podem apreciar si la fan respirar o no. Com Argullol ha deixat per escrit, gairebé com un lament a la manera de Montaigne, “quina gran companyia la del Diable per ignorar l'evolució de l'home”.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Els clàssics literaris, des d'Homer fins a Proust, són els que millor tensen la corda entre el vol de la fantasia imaginativa i l'aterratge a la terra ferma de la realitat, de la mateixa manera que la pintura occidental i la seva amplíssima galeria d'imatges, des del rupestre fins a l’avantguarda, han modelat i representat els punts àlgids de la nostra cultura. Per a Argullol, alguns dels autors citats i les tradicionals a les quals pertanyen són nutrients per al seu pensament i saba per la seva poètica. Aleshores, se situa amb esforç al nucli vibratori de la relació entre ells i de les sensacions que desencadenen.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "title",
+      "content": "Bellesa, plaer, memòria",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "En un nivell macroscòpic, la contribució de Rafael Argullol es lliura al pensament encarnat, a la dicotomia entre el viatge interior i l'exterior i al qüestionament de la intel·lectualització de la mirada. A parer seu, no hi pot germinar el coneixement sense força vital.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Els autors formats a la segona meitat del segle XX, i que han viscut de ben a prop les seves lluites, saben que comprendre alguna cosa no té res a veure amb la seva afirmació taxativa, i que durant el llarg periple de la raó moderna la filosofia ha encaixat les definicions de les coses en compartiments incomunicables entre si. Argullol és dels qui creu que més aviat es tracta de trobar vasos comunicants entre cada ocurrència perquè aquestes germinin en idees flexibles i assimilables. A la seva obra floreixen amb vivesa dues idees que afecten directament  la literatura i com ens hi relacionem, perquè en efecte, parlar de literatura és interpel·lar als lectors.",
+      "pdf": {
+        "page": 2,
+        "division": {
+          "alignLast": true,
+          "contentPage": "Els autors formats a la segona meitat del segle XX, i que han viscut de ben a prop les seves lluites, saben que comprendre alguna cosa no té res a veure amb la seva afirmació taxativa, i que durant el llarg periple de la raó moderna la filosofia ha encaixat les definicions de les coses en compartiments incomunicables entre si. Argullol és dels qui creu que més aviat es tracta de trobar vasos",
+          "contentNextPage": "creu que més aviat es tracta de trobar vasos comunicants entre cada ocurrència perquè aquestes germinin en idees flexibles i assimilables. A la seva obra floreixen amb vivesa dues idees que afecten directament  la literatura i com ens hi relacionem, perquè en efecte, parlar de literatura és interpel·lar als lectors."
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "A <em>Una educación sensorial </em>(2002) Argullol dissecciona els circuits de l'erotisme a partir d'un recorregut pel nu femení en la pintura. La contemplació estètica, anàlogament a la lectura d'un sonet o d'un conte, se sosté sobre un camp magnètic bidireccional, i el plaer no expira en el pur acte de mirar. Qui contempla allò bell és un caçador caçat que també es despulla a si mateix, ja que és absorbit per un remolí sensorial. D'altra banda, a la introducció del<em> Cazador de Instantes: Cuadernos de Travesía (1990-1995)</em>, l'autor ens deixa una de les seves meditacions més profundes sobre la poesia. Segons Argullol, aquest art promou un retorn d’allò reprimit que intenta desbrossar horitzons per fer persistir el desig. En aquest atzucac s'articula una doble premissa: la d’albirar allò bell com a activació del desig i, per altra banda, registrar la consciència de la seva insaciabilitat mitjançant la paraula poetitzada. Aquestes qüestions ens evoquen un sentir originari que sempre ha obsessionat a l'art.",
+      "pdf": {
+        "page": 3
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Escriure és autoretratar-se, i el retrat és el més màgic dels miralls, com creu Oscar Wilde, ja que revela el cos i fa brollar l'ànima. Tot i aspirar-hi, mai no podem tenir una concepció completa i íntegra del jo, per la qual cosa escriure o comparèixer davant d'un quadre també ens concilia amb les inconstants fluctuacions de la percepció. En aquest sentit, Argullol no desenvolupa el seu estudi sobre allò bell com una categoria a priori, sinó que més aviat s’aixopluga en el vessant místic de la psicoanàlisi, en l'òrbita de la fenomenologia i per descomptat en els cercles de l'estètica, ja que sap que escriure és donar voltes davant d’un buit central que sempre patim.<br /><br /><em>Una educación sensorial </em>retrocedeix al període de la pubertat de l'autor per pensar que en cada dimensió problemàtica de la sexualitat batega un fons regit per projeccions retardades dels mites primitius. Argullol exposa: “la primera nuesa del cos desitjat, quan confirma les expectatives del desig, és la forma de les formes, el centre de l'organisme il·limitat”. Com es tensiona la reminiscència de les primeres experiències eròtiques amb l'abric de la memòria personal?",
+      "pdf": {
+        "page": 3
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Atès que no podem forçar el nostre accés a cap sentir ancestral, i del qual els mites són dipòsits, sí que admetem que la fricció entre el record i la memòria desperta trossos de vida que se'ns van quedar flotant i que mai vam copsar del tot. Un d'aquells moments és sens dubte la primera vegada que ens enamorem d'una pintura o que ens enlluerna el passatge d'una novel·la; el que Roland Barthes concebia com a “punctum”, és a dir, una punxada que col·lapsa l'operativitat dels nostres sentits. Aquest estat permet entreveure un centelleig de plenitud que pausa el nostre desig de buscar, però només amb l'objectiu de reprendre'l després.",
+      "pdf": {
+        "page": 3,
+        "division": {
+          "alignLast": true,
+          "contentPage": "Atès que no podem forçar el nostre accés a cap sentir ancestral, i del qual els mites són dipòsits, sí que admetem que la fricció entre el record i la memòria desperta trossos de vida que se'ns van quedar flotant i que mai vam copsar del tot. Un d'aquells moments és sens dubte la primera vegada que ens enamorem d'una pintura o que ens enlluerna el passatge d'una novel·la; el que Roland",
+          "contentNextPage": "Barthes concebia com a “punctum”, és a dir, una punxada que col·lapsa l'operativitat dels nostres sentits. Aquest estat permet entreveure un centelleig de plenitud que pausa el nostre desig de buscar, però només amb l'objectiu de reprendre'l després."
+        }
+      }
+    },
+    {
+      "type": "image",
+      "name": "camarasa51-02",
+      "pdf": {
+        "page": 4
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Per estrany que resulti, la bellesa, que introdueix harmonia en la confusa multiplicitat, gravita sobre un mantell de tristesa. La bellesa és atàvica però <em>peterpanesca</em>, perquè respon a intents permanentment frustrats de no créixer, i com demostra Argullol, “ens inclina a una delectança de remor autodestructiva”. És preferible no inspirar-nos amb la bellesa des d'una única òptica, reconèixer-ne la ductilitat i ensumar els seus abismes des d'una distància segura. Abans que qualsevol altra virtut, l'exercici de la literatura o de la pintura són una ofrena a la bellesa.",
+      "pdf": {
+        "page": 4
+      }
+    },
+    {
+      "type": "title",
+      "content": "Romanticisme, seducció, fascinació",
+      "pdf": {
+        "page": 4
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Rafael Argullol és un estudiós del Romanticisme, del vitalisme impotent de les seves lletres i de la visceralitat torrencial dels seus artífexs. A<em> El héroe y el único</em> (1982), per exemple, elucida els secrets de l'ímpetu romàntic i segueix amb lupa el context en què es va engendrar.",
+      "pdf": {
+        "page": 4
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "La lucidesa ígnia i tràgica de Friedrich Hölderlin ens dona a entendre que en realitat el nihilisme que més ens corca és aquell que amaguem, i que moltes vegades batega sota la mascarada d'optimismes exuberants. Aquesta és la contradicció humana entre l'interior i l'exterior, una dialèctica que assalta la medul·la dels romàntics.",
+      "pdf": {
+        "page": 4,
+        "division": {
+          "alignLast": true,
+          "contentPage": "La lucidesa ígnia i tràgica de Friedrich Hölderlin ens dona a entendre que en realitat el nihilisme que més ens corca és aquell que amaguem, i que moltes vegades batega sota la mascarada",
+          "contentNextPage": "d'optimismes exuberants. Aquesta és la contradicció humana entre l'interior i l'exterior, una dialèctica que assalta la medul·la dels romàntics."
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Si es pot extreure una única idea de <em>El héroe y el único</em>, i això seria injust, podríem dir que ens solidaritza enfront de la magnificència dels grans intents. Argullol ens incita a pensar el fracàs com el trist destí d'unes ànimes virtuoses per les quals la vida no fou suficient. El seu compromís per estudiar la constel·lació que va unir aquests pintors i literats anglogermànics respon a un afany per explorar el fenomen de la malenconia, que l'escriptor defineix així: “és el rastre dolorós de la passió, un abandonament espiritual subtil que va unit a un subtil erotisme de la intel·ligència”. Una malenconia el fruit de la qual resideix en la incapacitat humana per dominar la natura, abordada pels romàntics com una immensa extensió omnicomprensiva que oscil·la entre les restriccions de la civilització i l’inefable.",
+      "pdf": {
+        "page": 5
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Argullol, a qui el<em> Faust </em>de Goethe li va canviar la vida, es deixa captivar per la raó romàntica, però es nodreix de l'equanimitat humanista assentada en l'imaginari grecollatí, com així constata el seu estudi sobre el <em>Quattrocento: arte y cultura del Renacimiento italiano</em> (2025).",
+      "pdf": {
+        "page": 5
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "A les seves mans, la literatura i l'assaig tomben tots els dics de contenció i prenen un camí de barreja, de discerniment i de troballa. No hi ha manera més propícia de sentir en carns pròpies l'encanteri de la literatura i de l'art que en l’exploració pacient dels detalls, directriu essencial de <em>El héroe y el único</em>. És en el detall, com reflexiona Daniel Arasse, on la comunió del subjecte amb l'objecte es forja íntimament. Tot i això, el motor de l'escriptura literària no es basa a entendre els detalls de la vida, sinó més aviat en rendir-se a la seducció. Almenys, en primera instància.",
+      "pdf": {
+        "page": 5
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "A les conceptualitzacions dels llibres d'Argullol crepita un fort component seductor, que és una flama molt propera a la fe. La seducció és la presentació d'un mateix que es desprèn dels filtres superficials i que troba un balanç hipnòtic amb el reclam de l'atenció de l'altre. Seduir és refinar la interacció i depurar-la dels excessos. Des d’aquest fonament, Argullol recalca que Friedrich Nietzsche, presa dels seus deliris dionisíacs, “va escriure la seva pròpia tragèdia”, és a dir, es va mostrar massa vertiginosament a si mateix. L'heroi de la tragèdia romàntica, pensa el nostre autor, “és un individu amb forta consciència de la seva identitat, trepitjat per la injuriosa mà del temps i que percep un esgotament imminent de la Història”. El Romanticisme congrega, continuant amb les seves paraules, “existències fràgils i pensaments forts”. Aquestes notes intimidants desvelen que al nostre temps s’acostuma a disseccionar les coses sense fer passar als analistes i als teòrics per cap estadi previ de fascinació.",
+      "pdf": {
+        "page": 5
+      }
+    },
+    {
+      "type": "title",
+      "content": "Imatges impossibles i veus inviables",
+      "pdf": {
+        "page": 6
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "<em>Visión desde el fondo del mar</em> (2010) és un tractat monumental d'anada i tornada que entén l'escriptura com un desbordament controlat. Els seus passatges més impactants evoquen imatges fonamentals, i que, precisament per ser-ho, no es poden trobar ni reconstruir.",
+      "pdf": {
+        "page": 6
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "<em>Visión </em>és una pregària a les passions, que són les manifestacions més elevades i intenses dels afectes. Argullol combina els ingredients de la literatura des d'una estructura coherent, però, tot i això, com assevera al llarg dels capítols, dissol les fronteres del jo i les orienta fora de si. L'autor de<em> La atracción del abismo </em>(1983) té en compte, per damunt de tot, el paper impregnant i global dels somnis, els quals no convé interpretar clínicament per no restringir el traç lliure de la praxi literària.",
+      "pdf": {
+        "page": 6
+      }
+    },
+    {
+      "type": "image",
+      "name": "camarasa51-03",
+      "pdf": {
+        "page": 6
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Argullol entén, com Maria Zambrano i abans Nietzsche, que l'essència de l'ésser humà és un constant engendrar-se i autocomprendre's. Som éssers en camí que com més aprenem, més ample és el radi de la nostra ignorància, i des de l’estètica kantiana hem assumit que no som la mesura de totes les coses, sinó que jutgem totes les coses des de la nostra mesura. Arran d’això, commou la definició del somni que ofereix l'escriptor com a “poesia involuntària”, ja que somiar respon a una domesticació no predisposada de les nostres necessitats més profundes. Arran de la seva perspectiva sobre el somni prenem consciència que la nostra voluntat és parcial respecte de moltes altres forces actuants en nosaltres.",
+      "pdf": {
+        "page": 6
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "<br />En aquesta òrbita, l’ambiciós llibre <em>Danza Humana</em> (2023), subdividit en deu seccions, és la inspecció febril d'aquestes inclinacions, com també un testimoni personal de la pandèmia de la covid, intuïda pel mateix Argullol a la ficció <em>La razón del mal</em> (1993).",
+      "pdf": {
+        "page": 7
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "L'escriptura, com s’aprecia en aquest gran text, proposa una recerca oberta de sentits i alberga una afluència d'imatges que mai no es materialitzen. L’afany exploratori d’Argullol assegura que l’escriptura és amiga de la incompletesa; no s'acaba, més aviat es deixa.",
+      "pdf": {
+        "page": 7
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "La teràpia silenciosa de l'escriptura oscil·la entre la reclusió íntima i la generositat de la compartició. Per a Argullol, escriure és conèixer-se i desconèixer-se alhora, lligar conviccions per després deslligar-les. Per aquest motiu, <em>Visión</em> i <em>Danza Humana </em>remen en contra de Narcís, obsessionat amb la percepció limitant del seu jo. En definitiva, la literatura respon a un imperatiu de despullar-nos davant la nostra condició tràgica, una pràctica que uneix cos i ment, ja que afecta igualment  la mà que pensa i el cervell que sent.",
+      "pdf": {
+        "page": 7
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "La recent publicació <em>Caminar, pensar, escribir</em> (2025) es consagra a una pluralitat de veus que contrasta amb l'anàlisi exhaustiva de la subjectivitat desplegada a <em>Danza Humana.</em> A <em>Caminar, pensar, escribir</em> irromp la mirada dels altres, que són espectadors, amics i també constructors paral·lels de sentit. Escriure és un acte impulsat de primeres pel narcisisme, però que reinstaura un equilibri interior en aquell que s'atreveix a fer-ho, perquè en nosaltres habiten massa veus i massa records que s'exclouen entre si.",
+      "pdf": {
+        "page": 7
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "La literatura assagística —o l’assaig literari— de Rafael Argullol travessa barreres, respecta l’esplendor dels enigmes i regurgita grans paradoxes per teixir-les amb creativitat. Recórrer els seus pensaments implica adonar-se que la interioritat és un origami o un bosc sense sortida. L'escriptor, davant de la seva obra, és un prestidigitador que amaga i que alhora revela els trucs, i la literatura és el barret del mag i també el seu conill blanc.",
+      "pdf": {
+        "page": 7
+      }
+    }
+  ]
+}

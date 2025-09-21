@@ -1,44 +1,102 @@
 {
-    "title" : "Si les guerres àvies...",
-    "url" : "si_les_guerres_avies",
-    "section" : "llibres",
-    "issue" : 48,
-    "data" : "29/06/2025",
-    "imageCard" : "natisoler48-01",
-    "author" : "Nati Soler",
-    "summary" : "",
-    "text" : [
-        {
-            "type" : "image",
-            "name" : "natisoler48-01"
-        },
- {
-      "type": "paragraph",
-      "content": "De qui són, Maica, àvies les guerres? Teves, meves, de tots? Com podem descendir de guerres... nosaltres?, si som persones inqüestionables. Treballem bojament per obtenir de tot el que el sistema diu que ens cal. Un sistema basat en la llibertat i en la democràcia. La llibertat a l'estil polit de John Stuart Mill i la democràcia en la línia de les implantades pels Estats Units d’Amèrica. Ambdues ens han costat d’aconseguir menys del que pensàvem perquè les hem pagat en molts terminis, tants, que hem oblidat el nombre i el cost real de cadascun. Però com que som hàbils, espavilats, intel·ligents, preparats, civilitzats i un munt d’adjectius més, seguint la teoria imposada, encabim la somniada llibertat en l’espai disponible entre la pròpia i la dels altres i, per a ser pràctics i realistes, construïm una campana de vidre al voltant de la nostra llibertat per evitar reaccions agressives en qualsevol dels sentits. La democràcia la vàrem muntar amb la condescendència, la bona voluntat de tots i la reinstauració monàrquica. Nosaltres, els seus suposats autors, les vàrem fer fortes i fermes. Sí, nosaltres, els que, just començat el segle, vam encunyar un decidit no a la guerra i, amb ell, vam comprar el dret a no tenir pupil·les d’estàtua i vàrem comprar-lo a un preu acceptable, al qual, de tant en tant, hem hagut d’afegir el cost d’alguna derrama, les darreres han estat la d’Ucraïna, perquè esgarrapa, i la de Gaza perquè sagna; però nosaltres, Maica, som una societat avançada, ecologista, feminista, pacifista, solidària, lliure... O, és que potser ho dubtes?"
+  "_id": {
+    "$oid": "688f8e36ac16e0dadcf03d7c"
+  },
+  "issueId": {
+    "$oid": "688f8e35ac16e0dadcf03d58"
+  },
+  "issue": 2025,
+  "data": "29/06/2025",
+  "imageCard": "natisoler48-01",
+  "title": "Si les guerres àvies...",
+  "url": "si_les_guerres_avies",
+  "section": "llibres",
+  "author": "Nati Soler Alcaide",
+  "summary": "",
+  "text": [
+    {
+      "type": "image",
+      "name": "natisoler48-01",
+      "pdf": {
+        "page": 1
+      }
     },
     {
       "type": "paragraph",
-      "content": "Del que ni tu ni jo dubtem, Maica, és de la tendència a la ironia. Em sembla, Maica Rafecas, que estàs convençuda de la utilitat de la ironia i asseguro que en fas un molt bon ús. En canvi, podria ser que dubtessis de la possessió social de tots els valors que t’acabo d’apuntar i ha estat aquest dubte el que t’ha fet escriure <em>Pupil·les d’estàtua</em>. Has escrit aquests sonors versos per deixondir-nos. Els has escrit i els has donat un ritme vibrant, intens i alt. El ritme imprescindible per a fer-nos adonar de la nostra fragilitat, provocada per una incoherència a la qual no sabem renunciar. Els has escrit pensant en el sentit més profund de cada paraula i concentrant en un sol vers interpretacions diferents, segons l’ànim o la sensibilitat del lector «en aquesta aigua està prohibit nedar»."
+      "content": "De qui són, Maica, àvies les guerres? Teves, meves, de tots? Com podem descendir de guerres... nosaltres?, si som persones inqüestionables. Treballem bojament per obtenir de tot el que el sistema diu que ens cal. Un sistema basat en la llibertat i en la democràcia. La llibertat a l'estil polit de John Stuart Mill i la democràcia en la línia de les implantades pels Estats Units d’Amèrica. Ambdues ens han costat d’aconseguir menys del que pensàvem perquè les hem pagat en molts terminis, tants, que hem oblidat el nombre i el cost real de cadascun. Però com que som hàbils, espavilats, intel·ligents, preparats, civilitzats i un munt d’adjectius més, seguint la teoria imposada, encabim la somniada llibertat en l’espai disponible entre la pròpia i la dels altres i, per a ser pràctics i realistes, construïm una campana de vidre al voltant de la nostra llibertat per evitar reaccions agressives en qualsevol dels sentits. La democràcia la vàrem muntar amb la condescendència, la bona voluntat de tots i la reinstauració monàrquica. Nosaltres, els seus suposats autors, les vàrem fer fortes i fermes. Sí, nosaltres, els que, just començat el segle, vam encunyar un decidit no a la guerra i, amb ell, vam comprar el dret a no tenir pupil·les d’estàtua i vàrem comprar-lo a un preu acceptable, al qual, de tant en tant, hem hagut d’afegir el cost d’alguna derrama, les darreres han estat la d’Ucraïna, perquè esgarrapa, i la de Gaza perquè sagna; però nosaltres, Maica, som una societat avançada, ecologista, feminista, pacifista, solidària, lliure... O, és que potser ho dubtes?",
+      "pdf": {
+        "page": 1
+      }
     },
     {
       "type": "paragraph",
-      "content": "Has construït una casa amb els teus versos i, és clar, els has donat veïns, uns veïns que m’esgarrifen: els ninots. El primer poema es diu “Ninots de neu” i l’últim “Ninots de gel”. Entre l’un i l’altre hem passat per vint-i-una matèries diferents, que em fan pensar, analitzar, recordar, cercar les característiques de cadascuna. Hi ha plom, argila, pedra, plàstic, pell, terra, cera, sal, llautó... i ciment, i he recordat <em>La mort i la primavera</em> de la Mercè Rodoreda, on passa el que dius «Aquesta rutina / és fixar la mirada… el ciment anava per dins». Totes les matèries anomenades són útils per a fer estàtues o carcasses per protegir o transfigurar les imperfeccions, amb les que ens ha dotat la natura o nosaltres mateixos, sotmetent-nos de grat, o entabanats per les modes en trànsit."
+      "content": "Del que ni tu ni jo dubtem, Maica, és de la tendència a la ironia. Em sembla, Maica Rafecas, que estàs convençuda de la utilitat de la ironia i asseguro que en fas un molt bon ús. En canvi, podria ser que dubtessis de la possessió social de tots els valors que t’acabo d’apuntar i ha estat aquest dubte el que t’ha fet escriure <em>Pupil·les d’estàtua</em>. Has escrit aquests sonors versos per deixondir-nos. Els has escrit i els has donat un ritme vibrant, intens i alt. El ritme imprescindible per a fer-nos adonar de la nostra fragilitat, provocada per una incoherència a la qual no sabem renunciar. Els has escrit pensant en el sentit més profund de cada paraula i concentrant en un sol vers interpretacions diferents, segons l’ànim o la sensibilitat del lector «en aquesta aigua està prohibit nedar».",
+      "pdf": {
+        "page": 1,
+        "division": {
+          "alignLast": true,
+          "contentPage": "Del que ni tu ni jo dubtem, Maica, és de la tendència a la ironia. Em sembla, Maica Rafecas, que",
+          "contentNextPage": "estàs convençuda de la utilitat de la ironia i asseguro que en fas un molt bon ús. En canvi, podria ser que dubtessis de la possessió social de tots els valors que t’acabo d’apuntar i ha estat aquest dubte el que t’ha fet escriure <em>Pupil·les d’estàtua</em>. Has escrit aquests sonors versos per deixondir-nos. Els has escrit i els has donat un ritme vibrant, intens i alt. El ritme imprescindible per a fer-nos adonar de la nostra fragilitat, provocada per una incoherència a la qual no sabem renunciar. Els has escrit pensant en el sentit més profund de cada paraula i concentrant en un sol vers interpretacions diferents, segons l’ànim o la sensibilitat del lector «en aquesta aigua està prohibit nedar»."
+        }
+      }
     },
     {
       "type": "paragraph",
-      "content": "Mentre aquest llistat de diferents matèries ens fa trescar entre renúncies, crítica social i esperança fonamentada, la poeta ens porta de la neu al gel, fent-nos conscients del perillós i fàcil que és permetre a la nostra mirada convertir-se en la mirada d’una pupil·la d’estàtua, fet constatat pel citat Ödön von Horváth: «L’ànima de les persones es tornarà impassible com la cara d’un peix»."
+      "content": "Has construït una casa amb els teus versos i, és clar, els has donat veïns, uns veïns que m’esgarrifen: els ninots. El primer poema es diu “Ninots de neu” i l’últim “Ninots de gel”. Entre l’un i l’altre hem passat per vint-i-una matèries diferents, que em fan pensar, analitzar, recordar, cercar les característiques de cadascuna. Hi ha plom, argila, pedra, plàstic, pell, terra, cera, sal, llautó... i ciment, i he recordat <em>La mort i la primavera</em> de la Mercè Rodoreda, on passa el que dius «Aquesta rutina / és fixar la mirada… el ciment anava per dins». Totes les matèries anomenades són útils per a fer estàtues o carcasses per protegir o transfigurar les imperfeccions, amb les que ens ha dotat la natura o nosaltres mateixos, sotmetent-nos de grat, o entabanats per les modes en trànsit.",
+      "pdf": {
+        "page": 2
+      }
     },
     {
       "type": "paragraph",
-      "content": "La poesia és una peça important en aquest llibre. No ho és perquè estigui escrit en línies curtes. Ho és perquè aquest és un llibre de poesia. És un llibre de poesia perquè deixa un pòsit indefinible i màgic, traspua, salica constantment; notem el solatge, el toquem i «... toquem el cim, llegim entre ulls /... ballem al buit / viatgem on ens diguin... / Declarem que la poesia és imprescindible» i recuperem el saber i el bon dir d’un gran poeta que dorm, Gerard Vergés, i que per Maica Rafecas és referent, un poeta que no sé si va experimentar «... el vòmit que em provoca / la política poètica» denunciada."
+      "content": "Mentre aquest llistat de diferents matèries ens fa trescar entre renúncies, crítica social i esperança fonamentada, la poeta ens porta de la neu al gel, fent-nos conscients del perillós i fàcil que és permetre a la nostra mirada convertir-se en la mirada d’una pupil·la d’estàtua, fet constatat pel citat Ödön von Horváth: «L’ànima de les persones es tornarà impassible com la cara d’un peix».",
+      "pdf": {
+        "page": 2
+      }
     },
     {
       "type": "paragraph",
-      "content": "Les denúncies de l’autora són fetes mitjançant la destil·lació d’uns ideals clars, que exposa al lector fent repensar situacions viscudes i que arriben al punt culminant a l’epíleg, on les matèries, que donen nom a cada poema, ja no són útils per a fer estàtues, són trivials, gens aptes per a donar formes rígides. La darrera matèria poetitzada, el fang, diu la llegenda que va ser usada per a construir-nos a nosaltres, l’espècie humana. Vam ser fets d’un material pobre, embafador, enganxós i estantís i, així i tot, actualment continuem utilitzant-lo per a fer els peus de totes les estàtues. La Maica Rafecas es val del fang per a fer-ne encertat símbol del clam que no és escoltat, i no ho és perquè ¿des de quan, Maica, s’escolta el poble?"
+      "content": "La poesia és una peça important en aquest llibre. No ho és perquè estigui escrit en línies curtes. Ho és perquè aquest és un llibre de poesia. És un llibre de poesia perquè deixa un pòsit indefinible i màgic, traspua, salica constantment; notem el solatge, el toquem i «... toquem el cim, llegim entre ulls /... ballem al buit / viatgem on ens diguin... / Declarem que la poesia és imprescindible» i recuperem el saber i el bon dir d’un gran poeta que dorm, Gerard Vergés, i que per Maica Rafecas és referent, un poeta que no sé si va experimentar «... el vòmit que em provoca / la política poètica» denunciada.",
+      "pdf": {
+        "page": 2
+      }
     },
     {
       "type": "paragraph",
-      "content": "L’autora, que ens ha fet pensar i cercar, aconsegueix somoure, definitivament, els sentiments del lector, seguint el model clàssic de l’epíleg, situant-nos amb ell en llocs coneguts i convidant-nos a sentir «el puny obert... amor... llibertat... tendresa... la llengua...» Convidant-nos a sentir-nos ser."
+      "content": "Les denúncies de l’autora són fetes mitjançant la destil·lació d’uns ideals clars, que exposa al lector fent repensar situacions viscudes i que arriben al punt culminant a l’epíleg, on les matèries, que donen nom a cada poema, ja no són útils per a fer estàtues, són trivials, gens aptes per a donar formes rígides. La darrera matèria poetitzada, el fang, diu la llegenda que va ser usada per a construir-nos a nosaltres, l’espècie humana. Vam ser fets d’un material pobre, embafador, enganxós i estantís i, així i tot, actualment continuem utilitzant-lo per a fer els peus de totes les estàtues. La Maica Rafecas es val del fang per a fer-ne encertat símbol del clam que no és escoltat, i no ho és perquè ¿des de quan, Maica, s’escolta el poble?",
+      "pdf": {
+        "page": 2,
+        "division": {
+          "alignLast": true,
+          "contentPage": "Les denúncies de l’autora són fetes mitjançant la destil·lació d’uns ideals clars, que exposa al lector fent repensar situacions viscudes i que arriben al punt culminant a l’epíleg, on les matèries, que donen nom a cada poema, ja no són útils per a fer estàtues, són trivials, gens aptes per a donar formes rígides. La darrera matèria poetitzada, el fang, diu la llegenda que va ser usada per a",
+          "contentNextPage": "construir-nos a nosaltres, l’espècie humana. Vam ser fets d’un material pobre, embafador, enganxós i estantís i, així i tot, actualment continuem utilitzant-lo per a fer els peus de totes les estàtues. La Maica Rafecas es val del fang per a fer-ne encertat símbol del clam que no és escoltat, i no ho és perquè ¿des de quan, Maica, s’escolta el poble?"
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "L’autora, que ens ha fet pensar i cercar, aconsegueix somoure, definitivament, els sentiments del lector, seguint el model clàssic de l’epíleg, situant-nos amb ell en llocs coneguts i convidant-nos a sentir «el puny obert... amor... llibertat... tendresa... la llengua...» Convidant-nos a sentir-nos ser.",
+      "pdf": {
+        "page": 3
+      }
     }
+  ],
+  "publicationDate": {
+    "$date": "2025-06-28T22:00:00.000Z"
+  },
+  "isPublished": true,
+  "tags": [],
+  "readTime": 5,
+  "year": 2025,
+  "issueNumber": 48,
+  "createdAt": {
+    "$date": "2025-08-03T16:28:38.619Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-17T09:04:41.027Z"
+  },
+  "__v": 0,
+  "authors": [
+    "Nati Soler Alcaide"
   ]
 }

@@ -1,0 +1,52 @@
+{
+  "_id": {
+    "$oid": "68cebdf3a6b5c7290c68a8f7"
+  },
+  "year": 2025,
+  "number": 51,
+  "publicationDate": {
+    "$date": "2025-09-27T00:00:00.000Z"
+  },
+  "title": "Lletres Bàrbares - Número 51",
+  "isPublished": true,
+  "coverImage": "numero51",
+  "totalArticles": 12,
+  "sections": [
+    "articles",
+    "creacio",
+    "llibres"
+  ],
+  "articlesOrder": [
+    {
+      "$oid": "68cebbb6a6b5c7290c68a8f4"
+    },
+    {
+      "$oid": "68cec31aa6b5c7290c68a8f9"
+    },
+    {
+      "$oid": "68cec717a6b5c7290c68a8fb"
+    },
+    {
+    "$oid": "68cec9faa6b5c7290c68a8fe"
+    },
+    {
+      "$oid": "68cece7ea6b5c7290c68a900"
+    },
+    {
+      "$oid": "68ced1a5a6b5c7290c68a902"
+    },
+    {
+      "$oid": "68ced8cba6b5c7290c68a904"
+    },
+    {
+      "$oid": "68cee6fea6b5c7290c68a90a"
+    },
+    {
+      "$oid": "68cedf60a6b5c7290c68a906"
+    },
+    {
+      "$oid": "68cee42ba6b5c7290c68a908"
+    }
+  ],
+  "pdfManual": true
+}

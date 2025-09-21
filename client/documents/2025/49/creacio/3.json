@@ -1,46 +1,99 @@
 {
-    "title" : "Quadern de les cigales (5). En Mansuet, o l’art d’ocupar el lloc (un conte cínic i breu)",
-    "url" : "quadern-de-les-cigales-5",
-    "section" : "creacio",
-    "issue" : 48,
-    "data" : "29/06/2025",
-    "imageCard" : "andreu48-01",
-    "author" : "Andreu Pérez-Mingorance",
-    "summary" : "",
-    "text" : [ 
-      {
-        "type": "image",
-        "name": "andreu48-01",
-        "content": "Dibuix guardat i esguerrat, gairebé sense pretensió de cap mena, 2011"
-      },
+  "_id": {
+    "$oid": "688f8e36ac16e0dadcf03d70"
+  },
+  "issueId": {
+    "$oid": "688f8e35ac16e0dadcf03d58"
+  },
+  "issue": 2025,
+  "data": "29/06/2025",
+  "imageCard": "andreu48-01",
+  "title": "Quadern de les cigales (5). En Mansuet, o l’art d’ocupar el lloc (un conte cínic i breu)",
+  "url": "quadern-de-les-cigales-5",
+  "section": "creacio",
+  "author": "Andreu Pérez-Mingorance",
+  "summary": "",
+  "text": [
     {
-      "type": "paragraph",
-      "content": "En Mansuet, fill adoptiu de totes les xarxes oficials i amb cap idea pròpia, va néixer per ocupar llocs. No qualsevol lloc: el lloc. Aquell espai invisible, però imprescindible, que la cultura contemporània reserva als que saben aplaudir amb les dues mans —i, si cal, amb els peus— qualsevol consigna que vingui de dalt. En Mansuet no escrivia, ni llegia, ni tan sols fingia pensar: era, simplement, present. I això, al món editorial d’avui, és un mèrit superior a qualsevol mèrit."
+      "type": "image",
+      "name": "andreu48-01",
+      "content": "Dibuix guardat i esguerrat, gairebé sense pretensió de cap mena, 2011",
+      "pdf": {
+        "page": 1
+      }
     },
     {
       "type": "paragraph",
-      "content": "Quan la llibertat, embolicada en paper de cel·lofana, intentava sortir per la porta del darrere, en Mansuet ja hi era, amb el seu paquet de frases fetes i el seu somriure de catàleg. Els desitjos reals? Massa artístics. La musa? Massa imprevisible. L’èxit? Massa feina. En Mansuet sabia que la veritable glòria era la de no fer ombra a ningú, la d’encaixar perfectament a la molta de la mediocritat, d’ocupar aquell lloc que ningú volia, però que tothom acabava envejant."
+      "content": "En Mansuet, fill adoptiu de totes les xarxes oficials i amb cap idea pròpia, va néixer per ocupar llocs. No qualsevol lloc: el lloc. Aquell espai invisible, però imprescindible, que la cultura contemporània reserva als que saben aplaudir amb les dues mans —i, si cal, amb els peus— qualsevol consigna que vingui de dalt. En Mansuet no escrivia, ni llegia, ni tan sols fingia pensar: era, simplement, present. I això, al món editorial d’avui, és un mèrit superior a qualsevol mèrit.",
+      "pdf": {
+        "page": 1
+      }
     },
     {
       "type": "paragraph",
-      "content": "A la ciutat, en Mansuet brillava amb la llum apagada dels neons reciclats. Els editors —autèntics funambulistes de la innovació inofensiva— el veneraven: “Quina capacitat de ser sense ser, de dir sense dir, de publicar sense incomodar!” Els crítics, cansats de pensar, el celebraven amb elogis que podrien servir per a qualsevol altre Mansuet intercanviable. La cultura, mentrestant, esdevenia una sala d’espera on només es reparteixen premis per ordre d’arribada, no per mèrit ni per risc."
+      "content": "Quan la llibertat, embolicada en paper de cel·lofana, intentava sortir per la porta del darrere, en Mansuet ja hi era, amb el seu paquet de frases fetes i el seu somriure de catàleg. Els desitjos reals? Massa artístics. La musa? Massa imprevisible. L’èxit? Massa feina. En Mansuet sabia que la veritable glòria era la de no fer ombra a ningú, la d’encaixar perfectament a la molta de la mediocritat, d’ocupar aquell lloc que ningú volia, però que tothom acabava envejant.",
+      "pdf": {
+        "page": 1
+      }
     },
     {
       "type": "paragraph",
-      "content": "En Llorenç, el poeta que encara guardava somnis al fons d’un calaix, mirava en Mansuet amb la barba d’enveja i tristesa de qui sap que la veritat no té lloc al catàleg. “Només cal ocupar el lloc”, pensava, mentre la ciutat aplaudia el silenci, la repetició, la rendició."
+      "content": "A la ciutat, en Mansuet brillava amb la llum apagada dels neons reciclats. Els editors —autèntics funambulistes de la innovació inofensiva— el veneraven: “Quina capacitat de ser sense ser, de dir sense dir, de publicar sense incomodar!” Els crítics, cansats de pensar, el celebraven amb elogis que podrien servir per a qualsevol altre Mansuet intercanviable. La cultura, mentrestant, esdevenia una sala d’espera on només es reparteixen premis per ordre d’arribada, no per mèrit ni per risc.",
+      "pdf": {
+        "page": 1,
+        "division": {
+          "alignLast": true,
+          "contentPage": "A la ciutat, en Mansuet brillava amb la llum apagada dels neons reciclats. Els editors —autèntics funambulistes de la innovació inofensiva— el veneraven: “Quina capacitat de ser sense ser, de dir sense dir, de publicar sense incomodar!” Els crítics, cansats de pensar, el celebraven amb elogis que",
+          "contentNextPage": "podrien servir per a qualsevol altre Mansuet intercanviable. La cultura, mentrestant, esdevenia una sala d’espera on només es reparteixen premis per ordre d’arribada, no per mèrit ni per risc."
+        }
+      }
     },
     {
       "type": "paragraph",
-      "content": "Finalment, fidel a la seva missió, va acabar sent un referent: la prova viva que la cultura pot sobreviure sense idees, que l’editorial pot prosperar sense llibres, que la crítica pot aplaudir sense criteri, mentre la llibertat buscava la sortida i la musa feia les maletes per no ocupar mai més el lloc. El lloc. Sempre el lloc."
+      "content": "En Llorenç, el poeta que encara guardava somnis al fons d’un calaix, mirava en Mansuet amb la barba d’enveja i tristesa de qui sap que la veritat no té lloc al catàleg. “Només cal ocupar el lloc”, pensava, mentre la ciutat aplaudia el silenci, la repetició, la rendició.",
+      "pdf": {
+        "page": 2
+      }
     },
     {
       "type": "paragraph",
-      "content": "“Un mediocre?”, xiuxiuejava la llibertat, però ningú no la sentia. En Mansuet ja havia ocupat el seu lloc, honest i sense gust."
+      "content": "Finalment, fidel a la seva missió, va acabar sent un referent: la prova viva que la cultura pot sobreviure sense idees, que l’editorial pot prosperar sense llibres, que la crítica pot aplaudir sense criteri, mentre la llibertat buscava la sortida i la musa feia les maletes per no ocupar mai més el lloc. El lloc. Sempre el lloc.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "“Un mediocre?”, xiuxiuejava la llibertat, però ningú no la sentia. En Mansuet ja havia ocupat el seu lloc, honest i sense gust.",
+      "pdf": {
+        "page": 2
+      }
     },
     {
       "type": "paragraph",
       "styles": "{\"textAlign\":\"right\", \"fontSize\":\"0.813rem\"}",
-      "content": "<em>“La cultureta és una mena de secta o de tribu urbana que es dedica a fer veure que fa cultura, però que, en realitat, només fa que parlar d’ella mateixa”</em></br>(Joan de Sagarra, article “Cultureta”, publicat a La Vanguardia el 21 de gener de 2003.)"
+      "content": "<em>“La cultureta és una mena de secta o de tribu urbana que es dedica a fer veure que fa cultura, però que, en realitat, només fa que parlar d’ella mateixa”</em></br>(Joan de Sagarra, article “Cultureta”, publicat a La Vanguardia el 21 de gener de 2003.)",
+      "pdf": {
+        "page": 2
+      }
     }
+  ],
+  "publicationDate": {
+    "$date": "2025-06-28T22:00:00.000Z"
+  },
+  "isPublished": true,
+  "tags": [],
+  "readTime": 5,
+  "year": 2025,
+  "issueNumber": 48,
+  "createdAt": {
+    "$date": "2025-08-03T16:28:38.158Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-17T09:04:40.393Z"
+  },
+  "__v": 0,
+  "authors": [
+    "Andreu Pérez-Mingorance"
   ]
 }

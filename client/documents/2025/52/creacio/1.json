@@ -1,0 +1,110 @@
+{
+  "_id": {
+    "$oid": "68ced8cba6b5c7290c68a904"
+  },
+  "issue": 2025,
+  "data": "27/09/2025",
+  "imageCard": "andreu51-02-01",
+  "title": "Quadern de les cigales (8). Emborratxat per la raola i el pa enverinat pel fill del forner",
+  "url": "quadern-de-les-cigales-8",
+  "section": "creacio",
+  "author": "Andreu Pérez-Mingorance",
+  "summary": "Quina sort tindria si fos això el que brollés de la meva boca: zambra pura, sense frontera de llengua ni d’accent, paraula viva com un doll que no s’atura.<br />Tot podria ser cendra, foc punyent encès a flor de pell, capaç de parir un ritme net, ardent, però vau matar el compàs per ofegar-me l’alè.",
+  "publicationDate": {
+    "$date": "2025-09-27T22:00:00.000Z"
+  },
+  "isPublished": true,
+  "tags": [],
+  "readTime": 5,
+  "year": 2025,
+  "issueNumber": 51,
+  "authors": [
+    "Andreu Pérez-Mingorance"
+  ],
+  "text": [
+    {
+      "type": "image",
+      "name": "andreu51-02-01",
+      "content": "Raola, <em>Coriaria myrtifolia</em>",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Ara el cristall —els mil bocins de realitat— m’ha obert un tall viu a la carn dels sentiments; però no hi ha res tan real i tan irreal com aquest esquinç cerebral que gairebé no deixa pensar ningú, llevat d’una forma viva i sensible.",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "El monstre gegant de pedra, que m’ha lligat a aquesta realitat quasi incerta, ja no em deixa respirar; m’arriba l’olor de tot allò que s’ha podrit a la nostra irreal vida civilitzada.",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Embriagats en un prat ple de raola, com cabres desbocades, veig moribunda tota una massa humana, en una barreja de raola i pa enverinat per la banya del sègol. Així puc mirar, amb lucidesa desesperada, aquesta espècie absurda que exalça guerres a les quals mai no lliuraria els seus fills.",      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Tard, massa tard, s'han despertat!",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "La llarguíssima llengua de sang humana ha obert un camí dramàtic i perdut entre Orient i Occident, tenyint d’un roig d’ombra tots els horitzons.",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Ho deia una vella sàvia, és fàcil encendre la rancúnia, l’espurna del conflicte, però és gairebé impossible aturar-ne el foc.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Ulisses, encadenat al vaixell i temptat pels cants captivadors de les sirenes, és nosaltres, part viva nostra: nosaltres, encegats i embogits per veus que ens roben la paraula reconciliadora i la pau.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "La bogeria, la guerra, els monstres Escil·la i Caribdis, ens engoleixen sense pietat; i la raola, nimfa de l’embriaguesa fatal, erigeix els homes en Polifems retòrics, encegats pel pa amb banya de sègol que només el forner coneix.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Però no hi ha retorn per a qui, temptat pel verí de la raola, emborratxa l’esperit i ofega l’empatia.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Ulisses hagué de resistir la temptació i reprendre el periple de l’esperança. Així nosaltres hem de resistir la follia de qualsevol guerra, perquè cap causa —per molt justa que es proclami— pot justificar la carn esqueixada, les llàgrimes dels infants i la sang vessada.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "<div style=\"display: flex; justify-content: flex-end \"><div style=\"font-size: 0.9rem; display: flex; flex-direction: column; align-items: flex-end;\"><em>terra de migjorn, pinar<br/>i aigua blava, la mateixa<br/>que banya l'Àfrica i deixa<br/>a la platja estels de mar.</em><br /><br /><div style=\"text-align: right;\">Llorenç Vidal i Vidal, a <em>Santanyí, des de la diàspora</em>, 1994</div></div></div>",
+      "pdf": {
+        "page": 2
+      }
+    }
+  ]
+}

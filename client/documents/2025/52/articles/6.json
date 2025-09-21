@@ -1,0 +1,97 @@
+{
+  "_id": {
+    "$oid": "68cec9faa6b5c7290c68a8fe"
+  },
+  "issue": 2025,
+  "data": "27/09/2025",
+  "imageCard": "carbonell51-01-01",
+  "title": "Versions modernes i lectors mandrosos",
+  "url": "versions_modernes_i_lectors_mandrosos",
+  "section": "articles",
+  "author": "Àngel Carbonell",
+  "summary": "",
+  "publicationDate": {
+    "$date": "2025-09-27T22:00:00.000Z"
+  },
+  "isPublished": true,
+  "tags": [],
+  "readTime": 5,
+  "year": 2025,
+  "issueNumber": 51,
+  "authors": [
+    "Àngel Carbonell"
+  ],
+  "text": [
+    {
+      "type": "image",
+      "name": "carbonell51-01-01",
+      "content": "Cançoner S<sup>g</sup>, f. 40v, ms. 146 de la Biblioteca Nacional de Catalunya",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Els últims anys, ha sorgit una tendència inquietant al sector editorial català, la proliferació d’adaptacions i “versions modernes” de clàssics medievals pensades, en teoria, per facilitar-ne la lectura al gran públic. L’argument sol ser sempre el mateix, el català antic, amb les seves formes llunyanes, ja no resulta accessible per a la majoria dels lectors, sovint joves, o, en definitiva, per a lectors “mandrosos” que defugen l’esforç d’un català estrany. Aquesta pràctica, però, esdevé profundament problemàtica tant pel que fa a la relació amb el patrimoni literari com en l’ideari cultural que propugna i perpetua.",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Llegir Ausiàs March o Joanot Martorell en una versió modernitzada implica molt més que una simple actualització lèxica; suposa trencar el fil invisible que uneix lector i època d’origen. El valor d’un clàssic medieval rau, precisament, en la seva alteritat, en l’estranyesa i l’abisme temporal i expressiu que planteja. Aquesta distància, lluny de ser un obstacle, és condició d’enriquiment, només en el xoc amb el passat podem comprendre millor el present, només travessant la selva lingüística de l’antic podem copsar la complexitat de la modernitat. ¿De debò creiem que el lector català és tan incapaç o tan poc rigorós que ha de ser “protegit” d’aquest desafiament, condemnat a la versió edulcorada d’un patrimoni que, per definició, demana esforç?",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "L’obsessió per fer-ho tot fàcil alimenta una cultura minvada, la lectura dels clàssics esdevé literatura de consum ràpid, sense rugositat ni profunditat, adaptada a la pressa d’un món que rebutja tot allò que hi implica desplaçament, dificultat o temps. Aquesta tendència no és innocent. Si llegir <em>Tirant lo Blanc</em> o una col·lecció de parlaments pronunciats a les Corts medievals en llengua original demana un cert entrenament i actitud activa, la versió moderna promou la mandra i l’expectativa d’un patrimoni sempre “mà a mà”, servit sense cap esforç. Quin lector seriós pot pretendre “sentir” el pes històric i simbòlic d’una època si, d’entrada, desestimem el seu idioma, la seva textura, el seu batec particular?",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Els promotors d’aquestes adaptacions al·leguen sovint el desig d’“apropar” els clàssics a nous lectors. La veritat, però, és que el que s’assoleix és l’afebliment de la capacitat crítica, l’empobriment de l’experiència literària, la subestimació del lector i l’erosió del lligam veritable amb el passat. El lector, en comptes de ser acompanyat pel text, és arrossegat fora del reialme del clàssic i col·locat davant d’una còpia domesticada, sense la valentia ni la cruesa del mot original. Aquesta pèrdua de rugositat no és cap bon servei, ens priva del soroll i la música de l’antigor i del desassossec que hauria de suscitar.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Cal posar èmfasi en un altre aspecte, la modernització sistemàtica invisibilitza el català antic —el converteix en una relíquia de museu o, pitjor encara, en un dialecte inintel·ligible només apte per a acadèmics— i talla la possibilitat d’educar o formar en la lectura de textos antics. La literatura clàssica és també una escola de llenguatge; la simplificació no només acaba amb l’aventura pel lector, sinó que també rebaixa les exigències del sistema educatiu i fa desaparèixer un univers lingüístic que ens convindria explorar, ni que sigui parcialment o amb el suport d’aparells crítics. Adaptar significa, aquí, amputar.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Les conseqüències són encara més greus si tenim en compte l’efecte sobre la mateixa cultura catalana. Una tradició que perd el fil amb la seva llengua antiga esdevé superposada i feble, més oberta a modes i a presses, allunyada de la riquesa que només una tradició profunda sap preservar i transformar. La modernitat d’una literatura no es construeix des de la simplificació, sinó des del diàleg entre dificultat i comprensió, entre allò que ens resulta opac i el que arribem, finalment, a entendre. Llegir un clàssic medieval sense sentir-ne la distància, sense acatar-ne l’exigència, és la millor manera de banalitzar-lo, de desactivar el seu poder desestabilitzador, d’arrodonir-lo fins a fer-ne un producte neutral i insípid.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Per acabar de complicar la qüestió, cal afegir la recurrència d’un cercle reduït de responsables d’aquestes versions, editorials i institucions opten, per inèrcia o per comoditat —de vegades per pur amiguisme—, per l’encàrrec a les mateixes veus de sempre, tancant la porta a qualsevol aportació que vingui de fora del cercle habitual. Aquesta pràctica, tot i ser gravíssima, resulta gairebé anecdòtica davant la deriva general, la pèrdua de la consciència que gran part de la funció d’un clàssic és precisament inquietar, confrontar, exigir de nosaltres no solament temps sinó humilitat i energia. Si el futur del patrimoni literari català s’assenta sobre la suposada mandra del lector, serà sempre un patrimoni amputat.",
+      "pdf": {
+        "page": 3
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Per això, el repte —tant de les editorials com de la societat— no hauria de ser adaptar el clàssic a la mandra, sinó construir lectors capaços de l’esforç, estimular la lectura activa, recuperar la capacitat d’estranyament, la humilitat de l’aprenent davant el text antic. Exigència no significa elitisme, significa reconèixer que el valor del patrimoni rau en la seva resistència, en la seva capacitat de posar-nos límits i d’obligar-nos a sortir —encara que sigui per una estona— del nostre paisatge actual, tan còmode.",
+      "pdf": {
+        "page": 3
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "En definitiva, si la missió del clàssic és interpel·lar-nos i sacsejar-nos, cal recordar que allò que val la pena rara vegada és fàcil, ni adaptat ni desproveït de complexitat. Banalitzar el llegat medieval, condemnar-lo a versions per a lectors mandrosos, és trair la promesa d’una cultura madura, la de reconèixer-se filla d’una història i d’una llengua densa, envitricollada, una llengua que només pot escoltar-se en plenitud si se l’abraça amb tota la seva dificultat. I aquesta és la tasca —apassionant, diguem-ho clar— que ens correspon.",
+      "pdf": {
+        "page": 3
+      }
+    }
+  ]
+}
