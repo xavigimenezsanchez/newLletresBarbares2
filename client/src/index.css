@@ -434,7 +434,7 @@ html[data-scroll-direction="down"] .burgerstack {
   }
 
   .ilustration-image-container {
-    @apply pb-12;
+    @apply pb-0 md:pb-12;
   }
 
   .ilustration-section {
