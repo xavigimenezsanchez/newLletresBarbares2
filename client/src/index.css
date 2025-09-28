@@ -441,6 +441,15 @@ html[data-scroll-direction="down"] .burgerstack {
     @apply flex flex-col items-center justify-center;
   }
 
+  .ilustration-author {
+    @apply text-sm md:text-xl text-gray-500 mb-4 text-center flex justify-center items-center gap-2 hover:text-[#dc2626] hover:border-none;
+    font-family: 'TNYAdobeCaslonPro', 'Times New Roman', Times, serif;
+  }
+
+  .ilustration-author img {
+    @apply w-4;
+  }
+
   .edition-meta {
     @apply flex items-center justify-center space-x-4 text-sm text-gray-500 mb-6;
     /* font-family: 'TNYAdobeCaslonPro', 'Times New Roman', Times, serif; */

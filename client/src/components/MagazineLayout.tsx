@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import type { Article } from '../types'
+import instagramColor from '../assets/instagramColor.svg'
 
 interface MagazineLayoutProps {
   articles: Article[]
@@ -151,7 +152,8 @@ const MagazineLayout = ({ articles, issueNumber, publicationDate, coverImage }: 
       <h2 className="ilustration-title">
           Il·lustració portada
         </h2>
-        <div className="ilustration-description">Frangment cuadre de Mercedes Gallardo</div>
+        <div className="ilustration-description">Fragment cuadre de Mercedes Gallardo</div>
+        <a href="https://www.instagram.com/mercedesgallardo.art" target="_blank" className="ilustration-author"><img src={instagramColor} alt="Instagram" /> <div>mercedesgallardo.art</div></a>
       </div>
       <div className="ilustration-image-container">
             <img src={`/api/images/${coverImage}`} alt="Cover" />
