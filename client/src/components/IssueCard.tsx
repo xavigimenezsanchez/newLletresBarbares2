@@ -207,26 +207,22 @@ const IssueCard: React.FC<IssueCardProps> = ({ issue, viewMode }) => {
             )}
           </div>
 
-          {/* Badge especial para cards grandes */}
-          {/* {cardSize === 'large' && (
-            <div className="absolute top-3 right-3 z-20">
-              <div className={`px-2 py-1 rounded-full text-xs font-bold ${colorScheme.accent} bg-white bg-opacity-90 backdrop-blur-sm`}>
-                {issue.number % 10 === 0 ? 'ESPECIAL' : totalArticles > 8 ? 'RICA' : 'ACTUAL'}
-              </div>
-            </div>
-          )} */}
           
           {/* Contenido principal */}
           <div className="text-center p-4 relative z-10">
-            <div className={`${cardSize === 'large' ? 'text-xl' : 'text-lg'} font-light mb-2`} style={{ fontFamily: 'TNYAdobeCaslonPro, "Times New Roman", Times, serif' }}>
-              Lletres Bàrbares
-            </div>
-            <div className={`${cardSize === 'large' ? 'text-5xl' : 'text-3xl'} font-bold ${colorScheme.accent} group-hover:scale-110 transition-transform duration-300`}>
-              {issue.number}
-            </div>
-            <div className={`${cardSize === 'large' ? 'text-base' : 'text-sm'} text-gray-600 mt-2 font-medium`}>
-              {formatMonth(issue.publicationDate)}
-            </div>
+            {!issue.coverImage && (
+              <>
+                <div className={`${cardSize === 'large' ? 'text-xl' : 'text-lg'} font-light mb-2`} style={{ fontFamily: 'TNYAdobeCaslonPro, "Times New Roman", Times, serif' }}>
+                  Lletres Bàrbares
+                </div>
+                <div className={`${cardSize === 'large' ? 'text-5xl' : 'text-3xl'} font-bold ${colorScheme.accent} group-hover:scale-110 transition-transform duration-300`}>
+                  {issue.number}
+                </div>
+                <div className={`${cardSize === 'large' ? 'text-base' : 'text-sm'} text-gray-600 mt-2 font-medium`}>
+                  {formatMonth(issue.publicationDate)}
+                </div>
+              </>
+            )}
             
             {/* Info adicional para cards grandes */}
             {cardSize === 'large' && (
@@ -266,7 +262,7 @@ const IssueCard: React.FC<IssueCardProps> = ({ issue, viewMode }) => {
         {/* Info enriquecida */}
         <div className={`${cardSize === 'large' ? 'p-6' : 'p-4'}`}>
           <h3 className={`font-medium text-gray-900 mb-3 group-hover:text-gray-700 transition-colors duration-200 ${cardSize === 'large' ? 'text-lg line-clamp-3' : 'text-base line-clamp-2'}`}>
-            {issue.title}
+            Lletres Bàrbares - Número {issue.number}
           </h3>
           
           {/* Tags de secciones principales con colores pasteles */}
@@ -342,14 +338,14 @@ const IssueCard: React.FC<IssueCardProps> = ({ issue, viewMode }) => {
             <div className="absolute bottom-2 right-2 w-2 h-2 border border-current rounded"></div>
           </div>
           
-          <div className="text-center relative z-10">
-            <div className={`text-xs font-light mb-1 ${issue.coverImage?'text-white':''}`} style={{ fontFamily: 'TNYAdobeCaslonPro, "Times New Roman", Times, serif' }}>
+          {!issue.coverImage && <div className="text-center relative z-10">
+            <div className={`text-xs font-light mb-1`} style={{ fontFamily: 'TNYAdobeCaslonPro, "Times New Roman", Times, serif' }}>
               LB
             </div>
-            <div className={`text-lg font-bold ${issue.coverImage?'text-white': colorScheme.accent}`}>
+            <div className={`text-lg font-bold ${colorScheme.accent}`}>
               {issue.number}
             </div>
-          </div>
+          </div>}
         </div>
       </div>
 
@@ -359,7 +355,7 @@ const IssueCard: React.FC<IssueCardProps> = ({ issue, viewMode }) => {
           <div className="flex-grow">
             <div className="flex items-center gap-3 mb-2 justify-between">
               <h3 className="text-xl font-light text-gray-900 group-hover:text-gray-700 transition-colors duration-200" style={{ fontFamily: 'TNYAdobeCaslonPro, "Times New Roman", Times, serif' }}>
-                {issue.title}
+                Lletres Bàrbares - Número {issue.number}
               </h3>
               {/* Indicador visual del año */}
               <span className={`inline-flex items-center px-2 py-1 rounded-full text-xs font-bold ${colorScheme.accent} bg-opacity-10 ${colorScheme.accent.replace('text-', 'bg-')}`}>
@@ -383,11 +379,6 @@ const IssueCard: React.FC<IssueCardProps> = ({ issue, viewMode }) => {
             </div>
           </div>
           
-          {/* <div className="text-right ml-4">
-            <div className={`text-2xl font-light ${colorScheme.accent} group-hover:scale-110 transition-transform duration-300`}>
-              #{issue.number}
-            </div>
-          </div> */}
         </div>
 
         {issue.description && (
