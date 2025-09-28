@@ -1,3 +1,5 @@
+import type { Article, Issue } from "../types";
+
 const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
 
 class ApiService {
@@ -47,7 +49,7 @@ class ApiService {
     return this.request(`/articles?${searchParams.toString()}`);
   }
 
-  async getRecentArticles() {
+  async getRecentArticles(): Promise<Article[]> {
     return await this.request(`/articles/recent`);
   }
 
@@ -99,8 +101,12 @@ class ApiService {
     return this.request(`/issues?${searchParams.toString()}`);
   }
 
-  async getLatestIssue() {
+  async getLatestIssue(): Promise<{issue: Issue, articles: Article[]}> {
     return await this.request('/issues/latest');
+  }
+
+  async getIssueDataByNumber(number: number): Promise<{issue: Issue, articles: Article[]}> {
+    return await this.request(`/issues/numberdata/${number}`);
   }
 
   async getIssueByYearAndNumber(year: number, number: number) {

@@ -1,0 +1,360 @@
+{
+  "_id": {
+    "$oid": "68d6e8b3c7c60963fb34b5c8"
+  },
+  "issue": 2025,
+  "data": "27/09/2025",
+  "imageCard": "salesas51-00",
+  "title": "El Ford T, l’automòbil estrella del cinema còmic mut",
+  "url": "el_ford_t_l_automobil_estrella_del_cinema_comic_mut",
+  "section": "articles",
+  "author": "Florenci Salesas",
+  "summary": "Des d’ascensors a caixes fortes, des de bombos a pianos i la resta d’instruments, des de pals de telèfon a cabines d’ídem, des d’un gerro xinès a un monument sumptuós, des d’una cabana de pastor a una població sencera, des de tota mena de dispositius elèctrics i mecànics a bens mobles i immobles, passant per tota mena de mitjans de locomoció —bicicletes, motos, barques, locomotores i àdhuc algun transatlàntic—, els còmics del cinema mut van esmerçar tots els seus esforços a destruir la màxima quantitat d’objectes que se’ls posava a mà, en l’anhel d’escombrar tot bri de civilització de la terra i tornar com més aviat millor a l’era quaternària. Malgrat que la llista d’objectes susceptibles de maltractament era infinita, si n’hi havia un de més afavorit, aquest era, de llarg, l’automòbil, símbol de la nova societat de consum del segle XX. I de tots els models del seu temps, a dalt del pòdium hi hauria, amb una diferència abassegadora —gràcies a la imperial trituradora del slapstick dels EUA— el Ford model T, conegut popularment com a Tin Lizzie, el primer cotxe de motor produït a gran escala.</br></br>Entre 1908 i 1927 —que es va substituir pel model A— se’n van fabricar quinze milions d’unitats. El rècord no seria superat fins cinquanta anys més tard, pel Volkswagen Beetle. I això que Mack Sennett i companyia van mirar de reduir la xifra al màxim, en un massiu desguàs en cadena que tant devia neguitejar Henry Ford com delectar l’ecologista més virulent. Però malgrat aquestes dates tan llunyanes, abans d’ell va haver-hi d’altres, encara més antics, que van passar pel tràngol.</br></br>Des de ben aviat, els cineastes pioners anglesos ja es delien per demolir trànsit rodat. Ah!, la beatífica escola de Brighton... La destrucció automobilística més antiga que es recorda l’aporta <em>Explossion of a Motor Car</em> (1900), de l’inefable Cecil M. Hepworth. Amb la durada típica de l’època —unes desenes de metres de film que, ben projectats, no passen del minut i mig— literalment mostra el que diu al títol, un auto de l’era victoriana —la reina Victòria encara regnava!— s’atansa a càmera per un carrer de l’extraradi fins a un punt que, de sobte, sense més ni més, explota i queda reduït a un munt de ferralla. Un policia típic britànic s’acosta a prendre nota del cas, però un cop al lloc dels fets li comencen a ploure els cossos dels ocupants, a trossos, ara una cama, ara un tronc, tot molt a la moda del <em>gore</em> que s’estilava. I aquí s’acaba la cosa, sense que se’ns aclareixi si es tractava d’un acte terrorista o de la mala digestió del motor. Però tant és. Aquest i altres bells exemples de primigeni humor negre, similar, representen l’inici d’una història d’amor entre el cinema còmic i l’automòbil, decididament tòxica per al segon.",
+  "publicationDate": {
+    "$date": "2025-09-27T22:00:00.000Z"
+  },
+  "isPublished": true,
+  "tags": [],
+  "readTime": 5,
+  "year": 2025,
+  "issueNumber": 51,
+  "text": [
+    {
+      "type": "image",
+      "name": "salesas51-00",
+      "content": "El Ford model T, en les seves dues versions bàsiques.",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Des d’ascensors a caixes fortes, des de bombos a pianos i la resta d’instruments, des de pals de telèfon a cabines d’ídem, des d’un gerro xinès a un monument sumptuós, des d’una cabana de pastor a una població sencera, des de tota mena de dispositius elèctrics i mecànics a bens mobles i immobles, passant per tota mena de mitjans de locomoció —bicicletes, motos, barques, locomotores i àdhuc algun transatlàntic—, els còmics del cinema mut van esmerçar tots els seus esforços a destruir la màxima quantitat d’objectes que se’ls posava a mà, en l’anhel d’escombrar tot bri de civilització de la terra i tornar com més aviat millor a l’era quaternària. Malgrat que la llista d’objectes susceptibles de maltractament era infinita, si n’hi havia un de més afavorit, aquest era, de llarg, l’automòbil, símbol de la nova societat de consum del segle XX. I de tots els models del seu temps, a dalt del pòdium hi hauria, amb una diferència abassegadora —gràcies a la imperial trituradora del slapstick dels EUA— el Ford model T, conegut popularment com a Tin Lizzie, el primer cotxe de motor produït a gran escala.",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Entre 1908 i 1927 —que es va substituir pel model A— se’n van fabricar quinze milions d’unitats. El rècord no seria superat fins cinquanta anys més tard, pel Volkswagen Beetle. I això que Mack Sennett i companyia van mirar de reduir la xifra al màxim, en un massiu desguàs en cadena que tant devia neguitejar Henry Ford com delectar l’ecologista més virulent. Però malgrat aquestes dates tan llunyanes, abans d’ell va haver-hi d’altres, encara més antics, que van passar pel tràngol.",
+      "pdf": {
+        "page": 1,
+        "division": {
+            "alignLast": true,
+            "contentPage": "Entre 1908 i 1927 —que es va substituir pel model A— se’n van fabricar quinze milions d’unitats. El rècord no seria superat fins cinquanta anys més tard, pel Volkswagen Beetle. I això que Mack Sennett i companyia van mirar de reduir la xifra al màxim, en un massiu desguàs en cadena que tant",
+            "contentNextPage": "devia neguitejar Henry Ford com delectar l’ecologista més virulent. Però malgrat aquestes dates tan llunyanes, abans d’ell va haver-hi d’altres, encara més antics, que van passar pel tràngol."
+          }
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Des de ben aviat, els cineastes pioners anglesos ja es delien per demolir trànsit rodat. Ah!, la beatífica escola de Brighton... La destrucció automobilística més antiga que es recorda l’aporta <em>Explossion of a Motor Car</em> (1900), de l’inefable Cecil M. Hepworth. Amb la durada típica de l’època —unes desenes de metres de film que, ben projectats, no passen del minut i mig— literalment mostra el que diu al títol, un auto de l’era victoriana —la reina Victòria encara regnava!— s’atansa a càmera per un carrer de l’extraradi fins a un punt que, de sobte, sense més ni més, explota i queda reduït a un munt de ferralla. Un policia típic britànic s’acosta a prendre nota del cas, però un cop al lloc dels fets li comencen a ploure els cossos dels ocupants, a trossos, ara una cama, ara un tronc, tot molt a la moda del <em>gore</em> que s’estilava. I aquí s’acaba la cosa, sense que se’ns aclareixi si es tractava d’un acte terrorista o de la mala digestió del motor. Però tant és. Aquest i altres bells exemples de primigeni humor negre, similar, representen l’inici d’una història d’amor entre el cinema còmic i l’automòbil, decididament tòxica per al segon.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "image",
+      "name": "salesas51-01",
+      "content": "Diverses versions alternatives de Ford T turisme.",
+      "pdf": {
+        "page": 2,
+        "styles":"{\"marginTop\": \"25mm\"}"
+      }
+    },
+   {
+      "type": "title",
+      "content": "El Ford model T passa el càsting de Mack Sennett",
+      "pdf": {
+        "page": 3
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Ja tenim clar que el Ford Model T, en totes les seves variants, va ser l’automòbil rei del slapstick als EUA, de manera incontestable. Ara anem a pams. O a peces, a miques.",
+      "pdf": {
+        "page": 3
+      }
+    },
+    {
+      "type": "image",
+      "name": "salesas51-02",
+      "content": "La fama del curt de Stan Laurel i Oliver Hardy <em>Big Business</em> (1929), de James W. Horne i Leo McCarey, va ser tan gran que LEGO en va fer una versió.",
+      "pdf": {
+        "page": 3
+      }
+    },    {
+      "type": "paragraph",
+      "content": "A part de l’evolució lògica soferta al llarg dels seus vint anys d’història per adaptar-se als nous temps, de variants del Tin Lizzie n’hi va haver un munt: furgoneta, camioneta, taxi, de dues i quatre portes, biplaça, berlina, coupé…, i en totes es pot veure com van esprémer totes les seves possibilitats per als gags més sorprenents en milers de films curts i llargs. Els Keystone Cops —la policia còmica de Mack Sennett, que per si sola val un article— conduïa els T adaptats per als cossos de seguretat. Els taxis eren una variació arranjada del T i els veiem sovint al cinema dels anys vint. A <em>Speedy</em> (1928), de Ted Wilde, Harold Lloyd protagonitza una de les escenes més famoses, no inclosa en el clip adjunt —si posés tot el que s’ha salvat, duraria desenes d’hores!— amb un exemplar d’aquests, seguint les peripècies del còmic i els seus clients. També Lloyd condueix una versió molt peculiar —un T biplaça, blanc, modificat, de bastidor simple, aquest sí inclòs en el vídeo— a <em>Dr. Jack</em> (1922), de Fred C. Newmeyer.",
+      "pdf": {
+        "page": 3
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "No és casualitat que en tan poc temps ja hàgim esmentat el còmic de les ulleres rodones, dues vegades. Tant Harold Lloyd com Buster Keaton van ser entusiastes “usuaris” del Ford T, explotant moltes de les seves possibilitats humorístiques en escenes  icòniques. I això sense comptar amb les dotzenes de Tin Lizzies que, ja de natural, solquen el paisatge urbà o rural, de fons, als títols de qualsevol altre còmic. El gran descobridor de les seves possibilitats, però, va ser el cineasta i productor Mack Sennett.",
+      "pdf": {
+        "page": 3,
+        "division": {
+          "alignLast": true,
+          "contentPage": "No és casualitat que en tan poc temps ja hàgim esmentat el còmic de les ulleres rodones, dues",
+          "contentNextPage": "vegades. Tant Harold Lloyd com Buster Keaton van ser entusiastes “usuaris” del Ford T, explotant moltes de les seves possibilitats humorístiques en escenes  icòniques. I això sense comptar amb les dotzenes de Tin Lizzies que, ja de natural, solquen el paisatge urbà o rural, de fons, als títols de qualsevol altre còmic. El gran descobridor de les seves possibilitats, però, va ser el cineasta i productor Mack Sennett."
+        }
+      }
+    },
+    {
+      "type": "image",
+      "name": "salesas51-03",
+      "content": "Els Keystone Cops i el Ford T.",
+      "pdf": {
+        "page":4
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Sennett, un home que té la reputació de ser el més gran caçador de talents còmics humans i animals de tota l’era muda —a ell li deuen la primera oportunitat Charles Chaplin, Harry Langdon, Roscoe “Fatty” Arbuckle, Mabel Normand, Gloria Swanson, Larry Semon, Ford Sterling...—, va demostrar igual de bon ull per a descobrir el “personatge” no-humà —ni animal— més cèlebre de tots. La raó és que la humilitat extrema d’aquella andròmina la convertia, malgrat els seus pocs cavalls de potència, en el cavall guanyador a tots els requisits del cinema còmic, des dels més artístics i creatius fins als purament econòmics. D’entrada, essent el cotxe més comú als carrers americans dels anys deu i vint, el T era tot ell ubiqüitat i realisme, apareixia de forma natural a les escenes quotidianes i aportava credibilitat. També transmetia una comicitat inherent amb la seva mecànica simple —rodes primes, transmissió planetària, fàcil de desmuntar—, que permetia des dels gags més elementals als més elaborats, les persecucions més descontrolades —que van empènyer els cineastes a perfeccionar els moviments de càmera i als muntadors a tallar al fotograma cada volta més precís—, els  accidents en cadena, els esmicolaments accidentals o les mutacions més absurdes —com quedar esclafat com un acordió i continuar funcionant—, subvertint tota mena d’ordre humà, natural o diví. En definitiva, el Ford T s’havia convertit en el més perfecte agent del caos. I <em>last but not least</em>, l’estalvi i versatilitat que suposava el seu ús tampoc escapava al nas de l’hàbil productor. Baratíssim i fàcil de modificar per als encarregats dels efectes especials físics, els directors en podien destruir tants com volguessin per assolir l’efecte buscat sense generar grans despeses. A més, el seu disseny permetia trucs d’augment de velocitat, amb l’ajuda de la manipulació de les voltes a la maneta de la càmera.",
+      "pdf": {
+        "page": 4,
+        "division": {
+          "alignLast": true,
+          "contentPage": "Sennett, un home que té la reputació de ser el més gran caçador de talents còmics humans i animals de tota l’era muda —a ell li deuen la primera oportunitat Charles Chaplin, Harry Langdon, Roscoe “Fatty” Arbuckle, Mabel Normand, Gloria Swanson, Larry Semon, Ford Sterling...—, va demostrar igual de bon ull per a descobrir el “personatge” no-humà —ni animal— més cèlebre de tots. La raó és que la humilitat extrema d’aquella andròmina la convertia, malgrat els seus pocs cavalls de potència, en el cavall guanyador a tots els requisits del cinema còmic, des dels més artístics i creatius fins als purament econòmics. D’entrada, essent el cotxe més comú als carrers americans dels anys deu i vint, el T era tot ell ubiqüitat i realisme, apareixia de forma natural a les escenes quotidianes i aportava credibilitat. També transmetia una comicitat inherent amb la seva mecànica simple —rodes primes, transmissió planetària, fàcil de desmuntar—, que permetia des dels gags més elementals als més elaborats, les persecucions més descontrolades —que van empènyer els cineastes a perfeccionar els moviments de càmera i als muntadors a tallar al fotograma cada volta més precís—, els  accidents",
+          "contentNextPage": "en cadena, els esmicolaments accidentals o les mutacions més absurdes —com quedar esclafat com un acordió i continuar funcionant—, subvertint tota mena d’ordre humà, natural o diví. En definitiva, el Ford T s’havia convertit en el més perfecte agent del caos. I <em>last but not least</em>, l’estalvi i versatilitat que suposava el seu ús tampoc escapava al nas de l’hàbil productor. Baratíssim i fàcil de modificar per als encarregats dels efectes especials físics, els directors en podien destruir tants com volguessin per assolir l’efecte buscat sense generar grans despeses. A més, el seu disseny permetia trucs d’augment de velocitat, amb l’ajuda de la manipulació de les voltes a la maneta de la càmera."
+        }
+      }
+    },
+    {
+      "type": "image",
+      "name": "salesas51-04",
+      "content": "A dalt Roscoe “Fatty” Arbuckle (amb el seu llavors jove ajudant Buster Keaton) i a sota Charles Chaplin i el Ford T.",
+      "pdf": {
+        "page": 5
+      }
+    },
+   {
+      "type": "paragraph",
+      "content": "Els ja esmentats Keystone Cops, amb la versió corresponent, va ser el primer grup de comediants amb els quals Sennett va experimentar amb l’aparell, ja des de principis dels anys deu. Després ja vindrien tota la resta. Curiosament, Charles Chaplin, la seva màxima troballa i una de les figures més importants fins i tot del segle XX, a seques, que va multiplicar els guanys de Sennett i va propulsar el cinema dels EUA a dalt de tot, no es va sentir mai gaire inspirat pel vehicle. Chaplin és un dels més grans manipuladors d’objectes quotidians per a fins humorístics, però no sentia gens de simpatia per les màquines grosses. Comparat amb els altres còmics, hi ha pocs automòbils a la seva obra i hi surten quan no hi ha més remei. En general, és el còmic que menys gaudia de rodar en exteriors i preferia els interiors o els exteriors controlats a l’estudi —al contrari de Keaton, a qui l’exterior sempre l’inspirava, fins al punt de canviar guions sencers segons el que troba— i això influïa. Amb prou feines hi ha un moment a <em>The Rink</em> (1915), on ell, en patins, s’aferra a un Fort T que passa, i <em>A Day’s Pleasure </em>(1919), l’únic film on un Tin Lizzie té la importància que li donava la competència, malgrat ser un curt de compromís, fet a desgrat, per calmar els distribuïdors per la manca de nou material de Charlot —ell estava obsessionat, immers en la creació de <em>The Kid</em> (1921), que li va xuclar dos anys de vida— i que tothom, ell mateix inclòs, considera una de les seves obres més fluixes.",
+      "pdf": {
+        "page": 5,
+        "division" : {
+          "alignLast": true,
+          "contentPage": "Els ja esmentats Keystone Cops, amb la versió corresponent, va ser el primer grup de comediants amb els quals Sennett va experimentar amb l’aparell, ja des de principis dels anys deu. Després ja vindrien tota la resta. Curiosament, Charles Chaplin, la seva màxima troballa i una de les figures més importants fins i tot del segle XX, a seques, que va multiplicar els guanys de Sennett i va propulsar el cinema dels EUA a dalt de tot, no es va sentir mai gaire inspirat pel vehicle. Chaplin és un dels més grans manipuladors d’objectes quotidians per a fins humorístics, però no sentia gens de simpatia per les màquines grosses. Comparat amb els altres còmics, hi ha pocs automòbils a la seva obra i hi surten quan no hi ha més remei. En general, és el còmic que menys gaudia de rodar en exteriors i preferia els interiors o els exteriors controlats a l’estudi —al contrari de Keaton, a qui l’exterior sempre l’inspirava, fins al punt de canviar guions sencers segons el que troba— i això influïa. Amb prou feines hi ha un moment a <em>The Rink</em> (1915), on ell, en patins, s’aferra a un Fort T",
+          "contentNextPage": "que passa, i <em>A Day’s Pleasure </em>(1919), l’únic film on un Tin Lizzie té la importància que li donava la competència, malgrat ser un curt de compromís, fet a desgrat, per calmar els distribuïdors per la manca de nou material de Charlot —ell estava obsessionat, immers en la creació de <em>The Kid</em> (1921), que li va xuclar dos anys de vida— i que tothom, ell mateix inclòs, considera una de les seves obres més fluixes."
+        }
+      }
+    },
+    {
+      "type": "image",
+      "name": "salesas51-05",
+      "content": "Harold Lloyd i el Ford T.",
+      "pdf": {
+        "page": 6
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Dins la Keystone i contemporani a Chaplin, l’apoteòsic Larry Semon —aquí conegut com a <em>Jaimito</em>—, va ser un dels primers fans del T, tot i que ell era més de motos. A partir d’aquí no hi haurà cap còmic gran, petit o eventual que no tingui com a mínim un idil·li amb ell. La llista és llarga com l’espera d’un tren de RENFE i del garbuix general només esmentaré el Charley Chase del curt <em>All Wet </em>(1924), de Leo McCarey, i el deliri d’<em>Egged On</em> (1926), de l’increïble Charley Bowers, que crea una granja de models Ford T que neixen d’uns ous—covats per l’escalfor del motor de la mare Ford T, de mida real!—i que una vegada han nascut, en miniatura, a dotzenes, s’escampen pel món, tot i que retornen a l’escalforeta de la panxa de mama T. En resum, uns films amb els quals no cal ajuda química externa per flipar amb les visions més al·lucinògenes.",
+      "pdf": {
+        "page": 6
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "No aturar-nos un moment a parlar de Stan Laurel i Oliver Hardy, els seus més fidels usufructuaris, seria motiu d’expedient.",
+      "pdf": {
+        "page": 6
+      }
+    },
+    {
+      "type": "image",
+      "name": "salesas51-06",
+      "content": "Buster Keaton i el Ford T",
+      "pdf": {
+        "page":7
+      }
+    },
+    {
+      "type": "title",
+      "content": "Stan Laurel, Oliver Hardy i el Ford T desmuntable",
+      "pdf": {
+        "page": 7
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "La parella de còmics formada el 1927 pel britànic Stan Laurel (1890-1965) i l’estatunidenc Oliver Hardy (1892-1957), que va travessar la dura frontera cap al cinema sonor amb èxit, fins a pràcticament el final d’Ollie, no només va portar al límit la inventiva destructiva d’unitats de Tin Lizzies, durant el període de la seva producció, sinó que la van dur més enllà de 1929, als seus curts sonors, dels quals he gosat incloure’n algun pla al vídeo final, perquè no me n’he pogut estar.",
+      "pdf": {
+        "page": 7
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "El Ford T sol coprotagonitzar els nombrosos curts on Stan i Ollie practiquen un ofici, ja sigui com a una societat d’autònoms o com a subalterns. D’aquest grup, l’obra mestra insuperable seria <em>Big Business</em> (1929), de James W. Horne i Leo McCarey, que comença amb els nois mirant de vendre arbres de Nadal, que transporten al seu Ford T camioneta, a l’assolellada Califòrnia, i acaba amb una batalla campal en què malmeten la casa d’un client iracund mentre aquest redueix el cotxe del duo a farinetes. Hi ha uns altres títols, però, on també es mostra la parella en temps de lleure, de passeig, de pícnic, ells sols o en família. Aquí, <em>Two Tars</em> (1929), de James Parrot, on, a part del seu T, tots els autos atrapats en un embús acaben patint una cirurgia estètica demencial, via violència bàrbara, supera tots els rècords d’arrasament del subgènere. La persistència d’aquestes destruccions, cada cop més bèsties, van forçar el duo a competir amb ells mateixos per sorprendre el públic, sense deixar de donar, alhora, certs codis identificables, expressats a través d’uns altres gags de natura repetitiva, que els seus fans esperaven —esperem!— amb candeletes. Un d’aquests gags recurrents era el del Ford T desmuntable.",
+      "pdf": {
+        "page": 7,
+        "division": {
+          "alignLast": true,
+          "contentPage": "El Ford T sol coprotagonitzar els nombrosos curts on Stan i Ollie practiquen un ofici, ja sigui com a una societat d’autònoms o com a subalterns. D’aquest grup, l’obra mestra insuperable seria <em>Big Business</em> (1929), de James W. Horne i Leo McCarey, que comença amb els nois mirant de vendre arbres de Nadal, que transporten al seu Ford T camioneta, a l’assolellada Califòrnia, i acaba amb una batalla campal en què malmeten la casa d’un client iracund mentre aquest redueix el cotxe del duo a farinetes. Hi ha uns altres títols, però, on també es mostra la parella en temps de lleure, de passeig, de pícnic, ells sols o en família. Aquí, <em>Two Tars</em> (1929), de James Parrot, on, a part del seu T, tots els autos atrapats en un embús acaben patint una cirurgia estètica demencial, via violència bàrbara, supera tots els rècords d’arrasament del subgènere. La persistència d’aquestes destruccions, cada cop més bèsties, van forçar el duo a competir amb ells mateixos per sorprendre el públic, sense deixar de donar, alhora, certs codis identificables, expressats a través d’uns altres gags de natura repetitiva, que",
+          "contentNextPage": "els seus fans esperaven —esperem!— amb candeletes. Un d’aquests gags recurrents era el del Ford T desmuntable."
+        }
+      }
+    },
+    {
+      "type": "image",
+      "name": "salesas51-07",
+      "content": "Harry Langdon als dos fotogrames de l’esquerra i Larry Semon als quatre de la dreta amb el Ford T.",
+      "pdf": {
+        "page":8,
+        "styles": "{\"marginTop\": \"20mm\", \"marginBottom\": \"20mm\"}"
+      }
+    },
+
+    {
+      "type": "paragraph",
+      "content": "El gag del Ford T desmuntable consistia en el fet que el vehicle de la parella reaccionava, davant una col·lisió —n’hi havia prou amb un cop sec, inesperat—, desmantellant-se del tot, per peces, com un castell de cartes o una joguina d’ou Kinder. El resultat, sempre en un sol pla general, era perfecte i Stan i Ollie el van usar en un munt de curts, tant muts com sonors. D’entrada, et preguntes si cada cop demolien una unitat nova, però no. Es tractava sempre del mateix T, simplificat, preparat a posta per aital efecte. El truc consistia en un cotxe en què les peces no estaven acoblades ni amb caragols ni amb reblons sinó que eren sostingudes per un llarg cordill que les entrellaçava estratègicament, de manera que quan aquell s’estirava o s’afluixava d’una punta, totes les peces seguien fins a remuntar-se en no res. L’esmicolament en mil bocins es produïa de manera abrupta, no pel xoc o l’explosió que veiem a la pantalla sinó en accionar l’ocupant —Stan, Ollie o qui fos— certa palanqueta de sota el volant. Si calia una altra presa, els operaris d’attrezzo estiraven el cordill i el cotxe quedava com nou en qüestió de segons. El productor Hal Roach n’estava molt d’aquest dispositiu enginyós que li estalviava despeses.",
+      "pdf": {
+        "page": 8
+      }
+    },
+    {
+      "type": "title",
+      "content": "No tot el que semblen Ford T són Ford T",
+      "pdf": {
+        "page": 9
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Malgrat la seva sobreexplotació i ser la vedet en gags mítics, no vol dir que tots els cotxes emprats en aquells films fossin Tin Lizzies. Els Chevrolet, Chrysler, Buick i altres marques de Detroit —avui extintes, però llavors molt populars— sovint avui confosos amb el Ford T, van tenir els seus moments de glòria. El desconeixement pandèmic de la història de l’automobilisme —i de la història en general, de fet—, i que per a molta gent els cotxes antics són tots iguals, fa que aquells altres models se solin confondre en vídeos d’antologies i muntatges. Jo m’he esforçat perquè al meu no se me n’escoli cap, però sí que haig de puntualitzar que a l’escena de Harry Langdon a <em>Saturday Afternoon</em> (1926), de Harry Edwards, només el cotxe on ell té posat el culet és un Ford T.",
+      "pdf": {
+        "page": 9
+      }
+    },
+    {
+      "type": "image",
+      "name": "salesas51-08",
+      "content": "Charley Chase a les dues imatges de l’esquerra i a la resta (d’esquerra a dreta i de dalt a baix) Billy West, Billy Bevan, membre del grup Our Gang, Harry “Snub” Pollard, Charley Bowers i Al St. John amb el Ford T.",
+      "pdf": {
+        "page": 9,
+        "styles": "{\"marginTop\": \"20mm\", \"marginBottom\": \"20mm\"}"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Pel que fa a l’ús d’altres models, d’entrada poden sobtar les “banyes” que Harold Lloyd fa al Tin Lizzie a <em>Hot Water</em> (1924), de Fred C. Newmeyer i Sam Taylor —un llarg que dedica un terç del metratge a narrar les peripècies del còmic i la seva família de ficció a bord d’un utilitari de l’època—, amb un Chevrolet Superior —“Butterfly Six”, a la ficció, amb un nom inspirat en el Hudson Super Six, real—, pel fet que Lloyd fos un dels seus conductors més habituals tant als curts com als llargs.",
+      "pdf": {
+        "page": 9
+      }
+    },
+       {
+      "type": "title",
+      "content": "Uns automòbils d’una comicitat irrepetible",
+      "pdf": {
+        "page":10
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Sé que la frase té ressonàncies de vell xaruc, però els automòbils d’aquella època tenien una gràcia natural per a provocar cleques que amb els avenços tecnològics s’ha perdut. Des de la perspectiva actual, la seva fesomia menys compacte ja ens els fa a tots —tret d’excepcions de luxe extrem, com els Bugatti, els Rolls-Royce i algun altre— molt més còmics d’entrada. Allò que les distàncies d’època, quilomètriques, culturals, fa que els veiem tots iguals, així com molta gent d’aquí veu tots els xinesos iguals i ben segur que molts xinesos ens veuen a nosaltres, també, de manera uniforme. Un espectador de 1915 o 1920 discernia molt més. Per a ell, un Ford T i trastos similars provocaven una comicitat a la qual la resta de vehicles eren immunes. En canvi, per a nosaltres, fins i tot els “normals” i dignes, ens continuen resultant còmics. De fet, al ral·li de Sitges molta gent no distingeix un model d’un altre, i fins no sap quin és de luxe i quin és simplement còmic. Es pensen que tot és humorístic, però per al públic de fa cent anys no era així.",
+      "pdf": {
+        "page": 10
+      }
+    },
+    {
+      "type": "image",
+      "name": "salesas51-09",
+      "content": "Stan Laurel i Oliver Hardy patint diverses vicissituds amb el Ford T.",
+      "pdf": {
+        "page": 10
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Hi ha una escena de <em>Girl Shy</em> (1924), de Fred C. Newmeyer i Sam Taylor —de la qual hi incloc un esqueix al vídeo—, en què una urgència obliga Lloyd a canviar el cotxe bo que condueix per l’atrotinat Ford T del conductor que venia de cara per una carretera de muntanya tan estreta que només n’hi pot passar un. Davant la desesperada proposta, l’altre conductor llambrega el flamant sedan que li ofereixen a canvi de la seva rampoina i no dubta gens, agraint al cel haver-se topat amb aquell tocat del bolet. Quan aquell conductor compara els dos cotxes —mostrats en sengles plans intercalats—, tot pensant “aquest paio és boig!”, per als espectadors de 1924 la diferència de qualitat entre un cotxe i l’altre era enorme i, en conseqüència, el gag feia petar de riure. Però nosaltres no podem riure tant, de cap manera, perquè no hi trobem pas una diferència tan gran. Primer veiem un cotxe molt còmic i després un altre igual de còmic, com a màxim—això sí— més tronat, com a única diferència. Somriem i prou.",
+      "pdf": {
+        "page": 10,
+        "division": {
+          "alignLast": true,
+          "contentPage": "Hi ha una escena de <em>Girl Shy</em> (1924), de Fred C. Newmeyer i Sam Taylor —de la qual hi incloc un esqueix al vídeo—, en què una urgència obliga Lloyd a canviar el cotxe bo que condueix per l’atrotinat Ford T del conductor que venia de cara per una carretera de muntanya tan estreta que només n’hi pot passar un. Davant la desesperada proposta, l’altre conductor llambrega el flamant sedan que li ofereixen a canvi de la seva rampoina i no dubta gens, agraint al cel haver-se topat amb",
+          "contentNextPage": "aquell tocat del bolet. Quan aquell conductor compara els dos cotxes —mostrats en sengles plans intercalats—, tot pensant “aquest paio és boig!”, per als espectadors de 1924 la diferència de qualitat entre un cotxe i l’altre era enorme i, en conseqüència, el gag feia petar de riure. Però nosaltres no podem riure tant, de cap manera, perquè no hi trobem pas una diferència tan gran. Primer veiem un cotxe molt còmic i després un altre igual de còmic, com a màxim—això sí— més tronat, com a única diferència. Somriem i prou."
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "El mateix li passa a un altre film, tot i encarat des d’una perspectiva diferent. A la involuntàriament hilarant <em>Something New</em> (1920), de Nell Shipman i Bert Van Tuyle, la Shipman es passa mitja pel·lícula intentant demostrar les qualitats de tot terreny d’un <em>roadster</em> Maxwell 25, autèntic 4x4 de l’època, però amb un aspecte no tan llunyà del d’un Ford T, cosa que ja ens inspira una certa comicitat. Val a dir que el vehicle fa proeses, grimpant i descendent per terrenys rocallosos impossibles que ens fan canviar d’opinió, tot i que no pots evitar patir perquè el pobre trasto no s’acabi escapçant en dos en qualsevol moment. El 1920 el llarg no deixava de ser un desimbolt exemple de <em>Product Placement </em><sup>1</sup> que convencia l’audiència que si comprava un Maxwell 25 podria escalar l’Everest pel vessant més difícil. Davant del que se’ns arriba a mostrar, fins a nosaltres mateixos se’ns entabana que amb aquella màquina es podrien resseguir totes les carenes de l’Himàlaia, però no deixa de ser un objecte molt còmic.",
+      "pdf": {
+        "page": 11
+      }
+    },
+    {
+      "type": "image",
+      "name": "salesas51-10",
+      "content": "Stan Laurel i Oliver Hardy veient com el seu Ford T acaba convertit en una cosa totalment diferent.",
+      "pdf": {
+        "page": 11,
+        "styles": "{\"marginTop\": \"15mm\"}"
+      }
+    },
+  {
+      "type": "paragraph",
+      "content": "Va haver-hi una etapa a mig camí, entre els anys quaranta i seixanta —la transició de la postguerra— en què les circumstàncies van fer que hi hagués models d’auto senzills, regionalment populars, com el Volkswagen Beetle a Alemanya, el Citroën 2 CV o el Renault 4 CV a França, el Mini a la Gran Bretanya, el Fiat Topolino o el <em>Cinquecento</em> a Itàlia o el Seat 600 a l’estat espanyol, que van ser baquetejats, rebregats i humiliats a mants gags, persecucions i tràmits similars, amb un resultat prou homologable al de l’època daurada del cinema còmic. L’evolució general, però, no ha anat en la línia de fer els cotxes més divertits. La diversió no és una qualitat gaire proclamada als anuncis, realment. Al final ens trobem amb la regla de tres que diu que el mateix que no ens permet que ens prenguem seriosament aquells vehicles antics fa que ens sigui difícil riure amb els actuals.",
+      "pdf": {
+        "page": 12
+      }
+    },
+        {
+      "type": "paragraph",
+      "content": "La comicitat intrínseca dels automòbils d’aquelles pel·lícules, entre molts altres elements i dispositius, els omple d’una innocència que va més enllà dels aspectes psicològics analitzables i fa que, en definitiva, aquells films siguin irrepetibles. Al volum dedicat a la comèdia d’<em>El cine, enciclopedia Salvat del 7º Arte  </em>(Salvat Editores, 1979), firmat a l’engròs per diversos estudiosos —la qual cosa em frustra per no poder citar com cal l’autor—, resumia el motiu amb tanta gràcia com lucidesa: “<em>Malgrat tot, cal acceptar que la destrucció d’automòbils a les comèdies d’avui ja no resulta divertida com abans. I això és per una raó molt simple: els entranyables artefactes de principis de segle que es volatilitzaven a les cintes de Sennett, eren eteris, impalpables; la seva aniquilació —consumada en el silenci del cinema mut— apareix com purament metafòrica. En oferir el cinema actual una còpia cada cop més semblant a la realitat gràcies al so, al color, a la pantalla gran, els cotxes moderns, aerodinàmics, consistents, que es polvoritzen amb monòtona precisió a It’s a Mad Mad Mad Mad World (1963), de Stanley Kramer, ja no desperten la rialla sinó el temor...”</em> És curiós comprovar com el que diu sobre el film de Kramer, malgrat els seus esforços faraònics, el fitxatge dels millors còmics de tots els temps, dels EUA i alguns d’altres països, és cert del tot. L’aparatositat de les persecucions i les col·lisions amb els monstres americans dels cinquanta i els seixanta esgarrifa i el que pretenia ser l’homenatge modern, més apoteòsic possible, al cinema còmic mut, veu com, malgrat que l’òbvia feina professional, tècnica i artística, objectivament digne de respecte, que com amb més intensitat s’intenta destil·lar la rialla, més s’escola per uns porus de mal detectar.",
+      "pdf": {
+        "page": 12
+      }
+    },
+
+    {
+      "type": "title",
+      "content": "Lloa al Ford T i comiat",
+      "pdf": {
+        "page": 12
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Oh, Ford T! Què hauria estat dels amants de la benaurada comèdia muda, peregrins amarats del privilegi d’abastar el Sant Grial de la poètica rialla fílmica, al cimal de la puresa, sense tu? Es postil·la que et van parterejar a milions, i que avui dia encara te’n viuen més de 15.000 germans d’espècie. Com és possible això? Si els déus de l'Olimp real —Chaplin, Keaton, Lloyd, Chase, Normand, Wiley, Arbuckle, Langdon, Laurel &amp; Hardy, Semon... i tants d'altres, com en Billy Bevan, en van estossinar més de quinze en un sol film…, quina gosadia!— van consagrar tants d’afanys perquè d’aquella ingent fecundació massiva tan sols una xicra mig buida arribés a l’altra riba! Un miracle que demostra que algun déu existeix i que els seus designis tenen més sentit de l’humor del que mostren els llibres sagrats.",
+      "pdf": {
+        "page": 12,
+        "division": {
+          "alignLast": true,
+          "contentPage": "Oh, Ford T! Què hauria estat dels amants de la benaurada comèdia muda, peregrins amarats del privilegi d’abastar el Sant Grial de la poètica rialla fílmica, al cimal de la puresa, sense tu? Es postil·la que et van parterejar a milions, i que avui dia encara te’n viuen més de 15.000 germans d’espècie.",
+          "contentNextPage": "Com és possible això? Si els déus de l'Olimp real —Chaplin, Keaton, Lloyd, Chase, Normand, Wiley, Arbuckle, Langdon, Laurel &amp; Hardy, Semon... i tants d'altres, com en Billy Bevan, en van estossinar més de quinze en un sol film…, quina gosadia!— van consagrar tants d’afanys perquè d’aquella ingent fecundació massiva tan sols una xicra mig buida arribés a l’altra riba! Un miracle que demostra que algun déu existeix i que els seus designis tenen més sentit de l’humor del que mostren els llibres sagrats."
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "<iframe width='100%' height='400' src='https://youtube.com/embed/wweJVl6jJRg'></iframe>"
+    },
+    {
+      "type": "paragraph",
+      "className": "image-foot",
+      "content": "<em>El Ford T, l’automòbil estrella del cinema mut</em>. Muntatge que representa la destil·lació de més de 250 títols (entre curts i llargs) protagonitzats per tota mena de còmics de l’era muda. La música és el tema On Lof (2023), de la productora i Dj. Núria Scarp, premiada internacionalment.",
+      "pdf": {
+        "page": 13,
+        "type": "qr",
+        "path": "M 0 0 l 1 0 0 1 -1 0 Z M 1 0 l 1 0 0 1 -1 0 Z M 2 0 l 1 0 0 1 -1 0 Z M 3 0 l 1 0 0 1 -1 0 Z M 4 0 l 1 0 0 1 -1 0 Z M 5 0 l 1 0 0 1 -1 0 Z M 6 0 l 1 0 0 1 -1 0 Z    M 10 0 l 1 0 0 1 -1 0 Z     M 15 0 l 1 0 0 1 -1 0 Z   M 18 0 l 1 0 0 1 -1 0 Z M 19 0 l 1 0 0 1 -1 0 Z M 20 0 l 1 0 0 1 -1 0 Z M 21 0 l 1 0 0 1 -1 0 Z M 22 0 l 1 0 0 1 -1 0 Z M 23 0 l 1 0 0 1 -1 0 Z M 24 0 l 1 0 0 1 -1 0 Z M 0 1 l 1 0 0 1 -1 0 Z      M 6 1 l 1 0 0 1 -1 0 Z   M 9 1 l 1 0 0 1 -1 0 Z     M 14 1 l 1 0 0 1 -1 0 Z M 15 1 l 1 0 0 1 -1 0 Z M 16 1 l 1 0 0 1 -1 0 Z  M 18 1 l 1 0 0 1 -1 0 Z      M 24 1 l 1 0 0 1 -1 0 Z M 0 2 l 1 0 0 1 -1 0 Z  M 2 2 l 1 0 0 1 -1 0 Z M 3 2 l 1 0 0 1 -1 0 Z M 4 2 l 1 0 0 1 -1 0 Z  M 6 2 l 1 0 0 1 -1 0 Z  M 8 2 l 1 0 0 1 -1 0 Z   M 11 2 l 1 0 0 1 -1 0 Z    M 15 2 l 1 0 0 1 -1 0 Z   M 18 2 l 1 0 0 1 -1 0 Z  M 20 2 l 1 0 0 1 -1 0 Z M 21 2 l 1 0 0 1 -1 0 Z M 22 2 l 1 0 0 1 -1 0 Z  M 24 2 l 1 0 0 1 -1 0 Z M 0 3 l 1 0 0 1 -1 0 Z  M 2 3 l 1 0 0 1 -1 0 Z M 3 3 l 1 0 0 1 -1 0 Z M 4 3 l 1 0 0 1 -1 0 Z  M 6 3 l 1 0 0 1 -1 0 Z   M 9 3 l 1 0 0 1 -1 0 Z     M 14 3 l 1 0 0 1 -1 0 Z    M 18 3 l 1 0 0 1 -1 0 Z  M 20 3 l 1 0 0 1 -1 0 Z M 21 3 l 1 0 0 1 -1 0 Z M 22 3 l 1 0 0 1 -1 0 Z  M 24 3 l 1 0 0 1 -1 0 Z M 0 4 l 1 0 0 1 -1 0 Z  M 2 4 l 1 0 0 1 -1 0 Z M 3 4 l 1 0 0 1 -1 0 Z M 4 4 l 1 0 0 1 -1 0 Z  M 6 4 l 1 0 0 1 -1 0 Z   M 9 4 l 1 0 0 1 -1 0 Z   M 12 4 l 1 0 0 1 -1 0 Z   M 15 4 l 1 0 0 1 -1 0 Z M 16 4 l 1 0 0 1 -1 0 Z  M 18 4 l 1 0 0 1 -1 0 Z  M 20 4 l 1 0 0 1 -1 0 Z M 21 4 l 1 0 0 1 -1 0 Z M 22 4 l 1 0 0 1 -1 0 Z  M 24 4 l 1 0 0 1 -1 0 Z M 0 5 l 1 0 0 1 -1 0 Z      M 6 5 l 1 0 0 1 -1 0 Z    M 10 5 l 1 0 0 1 -1 0 Z M 11 5 l 1 0 0 1 -1 0 Z M 12 5 l 1 0 0 1 -1 0 Z  M 14 5 l 1 0 0 1 -1 0 Z M 15 5 l 1 0 0 1 -1 0 Z M 16 5 l 1 0 0 1 -1 0 Z  M 18 5 l 1 0 0 1 -1 0 Z      M 24 5 l 1 0 0 1 -1 0 Z M 0 6 l 1 0 0 1 -1 0 Z M 1 6 l 1 0 0 1 -1 0 Z M 2 6 l 1 0 0 1 -1 0 Z M 3 6 l 1 0 0 1 -1 0 Z M 4 6 l 1 0 0 1 -1 0 Z M 5 6 l 1 0 0 1 -1 0 Z M 6 6 l 1 0 0 1 -1 0 Z  M 8 6 l 1 0 0 1 -1 0 Z  M 10 6 l 1 0 0 1 -1 0 Z  M 12 6 l 1 0 0 1 -1 0 Z  M 14 6 l 1 0 0 1 -1 0 Z  M 16 6 l 1 0 0 1 -1 0 Z  M 18 6 l 1 0 0 1 -1 0 Z M 19 6 l 1 0 0 1 -1 0 Z M 20 6 l 1 0 0 1 -1 0 Z M 21 6 l 1 0 0 1 -1 0 Z M 22 6 l 1 0 0 1 -1 0 Z M 23 6 l 1 0 0 1 -1 0 Z M 24 6 l 1 0 0 1 -1 0 Z         M 8 7 l 1 0 0 1 -1 0 Z    M 12 7 l 1 0 0 1 -1 0 Z M 13 7 l 1 0 0 1 -1 0 Z M 14 7 l 1 0 0 1 -1 0 Z M 15 7 l 1 0 0 1 -1 0 Z M 16 7 l 1 0 0 1 -1 0 Z         M 0 8 l 1 0 0 1 -1 0 Z M 1 8 l 1 0 0 1 -1 0 Z M 2 8 l 1 0 0 1 -1 0 Z  M 4 8 l 1 0 0 1 -1 0 Z M 5 8 l 1 0 0 1 -1 0 Z M 6 8 l 1 0 0 1 -1 0 Z M 7 8 l 1 0 0 1 -1 0 Z M 8 8 l 1 0 0 1 -1 0 Z    M 12 8 l 1 0 0 1 -1 0 Z M 13 8 l 1 0 0 1 -1 0 Z   M 16 8 l 1 0 0 1 -1 0 Z M 17 8 l 1 0 0 1 -1 0 Z M 18 8 l 1 0 0 1 -1 0 Z    M 22 8 l 1 0 0 1 -1 0 Z   M 0 9 l 1 0 0 1 -1 0 Z   M 3 9 l 1 0 0 1 -1 0 Z M 4 9 l 1 0 0 1 -1 0 Z M 5 9 l 1 0 0 1 -1 0 Z    M 9 9 l 1 0 0 1 -1 0 Z   M 12 9 l 1 0 0 1 -1 0 Z M 13 9 l 1 0 0 1 -1 0 Z   M 16 9 l 1 0 0 1 -1 0 Z M 17 9 l 1 0 0 1 -1 0 Z M 18 9 l 1 0 0 1 -1 0 Z      M 24 9 l 1 0 0 1 -1 0 Z  M 1 10 l 1 0 0 1 -1 0 Z  M 3 10 l 1 0 0 1 -1 0 Z M 4 10 l 1 0 0 1 -1 0 Z  M 6 10 l 1 0 0 1 -1 0 Z M 7 10 l 1 0 0 1 -1 0 Z   M 10 10 l 1 0 0 1 -1 0 Z  M 12 10 l 1 0 0 1 -1 0 Z    M 16 10 l 1 0 0 1 -1 0 Z M 17 10 l 1 0 0 1 -1 0 Z  M 19 10 l 1 0 0 1 -1 0 Z M 20 10 l 1 0 0 1 -1 0 Z  M 22 10 l 1 0 0 1 -1 0 Z M 23 10 l 1 0 0 1 -1 0 Z M 24 10 l 1 0 0 1 -1 0 Z   M 2 11 l 1 0 0 1 -1 0 Z M 3 11 l 1 0 0 1 -1 0 Z M 4 11 l 1 0 0 1 -1 0 Z M 5 11 l 1 0 0 1 -1 0 Z   M 8 11 l 1 0 0 1 -1 0 Z M 9 11 l 1 0 0 1 -1 0 Z M 10 11 l 1 0 0 1 -1 0 Z   M 13 11 l 1 0 0 1 -1 0 Z M 14 11 l 1 0 0 1 -1 0 Z    M 18 11 l 1 0 0 1 -1 0 Z M 19 11 l 1 0 0 1 -1 0 Z M 20 11 l 1 0 0 1 -1 0 Z   M 23 11 l 1 0 0 1 -1 0 Z  M 0 12 l 1 0 0 1 -1 0 Z  M 2 12 l 1 0 0 1 -1 0 Z  M 4 12 l 1 0 0 1 -1 0 Z  M 6 12 l 1 0 0 1 -1 0 Z M 7 12 l 1 0 0 1 -1 0 Z   M 10 12 l 1 0 0 1 -1 0 Z      M 16 12 l 1 0 0 1 -1 0 Z M 17 12 l 1 0 0 1 -1 0 Z M 18 12 l 1 0 0 1 -1 0 Z M 19 12 l 1 0 0 1 -1 0 Z  M 21 12 l 1 0 0 1 -1 0 Z  M 23 12 l 1 0 0 1 -1 0 Z M 24 12 l 1 0 0 1 -1 0 Z    M 3 13 l 1 0 0 1 -1 0 Z    M 7 13 l 1 0 0 1 -1 0 Z M 8 13 l 1 0 0 1 -1 0 Z M 9 13 l 1 0 0 1 -1 0 Z M 10 13 l 1 0 0 1 -1 0 Z M 11 13 l 1 0 0 1 -1 0 Z M 12 13 l 1 0 0 1 -1 0 Z    M 16 13 l 1 0 0 1 -1 0 Z  M 18 13 l 1 0 0 1 -1 0 Z   M 21 13 l 1 0 0 1 -1 0 Z   M 24 13 l 1 0 0 1 -1 0 Z M 0 14 l 1 0 0 1 -1 0 Z    M 4 14 l 1 0 0 1 -1 0 Z  M 6 14 l 1 0 0 1 -1 0 Z  M 8 14 l 1 0 0 1 -1 0 Z M 9 14 l 1 0 0 1 -1 0 Z   M 12 14 l 1 0 0 1 -1 0 Z M 13 14 l 1 0 0 1 -1 0 Z M 14 14 l 1 0 0 1 -1 0 Z  M 16 14 l 1 0 0 1 -1 0 Z M 17 14 l 1 0 0 1 -1 0 Z M 18 14 l 1 0 0 1 -1 0 Z M 19 14 l 1 0 0 1 -1 0 Z   M 22 14 l 1 0 0 1 -1 0 Z M 23 14 l 1 0 0 1 -1 0 Z M 24 14 l 1 0 0 1 -1 0 Z  M 1 15 l 1 0 0 1 -1 0 Z  M 3 15 l 1 0 0 1 -1 0 Z     M 8 15 l 1 0 0 1 -1 0 Z M 9 15 l 1 0 0 1 -1 0 Z M 10 15 l 1 0 0 1 -1 0 Z   M 13 15 l 1 0 0 1 -1 0 Z   M 16 15 l 1 0 0 1 -1 0 Z    M 20 15 l 1 0 0 1 -1 0 Z   M 23 15 l 1 0 0 1 -1 0 Z  M 0 16 l 1 0 0 1 -1 0 Z   M 3 16 l 1 0 0 1 -1 0 Z M 4 16 l 1 0 0 1 -1 0 Z M 5 16 l 1 0 0 1 -1 0 Z M 6 16 l 1 0 0 1 -1 0 Z  M 8 16 l 1 0 0 1 -1 0 Z  M 10 16 l 1 0 0 1 -1 0 Z M 11 16 l 1 0 0 1 -1 0 Z M 12 16 l 1 0 0 1 -1 0 Z   M 15 16 l 1 0 0 1 -1 0 Z M 16 16 l 1 0 0 1 -1 0 Z M 17 16 l 1 0 0 1 -1 0 Z M 18 16 l 1 0 0 1 -1 0 Z M 19 16 l 1 0 0 1 -1 0 Z M 20 16 l 1 0 0 1 -1 0 Z M 21 16 l 1 0 0 1 -1 0 Z            M 8 17 l 1 0 0 1 -1 0 Z   M 11 17 l 1 0 0 1 -1 0 Z M 12 17 l 1 0 0 1 -1 0 Z M 13 17 l 1 0 0 1 -1 0 Z M 14 17 l 1 0 0 1 -1 0 Z M 15 17 l 1 0 0 1 -1 0 Z M 16 17 l 1 0 0 1 -1 0 Z    M 20 17 l 1 0 0 1 -1 0 Z M 21 17 l 1 0 0 1 -1 0 Z  M 23 17 l 1 0 0 1 -1 0 Z M 24 17 l 1 0 0 1 -1 0 Z M 0 18 l 1 0 0 1 -1 0 Z M 1 18 l 1 0 0 1 -1 0 Z M 2 18 l 1 0 0 1 -1 0 Z M 3 18 l 1 0 0 1 -1 0 Z M 4 18 l 1 0 0 1 -1 0 Z M 5 18 l 1 0 0 1 -1 0 Z M 6 18 l 1 0 0 1 -1 0 Z  M 8 18 l 1 0 0 1 -1 0 Z M 9 18 l 1 0 0 1 -1 0 Z   M 12 18 l 1 0 0 1 -1 0 Z M 13 18 l 1 0 0 1 -1 0 Z  M 15 18 l 1 0 0 1 -1 0 Z M 16 18 l 1 0 0 1 -1 0 Z  M 18 18 l 1 0 0 1 -1 0 Z  M 20 18 l 1 0 0 1 -1 0 Z M 21 18 l 1 0 0 1 -1 0 Z  M 23 18 l 1 0 0 1 -1 0 Z M 24 18 l 1 0 0 1 -1 0 Z M 0 19 l 1 0 0 1 -1 0 Z      M 6 19 l 1 0 0 1 -1 0 Z  M 8 19 l 1 0 0 1 -1 0 Z  M 10 19 l 1 0 0 1 -1 0 Z   M 13 19 l 1 0 0 1 -1 0 Z  M 15 19 l 1 0 0 1 -1 0 Z M 16 19 l 1 0 0 1 -1 0 Z    M 20 19 l 1 0 0 1 -1 0 Z M 21 19 l 1 0 0 1 -1 0 Z  M 23 19 l 1 0 0 1 -1 0 Z  M 0 20 l 1 0 0 1 -1 0 Z  M 2 20 l 1 0 0 1 -1 0 Z M 3 20 l 1 0 0 1 -1 0 Z M 4 20 l 1 0 0 1 -1 0 Z  M 6 20 l 1 0 0 1 -1 0 Z  M 8 20 l 1 0 0 1 -1 0 Z  M 10 20 l 1 0 0 1 -1 0 Z M 11 20 l 1 0 0 1 -1 0 Z M 12 20 l 1 0 0 1 -1 0 Z M 13 20 l 1 0 0 1 -1 0 Z   M 16 20 l 1 0 0 1 -1 0 Z M 17 20 l 1 0 0 1 -1 0 Z M 18 20 l 1 0 0 1 -1 0 Z M 19 20 l 1 0 0 1 -1 0 Z M 20 20 l 1 0 0 1 -1 0 Z M 21 20 l 1 0 0 1 -1 0 Z  M 23 20 l 1 0 0 1 -1 0 Z  M 0 21 l 1 0 0 1 -1 0 Z  M 2 21 l 1 0 0 1 -1 0 Z M 3 21 l 1 0 0 1 -1 0 Z M 4 21 l 1 0 0 1 -1 0 Z  M 6 21 l 1 0 0 1 -1 0 Z   M 9 21 l 1 0 0 1 -1 0 Z   M 12 21 l 1 0 0 1 -1 0 Z       M 19 21 l 1 0 0 1 -1 0 Z M 20 21 l 1 0 0 1 -1 0 Z M 21 21 l 1 0 0 1 -1 0 Z M 22 21 l 1 0 0 1 -1 0 Z   M 0 22 l 1 0 0 1 -1 0 Z  M 2 22 l 1 0 0 1 -1 0 Z M 3 22 l 1 0 0 1 -1 0 Z M 4 22 l 1 0 0 1 -1 0 Z  M 6 22 l 1 0 0 1 -1 0 Z  M 8 22 l 1 0 0 1 -1 0 Z M 9 22 l 1 0 0 1 -1 0 Z   M 12 22 l 1 0 0 1 -1 0 Z   M 15 22 l 1 0 0 1 -1 0 Z M 16 22 l 1 0 0 1 -1 0 Z M 17 22 l 1 0 0 1 -1 0 Z   M 20 22 l 1 0 0 1 -1 0 Z    M 24 22 l 1 0 0 1 -1 0 Z M 0 23 l 1 0 0 1 -1 0 Z      M 6 23 l 1 0 0 1 -1 0 Z  M 8 23 l 1 0 0 1 -1 0 Z  M 10 23 l 1 0 0 1 -1 0 Z  M 12 23 l 1 0 0 1 -1 0 Z M 13 23 l 1 0 0 1 -1 0 Z   M 16 23 l 1 0 0 1 -1 0 Z    M 20 23 l 1 0 0 1 -1 0 Z M 21 23 l 1 0 0 1 -1 0 Z  M 23 23 l 1 0 0 1 -1 0 Z  M 0 24 l 1 0 0 1 -1 0 Z M 1 24 l 1 0 0 1 -1 0 Z M 2 24 l 1 0 0 1 -1 0 Z M 3 24 l 1 0 0 1 -1 0 Z M 4 24 l 1 0 0 1 -1 0 Z M 5 24 l 1 0 0 1 -1 0 Z M 6 24 l 1 0 0 1 -1 0 Z  M 8 24 l 1 0 0 1 -1 0 Z M 9 24 l 1 0 0 1 -1 0 Z M 10 24 l 1 0 0 1 -1 0 Z   M 13 24 l 1 0 0 1 -1 0 Z M 14 24 l 1 0 0 1 -1 0 Z M 15 24 l 1 0 0 1 -1 0 Z M 16 24 l 1 0 0 1 -1 0 Z  M 18 24 l 1 0 0 1 -1 0 Z M 19 24 l 1 0 0 1 -1 0 Z    M 23 24 l 1 0 0 1 -1 0 Z M 24 24 l 1 0 0 1 -1 0 Z"
+      }
+    },
+    {
+      "type": "footnotes",
+      "notes": [
+        {
+          "number": 1,
+          "content": "A la <a href=\"https://ca.wikipedia.org/wiki/Empla%C3%A7ament_de_producte\">Viquipèdia</a> ho explica molt bé que és això del <em>Product Placement</em>"
+        }
+      ],
+      "pdf": { "page": 13 }
+    }    
+  ],
+  "authors": [
+    "Florenci Salesas"
+  ]
+}

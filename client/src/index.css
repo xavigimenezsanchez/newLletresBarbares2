@@ -414,10 +414,31 @@ html[data-scroll-direction="down"] .burgerstack {
   }
 
   .edition-title {
-    @apply text-5xl md:text-6xl font-light mb-4;
+    @apply text-5xl md:text-6xl font-light mb-4 text-center;
     font-family: "Irvin-Heading";
     color: rgb(220 38 38 / var(--tw-text-opacity, 1));
     letter-spacing: -0.02em;
+  }
+
+  .ilustration-title {
+    @apply text-xl md:text-4xl font-light mb-4 text-center;
+    font-family: "Irvin-Heading";
+    color: rgb(220 38 38 / var(--tw-text-opacity, 1));
+    letter-spacing: -0.02em;
+  }
+
+  .ilustration-description {
+    @apply text-sm md:text-xl text-gray-500 mb-4 text-center;
+    font-family: "TNYAdobeCaslonPro", 'Times New Roman', Times, serif;
+    letter-spacing: -0.02em;
+  }
+
+  .ilustration-image-container {
+    @apply pb-12;
+  }
+
+  .ilustration-section {
+    @apply flex flex-col items-center justify-center;
   }
 
   .edition-meta {

@@ -15,7 +15,6 @@ const EdicioPage: React.FC = () => {
   
   const [currentIssue, setCurrentIssue] = useState<Issue | null>(null)
   const [articles, setArticles] = useState<Article[]>([])
-  const [featuredArticle, setFeaturedArticle] = useState<Article | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
 
@@ -38,43 +37,9 @@ const EdicioPage: React.FC = () => {
           return
         }
 
-        // Cargar datos de la edición
-        console.log('🔍 Loading data for issue number:', issueNumber)
-        
-        // Temporalmente usar endpoints que sabemos que funcionan
-        const articlesData = await apiService.getArticlesByIssueNumber(issueNumber)
-        console.log('📰 Articles data received:', articlesData)
-        
-        // Si tenemos artículos, crear un issue básico
-        const issueArticles = (articlesData as any).articles || []
-        
-        if (issueArticles.length === 0) {
-          setError(`No s'han trobat articles per l'edició número ${issueNumber}`)
-          setLoading(false)
-          return
-        }
-        
-        // Crear issue básico basado en los artículos
-        const issueData = {
-          _id: `issue-${issueNumber}`,
-          number: issueNumber,
-          year: 2025, // TODO: calcular dinámicamente 
-          title: `Lletres Bàrbares - Número ${issueNumber}`,
-          publicationDate: issueArticles[0]?.publicationDate || new Date(),
-          totalArticles: issueArticles.length,
-          isPublished: true
-        }
-
-        console.log('📚 Issue articles:', issueArticles.length, 'articles')
-        
-        setCurrentIssue(issueData as Issue)
-        setArticles(issueArticles)
-        
-        // El primer artículo como destacado
-        if (issueArticles.length > 0) {
-          setFeaturedArticle(issueArticles[0])
-        }
-
+        const issueData = await apiService.getIssueDataByNumber(issueNumber)
+        setCurrentIssue(issueData.issue)
+        setArticles(issueData.articles)
         setLoading(false)
       } catch (error) {
         console.error('Error loading issue:', error)
@@ -86,14 +51,6 @@ const EdicioPage: React.FC = () => {
     loadIssueData()
   }, [number])
 
-  const formatDate = (dateString: string | Date) => {
-    const date = new Date(dateString)
-    return date.toLocaleDateString('ca-ES', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric'
-    })
-  }
 
   // Lógica de navegación por swipe
   const currentIssueNumber = currentIssue?.number || 0
@@ -193,31 +150,6 @@ const EdicioPage: React.FC = () => {
         canSwipeRight={canNavigatePrevious}
       />
       
-      {/* Breadcrumb */}
-      {/* <nav className="bg-gray-50 py-4">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <ol className="flex items-center space-x-2 text-sm text-gray-500">
-            <li>
-              <Link to="/" className="hover:text-gray-700">Inici</Link>
-            </li>
-            <li>/</li>
-            <li>
-              <Link to="/arxiu" className="hover:text-gray-700">Arxiu</Link>
-            </li>
-            <li>/</li>
-            <li className="text-gray-900 font-medium">
-              Edició {currentIssue.number}
-            </li>
-          </ol>
-        </div>
-      </nav> */}
-
-      {/* Hero Section */}
-      {/* <Hero 
-        title={currentIssue.title || `Lletres Bàrbares - Número ${currentIssue.number}`}
-        subtitle={`Publicat el ${formatDate(currentIssue.publicationDate)} • ${articles.length} articles`}
-        featuredArticle={featuredArticle || undefined}
-      /> */}
 
       {/* Navigation between issues */}
        
@@ -258,56 +190,15 @@ const EdicioPage: React.FC = () => {
 
       <main className="home-background">
               
-      {/* Breadcrumb */}
-      {/* <nav className="bg-gray-50 py-4">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <ol className="flex items-center space-x-2 text-sm text-gray-500">
-            <li>
-              <Link to="/" className="hover:text-gray-700">Inici</Link>
-            </li>
-            <li>/</li>
-            <li>
-              <Link to="/arxiu" className="hover:text-gray-700">Arxiu</Link>
-            </li>
-            <li>/</li>
-            <li className="text-gray-900 font-medium">
-              Edició {currentIssue.number}
-            </li>
-          </ol>
-        </div>
-      </nav> */}
-
 
         <MagazineLayout 
           articles={articles}
           issueNumber={currentIssue?.number}
-          year={currentIssue?.year}
           publicationDate={currentIssue?.publicationDate}
+          coverImage={currentIssue?.coverImage}
         />
       </main>
 
-
-
-
-
-
-
-
-
-
-
-
-
-      {/* Articles */}
-      {/* <main>
-        <ArticleGrid 
-          title={`Contingut de l'edició ${currentIssue.number}`}
-          articles={articles}
-          issueNumber={currentIssue.number}
-          year={currentIssue.year}
-        />
-      </main>
-       */}
     </div>
   )
 }

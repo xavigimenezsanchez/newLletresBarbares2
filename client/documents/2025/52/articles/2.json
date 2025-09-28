@@ -1,0 +1,154 @@
+{
+    "_id": {
+      "$oid": "68d72373c7c60963fb34b5cb"
+    },
+    "issue": 2025,
+    "data": "27/09/2025",
+    "imageCard": "torra51-01",
+    "title": "Jane Austen, dos i mig",
+    "url": "jane-austen-dos-i-mig",
+    "section": "articles",
+    "author": "Pere Torra",
+    "summary": "",
+    "publicationDate": {
+      "$date": "2025-09-27T22:00:00.000Z"
+    },
+    "isPublished": true,
+    "tags": [],
+    "readTime": 5,
+    "year": 2025,
+    "issueNumber": 51,
+    "authors": [
+      "Pere Torra"
+    ],
+    "text": [
+        {
+            "type": "image",
+            "name": "torra51-01",
+            "pdf": {
+              "page": 1
+            }
+          },
+        {
+            "type": "paragraph",
+            "content": "Enguany celebrem el 250è aniversari del naixement de Jane Austen. Sembla mentida que aquesta escriptora anglesa hagi nascut fa dos segles i mig perquè les seves novel·les presenten una gran modernitat. Per celebrar com cal l’aniversari de qualsevol escriptor, el millor és llegir-lo i, en el cas d’Austen, la lectura és un plaer, ja que som davant d’una de les millors autores de la literatura anglesa i occidental de tots els temps. La seva obra és força curta: mitja dotzena de novel·les, algunes de les quals són obres mestres, i alguns textos esparsos: obres inacabades, cartes...",
+            "pdf": {
+              "page": 1
+            }
+          },
+          {
+            "type": "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content": "<strong><em>Persuasió</em>, text de maduresa publicat pòstumament, sintetitza les virtuts de l’obra d’Austen</strong>",
+            "pdf": {
+              "page": 1
+            }
+          },
+          {
+            "type": "paragraph",
+            "content": "Per sort, disposem de bones traduccions a la nostra llengua de l’obra d’Austen, la darrera de les quals que ha aparegut és la de <em>Persuasió</em>. Publicada pòstumament, es tracta d’una de les millors novel·les de l’anglesa, un text de maduresa de l’escriptora, on desplega tota la seva habilitat narrativa. És una bona manera d’entrar al món austenià, ja que en condensa totes les virtuts. L’anècdota argumental no és gaire rellevant i tota la història abasta un petit microcosmos format per un nombre acotat de personatges, que es poden encabir en sis grups que, en conjunt, s’adscriuen a la petita noblesa rural, la família Elliot, que inclou Anne, la protagonista, filla mitjana; els Musgrove, el fill dels quals està casat amb la petita dels Elliot; els Croft, llogaters dels Elliot; els Wentworth,  entre els quals el capità Frederick Wentworth, antic promès d’Anne, oficial de la Marina Reial; els Harville; i finalment, hi ha un grup de personatges que podem anomenar el cercle de Bath, on passen temporades per gaudir dels balnearis, balls, concerts i trobades socials.",
+            "pdf": {
+              "page": 1,
+              "division": {
+                  "alignLast": true,
+                  "contentPage": "Per sort, disposem de bones traduccions a la nostra llengua de l’obra d’Austen, la darrera de les quals que ha aparegut és la de <em>Persuasió</em>. Publicada pòstumament, es tracta d’una de les millors novel·les de l’anglesa, un text de maduresa de l’escriptora, on desplega tota la seva habilitat narrativa. És una bona manera d’entrar al món austenià, ja que en condensa totes les virtuts. L’anècdota argumental no és gaire rellevant i tota la història abasta un petit microcosmos format per un nombre acotat de personatges, que es poden encabir en sis grups que, en conjunt, s’adscriuen a la petita noblesa rural, la família Elliot, que inclou Anne, la protagonista, filla mitjana; els Musgrove, el fill dels quals està casat amb la petita dels Elliot; els Croft, llogaters dels Elliot; els Wentworth,  entre els quals el capità",
+                  "contentNextPage": "Frederick Wentworth, antic promès d’Anne, oficial de la Marina Reial; els Harville; i finalment, hi ha un grup de personatges que podem anomenar el cercle de Bath, on passen temporades per gaudir dels balnearis, balls, concerts i trobades socials."
+                }
+            }
+          },
+          {
+            "type": "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content": "<strong>La gràcia d’Austen es troba en la sofisticada penetració en els comportaments íntims i en l’agudesa de la mirada sobre les relacions interpersonals</strong>",
+            "pdf": {
+              "page": 2
+            }
+          },
+          {
+            "type": "paragraph",
+            "content": "Com totes les novel·les de l’autora,<em> Persuasió</em> documenta uns usos socials d’un període històric determinat —principis del segle XIX—, que ara trobem força horrorosos: jerarquització social molt estricta, discriminació de la dona, etc., però això tampoc no és rellevant pel que fa a la qualitat literària. La gràcia d’Austen es troba en la sofisticada penetració en els comportaments íntims; en l’agudesa de la mirada sobre les relacions interpersonals; en l’acurada dissecció de la interacció d’uns quants membres de comunitats molt petites. Potser el millor és com retrata persones idiotes només mostrant-ne les accions i els diàlegs, sense dir-ho mai directament, amb gran ironia. I d’idiotes, ximples i hipocondríacs n'hi ha uns quants a les seves novel·les, al costat de persones amb bon cor i d’altres de gran intel·ligència.",
+            "pdf": {
+              "page": 2
+            }
+          },
+          {
+            "type": "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content": "<strong>Austen fa una crítica contundent i mostra les contradiccions de la hipocresia social de la seva època</strong>",
+            "pdf": {
+              "page": 2
+            }
+          },
+          {
+            "type": "paragraph",
+            "content": "A nosaltres, gent del segle XXI, el comportament dels personatges d’Austen, a vegades, ens sembla hipòcrita; però no és ben bé així. Els anglesos —en general, també els europeus— de la fi del segle XVIII i començament del XIX assumien els deures aparellats a la seva condició sense gaire estranyesa. La sinceritat no era pas un valor i, fins i tot, podia ser considerat més aviat un defecte (pensant-hi bé, en alguns aspectes, les coses tampoc no han canviat pas tant). Amb la seva mirada irònica, Austen en fa una crítica contundent i en mostra les contradiccions. A <em>Persuasió</em> hi ha personatges, com l’almirall Croft i la seva dona, que encarnen valors positius. L’almirall, llogater de la casa familiar dels Elliot, és un home franc i directe que de vegades parla pel broc gros. Anne l’aprecia molt perquè s’adona que estima de debò la seva esposa, amb qui forma un matrimoni en què l’amor està força per damunt de les convencions socials. Precisament, ella és víctima d’aquestes convencions per haver-se deixat persuadir anys enrere que no li convenia seguir els dictats del cor.",
+            "pdf": {
+              "page": 2
+            }
+          },
+          {
+            "type": "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content": "<strong>La traductora, Maria Rossich, ha fet una feina impecable a <em>Persuasió</em></strong>",
+            "pdf": {
+              "page": 2
+            }
+          },
+          {
+            "type": "paragraph",
+            "content": "La nova traducció catalana, que s’ha publicat a principis del 2025, és a càrrec de Maria Rossich, que ha fet una feina impecable i ja va versionar<em> Orgull i prejudici</em> a la mateixa col·lecció d’edicions Viena l’any passat. Per exemple, té un gran encert a l’hora de traduir una frase clau de la lletra —frase que ens ha fet observar Rut Carandell, una gran lectora experta en Austen— que el capità Wentworth adreça a Anne, en recórrer al genuí punyir, ajustadíssim a l’original pierce. A més, el fet d’emprar la forma personal del verb resulta més precís que l’impersonal d’algunes versions i interpel·la la interlocutora directament, com demana la situació. Vegeu, a continuació, l’original anglès i dues traduccions catalanes i dues de castellanes:",
+            "pdf": {
+              "page": 3
+            }
+          },
+          {
+            "type": "paragraph2",
+            "content": "You pierce my soul. I am half agony, half hope. (Jane Austen)<br/>M’esteu punyint el cor, em debato entre l’agonia i l’esperança. (Maria Rossich)</br>Se’m parteix l’ànima i vacil·lo entre la desolació i l’esperança. (Jordi Arbonès)</br>Usted me ha atravesado el alma. Me debato entre la agonía y la esperanza. (Pilar Hidalgo)</br>Se me parte el alma y vacilo entre la desolación y la esperanza. (M. Ortega y Gasset)",
+            "pdf": {
+              "page": 3
+            }
+          },
+          {
+            "type": "paragraph",
+            "content": "Rossich, però, es fa un embolic amb els termes relatius a l’arrendament de Kellynch Hall, ja que anomena “arrendador” —pàgines 28 i 171— l’almirall Croft, que és l’arrendatari o llogater dels Elliot. L'edició de Viena dins la col·lecció «Club Victòria» s’afegeix a la que va publicar l’any 2020 La Temerària, en traducció de Jordi Arbonès i Montull, tot un Premi Nacional de Traducció de les Lletres Catalanes. No hi ha problema que obres clàssiques tan rellevants comptin amb més d’una edició —en aquest cas, amb excel·lents traduccions— i, fins i tot, és una mostra de potència d’una cultura.",
+            "pdf": {
+              "page": 3
+            }
+          },
+          {
+            "type": "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content": "<strong>Amb l’obra d’Austen s’ha fet de tot: reescriptures amb zombis o monstres marins; seqüeles amb personatges secundaris; noves novel·les amb múltiples variacions argumentals; etc.</strong>",
+            "pdf": {
+              "page": 3
+            }
+          },
+          {
+            "type": "paragraph",
+            "content": "Austen encara ens fascina, més de dos segles després, i per això s’ha fet de tot amb la seva obra. Hi ha reescriptures d’obres mestres que potser van massa lluny, com una versió d’<em>Orgull i prejudici </em>que la barreja amb zombis o una de<em> Seny i sentiment </em>que ho fa amb monstres marins. N’hi ha d’altres que han continuat la història amb les vicissituds de personatges secundaris, com Colleen McCullough amb<em> The independence of Miss Mary Bennet: a novel</em>, que se centra en Mary, la més seriosa i religiosa de les cinc germanes Bennet. Per la seva banda, P.D. James va escriure <em>Death Comes to Pemberley</em>, que combina el món d’<em>Orgull i prejudici </em>amb un misteri d’assassinat de tipus clàssic, al més pur estil d’Agatha Christie. Jo Baker és autora de<em> Longbourn</em>, una mirada al món d’<em>Orgull i prejudici </em>des de la perspectiva dels criats de la casa Bennet, en lloc dels amos, que deu plaure als aficionats a ficcions del tipus Downton Abbey. Un altre cas és<em> Mr. Darcy’s Diary</em>, escrita per Amanda Grange, força fidel a la trama original, però des del punt de vista de Darcy. I encara, una tal Abigail Reynolds, que deu tenir una mena de rècord, ja que ha arribat a escriure una sèrie de variacions d’<em>Orgull i prejudici</em>, que inclou més d'una desena de novel·les que es presenten com a variants argumentals, com fa a <em>Mr. Fitzwilliam Darcy: The Last Man in the World</em>. No n’he llegit cap, però més que una obsessió en Austen, aquesta autora sembla tenir una obsessió amb el personatge de Mr. Darcy, ja que una bona colla dels títols fan referència al gran amor d’Elizabeth Bennet. N'hi ha moltíssim més, i no hem parlat d’adaptacions televisives o cinematogràfiques, algunes de molt fidels i d’altres que s’hi inspiren i traslladen la història als temps actuals, com <em>Els diaris de Bridget Jones</em>.",
+            "pdf": {
+              "page": 3,
+              "division": {
+                "alignLast": true,
+                "contentPage": "Austen encara ens fascina, més de dos segles després, i per això s’ha fet de tot amb la seva obra. Hi ha reescriptures d’obres mestres que potser van massa lluny, com una versió d’<em>Orgull i prejudici </em>que la barreja amb zombis o una de<em> Seny i sentiment </em>que ho fa amb monstres marins. N’hi ha d’altres que han continuat la història amb les vicissituds de personatges secundaris, com Colleen McCullough amb<em> The independence of Miss Mary Bennet: a novel</em>, que se centra en Mary, la més seriosa i religiosa de les cinc germanes Bennet. Per la seva banda, P.D. James va escriure <em>Death Comes to Pemberley</em>, que combina el món d’<em>Orgull i prejudici </em>amb un misteri d’assassinat de tipus clàssic, al més pur estil d’Agatha Christie. Jo Baker és autora de<em> Longbourn</em>, una mirada al món d’<em>Orgull i prejudici </em>des de la perspectiva dels criats de la casa Bennet, en lloc dels amos, que deu",
+                "contentNextPage": "plaure als aficionats a ficcions del tipus Downton Abbey. Un altre cas és<em> Mr. Darcy’s Diary</em>, escrita per Amanda Grange, força fidel a la trama original, però des del punt de vista de Darcy. I encara, una tal Abigail Reynolds, que deu tenir una mena de rècord, ja que ha arribat a escriure una sèrie de variacions d’<em>Orgull i prejudici</em>, que inclou més d'una desena de novel·les que es presenten com a variants argumentals, com fa a <em>Mr. Fitzwilliam Darcy: The Last Man in the World</em>. No n’he llegit cap, però més que una obsessió en Austen, aquesta autora sembla tenir una obsessió amb el personatge de Mr. Darcy, ja que una bona colla dels títols fan referència al gran amor d’Elizabeth Bennet. N'hi ha moltíssim més, i no hem parlat d’adaptacions televisives o cinematogràfiques, algunes de molt fidels i d’altres que s’hi inspiren i traslladen la història als temps actuals, com <em>Els diaris de Bridget Jones</em>."
+              }
+            }
+          },
+          {
+            "type": "paragraph",
+            "styles": "{\"fontWeight\":\"bolder\",\"textAlign\":\"right\",\"color\":\"red\"}",
+            "content": "<strong>Sense Jane Austen no hi hauria hagut Virginia Woolf</strong>",
+            "pdf": {
+              "page": 4
+            }
+          },
+          {
+            "type": "paragraph",
+            "content": "El valor d’Austen s’incrementa si es tenen en compte alguns dels totxos poc digeribles que la precediren, com ara les novel·les de Samuel Richardson, obres molt apreciables —sens dubte— a les quals l’escriptora anglesa mateixa deu moltes coses, però que són autèntiques pallisses que desafien la paciència del lector. A més, tot i que seria anacrònic veure-la com una autora feminista en els termes d’avui, no s’està de denunciar l’injust tractament que han rebut les dones en la història. Per això, a la famosa conversa sobre la constància femenina a <em>Persuasió</em>, fa dir a la protagonista: «no em citeu llibres com a exemple. Nosaltres no hem tingut l'oportunitat d’explicar la nostra història com els homes. Ells han rebut una educació més completa, i han tingut la ploma a la mà. No trobo que els llibres demostrin res» (240). En definitiva, afirmo, ara i aquí, que val la pena llegir les obres originals d’Austen. En fer-ho, hom s'adona que és lògic que, al cap d’un segle, aparegués Virginia Woolf. O dit d’una altra manera, sense l’Austen no és segur que hi hagués hagut la Woolf. I sense totes dues qui sap si nosaltres hauríem tingut la Rodoreda. Això és impossible de saber i, en tot cas, enteneu-ho només com una manera de parlar per a celebrar com de bé ha envellit Austen en aquests dos segles i mig.",
+            "pdf": {
+              "page": 4
+            }
+          }
+    ]
+  }

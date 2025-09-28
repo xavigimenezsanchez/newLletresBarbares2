@@ -49,7 +49,7 @@ const PDFArticlePaginatedManual: React.FC<PDFArticlePaginatedManualProps> = ({ a
       case 'title':
       case 'title2':
         return (
-          <div key={elementKey} className="pdf-title-wrapper">
+          <div key={elementKey} className="pdf-title-wrapper" style={element?.styles ? JSON.parse(element.styles) : undefined}>
             <h3
               className={`pdf-subtitle ${element.type === 'title2' ? 'pdf-subtitle-2' : ''}`}
               dangerouslySetInnerHTML={{ __html: element.content }}
@@ -66,7 +66,7 @@ const PDFArticlePaginatedManual: React.FC<PDFArticlePaginatedManualProps> = ({ a
 
       case 'image':
         return (
-          <div key={elementKey} className="pdf-image-container">
+          <div key={elementKey} className="pdf-image-container" style={element?.styles ? JSON.parse(element.styles) : undefined}>
             <img
               src={`/api/images/${element.name}`}
               alt=""

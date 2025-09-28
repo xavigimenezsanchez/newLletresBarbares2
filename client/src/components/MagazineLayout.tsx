@@ -1,15 +1,18 @@
 import { Link } from 'react-router-dom'
 import type { Article } from '../types'
-import { formatDateToCatalan } from '../utils/dateUtils'
 
 interface MagazineLayoutProps {
   articles: Article[]
   issueNumber?: number
   year?: number
   publicationDate?: string
+  coverImage?: string
 }
 
-const MagazineLayout = ({ articles, issueNumber, year, publicationDate }: MagazineLayoutProps) => {
+const MagazineLayout = ({ articles, issueNumber, publicationDate, coverImage }: MagazineLayoutProps) => {
+
+
+
   if (articles.length === 0) {
     return (
       <section className="magazine-layout">
@@ -54,7 +57,7 @@ const MagazineLayout = ({ articles, issueNumber, year, publicationDate }: Magazi
     return sectionLabels[section] || section
   }
 
-  return (
+  return (<>
     <section className="magazine-layout">
       {/* Header de la edición */}
       <div className="edition-header">
@@ -88,8 +91,22 @@ const MagazineLayout = ({ articles, issueNumber, year, publicationDate }: Magazi
           //   size === 'large' ? 'long' : size === 'medium' ? 'medium' : 'short'
           // )
 
-          const summaryText = article.summary || article.text.find(text => text.type === 'paragraph')?.content || '';
-          
+          const articleText = article.summary || article.text.reduce((acc, text) =>{
+            if (text.type === 'paragraph') {
+              acc += acc !== '' ? '<br/><br/>' + text.content : text.content
+            } 
+            return acc
+          }, '') || '';
+          let summaryText: string = '';
+          if (article.summary) {
+            summaryText = article.summary
+          } else if (size === 'large') {
+            summaryText = articleText.substring(0, 2750) + '...'
+          } else if (size === 'medium') {
+            summaryText = articleText.substring(0, 600) + '...'
+          } else {
+            summaryText = articleText
+          }
 
 
           return (
@@ -114,7 +131,7 @@ const MagazineLayout = ({ articles, issueNumber, year, publicationDate }: Magazi
                 </div>
                 
                 <h3 className="magazine-card__title">
-                  <Link to={`/${article.section}/${article.url}`} dangerouslySetInnerHTML={{ __html: article.title }} />
+                  <div  dangerouslySetInnerHTML={{ __html: article.title }} />
                 </h3>
                 
                 <p className="magazine-card__summary" dangerouslySetInnerHTML={{ __html: summaryText }} />
@@ -129,6 +146,18 @@ const MagazineLayout = ({ articles, issueNumber, year, publicationDate }: Magazi
         })}
       </div>
     </section>
+    {coverImage && <section className="ilustration-section">
+      <div>
+      <h2 className="ilustration-title">
+          Il·lustració portada
+        </h2>
+        <div className="ilustration-description">Frangment cuadre de Mercedes Gallardo</div>
+      </div>
+      <div className="ilustration-image-container">
+            <img src={`/api/images/${coverImage}`} alt="Cover" />
+          </div>
+    </section>}
+    </>
   )
 }
 

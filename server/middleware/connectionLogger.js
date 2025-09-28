@@ -204,10 +204,10 @@ const connectionLogger = async (req, res, next) => {
     // Guardar en la base de datos
     console.log(`💾 Attempting to save connection data:`, {
       sessionId,
-      ip,
-      userAgent: userAgent.substring(0, 50) + '...',
-      location: locationInfo,
-      device: deviceInfo
+      ip
+      // userAgent: userAgent.substring(0, 50) + '...',
+      // location: locationInfo,
+      // device: deviceInfo
     });
     
     const connectionAnalytics = new ConnectionAnalytics(connectionData);

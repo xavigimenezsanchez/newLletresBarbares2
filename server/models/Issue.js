@@ -46,10 +46,13 @@ const issueSchema = new mongoose.Schema({
     type: Boolean,
     required: false
   },
-  articlesOrder: [{
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'Article'
-  }]
+  articlesOrder: {
+    type: [{
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'Article'
+    }],
+    required: false
+  }
 }, {
   timestamps: true
 });

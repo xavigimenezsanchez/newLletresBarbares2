@@ -16,14 +16,9 @@ const HomePage = () => {
         setLoading(true)
         setError(null)
 
-        // Cargar datos en paralelo
-        const [latestIssueData, recentArticlesData] = await Promise.all([
-          apiService.getLatestIssue(),
-          apiService.getRecentArticles()
-        ])
-
-        setCurrentIssue((latestIssueData as any).issue)
-        setRecentArticles(recentArticlesData as Article[])
+        const latestIssueData = await apiService.getLatestIssue()
+        setCurrentIssue(latestIssueData.issue)
+        setRecentArticles(latestIssueData.articles)
       } catch (err) {
         console.error('Error cargando datos:', err)
         setError('Error carregant les dades. Si us plau, torna-ho a provar.')
@@ -68,8 +63,8 @@ const HomePage = () => {
         <MagazineLayout 
           articles={recentArticles}
           issueNumber={currentIssue?.number}
-          year={currentIssue?.year}
           publicationDate={currentIssue?.publicationDate}
+          coverImage={currentIssue?.coverImage}
         />
   )
 }

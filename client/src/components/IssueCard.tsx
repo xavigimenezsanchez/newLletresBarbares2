@@ -154,6 +154,15 @@ const IssueCard: React.FC<IssueCardProps> = ({ issue, viewMode }) => {
   const cardSize = getCardSize()
   const colorScheme = getYearColorScheme(issue.publicationDate)
 
+  let styles: React.CSSProperties = {}
+  if (issue.coverImage) {
+    styles = {
+      backgroundImage: `url(/api/images/${issue.coverImage})`,
+      backgroundSize: 'cover'
+    }
+  } 
+
+
   if (viewMode === 'grid') {
     // Clases dinámicas basadas en el tamaño de la card
     const cardClasses = {
@@ -183,7 +192,9 @@ const IssueCard: React.FC<IssueCardProps> = ({ issue, viewMode }) => {
         }}
       >
         {/* Portada con colores dinámicos */}
-        <div className={`${aspectRatios[cardSize]} bg-gradient-to-br ${colorScheme.gradient} ${colorScheme.hover} flex items-center justify-center transition-all duration-500 relative overflow-hidden`}>
+        <div className={`${aspectRatios[cardSize]} bg-gradient-to-br ${colorScheme.gradient} ${colorScheme.hover} flex items-center justify-center transition-all duration-500 relative overflow-hidden`}
+        style={styles}
+        >
           {/* Patrón decorativo */}
           <div className="absolute inset-0 opacity-10 group-hover:opacity-20 transition-opacity duration-300 issue-pattern-parallax">
             <div className="absolute top-4 left-4 w-8 h-8 border-2 border-current rounded-full animate-pulse"></div>
@@ -323,8 +334,8 @@ const IssueCard: React.FC<IssueCardProps> = ({ issue, viewMode }) => {
   >
     {/* <div className={`flex gap-6 bg-white rounded-lg shadow-sm border ${colorScheme.border} overflow-hidden hover:shadow-lg transition-all duration-300 p-6 group relative`}> */}
       {/* Portada mini con colores dinámicos */}
-      <div className="flex-shrink-0">
-        <div className={`w-24 h-32 bg-gradient-to-br ${colorScheme.gradient} ${colorScheme.hover} rounded flex items-center justify-center transition-all duration-300 relative overflow-hidden group-hover:scale-105`}>
+      <div className="flex-shrink-0" style={styles}>
+        <div className={`w-24 h-32 bg-gradient-to-br ${!issue.coverImage?colorScheme.gradient + " " + colorScheme.hover:''} rounded flex items-center justify-center transition-all duration-300 relative overflow-hidden group-hover:scale-105`}>
           {/* Patrón decorativo mini */}
           <div className="absolute inset-0 opacity-20">
             <div className="absolute top-2 left-2 w-3 h-3 border border-current rounded-full"></div>
@@ -332,10 +343,10 @@ const IssueCard: React.FC<IssueCardProps> = ({ issue, viewMode }) => {
           </div>
           
           <div className="text-center relative z-10">
-            <div className="text-xs font-light mb-1" style={{ fontFamily: 'TNYAdobeCaslonPro, "Times New Roman", Times, serif' }}>
+            <div className={`text-xs font-light mb-1 ${issue.coverImage?'text-white':''}`} style={{ fontFamily: 'TNYAdobeCaslonPro, "Times New Roman", Times, serif' }}>
               LB
             </div>
-            <div className={`text-lg font-bold ${colorScheme.accent}`}>
+            <div className={`text-lg font-bold ${issue.coverImage?'text-white': colorScheme.accent}`}>
               {issue.number}
             </div>
           </div>
@@ -357,10 +368,6 @@ const IssueCard: React.FC<IssueCardProps> = ({ issue, viewMode }) => {
             </div>
             
             <div className="flex items-center gap-4 text-sm text-gray-500">
-              {/* <span className="flex items-center gap-1">
-                <span className="text-base">📅</span>
-                <span className="font-medium">{formatDate(issue.publicationDate)}</span>
-              </span> */}
               <span className="flex items-center gap-1">
                 <span className="text-base"><img src={Article} alt="Articles" className="h-[18px]  w-[18px]" /></span>
                 <span className="font-medium">{totalArticles} articles</span>

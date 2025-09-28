@@ -54,13 +54,24 @@ router.get('/latest', async (req, res) => {
 
     // Obtener artículos del número
     const articles = await Article.find({ 
-      issueId: issue._id, 
-      isPublished: true 
-    }).populate('issueId', 'year number');
-
+      issueNumber: issue.number, 
+    });
+    
+    let articlesOrdered = [];
+    if (issue.articlesOrder) {
+      issue.articlesOrder.forEach((articleId) => {
+        const article = articles.find((article) => article._id.toString() === articleId.toString());
+        if (article) {
+          articlesOrdered.push(article);
+        }
+      });
+    }
+    else {
+      articlesOrdered = articles;
+    }
     res.json({
       issue,
-      articles
+      articles: articlesOrdered
     });
   } catch (error) {
     console.error('Error obteniendo último número:', error);
@@ -79,20 +90,56 @@ router.get('/years', async (req, res) => {
   }
 });
 
+// GET /api/issues/numberdata/:number - Obtener número específico por número
+
+router.get('/numberdata/:number', async (req, res) => {
+
+  try {
+    const { number } = req.params;
+    const issue = await Issue.findOne({ number: parseInt(number) });
+    
+    if (!issue) {
+      return res.status(404).json({ error: 'No se encontraron números' });
+    }
+
+    // Obtener artículos del número
+    const articles = await Article.find({ 
+      issueNumber: issue.number, 
+    });
+    
+    let articlesOrdered = [];
+    if (issue.articlesOrder && issue.articlesOrder.length > 0) {
+      issue.articlesOrder.forEach((articleId) => {
+        const article = articles.find((article) => article._id.toString() === articleId.toString());
+        if (article) {
+          articlesOrdered.push(article);
+        }
+      });
+    }
+    else {
+      articlesOrdered = articles;
+    }
+    res.json({
+      issue,
+      articles: articlesOrdered
+    });
+  } catch (error) {
+    console.error('Error obteniendo último número:', error);
+    res.status(500).json({ error: 'Error interno del servidor' });
+  }
+});
+
 // GET /api/issues/number/:number - Obtener número específico por número
 router.get('/number/:number', async (req, res) => {
   try {
     const { number } = req.params;
-    console.log('Buscando número:', number, 'tipo:', typeof number);
     
     const parsedNumber = parseInt(number);
-    console.log('Número parseado:', parsedNumber);
     
     const issue = await Issue.findOne({ 
       number: parsedNumber
     });
 
-    console.log('Issue encontrado:', issue ? 'sí' : 'no');
 
     if (!issue) {
       return res.status(404).json({ error: 'Número no encontrado' });
