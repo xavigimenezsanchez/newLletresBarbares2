@@ -152,7 +152,7 @@ const MagazineLayout = ({ articles, issueNumber, publicationDate, coverImage }: 
       <h2 className="ilustration-title">
           Il·lustració portada
         </h2>
-        <div className="ilustration-description">Fragment cuadre de Mercedes Gallardo</div>
+        <div className="ilustration-description">Fragment quadre de Mercedes Gallardo</div>
         <a href="https://www.instagram.com/mercedesgallardo.art" target="_blank" className="ilustration-author"><img src={instagramColor} alt="Instagram" /> <div>mercedesgallardo.art</div></a>
       </div>
       <div className="ilustration-image-container">
