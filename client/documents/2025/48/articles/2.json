@@ -1,74 +1,157 @@
 {
-    "title" : "De tyrannis",
-    "url" : "de_tyrannis",
-    "section" : "articles",
-    "issue" : 47,
-    "data" : "24/05/2025",
-    "imageCard" : "carbonell47-01",
-    "author" : "Àngel Carbonell",
-    "summary" : "",
-    "text": [
-      {
-        "type": "image",
-        "name": "carbonell47-01",
-        "content": "Representació dels tiranicides Harmodi i Aristogitó matant el pisistràtide Hiparc a una gerra àtica de figures vermelles del Pintor de Copenhaguen"
-      },
+  "_id": {
+    "$oid": "688f8e33ac16e0dadcf03d2d"
+  },
+  "issueId": {
+    "$oid": "688f8e33ac16e0dadcf03d27"
+  },
+  "issue": 2025,
+  "data": "24/05/2025",
+  "imageCard": "carbonell47-01",
+  "title": "De tyrannis",
+  "url": "de_tyrannis",
+  "section": "articles",
+  "author": "Àngel Carbonell",
+  "summary": "",
+  "text": [
     {
-      "type": "paragraph",
-      "content": "<em>I’ fui radice della mala pianta,</em>"
-    },
-    {
-      "type": "paragraph",
-      "content": "Hug Capet a Dante, v. 43, Cant XX, Purgatori, <em>Divina Comèdia</em>. Dante."
-    },
-    {
-      "type": "paragraph",
-      "content": "En la seva obra <em>L'Ancien Régime et la Révolution</em> (1856), Alexis de Tocqueville analitza el camí que va seguir el poble francès fins a la Revolució Francesa i la instauració de l'Estat democràtic modern. Els seus estudis sobre la llibertat política, la participació cívica i la transició d’un sistema absolutista a un règim democràtic marquen una fita en la ciència política. En aquest treball, Tocqueville defensa la idea que la revolució no es va produir només per l'oposició al poder absolut i centralitzat de la monarquia dels Borbons, sinó també a conseqüència d’una crisi profunda d’identitat política de la societat francesa."
-    },
-    {
-      "type": "paragraph",
-      "content": "Aquesta crisi es va traduir en un desconeixement fonamental de què significava la llibertat política i, sobretot, en una incapacitat del poble francès per gestionar les llibertats obtingudes en el seu moment. Per Tocqueville, la llibertat no és una qüestió de simples drets individuals, sinó un concepte profundament arrelat a les institucions que permeten la seva protecció i el seu exercici real en una societat. Segons ell, el poble francès, tot i que es rebel·lava contra un sistema de govern que limitava les seves llibertats, no sabia com utilitzar aquestes llibertats de manera eficaç i constructiva."
-    },
-    {
-      "type": "paragraph",
-      "content": "Tocqueville planteja una visió interessant sobre la Revolució, en la qual sembla suggerir que el poble francès va ser incapaç de comprendre plenament els conceptes bàsics de la llibertat. Més encara, ell creu que la seva revolució hauria estat més profitosa si s’haguessin preservat certes institucions de l'Antic Règim, adaptades a les necessitats de la nova societat democràtica. Aquestes institucions, que eren considerades arcaiques i inútils en un primer moment, si haguessin estat reformades i preservades, podrien haver jugat un paper fonamental per a la consolidació de la democràcia a França. Aquestes reformes haurien pogut ser tan efectives com les que es van dur a terme en països com la Gran Bretanya, on certes institucions s’havien adaptat als nous principis liberals i constitucionalistes."
-    },
-    {
-      "type": "paragraph",
-      "content": "Tanmateix, aquestes institucions no només eren monuments del passat, sinó que eren també autèntiques eines de participació política i decisió pública. El sistema dels Estats Generals, els antics parlaments i corts de justícia, que abans de l’absolutisme borbònic tenien una certa independència de la corona, eren mirats amb desconfiança per la revolució, i amb raó en molts casos. Però Tocqueville suggeria que aquestes institucions, si s’haguessin adaptat al nou context social i polític, haurien pogut ser un contrapès necessari per al poder centralitzat que es va instal·lar després de la revolució."
-    },
-    {
-      "type": "paragraph",
-      "content": "Sense aquestes institucions la França postrevolucionària continua sent governada per la mateixa burocràcia centralitzada, intransigent i implacable que la governava amb l’absolutisme, una administració poderosa que pretenia controlar tots els aspectes de la vida pública i política del país. Aquest centralisme administratiu es va manifestar amb una rigidesa destructiva, portant-lo a fracassar en la seva intenció d’implantar i consolidar un sistema democràtic i donant lloc a què els règims posteriors no tinguessin interès a garantir una llibertat genuïna per als ciutadans."
-    },
-    {
-      "type": "paragraph",
-      "content": "De fet, Tocqueville creia que, malgrat que les idees liberals sobre la llibertat i la igualtat eren un desenvolupament necessari de l’època, la realitat era que el poble francès no estava preparat per a les grans demandes d’un sistema democràtic liberal que impliqués un funcionament efectiu de les llibertats polítiques. Amb l’objectiu d’aprovar les reformes necessàries, es va tornar a una nova forma de poder absolut, el de l’estat nació modern, que mantenia la manera de governar pròpia de la monarquia absoluta, però amb una façana democràtica. Un poder que, com va passar amb Napoleó, dona per acabada la revolució, desterra les llibertats i instaura novament un règim autoritari, tot i que amb un aire de modernitat i progrés."
-    },
-    {
-      "type": "paragraph",
-      "content": "Aquesta conclusió de Tocqueville obre una reflexió més profunda sobre les arrels d’aquestes estructures de poder absolut. Tota autoritat política, afirmen altres pensadors com Lord Acton, es corromp irremeiablement. La màxima d'Acton, “el poder corromp, i el poder absolut corromp absolutament”, reflecteix amb claredat el que succeeix en qualsevol societat que es veu abocada a dipositar tota la seva confiança en una sola autoritat, independent de la justícia i dels drets individuals. A la pràctica, la tendència a concentrar el poder per aconseguir un règim més eficient o suposadament més beneficiós sol aturar qualsevol moviment que permeti una participació cívica eficaç i activa."
-    },
-    {
-      "type": "paragraph",
-      "content": "La paràlisi democràtica a França, tal com la viu Tocqueville, estava directament relacionada amb la dificultat dels francesos per entendre les virtuts de la llibertat política. A través de la desaparició de les velles estructures d’autogovern i una societat polititzada, la revolució va generar un buit institucional que només es podia omplir amb una forta figura autoritària. Així, els francesos es van veure atrapats en una contradicció entre la seva reclamació de llibertat i el desconeixement de com exercir aquesta llibertat."
-    },
-    {
-      "type": "paragraph",
-      "content": "Tocqueville subratlla que, en una democràcia com la que havia sorgit a França, el perill era que la mateixa població pogués arribar a sentir-se còmoda en una situació en què la llibertat fos sacrificada per la seguretat que ofereix un poder absolut. Això és justament el que va permetre que Napoleó I i, més tard, Napoleó III, ocupessin el poder amb tan poca resistència, malgrat que la Revolució havia nascut per trencar amb els ordres autoritaris. Tant en el cas de la monarquia borbònica com en els règims napoleònics, el poble francès va ser testimoni d'un fenomen habitual: la desconfiança natural envers l’exercici del poder individual en el sistema democràtic va donar pas a la creença en la necessitat d’un govern fort, “necessari”, per salvar l’estat dels conflictes inherents a qualsevol sistema lliure."
-    },
-    {
-      "type": "paragraph",
-      "content": "Aquest fenomen no ha quedat restringit al context francès; el mite del “dèspota il·lustrat” s’ha mantingut viu fins als nostres dies, amb l’autoengany de creure que pot existir una figura política que asseguri la prosperitat de l’estat sense que els ciutadans hagin de recórrer als poders legislatiu i judicial com a contrapesos per controlar el govern i evitar els abusos del poder executiu. Com observa Tocqueville, aquest rebuig als mecanismes democràtics, per part d’un poble que desconeix les seves pròpies llibertats, és una distorsió que frena l’evolució política cap a una societat que realment protegeixi les llibertats de les persones."
-    },
-    {
-      "type": "paragraph",
-      "content": "D’altra banda, les democràcies modernes, amb els seus sistemes de balances i contrapesos, pretenen evitar que el poder executiu acumuli massa força i així se’n vagi desvirtuant la pràctica democràtica. Així, les garanties constitucionals, les llibertats públiques i els poders judicials i legislatius independents de l'executiu tenen una importància crítica per mantenir a ratlla el que Montesquieu va anomenar la tirania del poder absolut. En aquestes circumstàncies, la construcció de les democràcies modernes, amb un sistema de controls i equilibris robustos, és un antídot contra els perills derivats d'un sistema autoritari, fonamentat en la convicció que les llibertats no poden ser cedides a un líder suposadament beneficiós, encara que el venguin amb l'ètica de la il·lustració."
-    },
-    {
-      "type": "paragraph",
-      "content": "La visió de Tocqueville, que se centrava en la limitació d’un poder absolut i l’adopció de mecanismes institucionals que protegissin les llibertats polítiques, resulta fonamental per comprendre el repte continu de les democràcies modernes. El seu pensament és revelador perquè, malgrat la importància que atorgava a la participació activa del poble, també va alertar de la gran fragilitat de qualsevol règim democràtic si el poble, en conjunt, desconeix les seves llibertats i vol veure les seves preocupacions solucionades per mitjans autoritaris. Tant a França com a altres països, la manca d’estructures robustes per a una autèntica democràcia és una font d’inestabilitat i, com argumentava Tocqueville, aquest desequilibri, al final, sols pot portar als règims autoritaris més repressius."
-    }
-    ]
-  
+      "type": "image",
+      "name": "carbonell47-01",
+      "content": "Representació dels tiranicides Harmodi i Aristogitó matant el pisistràtide Hiparc a una gerra àtica de figures vermelles del Pintor de Copenhaguen",
+      "pdf": {
+        "page": 1
       }
+    },
+    {
+      "type": "paragraph",
+      "content": "<em>I’ fui radice della mala pianta,</em>",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Hug Capet a Dante, v. 43, Cant XX, Purgatori, <em>Divina Comèdia</em>. Dante.",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "En la seva obra <em>L'Ancien Régime et la Révolution</em> (1856), Alexis de Tocqueville analitza el camí que va seguir el poble francès fins a la Revolució Francesa i la instauració de l'Estat democràtic modern. Els seus estudis sobre la llibertat política, la participació cívica i la transició d’un sistema absolutista a un règim democràtic marquen una fita en la ciència política. En aquest treball, Tocqueville defensa la idea que la revolució no es va produir només per l'oposició al poder absolut i centralitzat de la monarquia dels Borbons, sinó també a conseqüència d’una crisi profunda d’identitat política de la societat francesa.",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Aquesta crisi es va traduir en un desconeixement fonamental de què significava la llibertat política i, sobretot, en una incapacitat del poble francès per gestionar les llibertats obtingudes en el seu moment. Per Tocqueville, la llibertat no és una qüestió de simples drets individuals, sinó un concepte profundament arrelat a les institucions que permeten la seva protecció i el seu exercici real en una societat. Segons ell, el poble francès, tot i que es rebel·lava contra un sistema de govern que limitava les seves llibertats, no sabia com utilitzar aquestes llibertats de manera eficaç i constructiva.",
+      "pdf": {
+        "page": 1,
+        "division": {
+          "alignLast": true,
+          "contentPage": "Aquesta crisi es va traduir en un desconeixement fonamental de què significava la llibertat política i, sobretot, en una incapacitat del poble francès per gestionar les llibertats obtingudes en el seu",
+          "contentNextPage": "moment. Per Tocqueville, la llibertat no és una qüestió de simples drets individuals, sinó un concepte profundament arrelat a les institucions que permeten la seva protecció i el seu exercici real en una societat. Segons ell, el poble francès, tot i que es rebel·lava contra un sistema de govern que limitava les seves llibertats, no sabia com utilitzar aquestes llibertats de manera eficaç i constructiva."
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Tocqueville planteja una visió interessant sobre la Revolució, en la qual sembla suggerir que el poble francès va ser incapaç de comprendre plenament els conceptes bàsics de la llibertat. Més encara, ell creu que la seva revolució hauria estat més profitosa si s’haguessin preservat certes institucions de l'Antic Règim, adaptades a les necessitats de la nova societat democràtica. Aquestes institucions, que eren considerades arcaiques i inútils en un primer moment, si haguessin estat reformades i preservades, podrien haver jugat un paper fonamental per a la consolidació de la democràcia a França. Aquestes reformes haurien pogut ser tan efectives com les que es van dur a terme en països com la Gran Bretanya, on certes institucions s’havien adaptat als nous principis liberals i constitucionalistes.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Tanmateix, aquestes institucions no només eren monuments del passat, sinó que eren també autèntiques eines de participació política i decisió pública. El sistema dels Estats Generals, els antics parlaments i corts de justícia, que abans de l’absolutisme borbònic tenien una certa independència de la corona, eren mirats amb desconfiança per la revolució, i amb raó en molts casos. Però Tocqueville suggeria que aquestes institucions, si s’haguessin adaptat al nou context social i polític, haurien pogut ser un contrapès necessari per al poder centralitzat que es va instal·lar després de la revolució.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Sense aquestes institucions la França postrevolucionària continua sent governada per la mateixa burocràcia centralitzada, intransigent i implacable que la governava amb l’absolutisme, una administració poderosa que pretenia controlar tots els aspectes de la vida pública i política del país. Aquest centralisme administratiu es va manifestar amb una rigidesa destructiva, portant-lo a fracassar en la seva intenció d’implantar i consolidar un sistema democràtic i donant lloc a què els règims posteriors no tinguessin interès a garantir una llibertat genuïna per als ciutadans.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "De fet, Tocqueville creia que, malgrat que les idees liberals sobre la llibertat i la igualtat eren un desenvolupament necessari de l’època, la realitat era que el poble francès no estava preparat per a les grans demandes d’un sistema democràtic liberal que impliqués un funcionament efectiu de les llibertats polítiques. Amb l’objectiu d’aprovar les reformes necessàries, es va tornar a una nova forma de poder absolut, el de l’estat nació modern, que mantenia la manera de governar pròpia de la monarquia absoluta, però amb una façana democràtica. Un poder que, com va passar amb Napoleó, dona per acabada la revolució, desterra les llibertats i instaura novament un règim autoritari, tot i que amb un aire de modernitat i progrés.",
+      "pdf": {
+        "page": 2,
+        "division": {
+          "alignLast": true,
+          "contentPage": "De fet, Tocqueville creia que, malgrat que les idees liberals sobre la llibertat i la igualtat eren un desenvolupament necessari de l’època, la realitat era que el poble francès no estava preparat per a les grans demandes d’un sistema democràtic liberal que impliqués un funcionament efectiu de les llibertats polítiques. Amb l’objectiu d’aprovar les reformes necessàries, es va tornar a una nova forma de poder absolut, el de l’estat nació modern, que mantenia la manera de governar pròpia de la",
+          "contentNextPage": "monarquia absoluta, però amb una façana democràtica. Un poder que, com va passar amb Napoleó, dona per acabada la revolució, desterra les llibertats i instaura novament un règim autoritari, tot i que amb un aire de modernitat i progrés."
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Aquesta conclusió de Tocqueville obre una reflexió més profunda sobre les arrels d’aquestes estructures de poder absolut. Tota autoritat política, afirmen altres pensadors com Lord Acton, es corromp irremeiablement. La màxima d'Acton, “el poder corromp, i el poder absolut corromp absolutament”, reflecteix amb claredat el que succeeix en qualsevol societat que es veu abocada a dipositar tota la seva confiança en una sola autoritat, independent de la justícia i dels drets individuals. A la pràctica, la tendència a concentrar el poder per aconseguir un règim més eficient o suposadament més beneficiós sol aturar qualsevol moviment que permeti una participació cívica eficaç i activa.",
+      "pdf": {
+        "page": 3
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "La paràlisi democràtica a França, tal com la viu Tocqueville, estava directament relacionada amb la dificultat dels francesos per entendre les virtuts de la llibertat política. A través de la desaparició de les velles estructures d’autogovern i una societat polititzada, la revolució va generar un buit institucional que només es podia omplir amb una forta figura autoritària. Així, els francesos es van veure atrapats en una contradicció entre la seva reclamació de llibertat i el desconeixement de com exercir aquesta llibertat.",
+      "pdf": {
+        "page": 3
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Tocqueville subratlla que, en una democràcia com la que havia sorgit a França, el perill era que la mateixa població pogués arribar a sentir-se còmoda en una situació en què la llibertat fos sacrificada per la seguretat que ofereix un poder absolut. Això és justament el que va permetre que Napoleó I i, més tard, Napoleó III, ocupessin el poder amb tan poca resistència, malgrat que la Revolució havia nascut per trencar amb els ordres autoritaris. Tant en el cas de la monarquia borbònica com en els règims napoleònics, el poble francès va ser testimoni d'un fenomen habitual: la desconfiança natural envers l’exercici del poder individual en el sistema democràtic va donar pas a la creença en la necessitat d’un govern fort, “necessari”, per salvar l’estat dels conflictes inherents a qualsevol sistema lliure.",
+      "pdf": {
+        "page": 3
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Aquest fenomen no ha quedat restringit al context francès; el mite del “dèspota il·lustrat” s’ha mantingut viu fins als nostres dies, amb l’autoengany de creure que pot existir una figura política que asseguri la prosperitat de l’estat sense que els ciutadans hagin de recórrer als poders legislatiu i judicial com a contrapesos per controlar el govern i evitar els abusos del poder executiu. Com observa Tocqueville, aquest rebuig als mecanismes democràtics, per part d’un poble que desconeix les seves pròpies llibertats, és una distorsió que frena l’evolució política cap a una societat que realment protegeixi les llibertats de les persones.",
+      "pdf": {
+        "page": 3,
+        "division": {
+          "alignLast": true,
+          "contentPage": "Aquest fenomen no ha quedat restringit al context francès; el mite del “dèspota il·lustrat” s’ha mantingut viu fins als nostres dies, amb l’autoengany de creure que pot existir una figura política que asseguri la prosperitat de l’estat sense que els ciutadans hagin de recórrer als poders legislatiu i judicial com a contrapesos per controlar el govern i evitar els abusos del poder executiu. Com",
+          "contentNextPage": "observa Tocqueville, aquest rebuig als mecanismes democràtics, per part d’un poble que desconeix les seves pròpies llibertats, és una distorsió que frena l’evolució política cap a una societat que realment protegeixi les llibertats de les persones."
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "D’altra banda, les democràcies modernes, amb els seus sistemes de balances i contrapesos, pretenen evitar que el poder executiu acumuli massa força i així se’n vagi desvirtuant la pràctica democràtica. Així, les garanties constitucionals, les llibertats públiques i els poders judicials i legislatius independents de l'executiu tenen una importància crítica per mantenir a ratlla el que Montesquieu va anomenar la tirania del poder absolut. En aquestes circumstàncies, la construcció de les democràcies modernes, amb un sistema de controls i equilibris robustos, és un antídot contra els perills derivats d'un sistema autoritari, fonamentat en la convicció que les llibertats no poden ser cedides a un líder suposadament beneficiós, encara que el venguin amb l'ètica de la il·lustració.",
+      "pdf": {
+        "page": 4
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "La visió de Tocqueville, que se centrava en la limitació d’un poder absolut i l’adopció de mecanismes institucionals que protegissin les llibertats polítiques, resulta fonamental per comprendre el repte continu de les democràcies modernes. El seu pensament és revelador perquè, malgrat la importància que atorgava a la participació activa del poble, també va alertar de la gran fragilitat de qualsevol règim democràtic si el poble, en conjunt, desconeix les seves llibertats i vol veure les seves preocupacions solucionades per mitjans autoritaris. Tant a França com a altres països, la manca d’estructures robustes per a una autèntica democràcia és una font d’inestabilitat i, com argumentava Tocqueville, aquest desequilibri, al final, sols pot portar als règims autoritaris més repressius.",
+      "pdf": {
+        "page": 4
+      }
+    }
+  ],
+  "publicationDate": {
+    "$date": "2025-05-23T22:00:00.000Z"
+  },
+  "isPublished": true,
+  "tags": [],
+  "readTime": 5,
+  "year": 2025,
+  "issueNumber": 47,
+  "createdAt": {
+    "$date": "2025-08-03T16:28:35.460Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-17T09:04:37.037Z"
+  },
+  "__v": 0,
+  "authors": [
+    "Àngel Carbonell"
+  ]
+}

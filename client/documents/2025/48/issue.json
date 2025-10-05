@@ -1,0 +1,74 @@
+{
+    "_id": {
+      "$oid": "688f8e33ac16e0dadcf03d27"
+    },
+    "year": 2025,
+    "number": 47,
+    "coverImage": "numero47",
+    "pdfManual": true,
+    "publicationDate": {
+      "$date": "2025-05-23T22:00:00.000Z"
+    },
+    "title": "Lletres Bàrbares - Número 47",
+    "isPublished": true,
+    "totalArticles": 15,
+    "sections": [
+      "articles",
+      "creacio",
+      "llibres"
+    ],
+    "articlesOrder": [ 
+      {
+        "$oid": "688f8e33ac16e0dadcf03d2a"
+      },
+      {
+        "$oid": "688f8e33ac16e0dadcf03d2d"
+      },
+      {
+        "$oid": "688f8e33ac16e0dadcf03d30"
+      },
+      {
+        "$oid": "688f8e33ac16e0dadcf03d33"
+      },
+      {
+        "$oid": "688f8e33ac16e0dadcf03d36"
+      },
+      {
+        "$oid": "688f8e33ac16e0dadcf03d39"
+      },
+      {
+        "$oid": "688f8e34ac16e0dadcf03d3c"
+      },
+      {
+        "$oid": "688f8e34ac16e0dadcf03d3f"
+      },
+      {
+        "$oid": "688f8e34ac16e0dadcf03d42"
+      },
+      {
+        "$oid": "688f8e34ac16e0dadcf03d45"
+      },
+      {
+        "$oid": "688f8e34ac16e0dadcf03d48"
+      },
+      {
+        "$oid": "688f8e34ac16e0dadcf03d4b"
+      },
+      {
+        "$oid": "688f8e34ac16e0dadcf03d4e"
+      },
+      {
+        "$oid": "688f8e34ac16e0dadcf03d51"
+      },
+      {
+        "$oid": "688f8e35ac16e0dadcf03d54"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-08-03T16:28:35.223Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-03T16:28:37.077Z"
+    },
+    "__v": 1
+  }

@@ -1,104 +1,199 @@
 {
-    "title" : "Tàmiris i els jacints de Lluís Lucero Comas",
-    "url" : "tamaris_i_els_jacints_de_lluis_lucero_comas",
-    "section" : "llibres",
-    "issue" : 47,
-    "data" : "24/05/2025",
-    "imageCard" : "andreu47-02",
-    "author" : "Andreu Pérez-Mingorance",
-    "summary" : "",
-    "text" : [ 
-      {
-        "type": "image",
-        "name": "andreu47-02"
-      },
+  "_id": {
+    "$oid": "688f8e34ac16e0dadcf03d48"
+  },
+  "issueId": {
+    "$oid": "688f8e33ac16e0dadcf03d27"
+  },
+  "issue": 2025,
+  "data": "24/05/2025",
+  "imageCard": "andreu47-02",
+  "title": "Tàmiris i els jacints de Lluís Lucero Comas",
+  "url": "tamaris_i_els_jacints_de_lluis_lucero_comas",
+  "section": "llibres",
+  "author": "Andreu Pérez-Mingorance",
+  "summary": "",
+  "text": [
     {
-      "type": "paragraph",
-      "content": "Amb <em>Tàmiris i els jacints</em> (Cap de Brot Edicions) Lluís Lucero Comas irromp de nou a l’escena poètica catalana amb una obra que destil·la maduresa, elegància i una profunda sensibilitat literària. Tretze anys després del seu debut amb <em>La lenta digestió de les crisàlides</em>, Lucero ens ofereix un segon recull que no només confirma la solidesa de la seva veu, sinó que la projecta amb més força i matisos dins el panorama contemporani."
+      "type": "image",
+      "name": "andreu47-02",
+      "pdf": {
+        "page": 1,
+        "styles": "{\"marginTop\": \"12mm\", \"marginBottom\": \"12mm\"}"
+      }
     },
     {
       "type": "paragraph",
-      "content": "Lucero (Girona, 1967) és un poeta i filòleg reconegut per la seva activitat cultural a Girona: dinamitzador, divulgador, professor i traductor, la seva trajectòria esdevé pont entre la tradició i la contemporaneïtat. Aquesta implicació vital i literària es reflecteix en una poesia que dialoga tant amb la comunitat lectora com amb els grans noms de la literatura europea."
+      "content": "Amb <em>Tàmiris i els jacints</em> (Cap de Brot Edicions) Lluís Lucero Comas irromp de nou a l’escena poètica catalana amb una obra que destil·la maduresa, elegància i una profunda sensibilitat literària. Tretze anys després del seu debut amb <em>La lenta digestió de les crisàlides</em>, Lucero ens ofereix un segon recull que no només confirma la solidesa de la seva veu, sinó que la projecta amb més força i matisos dins el panorama contemporani.",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Lucero (Girona, 1967) és un poeta i filòleg reconegut per la seva activitat cultural a Girona: dinamitzador, divulgador, professor i traductor, la seva trajectòria esdevé pont entre la tradició i la contemporaneïtat. Aquesta implicació vital i literària es reflecteix en una poesia que dialoga tant amb la comunitat lectora com amb els grans noms de la literatura europea.",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "El títol del llibre no és casual. Ja des del seu primer llibre Lucero tenia clar que el següent es diria <em>Tàmiris i els jacints</em>. Aquesta decisió respon a la voluntat de donar forma a un fil temàtic que va quedar fora del seu debut: l’amor, el desig, el dubte, la pèrdua i la construcció de la identitat a través de les ferides i els plaers. El recull es construeix a partir de dos referents mítics i simbòlics:",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Tàmiris: el poeta i músic de la mitologia grega que, per desafiar les muses, fou condemnat a la ceguesa i a la pèrdua de la veu. Aquesta figura representa la relació entre art, límit i càstig, i serveix a Lucero per explorar la condició del poeta i la vulnerabilitat de l’experiència amorosa.",
+      "pdf": {
+        "page": 2
+      }
     },
     {
       "type": "image",
-      "name": "andreu47-03"
+      "name": "andreu47-03",
+      "pdf": {
+        "page": 2
+      }
+    },
+   {
+      "type": "paragraph",
+      "content": "Els jacints: remeten a Ovidi i simbolitzen la bellesa efímera i la memòria dels amors viscuts o perduts. El jacint, flor associada a la mort d’un jove estimat pels déus, esdevé aquí metàfora de l’amor i la seva fragilitat.",
+      "pdf": {
+        "page": 2
+      }
     },
     {
       "type": "paragraph",
-      "content": "El títol del llibre no és casual. Ja des del seu primer llibre Lucero tenia clar que el següent es diria <em>Tàmiris i els jacints</em>. Aquesta decisió respon a la voluntat de donar forma a un fil temàtic que va quedar fora del seu debut: l’amor, el desig, el dubte, la pèrdua i la construcció de la identitat a través de les ferides i els plaers. El recull es construeix a partir de dos referents mítics i simbòlics:"
+      "content": "Aquesta tensió entre plenitud i mancança, llum i ombra, es fa present ja als primers versos de “Tàmiris”:",
+      "pdf": {
+        "page": 2
+      }
     },
     {
       "type": "paragraph",
-      "content": "Tàmiris: el poeta i músic de la mitologia grega que, per desafiar les muses, fou condemnat a la ceguesa i a la pèrdua de la veu. Aquesta figura representa la relació entre art, límit i càstig, i serveix a Lucero per explorar la condició del poeta i la vulnerabilitat de l’experiència amorosa."
+      "content": "“<em>Sense lira i sense veu<br />t'han deixat, excels poeta.<br />Així ho han determinat<br />el déu Apol·lo i les muses.<br />Vas gosar desafiar-les<br />i un tal excés mereix càstig.</em>”",
+      "pdf": {
+        "page": 2
+      }
     },
     {
       "type": "paragraph",
-      "content": "Els jacints: remeten a Ovidi i simbolitzen la bellesa efímera i la memòria dels amors viscuts o perduts. El jacint, flor associada a la mort d’un jove estimat pels déus, esdevé aquí metàfora de l’amor i la seva fragilitat."
+      "content": "La figura de Tàmiris esdevé metàfora de la condició del poeta: aquell que, en desafiar els límits, paga el preu de la pèrdua, però roman al record com a precedent d’amors insignes.",
+      "pdf": {
+        "page": 2
+      }
     },
     {
       "type": "paragraph",
-      "content": "Aquesta tensió entre plenitud i mancança, llum i ombra, es fa present ja als primers versos de “Tàmiris”:"
+      "content": "Lucero desplega la seva poètica del desig a través d’una llengua precisa, sensual i evocadora, que conjuga contemplació i carnalitat. Al poema “Narcís”, el mite esdevé pretext per explorar la fascinació autoreferencial i la impossibilitat de posseir l’objecte estimat:",
+      "pdf": {
+        "page": 3
+      }
     },
     {
       "type": "paragraph",
-      "content": "“<em>Sense lira i sense veu<br />t'han deixat, excels poeta.<br />Així ho han determinat<br />el déu Apol·lo i les muses.<br />Vas gosar desafiar-les<br />i un tal excés mereix càstig.</em>”"
+      "content": "<em>“Només voldria besar-li, tot nu,<br />el front ample i els ulls, el pèl moixí<br />del seu bigoti adolescent, la corba<br />que forma el seu clatell i les espatlles,<br />i més encara el pit, després el ventre…”</em>",
+      "pdf": {
+        "page": 3
+      }
     },
     {
       "type": "paragraph",
-      "content": "La figura de Tàmiris esdevé metàfora de la condició del poeta: aquell que, en desafiar els límits, paga el preu de la pèrdua, però roman al record com a precedent d’amors insignes."
+      "content": "La imatge del reflex, tan captivadora com inaccessible, tanca el poema amb una pregunta tràgica:",
+      "pdf": {
+        "page": 3
+      }
     },
     {
       "type": "paragraph",
-      "content": "Lucero desplega la seva poètica del desig a través d’una llengua precisa, sensual i evocadora, que conjuga contemplació i carnalitat. Al poema “Narcís”, el mite esdevé pretext per explorar la fascinació autoreferencial i la impossibilitat de posseir l’objecte estimat:"
+      "content": "<em>“¿Durarà gaire aquest voler impossible,<br />déus immortals que habiteu a l’Olimp?”</em>",
+      "pdf": {
+        "page": 3
+      }
     },
     {
       "type": "paragraph",
-      "content": "<em>“Només voldria besar-li, tot nu,<br />el front ample i els ulls, el pèl moixí<br />del seu bigoti adolescent, la corba<br />que forma el seu clatell i les espatlles,<br />i més encara el pit, després el ventre…”</em>"
+      "content": "Aquesta impossibilitat, lluny de ser un límit, esdevé motor creatiu: el desig insatisfet alimenta la paraula i la pèrdua es transforma en memòria i bellesa.",
+      "pdf": {
+        "page": 3
+      }
     },
     {
       "type": "paragraph",
-      "content": "La imatge del reflex, tan captivadora com inaccessible, tanca el poema amb una pregunta tràgica:"
+      "content": "Un dels trets més rellevants del llibre és la seva aposta per una poesia que reivindica la pluralitat del desig i la identitat sexual dissident. Lucero s’inscriu a la tradició de Kavafis, Genet i Cocteau, i fa de la diferència un espai de resistència i coneixement. El poema “Rue des mauvais garçons”, amb una cita de Jean Genet, n’és una mostra eloqüent:",
+      "pdf": {
+        "page": 3
+      }
     },
     {
       "type": "paragraph",
-      "content": "<em>“¿Durarà gaire aquest voler impossible,<br />déus immortals que habiteu a l’Olimp?”</em>"
+      "content": "<em>“Qui pogués ser aquell noi que sense cap temor<br />accepta que un company l'abraci juganer<br />i caiguin sobre un llit, es facin pessigolles<br />i riguin posseïts per goigs inexplicables.<br />Qui gosés poder fer allò que el cos demana,<br />sense remordiments ni sentiments culpables…”</em>",
+      "pdf": {
+        "page": 3
+      }
     },
     {
       "type": "paragraph",
-      "content": "Aquesta impossibilitat, lluny de ser un límit, esdevé motor creatiu: el desig insatisfet alimenta la paraula i la pèrdua es transforma en memòria i bellesa."
+      "content": "Aquí la poesia esdevé refugi i reivindicació, però també denúncia de les opressions socials i morals que impedeixen la plenitud del desig. La nostàlgia d’una innocència perduda es barreja amb la voluntat de desafiar els límits imposats i el vers esdevé espai de llibertat i de memòria.",
+      "pdf": {
+        "page": 3
+      }
     },
     {
       "type": "paragraph",
-      "content": "Un dels trets més rellevants del llibre és la seva aposta per una poesia que reivindica la pluralitat del desig i la identitat sexual dissident. Lucero s’inscriu a la tradició de Kavafis, Genet i Cocteau, i fa de la diferència un espai de resistència i coneixement. El poema “Rue des mauvais garçons”, amb una cita de Jean Genet, n’és una mostra eloqüent:"
+      "content": "Lucero demostra un gran domini de la llengua i dels recursos retòrics: la metàfora, la musicalitat del vers, la referència mitològica i la contenció formal són hereus de la millor tradició poètica europea. La influència de Valéry es percep a la recerca d’una bellesa formal rigorosa i a la tensió entre la unitat i la fragmentació del jo poètic. Alhora, la presència de la tradició llatina i horaciana es fa evident a la reflexió sobre la condició del poeta i el valor de la paraula com a eina de coneixement i de resistència.",
+      "pdf": {
+        "page": 4
+      }
     },
     {
       "type": "paragraph",
-      "content": "<em>“Qui pogués ser aquell noi que sense cap temor<br />accepta que un company l'abraci juganer<br />i caiguin sobre un llit, es facin pessigolles<br />i riguin posseïts per goigs inexplicables.<br />Qui gosés poder fer allò que el cos demana,<br />sense remordiments ni sentiments culpables…”</em>"
+      "content": "El poemari està dedicat “als amors que han estat, són o seran”, i el mateix autor explica que aquest “seran” implica dubte, una obertura a la incertesa i a la possibilitat de l’amor futur. Aquesta obertura trenca amb la nostàlgia immobilitzadora i celebra la possibilitat de nous vincles i descobertes, tot fent de la poesia un espai viu i dinàmic.",
+      "pdf": {
+        "page": 4
+      }
     },
     {
       "type": "paragraph",
-      "content": "Aquí la poesia esdevé refugi i reivindicació, però també denúncia de les opressions socials i morals que impedeixen la plenitud del desig. La nostàlgia d’una innocència perduda es barreja amb la voluntat de desafiar els límits imposats i el vers esdevé espai de llibertat i de memòria."
+      "content": "La crítica ha elogiat la maduresa i l’elegància de la poesia de Lucero, així com la seva capacitat d’equilibrar la bellesa i el vertigen de l’existència. Mar Bosch destaca la doble actitud de Lucero, que escriu “des de la contemplació i des del combat”, mentre que Rosa Font subratlla l’elegància i l’impuls del desig. Jaume Pons Alorda considera el llibre “un poemari preciós sobre el desig”.",
+      "pdf": {
+        "page": 4
+      }
+
     },
     {
       "type": "paragraph",
-      "content": "Lucero demostra un gran domini de la llengua i dels recursos retòrics: la metàfora, la musicalitat del vers, la referència mitològica i la contenció formal són hereus de la millor tradició poètica europea. La influència de Valéry es percep a la recerca d’una bellesa formal rigorosa i a la tensió entre la unitat i la fragmentació del jo poètic. Alhora, la presència de la tradició llatina i horaciana es fa evident a la reflexió sobre la condició del poeta i el valor de la paraula com a eina de coneixement i de resistència."
+      "content": "Cal remarcar també la cura editorial de Cap de Brot Edicions, que ha sabut dotar el llibre d’una presentació atractiva i d’una dimensió visual que contribueix a fer-ne un objecte poètic per ell mateix, en sintonia amb el contingut i la sensibilitat de l’autor.",
+      "pdf": {
+        "page": 4
+      }
     },
     {
       "type": "paragraph",
-      "content": "El poemari està dedicat “als amors que han estat, són o seran”, i el mateix autor explica que aquest “seran” implica dubte, una obertura a la incertesa i a la possibilitat de l’amor futur. Aquesta obertura trenca amb la nostàlgia immobilitzadora i celebra la possibilitat de nous vincles i descobertes, tot fent de la poesia un espai viu i dinàmic."
-    },
-    {
-      "type": "paragraph",
-      "content": "La crítica ha elogiat la maduresa i l’elegància de la poesia de Lucero, així com la seva capacitat d’equilibrar la bellesa i el vertigen de l’existència. Mar Bosch destaca la doble actitud de Lucero, que escriu “des de la contemplació i des del combat”, mentre que Rosa Font subratlla l’elegància i l’impuls del desig. Jaume Pons Alorda considera el llibre “un poemari preciós sobre el desig”."
-    },
-    {
-      "type": "paragraph",
-      "content": "Cal remarcar també la cura editorial de Cap de Brot Edicions, que ha sabut dotar el llibre d’una presentació atractiva i d’una dimensió visual que contribueix a fer-ne un objecte poètic per ell mateix, en sintonia amb el contingut i la sensibilitat de l’autor."
-    },
-    {
-      "type": "paragraph",
-      "content": "<em>Tàmiris i els jacints</em> és molt més que un recull de poemes sobre el desig i la pèrdua, és una obra que convida a la relectura, a la reflexió i a la celebració de la diferència. Lucero escriu des de la ferida i el plaer, però també des de la voluntat de compartir una experiència estètica i vital que ressona amb la tradició i, alhora, desafia els límits de la contemporaneïtat. Aquesta capacitat de conjugar el mite i la carn, la bellesa i la dissidència, fa del llibre una peça imprescindible per entendre la poesia catalana d’avui i, personalment, em reafirma en l’admiració per l’obra i la trajectòria d’un poeta que escriu des de la veritat i la passió."
+      "content": "<em>Tàmiris i els jacints</em> és molt més que un recull de poemes sobre el desig i la pèrdua, és una obra que convida a la relectura, a la reflexió i a la celebració de la diferència. Lucero escriu des de la ferida i el plaer, però també des de la voluntat de compartir una experiència estètica i vital que ressona amb la tradició i, alhora, desafia els límits de la contemporaneïtat. Aquesta capacitat de conjugar el mite i la carn, la bellesa i la dissidència, fa del llibre una peça imprescindible per entendre la poesia catalana d’avui i, personalment, em reafirma en l’admiració per l’obra i la trajectòria d’un poeta que escriu des de la veritat i la passió.",
+      "pdf": {
+        "page": 4
+      }
     }
+  ],
+  "publicationDate": {
+    "$date": "2025-05-23T22:00:00.000Z"
+  },
+  "isPublished": true,
+  "tags": [],
+  "readTime": 5,
+  "year": 2025,
+  "issueNumber": 47,
+  "createdAt": {
+    "$date": "2025-08-03T16:28:36.547Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-17T09:04:38.456Z"
+  },
+  "__v": 0,
+  "authors": [
+    "Andreu Pérez-Mingorance"
   ]
 }

@@ -143,7 +143,7 @@ const PDFArticlePaginatedManual: React.FC<PDFArticlePaginatedManualProps> = ({ a
 
       case 'footnotes':
         return (
-          <div key={elementKey} className="pdf-footnotes">
+          <div key={elementKey} className="pdf-footnotes" style={element?.styles ? JSON.parse(element.styles) : undefined}>
             <h4 className="pdf-footnotes-title">Notes</h4>
             <ol className="pdf-footnotes-list">
               {element.notes?.map((note, index) => (

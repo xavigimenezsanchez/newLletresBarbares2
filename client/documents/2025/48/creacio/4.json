@@ -1,47 +1,106 @@
 {
-    "title" : "El narrador era el text",
-    "url" : "el_narrador_era_el_text",
-    "section" : "creacio",
-    "issue" : 47,
-    "data" : "24/05/2025",
-    "imageCard" : "puigdellivol47-01",
-    "author" : "Valentí Puigdellívol",
-    "summary" : "",
-    "text": [
-        {
-          "type" : "image",
-          "name": "puigdellivol47-01"
-        },
-        {
-          "type": "paragraph",
-          "content": "El narrador era el text, i aquesta saviesa que conté es transmet com un sol material. La narrativa es cultiva oralment. Podríem dir, doncs, que la novel·la està en una via alternativa a la narrativa, malgrat que tota novel·la conté un narrador. Cada dia m’interessa més el discurs oral que el narrador incorpora en una novel·la de trama mínima. Tanmateix, també m’interessa<em> l’autoficció</em> i la manera com el monòleg que se m’adreça incorpora, tot i la seva immobilitat, un moviment: una mena de continuïtat. Allò que, per a un escalador, seria un viatge vertical, un descens a l’abisme. Un exemple meravellós ens el dona Françoise Sagan:"
-        },
-        {
-          "type": "paragraph",
-          "styles": "{\"paddingLeft\":\"3rem\"}",
-          "content": "“<em>A veces, acostada en mi cama, pienso que voy a morir, que los seres que me rodean van a morir, y me entran ganas de emprender mil cosas. Muchas veces, cuando escucho a personas hablar conmigo, pienso de repente que van a morir y eso me hace escucharlas de manera diferente. Las veo reducidas a lo que son, a lo que todos somos, y quiero librarles de su comedia, preguntarles por qué se agitan, por qué se toman en serio, por qué esos aires pretenciosos. Quiero decirles lo que es esencial para ellos; quiero que beban. Me encanta ese momento sutil y efímero en el que, después de unos tragos, la gente vacila, se suelta, en el que se deshacen de su ropa, de su teatro: todas las máscaras caen y finalmente, dicen cosas verdaderas. Puede que hablen de metafísica. Estamos constantemente provocados por una metafísica</em>”."
-        },
-        {
-          "type": "paragraph",
-          "styles": "{\"textAlign\":\"right\"}",
-          "content": "Françoise Sagan"
-        },
-        {
-          "type": "paragraph",
-          "styles": "{\"textAlign\":\"right\"}",
-          "content": "<em>Je ne renie rien. Entretiens 1954-1992</em><br />"
-        },
-        {
-          "type": "paragraph",
-          "content": "Resulta senzill veure al text de la Sagan com la narrativa expulsa la mimesi. Vol, expressament, “<em>librarles de su comedia” </em>per quedar reduïts al que són. Així doncs, no ens costarà gens afirmar que dins la narrativa prima una veritat, l’èpica del saber diuen uns, d’altres simplement l’anomenen <em>ficció.</em> La novel·la, en canvi, ens exigeix la comèdia: la vanitat amb què ens vestim cada matí."
-        },
-        {
-          "type": "paragraph",
-          "content": "L’acció queda reduïda al mínim: enllitada pensa. Aquesta és l’única acció del text. Per a mi, com a lector, aquesta escena és altament suggeridora perquè allò que diu, allò que transmet, és d'una sinceritat aclaparadora; però a més, és una escena oberta perquè em deixa prou marge per fer la meva construcció, em deixa imaginar. A la intimitat del dormitori m'està parlant de la seva visió de la gent. Puc pensar que estic dins el llit amb ella. Ambdós de costat, mirant-nos als ulls. Un dels dos s'aguanta el cap amb la mà i el colze descansa damunt el coixí. És possible que estem deixant passar la tarda després de recuperar la calma. Després d'haver rebregat en excés els llençols o després d'unes esgarrinxades involuntàries. També, per què no?, puc imaginar-me-la fumant, recolzada al capçal del llit. Veig el moviment dels seus llavis plens com em parlen mentre deixen anar una mica de fum. Puc creure-la d'esquena a mi, recolzada sobre el meu pit o inclinada una mica cap endavant en tant que jugo amb els seus cabells, amb els quals intento maldestrament fer una trena. Després, segurament, pensaria també en cadascuna de les seves paraules. Pensaria en l’última vegada que la vaig trobar una mica beguda, i en allò que em va dir aquell dia. A què queda reduïda ella i a quina ínfima part quedo jo?, em podria preguntar. Potser veuria el vermell que la meva barba ha deixat a la seva pell blanca —tan francesa, ella—, o potser la seva olor, l’olor de nosaltres, m’impediria prestar tota l’atenció que mereixen els seus pensaments."
-        },
-        {
-          "type": "paragraph",
-          "content": "Tot això, però, no està escrit. És només la reconstrucció d’un lector. En aquest text, on la Sagan m’ha situat dins la seva cambra, jo he somiat que les seves paraules me les adreçava en un estat de lassitud inequívoc, molt proper al que segueix una tarda extenuada de sexe: quan la relaxació i la calma permeten aquestes confessions. Probablement, cada lector somiarà una escena diferent, igualment vàlida. Però hi ha una qüestió que hauríem de tenir present: la Sagan m’ha situat dins la seva habitació, i les seves paraules nues m’han portat a pensar en el sexe, però això no ha estat prou per enllitar-me amb ella. Si ho voleu saber, allò que m’ha seduït ha estat la seva intel·ligència —com calia esperar. En realitat, m’he ficat al llit amb la metafísica mateixa."
+  "_id": {
+    "$oid": "688f8e34ac16e0dadcf03d42"
+  },
+  "issueId": {
+    "$oid": "688f8e33ac16e0dadcf03d27"
+  },
+  "issue": 2025,
+  "data": "24/05/2025",
+  "imageCard": "puigdellivol47-01",
+  "title": "El narrador era el text",
+  "url": "el_narrador_era_el_text",
+  "section": "creacio",
+  "author": "Valentí Puigdellívol",
+  "summary": "",
+  "text": [
+    {
+      "type": "image",
+      "name": "puigdellivol47-01",
+      "pdf": {
+        "page": 1,
+        "styles": "{\"marginTop\": \"15mm\", \"marginBottom\": \"15mm\"}"
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "El narrador era el text, i aquesta saviesa que conté es transmet com un sol material. La narrativa es cultiva oralment. Podríem dir, doncs, que la novel·la està en una via alternativa a la narrativa, malgrat que tota novel·la conté un narrador. Cada dia m’interessa més el discurs oral que el narrador incorpora en una novel·la de trama mínima. Tanmateix, també m’interessa<em> l’autoficció</em> i la manera com el monòleg que se m’adreça incorpora, tot i la seva immobilitat, un moviment: una mena de continuïtat. Allò que, per a un escalador, seria un viatge vertical, un descens a l’abisme. Un exemple meravellós ens el dona Françoise Sagan:",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "styles": "{\"paddingLeft\":\"3rem\"}",
+      "content": "“<em>A veces, acostada en mi cama, pienso que voy a morir, que los seres que me rodean van a morir, y me entran ganas de emprender mil cosas. Muchas veces, cuando escucho a personas hablar conmigo, pienso de repente que van a morir y eso me hace escucharlas de manera diferente. Las veo reducidas a lo que son, a lo que todos somos, y quiero librarles de su comedia, preguntarles por qué se agitan, por qué se toman en serio, por qué esos aires pretenciosos. Quiero decirles lo que es esencial para ellos; quiero que beban. Me encanta ese momento sutil y efímero en el que, después de unos tragos, la gente vacila, se suelta, en el que se deshacen de su ropa, de su teatro: todas las máscaras caen y finalmente, dicen cosas verdaderas. Puede que hablen de metafísica. Estamos constantemente provocados por una metafísica</em>”.",
+      "pdf": {
+        "page": 1,
+        "division": {
+          "alignLast": true,
+          "contentPage": "“<em>A veces, acostada en mi cama, pienso que voy a morir, que los seres que me rodean van a morir, y me entran ganas de emprender mil cosas. Muchas veces, cuando escucho a personas hablar conmigo, pienso de repente que van a morir y eso me hace escucharlas de manera diferente. Las veo reducidas a lo que son, a lo que todos somos, y quiero librarles de su comedia, preguntarles por qué se agitan, por qué se toman en serio, por qué esos aires pretenciosos. Quiero decirles lo que es esencial para ellos; quiero que beban. Me encanta ese momento sutil y efímero en el que, después de unos tragos, la gente vacila, se suelta, en el que</em>",
+          "contentNextPage": "<em>se deshacen de su ropa, de su teatro: todas las máscaras caen y finalmente, dicen cosas verdaderas. Puede que hablen de metafísica. Estamos constantemente provocados por una metafísica</em>”."
         }
-    ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "styles": "{\"textAlign\":\"right\"}",
+      "content": "Françoise Sagan",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "styles": "{\"textAlign\":\"right\"}",
+      "content": "<em>Je ne renie rien. Entretiens 1954-1992</em><br />",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Resulta senzill veure al text de la Sagan com la narrativa expulsa la mimesi. Vol, expressament, “<em>librarles de su comedia” </em>per quedar reduïts al que són. Així doncs, no ens costarà gens afirmar que dins la narrativa prima una veritat, l’èpica del saber diuen uns, d’altres simplement l’anomenen <em>ficció.</em> La novel·la, en canvi, ens exigeix la comèdia: la vanitat amb què ens vestim cada matí.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "L’acció queda reduïda al mínim: enllitada pensa. Aquesta és l’única acció del text. Per a mi, com a lector, aquesta escena és altament suggeridora perquè allò que diu, allò que transmet, és d'una sinceritat aclaparadora; però a més, és una escena oberta perquè em deixa prou marge per fer la meva construcció, em deixa imaginar. A la intimitat del dormitori m'està parlant de la seva visió de la gent. Puc pensar que estic dins el llit amb ella. Ambdós de costat, mirant-nos als ulls. Un dels dos s'aguanta el cap amb la mà i el colze descansa damunt el coixí. És possible que estem deixant passar la tarda després de recuperar la calma. Després d'haver rebregat en excés els llençols o després d'unes esgarrinxades involuntàries. També, per què no?, puc imaginar-me-la fumant, recolzada al capçal del llit. Veig el moviment dels seus llavis plens com em parlen mentre deixen anar una mica de fum. Puc creure-la d'esquena a mi, recolzada sobre el meu pit o inclinada una mica cap endavant en tant que jugo amb els seus cabells, amb els quals intento maldestrament fer una trena. Després, segurament, pensaria també en cadascuna de les seves paraules. Pensaria en l’última vegada que la vaig trobar una mica beguda, i en allò que em va dir aquell dia. A què queda reduïda ella i a quina ínfima part quedo jo?, em podria preguntar. Potser veuria el vermell que la meva barba ha deixat a la seva pell blanca —tan francesa, ella—, o potser la seva olor, l’olor de nosaltres, m’impediria prestar tota l’atenció que mereixen els seus pensaments.",
+      "pdf": {
+        "page": 2
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Tot això, però, no està escrit. És només la reconstrucció d’un lector. En aquest text, on la Sagan m’ha situat dins la seva cambra, jo he somiat que les seves paraules me les adreçava en un estat de lassitud inequívoc, molt proper al que segueix una tarda extenuada de sexe: quan la relaxació i la calma permeten aquestes confessions. Probablement, cada lector somiarà una escena diferent, igualment vàlida. Però hi ha una qüestió que hauríem de tenir present: la Sagan m’ha situat dins la seva habitació, i les seves paraules nues m’han portat a pensar en el sexe, però això no ha estat prou per enllitar-me amb ella. Si ho voleu saber, allò que m’ha seduït ha estat la seva intel·ligència —com calia esperar. En realitat, m’he ficat al llit amb la metafísica mateixa.",
+      "pdf": {
+        "page": 2,
+        "division": {
+          "alignLast": true,
+          "contentPage": "Tot això, però, no està escrit. És només la reconstrucció d’un lector. En aquest text, on la Sagan m’ha situat dins la seva cambra, jo he somiat que les seves paraules me les adreçava en un estat de lassitud inequívoc, molt proper al que segueix una tarda extenuada de sexe: quan la relaxació i la calma permeten aquestes confessions. Probablement, cada lector somiarà una escena diferent, igualment",
+          "contentNextPage": "vàlida. Però hi ha una qüestió que hauríem de tenir present: la Sagan m’ha situat dins la seva habitació, i les seves paraules nues m’han portat a pensar en el sexe, però això no ha estat prou per enllitar-me amb ella. Si ho voleu saber, allò que m’ha seduït ha estat la seva intel·ligència —com calia esperar. En realitat, m’he ficat al llit amb la metafísica mateixa."
+        }
+      }
+    }
+  ],
+  "publicationDate": {
+    "$date": "2025-05-23T22:00:00.000Z"
+  },
+  "isPublished": true,
+  "tags": [],
+  "readTime": 5,
+  "year": 2025,
+  "issueNumber": 47,
+  "createdAt": {
+    "$date": "2025-08-03T16:28:36.300Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-17T09:04:38.140Z"
+  },
+  "__v": 0,
+  "authors": [
+    "Valentí Puigdellívol"
+  ]
 }

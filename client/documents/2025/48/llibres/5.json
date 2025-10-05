@@ -1,28 +1,69 @@
 {
-    "title" : "Obre la porta, no tinguis por, deixa’m entrar",
-    "url" : "obra_la_porta_no_tinguis_por_deixa_m_entrar",
-    "section" : "llibres",
-    "issue" : 47,
-    "data" : "24/05/2025",
-    "imageCard" : "soler47-01",
-    "author": "Nati Soler Alcaide",
-    "summary" : "",
-    "text" : [
-        {
-          "type" : "image",
-          "name" : "soler47-01"
-        },
-        {
-          "type": "paragraph",
-          "content": "A  <em>El vent farà dissabte</em>, Lídia Gàzquez proclama el dret a ser, a pensar, a dir... i diu: «us varen mentir», per tant, després  d’haver entomat la mentida, seguida d’un llarg i espès silenci, ens cal repensar-ho tot, recomençar amb una mirada nova i amb el desig d’una altra realitat valenta perquè  «ningú no ens mana». La poeta, a la primera de les tres parts del llibre, cerca demostrar la necessitat de la pràctica de la llibertat a través de dotze camins diferents en forma d’una dotzena de poemes, destinats a definir i reivindicar amb títols contundents i en femení, allò que haurien de ser fites irrenunciables i assolides com esdevenir: la indòmita, la font, la creadora, la no morta, la flama...  Lilit es declara protagonista de la peça i fa «dels confins de l’Edèn la cambra pròpia», sabent que res no li serà regalat, ni fàcil, però que podrà refiar-se d’uns puntals damunt dels quals fonamentar el que ha deixat de ser un somni i s’ha convertit en un edifici sòlid, habitat pels versos citats de les poetes evocades en cadascun dels camins transitats."
-        },
-        {
-          "type": "paragraph",
-          "content": "Gàzquez ens explica com de cop una dona, o un tu persona humana, s’adona o t'adones del fet vital de ser i es mira. Et mires, t’escoltes i reconeixes que «has estat un lloc massa vegades», però, així i tot, has aconseguit el millor resultat, ser. Ets i ho saps. Ets davant el rigor i la duresa imposada. Ets i no t’has renunciat. T’has fet «brot tenaç contra els ullals». Has pogut brostar gràcies a l’habilitat, la tendresa i la sensibilitat de saber i poder explicar la vida d’una nena, que no és apta per a nenes, però ha estat! Una vida que no és apta per a ningú i que, precisament per això, per no ser apta, és absolutament imprescindible que li apliquem el vell costum, el de fa segles i segles, el costum de fer dissabte. Caldria fer dissabte per continuar demostrant què érem i què no érem, però no hem esborrat la impostora Eva i encara deixem que sigui el vent l’encarregat de fer dissabte. Nosaltres haurem de convertir-nos en Lilit per a fer la neteja sanadora que ens reivindiqui amb fermesa, hem de deixar de ser la dona sotmesa a qui «li feien rentar la roba / fins que semblava neta de sang, / neta de son, / neta de somnis». La poeta ho fa tal com ho feien les bones bugaderes, cantant. La seva veu és clara, contundent, diàfana. El que canta és musical, rítmic, melodiós, lliure, cadenciós. Qui se la mira la considera, perquè la poeta canta i canta a cops de sang i alhora neteja amb «cendres que alimentin un clavell»."
-        },
-        {
-          "type": "paragraph",
-          "content": "Ja a la tercera i última part del poemari, guanyador del vint-i-setè premi Alella a Maria Oleart, Lídia Gàzquez fa confluir «l’harmonia de les veus i els cors purs de totes les dones» de la seva vida.  Es donen la mà i s’abracen les primeres veus, les veus blanques i la veu ferma de Lilit, arribant a l’acte generós i creatiu d’incloure la veu de qui llegeix;  palpiten plegades i de manera coral dient: «parlo vent»... «Refilo les paraules que no escoltes, però sents» i la polifonia esdevé «un soroll incòmode» dient: «temeu-me i estimeu-me». Aquí el reconeixement de la veu i del pensament de la primera dona ocultada, Lilit, passa del vers lliure a la poesia en prosa. Hi passa per parlar a raig, per abocar-se damunt del lector com s’abocava quan deia: «És tan plaent saber / i saber / i saber». La poeta fa públiques aquelles veritats desades a les cambres fosques de la raó i del cor i es pregunta què és la sensatesa i què és la follia, desmaquilla la soledat, la maternitat, les renúncies, el metamorfisme... Ho fa per acabar anunciant que ella, dona d’argila, ha fet la transformació més costosa i valenta i ha pagat els seus tributs amb or, amb l’or del seu cor. Un or que fa recordar aquella lliura de carn del cor reclamada per Shylock per pagar un deute i com a mostra de la tradicional manca de clemència, que només una «caníbal del gel» pot eliminar a través d’un recorregut ferm i convençut, airejant les excessives ocultacions patides des de lluny, massa lluny, i ara, i des d'aquest llibre, reconegudes i proclamades amb veu alta, potent i clara."
+  "_id": {
+    "$oid": "688f8e34ac16e0dadcf03d51"
+  },
+  "issueId": {
+    "$oid": "688f8e33ac16e0dadcf03d27"
+  },
+  "issue": 2025,
+  "data": "24/05/2025",
+  "imageCard": "soler47-01",
+  "title": "Obre la porta, no tinguis por, deixa’m entrar",
+  "url": "obra_la_porta_no_tinguis_por_deixa_m_entrar",
+  "section": "llibres",
+  "author": "Nati Soler Alcaide",
+  "summary": "",
+  "text": [
+    {
+      "type": "image",
+      "name": "soler47-01",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "A  <em>El vent farà dissabte</em>, Lídia Gàzquez proclama el dret a ser, a pensar, a dir... i diu: «us varen mentir», per tant, després  d’haver entomat la mentida, seguida d’un llarg i espès silenci, ens cal repensar-ho tot, recomençar amb una mirada nova i amb el desig d’una altra realitat valenta perquè  «ningú no ens mana». La poeta, a la primera de les tres parts del llibre, cerca demostrar la necessitat de la pràctica de la llibertat a través de dotze camins diferents en forma d’una dotzena de poemes, destinats a definir i reivindicar amb títols contundents i en femení, allò que haurien de ser fites irrenunciables i assolides com esdevenir: la indòmita, la font, la creadora, la no morta, la flama...  Lilit es declara protagonista de la peça i fa «dels confins de l’Edèn la cambra pròpia», sabent que res no li serà regalat, ni fàcil, però que podrà refiar-se d’uns puntals damunt dels quals fonamentar el que ha deixat de ser un somni i s’ha convertit en un edifici sòlid, habitat pels versos citats de les poetes evocades en cadascun dels camins transitats.",
+      "pdf": {
+        "page": 1
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Gàzquez ens explica com de cop una dona, o un tu persona humana, s’adona o t'adones del fet vital de ser i es mira. Et mires, t’escoltes i reconeixes que «has estat un lloc massa vegades», però, així i tot, has aconseguit el millor resultat, ser. Ets i ho saps. Ets davant el rigor i la duresa imposada. Ets i no t’has renunciat. T’has fet «brot tenaç contra els ullals». Has pogut brostar gràcies a l’habilitat, la tendresa i la sensibilitat de saber i poder explicar la vida d’una nena, que no és apta per a nenes, però ha estat! Una vida que no és apta per a ningú i que, precisament per això, per no ser apta, és absolutament imprescindible que li apliquem el vell costum, el de fa segles i segles, el costum de fer dissabte. Caldria fer dissabte per continuar demostrant què érem i què no érem, però no hem esborrat la impostora Eva i encara deixem que sigui el vent l’encarregat de fer dissabte. Nosaltres haurem de convertir-nos en Lilit per a fer la neteja sanadora que ens reivindiqui amb fermesa, hem de deixar de ser la dona sotmesa a qui «li feien rentar la roba / fins que semblava neta de sang, / neta de son, / neta de somnis». La poeta ho fa tal com ho feien les bones bugaderes, cantant. La seva veu és clara, contundent, diàfana. El que canta és musical, rítmic, melodiós, lliure, cadenciós. Qui se la mira la considera, perquè la poeta canta i canta a cops de sang i alhora neteja amb «cendres que alimentin un clavell».",
+      "pdf": {
+        "page": 1,
+        "division": {
+          "alignLast": true,
+          "contentPage": "Gàzquez ens explica com de cop una dona, o un tu persona humana, s’adona o t'adones del fet vital de ser i es mira. Et mires, t’escoltes i reconeixes que «has estat un lloc massa vegades», però, així i tot, has aconseguit el millor resultat, ser. Ets i ho saps. Ets davant el rigor i la duresa imposada. Ets i no t’has renunciat. T’has fet «brot tenaç contra els ullals». Has pogut brostar gràcies a l’habilitat, la tendresa i la sensibilitat de saber i poder explicar la vida d’una nena, que no és apta per a nenes, però",
+          "contentNextPage": "ha estat! Una vida que no és apta per a ningú i que, precisament per això, per no ser apta, és absolutament imprescindible que li apliquem el vell costum, el de fa segles i segles, el costum de fer dissabte. Caldria fer dissabte per continuar demostrant què érem i què no érem, però no hem esborrat la impostora Eva i encara deixem que sigui el vent l’encarregat de fer dissabte. Nosaltres haurem de convertir-nos en Lilit per a fer la neteja sanadora que ens reivindiqui amb fermesa, hem de deixar de ser la dona sotmesa a qui «li feien rentar la roba / fins que semblava neta de sang, / neta de son, / neta de somnis». La poeta ho fa tal com ho feien les bones bugaderes, cantant. La seva veu és clara, contundent, diàfana. El que canta és musical, rítmic, melodiós, lliure, cadenciós. Qui se la mira la considera, perquè la poeta canta i canta a cops de sang i alhora neteja amb «cendres que alimentin un clavell»."
         }
-      ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": "Ja a la tercera i última part del poemari, guanyador del vint-i-setè premi Alella a Maria Oleart, Lídia Gàzquez fa confluir «l’harmonia de les veus i els cors purs de totes les dones» de la seva vida.  Es donen la mà i s’abracen les primeres veus, les veus blanques i la veu ferma de Lilit, arribant a l’acte generós i creatiu d’incloure la veu de qui llegeix;  palpiten plegades i de manera coral dient: «parlo vent»... «Refilo les paraules que no escoltes, però sents» i la polifonia esdevé «un soroll incòmode» dient: «temeu-me i estimeu-me». Aquí el reconeixement de la veu i del pensament de la primera dona ocultada, Lilit, passa del vers lliure a la poesia en prosa. Hi passa per parlar a raig, per abocar-se damunt del lector com s’abocava quan deia: «És tan plaent saber / i saber / i saber». La poeta fa públiques aquelles veritats desades a les cambres fosques de la raó i del cor i es pregunta què és la sensatesa i què és la follia, desmaquilla la soledat, la maternitat, les renúncies, el metamorfisme... Ho fa per acabar anunciant que ella, dona d’argila, ha fet la transformació més costosa i valenta i ha pagat els seus tributs amb or, amb l’or del seu cor. Un or que fa recordar aquella lliura de carn del cor reclamada per Shylock per pagar un deute i com a mostra de la tradicional manca de clemència, que només una «caníbal del gel» pot eliminar a través d’un recorregut ferm i convençut, airejant les excessives ocultacions patides des de lluny, massa lluny, i ara, i des d'aquest llibre, reconegudes i proclamades amb veu alta, potent i clara.",
+      "pdf": {
+        "page": 2
+      }
+    }
+  ],
+  "publicationDate": {
+    "$date": "2025-05-23T22:00:00.000Z"
+  },
+  "isPublished": true,
+  "tags": [],
+  "readTime": 5,
+  "year": 2025,
+  "issueNumber": 47,
+  "createdAt": {
+    "$date": "2025-08-03T16:28:36.899Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-17T09:04:38.928Z"
+  },
+  "__v": 0,
+  "authors": [
+    "Nati Soler Alcaide"
+  ]
 }
